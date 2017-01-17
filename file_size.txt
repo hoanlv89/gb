@@ -1,0 +1,419 @@
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 3.8 mb	 5.0% Assets/Textures/3C/WildLuck/line/slot_4.png
+ 3.8 mb	 5.0% Assets/Textures/3C/WildLuck/line/slot_5.png
+ 2.2 mb	 2.9% Assets/Textures/3C/WildLuck/line/slot_8.png
+ 2.2 mb	 2.9% Assets/Textures/3C/WildLuck/line/slot_9.png
+ 1.7 mb	 2.2% Assets/Textures/image 52fun/52Fun_v2/banchoi/images/xocdia2.png
+ 1.5 mb	 2.0% Assets/Textures/3C/WildLuck/line/slot_7.png
+ 1.5 mb	 2.0% Assets/Textures/3C/WildLuck/line/slot_6.png
+ 1.3 mb	 1.7% Assets/Textures/image 52fun/52Fun_v2/chongame/bg1.jpg
+ 946.8 kb	 1.2% Assets/Textures/image 52fun/52Fun_v2/banchoi/table2.png
+ 685.1 kb	 0.9% Assets/Textures/3C/WildLuck/obj_star_disappear.png
+ 543.2 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-vang7.png
+ 543.2 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-vang8.png
+ 543.2 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-vang6.png
+ 543.1 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-xam6.png
+ 543.1 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do6.png
+ 543.1 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-xam8.png
+ 543.1 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do8.png
+ 543.1 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-vang9.png
+ 543.1 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do7.png
+ 543.1 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-xam9.png
+ 543.0 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-xam7.png
+ 543.0 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-vang4.png
+ 543.0 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do2.png
+ 543.0 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-xam5.png
+ 543.0 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do5.png
+ 543.0 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do3.png
+ 543.0 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do1.png
+ 542.9 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-vang5.png
+ 542.9 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do9.png
+ 542.9 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-xam4.png
+ 542.9 kb	 0.7% Assets/Textures/WildLuck/bonus/bo-do4.png
+ 540.7 kb	 0.7% Assets/Textures/common/tobg.png
+ 455.3 kb	 0.6% Assets/Textures/image 52fun/bg_lobby_52fun.jpg
+ 406.3 kb	 0.5% Assets/Textures/DauTruong/common/bgdaily_dautruong.png
+ 404.3 kb	 0.5% Assets/Textures/image 52fun/logo52fun.png
+ 352.2 kb	 0.4% Assets/Textures/3C/logos/c3gold_tienlen.png
+ 325.1 kb	 0.4% Assets/Resources/Textures/LobbyScene_DT/lb_room_dautruong.png
+ 320.1 kb	 0.4% Assets/Textures/DauTruong/chan/dscuoc.png
+ 315.6 kb	 0.4% Assets/Textures/image 52fun/bg_user_52fun.png
+ 315.6 kb	 0.4% Assets/Textures/image 52fun/52Fun_v2/chonban/bottom.png
+ 315.4 kb	 0.4% Assets/Textures/image 52fun/52Fun_v2/chonban/topbg.png
+ 248.3 kb	 0.3% Assets/Textures/3C/tabsScene/bgXoso.jpg
+ 242.4 kb	 0.3% Assets/Textures/image 52fun/52Fun_v2/chonban/v4_03.png
+ 242.4 kb	 0.3% Assets/Textures/image 52fun/52Fun_v2/chonban/t9_03.png
+ 242.4 kb	 0.3% Assets/Textures/image 52fun/52Fun_v2/chonban/t4_03.png
+ 242.4 kb	 0.3% Assets/Textures/image 52fun/52Fun_v2/chonban/v5_03.png
+ 242.4 kb	 0.3% Assets/Textures/image 52fun/52Fun_v2/chonban/t5_03.png
+ 242.4 kb	 0.3% Assets/Textures/image 52fun/52Fun_v2/chonban/vip9_03.png
+ 232.8 kb	 0.3% Assets/Textures/3C/WildLuck/slotnennoibat.png
+ 217.7 kb	 0.3% Assets/Textures/DauTruong/pop-up/thecao.png
+ 199.6 kb	 0.3% Assets/Textures/common/trung.png
+ 199.5 kb	 0.3% Assets/Textures/common/bia.png
+ 180.4 kb	 0.2% Assets/Textures/3C/loginScene/c3gold_title_reg.png
+ 175.3 kb	 0.2% Assets/Textures/3C/loginScene/login_rect_part.png
+ 174.0 kb	 0.2% Assets/Textures/common/bua.png
+ 172.7 kb	 0.2% Assets/Textures/DauTruong/GameScene/XocDia/dia_xocdia.png
+ 172.6 kb	 0.2% Assets/Textures/DauTruong/GameScene/XocDia/bat_xocdia.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_xocdia_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_tienlen_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_samloc_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_roulette_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_bongda_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_xoso_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_xito_poker.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_xito_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_tala_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_lieng_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_chan_52fun.png
+ 169.5 kb	 0.2% Assets/Textures/image 52fun/home_binh_52fun.png
+ 165.3 kb	 0.2% Assets/Textures/common/cachuavo.png
+ 165.0 kb	 0.2% Assets/Textures/common/trungvo.png
+ 164.4 kb	 0.2% Assets/Textures/common/dep.png
+ 164.4 kb	 0.2% Assets/Textures/common/luudan.png
+ 162.9 kb	 0.2% Assets/Textures/image 52fun/dangnhapfb_52fun.png
+ 162.1 kb	 0.2% Assets/Textures/common/sogold.png
+ 159.4 kb	 0.2% Resources/unity_builtin_extra
+ 159.1 kb	 0.2% Assets/Textures/common/cachua.png
+ 151.3 kb	 0.2% Assets/Textures/DauTruong/STabs/bg_stabs_2.png
+ 143.2 kb	 0.2% Assets/Textures/common/dep_nem.png
+ 140.3 kb	 0.2% Assets/Resources/Sounds/yahoo.mp3
+ 129.4 kb	 0.2% Assets/Textures/DauTruong/common/bg_gradient.png
+ 129.0 kb	 0.2% Assets/Textures/common/mask_circle_3.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/3special/Bonus1.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/10/Beetles1.png
+ 128.5 kb	 0.2% Assets/Textures/common/mask_circle.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/3special/Bonus5.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/3special/Bonus4.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/3special/Bonus3.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/10/Parrots.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/3special/scatter4.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/3special/scatter2.png
+ 128.5 kb	 0.2% Assets/Textures/WildLuck/3special/Bonus2.png
+ 128.4 kb	 0.2% Assets/Textures/WildLuck/3special/scatter3.png
+ 128.4 kb	 0.2% Assets/Textures/WildLuck/3special/scatter1.png
+ 128.4 kb	 0.2% Assets/Textures/WildLuck/10/wings1.png
+ 128.4 kb	 0.2% Assets/Textures/WildLuck/10/koala.png
+ 128.4 kb	 0.2% Assets/Textures/WildLuck/10/Platypus.png
+ 128.4 kb	 0.2% Assets/Textures/WildLuck/10/Pelican.png
+ 128.4 kb	 0.2% Assets/Textures/WildLuck/10/Ostrick.png
+ 128.3 kb	 0.2% Assets/Textures/WildLuck/10/Crocodile.png
+ 128.3 kb	 0.2% Assets/Textures/WildLuck/10/Frog.png
+ 128.3 kb	 0.2% Assets/Textures/splash_sq_DT.png
+ 128.3 kb	 0.2% Assets/Textures/splash_sq_52.png
+ 128.3 kb	 0.2% Assets/Textures/splash_sq_3C.png
+ 128.2 kb	 0.2% Assets/Textures/common/biachuc.png
+ 126.6 kb	 0.2% Assets/Textures/common/bua_dap.png
+ 124.4 kb	 0.2% Assets/Textures/DauTruong/chonban/S5t.png
+ 124.4 kb	 0.2% Assets/Textures/DauTruong/chonban/S4v.png
+ 124.4 kb	 0.2% Assets/Textures/DauTruong/chonban/S4t.png
+ 124.4 kb	 0.2% Assets/Textures/DauTruong/chonban/L4t_03.png
+ 124.4 kb	 0.2% Assets/Textures/DauTruong/chonban/S9t.png
+ 124.0 kb	 0.2% Assets/Textures/image 52fun/52Fun_v2/banchoi/images/xocdia_13.png
+ 124.0 kb	 0.2% Assets/Textures/image 52fun/52Fun_v2/banchoi/images/xocdia_15.png
+ 122.2 kb	 0.2% Assets/Textures/DauTruong/pop-up/goldchip_1.png
+ 121.8 kb	 0.2% Assets/Resources/Textures/LobbyScene_DT/lb_bottom_dautruong.png
+ 113.3 kb	 0.1% Assets/Textures/common/luudan_no.png
+ 106.3 kb	 0.1% Assets/Textures/3C/c3gold_wr_table_item.png
+ 101.3 kb	 0.1% Assets/Textures/DauTruong/banchoi/nendat_03.png
+ 86.5 kb	 0.1% Assets/Textures/DauTruong/GameScene/XocDia/demgio_xocdia_dautruong.png
+ 86.3 kb	 0.1% Assets/Textures/DauTruong/banchoi/table_03.png
+ 85.4 kb	 0.1% Assets/Textures/image 52fun/52Fun_v2/chonban/napgold.png
+ 84.2 kb	 0.1% Assets/Textures/3C/WildLuck/line/slot_3.png
+ 84.2 kb	 0.1% Assets/Textures/3C/WildLuck/line/slot_2.png
+ 84.2 kb	 0.1% Assets/Textures/3C/WildLuck/line/slot_1.png
+ 77.9 kb	 0.1% Assets/Resources/prefabs/ScreenGameItem.prefab
+ 77.1 kb	 0.1% Assets/Textures/image 52fun/dialog_bg_3.png
+ 76.9 kb	 0.1% Assets/fonts/UTM PIERRE.TTF
+ 76.4 kb	 0.1% Assets/Textures/3C/c3gold_chieu.png
+ 72.6 kb	 0.1% Assets/fonts/iciel-koni-black.ttf
+ 72.4 kb	 0.1% Assets/Textures/3C/cuachan_xd.png
+ 72.4 kb	 0.1% Assets/Textures/3C/cuale_xd.png
+ 70.3 kb	 0.1% Assets/Textures/DauTruong/pop-up/images/btn2.png
+ 68.0 kb	 0.1% Assets/Textures/3C/c3gold_button_play_xocdia.png
+ 68.0 kb	 0.1% Assets/Textures/3C/c3gold_doithuong2_xocdia.png
+ 67.1 kb	 0.1% Assets/Textures/common/gameScene/chat_bg.png
+ 64.4 kb	 0.1% Assets/Textures/common/emoticons/too_sad.png
+ 64.4 kb	 0.1% Assets/Textures/common/emoticons/dribble.png
+ 64.4 kb	 0.1% Assets/Textures/common/emoticons/doubt.png
+ 64.4 kb	 0.1% Assets/Textures/common/emoticons/feel_good.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/bad_smelly.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/matrix.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/choler.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/sweet_kiss.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/boss.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/4.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/beauty.png
+ 64.3 kb	 0.1% Assets/Textures/common/emoticons/oh.png
+ 64.3 kb	 0.1% Assets/Textures/common/mask_circle4.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_9tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_9ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_9co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_9bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_8tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_8ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_8co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_8bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_7tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_7ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_7co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_7bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_6tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_6ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_6co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_6bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_5tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_5ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_5co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_5bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_4tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_4ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_4co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_4bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_13tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_13ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_13co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_13bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_12tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_12ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_12co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_12bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_11tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_11ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_11co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_11bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_10tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_10ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_10co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_10bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_3tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_3ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_3co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_3bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_2tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_2ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_2co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_2bich.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_1tep.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_1ro.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_1co.png
+ 64.3 kb	 0.1% Assets/Textures/common/cards/a_1bich.png
+ 64.3 kb	 0.1% Assets/Textures/3C/loginScene/light.png
+ 64.0 kb	 0.1% Assets/fonts/huongque.ttf
+ 62.9 kb	 0.1% Assets/Textures/3C/invite FB/invite_img_1.png
+ 62.6 kb	 0.1% Assets/Textures/DauTruong/pop-up/images/xephang_05.png
+ 61.8 kb	 0.1% Assets/Textures/3C/c3gold_xu1.png
+ 61.8 kb	 0.1% Assets/Textures/3C/c3gold_bg_xu_xocdia.png
+ 61.8 kb	 0.1% Assets/Textures/3C/c3gold_xu5.png
+ 61.8 kb	 0.1% Assets/Textures/3C/c3gold_xu4.png
+ 61.8 kb	 0.1% Assets/Textures/3C/c3gold_xu3.png
+ 61.8 kb	 0.1% Assets/Textures/3C/c3gold_xu2.png
+ 60.7 kb	 0.1% Assets/Textures/image 52fun/52Fun_v2/banchoi/images/table_20.png
+ 60.7 kb	 0.1% Assets/Textures/image 52fun/dangki_52fun.png
+ 60.7 kb	 0.1% Assets/Textures/image 52fun/dangnhap_52fun.png
+ 60.7 kb	 0.1% Assets/Textures/image 52fun/52Fun_v2/banchoi/images/table_15.png
+ 60.4 kb	 0.1% Assets/Textures/3C/c3gold_bg_bt_xocdia2.png
+ 60.4 kb	 0.1% Assets/Textures/3C/c3gold_bg_bt_xocdia.png
+ 60.0 kb	 0.1% Assets/fonts/UVNHongHa_B.TTF
+ 58.3 kb	 0.1% Assets/Textures/image 52fun/52Fun_v2/chonban/phong.png
+ 58.3 kb	 0.1% Assets/Textures/image 52fun/52Fun_v2/chonban/pchon.png
+ 58.3 kb	 0.1% Assets/Textures/common/pbinhdan.png
+ 58.3 kb	 0.1% Assets/Textures/common/pvip.png
+ 56.1 kb	 0.1% Assets/Textures/3C/c3gold_doithuong2.png
+ 55.3 kb	 0.1% Assets/Textures/3C/c3gold_button_play.png
+ 55.2 kb	 0.1% Assets/Textures/DauTruong/common/ngay_3_dautruong.png
+ 55.2 kb	 0.1% Assets/Textures/DauTruong/common/ngay_1_dautruong.png
+ 55.1 kb	 0.1% Assets/Textures/image 52fun/lb_giftbox_52fun.png
+ 53.4 kb	 0.1% Assets/Sounds/shuffle.wav
+ 53.3 kb	 0.1% Assets/Resources/prefabs/ScreenGameItem52.prefab
+ 50.3 kb	 0.1% Assets/Textures/image 52fun/dialog_bg_1.png
+ 50.2 kb	 0.1% Assets/Textures/DauTruong/common/border_white.png
+ 49.9 kb	 0.1% Assets/Sounds/tatdep.mp3
+ 49.5 kb	 0.1% Assets/Textures/3C/c3gold_bg_money_xocdia.png
+ 49.3 kb	 0.1% Assets/Textures/DauTruong/GameScene/XocDia/ketqua.png
+ 48.0 kb	 0.1% Assets/Textures/DauTruong/chan/xuong1.png
+ 46.8 kb	 0.1% Assets/Textures/3C/c3gold_bg_popup_green.png
+ 46.7 kb	 0.1% Assets/Textures/DauTruong/pop-up/pop-up_03.png
+ 46.7 kb	 0.1% Assets/Textures/DauTruong/STabs/napcard_vina.png
+ 46.4 kb	 0.1% Assets/Textures/DauTruong/STabs/napcard_viettel.png
+ 46.1 kb	 0.1% Assets/Textures/DauTruong/STabs/napcard_mobi.png
+ 44.9 kb	 0.1% Assets/Resources/Fonts/UTM SeagullBold.ttf
+ 43.3 kb	 0.1% Assets/Textures/image 52fun/dialog_bg_2.png
+ 42.4 kb	 0.1% Assets/Textures/3C/c3gold_bg_money.png
+ 41.9 kb	 0.1% Assets/Textures/3C/c3gold_invite.png
+ 41.4 kb	 0.1% Assets/Textures/image 52fun/52Fun_v2/chongame/glow.png
+ 40.2 kb	 0.1% Assets/Textures/common/-.png
+ 40.2 kb	 0.1% Assets/Textures/common/+.png
+ 39.9 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_04.png
+ 39.9 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_03.png
+ 39.8 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_01.png
+ 39.7 kb	 0.1% Assets/Textures/3C/cua4_xd.png
+ 39.7 kb	 0.1% Assets/Textures/3C/cua3_xd.png
+ 39.7 kb	 0.1% Assets/Textures/3C/cua2_xd.png
+ 39.7 kb	 0.1% Assets/Textures/3C/cua1_xd.png
+ 39.7 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_07.png
+ 39.7 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_06.png
+ 39.6 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_02.png
+ 39.6 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_08.png
+ 39.6 kb	 0.1% Assets/Textures/3C/WildLuck/hieuung/Selected_Effects_05.png
+ 39.3 kb	 0.1% Assets/Textures/3C/c3gold_invite_xocdia.png
+ 38.5 kb	 0.0% Assets/Textures/DauTruong/chonban/pchon_03.png
+ 38.3 kb	 0.0% Assets/Textures/DauTruong/pop-up/images/btn1.png
+ 37.3 kb	 0.0% Assets/Textures/DauTruong/common/qualogin_title_dautruong.png
+ 37.3 kb	 0.0% Assets/Textures/image 52fun/btnchon_52fun.png
+ 37.1 kb	 0.0% Assets/Textures/image 52fun/bg_icon_52fun.png
+ 37.1 kb	 0.0% Assets/Textures/image 52fun/52Fun_v2/chongame/btn_13.png
+ 36.8 kb	 0.0% Assets/Resources/Textures/LobbyScene_DT/lb_poker_dautruong.png
+ 36.6 kb	 0.0% Assets/Resources/Textures/LobbyScene_DT/lb_xocdia_dautruong.png
+ 36.6 kb	 0.0% Assets/fonts/UTMAMBROSIA.TTF
+ 36.5 kb	 0.0% Assets/Textures/image 52fun/news_52fun.png
+ 36.4 kb	 0.0% Assets/Resources/Textures/LobbyScene_DT/lb_tala_dautruong.png
+ 36.2 kb	 0.0% Assets/Textures/3C/c3gold_button_naptien.png
+ 35.8 kb	 0.0% Assets/fonts/UTMFACEBOOKBKT.TTF
+ 35.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/XocDia/cua4_dautruong.png
+ 35.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/XocDia/cua3_dautruong.png
+ 35.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/XocDia/cua2_dautruong.png
+ 35.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/XocDia/cua1_dautruong.png
+ 34.6 kb	 0.0% Assets/Textures/3C/c3gold_button_setting_xocdia.png
+ 34.6 kb	 0.0% Assets/Textures/3C/c3gold_button_chat_xocdia.png
+ 34.6 kb	 0.0% Assets/Textures/3C/c3gold_button_bank_xocdia.png
+ 34.6 kb	 0.0% Assets/Textures/3C/c3gold_button_taophong_xocdia.png
+ 34.6 kb	 0.0% Assets/Textures/3C/c3gold_button_mail_xocdia.png
+ 34.6 kb	 0.0% Assets/Textures/3C/c3gold_button_back_xocdia.png
+ 33.4 kb	 0.0% Assets/Textures/DauTruong/banchoi/nendat_07.png
+ 33.4 kb	 0.0% Assets/Textures/DauTruong/banchoi/nendat_05.png
+ 33.2 kb	 0.0% Assets/Textures/image 52fun/home_doithuong_52fun.png
+ 32.8 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/plus_button.png
+ 32.8 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_raise.png
+ 32.8 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_call.png
+ 32.7 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_check.png
+ 32.7 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_allin.png
+ 32.7 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_check_fold.png
+ 32.6 kb	 0.0% Assets/Textures/3C/avt_0002_xoay2.png
+ 32.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_fold.png
+ 32.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/minus_button.png
+ 32.5 kb	 0.0% Assets/Textures/DauTruong/chonban/pchon_05.png
+ 32.4 kb	 0.0% Assets/Textures/3C/WildLuck/10/BlackSwan2.png
+ 32.4 kb	 0.0% Assets/Textures/3C/WildLuck/10/BlackSwan1.png
+ 32.4 kb	 0.0% Assets/Textures/common/avtvip.png
+ 32.4 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_raise_selected.png
+ 32.4 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_call_selected.png
+ 32.4 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_allin_selected.png
+ 32.4 kb	 0.0% Assets/Textures/common/default_avatar_fb.png
+ 32.4 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_check_fold_selected.png
+ 32.4 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_fold_selected.png
+ 32.4 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/mbtn_check_selected.png
+ 32.3 kb	 0.0% Assets/Textures/3C/kmai.png
+ 32.3 kb	 0.0% Assets/Textures/DauTruong/GameScene/poker/raisebg.png
+ 32.1 kb	 0.0% Assets/Textures/3C/avt_0000_xoay1.png
+ 31.8 kb	 0.0% Assets/Textures/DauTruong/HomeScene/chip_bg_rotating.png
+ 31.6 kb	 0.0% Assets/Sounds/gobua.mp3
+ 31.6 kb	 0.0% Assets/Textures/3C/avt_0001_zoomx2.png
+ 31.5 kb	 0.0% Assets/Textures/3C/c3gold_setting_xocdia.png
+ 31.5 kb	 0.0% Assets/Textures/3C/c3gold_chat_xocdia.png
+ 31.2 kb	 0.0% Assets/Textures/DauTruong/banchoi/table_07.png
+ 30.9 kb	 0.0% Assets/Sounds/tangbia.mp3
+ 30.9 kb	 0.0% Assets/Textures/DauTruong/banchoi/table_10.png
+ 30.9 kb	 0.0% Assets/Textures/DauTruong/banchoi/table_05.png
+ 30.1 kb	 0.0% Assets/Textures/DauTruong/common/loading.png
+ 28.9 kb	 0.0% Assets/Textures/DauTruong/GameScene/icon_setting.png
+ 28.8 kb	 0.0% Assets/Textures/DauTruong/GameScene/sam/xinsam.png
+ 28.7 kb	 0.0% Assets/Textures/DauTruong/GameScene/icon_close.png
+ 28.7 kb	 0.0% Assets/Textures/DauTruong/GameScene/icon_white_plus.png
+ 28.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/icon_white_minus.png
+ 28.6 kb	 0.0% Assets/Textures/DauTruong/GameScene/icon_check_no.png
+ 28.5 kb	 0.0% Assets/Textures/DauTruong/GameScene/icon_white_dolar.png
+ 28.5 kb	 0.0% Assets/Textures/3C/c3gold_button_bank.png
+ 28.4 kb	 0.0% Assets/Textures/DauTruong/GameScene/icon_check_yes.png
+ 28.3 kb	 0.0% Assets/Textures/3C/doithuong.png
+ 28.1 kb	 0.0% Assets/Textures/3C/c3gold_button_chat.png
+ 28.1 kb	 0.0% Assets/Textures/3C/c3gold_button_chat_table.png
+ 27.9 kb	 0.0% Assets/Textures/3C/c3gold_butto_back_invisible.png
+ 27.8 kb	 0.0% Assets/Textures/3C/c3gold_button_taophong.png
+ 27.8 kb	 0.0% Assets/Textures/3C/c3gold_button_setting.png
+ 27.8 kb	 0.0% Assets/Textures/3C/c3gold_button_back.png
+ 27.1 kb	 0.0% Assets/Textures/image 52fun/room_bg_selected_52fun.png
+ 26.8 kb	 0.0% Assets/Textures/DauTruong/chan/xuong2.png
+ 26.5 kb	 0.0% Assets/Textures/common/cuon.png
+ 26.4 kb	 0.0% Assets/Textures/3C/c3gold_button_rankings.png
+ 26.2 kb	 0.0% Assets/Sounds/finished.mp3
+ 26.0 kb	 0.0% Assets/Textures/image 52fun/btn_setting_52fun.png
+ 26.0 kb	 0.0% Assets/Textures/image 52fun/btn_chat_52fun.png
+ 25.7 kb	 0.0% Assets/Textures/3C/c3gold_xu5_bay_xocdia.png
+ 25.7 kb	 0.0% Assets/Textures/3C/c3gold_xu4_bay_xocdia.png
+ 25.7 kb	 0.0% Assets/Textures/3C/c3gold_xu3_bay_xocdia.png
+ 25.7 kb	 0.0% Assets/Textures/3C/c3gold_xu2_bay_xocdia.png
+ 25.7 kb	 0.0% Assets/Textures/3C/c3gold_xu1_bay_xocdia.png
+ 25.5 kb	 0.0% Assets/Textures/common/emoticons/emo6/12.png
+ 25.5 kb	 0.0% Assets/Textures/common/emoticons/emo6/10.png
+ 25.5 kb	 0.0% Assets/Textures/common/emoticons/emo6/11.png
+ 25.5 kb	 0.0% Assets/Textures/common/emoticons/emo1/33.png
+ 25.5 kb	 0.0% Assets/Textures/common/emoticons/emo1/32.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo7/19.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo7/20.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo5/08.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo3/07.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo3/02.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0027_Layer-57.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0026_Layer-59.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0025_Layer-61.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0024_Layer-63.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0023_Layer-65.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0022_Layer-67.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0021_Layer-69.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0020_Layer-71.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0019_Layer-73.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0018_Layer-75.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0017_Layer-77.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0016_Layer-79.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0015_Layer-81.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0014_Layer-83.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0013_Layer-85.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0012_Layer-87.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0011_Layer-89.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0010_Layer-91.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0009_Layer-93.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0008_Layer-95.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0007_Layer-97.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0006_Layer-99.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0005_Layer-101.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0004_Layer-103.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0003_Layer-105.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0002_Layer-107.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0001_Layer-109.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo8/avt_0000_Layer-111.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo10/avt_0038_Layer-45.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo10/avt_0035_Layer-48.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo10/avt_0028_Layer-55.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo10/avt_0015_Layer-68.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo10/avt_0008_Layer-75.png
+ 25.4 kb	 0.0% Assets/Textures/common/emoticons/emo10/avt_0005_Layer-78.png
+ 25.4 kb	 0.0% Assets/Textures/common/c_tomato.png
+ 25.4 kb	 0.0% Assets/Textures/common/c_egg.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/22.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/18.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/17.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/11.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/09.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/07.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/06.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo6/07.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo5/24.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo5/20.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo5/13.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo4/25.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo4/18.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo3/20.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo3/12.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo3/08.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo1/28.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/25.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/23.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/16.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/13.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/12.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/10.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/08.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/05.png
+ 25.3 kb	 0.0% Assets/Textures/common/emoticons/emo7/04.png

@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: f1e6d1d80df0c0f488c20df5a9af3fd8
+timeCreated: 1438764767
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: luudan_0
+    21300002: luudan_1
+    21300004: luudan_2
+    21300006: luudan_3
+    21300008: luudan_4
+    21300010: luudan_5
+    21300012: luudan_6
+    21300014: luudan_7
+    21300016: luudan_8
+    21300018: luudan_9
+    21300020: luudan_10
+    21300022: luudan_11
+    21300024: luudan_12
+    21300026: luudan_13
+    21300028: luudan_14
+    21300030: luudan_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 0
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: luudan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: luudan_15
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 36
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

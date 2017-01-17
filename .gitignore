@@ -1,0 +1,66 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Uu]nityGenerated/
+[Ll]ibrary/
+[Bb]uild
+[Dd]autruong-ios
+[Dd]t-ios
+[Dd]t-ios-1074
+3[Cc]-ios
+52-ios
+tl-ios
+dt-ios-simu
+android_source
+FacebookSDK.unitypackage
+Assets/AssetStoreTools*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+#On Crash Reports
+sysinfo.txt
+Assets/plugins/MarkerMetro.Unity.WinLegacy.dll.meta
+Assets/plugins/Metro/MarkerMetro.Unity.WinLegacy.dll.meta
+Assets/plugins/Metro/WindowsPhone81.meta
+Assets/plugins/Metro/WindowsPhone81/MarkerMetro.Unity.WinLegacy.dll.meta
+Assets/plugins/WindowsPhone81.meta
+Assets/plugins/WindowsPhone81/System.meta
+Assets/plugins/WindowsPhone81/System/Collections.meta
+Assets/plugins/WindowsPhone81/System/Diagnostics.meta
+Assets/plugins/WindowsPhone81/System/IO.meta
+Assets/plugins/WindowsPhone81/System/Net.meta
+Assets/plugins/WindowsPhone81/System/Net/Sockets.meta
+Assets/plugins/WindowsPhone81/System/Reflection.meta
+Assets/plugins/WindowsPhone81/System/Runtime.meta
+Assets/plugins/WindowsPhone81/System/Runtime/Remoting.meta
+Assets/plugins/WindowsPhone81/System/Runtime/Remoting/Messaging.meta
+Assets/plugins/WindowsPhone81/System/Security.meta
+Assets/plugins/WindowsPhone81/System/Security/Cryptography.meta
+Assets/plugins/WindowsPhone81/System/Threading.meta
+Assets/plugins/WindowsPhone81/System/Timers.meta

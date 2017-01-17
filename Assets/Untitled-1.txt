@@ -1,0 +1,116 @@
+1. Thoát game tiền k đúng (xong)
+2. Khi gửi bài vị trí khi gửi bài ko đúng. (ok)
+3. Ăn cây bài ko hiệu ứng + tiền (xong)
+4. ko thể sẵn sàng  sau khi ket ván (xong)
+5. Phỏm gửi bài index (ok)
+6. Âm thanh
+7. Reconnect () xong
+8. Làm mời bạn trong game (xong)
+9. Làm chỉnh host theo phân luồng
+10. Thứ tự các kênh payment từ ngoài
+11. Nạp tiền bị tính năng đang phát triển (xong)
+12. cộng tiền khi bị ăn bài (xong)
+13. rjtable ẩn nút thoát (xong)
+14. tạo app fb riêng cho unity (chua - xong)
+
+15. chủ bàn thoát bàn thì mình trở thành chủ bàn ko cần phải ss nữa. (xong)
+16. với text  tự soạn, sau khi gửi xong tự xóa đi.
+17. KO hiện gửi khi có bài gửi
+18. binh bị lỗi khi bị kick
+
+CHẮC CHẮN PHẢI  gửi fbid lên.
+Nạp Gold
+
+Bạn chưa chọn Cước Ù
+
+THÊM text : Nhấn chọn một trong ba nhà mạng dưới đây.
+
+Bạn đang dùng avatar này
+Chưa hỗ trợ đổi avatar cho user facebook.
+Tiến Lên
+
+
+- Bắt đầu ván mới có 2 thằng cùng đếm giờ.
+- Xướng ù lỗi, xướng xong ko hiển thị bảng kết quả.
+- Các hành động rất chậm (mặc dù chat cái ok ngay).
+- Để nút bốc và nút dưới ra 2 chỗ khác nhau, bấm nhanh toàn mất lượt.
+- Phân biệt con bài bốc và con bài đánh.
+- khi đối phương hô ù (kg) lập tức ẩn popup chọn
+
++ Thêm kick người chơi.
+
+
+
+http://services.dautruong.info/ServiceGame/RegisterLogin.aspx?u=ann2005&did=123323424343&p=chaoban
+					
+http://services.dautruong.info/ServiceGame/XosoHistory.aspx?uid=1000967568
+http://services.game3c.info/XosoHistory.aspx?uid=1000967568
+http://services.game3c.info/XosoHistory.aspx?uid=1000967568
+
+Giải thưởng
+
+đang phát triển
+http://services.game3c.info/GetIPByUser.aspx?u=nguyenhaian1412&did=12313asdsdds
+
+https://onesignal.comhttps://onesignal.com
+
+1431141613873714
+https://graph.facebook.com/v2.3/1431141613873714/picture?width=200&height=200&redirect=true
+
+06-11 14:06:39.014: W/fb4a(:<default>):BlueServiceQueue(5147): com.facebook.http.protocol.ApiException: Key hash /oL7YqhxHFR9TU2h1bm4gC+60Ho does not match any stored key hashes. (404)
+
+
+{"evt":"stable","data":"{\"N\":\"Auto\",\"M\":100,\"ArrP\":[{\"N\":\"fb.373493259510864\",\"Url\":\"fb.373493259510864\",\"AG\":2800,\"LQ\":0,\"VIP\":0,\"isStart\":false,\"IK\":0,\"sIP\":\"42.113.154.191\",\"G\":3,\"Av\":0,\"FId\":373493259510864,\"GId\":0},{\"N\":\"fb.684582638343452\",\"Url\":\"fb.684582638343452\",\"AG\":2382,\"LQ\":0,\"VIP\":1,\"isStart\":false,\"IK\":0,\"sIP\":\"113.185.5.129\",\"G\":3,\"Av\":0,\"FId\":684582638343452,\"GId\":0},{\"N\":\"ann2006\",\"Url\":\"ann2006\",\"AG\":637769,\"LQ\":0,\"VIP\":3,\"isStart\":false,\"IK\":0,\"sIP\":\"14.177.136.126\",\"G\":3,\"Av\":31,\"FId\":0,\"GId\":0}],\"Id\":1747,\"T\":1,\"V\":0,\"AG\":10,\"S\":4,\"G\":0,\"F\":0}"}
+
+{"NN":"ann2006","N":"ann2006","C":77,"Arr":[2,33,34,70,10,77,79,78,80,17,50,83,82,84,23,56,88,58,90,99],"evt":"lc"}
+
+{"evt":"dc","N":"ann2006","NN":"fb.373493259510864","C":2,"T":0,"CA":0,"ND":"ann2006"}
+
+{"evt":"bc","N":"fb.373493259510864","C":25,"CA":0}
+
+{"evt":"np","N":"fb.373493259510864","NN":"fb.684582638343452","C":0,"T":0,"CA":0}
+
+{"N":"fb.684582638343452","evt":"ac","Arr":[27,25]}
+
+{"evt":"dc","N":"fb.684582638343452","NN":"ann2006","C":51,"T":0,"CA":50,"ND":"fb.684582638343452"}
+
+{"N":"ann2006","evt":"ac","Arr":[50,51]}
+
+{"evt":"dc","N":"ann2006","NN":"fb.373493259510864","C":88,"T":0,"CA":0,"ND":"ann2006"}
+
+{"evt":"bc","N":"fb.373493259510864","C":24,"CA":0}
+
+{"evt":"np","N":"fb.373493259510864","NN":"fb.684582638343452","C":0,"T":0,"CA":0}
+
+{"evt":"bc","N":"fb.684582638343452","C":31,"CA":0}
+
+{"N":"fb.684582638343452","evt":"ac","Arr":[32,31]}
+
+{"evt":"dc","N":"fb.684582638343452","NN":"ann2006","C":47,"T":0,"CA":0,"ND":"fb.684582638343452"}
+
+{"evt":"bc","N":"ann2006","C":85,"CA":0}
+
+{"evt":"np","N":"ann2006","NN":"fb.373493259510864","C":0,"T":0,"CA":0}
+
+{"evt":"bc","N":"fb.373493259510864","C":52,"CA":0}
+
+{"N":"fb.373493259510864","evt":"ac","Arr":[49,52]}
+
+{"evt":"cc","N":"fb.373493259510864","CN":6,"CS":3,"CI":81,"T":26,"NN":"ann2006","OK":false}
+
+{"evt":"kc","N":"fb.373493259510864","CN":6,"CS":3,"CI":81,"T":26,"NN":"ann2006","OK":false}
+
+{"evt":"dc","N":"ann2006","NN":"fb.684582638343452","C":10,"T":25,"CA":0,"ND":"fb.373493259510864"}
+
+{"evt":"bc","N":"fb.684582638343452","C":69,"CA":0}
+
+{"evt":"np","N":"fb.684582638343452","NN":"ann2006","C":0,"T":0,"CA":70}
+
+{"N":"ann2006","evt":"ac","Arr":[70,69]}
+
+{"evt":"dc","N":"ann2006","NN":"fb.373493259510864","C":99,"T":0,"CA":0,"ND":"ann2006"}
+
+{"evt":"finish","data":"{\"N\":\"ann2006\",\"C\":0,\"TC\":0,\"Arr\":[34,33,69,70,80,78,79,77,51,50,81,81,81,81,56,23,90,58,17,19],\"I\":19}"}
+
+{"evt":"kg","data":"{\"N\":\"ann2006\",\"M\":4,\"ArrCuoc\":[10,6],\"ArrE\":[10,6],\"ArrMark\":[{\"A\":1500,\"N\":\"fb.373493259510864\"},{\"A\":3656,\"N\":\"fb.684582638343452\"},{\"A\":637613,\"N\":\"ann2006\"}],\"C\":\"Thiên khai có chíu\",\"CE\":\"Thiên khai có chíu\",\"G\":0}"}
+

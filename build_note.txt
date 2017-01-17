@@ -1,0 +1,87 @@
+http://203.162.166.20:1412/dism/appmanage.php -> 3c
+http://mobile.tracking.52fun.club/appmanage.php -> 52
+http://mobile.tracking.dautruong.info/appmanage.php -> dautruong
+http://mobile.tracking.siamplayth.com/appmanage.php -> siam th.poker9kthai
+http://183.182.100.205/appmanage.php -> uwin 
+
+adurl: /Website/Payment/payminigame
+
+Note: build 3C - Đấu Trường Unity
+
+soomla secrect: mabimatsoomla
+
+ĐỔi bugsnag
+
+uuid yen: 03ba0e763697a6b89bb20218ce741081a41f210c
+
+*NEW* OneSignal Android
+1. sửa Assets/plugins/Android/OneSignalConfig/AndroidManifest.xml
+Chuẩn pkgname android trước khi build
+2. Replace the example icons located in Assets\Plugins\Android\OneSignalConfig\res with your own. 
+*END_NEW*
+
+1. Đổi bundle name + version + app name: 
+- 3C: com.game3c.gamedangian / com.gamedanhbai.vn || GCM project id: 568370149523 || API key: AIzaSyB89P-a6amj_k9OUYHBUCoewXLHMZ7ry4M || onesignal app id: 1f96cdec-1624-11e5-add5-3f9206d46331
+
+- Đấu Trường: com.dstvn.gamedautruong || GCM project id: 627067026294|| API key: AIzaSyBsZe3vnx_KU0i0X-1MHWD6LPxOWiYrs2Q
+- Đấu Trường 2016: com.hnstudio.dautruong2016 || onesignal: b1b029c9-81c1-4c78-a80f-091547041204
+
+- 52fun: com.giaitri.danhbai52fun| 52fun - Game bài đổi thưởng || GCM project id: 562105209170 || API key: AIzaSyCuiqerbspPBQd5AowKhkcq4jAmvhWdL08 || onesignal: a34faff6-4d5a-11e5-bfed-3f96110e57ae
+
+- Siam: com.th.siamplay || GCM project id: 1060033386503|| API key: AIzaSyC85S-b7rqMdnwFd1P5mPnn0HtXsnBwq9E
+fb appid: 136928166722227
+
+- Uwin: GCM project id: 65161854138 || API key: AIzaSyDn5eb6ipiehOV-8JsavzTBeBpfNPcNrD4 || onesignal: 5274a4be-a643-4f6a-8241-9612eaab1f46
+
+2. Đổi logo + splash screen
+3. Đổi ref
+4. Đổi cấu hình thư viện: 
+- Facebook (app id)
+	- 3C: 1595427344040938
+	- Đấu Trường: 715779371846937
+	- 52fun: 1817619048463545 -> 1511500079142545
+- IOS native lib (bundle ID) - Lưu ý setting hay bị thay đổi bất thường
+- Bugsnag + Đặt ở loginScene của mỗi app
+  - unity 3c: 
+  - 52fun: c778703a49184b2cf0bc4da835e18101
+  - siam: 63af156d7c4b3018e1ff72d29f4e2c4e
+  - Đấu Trường: d4cfb18d963610c0f18bd0e1e541f755
+  - other: 
+- Unity Analytic
+- OneSignal đã tự cấu hình trong code
+- Appsflyer (đổi trong file .py)
+	- 3C:            devkey: V7Q7k8CW66TGbfuK83f6yn    appID: 1008087957
+	- Đấu Trường:    devkey: V7Q7k8CW66TGbfuK83f6yn    appID: 988325454
+	- 52Fun: 	       devkey: V7Q7k8CW66TGbfuK83f6yn	   appID: 1012848930
+  - Đấu trường 2016: 1077265840
+	Open /Assets/Editor/appcontroller.py and set your AppsFlyer's code and Apple app ID. 
+	[AppsFlyerTracker sharedTracker].appleAppID = @"APPLE_APP_ID_HERE"; 
+	[AppsFlyerTracker sharedTracker].appsFlyerDevKey = @"APPSFLYER_DEV_KEY_HERE";
+
+5. Đổi danh sách các Scene build
+6. Đổi GameApplication.gameApp
+7. Sửa link tải asset bundles
+8. Sửa transition Scene
+9. Requires Full screen: ON
+10. Sửa NSAppTransportSecurity như dưới đây.
+
+1. In Player Settings switch from IL2CPP to Mono in Scripting Backend
+2. Then find the now appeared dropdown "Stripping Level" and change it from "use Micro mscorlib" to "Strip Byte Code"
+3. Switch Back to IL2CPP in Scripting Backend
+
+
+52fun-gg-gcm-server-key: AIzaSyCuiqerbspPBQd5AowKhkcq4jAmvhWdL08
+Project number: 562105209170
+
+keytool -exportcert -alias androiddebugkey -keystore &amp;#126;/.android/debug.keystore | openssl sha1 -binary | openssl base64
+
+keytool -list -printcert -jarfile ~/Downloads/YOURAPKFILE.apk | grep "SHA1: " | cut -d " " -f 3 | xxd -r -p | openssl base64
+
+
+android: com.th.hilothai : cocos_hilo_android
+ios: th.hilothai : cocos_hilo
+
+android: com.th.dummythai: cocos_dummy_android
+ios:     th.dummythai:     cocos_dummy
+
+ios: th.poker9kthai: cocos_poker9k_ios

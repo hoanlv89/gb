@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 47937136538cb4bef95c37f6ec806670
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Character: {fileID: 22400000, guid: 40b510ad10d284cc98655c3737ddaf94, type: 2}
+  - sprite_start: {fileID: 21300000, guid: 19f1c0390d65345409f12742206b3022, type: 3}
+  - sprite_ready: {fileID: 21300000, guid: c0938efeb4c204c0ba575b289aee1ab2, type: 3}
+  - TransformCard: {fileID: 22400000, guid: b022d12fcc8bb42ffbcb9683ea29453e, type: 2}
+  - TransformCardBackWithNumber: {fileID: 22400002, guid: 7d2060742d28645d2a1f1fb5c4a49ad2,
+      type: 2}
+  - Chip: {fileID: 22400000, guid: e11329120b3e9429e842d619b950837a, type: 2}
+  - playerLayer: {instanceID: 0}
+  - cardLayer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
