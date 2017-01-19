@@ -18,6 +18,9 @@ public class BGControllerTopFunctionGameScene : MonoBehaviour
 			backimg.sprite = backbg_xocdia;
 			chatimg.sprite = chatbg_xocdia;
 			settingimg.sprite = settingbg_xocdia;
+			backimg.GetComponent<RectTransform> ().sizeDelta = new Vector2 (256, 97);
+			backimg.GetComponent<RectTransform> ().anchoredPosition = new Vector2 (135, -15);
+//			backimg.SetNativeSize
 		} else {
 			backimg.sprite = backbg;
 			chatimg.sprite = chatbg;

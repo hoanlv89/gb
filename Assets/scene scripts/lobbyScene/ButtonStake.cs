@@ -24,7 +24,7 @@ public class ButtonStake : MonoBehaviour
 	}
 
 	public void setData(int i_stake , int i_ccus , Sprite s){
-		s_stake.text = Utils.formatNumber (i_stake);
+		s_stake.text = Utils.formatCurrency (i_stake);
 		s_ccus.text = "" + i_ccus;
 		button.GetComponent<Image> ().sprite = s;
 		stake = i_stake;

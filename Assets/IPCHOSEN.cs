@@ -5,7 +5,11 @@ using UnityEngine.UI;
 public class IPCHOSEN : MonoBehaviour {
 
 	public static string IP;
-	public Text iptext;
+	public static string OPE;
+	public static string GAMEID;
+	public InputField iptext;
+	public InputField opetext;
+	public InputField gameIdText;
 
 	// Use this for initialization
 	void Start () {
@@ -17,8 +21,13 @@ public class IPCHOSEN : MonoBehaviour {
 	
 	}
 
-	public void choseIP(string ip){
-		IP = ip;
-		iptext.text = ip;
+	public void choseIP() {
+		IP = iptext.text;
+		OPE = opetext.text;
+		GAMEID = gameIdText.text;
+		Debug.Log (IP);
+		Debug.Log (OPE);
+		Debug.Log (GAMEID);
 	}
+
 }

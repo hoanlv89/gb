@@ -53,7 +53,7 @@ public class GameSceneXiTo : GameScene, IPokerSceneLiked
 				Player player = game.players [j];
 				RectTransform rect = (RectTransform)Instantiate (TransformCard);
 				rect.sizeDelta = new Vector2(Card.WIDTH, Card.HEIGHT);
-				Vector2 target;
+				Vector2 target = new Vector2(Card.WIDTH, Card.HEIGHT);;
 				if (player is ThisPlayer) {
 					Card card = game.thisPlayer.cards [i];
 					card.rectTransform = rect;
@@ -79,7 +79,6 @@ public class GameSceneXiTo : GameScene, IPokerSceneLiked
 					target = ((GameXiTo)game).getViewPositionOfPlayersCard (player, margin, 1f, i, length);
 				}
 				rect.SetParent (cardLayer, false);
-
 				LeanTween.moveLocal (rect.gameObject, new Vector3 (target.x, target.y, 0f), 0.6f).setEase (LeanTweenType.easeOutQuart).setDelay ((i * game.players.Count + j) * 0.2f);
 			}
 		}

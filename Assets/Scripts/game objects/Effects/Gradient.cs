@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 
 [AddComponentMenu("UI/Effects/Gradient")]
-#if UNITY_5_3
+#if UNITY_5_5
 public partial class Gradient : BaseMeshEffect
 #else
 public partial class Gradient : BaseVertexEffect
@@ -13,7 +13,7 @@ public partial class Gradient : BaseVertexEffect
 	public Color32 topColor = Color.white;
 	public Color32 bottomColor = Color.black;
 
-	#if UNITY_5_3
+	#if UNITY_5_5
 	public override void ModifyMesh (Mesh mesh)
 	{
 		if (!this.IsActive())

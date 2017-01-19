@@ -8,7 +8,7 @@ public class CreateAssetBundles {
 	static void BuildAllAssetBundles ()
 	{
 #if UNITY_EDITOR
-		BuildPipeline.BuildAssetBundles ("AssetBundles");
+//		BuildPipeline.BuildAssetBundles ("AssetBundles");
 #endif
 	}
 }

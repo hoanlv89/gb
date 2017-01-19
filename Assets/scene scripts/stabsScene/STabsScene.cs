@@ -469,7 +469,7 @@ public class STabsScene : SuperScene
 			}
 		}
 		if(GameApplication.gameApp == GameApplication.GameApp.DauTruong) {
-			btnList [pos].GetComponentInChildren<Text>().color = new Color32(69,0,0,255);
+			btnList [pos].GetComponentInChildren<Text>().color = new Color32(255,255,255,255);
 		}
 		btnList [pos].GetComponent<Image> ().sprite = bg_btn_active;
 		rtList [pos].gameObject.SetActive (true);

@@ -109,7 +109,7 @@ public class SDialog : MonoBehaviour
 		} else if (GameApplication.gameApp.Equals(GameApplication.GameApp.G3C)){
 			textColor = Color.black;
 		} else if (GameApplication.gameApp.Equals(GameApplication.GameApp.DauTruong)){
-			textColor = new Color(241,255,0);
+			textColor = new Color(255,255,255);
 		}
 		this.positiveText.color = textColor;
 		this.negativeText.color = textColor;
