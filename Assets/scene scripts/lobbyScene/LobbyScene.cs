@@ -33,7 +33,7 @@ public class LobbyScene : SuperScene, IUpdateUserInfo
 	[SerializeField]
 	RoomListTL
 		roomListTL;
-	public GameObject doithuongButton, nganhangButton,chatButton,rankButton,settingButton;
+	public GameObject doithuongButton, nganhangButton,chatButton,rankButton,settingButton,cashButton;
 	public NewTableOptions newTableOption;
 	public WaitingDialog tableListWaitingDialog;
 	public ShowHideTable showHideTable;
@@ -102,7 +102,10 @@ public class LobbyScene : SuperScene, IUpdateUserInfo
 		if(OperatorGame.disableGames.Contains(GameType.BANK_FUNCTION)){
 			if(nganhangButton != null)
 				nganhangButton.SetActive(false);
-			
+
+			if(cashButton != null)
+				cashButton.SetActive(false);
+
 			if(GameApplication.gameApp==GameApplication.GameApp.G3C){
 				rankButton.GetComponent<RectTransform>().anchoredPosition= new Vector2(-118f,0.0f);
 				rankButton.GetComponent<Image>().sprite = s_rank_button;
