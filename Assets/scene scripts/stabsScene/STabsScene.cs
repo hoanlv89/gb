@@ -592,8 +592,13 @@ public class STabsScene : SuperScene
 	{
 		if(GameApplication.gameApp == GameApplication.GameApp.DauTruong){
 			// da reg o GUI
+
 			CTComposeMail ctComposeMail = mail_Inbox.Find("panelComposeMail").GetComponent<CTComposeMail> ();
 			ctComposeMail.EdtReceiver.text = receiver;
+
+
+			CTComposeMail ctComposeMailAd = mail_Inbox_admin.Find("panelComposeMail").GetComponent<CTComposeMail> ();
+			ctComposeMailAd.EdtReceiver.text = receiver;
 		} else {
 			selectTab (MAIL_COMPOSE);
 			CTComposeMail ctComposeMail = mail_Compose.GetComponent<CTComposeMail> ();

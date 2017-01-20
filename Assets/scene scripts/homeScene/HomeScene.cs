@@ -33,7 +33,7 @@ public class HomeScene : SuperScene, IUpdateUserInfo
 	public RuntimeAnimatorController emos;
 
 	public Sprite background_3c;
-
+	public RectTransform topPannel;
 
 	// Use this for initialization
 	public override void Start ()
@@ -131,8 +131,8 @@ public class HomeScene : SuperScene, IUpdateUserInfo
 		}
 
 		if(OperatorGame.disableGames.Contains(GameType.BANK_FUNCTION)){
-			if(nganhangButton != null)
-				nganhangButton.SetActive(false);
+			if(topPannel != null)
+				topPannel.gameObject.SetActive(false);
 		}
 
 		// kiem tra co hien moi ban ko

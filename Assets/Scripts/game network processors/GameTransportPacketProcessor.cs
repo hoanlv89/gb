@@ -1788,9 +1788,9 @@ public class GameTransportPacketProcessor
 			}
 			game.updateReadyStatus ();
 			game.startGame (jcards);
-			gameScene.binhComp.showBinhFunc ();
+//			gameScene.binhComp.showBinhFunc ();
 			cubeia.lockProcessing ();
-			gameScene.StartCoroutine (Utils.cr_runDelayed (2f, delegate {
+			gameScene.StartCoroutine (Utils.cr_runDelayed (1.0f, delegate {
 				cubeia.unLockProcessing ();
 				gameScene.binhComp.showBinhFunc ();
 				((GameSceneBinh)GameApplication.gameScene).updateTextBinh  ();
