@@ -124,7 +124,7 @@ public class Utils
 	{
 		string output = "";
 		if(withDolarSign)
-			output = "$";
+			output = "";
 		float outValue;
 		if (value < 0) {
 			return "-" + formatCurrency(-value, withDolarSign);

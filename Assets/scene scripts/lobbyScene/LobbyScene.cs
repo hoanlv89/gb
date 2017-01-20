@@ -349,18 +349,17 @@ public class LobbyScene : SuperScene, IUpdateUserInfo
 		if (size >= 8)
 			size = 8;
 		string dialogPFpath = "prefabs/button_stake";
-		Debug.LogError ("LLLL ==> " + size);
 		for (int i = 0; i < size; i++) {
 			RectTransform bt_stake = Resources.Load (dialogPFpath, typeof(RectTransform)) as RectTransform;
 			GameObject btt_stake = Instantiate (bt_stake.gameObject);
 			btt_stake.transform.SetParent (mainCanvas.transform.Find("Center"));
-			btt_stake.transform.localScale = new Vector3 (0.58f, 0.58f,1.0f);
+			btt_stake.transform.localScale = new Vector3 (0.54f, 0.54f,1.0f);
 			ButtonStake bt_stake1 = btt_stake.GetComponent<ButtonStake> ();
 			bt_stake1.setData (GameApplication.stakeList [i], GameApplication.ccusList [i], stakeLogo [i]);
 			if (i < 4) {
 				btt_stake.gameObject.transform.localPosition = new Vector3 (-450 + i * 300, 105);
 			} else {
-				btt_stake.gameObject.transform.localPosition = new Vector3 (-450 + (i-4) * 300, -150);
+				btt_stake.gameObject.transform.localPosition = new Vector3 (-450 + (i-4) * 300, -130);
 			}
 
 		}
