@@ -322,6 +322,7 @@ public class ServiceTransportPacketProcessor
 			}
 			cubeia.subcribeRoom (cubeia.currentRoom);
 		} else if (evt.Equals ("firstlogin")) {
+			return;
 			DailyBonusNew.data = serviceData;
 			if (SuperScene.instance is HomeScene) {
 				((HomeScene)SuperScene.instance).showDailyBonus ();
