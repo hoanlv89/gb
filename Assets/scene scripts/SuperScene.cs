@@ -374,18 +374,56 @@ public class SuperScene : MonoBehaviour
 		});
 	}
 
+	private void handleLoadBalancer(Action<bool> onFinish){
+		Debug.Log ("handleLoadBalancer");
+		User user = GameApplication.user;
+		List<IPConfig> availableList = LoadBalancer.instance.getAvailableChannel (user.loginInfo.gameID);
+		if (availableList.Count == 0) {
+			//				Debug.LogError("step 3");
+			onFinish (false);
+			return;
+		}
+		if (availableList.Count == 1) {
+			//				Debug.LogError("step 4");
+			LoadBalancer.inVIPChannel = availableList [0].isVIP;
+			if (user.loginInfo.host.Equals (availableList [0].ip)) {
+				onFinish (true);
+			} else {
+				user.loginInfo.host = availableList [0].ip;
+				onFinish (false);
+			}
+			return;
+		}
+
+		if (this is HomeScene) {
+			((HomeScene)this).showChannelChooser (availableList, user.loginInfo.gameID, onFinish);
+			return;
+		}
+		// .....
+		onFinish (false);
+	}
+
 	public void getIPToLogin (LoginInfo loginInfo, Action<bool> onFinish)
 	{
 		if (string.IsNullOrEmpty (GameApplication.url_getIpByUser)) {
 			onFinish (false);
+			Debug.Log ("GameApplication.url_getIpByUser IsNullOrEmpty");
+			return;
+		}
+
+		if (LoadBalancer.instance != null) {
+			handleLoadBalancer(onFinish);
 			return;
 		}
 		
-		string url = GameApplication.url_getIpByUser
-			.Replace ("%username%", loginInfo.name)
-			.Replace ("%did%", GameApplication.getUniqueIdentifier ());
+		string url = GameApplication.url_getIpByUser;
+//			.Replace ("%username%", loginInfo.name)
+//			.Replace ("%did%", GameApplication.getUniqueIdentifier ());
 		Utils.ExeOneStringParam onSuccess = delegate(string result) {
 			// muc dich thay doi thong tin ip trong user.loginInfo.host
+			if(GameApplication.ENCODE == 1){
+				result = Utils.base64_decode(result);
+			}
 			try {
 				LoadBalancer.instance = null;
 				LoadBalancer.instance = new LoadBalancer (JSONClass.Parse (result).AsObject);
@@ -399,44 +437,7 @@ public class SuperScene : MonoBehaviour
 				return;
 			}
 
-//			Debug.LogError("step 2");
-			User user = GameApplication.user;
-			List<IPConfig> availableList = LoadBalancer.instance.getAvailableChannel (user.loginInfo.gameID);
-			if (availableList.Count == 0) {
-//				Debug.LogError("step 3");
-				onFinish (false);
-				return;
-			}
-			if (availableList.Count == 1) {
-//				Debug.LogError("step 4");
-				LoadBalancer.inVIPChannel = availableList [0].isVIP;
-				if (user.loginInfo.host.Equals (availableList [0].ip)) {
-					onFinish (true);
-				} else {
-					user.loginInfo.host = availableList [0].ip;
-					onFinish (false);
-				}
-				return;
-			}
-//			Debug.LogError("step 5");
-			// else availableList.Count > 1
-
-//			if (loginInfo.gameID == GameType.GATE) {
-//				// neu la dang nhap vao cong thi tu dong chon mot kenh
-//				LoadBalancer.previousHostID = (LoadBalancer.previousHostID + 1) % availableList.Count;
-//				int r = LoadBalancer.previousHostID;
-//				user.loginInfo.host = availableList [r].ip;
-//				LoadBalancer.inVIPChannel = availableList [r].isVIP;
-////				Debug.LogError("r = " + r);
-//				onFinish (false);
-//				return;
-//			} else 
-			if (this is HomeScene) {
-				((HomeScene)this).showChannelChooser (availableList, user.loginInfo.gameID, onFinish);
-				return;
-			}
-			// .....
-			onFinish (false);
+			handleLoadBalancer(onFinish);
 		};
 		Utils.Executor onFailed = delegate() {
 //			Debug.LogError("step 6");

@@ -46,6 +46,7 @@ public class HTTPPOSTParam
 			parameters[-1] = HTTPPOSTParam.createParam("operatorID", GameApplication.operatorID + "");
 			parameters[-1] = HTTPPOSTParam.createParam("publisher", GameApplication.referrer);
 			parameters[-1] = HTTPPOSTParam.createParam("os", os);
+			parameters[-1] = HTTPPOSTParam.createParam("encode", GameApplication.ENCODE);
 
 			return parameters;
 		}

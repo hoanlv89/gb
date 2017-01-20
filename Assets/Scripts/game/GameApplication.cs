@@ -56,6 +56,7 @@ public class GameApplication : MonoBehaviour
 	}
 
 	public static bool DEBUG_ON = false;
+	public static int ENCODE = 1; // hoac 0
 	public static readonly GameApp gameApp = GameApp.DauTruong;
 
 	public enum GameApp
@@ -521,7 +522,8 @@ public class GameApplication : MonoBehaviour
 	public static string url_config {
 		get {
 			if(gameApp == GameApp.DauTruong)
-				return "http://mobile.dautruong.info/config_links.json";
+//				return "http://mobile.dautruong.info/config_links.json";
+				return "http://mobile.tracking.88club.org/config_links";
 			if(gameApp == GameApp.G3C)
 				return "http://mservices.game3c.info/config_links.json";
 			if(gameApp == GameApp.G52Fun)

@@ -487,6 +487,9 @@ public class LoginScene : SuperScene
 	void getConfigLinks ()
 	{
 		Utils.ExeOneStringParam onSuccess = delegate(string result) {
+			if(GameApplication.ENCODE == 1){
+				result = Utils.base64_decode(result);
+			}
 			Debug.Log ("result: " + result);
 			JSONClass jsonResult = JSONNode.Parse (result).AsObject;
 //			GameApplication.url_config_info = jsonResult ["url_config_info"]; // khong con lay url_config qua day nua
@@ -519,8 +522,15 @@ public class LoginScene : SuperScene
 				Replace("%dev_id%", GameApplication.getUniqueIdentifier());
 
 		url += "/" + SystemInfo.operatingSystem.Replace("/","_").Replace("(","").Replace(")","");
+		int not_encode = 1;
+		if (GameApplication.ENCODE == 1)
+			not_encode = 0;
+		url += ("" + not_encode);
 
 		Utils.ExeOneStringParam onSuccess = delegate(string result) {
+			if(GameApplication.ENCODE == 1){
+				result = Utils.base64_decode(result);
+			}
 			Debug.Log("result " + result);
 			JSONClass jsonResult = JSONNode.Parse (result).AsObject;
 
@@ -553,6 +563,8 @@ public class LoginScene : SuperScene
 			GameApplication.checkUserJoinedFBURL = jsonResult ["groupfbcheck"];
 			GameApplication.installtrackinglink = jsonResult ["installtrackinglink"];
 			GameApplication.notiservice = jsonResult ["notiservice"];
+			GameApplication.url_getIpByUser = jsonResult ["iplist"];
+//			Debug.LogError("GameApplication.url_getIpByUser "+ GameApplication.url_getIpByUser);
 
 			GameApplication.hasInvitableFriends = jsonResult ["hasInvitableFriends"].AsBool;
 
@@ -620,7 +632,7 @@ public class LoginScene : SuperScene
 			// mode == 3, thong bao, 1 lua chon OK va vao game
 			// mode == 4, thong bao, 1 lua chon OK va finish
 			if (mode == 0) {
-				getConfig();
+				getConfig(jsonResult);
 			} else if (mode > 0) {
 				string op1 = jsonResult["updateop1"];
                 string op2 = jsonResult["updateop2"];
@@ -644,21 +656,21 @@ public class LoginScene : SuperScene
 						gotoAppStore(target);
 						Application.Quit ();
 					} else if (mode == 3) {
-						getConfig();
+						getConfig(jsonResult);
 					} else if (mode == 4) {
 						Application.Quit ();
 					}
 				});
 				infoDialog.negative.onClick.AddListener(delegate {
 					infoDialog.dismiss();
-					getConfig();
+					getConfig(jsonResult);
 				});
 
 				infoDialog.invisibleXbutton();
 			}
 		};
 		Utils.Executor onFailed = delegate() {
-			getConfig();
+//			getConfig(jsonResult);
 			Debug.LogError("get " + url + " Failed.");
 		};
 		doHTTPRequest (url, onSuccess, onFailed);
@@ -673,6 +685,10 @@ public class LoginScene : SuperScene
 	{
 		Utils.ExeOneStringParam onSuccess = delegate(string result) {
 //			Debug.Log("result: "+result);
+			if(GameApplication.ENCODE == 1) {
+				result = Utils.base64_decode(result);
+			}
+
 			JSONClass jobj = JSONNode.Parse (result).AsObject;
 			int id = jobj["id"].AsInt;
 			DB.getInstance.storeDisID(id);
@@ -680,42 +696,61 @@ public class LoginScene : SuperScene
 			getUpdateInfo(id);
 		};
 		Utils.Executor onFailed = delegate() {
-			getConfig();
+//			getConfig();
 			Debug.LogError("get "+ GameApplication.url_dis_register + " FAILED.");
 		};
 		doHTTPRequest (GameApplication.url_dis_register, HTTPPOSTParam.defaultParameters, onSuccess, onFailed);
 	}
 	
-	void getConfig ()
+	void getConfig (JSONClass jsonResult)
 	{
-		Utils.ExeOneStringParam onSuccess = delegate(string result) {
-			Debug.Log ("result: " + result);
-			JSONClass jsonResult = JSONNode.Parse (result).AsObject;
-			CubeiaClient.HOST = jsonResult ["info"] ["ip"];
-//			GameApplication.url_fanpage = jsonResult ["info"] ["fanpage"]; // khong con lay fanpage qua day nua
-			GameApplication.url_paymentconfig = jsonResult ["info"] ["paymentconfig"];
-			GameApplication.url_getIpByUser = jsonResult ["info"]["getIpByUser"];
+		CubeiaClient.HOST = jsonResult ["defaultip"];
+		GameApplication.url_paymentconfig = jsonResult ["url_payment_config"];
+		OperatorGame.setGames(jsonResult ["listGame"].AsArray);
+		string thotline = jsonResult ["hotline"];
 
-			OperatorGame.setGames(jsonResult ["info"]["listGame"].AsArray);
+		if (thotline != null && thotline.Length > 0)
+			hotline.text = "Hotline: " + thotline;
+		else
+			hotline.text = "";
 
-			hotline.text = "Hotline: "+ jsonResult["info"]["hotline"];
+		Hints.Init (jsonResult ["hints"].AsArray);
 
-//			if(GameApplication.DEBUG_ON)
-//				CubeiaClient.HOST = "203.162.166.104";
-			Hints.Init (jsonResult ["hints"].AsArray);
-			// viettel - mobifone - vinaphone
-			SMSSyntax.Init (jsonResult ["sms_providers"].AsArray, jsonResult ["sms_providers_3"].AsArray, jsonResult ["sms_providers_2"].AsArray);
-			DailyBonus.init(jsonResult["info"]["dailybonusGold"].AsArray);
+//		DailyBonus.init(jsonResult["info"]["dailybonusGold"].AsArray);
 
-			tryAutoLogin();
-		};
-		Utils.Executor onFailed = delegate() {
-			Debug.LogError("get "+ GameApplication.configURL + " FAILED.");
-			showToast (Strings.instance.common_network_error);
-			tryAutoLogin();
-		};
+		tryAutoLogin();
 
-		doHTTPRequest (GameApplication.configURL, onSuccess, onFailed);
+		// get Paymentconfig
+//		SMSSyntax.Init (jsonResult ["sms_providers"].AsArray, jsonResult ["sms_providers_3"].AsArray, jsonResult ["sms_providers_2"].AsArray);
+
+
+//		Utils.ExeOneStringParam onSuccess = delegate(string result) {
+//			Debug.Log ("result: " + result);
+//			JSONClass jsonResult = JSONNode.Parse (result).AsObject;
+//			CubeiaClient.HOST = jsonResult ["info"] ["ip"];
+////			GameApplication.url_fanpage = jsonResult ["info"] ["fanpage"]; // khong con lay fanpage qua day nua
+//			GameApplication.url_paymentconfig = jsonResult ["info"] ["paymentconfig"];
+//
+//			OperatorGame.setGames(jsonResult ["info"]["listGame"].AsArray);
+//
+//			hotline.text = "Hotline: "+ jsonResult["info"]["hotline"];
+//
+////			if(GameApplication.DEBUG_ON)
+////				CubeiaClient.HOST = "203.162.166.104";
+//			Hints.Init (jsonResult ["hints"].AsArray);
+//			// viettel - mobifone - vinaphone
+//			SMSSyntax.Init (jsonResult ["sms_providers"].AsArray, jsonResult ["sms_providers_3"].AsArray, jsonResult ["sms_providers_2"].AsArray);
+//			DailyBonus.init(jsonResult["info"]["dailybonusGold"].AsArray);
+//
+//			tryAutoLogin();
+//		};
+//		Utils.Executor onFailed = delegate() {
+//			Debug.LogError("get "+ GameApplication.configURL + " FAILED.");
+//			showToast (Strings.instance.common_network_error);
+//			tryAutoLogin();
+//		};
+//
+//		doHTTPRequest (GameApplication.configURL, onSuccess, onFailed);
 	}
 
 	private void tryAutoLogin(){

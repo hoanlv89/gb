@@ -22,7 +22,7 @@ public class HomeScene : SuperScene, IUpdateUserInfo
 	public GameObject doithuongButton, nganhangButton;
 	public Sprite sprite_channel_vip, sprite_channel_public;
 	public RectTransform ChannelChosser;
-	public DailyBonusNew dailyBonus;
+//	public DailyBonusNew dailyBonus;
 	public RegFBUserName regFBUserName;
 	public GameListControl gameListControl;
 //	public GameListControlDummy gameListControlThaiLand;
@@ -397,11 +397,11 @@ public class HomeScene : SuperScene, IUpdateUserInfo
 //		if(User.pd > 0){
 //			if(GameApplication.gameApp == GameApplication.GameApp.DauTruong){
 		// tru khi dang hien dat ten
-		if (GameApplication.showRegName == false && DailyBonusNew.data != null) {
-			dailyBonus.gameObject.SetActive (true);
-			dailyBonus.transform.SetAsLastSibling ();
-			return true;
-		}
+//		if (GameApplication.showRegName == false && DailyBonusNew.data != null) {
+//			dailyBonus.gameObject.SetActive (true);
+//			dailyBonus.transform.SetAsLastSibling ();
+//			return true;
+//		}
 
 		return false;
 //		}

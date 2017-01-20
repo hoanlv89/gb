@@ -57,22 +57,27 @@ public class Utils
 	
 	public static string buildAvatar(int avaNO)
 	{
-		if (GameApplication.gameApp == GameApplication.GameApp.LangQuat) {
-			avaNO = avaNO % 36 + 1;
-			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
-		} else if (GameApplication.gameApp == GameApplication.GameApp.DauTruong) {
-			avaNO = avaNO % 36 + 1;
-//			return "http://mobile.dautruong.info/avatars/" + avaNO + ".png"; // %30 + 1
-			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
-		} else if (GameApplication.gameApp == GameApplication.GameApp.G3C||GameApplication.gameApp == GameApplication.GameApp.G52Fun) {
-			avaNO = avaNO % 36 + 1;
-			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
-		} else if (GameApplication.gameApp == GameApplication.GameApp.GTL) {
-			avaNO = avaNO % 36 + 1;
-			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
-		}
-		Debug.LogError ("NULL");
-		return null;
+		if(GameApplication.avatar_build != null)
+			return GameApplication.avatar_build.Replace ("%avaNO%", avaNO +"");
+
+		return "";
+//
+//		if (GameApplication.gameApp == GameApplication.GameApp.LangQuat) {
+//			avaNO = avaNO % 36 + 1;
+//			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
+//		} else if (GameApplication.gameApp == GameApplication.GameApp.DauTruong) {
+//			avaNO = avaNO % 36 + 1;
+////			return "http://mobile.dautruong.info/avatars/" + avaNO + ".png"; // %30 + 1
+//			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
+//		} else if (GameApplication.gameApp == GameApplication.GameApp.G3C||GameApplication.gameApp == GameApplication.GameApp.G52Fun) {
+//			avaNO = avaNO % 36 + 1;
+//			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
+//		} else if (GameApplication.gameApp == GameApplication.GameApp.GTL) {
+//			avaNO = avaNO % 36 + 1;
+//			return "http://services.athena.vn/mservices/avatars/" + avaNO + ".png";
+//		}
+//		Debug.LogError ("NULL");
+//		return null;
 	}
 
 	static bool IsDigitsOnly(string str)
@@ -175,6 +180,12 @@ public class Utils
 			arr = output.ToArray();
 		}
 		return arr;
+	}
+
+	public static string base64_decode(string str){
+		var bytes = Convert.FromBase64String(str);
+		var text = System.Text.Encoding.UTF8.GetString(bytes, 0, bytes.Length);
+		return text;
 	}
 
 	public static byte[] ObjectToByteArray(object obj)

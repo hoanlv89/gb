@@ -322,22 +322,22 @@ public class ServiceTransportPacketProcessor
 			}
 			cubeia.subcribeRoom (cubeia.currentRoom);
 		} else if (evt.Equals ("firstlogin")) {
-			DailyBonusNew.data = serviceData;
-			if (SuperScene.instance is HomeScene) {
-				((HomeScene)SuperScene.instance).showDailyBonus ();
-			}
+//			DailyBonusNew.data = serviceData;
+//			if (SuperScene.instance is HomeScene) {
+//				((HomeScene)SuperScene.instance).showDailyBonus ();
+//			}
 		} else if(evt.Equals ("siamdaily")){
-			int total=serviceData ["M"].AsInt;
-			int status =serviceData ["X"].AsInt;
-			int friends =serviceData ["F"].AsInt;
-			int daily =serviceData ["D"].AsInt;
-			int wheel =serviceData ["R"].AsInt;
-			if(SuperScene.instance is HomeScene){
-				HomeScene home = (HomeScene)SuperScene.instance;
-				if(home.dailyBonus != null)
-					home.dailyBonus.result(wheel,friends,daily,status,total);
-			}
-			Debug.LogError("");
+//			int total=serviceData ["M"].AsInt;
+//			int status =serviceData ["X"].AsInt;
+//			int friends =serviceData ["F"].AsInt;
+//			int daily =serviceData ["D"].AsInt;
+//			int wheel =serviceData ["R"].AsInt;
+//			if(SuperScene.instance is HomeScene){
+//				HomeScene home = (HomeScene)SuperScene.instance;
+//				if(home.dailyBonus != null)
+//					home.dailyBonus.result(wheel,friends,daily,status,total);
+//			}
+//			Debug.LogError("");
 		} else if (evt.Equals ("ca")) {
 			user.inGameName = serviceData ["data"];
 		} else if (evt.Equals ("ltv")) {
@@ -593,15 +593,15 @@ public class ServiceTransportPacketProcessor
 			cubeia.sendService (data);
 		} else if (evt.Equals ("dp")) {
 			// da nhan dc tien
-			User.pd = 0;
-			int plus = serviceData ["AG"].AsInt;
-			user.ag += plus;
-			SuperScene.instance.showInfoDialog (Strings.instance.common_noti_get_gold.Replace ("%value%", Utils.formatNumber (plus) + " " + GameApplication.COIN));
-			if (SuperScene.instance is HomeScene && GameApplication.gameApp == GameApplication.GameApp.DauTruong) {
-				HomeScene homeScene = (HomeScene)SuperScene.instance;
-				homeScene.updateInfo ();
-				homeScene.dailyBonus.gameObject.SetActive (false);
-			}
+//			User.pd = 0;
+//			int plus = serviceData ["AG"].AsInt;
+//			user.ag += plus;
+//			SuperScene.instance.showInfoDialog (Strings.instance.common_noti_get_gold.Replace ("%value%", Utils.formatNumber (plus) + " " + GameApplication.COIN));
+//			if (SuperScene.instance is HomeScene && GameApplication.gameApp == GameApplication.GameApp.DauTruong) {
+//				HomeScene homeScene = (HomeScene)SuperScene.instance;
+//				homeScene.updateInfo ();
+//				homeScene.dailyBonus.gameObject.SetActive (false);
+//			}
 		} else if (evt.Equals ("pf")) {
 			SuperScene.instance.showInfoDialog (Strings.instance.updateInfo);
 		} else if (evt.Equals ("changea")) {
