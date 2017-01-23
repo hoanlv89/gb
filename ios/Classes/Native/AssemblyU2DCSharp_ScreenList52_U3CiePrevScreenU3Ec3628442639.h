@@ -1,0 +1,126 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+
+// UnityEngine.RectTransform
+struct RectTransform_t3349966182;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
+// System.IDisposable
+struct IDisposable_t2427283555;
+// ScreenList52
+struct ScreenList52_t1545977247;
+// System.Object
+struct Il2CppObject;
+
+#include "mscorlib_System_Object2689449295.h"
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// ScreenList52/<iePrevScreen>c__Iterator1
+struct  U3CiePrevScreenU3Ec__Iterator1_t3628442639  : public Il2CppObject
+{
+public:
+	// UnityEngine.RectTransform ScreenList52/<iePrevScreen>c__Iterator1::<rect>__0
+	RectTransform_t3349966182 * ___U3CrectU3E__0_0;
+	// System.Single ScreenList52/<iePrevScreen>c__Iterator1::<posXCenter>__1
+	float ___U3CposXCenterU3E__1_1;
+	// System.Collections.IEnumerator ScreenList52/<iePrevScreen>c__Iterator1::$locvar0
+	Il2CppObject * ___U24locvar0_2;
+	// System.IDisposable ScreenList52/<iePrevScreen>c__Iterator1::$locvar1
+	Il2CppObject * ___U24locvar1_3;
+	// ScreenList52 ScreenList52/<iePrevScreen>c__Iterator1::$this
+	ScreenList52_t1545977247 * ___U24this_4;
+	// System.Object ScreenList52/<iePrevScreen>c__Iterator1::$current
+	Il2CppObject * ___U24current_5;
+	// System.Boolean ScreenList52/<iePrevScreen>c__Iterator1::$disposing
+	bool ___U24disposing_6;
+	// System.Int32 ScreenList52/<iePrevScreen>c__Iterator1::$PC
+	int32_t ___U24PC_7;
+
+public:
+	inline static int32_t get_offset_of_U3CrectU3E__0_0() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U3CrectU3E__0_0)); }
+	inline RectTransform_t3349966182 * get_U3CrectU3E__0_0() const { return ___U3CrectU3E__0_0; }
+	inline RectTransform_t3349966182 ** get_address_of_U3CrectU3E__0_0() { return &___U3CrectU3E__0_0; }
+	inline void set_U3CrectU3E__0_0(RectTransform_t3349966182 * value)
+	{
+		___U3CrectU3E__0_0 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CrectU3E__0_0, value);
+	}
+
+	inline static int32_t get_offset_of_U3CposXCenterU3E__1_1() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U3CposXCenterU3E__1_1)); }
+	inline float get_U3CposXCenterU3E__1_1() const { return ___U3CposXCenterU3E__1_1; }
+	inline float* get_address_of_U3CposXCenterU3E__1_1() { return &___U3CposXCenterU3E__1_1; }
+	inline void set_U3CposXCenterU3E__1_1(float value)
+	{
+		___U3CposXCenterU3E__1_1 = value;
+	}
+
+	inline static int32_t get_offset_of_U24locvar0_2() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U24locvar0_2)); }
+	inline Il2CppObject * get_U24locvar0_2() const { return ___U24locvar0_2; }
+	inline Il2CppObject ** get_address_of_U24locvar0_2() { return &___U24locvar0_2; }
+	inline void set_U24locvar0_2(Il2CppObject * value)
+	{
+		___U24locvar0_2 = value;
+		Il2CppCodeGenWriteBarrier(&___U24locvar0_2, value);
+	}
+
+	inline static int32_t get_offset_of_U24locvar1_3() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U24locvar1_3)); }
+	inline Il2CppObject * get_U24locvar1_3() const { return ___U24locvar1_3; }
+	inline Il2CppObject ** get_address_of_U24locvar1_3() { return &___U24locvar1_3; }
+	inline void set_U24locvar1_3(Il2CppObject * value)
+	{
+		___U24locvar1_3 = value;
+		Il2CppCodeGenWriteBarrier(&___U24locvar1_3, value);
+	}
+
+	inline static int32_t get_offset_of_U24this_4() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U24this_4)); }
+	inline ScreenList52_t1545977247 * get_U24this_4() const { return ___U24this_4; }
+	inline ScreenList52_t1545977247 ** get_address_of_U24this_4() { return &___U24this_4; }
+	inline void set_U24this_4(ScreenList52_t1545977247 * value)
+	{
+		___U24this_4 = value;
+		Il2CppCodeGenWriteBarrier(&___U24this_4, value);
+	}
+
+	inline static int32_t get_offset_of_U24current_5() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U24current_5)); }
+	inline Il2CppObject * get_U24current_5() const { return ___U24current_5; }
+	inline Il2CppObject ** get_address_of_U24current_5() { return &___U24current_5; }
+	inline void set_U24current_5(Il2CppObject * value)
+	{
+		___U24current_5 = value;
+		Il2CppCodeGenWriteBarrier(&___U24current_5, value);
+	}
+
+	inline static int32_t get_offset_of_U24disposing_6() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U24disposing_6)); }
+	inline bool get_U24disposing_6() const { return ___U24disposing_6; }
+	inline bool* get_address_of_U24disposing_6() { return &___U24disposing_6; }
+	inline void set_U24disposing_6(bool value)
+	{
+		___U24disposing_6 = value;
+	}
+
+	inline static int32_t get_offset_of_U24PC_7() { return static_cast<int32_t>(offsetof(U3CiePrevScreenU3Ec__Iterator1_t3628442639, ___U24PC_7)); }
+	inline int32_t get_U24PC_7() const { return ___U24PC_7; }
+	inline int32_t* get_address_of_U24PC_7() { return &___U24PC_7; }
+	inline void set_U24PC_7(int32_t value)
+	{
+		___U24PC_7 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

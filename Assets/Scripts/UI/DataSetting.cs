@@ -88,12 +88,12 @@ public class DataSetting
 				.setExeAction (delegate {
 					SuperScene.instance.gotoFanpage();
 		}),
-				new SettingItem (SettingItem.Type.link, Strings.instance.common_setting_game_rules)
-				.setExeAction (delegate {
-			STabsScene.tabsType = STabsScene.STabType.HELP;
-			STabsScene.currentTabPos = STabsScene.RULES;
-			SuperScene.instance.gotoStabsScene ();
-		}),
+//				new SettingItem (SettingItem.Type.link, Strings.instance.common_setting_game_rules)
+//				.setExeAction (delegate {
+//			STabsScene.tabsType = STabsScene.STabType.HELP;
+//			STabsScene.currentTabPos = STabsScene.RULES;
+//			SuperScene.instance.gotoStabsScene ();
+//		}),
 				new SettingItem (SettingItem.Type.link, Strings.instance.common_setting_feedback)
 				.setExeAction (delegate {
 			SuperScene.instance.gotoFeedBackScreen();

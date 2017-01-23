@@ -51,7 +51,8 @@ public class WebViewPanel_DieuKhoan : MonoBehaviour
 		webView.transform.SetParent (this.transform, false);
 		webView.loadOnStart = false;
 		webView.autoShowWhenLoadComplete = true;
-		webView.toolBarShow = true;
+		webView.toolBarShow = false;
+
 		int topmargin = (int)((1f - contentTop + panelTop / designHeight) * Screen.height);
 		int bottommargin = (int)((contentBottom + panelBottom / designHeight) * Screen.height);
 		int leftmargin = (int)(panelLeft / designHeight * Screen.height);

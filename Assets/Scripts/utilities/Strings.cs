@@ -905,7 +905,7 @@ public class Strings_VI : Strings
 
 	public override string dialog_alert_lackof_info { get { return "Bạn hãy nhập đủ thông tin vào các trường trước khi gửi!"; } }
 	public override string dialog_alert_payment_miss_provider { get { return "Bạn hãy chọn loại thẻ!"; } }
-	public override string dialog_alert_payment_miss_pin { get { return "Bạn hãy nhập mã PIN!"; } }
+	public override string dialog_alert_payment_miss_pin { get { return "Bạn hãy nhập mã thẻ!"; } }
 	public override string dialog_alert_payment_miss_serial { get { return "Bạn hãy nhập số serial!"; } }
 
 	public override string error1 { get { return "Có lỗi khi vào bàn"; } }
