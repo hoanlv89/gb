@@ -340,12 +340,18 @@ public class STabsScene : SuperScene
 			}
 		} 
 		else if (tabsType == STabType.CASHOUT) {
-			NameTitle.name = "Đổi Thưởng";
+			NameTitle.name = "Đổi thưởng";
 			btnList.Add (createButton (Strings.instance.cashout_thecao));
 			btnList.Add (createButton (Strings.instance.cashout_vatpham));
 			rtList.Add (cashout_thecao);
 			rtList.Add (cashout_vatpham);
 			currentTabPos = CASHOUT_THECAO;
+			#if UNITY_ANDROID
+				btnList [0].gameObject.SetActive (false);
+				btnList [1].gameObject.SetActive (false);
+				cashout_vatpham.gameObject.SetActive (false);
+				NameTitle.name = "Shop";
+			#endif
 		}else if (tabsType == STabType.BONGDA) {
 			NameTitle.name = "Bóng Đá";
 			btnList.Add (createButton (Strings.instance.bongda_live));
@@ -426,6 +432,7 @@ public class STabsScene : SuperScene
 
 	void bindBtnsWithContents (List<Button> btnList, List<RectTransform> rtList)
 	{
+		
 		int size = Mathf.Min (btnList.Count, rtList.Count);
 		// duy nhat thiet ke cua dau truong phai thu nho cac title lai, 3C khong can => update: gio thi can roi
 		if(size >= 6){
@@ -456,6 +463,14 @@ public class STabsScene : SuperScene
 			btnList [i].gameObject.SetActive (true);
 			rtList [i].gameObject.SetActive (false);
 		}
+
+		#if UNITY_ANDROID
+			if (tabsType == STabType.CASHOUT){
+				btnList [0].gameObject.SetActive (false);
+				btnList [1].gameObject.SetActive (false);
+				cashout_vatpham.gameObject.SetActive (false);
+			}
+		#endif
 	}
 
 	public void selectTab (int pos)
@@ -475,8 +490,7 @@ public class STabsScene : SuperScene
 		rtList [pos].gameObject.SetActive (true);
 		rtList [pos].anchoredPosition = new Vector2 (0, rtList [pos].anchoredPosition.y);
 		currentTabPos = pos;
-			
-			
+
 		if(tabsType == STabType.LEADERBOARD && leaderBoard != null){
 			Debug.Log("tabsType == STabType.LEADERBOARD && leaderBoard != null");
 			if (currentTabPos == STabsScene.LEADERBOARD_NGAY) {

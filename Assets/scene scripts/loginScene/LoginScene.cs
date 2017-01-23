@@ -8,6 +8,7 @@ using SimpleJSON;
 using System.Globalization;
 using System.Collections.Generic;
 using Facebook.Unity;
+using BestHTTP.SocketIO;
 
 public class LoginScene : SuperScene
 {
@@ -830,5 +831,6 @@ public class LoginScene : SuperScene
 			fbLoggedOption.gameObject.SetActive (false);
 		}
 	}
+
 
 }
