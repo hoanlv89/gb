@@ -27,7 +27,6 @@ public class PaymentIAP_IOS : MonoBehaviour {
 				DSTFBEvent.LogAppEvent(DSTFBEvent.UnityPurchaseIAPClick, (float)1f, DSTFBEvent.defaultParams);
 				PaymentManager.buyItem(iapItem.id);
 			});
-
 		}
 	}
 	

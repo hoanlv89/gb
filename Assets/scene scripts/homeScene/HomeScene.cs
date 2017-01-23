@@ -93,20 +93,20 @@ public class HomeScene : SuperScene, IUpdateUserInfo
 			gameListControl.addGameItem (GameType.XOCDIA);
 		}*/
 
-		if(OperatorGame.disableGames.Contains(GameType.GAME_DOITHUONG)){
-			
-			if (GameApplication.gameApp == GameApplication.GameApp.G52Fun) {
-				doithuongButton.GetComponent<RectTransform> ().FindChild ("Text").GetComponent<Text> ().text = "52 FUN";
-			} else if (GameApplication.gameApp == GameApplication.GameApp.G3C) {
-				// TODO: doan nay hoi vo ly
-				doithuongButton.SetActive (true);
-				doithuongButton.GetComponent<RectTransform> ().GetComponent<Image> ().sprite = background_3c;
-				doithuongButton.GetComponent<RectTransform> ().GetComponent<Image> ().type = Image.Type.Simple;
-				doithuongButton.GetComponent<RectTransform> ().FindChild ("Doithuong").gameObject.SetActive (false);
-			} else if (GameApplication.gameApp == GameApplication.GameApp.DauTruong) {
-				doithuongButton.SetActive (false);
-			}
-		}
+//		if(OperatorGame.disableGames.Contains(GameType.GAME_DOITHUONG)){
+//			
+//			if (GameApplication.gameApp == GameApplication.GameApp.G52Fun) {
+//				doithuongButton.GetComponent<RectTransform> ().FindChild ("Text").GetComponent<Text> ().text = "52 FUN";
+//			} else if (GameApplication.gameApp == GameApplication.GameApp.G3C) {
+//				// TODO: doan nay hoi vo ly
+//				doithuongButton.SetActive (true);
+//				doithuongButton.GetComponent<RectTransform> ().GetComponent<Image> ().sprite = background_3c;
+//				doithuongButton.GetComponent<RectTransform> ().GetComponent<Image> ().type = Image.Type.Simple;
+//				doithuongButton.GetComponent<RectTransform> ().FindChild ("Doithuong").gameObject.SetActive (false);
+//			} else if (GameApplication.gameApp == GameApplication.GameApp.DauTruong) {
+//				doithuongButton.SetActive (false);
+//			}
+//		}
 
 		if(GameApplication.gameApp==GameApplication.GameApp.GTL){
 			doithuongButton.SetActive(true);
@@ -123,16 +123,27 @@ public class HomeScene : SuperScene, IUpdateUserInfo
 			}
 		}
 
-		if(OperatorGame.disableGames.Contains(GameType.NEWS)){
-			GameObject obj = GameObject.Find("NewsDT_");
+//		if(OperatorGame.disableGames.Contains(GameType.NEWS)){
+//			GameObject obj = GameObject.Find("Payment");
+//			if(obj != null){
+//				obj.SetActive(false);
+//			}
+//
+//		}
+
+		if(OperatorGame.disableGames.Contains(GameType.GAME_DOITHUONG) || OperatorGame.disableGames.Contains(GameType.BANK_FUNCTION)){
+			if(topPannel != null)
+				topPannel.gameObject.SetActive(false);
+			GameObject obj1 = GameObject.Find("FeedBack");
+			if(obj1 != null){
+				obj1.SetActive(false);
+			}
+
+			GameObject obj = GameObject.Find("LeaderBoard");
 			if(obj != null){
 				obj.SetActive(false);
 			}
-		}
 
-		if(OperatorGame.disableGames.Contains(GameType.BANK_FUNCTION)){
-			if(topPannel != null)
-				topPannel.gameObject.SetActive(false);
 		}
 
 		// kiem tra co hien moi ban ko

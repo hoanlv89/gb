@@ -183,6 +183,12 @@ public class UniWebViewPlugin {
         }
     }
 
+    public static void LoadWithOverviewMode(string name, bool overview) {
+        if (Application.platform == RuntimePlatform.Android) {
+            webView.CallStatic("_UniWebViewLoadWithOverviewMode", name, overview);
+        }
+    }
+
     public static void SetUserAgent(string userAgent) {
         if (Application.platform == RuntimePlatform.Android) {
             webView.CallStatic("_UniWebViewSetUserAgent", userAgent);
@@ -226,6 +232,36 @@ public class UniWebViewPlugin {
             webView.CallStatic("_UniWebViewSetHeaderField", name, key, value);
         }
     }
+    
+    public static void SetVerticalScrollBarShow(string name, bool show) {
+        if (Application.platform == RuntimePlatform.Android) {
+            webView.CallStatic("_UniWebViewSetVerticalScrollBarShow", name, show);
+        }
+    }
+    
+    public static void SetHorizontalScrollBarShow(string name, bool show) {
+        if (Application.platform == RuntimePlatform.Android) {
+            webView.CallStatic("_UniWebViewSetHorizontalScrollBarShow", name, show);
+        }
+    }
+    
+    public static bool GetOpenLinksInExternalBrowser(string name) {
+        if (Application.platform == RuntimePlatform.Android) {
+            return webView.CallStatic<bool>("_UniWebViewGetOpenLinksInExternalBrowser", name);
+        }
+        return false;
+    }
 
+    public static void SetOpenLinksInExternalBrowser(string name, bool value) {
+        if (Application.platform == RuntimePlatform.Android) {
+            webView.CallStatic("_UniWebViewSetOpenLinksInExternalBrowser", name, value);
+        }
+    }
+
+    public static void SetWebContentsDebuggingEnabled(bool enabled) {
+        if (Application.platform == RuntimePlatform.Android) {
+            webView.CallStatic("_UniWebViewSetWebContentsDebuggingEnabled", enabled);
+        }
+    }
 }
 #endif

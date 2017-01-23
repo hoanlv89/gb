@@ -86,6 +86,7 @@ public class GameApplication : MonoBehaviour
 	public const string ROULETTE = "Roulette";
 	public const string SLOTSSCENE = "MainGame";
 	public const string REPLAYSCENE = "ReplayScene";
+	public const string PAYMENTSCENE = "PaymentScene";
 	public static string STABSSCENE {
 		get{
 			if (gameApp == GameApp.LangQuat)

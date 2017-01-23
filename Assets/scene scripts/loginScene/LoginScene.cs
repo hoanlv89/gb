@@ -617,6 +617,7 @@ public class LoginScene : SuperScene
 			PaymentManager.card_enable = jsonResult ["card"] .AsBool;
 			PaymentManager.atm_enable = jsonResult ["atm"] .AsBool;
 			PaymentManager.exchange_rate_enable = jsonResult ["rate"] .AsBool;
+			PaymentManager.url_payment_card = jsonResult ["url_payment_card"];
 			Debug.Log ("PaymentManager.card_enable: " + PaymentManager.card_enable);
 
 			LeaderBoard.presents = jsonResult["gtcaothu"];
@@ -706,7 +707,7 @@ public class LoginScene : SuperScene
 	void getConfig (JSONClass jsonResult)
 	{
 		CubeiaClient.HOST = jsonResult ["defaultip"];
-		GameApplication.url_paymentconfig = jsonResult ["url_payment_config"];
+		GameApplication.url_paymentconfig = jsonResult ["url_payment_config_encode"];
 		OperatorGame.setGames(jsonResult ["listGame"].AsArray);
 		string thotline = jsonResult ["hotline"];
 

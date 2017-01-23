@@ -757,40 +757,50 @@ public class SuperScene : MonoBehaviour
 	{
 		Debug.Log ("gotoPaymentScreen");
 		SoundManager.instance.playButtonClicked ();
-		int storedDisID = DB.getInstance.getStoredDisID ();
-		string url = GameApplication.url_dis_get_update_info.
-			Replace ("%dis_id%", "" + storedDisID).
-				Replace ("%dev_id%", GameApplication.getUniqueIdentifier ());
+//		int storedDisID = DB.getInstance.getStoredDisID ();
+//		string url = GameApplication.url_dis_get_update_info.
+//			Replace ("%dis_id%", "" + storedDisID).
+//				Replace ("%dev_id%", GameApplication.getUniqueIdentifier ());
+		string url = GameApplication.url_paymentconfig;
 
 		Utils.ExeOneStringParam onSuccess = delegate(string result) {
+			
+			if(GameApplication.ENCODE == 1)
+				result = Utils.base64_decode(result);
+
 			Debug.Log ("result: " + result);
-			JSONClass jsonResult = JSONNode.Parse (result).AsObject;
-			PaymentManager.sms_enable = jsonResult ["sms"] .AsBool;
-			PaymentManager.iap_ios_enable = jsonResult ["iap"] .AsBool;
-			PaymentManager.card_enable = jsonResult ["card"] .AsBool;
-			PaymentManager.atm_enable = jsonResult ["atm"] .AsBool;
-			PaymentManager.exchange_rate_enable = jsonResult ["rate"] .AsBool;
-			PaymentManager.payment = PaymentManager.sms_enable || PaymentManager.iap_ios_enable || PaymentManager.card_enable || PaymentManager.atm_enable;
-			PaymentManager.gamenotification = jsonResult ["gamenotification"] .AsBool;
 
-			PaymentManager.iap_items.Clear ();
-			for (int i = 0; i < jsonResult ["iap_ios_items"].AsArray.Count; i++) {
-				PaymentManager.iap_items.Add (jsonResult ["iap_ios_items"] [i]);
-			}
+			PaymentScene.rawData = result;
+			LevelManager.Load (GameApplication.PAYMENTSCENE);
+			Tracking.changeScene("PAYMENT",true);
 
-			PaymentManager.url_exchange_rate = jsonResult ["url_exchange_rate"];
-			PaymentManager.url_payment_atm = jsonResult ["url_payment_atm"];
-			PaymentManager.url_payment_card = jsonResult ["url_payment_card"];
-//			Debug.LogError(PaymentManager.url_payment_card);
 
-			if (PaymentManager.payment) {
-				STabsScene.tabsType = STabsScene.STabType.PAYMENT;
-				STabsScene.currentTabPos = STabsScene.PAYMENT_CARD;
-				gotoStabsScene ();
-				Tracking.changeScene("PAYMENT",true);
-			} else {
-				showInfoDialog (Strings.instance.common_comming_soon);
-			}
+//			PaymentManager.sms_enable = jsonResult ["sms"] .AsBool;
+//			PaymentManager.iap_ios_enable = jsonResult ["iap"] .AsBool;
+//			PaymentManager.card_enable = jsonResult ["card"] .AsBool;
+//			PaymentManager.atm_enable = jsonResult ["atm"] .AsBool;
+//			PaymentManager.exchange_rate_enable = jsonResult ["rate"] .AsBool;
+//			PaymentManager.payment = PaymentManager.sms_enable || PaymentManager.iap_ios_enable || PaymentManager.card_enable || PaymentManager.atm_enable;
+//			PaymentManager.gamenotification = jsonResult ["gamenotification"] .AsBool;
+//
+//			PaymentManager.iap_items.Clear ();
+//			for (int i = 0; i < jsonResult ["iap_ios_items"].AsArray.Count; i++) {
+//				PaymentManager.iap_items.Add (jsonResult ["iap_ios_items"] [i]);
+//			}
+//
+//			PaymentManager.url_exchange_rate = jsonResult ["url_exchange_rate"];
+//			PaymentManager.url_payment_atm = jsonResult ["url_payment_atm"];
+//			PaymentManager.url_payment_card = jsonResult ["url_payment_card"];
+////			Debug.LogError(PaymentManager.url_payment_card);
+//
+//			if (PaymentManager.payment) {
+//				STabsScene.tabsType = STabsScene.STabType.PAYMENT;
+//				STabsScene.currentTabPos = STabsScene.PAYMENT_CARD;
+//				gotoStabsScene ();
+//				Tracking.changeScene("PAYMENT",true);
+//			} else {
+//				showInfoDialog (Strings.instance.common_comming_soon);
+//			}
 		};
 		Utils.Executor onFailed = delegate() {
 			showToast (Strings.instance.common_network_error);

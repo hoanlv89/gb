@@ -71,7 +71,7 @@ public class News : MonoBehaviour
 		webView.transform.SetParent (this.transform, false);
 		webView.loadOnStart = false;
 		webView.autoShowWhenLoadComplete = true;
-		webView.toolBarShow = true;
+		webView.toolBarShow = false;
 		int topmargin = (int)((1f - contentTop + panelTop / designHeight) * Screen.height);
 		int bottommargin = (int)((contentBottom + panelBottom / designWidth) * Screen.width);
 		int leftmargin = (int)((backButtonWidth + panelLeft) / designHeight * Screen.height);

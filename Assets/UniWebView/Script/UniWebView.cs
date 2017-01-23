@@ -290,6 +290,28 @@ public class UniWebView : MonoBehaviour {
             UniWebViewPlugin.SetAlpha(gameObject.name, Mathf.Clamp01(value));
         }
     }
+    
+    /// <summary>
+    /// Whether the new page should be opened in an external browser when user clicks a link. 
+    /// </summary>
+    /// <value>A boolean indicates link clicking should be opened externally or not.</value>
+    /// <description>
+    /// If true, when user clicks on a link, an external web page browser on the device will be opened 
+    /// and direct to the target link. It will be useful if you need navigate your user to a device installed
+    /// browser (like Mobile Safari on iOS or Chrome on Android). 
+    /// This will only work when your user click a link in your page. Due to the lack detection of Android web view,  
+    /// some javascript embedded link will not be able to open externally correctly. If you need more control of it, 
+    /// consider to add all http/https scheme with AddUrlScheme method and handle them case by case in the OnReceivedMessage callback.
+    /// The default value is false, which means all link clicking will be opened in place. 
+    /// </description>
+    public bool openLinksInExternalBrowser {
+        get {
+            return UniWebViewPlugin.GetOpenLinksInExternalBrowser(gameObject.name);
+        }
+        set {
+            UniWebViewPlugin.SetOpenLinksInExternalBrowser(gameObject.name, value);
+        }
+    }
 
     /// <summary>
     /// Get or set a value indicating whether this <see cref="UniWebView"/> is in immersive mode.
@@ -326,7 +348,20 @@ public class UniWebView : MonoBehaviour {
     /// If you want to set user agent, use the <see cref="SetUserAgent"/> method.
     /// </summary>
     public static void ResetUserAgent() {
-        UniWebViewPlugin.SetUserAgent(null);
+        SetUserAgent(null);
+    }
+    
+    /// <summary>
+    /// Set the text in Done button of tool bar in iOS.
+    /// User could use this button in iOS to close the web view. By default, "Done" will be shown for this button.
+    /// If you want to change the text of tool bar done button for the webview, you have to call it before creating the UniWebView instance.
+    /// This method only works for iOS. See <seealso cref="ShowToolBar"/>.
+    /// </summary>
+    /// <param name="text">The text you want to show for the Done button. Set it to null will reset it to "Done".</param>
+    public static void SetDoneButtonText(string text) {
+        #if UNITY_IOS && !UNITY_EDITOR
+        UniWebViewPlugin.SetDoneButtonText(text);
+        #endif
     }
 
     /// <summary>
@@ -571,6 +606,22 @@ public class UniWebView : MonoBehaviour {
     }
 
     /// <summary>
+    /// Set to load with overview mode or not.
+    /// </summary>
+    /// <param name="overview">
+    /// If set to <c>true</c>, use overview mode to load the page.
+    /// </param>
+    /// <description>
+    /// This method only works for Android. If you need to load your page with overview mode, you may
+    /// want to enable it before you loading and showing your page.
+    /// </description>
+    public void LoadWithOverviewMode(bool overview) {
+        #if UNITY_ANDROID && !UNITY_EDITOR
+        UniWebViewPlugin.LoadWithOverviewMode(gameObject.name, overview);
+        #endif
+    }
+
+    /// <summary>
     /// Determines whether the webview can go back.
     /// </summary>
     /// <returns><c>true</c> if this instance can go back, which means there is at least one page in the navigation stack below; 
@@ -647,14 +698,61 @@ public class UniWebView : MonoBehaviour {
     /// </description>
     /// <param name="key">Key of the header field. Empty string or null will be ignored.</param>
     /// <param name="value">Value of the header field. Pass null to remove an existing value. Empty string will be ignored.</param>
-    public void SetHeaderField(string key, string value)  {
+    public void SetHeaderField(string key, string value) {
         #if UNITY_WP8
         Debug.LogWarning("Not implemented for Windows Phone 8.");
         #else
         UniWebViewPlugin.SetHeaderField(gameObject.name, key, value);
         #endif
     }
+    
+    /// <summary>
+    /// Set visibility of vertical bar for the web view.
+    /// </summary>
+    /// <description>
+    /// This method will not work for editor and Windows Phone 8. 
+    /// </description>
+    /// <param name="show">Whether the vertical scroll bar should be visible or not when the web view is being scrolled.</param>
+    public void SetVerticalScrollBarShow(bool show) {
+        #if UNITY_WP8
+        Debug.LogWarning("Not implemented for Windows Phone 8.");        
+        #else
+        UniWebViewPlugin.SetVerticalScrollBarShow(gameObject.name, show);
+        #endif
+    }
+    
+    /// <summary>
+    /// Set visibility of horizontal bar for the web view.
+    /// </summary>
+    /// <description>
+    /// This method will not work for editor and Windows Phone 8. 
+    /// </description>
+    /// <param name="show">Whether the horizontal scroll bar should be visible or not when the web view is being scrolled.</param>
+    public void SetHorizontalScrollBarShow(bool show) {
+        #if UNITY_WP8
+        Debug.LogWarning("Not implemented for Windows Phone 8.");        
+        #else
+        UniWebViewPlugin.SetHorizontalScrollBarShow(gameObject.name, show);
+        #endif
+    }
 
+    /// <summary>
+    /// Set web content could be debug or not. Only works for Android. 
+    /// </summary>
+    /// <description>
+    /// You can enable Remote Debugging for Android devices by calling this method and passing true. See Google's 
+    /// Remote Debugging Android Devices documentation for more about it.
+    /// https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging
+    /// 
+    /// This method will do nothing for iOS or editor. 
+    /// </description>
+    /// <param name="enabled">Whether this page could be debug or not.</param>
+    public static void SetWebContentsDebuggingEnabled(bool enabled) {
+        #if UNITY_ANDROID && !UNITY_EDITOR
+        UniWebViewPlugin.SetWebContentsDebuggingEnabled(enabled);
+        #endif
+    }
+    
     private bool OrientationChanged() {
         int newHeight = UniWebViewHelper.screenHeight;
         if (_lastScreenHeight != newHeight) {

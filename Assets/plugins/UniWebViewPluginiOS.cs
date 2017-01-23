@@ -69,6 +69,8 @@ public class UniWebViewPlugin {
     [DllImport("__Internal")]
     private static extern void _UniWebViewSetUserAgent(string userAgent);
     [DllImport("__Internal")]
+    private static extern void _UniWebViewSetDoneButtonText(string text);
+    [DllImport("__Internal")]
     private static extern string _UniWebViewGetUserAgent(string name);
     [DllImport("__Internal")]
     private static extern float _UniWebViewGetAlpha(string name);
@@ -76,6 +78,14 @@ public class UniWebViewPlugin {
     private static extern void _UniWebViewSetAlpha(string name, float alpha);
     [DllImport("__Internal")]
     private static extern void _UniWebViewSetHeaderField(string name, string key, string value);
+    [DllImport("__Internal")]
+    private static extern void _UniWebViewSetVerticalScrollBarShow(string name, bool show);
+    [DllImport("__Internal")]
+    private static extern void _UniWebViewSetHorizontalScrollBarShow(string name, bool show);
+    [DllImport("__Internal")]
+    private static extern bool _UniWebViewGetOpenLinksInExternalBrowser(string name);
+    [DllImport("__Internal")]
+    private static extern void _UniWebViewSetOpenLinksInExternalBrowser(string name, bool value);
 
     public static void Init(string name, int top, int left, int bottom, int right) {
         if (Application.platform == RuntimePlatform.IPhonePlayer) {
@@ -272,6 +282,12 @@ public class UniWebViewPlugin {
             _UniWebViewSetUserAgent(userAgent);
         }
     }
+    
+    public static void SetDoneButtonText(string text) {
+        if (Application.platform == RuntimePlatform.IPhonePlayer) {
+            _UniWebViewSetDoneButtonText(text);
+        }
+    }
 
     public static string GetUserAgent(string name) {
         if (Application.platform == RuntimePlatform.IPhonePlayer) {
@@ -296,6 +312,31 @@ public class UniWebViewPlugin {
     public static void SetHeaderField(string name, string key, string value) {
         if (Application.platform == RuntimePlatform.IPhonePlayer) {
             _UniWebViewSetHeaderField(name, key, value);
+        }
+    }
+    
+    public static void SetVerticalScrollBarShow(string name, bool show) {
+        if (Application.platform == RuntimePlatform.IPhonePlayer) {
+            _UniWebViewSetVerticalScrollBarShow(name, show);
+        }
+    }
+    
+    public static void SetHorizontalScrollBarShow(string name, bool show) {
+        if (Application.platform == RuntimePlatform.IPhonePlayer) {
+            _UniWebViewSetHorizontalScrollBarShow(name, show);
+        }
+    }
+    
+    public static bool GetOpenLinksInExternalBrowser(string name) {
+        if (Application.platform == RuntimePlatform.IPhonePlayer) {
+            return _UniWebViewGetOpenLinksInExternalBrowser(name);
+        }
+        return false;
+    }
+
+    public static void SetOpenLinksInExternalBrowser(string name, bool value) {
+        if (Application.platform == RuntimePlatform.IPhonePlayer) {
+            _UniWebViewSetOpenLinksInExternalBrowser(name, value);
         }
     }
 }

@@ -78,7 +78,11 @@ public class UniWebViewPlugin {
     private static extern int _UniWebViewScreenScale();
     [DllImport("UniWebView")]
     private static extern void _UniWebViewSetHeaderField(string name, string key, string value);
-
+    [DllImport("UniWebView")]
+    private static extern bool _UniWebViewGetOpenLinksInExternalBrowser(string name);
+    [DllImport("UniWebView")]
+    private static extern void _UniWebViewSetOpenLinksInExternalBrowser(string name, bool value);
+    
     public static void Init(string name, int top, int left, int bottom, int right) {
         if (Application.platform == RuntimePlatform.OSXEditor) {
             if (!_connected) {
@@ -310,6 +314,27 @@ public class UniWebViewPlugin {
     public static void SetHeaderField(string name, string key, string value) {
         if (Application.platform == RuntimePlatform.OSXEditor) {
             _UniWebViewSetHeaderField(name, key, value);
+        }
+    }
+    
+    public static void SetVerticalScrollBarShow(string name, bool show) {
+        // Not implemented.
+    }
+    
+    public static void SetHorizontalScrollBarShow(string name, bool show) {
+        //Not implemented.
+    }
+
+    public static bool GetOpenLinksInExternalBrowser(string name) {
+        if (Application.platform == RuntimePlatform.OSXEditor) {
+            return _UniWebViewGetOpenLinksInExternalBrowser(name);
+        }
+        return false;
+    }
+
+    public static void SetOpenLinksInExternalBrowser(string name, bool value) {
+        if (Application.platform == RuntimePlatform.OSXEditor) {
+            _UniWebViewSetOpenLinksInExternalBrowser(name, value);
         }
     }
 }

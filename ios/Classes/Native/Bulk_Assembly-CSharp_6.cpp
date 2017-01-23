@@ -1,0 +1,22133 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// GK_Leaderboard
+struct GK_Leaderboard_t156446466;
+// System.String
+struct String_t;
+// GK_Score
+struct GK_Score_t1529008873;
+// GK_LeaderBoardInfo
+struct GK_LeaderBoardInfo_t3670215494;
+// GK_LeaderboardSet
+struct GK_LeaderboardSet_t5314098;
+// System.Action`1<ISN_LoadSetLeaderboardsInfoResult>
+struct Action_1_t3799589186;
+// System.Object
+struct Il2CppObject;
+// System.Collections.Generic.List`1<GK_LeaderBoardInfo>
+struct List_1_t3039336626;
+// ISN_LoadSetLeaderboardsInfoResult
+struct ISN_LoadSetLeaderboardsInfoResult_t3997789804;
+// GK_Player
+struct GK_Player_t2782008294;
+// System.Action`1<GK_UserPhotoLoadResult>
+struct Action_1_t1415997413;
+// UnityEngine.Texture2D
+struct Texture2D_t3542995729;
+// GK_UserPhotoLoadResult
+struct GK_UserPhotoLoadResult_t1614198031;
+// GK_PlayerScoreLoadedResult
+struct GK_PlayerScoreLoadedResult_t2256948480;
+// GK_PlayerSignatureResult
+struct GK_PlayerSignatureResult_t13769479;
+// ISN_Error
+struct ISN_Error_t553253557;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// GK_RTM_Match
+struct GK_RTM_Match_t873568990;
+// System.Collections.Generic.List`1<GK_Player>
+struct List_1_t2151129426;
+// GK_RTM_MatchStartedResult
+struct GK_RTM_MatchStartedResult_t833698690;
+// GK_RTM_QueryActivityResult
+struct GK_RTM_QueryActivityResult_t2276098399;
+// GK_ScoreCollection
+struct GK_ScoreCollection_t4092547735;
+// GK_TBM_EndTrunResult
+struct GK_TBM_EndTrunResult_t1517380690;
+// GK_TBM_Match
+struct GK_TBM_Match_t132033130;
+// GK_TBM_LoadMatchesResult
+struct GK_TBM_LoadMatchesResult_t370491735;
+// GK_TBM_LoadMatchResult
+struct GK_TBM_LoadMatchResult_t1639249273;
+// GK_TBM_Participant
+struct GK_TBM_Participant_t3803955090;
+// GK_TBM_MatchDataUpdateResult
+struct GK_TBM_MatchDataUpdateResult_t1356006034;
+// GK_TBM_MatchEndResult
+struct GK_TBM_MatchEndResult_t3461768810;
+// GK_TBM_MatchInitResult
+struct GK_TBM_MatchInitResult_t3847830897;
+// GK_TBM_MatchQuitResult
+struct GK_TBM_MatchQuitResult_t1233820656;
+// GK_TBM_MatchRemovedResult
+struct GK_TBM_MatchRemovedResult_t909126313;
+// GK_TBM_MatchTurnResult
+struct GK_TBM_MatchTurnResult_t3583658160;
+// GK_TBM_RematchResult
+struct GK_TBM_RematchResult_t3159773700;
+// GK_UserInfoLoadResult
+struct GK_UserInfoLoadResult_t1177841233;
+// Gradient
+struct Gradient_t1716119128;
+// UnityEngine.Mesh
+struct Mesh_t1356156583;
+// UnityEngine.UI.VertexHelper
+struct VertexHelper_t385374196;
+// System.Collections.Generic.List`1<UnityEngine.UIVertex>
+struct List_1_t573379950;
+// GSetting
+struct GSetting_t3807090435;
+// UnityEngine.UI.Image
+struct Image_t2042527209;
+// GSetting/<forcedLogout>c__AnonStorey0
+struct U3CforcedLogoutU3Ec__AnonStorey0_t3193201296;
+// HelloPackage
+struct HelloPackage_t1108260788;
+// Hints
+struct Hints_t638492818;
+// SimpleJSON.JSONArray
+struct JSONArray_t3986483147;
+// HomeScene
+struct HomeScene_t3664546087;
+// UnityEngine.Animator
+struct Animator_t69676727;
+// System.Collections.Generic.List`1<IPConfig>
+struct List_1_t1781958757;
+// System.Action`1<System.Boolean>
+struct Action_1_t3627374100;
+// UnityEngine.RectTransform
+struct RectTransform_t3349966182;
+// UnityEngine.UI.Button
+struct Button_t2872111280;
+// UnityEngine.UI.LayoutElement
+struct LayoutElement_t2808691390;
+// Facebook.Unity.IAppRequestResult
+struct IAppRequestResult_t1874118006;
+// Facebook.Unity.IShareResult
+struct IShareResult_t830127229;
+// Facebook.Unity.IGraphResult
+struct IGraphResult_t3984946686;
+// UnityEngine.Sprite
+struct Sprite_t309593783;
+// HomeScene/<getRequestData>c__AnonStorey0
+struct U3CgetRequestDataU3Ec__AnonStorey0_t3181833180;
+// HomeScene/<loginToGame>c__AnonStorey1
+struct U3CloginToGameU3Ec__AnonStorey1_t892008602;
+// HomeScene/<showChannelChooser>c__AnonStorey2
+struct U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466;
+// HomeScene/<showChannelChooser>c__AnonStorey3
+struct U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525;
+// HomeSceneTextInit
+struct HomeSceneTextInit_t2515867944;
+// HTTPPOSTParam
+struct HTTPPOSTParam_t2574473185;
+// SimpleJSON.JSONClass
+struct JSONClass_t1609506608;
+// iAdBanner
+struct iAdBanner_t2205758560;
+// System.Action
+struct Action_t3226471752;
+// iAdBannerController
+struct iAdBannerController_t2502498128;
+// System.Collections.Generic.List`1<iAdBanner>
+struct List_1_t1574879692;
+// iAdEvent
+struct iAdEvent_t3810634698;
+// iAdIOSBanner
+struct iAdIOSBanner_t1295524391;
+// System.Collections.Generic.Dictionary`2<System.String,iAdBanner>
+struct Dictionary_2_t4120537822;
+// iAdIOSInterstitial
+struct iAdIOSInterstitial_t2266953957;
+// iAdUseExample
+struct iAdUseExample_t2247018965;
+// IAPGG
+struct IAPGG_t2272086804;
+// iCloudData
+struct iCloudData_t3080637488;
+// iCloudManager
+struct iCloudManager_t2506189173;
+// System.Action`1<ISN_Result>
+struct Action_1_t2577430992;
+// System.Action`1<iCloudData>
+struct Action_1_t2882436870;
+// ISN_Result
+struct ISN_Result_t2775631610;
+// iCloudUseExample
+struct iCloudUseExample_t1641895601;
+// InvitePlayerBoxControl
+struct InvitePlayerBoxControl_t3082712906;
+// UnityEngine.UI.Text
+struct Text_t356221433;
+// InvitePlayerBoxControl/<showPlayers>c__AnonStorey0
+struct U3CshowPlayersU3Ec__AnonStorey0_t2951125539;
+// IOSBillingInitChecker
+struct IOSBillingInitChecker_t4166635083;
+// IOSBillingInitChecker/BillingInitListener
+struct BillingInitListener_t4162012659;
+// System.IAsyncResult
+struct IAsyncResult_t1999651008;
+// System.AsyncCallback
+struct AsyncCallback_t163412349;
+// IOSCamera
+struct IOSCamera_t2845108690;
+// System.Action`1<IOSImagePickResult>
+struct Action_1_t1473133776;
+// System.Action`1<System.String>
+struct Action_1_t1831019615;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
+// IOSImagePickResult
+struct IOSImagePickResult_t1671334394;
+// IOSCamera/<SaveScreenshot>c__Iterator0
+struct U3CSaveScreenshotU3Ec__Iterator0_t106016999;
+// IOSDateTimePicker
+struct IOSDateTimePicker_t849222074;
+// IOSDialog
+struct IOSDialog_t3518705031;
+// System.Action`1<IOSDialogResult>
+struct Action_1_t3541040698;
+// IOSGravity
+struct IOSGravity_t1757344581;
+// IOSInAppPurchaseManager
+struct IOSInAppPurchaseManager_t644626385;
+// System.Action`1<IOSStoreKitResult>
+struct Action_1_t2161206965;
+// System.Action`1<IOSStoreKitRestoreResult>
+struct Action_1_t3107075537;
+// System.Action`1<IOSStoreKitVerificationResponse>
+struct Action_1_t4065457964;
+// IOSProductTemplate
+struct IOSProductTemplate_t1036598382;
+// IOSStoreProductView
+struct IOSStoreProductView_t607200268;
+// System.Collections.Generic.List`1<IOSProductTemplate>
+struct List_1_t405719514;
+// IOSStoreKitResult
+struct IOSStoreKitResult_t2359407583;
+// IOSStoreKitRestoreResult
+struct IOSStoreKitRestoreResult_t3305276155;
+// IOSStoreKitVerificationResponse
+struct IOSStoreKitVerificationResponse_t4263658582;
+// IOSMessage
+struct IOSMessage_t2569463336;
+// IOSNative
+struct IOSNative_t1234227034;
+// System.String[]
+struct StringU5BU5D_t1642385972;
+// IOSNativeAppEvents
+struct IOSNativeAppEvents_t694411788;
+// IOSNativeFeaturesPreview
+struct IOSNativeFeaturesPreview_t172115631;
+// IOSNativeMarketBridge
+struct IOSNativeMarketBridge_t1553898649;
+// IOSNativePopUpManager
+struct IOSNativePopUpManager_t3689761895;
+// IOSNativePreviewBackButton
+struct IOSNativePreviewBackButton_t2513092733;
+// IOSNativeSettings
+struct IOSNativeSettings_t547170227;
+// IOSNativeUtility
+struct IOSNativeUtility_t933355194;
+// IOSNotificationController
+struct IOSNotificationController_t796362558;
+// System.Action`1<IOSNotificationDeviceToken>
+struct Action_1_t2364224027;
+// System.Action`1<System.Int32>
+struct Action_1_t1873676830;
+// System.Action`1<ISN_LocalNotification>
+struct Action_1_t74986071;
+// ISN_LocalNotification
+struct ISN_LocalNotification_t273186689;
+// IOSNotificationDeviceToken
+struct IOSNotificationDeviceToken_t2562424645;
+// UnityEngine.iOS.RemoteNotification
+struct RemoteNotification_t2254252895;
+// IOSRateUsPopUp
+struct IOSRateUsPopUp_t2222998473;
+// IOSSharedApplication
+struct IOSSharedApplication_t4065685598;
+// System.Action`1<ISN_CheckUrlResult>
+struct Action_1_t1447523883;
+// ISN_CheckUrlResult
+struct ISN_CheckUrlResult_t1645724501;
+// IOSSocialManager
+struct IOSSocialManager_t2957403963;
+// IOSSocialUseExample
+struct IOSSocialUseExample_t1825493211;
+// IOSSocialUseExample/<PostFBScreenshot>c__Iterator2
+struct U3CPostFBScreenshotU3Ec__Iterator2_t2908493817;
+// IOSSocialUseExample/<PostScreenshot>c__Iterator0
+struct U3CPostScreenshotU3Ec__Iterator0_t2989829515;
+// IOSSocialUseExample/<PostTwitterScreenshot>c__Iterator1
+struct U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815;
+// IOSStoreResultCode
+struct IOSStoreResultCode_t365779630;
+// IOSUIUserNotificationType
+struct IOSUIUserNotificationType_t1946295863;
+// IOSVideoManager
+struct IOSVideoManager_t3003649481;
+// IPCHOSEN
+struct IPCHOSEN_t4233482351;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_GK_InviteRecipientResponse3438857802.h"
+#include "AssemblyU2DCSharp_GK_InviteRecipientResponse3438857802MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_Leaderboard156446466.h"
+#include "AssemblyU2DCSharp_GK_Leaderboard156446466MethodDeclarations.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "AssemblyU2DCSharp_GK_ScoreCollection4092547735MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_LeaderBoardInfo3670215494MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_ScoreCollection4092547735.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710.h"
+#include "AssemblyU2DCSharp_GK_LeaderBoardInfo3670215494.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "AssemblyU2DCSharp_GK_TimeSpan1050271570.h"
+#include "AssemblyU2DCSharp_GK_CollectionType3353981271.h"
+#include "AssemblyU2DCSharp_GK_Score1529008873.h"
+#include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge536834508MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge536834508.h"
+#include "AssemblyU2DCSharp_GK_Score1529008873MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_LeaderboardSet5314098.h"
+#include "AssemblyU2DCSharp_GK_LeaderboardSet5314098MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3039336626MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3799589186MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3039336626.h"
+#include "mscorlib_System_Action_1_gen3799589186.h"
+#include "AssemblyU2DCSharp_ISN_LoadSetLeaderboardsInfoResul3997789804.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "mscorlib_System_Delegate3022476291MethodDeclarations.h"
+#include "mscorlib_System_Delegate3022476291.h"
+#include "mscorlib_System_Threading_Interlocked1625106012MethodDeclarations.h"
+#include "mscorlib_System_Threading_Interlocked1625106012.h"
+#include "AssemblyU2DCSharp_GameCenterManager1487113918MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_LoadSetLeaderboardsInfoResul3997789804MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_MatchSendDataMode3659269993.h"
+#include "AssemblyU2DCSharp_GK_MatchSendDataMode3659269993MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_MatchType1493351924.h"
+#include "AssemblyU2DCSharp_GK_MatchType1493351924MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_PhotoSize3124681388.h"
+#include "AssemblyU2DCSharp_GK_PhotoSize3124681388MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_Player2782008294.h"
+#include "AssemblyU2DCSharp_GK_Player2782008294MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1415997413MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1415997413.h"
+#include "AssemblyU2DCSharp_GK_UserPhotoLoadResult1614198031.h"
+#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "mscorlib_System_Convert2607082565MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_UserPhotoLoadResult1614198031MethodDeclarations.h"
+#include "mscorlib_ArrayTypes.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "AssemblyU2DCSharp_GK_PlayerConnectionState2434478783.h"
+#include "AssemblyU2DCSharp_GK_PlayerConnectionState2434478783MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_PlayerScoreLoadedResult2256948480.h"
+#include "AssemblyU2DCSharp_GK_PlayerScoreLoadedResult2256948480MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Result2775631610MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_PlayerSignatureResult13769479.h"
+#include "AssemblyU2DCSharp_GK_PlayerSignatureResult13769479MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Error553253557.h"
+#include "AssemblyU2DCSharp_ISN_Result2775631610.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3052225568MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3052225568.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "AssemblyU2DCSharp_GK_RTM_Match873568990.h"
+#include "AssemblyU2DCSharp_GK_RTM_Match873568990MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2151129426MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNative1234227034MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2151129426.h"
+#include "mscorlib_System_StringSplitOptions2996162939.h"
+#include "AssemblyU2DCSharp_GK_RTM_MatchStartedResult833698690.h"
+#include "AssemblyU2DCSharp_GK_RTM_MatchStartedResult833698690MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_RTM_QueryActivityResult2276098399.h"
+#include "AssemblyU2DCSharp_GK_RTM_QueryActivityResult2276098399MethodDeclarations.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "AssemblyU2DCSharp_GK_TBM_EndTrunResult1517380690.h"
+#include "AssemblyU2DCSharp_GK_TBM_EndTrunResult1517380690MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_Match132033130.h"
+#include "AssemblyU2DCSharp_GK_TBM_LoadMatchesResult370491735.h"
+#include "AssemblyU2DCSharp_GK_TBM_LoadMatchesResult370491735MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2046812392MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2046812392.h"
+#include "AssemblyU2DCSharp_GK_TBM_LoadMatchResult1639249273.h"
+#include "AssemblyU2DCSharp_GK_TBM_LoadMatchResult1639249273MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_Match132033130MethodDeclarations.h"
+#include "mscorlib_System_Text_Encoding663144255MethodDeclarations.h"
+#include "mscorlib_System_Text_Encoding663144255.h"
+#include "AssemblyU2DCSharp_GK_TBM_Participant3803955090.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3173076222MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_Participant3803955090MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera2707805896.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3173076222.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera2707805896MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchDataUpdateResult1356006034.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchDataUpdateResult1356006034MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchEndResult3461768810.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchEndResult3461768810MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchInitResult3847830897.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchInitResult3847830897MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchQuitResult1233820656.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchQuitResult1233820656MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchRemovedResult909126313.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchRemovedResult909126313MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchTurnResult3583658160.h"
+#include "AssemblyU2DCSharp_GK_TBM_MatchTurnResult3583658160MethodDeclarations.h"
+#include "mscorlib_System_DateTime693205669MethodDeclarations.h"
+#include "mscorlib_System_DateTime693205669.h"
+#include "AssemblyU2DCSharp_GK_TurnBasedParticipantStatus2126479626.h"
+#include "AssemblyU2DCSharp_GK_TurnBasedMatchOutcome2242380984.h"
+#include "AssemblyU2DCSharp_GameCenter_TBM3457554475MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TBM_RematchResult3159773700.h"
+#include "AssemblyU2DCSharp_GK_TBM_RematchResult3159773700MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TimeSpan1050271570MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TurnBasedMatchOutcome2242380984MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TurnBasedMatchStatus2382635170.h"
+#include "AssemblyU2DCSharp_GK_TurnBasedMatchStatus2382635170MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_TurnBasedParticipantStatus2126479626MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GK_UserInfoLoadResult1177841233.h"
+#include "AssemblyU2DCSharp_GK_UserInfoLoadResult1177841233MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gradient1716119128.h"
+#include "AssemblyU2DCSharp_Gradient1716119128MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color2020392075MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color32874517518MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_BaseMeshEffect1728560551MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "UnityEngine_UnityEngine_Color32874517518.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen573379950MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_VertexHelper385374196MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen573379950.h"
+#include "UnityEngine_UI_UnityEngine_UI_VertexHelper385374196.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "UnityEngine_UnityEngine_UIVertex1204258818.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "AssemblyU2DCSharp_GSetting3807090435.h"
+#include "AssemblyU2DCSharp_GSetting3807090435MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
+#include "AssemblyU2DCSharp_DB3235597902MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image2042527209MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Component3819376471MethodDeclarations.h"
+#include "AssemblyU2DCSharp_DB3235597902.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image2042527209.h"
+#include "UnityEngine_UnityEngine_Sprite309593783.h"
+#include "AssemblyU2DCSharp_GameApplication4152476660.h"
+#include "AssemblyU2DCSharp_GameApplication4152476660MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameApplication_GameApp3068551626.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_LeanTween4120592429MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_LTDescr1981209097.h"
+#include "AssemblyU2DCSharp_GSetting_U3CforcedLogoutU3Ec__An3193201296MethodDeclarations.h"
+#include "AssemblyU2DCSharp_DialogInfo3864811688MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SuperScene3760801569MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button2872111280MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSetting_U3CforcedLogoutU3Ec__An3193201296.h"
+#include "AssemblyU2DCSharp_SuperScene3760801569.h"
+#include "AssemblyU2DCSharp_DialogInfo3864811688.h"
+#include "AssemblyU2DCSharp_SDialog1510781833.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button2872111280.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button_ButtonClicked2455055323.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511.h"
+#include "AssemblyU2DCSharp_SDialog1510781833MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Application354826772MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Game1600141214.h"
+#include "AssemblyU2DCSharp_HelloPackage1108260788.h"
+#include "AssemblyU2DCSharp_HelloPackage1108260788MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BasePackage3541548393MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Hints638492818.h"
+#include "AssemblyU2DCSharp_Hints638492818MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONArray3986483147.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONNode1250409636MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Random1170710517MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONNode1250409636.h"
+#include "AssemblyU2DCSharp_Strings183934206MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Strings183934206.h"
+#include "AssemblyU2DCSharp_HomeScene3664546087.h"
+#include "AssemblyU2DCSharp_HomeScene3664546087MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Scrollbar3248359358MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameListControl2306893813MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1440998580MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Debug154383703MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Behaviour955675639MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator69676727MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONClass1609506608MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_1909463455MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB1612658294MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator69676727.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONClass1609506608.h"
+#include "mscorlib_System_Nullable_1_gen334943763.h"
+#include "UnityEngine_UI_UnityEngine_UI_Scrollbar3248359358.h"
+#include "AssemblyU2DCSharp_GameListControl2306893813.h"
+#include "AssemblyU2DCSharp_OperatorGame4100832846.h"
+#include "AssemblyU2DCSharp_OperatorGame4100832846MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1440998580.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576.h"
+#include "UnityEngine_UnityEngine_RectTransform3349966182.h"
+#include "UnityEngine_UnityEngine_RuntimeAnimatorController670468573.h"
+#include "AssemblyU2DCSharp_SceneControl3361513587.h"
+#include "AssemblyU2DCSharp_SceneControl3361513587MethodDeclarations.h"
+#include "AssemblyU2DCSharp_User719925459.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_1909463455.h"
+#include "AssemblyU2DCSharp_LoginInfo657176999.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_3020292135MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_3020292135.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_HttpMethod3673888207.h"
+#include "AssemblyU2DCSharp_CubeiaClient2232589536MethodDeclarations.h"
+#include "AssemblyU2DCSharp_CubeiaClient2232589536.h"
+#include "AssemblyU2DCSharp_FBRequest3759256207.h"
+#include "AssemblyU2DCSharp_FBRequest3759256207MethodDeclarations.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CgetRequestDataU3Ec_3181833180MethodDeclarations.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CgetRequestDataU3Ec_3181833180.h"
+#include "AssemblyU2DCSharp_RegFBUserName2686569770.h"
+#include "AssemblyU2DCSharp_User719925459MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Utils4194145797MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Utils_ExeOneSpriteParam3418620788MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Utils_ExeOneSpriteParam3418620788.h"
+#include "AssemblyU2DCSharp_LevelManager3355282079MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Tracking446000577MethodDeclarations.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CloginToGameU3Ec__Ano892008602MethodDeclarations.h"
+#include "AssemblyU2DCSharp_DSTFBEvent1429842317MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3627374100MethodDeclarations.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CloginToGameU3Ec__Ano892008602.h"
+#include "AssemblyU2DCSharp_STabsScene3083040787.h"
+#include "AssemblyU2DCSharp_STabsScene3083040787MethodDeclarations.h"
+#include "AssemblyU2DCSharp_STabsScene_STabType2941064100.h"
+#include "mscorlib_System_Nullable_1_gen339576247.h"
+#include "mscorlib_System_Nullable_1_gen339576247MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261.h"
+#include "mscorlib_System_Action_1_gen3627374100.h"
+#include "AssemblyU2DCSharp_SoundManager654432262MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SoundManager654432262.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1781958757.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CshowChannelChooserU1714117525MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform3275118058MethodDeclarations.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CshowChannelChooserU3280201466MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1781958757MethodDeclarations.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CshowChannelChooserU1714117525.h"
+#include "AssemblyU2DCSharp_HomeScene_U3CshowChannelChooserU3280201466.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutElement2808691390.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "AssemblyU2DCSharp_IPConfig2412837625.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutElement2808691390MethodDeclarations.h"
+#include "mscorlib_System_StringComparison2376310518.h"
+#include "AssemblyU2DCSharp_Utils_Executor2576254565MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Utils_Executor2576254565.h"
+#include "AssemblyU2DCSharp_LoadBalancer148112434MethodDeclarations.h"
+#include "AssemblyU2DCSharp_LoadBalancer148112434.h"
+#include "AssemblyU2DCSharp_HomeSceneTextInit2515867944.h"
+#include "AssemblyU2DCSharp_HomeSceneTextInit2515867944MethodDeclarations.h"
+#include "AssemblyU2DCSharp_HTTPPOSTParam2574473185.h"
+#include "AssemblyU2DCSharp_HTTPPOSTParam2574473185MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONArray3986483147MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iAdBanner2205758560.h"
+#include "AssemblyU2DCSharp_iAdBanner2205758560MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TextAnchor112990806.h"
+#include "System_Core_System_Action3226471752MethodDeclarations.h"
+#include "System_Core_System_Action3226471752.h"
+#include "AssemblyU2DCSharp_iAdBannerController2502498128.h"
+#include "AssemblyU2DCSharp_iAdBannerController2502498128MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen1443098144MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1213584195MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1213584195.h"
+#include "UnityEngine_UnityEngine_iOS_Device833065144MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNativeSettings547170227MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_iOS_DeviceGeneration1717781390.h"
+#include "AssemblyU2DCSharp_IOSNativeSettings547170227.h"
+#include "mscorlib_System_Int322071877448MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1574879692.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1574879692MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_23265896713.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E2533608897.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E2533608897MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_23265896713MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iAdEvent3810634698.h"
+#include "AssemblyU2DCSharp_iAdEvent3810634698MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iAdGravity3870427452.h"
+#include "AssemblyU2DCSharp_iAdGravity3870427452MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iAdIOSBanner1295524391.h"
+#include "AssemblyU2DCSharp_iAdIOSBanner1295524391MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g4120537822MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g4120537822.h"
+#include "AssemblyU2DCSharp_iAdIOSInterstitial2266953957.h"
+#include "AssemblyU2DCSharp_iAdIOSInterstitial2266953957MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iAdUseExample2247018965.h"
+#include "AssemblyU2DCSharp_iAdUseExample2247018965MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUIStyle1799908754MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUIStyleState3801000545MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUIStyle1799908754.h"
+#include "UnityEngine_UnityEngine_GUIStyleState3801000545.h"
+#include "UnityEngine_UnityEngine_FontStyle2764949590.h"
+#include "UnityEngine_UnityEngine_Screen786852042MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUI4082743951MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSMessage2569463336MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSMessage2569463336.h"
+#include "AssemblyU2DCSharp_IAPGG2272086804.h"
+#include "AssemblyU2DCSharp_IAPGG2272086804MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iCloudData3080637488.h"
+#include "AssemblyU2DCSharp_iCloudData3080637488MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iCloudManager2506189173.h"
+#include "AssemblyU2DCSharp_iCloudManager2506189173MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen1446789189MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2577430992.h"
+#include "mscorlib_System_Action_1_gen2882436870.h"
+#include "mscorlib_System_Byte3683104436MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2577430992MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2882436870MethodDeclarations.h"
+#include "AssemblyU2DCSharp_iCloudUseExample1641895601.h"
+#include "AssemblyU2DCSharp_iCloudUseExample1641895601MethodDeclarations.h"
+#include "mscorlib_System_Text_UTF8Encoding111055448MethodDeclarations.h"
+#include "mscorlib_System_Text_UTF8Encoding111055448.h"
+#include "AssemblyU2DCSharp_IOSNativePopUpManager3689761895MethodDeclarations.h"
+#include "AssemblyU2DCSharp_InAppPurchaseState3414001346.h"
+#include "AssemblyU2DCSharp_InAppPurchaseState3414001346MethodDeclarations.h"
+#include "AssemblyU2DCSharp_InvitePlayerBoxControl3082712906.h"
+#include "AssemblyU2DCSharp_InvitePlayerBoxControl3082712906MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEventBase828812576MethodDeclarations.h"
+#include "AssemblyU2DCSharp_WaitingDialog2062014917MethodDeclarations.h"
+#include "AssemblyU2DCSharp_WaitingDialog2062014917.h"
+#include "AssemblyU2DCSharp_InvitePlayerBoxControl_U3CshowPl2951125539MethodDeclarations.h"
+#include "AssemblyU2DCSharp_InvitePlayerBoxControl_U3CshowPl2951125539.h"
+#include "AssemblyU2DCSharp_IOSBillingInitChecker4166635083.h"
+#include "AssemblyU2DCSharp_IOSBillingInitChecker4166635083MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSBillingInitChecker_BillingIni4162012659.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen3880193697MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSInAppPurchaseManager644626385MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSBillingInitChecker_BillingIni4162012659MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSInAppPurchaseManager644626385.h"
+#include "mscorlib_System_AsyncCallback163412349.h"
+#include "AssemblyU2DCSharp_IOSCamera2845108690.h"
+#include "AssemblyU2DCSharp_IOSCamera2845108690MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen1785708706MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1473133776.h"
+#include "mscorlib_System_Action_1_gen1831019615.h"
+#include "AssemblyU2DCSharp_IOSGalleryLoadImageFormat518894765.h"
+#include "UnityEngine_UnityEngine_Coroutine2299508840.h"
+#include "AssemblyU2DCSharp_IOSImagePickResult1671334394MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1473133776MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSImagePickResult1671334394.h"
+#include "mscorlib_System_Action_1_gen1831019615MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSCamera_U3CSaveScreenshotU3Ec__106016999MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSCamera_U3CSaveScreenshotU3Ec__106016999.h"
+#include "UnityEngine_UnityEngine_WaitForEndOfFrame1785723201MethodDeclarations.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "UnityEngine_UnityEngine_WaitForEndOfFrame1785723201.h"
+#include "UnityEngine_UnityEngine_TextureFormat1386130234.h"
+#include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "AssemblyU2DCSharp_IOSDateTimePicker849222074.h"
+#include "AssemblyU2DCSharp_IOSDateTimePicker849222074MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen495005051MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen4084789386MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen495005051.h"
+#include "AssemblyU2DCSharp_IOSDateTimePickerMode3227591715.h"
+#include "AssemblyU2DCSharp_IOSDateTimePickerMode3227591715MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSDialog3518705031.h"
+#include "AssemblyU2DCSharp_IOSDialog3518705031MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3541040698MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BaseIOSPopup3320937364MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3541040698.h"
+#include "AssemblyU2DCSharp_IOSDialogResult3739241316.h"
+#include "AssemblyU2DCSharp_BaseIOSPopup3320937364.h"
+#include "mscorlib_System_Int164041245914.h"
+#include "AssemblyU2DCSharp_IOSDialogResult3739241316MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSGalleryLoadImageFormat518894765MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSGravity1757344581.h"
+#include "AssemblyU2DCSharp_IOSGravity1757344581MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_HideFlags1434274199.h"
+#include "UnityEngine_UnityEngine_Texture2243626319MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen405719514MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3909993199MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen405719514.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3909993199.h"
+#include "mscorlib_System_Action_1_gen2161206965.h"
+#include "mscorlib_System_Action_1_gen3107075537.h"
+#include "mscorlib_System_Action_1_gen4065457964.h"
+#include "AssemblyU2DCSharp_IOSNativeMarketBridge1553898649MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat933071039.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat933071039MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSTransactionErrorCode1822631322.h"
+#include "AssemblyU2DCSharp_IOSProductTemplate1036598382.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4235416484.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4235416484MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Error553253557MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSStoreKitRestoreResult3305276155MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3107075537MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSStoreKitRestoreResult3305276155.h"
+#include "AssemblyU2DCSharp_IOSStoreProductView607200268.h"
+#include "AssemblyU2DCSharp_IOSStoreProductView607200268MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSProductTemplate1036598382MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSStoreKitResult2359407583MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2161206965MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSStoreKitResult2359407583.h"
+#include "AssemblyU2DCSharp_IOSStoreKitVerificationResponse4263658582MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen4065457964MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSStoreKitVerificationResponse4263658582.h"
+#include "AssemblyU2DCSharp_IOSNative1234227034.h"
+#include "AssemblyU2DCSharp_IOSNativeAppEvents694411788.h"
+#include "AssemblyU2DCSharp_IOSNativeAppEvents694411788MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen3929979100MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNativeFeaturesPreview172115631.h"
+#include "AssemblyU2DCSharp_IOSNativeFeaturesPreview172115631MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BaseIOSFeaturePreview3055692840MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNativePreviewBackButton2513092733MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNativePreviewBackButton2513092733.h"
+#include "AssemblyU2DCSharp_BaseIOSFeaturePreview3055692840.h"
+#include "AssemblyU2DCSharp_IOSNativeMarketBridge1553898649.h"
+#include "AssemblyU2DCSharp_IOSNativePopUpManager3689761895.h"
+#include "UnityEngine_UnityEngine_ScriptableObject1975622470MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Resources339470017MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ScriptableObject1975622470.h"
+#include "AssemblyU2DCSharp_IOSNativeUtility933355194.h"
+#include "AssemblyU2DCSharp_IOSNativeUtility933355194MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNotificationController796362558.h"
+#include "AssemblyU2DCSharp_IOSNotificationController796362558MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2056052277MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen4031929870MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2056052277.h"
+#include "UnityEngine_UnityEngine_iOS_RemoteNotification2254252895.h"
+#include "mscorlib_System_Action_1_gen2364224027.h"
+#include "mscorlib_System_Action_1_gen1873676830.h"
+#include "mscorlib_System_Action_1_gen74986071.h"
+#include "UnityEngine_UnityEngine_iOS_NotificationServices91645445MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_iOS_LocalNotification317971878MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_LocalNotification273186689MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_iOS_LocalNotification317971878.h"
+#include "AssemblyU2DCSharp_ISN_LocalNotification273186689.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "UnityEngine_UnityEngine_iOS_RemoteNotification2254252895MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_iOS_NotificationType3745088907.h"
+#include "UnityEngine_UnityEngine_SystemInfo2353426895MethodDeclarations.h"
+#include "AssemblyU2DCSharp_DeviceTokenListener3000307467MethodDeclarations.h"
+#include "mscorlib_System_TimeSpan3430258949.h"
+#include "mscorlib_System_TimeSpan3430258949MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_PlayerPrefs3325146001MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNotificationDeviceToken2562424645.h"
+#include "mscorlib_System_Action_1_gen2364224027MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1873676830MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen74986071MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSNotificationDeviceToken2562424645MethodDeclarations.h"
+#include "mscorlib_System_BitConverter3195628829MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSRateUsPopUp2222998473.h"
+#include "AssemblyU2DCSharp_IOSRateUsPopUp2222998473MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSSharedApplication4065685598.h"
+#include "AssemblyU2DCSharp_IOSSharedApplication4065685598MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen3006285614MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1447523883.h"
+#include "AssemblyU2DCSharp_ISN_CheckUrlResult1645724501MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1447523883MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_CheckUrlResult1645724501.h"
+#include "AssemblyU2DCSharp_IOSSocialManager2957403963.h"
+#include "AssemblyU2DCSharp_IOSSocialManager2957403963MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen1898003979MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample1825493211.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample1825493211MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample_U3CPostScree2989829515MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample_U3CPostScree2989829515.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample_U3CPostTwitt2799471815MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample_U3CPostTwitt2799471815.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample_U3CPostFBScr2908493817MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSSocialUseExample_U3CPostFBScr2908493817.h"
+#include "AssemblyU2DCSharp_IOSStoreResultCode365779630.h"
+#include "AssemblyU2DCSharp_IOSStoreResultCode365779630MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSTransactionErrorCode1822631322MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSUIUserNotificationType1946295863.h"
+#include "AssemblyU2DCSharp_IOSUIUserNotificationType1946295863MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IOSVideoManager3003649481.h"
+#include "AssemblyU2DCSharp_IOSVideoManager3003649481MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ISN_Singleton_1_gen1944249497MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IPCHOSEN4233482351.h"
+#include "AssemblyU2DCSharp_IPCHOSEN4233482351MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_InputField1631627530MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_InputField1631627530.h"
+
+// !!0 System.Threading.Interlocked::CompareExchange<System.Object>(!!0&,!!0,!!0)
+extern "C"  Il2CppObject * Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject ** p0, Il2CppObject * p1, Il2CppObject * p2, const MethodInfo* method);
+#define Interlocked_CompareExchange_TisIl2CppObject_m2145889806(__this /* static, unused */, p0, p1, p2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject **, Il2CppObject *, Il2CppObject *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<ISN_LoadSetLeaderboardsInfoResult>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t3799589186_m2790368861(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t3799589186 * (*) (Il2CppObject * /* static, unused */, Action_1_t3799589186 **, Action_1_t3799589186 *, Action_1_t3799589186 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<GK_UserPhotoLoadResult>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t1415997413_m4157885142(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t1415997413 * (*) (Il2CppObject * /* static, unused */, Action_1_t1415997413 **, Action_1_t1415997413 *, Action_1_t1415997413 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m4109961936(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Image>()
+#define Component_GetComponent_TisImage_t2042527209_m2189462422(__this, method) ((  Image_t2042527209 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Animator>()
+#define Component_GetComponent_TisAnimator_t69676727_m475627522(__this, method) ((  Animator_t69676727 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
+#define Component_GetComponent_TisRectTransform_t3349966182_m1310250299(__this, method) ((  RectTransform_t3349966182 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m737565264_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m737565264(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.RectTransform>()
+#define GameObject_AddComponent_TisRectTransform_t3349966182_m4066292940(__this, method) ((  RectTransform_t3349966182 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Image>()
+#define GameObject_AddComponent_TisImage_t2042527209_m4249278385(__this, method) ((  Image_t2042527209 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Button>()
+#define GameObject_AddComponent_TisButton_t2872111280_m2040183338(__this, method) ((  Button_t2872111280 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.LayoutElement>()
+#define GameObject_AddComponent_TisLayoutElement_t2808691390_m2435425422(__this, method) ((  LayoutElement_t2808691390 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_t3226471752_m2418825588(__this /* static, unused */, p0, p1, p2, method) ((  Action_t3226471752 * (*) (Il2CppObject * /* static, unused */, Action_t3226471752 **, Action_t3226471752 *, Action_t3226471752 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<ISN_Result>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t2577430992_m3390389589(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t2577430992 * (*) (Il2CppObject * /* static, unused */, Action_1_t2577430992 **, Action_1_t2577430992 *, Action_1_t2577430992 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<iCloudData>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t2882436870_m2078854671(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t2882436870 * (*) (Il2CppObject * /* static, unused */, Action_1_t2882436870 **, Action_1_t2882436870 *, Action_1_t2882436870 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m447919519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m447919519(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.RectTransform>(!!0)
+#define Object_Instantiate_TisRectTransform_t3349966182_m2279203877(__this /* static, unused */, p0, method) ((  RectTransform_t3349966182 * (*) (Il2CppObject * /* static, unused */, RectTransform_t3349966182 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Text>()
+#define Component_GetComponent_TisText_t356221433_m1342661039(__this, method) ((  Text_t356221433 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Button>()
+#define Component_GetComponent_TisButton_t2872111280_m3412601438(__this, method) ((  Button_t2872111280 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<IOSImagePickResult>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t1473133776_m2768305981(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t1473133776 * (*) (Il2CppObject * /* static, unused */, Action_1_t1473133776 **, Action_1_t1473133776 *, Action_1_t1473133776 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<System.String>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t1831019615_m1117697401(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t1831019615 * (*) (Il2CppObject * /* static, unused */, Action_1_t1831019615 **, Action_1_t1831019615 *, Action_1_t1831019615 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<IOSDialogResult>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t3541040698_m1999136743(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t3541040698 * (*) (Il2CppObject * /* static, unused */, Action_1_t3541040698 **, Action_1_t3541040698 *, Action_1_t3541040698 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.GameObject::AddComponent<IOSDialog>()
+#define GameObject_AddComponent_TisIOSDialog_t3518705031_m2261869937(__this, method) ((  IOSDialog_t3518705031 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<IOSStoreKitResult>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t2161206965_m1887358992(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t2161206965 * (*) (Il2CppObject * /* static, unused */, Action_1_t2161206965 **, Action_1_t2161206965 *, Action_1_t2161206965 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<IOSStoreKitRestoreResult>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t3107075537_m2607509146(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t3107075537 * (*) (Il2CppObject * /* static, unused */, Action_1_t3107075537 **, Action_1_t3107075537 *, Action_1_t3107075537 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<System.Boolean>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t3627374100_m1345479308(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t3627374100 * (*) (Il2CppObject * /* static, unused */, Action_1_t3627374100 **, Action_1_t3627374100 *, Action_1_t3627374100 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<IOSStoreKitVerificationResponse>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t4065457964_m3758705657(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t4065457964 * (*) (Il2CppObject * /* static, unused */, Action_1_t4065457964 **, Action_1_t4065457964 *, Action_1_t4065457964 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.GameObject::AddComponent<IOSMessage>()
+#define GameObject_AddComponent_TisIOSMessage_t2569463336_m726090906(__this, method) ((  IOSMessage_t2569463336 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<IOSNativePreviewBackButton>()
+#define GameObject_AddComponent_TisIOSNativePreviewBackButton_t2513092733_m881900763(__this, method) ((  IOSNativePreviewBackButton_t2513092733 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
+extern "C"  Il2CppObject * ScriptableObject_CreateInstance_TisIl2CppObject_m658541722_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+#define ScriptableObject_CreateInstance_TisIl2CppObject_m658541722(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisIl2CppObject_m658541722_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.ScriptableObject::CreateInstance<IOSNativeSettings>()
+#define ScriptableObject_CreateInstance_TisIOSNativeSettings_t547170227_m347344897(__this /* static, unused */, method) ((  IOSNativeSettings_t547170227 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisIl2CppObject_m658541722_gshared)(__this /* static, unused */, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<IOSNotificationDeviceToken>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t2364224027_m686591022(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t2364224027 * (*) (Il2CppObject * /* static, unused */, Action_1_t2364224027 **, Action_1_t2364224027 *, Action_1_t2364224027 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<System.Int32>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t1873676830_m829738460(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t1873676830 * (*) (Il2CppObject * /* static, unused */, Action_1_t1873676830 **, Action_1_t1873676830 *, Action_1_t1873676830 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<ISN_LocalNotification>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t74986071_m126654482(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t74986071 * (*) (Il2CppObject * /* static, unused */, Action_1_t74986071 **, Action_1_t74986071 *, Action_1_t74986071 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.GameObject::AddComponent<IOSRateUsPopUp>()
+#define GameObject_AddComponent_TisIOSRateUsPopUp_t2222998473_m2444019535(__this, method) ((  IOSRateUsPopUp_t2222998473 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Action`1<ISN_CheckUrlResult>>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisAction_1_t1447523883_m1252560628(__this /* static, unused */, p0, p1, p2, method) ((  Action_1_t1447523883 * (*) (Il2CppObject * /* static, unused */, Action_1_t1447523883 **, Action_1_t1447523883 *, Action_1_t1447523883 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GK_Leaderboard::.ctor(System.String)
+extern Il2CppClass* GK_ScoreCollection_t4092547735_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3986656710_il2cpp_TypeInfo_var;
+extern Il2CppClass* GK_LeaderBoardInfo_t3670215494_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2063026683_MethodInfo_var;
+extern const uint32_t GK_Leaderboard__ctor_m514030255_MetadataUsageId;
+extern "C"  void GK_Leaderboard__ctor_m514030255 (GK_Leaderboard_t156446466 * __this, String_t* ___leaderboardId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Leaderboard__ctor_m514030255_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GK_ScoreCollection_t4092547735 * L_0 = (GK_ScoreCollection_t4092547735 *)il2cpp_codegen_object_new(GK_ScoreCollection_t4092547735_il2cpp_TypeInfo_var);
+		GK_ScoreCollection__ctor_m3905816586(L_0, /*hidden argument*/NULL);
+		__this->set_SocsialCollection_0(L_0);
+		GK_ScoreCollection_t4092547735 * L_1 = (GK_ScoreCollection_t4092547735 *)il2cpp_codegen_object_new(GK_ScoreCollection_t4092547735_il2cpp_TypeInfo_var);
+		GK_ScoreCollection__ctor_m3905816586(L_1, /*hidden argument*/NULL);
+		__this->set_GlobalCollection_1(L_1);
+		Dictionary_2_t3986656710 * L_2 = (Dictionary_2_t3986656710 *)il2cpp_codegen_object_new(Dictionary_2_t3986656710_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2063026683(L_2, /*hidden argument*/Dictionary_2__ctor_m2063026683_MethodInfo_var);
+		__this->set_currentPlayerRank_2(L_2);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		GK_LeaderBoardInfo_t3670215494 * L_3 = (GK_LeaderBoardInfo_t3670215494 *)il2cpp_codegen_object_new(GK_LeaderBoardInfo_t3670215494_il2cpp_TypeInfo_var);
+		GK_LeaderBoardInfo__ctor_m806425819(L_3, /*hidden argument*/NULL);
+		__this->set__info_3(L_3);
+		GK_LeaderBoardInfo_t3670215494 * L_4 = __this->get__info_3();
+		String_t* L_5 = ___leaderboardId0;
+		NullCheck(L_4);
+		L_4->set_Identifier_2(L_5);
+		return;
+	}
+}
+// System.Void GK_Leaderboard::UpdateMaxRange(System.Int32)
+extern "C"  void GK_Leaderboard_UpdateMaxRange_m320142594 (GK_Leaderboard_t156446466 * __this, int32_t ___MR0, const MethodInfo* method)
+{
+	{
+		GK_LeaderBoardInfo_t3670215494 * L_0 = __this->get__info_3();
+		int32_t L_1 = ___MR0;
+		NullCheck(L_0);
+		L_0->set_MaxRange_3(L_1);
+		return;
+	}
+}
+// System.String GK_Leaderboard::get_id()
+extern "C"  String_t* GK_Leaderboard_get_id_m4277779664 (GK_Leaderboard_t156446466 * __this, const MethodInfo* method)
+{
+	{
+		GK_LeaderBoardInfo_t3670215494 * L_0 = __this->get__info_3();
+		NullCheck(L_0);
+		String_t* L_1 = L_0->get_Identifier_2();
+		return L_1;
+	}
+}
+// GK_Score GK_Leaderboard::GetCurrentPlayerScore(GK_TimeSpan,GK_CollectionType)
+extern Il2CppClass* GK_TimeSpan_t1050271570_il2cpp_TypeInfo_var;
+extern Il2CppClass* GK_CollectionType_t3353981271_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m3588976330_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2505440573_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029427;
+extern const uint32_t GK_Leaderboard_GetCurrentPlayerScore_m519184194_MetadataUsageId;
+extern "C"  GK_Score_t1529008873 * GK_Leaderboard_GetCurrentPlayerScore_m519184194 (GK_Leaderboard_t156446466 * __this, int32_t ___timeSpan0, int32_t ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Leaderboard_GetCurrentPlayerScore_m519184194_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		Il2CppObject * L_0 = Box(GK_TimeSpan_t1050271570_il2cpp_TypeInfo_var, (&___timeSpan0));
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
+		Il2CppObject * L_2 = Box(GK_CollectionType_t3353981271_il2cpp_TypeInfo_var, (&___collection1));
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m612901809(NULL /*static, unused*/, L_1, _stringLiteral372029427, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Dictionary_2_t3986656710 * L_5 = __this->get_currentPlayerRank_2();
+		String_t* L_6 = V_0;
+		NullCheck(L_5);
+		bool L_7 = Dictionary_2_ContainsKey_m3588976330(L_5, L_6, /*hidden argument*/Dictionary_2_ContainsKey_m3588976330_MethodInfo_var);
+		if (!L_7)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_8 = __this->get_currentPlayerRank_2();
+		String_t* L_9 = V_0;
+		NullCheck(L_8);
+		int32_t L_10 = Dictionary_2_get_Item_m2505440573(L_8, L_9, /*hidden argument*/Dictionary_2_get_Item_m2505440573_MethodInfo_var);
+		V_1 = L_10;
+		int32_t L_11 = V_1;
+		int32_t L_12 = ___timeSpan0;
+		int32_t L_13 = ___collection1;
+		GK_Score_t1529008873 * L_14 = GK_Leaderboard_GetScore_m1784258193(__this, L_11, L_12, L_13, /*hidden argument*/NULL);
+		return L_14;
+	}
+
+IL_004d:
+	{
+		return (GK_Score_t1529008873 *)NULL;
+	}
+}
+// System.Void GK_Leaderboard::UpdateCurrentPlayerRank(System.Int32,GK_TimeSpan,GK_CollectionType)
+extern Il2CppClass* GK_TimeSpan_t1050271570_il2cpp_TypeInfo_var;
+extern Il2CppClass* GK_CollectionType_t3353981271_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m3588976330_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m315471458_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m1209957957_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029427;
+extern const uint32_t GK_Leaderboard_UpdateCurrentPlayerRank_m2922132226_MetadataUsageId;
+extern "C"  void GK_Leaderboard_UpdateCurrentPlayerRank_m2922132226 (GK_Leaderboard_t156446466 * __this, int32_t ___rank0, int32_t ___timeSpan1, int32_t ___collection2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Leaderboard_UpdateCurrentPlayerRank_m2922132226_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		Il2CppObject * L_0 = Box(GK_TimeSpan_t1050271570_il2cpp_TypeInfo_var, (&___timeSpan1));
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
+		Il2CppObject * L_2 = Box(GK_CollectionType_t3353981271_il2cpp_TypeInfo_var, (&___collection2));
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m612901809(NULL /*static, unused*/, L_1, _stringLiteral372029427, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Dictionary_2_t3986656710 * L_5 = __this->get_currentPlayerRank_2();
+		String_t* L_6 = V_0;
+		NullCheck(L_5);
+		bool L_7 = Dictionary_2_ContainsKey_m3588976330(L_5, L_6, /*hidden argument*/Dictionary_2_ContainsKey_m3588976330_MethodInfo_var);
+		if (!L_7)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_8 = __this->get_currentPlayerRank_2();
+		String_t* L_9 = V_0;
+		int32_t L_10 = ___rank0;
+		NullCheck(L_8);
+		Dictionary_2_set_Item_m315471458(L_8, L_9, L_10, /*hidden argument*/Dictionary_2_set_Item_m315471458_MethodInfo_var);
+		goto IL_0055;
+	}
+
+IL_0048:
+	{
+		Dictionary_2_t3986656710 * L_11 = __this->get_currentPlayerRank_2();
+		String_t* L_12 = V_0;
+		int32_t L_13 = ___rank0;
+		NullCheck(L_11);
+		Dictionary_2_Add_m1209957957(L_11, L_12, L_13, /*hidden argument*/Dictionary_2_Add_m1209957957_MethodInfo_var);
+	}
+
+IL_0055:
+	{
+		return;
+	}
+}
+// GK_Score GK_Leaderboard::GetScore(System.Int32,GK_TimeSpan,GK_CollectionType)
+extern const MethodInfo* Dictionary_2_ContainsKey_m2173528515_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m3492642774_MethodInfo_var;
+extern const uint32_t GK_Leaderboard_GetScore_m1784258193_MetadataUsageId;
+extern "C"  GK_Score_t1529008873 * GK_Leaderboard_GetScore_m1784258193 (GK_Leaderboard_t156446466 * __this, int32_t ___rank0, int32_t ___scope1, int32_t ___collection2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Leaderboard_GetScore_m1784258193_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GK_ScoreCollection_t4092547735 * V_0 = NULL;
+	Dictionary_2_t536834508 * V_1 = NULL;
+	{
+		GK_ScoreCollection_t4092547735 * L_0 = __this->get_GlobalCollection_1();
+		V_0 = L_0;
+		int32_t L_1 = ___collection2;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_2 = ___collection2;
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		goto IL_0031;
+	}
+
+IL_0019:
+	{
+		GK_ScoreCollection_t4092547735 * L_3 = __this->get_GlobalCollection_1();
+		V_0 = L_3;
+		goto IL_0031;
+	}
+
+IL_0025:
+	{
+		GK_ScoreCollection_t4092547735 * L_4 = __this->get_SocsialCollection_0();
+		V_0 = L_4;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		GK_ScoreCollection_t4092547735 * L_5 = V_0;
+		NullCheck(L_5);
+		Dictionary_2_t536834508 * L_6 = L_5->get_AllTimeScores_0();
+		V_1 = L_6;
+		int32_t L_7 = ___scope1;
+		if ((((int32_t)L_7) == ((int32_t)2)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		int32_t L_8 = ___scope1;
+		if (!L_8)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_9 = ___scope1;
+		if ((((int32_t)L_9) == ((int32_t)1)))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		goto IL_0075;
+	}
+
+IL_0051:
+	{
+		GK_ScoreCollection_t4092547735 * L_10 = V_0;
+		NullCheck(L_10);
+		Dictionary_2_t536834508 * L_11 = L_10->get_AllTimeScores_0();
+		V_1 = L_11;
+		goto IL_0075;
+	}
+
+IL_005d:
+	{
+		GK_ScoreCollection_t4092547735 * L_12 = V_0;
+		NullCheck(L_12);
+		Dictionary_2_t536834508 * L_13 = L_12->get_TodayScores_2();
+		V_1 = L_13;
+		goto IL_0075;
+	}
+
+IL_0069:
+	{
+		GK_ScoreCollection_t4092547735 * L_14 = V_0;
+		NullCheck(L_14);
+		Dictionary_2_t536834508 * L_15 = L_14->get_WeekScores_1();
+		V_1 = L_15;
+		goto IL_0075;
+	}
+
+IL_0075:
+	{
+		Dictionary_2_t536834508 * L_16 = V_1;
+		int32_t L_17 = ___rank0;
+		NullCheck(L_16);
+		bool L_18 = Dictionary_2_ContainsKey_m2173528515(L_16, L_17, /*hidden argument*/Dictionary_2_ContainsKey_m2173528515_MethodInfo_var);
+		if (!L_18)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		Dictionary_2_t536834508 * L_19 = V_1;
+		int32_t L_20 = ___rank0;
+		NullCheck(L_19);
+		GK_Score_t1529008873 * L_21 = Dictionary_2_get_Item_m3492642774(L_19, L_20, /*hidden argument*/Dictionary_2_get_Item_m3492642774_MethodInfo_var);
+		return L_21;
+	}
+
+IL_0089:
+	{
+		return (GK_Score_t1529008873 *)NULL;
+	}
+}
+// System.Void GK_Leaderboard::UpdateScore(GK_Score)
+extern const MethodInfo* Dictionary_2_ContainsKey_m2173528515_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m1707580519_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m72644636_MethodInfo_var;
+extern const uint32_t GK_Leaderboard_UpdateScore_m320682139_MetadataUsageId;
+extern "C"  void GK_Leaderboard_UpdateScore_m320682139 (GK_Leaderboard_t156446466 * __this, GK_Score_t1529008873 * ___s0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Leaderboard_UpdateScore_m320682139_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GK_ScoreCollection_t4092547735 * V_0 = NULL;
+	int32_t V_1 = 0;
+	Dictionary_2_t536834508 * V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		GK_ScoreCollection_t4092547735 * L_0 = __this->get_GlobalCollection_1();
+		V_0 = L_0;
+		GK_Score_t1529008873 * L_1 = ___s0;
+		NullCheck(L_1);
+		int32_t L_2 = GK_Score_get_collection_m1450655985(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		goto IL_0038;
+	}
+
+IL_0020:
+	{
+		GK_ScoreCollection_t4092547735 * L_5 = __this->get_GlobalCollection_1();
+		V_0 = L_5;
+		goto IL_0038;
+	}
+
+IL_002c:
+	{
+		GK_ScoreCollection_t4092547735 * L_6 = __this->get_SocsialCollection_0();
+		V_0 = L_6;
+		goto IL_0038;
+	}
+
+IL_0038:
+	{
+		GK_ScoreCollection_t4092547735 * L_7 = V_0;
+		NullCheck(L_7);
+		Dictionary_2_t536834508 * L_8 = L_7->get_AllTimeScores_0();
+		V_2 = L_8;
+		GK_Score_t1529008873 * L_9 = ___s0;
+		NullCheck(L_9);
+		int32_t L_10 = GK_Score_get_timeSpan_m2295372369(L_9, /*hidden argument*/NULL);
+		V_3 = L_10;
+		int32_t L_11 = V_3;
+		if ((((int32_t)L_11) == ((int32_t)2)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		int32_t L_12 = V_3;
+		if (!L_12)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		int32_t L_13 = V_3;
+		if ((((int32_t)L_13) == ((int32_t)1)))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		goto IL_0083;
+	}
+
+IL_005f:
+	{
+		GK_ScoreCollection_t4092547735 * L_14 = V_0;
+		NullCheck(L_14);
+		Dictionary_2_t536834508 * L_15 = L_14->get_AllTimeScores_0();
+		V_2 = L_15;
+		goto IL_0083;
+	}
+
+IL_006b:
+	{
+		GK_ScoreCollection_t4092547735 * L_16 = V_0;
+		NullCheck(L_16);
+		Dictionary_2_t536834508 * L_17 = L_16->get_TodayScores_2();
+		V_2 = L_17;
+		goto IL_0083;
+	}
+
+IL_0077:
+	{
+		GK_ScoreCollection_t4092547735 * L_18 = V_0;
+		NullCheck(L_18);
+		Dictionary_2_t536834508 * L_19 = L_18->get_WeekScores_1();
+		V_2 = L_19;
+		goto IL_0083;
+	}
+
+IL_0083:
+	{
+		Dictionary_2_t536834508 * L_20 = V_2;
+		GK_Score_t1529008873 * L_21 = ___s0;
+		NullCheck(L_21);
+		int32_t L_22 = GK_Score_GetRank_m1671417246(L_21, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		bool L_23 = Dictionary_2_ContainsKey_m2173528515(L_20, L_22, /*hidden argument*/Dictionary_2_ContainsKey_m2173528515_MethodInfo_var);
+		if (!L_23)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		Dictionary_2_t536834508 * L_24 = V_2;
+		GK_Score_t1529008873 * L_25 = ___s0;
+		NullCheck(L_25);
+		int32_t L_26 = GK_Score_GetRank_m1671417246(L_25, /*hidden argument*/NULL);
+		GK_Score_t1529008873 * L_27 = ___s0;
+		NullCheck(L_24);
+		Dictionary_2_set_Item_m1707580519(L_24, L_26, L_27, /*hidden argument*/Dictionary_2_set_Item_m1707580519_MethodInfo_var);
+		goto IL_00b3;
+	}
+
+IL_00a6:
+	{
+		Dictionary_2_t536834508 * L_28 = V_2;
+		GK_Score_t1529008873 * L_29 = ___s0;
+		NullCheck(L_29);
+		int32_t L_30 = GK_Score_GetRank_m1671417246(L_29, /*hidden argument*/NULL);
+		GK_Score_t1529008873 * L_31 = ___s0;
+		NullCheck(L_28);
+		Dictionary_2_Add_m72644636(L_28, L_30, L_31, /*hidden argument*/Dictionary_2_Add_m72644636_MethodInfo_var);
+	}
+
+IL_00b3:
+	{
+		return;
+	}
+}
+// GK_LeaderBoardInfo GK_Leaderboard::get_Info()
+extern "C"  GK_LeaderBoardInfo_t3670215494 * GK_Leaderboard_get_Info_m3361383225 (GK_Leaderboard_t156446466 * __this, const MethodInfo* method)
+{
+	{
+		GK_LeaderBoardInfo_t3670215494 * L_0 = __this->get__info_3();
+		return L_0;
+	}
+}
+// System.Void GK_LeaderBoardInfo::.ctor()
+extern "C"  void GK_LeaderBoardInfo__ctor_m806425819 (GK_LeaderBoardInfo_t3670215494 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_LeaderboardSet::.ctor()
+extern Il2CppClass* List_1_t3039336626_il2cpp_TypeInfo_var;
+extern Il2CppClass* GK_LeaderboardSet_t5314098_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3799589186_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1637609285_MethodInfo_var;
+extern const MethodInfo* GK_LeaderboardSet_U3COnLoaderboardsInfoLoadedU3Em__0_m372389780_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m720534855_MethodInfo_var;
+extern const uint32_t GK_LeaderboardSet__ctor_m4037191723_MetadataUsageId;
+extern "C"  void GK_LeaderboardSet__ctor_m4037191723 (GK_LeaderboardSet_t5314098 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_LeaderboardSet__ctor_m4037191723_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GK_LeaderboardSet_t5314098 * G_B2_0 = NULL;
+	GK_LeaderboardSet_t5314098 * G_B1_0 = NULL;
+	{
+		List_1_t3039336626 * L_0 = (List_1_t3039336626 *)il2cpp_codegen_object_new(List_1_t3039336626_il2cpp_TypeInfo_var);
+		List_1__ctor_m1637609285(L_0, /*hidden argument*/List_1__ctor_m1637609285_MethodInfo_var);
+		__this->set__BoardsInfo_3(L_0);
+		Action_1_t3799589186 * L_1 = ((GK_LeaderboardSet_t5314098_StaticFields*)GK_LeaderboardSet_t5314098_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_5();
+		G_B1_0 = __this;
+		if (L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_0024;
+		}
+	}
+	{
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)GK_LeaderboardSet_U3COnLoaderboardsInfoLoadedU3Em__0_m372389780_MethodInfo_var);
+		Action_1_t3799589186 * L_3 = (Action_1_t3799589186 *)il2cpp_codegen_object_new(Action_1_t3799589186_il2cpp_TypeInfo_var);
+		Action_1__ctor_m720534855(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m720534855_MethodInfo_var);
+		((GK_LeaderboardSet_t5314098_StaticFields*)GK_LeaderboardSet_t5314098_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_5(L_3);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0024:
+	{
+		Action_1_t3799589186 * L_4 = ((GK_LeaderboardSet_t5314098_StaticFields*)GK_LeaderboardSet_t5314098_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_5();
+		NullCheck(G_B2_0);
+		G_B2_0->set_OnLoaderboardsInfoLoaded_4(L_4);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_LeaderboardSet::add_OnLoaderboardsInfoLoaded(System.Action`1<ISN_LoadSetLeaderboardsInfoResult>)
+extern Il2CppClass* Action_1_t3799589186_il2cpp_TypeInfo_var;
+extern const uint32_t GK_LeaderboardSet_add_OnLoaderboardsInfoLoaded_m1875335581_MetadataUsageId;
+extern "C"  void GK_LeaderboardSet_add_OnLoaderboardsInfoLoaded_m1875335581 (GK_LeaderboardSet_t5314098 * __this, Action_1_t3799589186 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_LeaderboardSet_add_OnLoaderboardsInfoLoaded_m1875335581_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3799589186 * V_0 = NULL;
+	Action_1_t3799589186 * V_1 = NULL;
+	{
+		Action_1_t3799589186 * L_0 = __this->get_OnLoaderboardsInfoLoaded_4();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t3799589186 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t3799589186 ** L_2 = __this->get_address_of_OnLoaderboardsInfoLoaded_4();
+		Action_1_t3799589186 * L_3 = V_1;
+		Action_1_t3799589186 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t3799589186 * L_6 = V_0;
+		Action_1_t3799589186 * L_7 = InterlockedCompareExchangeImpl<Action_1_t3799589186 *>(L_2, ((Action_1_t3799589186 *)CastclassSealed(L_5, Action_1_t3799589186_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t3799589186 * L_8 = V_0;
+		Action_1_t3799589186 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3799589186 *)L_8) == ((Il2CppObject*)(Action_1_t3799589186 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GK_LeaderboardSet::remove_OnLoaderboardsInfoLoaded(System.Action`1<ISN_LoadSetLeaderboardsInfoResult>)
+extern Il2CppClass* Action_1_t3799589186_il2cpp_TypeInfo_var;
+extern const uint32_t GK_LeaderboardSet_remove_OnLoaderboardsInfoLoaded_m3575442564_MetadataUsageId;
+extern "C"  void GK_LeaderboardSet_remove_OnLoaderboardsInfoLoaded_m3575442564 (GK_LeaderboardSet_t5314098 * __this, Action_1_t3799589186 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_LeaderboardSet_remove_OnLoaderboardsInfoLoaded_m3575442564_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3799589186 * V_0 = NULL;
+	Action_1_t3799589186 * V_1 = NULL;
+	{
+		Action_1_t3799589186 * L_0 = __this->get_OnLoaderboardsInfoLoaded_4();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t3799589186 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t3799589186 ** L_2 = __this->get_address_of_OnLoaderboardsInfoLoaded_4();
+		Action_1_t3799589186 * L_3 = V_1;
+		Action_1_t3799589186 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t3799589186 * L_6 = V_0;
+		Action_1_t3799589186 * L_7 = InterlockedCompareExchangeImpl<Action_1_t3799589186 *>(L_2, ((Action_1_t3799589186 *)CastclassSealed(L_5, Action_1_t3799589186_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t3799589186 * L_8 = V_0;
+		Action_1_t3799589186 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3799589186 *)L_8) == ((Il2CppObject*)(Action_1_t3799589186 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GK_LeaderboardSet::LoadLeaderBoardsInfo()
+extern Il2CppClass* GameCenterManager_t1487113918_il2cpp_TypeInfo_var;
+extern const uint32_t GK_LeaderboardSet_LoadLeaderBoardsInfo_m3451662405_MetadataUsageId;
+extern "C"  void GK_LeaderboardSet_LoadLeaderBoardsInfo_m3451662405 (GK_LeaderboardSet_t5314098 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_LeaderboardSet_LoadLeaderBoardsInfo_m3451662405_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get_Identifier_1();
+		IL2CPP_RUNTIME_CLASS_INIT(GameCenterManager_t1487113918_il2cpp_TypeInfo_var);
+		GameCenterManager_LoadLeaderboardsForSet_m2910313566(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_LeaderboardSet::AddBoardInfo(GK_LeaderBoardInfo)
+extern const MethodInfo* List_1_Add_m703258161_MethodInfo_var;
+extern const uint32_t GK_LeaderboardSet_AddBoardInfo_m511792578_MetadataUsageId;
+extern "C"  void GK_LeaderboardSet_AddBoardInfo_m511792578 (GK_LeaderboardSet_t5314098 * __this, GK_LeaderBoardInfo_t3670215494 * ___info0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_LeaderboardSet_AddBoardInfo_m511792578_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3039336626 * L_0 = __this->get__BoardsInfo_3();
+		GK_LeaderBoardInfo_t3670215494 * L_1 = ___info0;
+		NullCheck(L_0);
+		List_1_Add_m703258161(L_0, L_1, /*hidden argument*/List_1_Add_m703258161_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GK_LeaderboardSet::SendFailLoadEvent()
+extern Il2CppClass* ISN_LoadSetLeaderboardsInfoResult_t3997789804_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1999604582_MethodInfo_var;
+extern const uint32_t GK_LeaderboardSet_SendFailLoadEvent_m1342501983_MetadataUsageId;
+extern "C"  void GK_LeaderboardSet_SendFailLoadEvent_m1342501983 (GK_LeaderboardSet_t5314098 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_LeaderboardSet_SendFailLoadEvent_m1342501983_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_LoadSetLeaderboardsInfoResult_t3997789804 * V_0 = NULL;
+	{
+		ISN_LoadSetLeaderboardsInfoResult_t3997789804 * L_0 = (ISN_LoadSetLeaderboardsInfoResult_t3997789804 *)il2cpp_codegen_object_new(ISN_LoadSetLeaderboardsInfoResult_t3997789804_il2cpp_TypeInfo_var);
+		ISN_LoadSetLeaderboardsInfoResult__ctor_m1559331596(L_0, __this, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Action_1_t3799589186 * L_1 = __this->get_OnLoaderboardsInfoLoaded_4();
+		ISN_LoadSetLeaderboardsInfoResult_t3997789804 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1999604582(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1999604582_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GK_LeaderboardSet::SendSuccessLoadEvent()
+extern Il2CppClass* ISN_LoadSetLeaderboardsInfoResult_t3997789804_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1999604582_MethodInfo_var;
+extern const uint32_t GK_LeaderboardSet_SendSuccessLoadEvent_m3071197174_MetadataUsageId;
+extern "C"  void GK_LeaderboardSet_SendSuccessLoadEvent_m3071197174 (GK_LeaderboardSet_t5314098 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_LeaderboardSet_SendSuccessLoadEvent_m3071197174_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_LoadSetLeaderboardsInfoResult_t3997789804 * V_0 = NULL;
+	{
+		ISN_LoadSetLeaderboardsInfoResult_t3997789804 * L_0 = (ISN_LoadSetLeaderboardsInfoResult_t3997789804 *)il2cpp_codegen_object_new(ISN_LoadSetLeaderboardsInfoResult_t3997789804_il2cpp_TypeInfo_var);
+		ISN_LoadSetLeaderboardsInfoResult__ctor_m1559331596(L_0, __this, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Action_1_t3799589186 * L_1 = __this->get_OnLoaderboardsInfoLoaded_4();
+		ISN_LoadSetLeaderboardsInfoResult_t3997789804 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1999604582(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1999604582_MethodInfo_var);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<GK_LeaderBoardInfo> GK_LeaderboardSet::get_BoardsInfo()
+extern "C"  List_1_t3039336626 * GK_LeaderboardSet_get_BoardsInfo_m742004736 (GK_LeaderboardSet_t5314098 * __this, const MethodInfo* method)
+{
+	{
+		List_1_t3039336626 * L_0 = __this->get__BoardsInfo_3();
+		return L_0;
+	}
+}
+// System.Void GK_LeaderboardSet::<OnLoaderboardsInfoLoaded>m__0(ISN_LoadSetLeaderboardsInfoResult)
+extern "C"  void GK_LeaderboardSet_U3COnLoaderboardsInfoLoadedU3Em__0_m372389780 (Il2CppObject * __this /* static, unused */, ISN_LoadSetLeaderboardsInfoResult_t3997789804 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GK_Player::.ctor(System.String,System.String,System.String)
+extern Il2CppClass* GK_Player_t2782008294_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1415997413_il2cpp_TypeInfo_var;
+extern const MethodInfo* GK_Player_U3COnPlayerPhotoLoadedU3Em__0_m2205353728_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2484296492_MethodInfo_var;
+extern const uint32_t GK_Player__ctor_m731568513_MetadataUsageId;
+extern "C"  void GK_Player__ctor_m731568513 (GK_Player_t2782008294 * __this, String_t* ___pId0, String_t* ___pName1, String_t* ___pAlias2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Player__ctor_m731568513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GK_Player_t2782008294 * G_B2_0 = NULL;
+	GK_Player_t2782008294 * G_B1_0 = NULL;
+	{
+		Action_1_t1415997413 * L_0 = ((GK_Player_t2782008294_StaticFields*)GK_Player_t2782008294_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)GK_Player_U3COnPlayerPhotoLoadedU3Em__0_m2205353728_MethodInfo_var);
+		Action_1_t1415997413 * L_2 = (Action_1_t1415997413 *)il2cpp_codegen_object_new(Action_1_t1415997413_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2484296492(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m2484296492_MethodInfo_var);
+		((GK_Player_t2782008294_StaticFields*)GK_Player_t2782008294_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_6(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_1_t1415997413 * L_3 = ((GK_Player_t2782008294_StaticFields*)GK_Player_t2782008294_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		NullCheck(G_B2_0);
+		G_B2_0->set_OnPlayerPhotoLoaded_5(L_3);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_4 = ___pId0;
+		__this->set__PlayerId_0(L_4);
+		String_t* L_5 = ___pName1;
+		__this->set__DisplayName_1(L_5);
+		String_t* L_6 = ___pAlias2;
+		__this->set__Alias_2(L_6);
+		return;
+	}
+}
+// System.Void GK_Player::add_OnPlayerPhotoLoaded(System.Action`1<GK_UserPhotoLoadResult>)
+extern Il2CppClass* Action_1_t1415997413_il2cpp_TypeInfo_var;
+extern const uint32_t GK_Player_add_OnPlayerPhotoLoaded_m55510507_MetadataUsageId;
+extern "C"  void GK_Player_add_OnPlayerPhotoLoaded_m55510507 (GK_Player_t2782008294 * __this, Action_1_t1415997413 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Player_add_OnPlayerPhotoLoaded_m55510507_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1415997413 * V_0 = NULL;
+	Action_1_t1415997413 * V_1 = NULL;
+	{
+		Action_1_t1415997413 * L_0 = __this->get_OnPlayerPhotoLoaded_5();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t1415997413 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t1415997413 ** L_2 = __this->get_address_of_OnPlayerPhotoLoaded_5();
+		Action_1_t1415997413 * L_3 = V_1;
+		Action_1_t1415997413 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t1415997413 * L_6 = V_0;
+		Action_1_t1415997413 * L_7 = InterlockedCompareExchangeImpl<Action_1_t1415997413 *>(L_2, ((Action_1_t1415997413 *)CastclassSealed(L_5, Action_1_t1415997413_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t1415997413 * L_8 = V_0;
+		Action_1_t1415997413 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1415997413 *)L_8) == ((Il2CppObject*)(Action_1_t1415997413 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GK_Player::remove_OnPlayerPhotoLoaded(System.Action`1<GK_UserPhotoLoadResult>)
+extern Il2CppClass* Action_1_t1415997413_il2cpp_TypeInfo_var;
+extern const uint32_t GK_Player_remove_OnPlayerPhotoLoaded_m2732092048_MetadataUsageId;
+extern "C"  void GK_Player_remove_OnPlayerPhotoLoaded_m2732092048 (GK_Player_t2782008294 * __this, Action_1_t1415997413 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Player_remove_OnPlayerPhotoLoaded_m2732092048_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1415997413 * V_0 = NULL;
+	Action_1_t1415997413 * V_1 = NULL;
+	{
+		Action_1_t1415997413 * L_0 = __this->get_OnPlayerPhotoLoaded_5();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t1415997413 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t1415997413 ** L_2 = __this->get_address_of_OnPlayerPhotoLoaded_5();
+		Action_1_t1415997413 * L_3 = V_1;
+		Action_1_t1415997413 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t1415997413 * L_6 = V_0;
+		Action_1_t1415997413 * L_7 = InterlockedCompareExchangeImpl<Action_1_t1415997413 *>(L_2, ((Action_1_t1415997413 *)CastclassSealed(L_5, Action_1_t1415997413_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t1415997413 * L_8 = V_0;
+		Action_1_t1415997413 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1415997413 *)L_8) == ((Il2CppObject*)(Action_1_t1415997413 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GK_Player::LoadPhoto(GK_PhotoSize)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameCenterManager_t1487113918_il2cpp_TypeInfo_var;
+extern const uint32_t GK_Player_LoadPhoto_m784795943_MetadataUsageId;
+extern "C"  void GK_Player_LoadPhoto_m784795943 (GK_Player_t2782008294 * __this, int32_t ___size0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Player_LoadPhoto_m784795943_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___size0;
+		if (L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_1 = __this->get__SmallPhoto_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0018:
+	{
+		goto IL_002f;
+	}
+
+IL_001d:
+	{
+		Texture2D_t3542995729 * L_3 = __this->get__BigPhoto_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002f:
+	{
+		String_t* L_5 = GK_Player_get_Id_m1915750486(__this, /*hidden argument*/NULL);
+		int32_t L_6 = ___size0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameCenterManager_t1487113918_il2cpp_TypeInfo_var);
+		GameCenterManager_LoadGKPlayerPhoto_m1842588232(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_Player::SetPhotoData(GK_PhotoSize,System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* GK_UserPhotoLoadResult_t1614198031_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3534293253_MethodInfo_var;
+extern const uint32_t GK_Player_SetPhotoData_m1753018405_MetadataUsageId;
+extern "C"  void GK_Player_SetPhotoData_m1753018405 (GK_Player_t2782008294 * __this, int32_t ___size0, String_t* ___base64String1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Player_SetPhotoData_m1753018405_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	Texture2D_t3542995729 * V_1 = NULL;
+	GK_UserPhotoLoadResult_t1614198031 * V_2 = NULL;
+	{
+		String_t* L_0 = ___base64String1;
+		NullCheck(L_0);
+		int32_t L_1 = String_get_Length_m1606060069(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = ___base64String1;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_3 = Convert_FromBase64String_m3629466114(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Texture2D_t3542995729 * L_4 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m3598323350(L_4, 1, 1, /*hidden argument*/NULL);
+		V_1 = L_4;
+		Texture2D_t3542995729 * L_5 = V_1;
+		ByteU5BU5D_t3397334013* L_6 = V_0;
+		NullCheck(L_5);
+		Texture2D_LoadImage_m867542842(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = ___size0;
+		if (L_7)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_8 = V_1;
+		__this->set__SmallPhoto_3(L_8);
+		goto IL_003c;
+	}
+
+IL_0035:
+	{
+		Texture2D_t3542995729 * L_9 = V_1;
+		__this->set__BigPhoto_4(L_9);
+	}
+
+IL_003c:
+	{
+		int32_t L_10 = ___size0;
+		Texture2D_t3542995729 * L_11 = V_1;
+		GK_UserPhotoLoadResult_t1614198031 * L_12 = (GK_UserPhotoLoadResult_t1614198031 *)il2cpp_codegen_object_new(GK_UserPhotoLoadResult_t1614198031_il2cpp_TypeInfo_var);
+		GK_UserPhotoLoadResult__ctor_m1940012940(L_12, L_10, L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		Action_1_t1415997413 * L_13 = __this->get_OnPlayerPhotoLoaded_5();
+		GK_UserPhotoLoadResult_t1614198031 * L_14 = V_2;
+		NullCheck(L_13);
+		Action_1_Invoke_m3534293253(L_13, L_14, /*hidden argument*/Action_1_Invoke_m3534293253_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GK_Player::SetPhotoLoadFailedEventData(GK_PhotoSize,System.String)
+extern Il2CppClass* GK_UserPhotoLoadResult_t1614198031_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3534293253_MethodInfo_var;
+extern const uint32_t GK_Player_SetPhotoLoadFailedEventData_m2999926306_MetadataUsageId;
+extern "C"  void GK_Player_SetPhotoLoadFailedEventData_m2999926306 (GK_Player_t2782008294 * __this, int32_t ___size0, String_t* ___errorData1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Player_SetPhotoLoadFailedEventData_m2999926306_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GK_UserPhotoLoadResult_t1614198031 * V_0 = NULL;
+	{
+		int32_t L_0 = ___size0;
+		String_t* L_1 = ___errorData1;
+		GK_UserPhotoLoadResult_t1614198031 * L_2 = (GK_UserPhotoLoadResult_t1614198031 *)il2cpp_codegen_object_new(GK_UserPhotoLoadResult_t1614198031_il2cpp_TypeInfo_var);
+		GK_UserPhotoLoadResult__ctor_m585106284(L_2, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Action_1_t1415997413 * L_3 = __this->get_OnPlayerPhotoLoaded_5();
+		GK_UserPhotoLoadResult_t1614198031 * L_4 = V_0;
+		NullCheck(L_3);
+		Action_1_Invoke_m3534293253(L_3, L_4, /*hidden argument*/Action_1_Invoke_m3534293253_MethodInfo_var);
+		return;
+	}
+}
+// System.String GK_Player::get_Id()
+extern "C"  String_t* GK_Player_get_Id_m1915750486 (GK_Player_t2782008294 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__PlayerId_0();
+		return L_0;
+	}
+}
+// System.String GK_Player::get_Alias()
+extern "C"  String_t* GK_Player_get_Alias_m2160703933 (GK_Player_t2782008294 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__Alias_2();
+		return L_0;
+	}
+}
+// System.String GK_Player::get_DisplayName()
+extern "C"  String_t* GK_Player_get_DisplayName_m2216096558 (GK_Player_t2782008294 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__DisplayName_1();
+		return L_0;
+	}
+}
+// UnityEngine.Texture2D GK_Player::get_SmallPhoto()
+extern "C"  Texture2D_t3542995729 * GK_Player_get_SmallPhoto_m1060630982 (GK_Player_t2782008294 * __this, const MethodInfo* method)
+{
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__SmallPhoto_3();
+		return L_0;
+	}
+}
+// UnityEngine.Texture2D GK_Player::get_BigPhoto()
+extern "C"  Texture2D_t3542995729 * GK_Player_get_BigPhoto_m170666187 (GK_Player_t2782008294 * __this, const MethodInfo* method)
+{
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__BigPhoto_4();
+		return L_0;
+	}
+}
+// System.Void GK_Player::<OnPlayerPhotoLoaded>m__0(GK_UserPhotoLoadResult)
+extern "C"  void GK_Player_U3COnPlayerPhotoLoadedU3Em__0_m2205353728 (Il2CppObject * __this /* static, unused */, GK_UserPhotoLoadResult_t1614198031 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GK_PlayerScoreLoadedResult::.ctor()
+extern "C"  void GK_PlayerScoreLoadedResult__ctor_m2246386753 (GK_PlayerScoreLoadedResult_t2256948480 * __this, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_PlayerScoreLoadedResult::.ctor(GK_Score)
+extern "C"  void GK_PlayerScoreLoadedResult__ctor_m422341442 (GK_PlayerScoreLoadedResult_t2256948480 * __this, GK_Score_t1529008873 * ___score0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_Score_t1529008873 * L_0 = ___score0;
+		__this->set__score_2(L_0);
+		return;
+	}
+}
+// GK_Score GK_PlayerScoreLoadedResult::get_loadedScore()
+extern "C"  GK_Score_t1529008873 * GK_PlayerScoreLoadedResult_get_loadedScore_m1549055959 (GK_PlayerScoreLoadedResult_t2256948480 * __this, const MethodInfo* method)
+{
+	{
+		GK_Score_t1529008873 * L_0 = __this->get__score_2();
+		return L_0;
+	}
+}
+// System.Void GK_PlayerSignatureResult::.ctor(ISN_Error)
+extern "C"  void GK_PlayerSignatureResult__ctor_m2663773193 (GK_PlayerSignatureResult_t13769479 * __this, ISN_Error_t553253557 * ___er0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)0, /*hidden argument*/NULL);
+		ISN_Error_t553253557 * L_0 = ___er0;
+		((ISN_Result_t2775631610 *)__this)->set__Error_0(L_0);
+		return;
+	}
+}
+// System.Void GK_PlayerSignatureResult::.ctor(System.String,System.String,System.String,System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3052225568_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3689494784_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m127864652_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3280299950_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029314;
+extern const uint32_t GK_PlayerSignatureResult__ctor_m183833886_MetadataUsageId;
+extern "C"  void GK_PlayerSignatureResult__ctor_m183833886 (GK_PlayerSignatureResult_t13769479 * __this, String_t* ___publicKeyUrl0, String_t* ___signature1, String_t* ___salt2, String_t* ___timestamp3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_PlayerSignatureResult__ctor_m183833886_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	List_1_t3052225568 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	int32_t V_4 = 0;
+	String_t* V_5 = NULL;
+	StringU5BU5D_t1642385972* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		String_t* L_0 = ___publicKeyUrl0;
+		__this->set__PublicKeyUrl_2(L_0);
+		String_t* L_1 = ___signature1;
+		CharU5BU5D_t1328083999* L_2 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029314);
+		Il2CppChar L_3 = String_get_Chars_m4230566705(_stringLiteral372029314, 0, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_3);
+		NullCheck(L_1);
+		StringU5BU5D_t1642385972* L_4 = String_Split_m3326265864(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_4;
+		List_1_t3052225568 * L_5 = (List_1_t3052225568 *)il2cpp_codegen_object_new(List_1_t3052225568_il2cpp_TypeInfo_var);
+		List_1__ctor_m3689494784(L_5, /*hidden argument*/List_1__ctor_m3689494784_MethodInfo_var);
+		V_1 = L_5;
+		StringU5BU5D_t1642385972* L_6 = V_0;
+		V_3 = L_6;
+		V_4 = 0;
+		goto IL_0050;
+	}
+
+IL_0039:
+	{
+		StringU5BU5D_t1642385972* L_7 = V_3;
+		int32_t L_8 = V_4;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_2 = L_10;
+		List_1_t3052225568 * L_11 = V_1;
+		String_t* L_12 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		uint8_t L_13 = Convert_ToByte_m3147313973(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		List_1_Add_m127864652(L_11, L_13, /*hidden argument*/List_1_Add_m127864652_MethodInfo_var);
+		int32_t L_14 = V_4;
+		V_4 = ((int32_t)((int32_t)L_14+(int32_t)1));
+	}
+
+IL_0050:
+	{
+		int32_t L_15 = V_4;
+		StringU5BU5D_t1642385972* L_16 = V_3;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		List_1_t3052225568 * L_17 = V_1;
+		NullCheck(L_17);
+		ByteU5BU5D_t3397334013* L_18 = List_1_ToArray_m3280299950(L_17, /*hidden argument*/List_1_ToArray_m3280299950_MethodInfo_var);
+		__this->set__Signature_3(L_18);
+		String_t* L_19 = ___salt2;
+		CharU5BU5D_t1328083999* L_20 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029314);
+		Il2CppChar L_21 = String_get_Chars_m4230566705(_stringLiteral372029314, 0, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_21);
+		NullCheck(L_19);
+		StringU5BU5D_t1642385972* L_22 = String_Split_m3326265864(L_19, L_20, /*hidden argument*/NULL);
+		V_0 = L_22;
+		List_1_t3052225568 * L_23 = (List_1_t3052225568 *)il2cpp_codegen_object_new(List_1_t3052225568_il2cpp_TypeInfo_var);
+		List_1__ctor_m3689494784(L_23, /*hidden argument*/List_1__ctor_m3689494784_MethodInfo_var);
+		V_1 = L_23;
+		StringU5BU5D_t1642385972* L_24 = V_0;
+		V_6 = L_24;
+		V_7 = 0;
+		goto IL_00ac;
+	}
+
+IL_0092:
+	{
+		StringU5BU5D_t1642385972* L_25 = V_6;
+		int32_t L_26 = V_7;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		String_t* L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		V_5 = L_28;
+		List_1_t3052225568 * L_29 = V_1;
+		String_t* L_30 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		uint8_t L_31 = Convert_ToByte_m3147313973(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		List_1_Add_m127864652(L_29, L_31, /*hidden argument*/List_1_Add_m127864652_MethodInfo_var);
+		int32_t L_32 = V_7;
+		V_7 = ((int32_t)((int32_t)L_32+(int32_t)1));
+	}
+
+IL_00ac:
+	{
+		int32_t L_33 = V_7;
+		StringU5BU5D_t1642385972* L_34 = V_6;
+		NullCheck(L_34);
+		if ((((int32_t)L_33) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_34)->max_length)))))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		List_1_t3052225568 * L_35 = V_1;
+		NullCheck(L_35);
+		ByteU5BU5D_t3397334013* L_36 = List_1_ToArray_m3280299950(L_35, /*hidden argument*/List_1_ToArray_m3280299950_MethodInfo_var);
+		__this->set__Salt_4(L_36);
+		String_t* L_37 = ___timestamp3;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int64_t L_38 = Convert_ToInt64_m3181519185(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+		__this->set__Timestamp_5(L_38);
+		return;
+	}
+}
+// System.String GK_PlayerSignatureResult::get_PublicKeyUrl()
+extern "C"  String_t* GK_PlayerSignatureResult_get_PublicKeyUrl_m2573459139 (GK_PlayerSignatureResult_t13769479 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__PublicKeyUrl_2();
+		return L_0;
+	}
+}
+// System.Byte[] GK_PlayerSignatureResult::get_Signature()
+extern "C"  ByteU5BU5D_t3397334013* GK_PlayerSignatureResult_get_Signature_m3581959227 (GK_PlayerSignatureResult_t13769479 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get__Signature_3();
+		return L_0;
+	}
+}
+// System.Byte[] GK_PlayerSignatureResult::get_Salt()
+extern "C"  ByteU5BU5D_t3397334013* GK_PlayerSignatureResult_get_Salt_m580930533 (GK_PlayerSignatureResult_t13769479 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get__Salt_4();
+		return L_0;
+	}
+}
+// System.Int64 GK_PlayerSignatureResult::get_Timestamp()
+extern "C"  int64_t GK_PlayerSignatureResult_get_Timestamp_m2017165378 (GK_PlayerSignatureResult_t13769479 * __this, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = __this->get__Timestamp_5();
+		return L_0;
+	}
+}
+// System.Void GK_RTM_Match::.ctor(System.String)
+extern Il2CppClass* List_1_t2151129426_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameCenterManager_t1487113918_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3575821381_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2639180241_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1576504325;
+extern const uint32_t GK_RTM_Match__ctor_m1510120201_MetadataUsageId;
+extern "C"  void GK_RTM_Match__ctor_m1510120201 (GK_RTM_Match_t873568990 * __this, String_t* ___matchData0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_RTM_Match__ctor_m1510120201_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	String_t* V_2 = NULL;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	int32_t V_4 = 0;
+	GK_Player_t2782008294 * V_5 = NULL;
+	{
+		List_1_t2151129426 * L_0 = (List_1_t2151129426 *)il2cpp_codegen_object_new(List_1_t2151129426_il2cpp_TypeInfo_var);
+		List_1__ctor_m3575821381(L_0, /*hidden argument*/List_1__ctor_m3575821381_MethodInfo_var);
+		__this->set__Players_1(L_0);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_1 = ___matchData0;
+		StringU5BU5D_t1642385972* L_2 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, _stringLiteral1576504325);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral1576504325);
+		NullCheck(L_1);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3927740091(L_1, L_2, 0, /*hidden argument*/NULL);
+		V_0 = L_3;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_7 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		__this->set__ExpectedPlayerCount_0(L_7);
+		StringU5BU5D_t1642385972* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = 1;
+		String_t* L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		StringU5BU5D_t1642385972* L_11 = IOSNative_ParseArray_m7195392(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		V_1 = L_11;
+		StringU5BU5D_t1642385972* L_12 = V_1;
+		V_3 = L_12;
+		V_4 = 0;
+		goto IL_0068;
+	}
+
+IL_0048:
+	{
+		StringU5BU5D_t1642385972* L_13 = V_3;
+		int32_t L_14 = V_4;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		String_t* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		V_2 = L_16;
+		String_t* L_17 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(GameCenterManager_t1487113918_il2cpp_TypeInfo_var);
+		GK_Player_t2782008294 * L_18 = GameCenterManager_GetPlayerById_m3190959603(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		V_5 = L_18;
+		List_1_t2151129426 * L_19 = __this->get__Players_1();
+		GK_Player_t2782008294 * L_20 = V_5;
+		NullCheck(L_19);
+		List_1_Add_m2639180241(L_19, L_20, /*hidden argument*/List_1_Add_m2639180241_MethodInfo_var);
+		int32_t L_21 = V_4;
+		V_4 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_0068:
+	{
+		int32_t L_22 = V_4;
+		StringU5BU5D_t1642385972* L_23 = V_3;
+		NullCheck(L_23);
+		if ((((int32_t)L_22) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Int32 GK_RTM_Match::get_ExpectedPlayerCount()
+extern "C"  int32_t GK_RTM_Match_get_ExpectedPlayerCount_m1438791156 (GK_RTM_Match_t873568990 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__ExpectedPlayerCount_0();
+		return L_0;
+	}
+}
+// System.Collections.Generic.List`1<GK_Player> GK_RTM_Match::get_Players()
+extern "C"  List_1_t2151129426 * GK_RTM_Match_get_Players_m1729192215 (GK_RTM_Match_t873568990 * __this, const MethodInfo* method)
+{
+	{
+		List_1_t2151129426 * L_0 = __this->get__Players_1();
+		return L_0;
+	}
+}
+// System.Void GK_RTM_MatchStartedResult::.ctor(GK_RTM_Match)
+extern "C"  void GK_RTM_MatchStartedResult__ctor_m1619711479 (GK_RTM_MatchStartedResult_t833698690 * __this, GK_RTM_Match_t873568990 * ___match0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_RTM_Match_t873568990 * L_0 = ___match0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_RTM_MatchStartedResult::.ctor(System.String)
+extern "C"  void GK_RTM_MatchStartedResult__ctor_m1339377765 (GK_RTM_MatchStartedResult_t833698690 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_RTM_Match GK_RTM_MatchStartedResult::get_Match()
+extern "C"  GK_RTM_Match_t873568990 * GK_RTM_MatchStartedResult_get_Match_m3745619902 (GK_RTM_MatchStartedResult_t833698690 * __this, const MethodInfo* method)
+{
+	{
+		GK_RTM_Match_t873568990 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_RTM_QueryActivityResult::.ctor(System.Int32)
+extern "C"  void GK_RTM_QueryActivityResult__ctor_m2892252843 (GK_RTM_QueryActivityResult_t2276098399 * __this, int32_t ___activity0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		int32_t L_0 = ___activity0;
+		__this->set__Activity_2(L_0);
+		return;
+	}
+}
+// System.Void GK_RTM_QueryActivityResult::.ctor(System.String)
+extern "C"  void GK_RTM_QueryActivityResult__ctor_m1123159032 (GK_RTM_QueryActivityResult_t2276098399 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GK_RTM_QueryActivityResult::get_Activity()
+extern "C"  int32_t GK_RTM_QueryActivityResult_get_Activity_m1192713562 (GK_RTM_QueryActivityResult_t2276098399 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__Activity_2();
+		return L_0;
+	}
+}
+// System.Void GK_Score::.ctor(System.String,System.Int32,GK_TimeSpan,GK_CollectionType,System.String,System.String)
+extern "C"  void GK_Score__ctor_m2422160028 (GK_Score_t1529008873 * __this, String_t* ___vScore0, int32_t ___vRank1, int32_t ___vTimeSpan2, int32_t ___sCollection3, String_t* ___lid4, String_t* ___pid5, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___vScore0;
+		__this->set__score_1(L_0);
+		int32_t L_1 = ___vRank1;
+		__this->set__rank_0(L_1);
+		String_t* L_2 = ___pid5;
+		__this->set__playerId_2(L_2);
+		String_t* L_3 = ___lid4;
+		__this->set__leaderboardId_3(L_3);
+		int32_t L_4 = ___vTimeSpan2;
+		__this->set__timeSpan_5(L_4);
+		int32_t L_5 = ___sCollection3;
+		__this->set__collection_4(L_5);
+		return;
+	}
+}
+// System.Double GK_Score::GetDoubleScore()
+extern "C"  double GK_Score_GetDoubleScore_m3537635256 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = GK_Score_GetLongScore_m322291041(__this, /*hidden argument*/NULL);
+		return (((double)((double)((float)((float)(((float)((float)L_0)))/(float)(100.0f))))));
+	}
+}
+// System.Int64 GK_Score::GetLongScore()
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t GK_Score_GetLongScore_m322291041_MetadataUsageId;
+extern "C"  int64_t GK_Score_GetLongScore_m322291041 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_Score_GetLongScore_m322291041_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__score_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int64_t L_1 = Convert_ToInt64_m3181519185(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Int32 GK_Score::GetRank()
+extern "C"  int32_t GK_Score_GetRank_m1671417246 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = GK_Score_get_rank_m220189513(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 GK_Score::get_rank()
+extern "C"  int32_t GK_Score_get_rank_m220189513 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__rank_0();
+		return L_0;
+	}
+}
+// System.String GK_Score::get_score()
+extern "C"  String_t* GK_Score_get_score_m3439611352 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__score_1();
+		return L_0;
+	}
+}
+// System.String GK_Score::get_playerId()
+extern "C"  String_t* GK_Score_get_playerId_m385002620 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__playerId_2();
+		return L_0;
+	}
+}
+// System.String GK_Score::get_leaderboardId()
+extern "C"  String_t* GK_Score_get_leaderboardId_m2556073048 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__leaderboardId_3();
+		return L_0;
+	}
+}
+// GK_CollectionType GK_Score::get_collection()
+extern "C"  int32_t GK_Score_get_collection_m1450655985 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__collection_4();
+		return L_0;
+	}
+}
+// GK_TimeSpan GK_Score::get_timeSpan()
+extern "C"  int32_t GK_Score_get_timeSpan_m2295372369 (GK_Score_t1529008873 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__timeSpan_5();
+		return L_0;
+	}
+}
+// System.Void GK_ScoreCollection::.ctor()
+extern Il2CppClass* Dictionary_2_t536834508_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m711095908_MethodInfo_var;
+extern const uint32_t GK_ScoreCollection__ctor_m3905816586_MetadataUsageId;
+extern "C"  void GK_ScoreCollection__ctor_m3905816586 (GK_ScoreCollection_t4092547735 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_ScoreCollection__ctor_m3905816586_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t536834508 * L_0 = (Dictionary_2_t536834508 *)il2cpp_codegen_object_new(Dictionary_2_t536834508_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m711095908(L_0, /*hidden argument*/Dictionary_2__ctor_m711095908_MethodInfo_var);
+		__this->set_AllTimeScores_0(L_0);
+		Dictionary_2_t536834508 * L_1 = (Dictionary_2_t536834508 *)il2cpp_codegen_object_new(Dictionary_2_t536834508_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m711095908(L_1, /*hidden argument*/Dictionary_2__ctor_m711095908_MethodInfo_var);
+		__this->set_WeekScores_1(L_1);
+		Dictionary_2_t536834508 * L_2 = (Dictionary_2_t536834508 *)il2cpp_codegen_object_new(Dictionary_2_t536834508_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m711095908(L_2, /*hidden argument*/Dictionary_2__ctor_m711095908_MethodInfo_var);
+		__this->set_TodayScores_2(L_2);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_TBM_EndTrunResult::.ctor(GK_TBM_Match)
+extern "C"  void GK_TBM_EndTrunResult__ctor_m3443850083 (GK_TBM_EndTrunResult_t1517380690 * __this, GK_TBM_Match_t132033130 * ___match0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_TBM_Match_t132033130 * L_0 = ___match0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_EndTrunResult::.ctor(System.String)
+extern "C"  void GK_TBM_EndTrunResult__ctor_m3334098197 (GK_TBM_EndTrunResult_t1517380690 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_TBM_Match GK_TBM_EndTrunResult::get_Match()
+extern "C"  GK_TBM_Match_t132033130 * GK_TBM_EndTrunResult_get_Match_m1082951604 (GK_TBM_EndTrunResult_t1517380690 * __this, const MethodInfo* method)
+{
+	{
+		GK_TBM_Match_t132033130 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_LoadMatchesResult::.ctor(System.Boolean)
+extern Il2CppClass* Dictionary_2_t2046812392_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m329055462_MethodInfo_var;
+extern const uint32_t GK_TBM_LoadMatchesResult__ctor_m1679363969_MetadataUsageId;
+extern "C"  void GK_TBM_LoadMatchesResult__ctor_m1679363969 (GK_TBM_LoadMatchesResult_t370491735 * __this, bool ___IsResultSucceeded0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_LoadMatchesResult__ctor_m1679363969_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t2046812392 * L_0 = (Dictionary_2_t2046812392 *)il2cpp_codegen_object_new(Dictionary_2_t2046812392_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m329055462(L_0, /*hidden argument*/Dictionary_2__ctor_m329055462_MethodInfo_var);
+		__this->set_LoadedMatches_2(L_0);
+		bool L_1 = ___IsResultSucceeded0;
+		ISN_Result__ctor_m3842574264(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_TBM_LoadMatchesResult::.ctor(System.String)
+extern Il2CppClass* Dictionary_2_t2046812392_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m329055462_MethodInfo_var;
+extern const uint32_t GK_TBM_LoadMatchesResult__ctor_m485725648_MetadataUsageId;
+extern "C"  void GK_TBM_LoadMatchesResult__ctor_m485725648 (GK_TBM_LoadMatchesResult_t370491735 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_LoadMatchesResult__ctor_m485725648_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t2046812392 * L_0 = (Dictionary_2_t2046812392 *)il2cpp_codegen_object_new(Dictionary_2_t2046812392_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m329055462(L_0, /*hidden argument*/Dictionary_2__ctor_m329055462_MethodInfo_var);
+		__this->set_LoadedMatches_2(L_0);
+		String_t* L_1 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_TBM_LoadMatchResult::.ctor(GK_TBM_Match)
+extern "C"  void GK_TBM_LoadMatchResult__ctor_m4209366144 (GK_TBM_LoadMatchResult_t1639249273 * __this, GK_TBM_Match_t132033130 * ___match0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_TBM_Match_t132033130 * L_0 = ___match0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_LoadMatchResult::.ctor(System.String)
+extern "C"  void GK_TBM_LoadMatchResult__ctor_m854031768 (GK_TBM_LoadMatchResult_t1639249273 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_TBM_Match GK_TBM_LoadMatchResult::get_Match()
+extern "C"  GK_TBM_Match_t132033130 * GK_TBM_LoadMatchResult_get_Match_m3479437809 (GK_TBM_LoadMatchResult_t1639249273 * __this, const MethodInfo* method)
+{
+	{
+		GK_TBM_Match_t132033130 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_Match::.ctor()
+extern "C"  void GK_TBM_Match__ctor_m4137388051 (GK_TBM_Match_t132033130 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_TBM_Match::SetData(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t GK_TBM_Match_SetData_m2433630223_MetadataUsageId;
+extern "C"  void GK_TBM_Match_SetData_m2433630223 (GK_TBM_Match_t132033130 * __this, String_t* ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_Match_SetData_m2433630223_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	{
+		String_t* L_0 = ___val0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_1 = Convert_FromBase64String_m3629466114(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		ByteU5BU5D_t3397334013* L_2 = V_0;
+		__this->set_Data_4(L_2);
+		return;
+	}
+}
+// System.String GK_TBM_Match::get_UTF8StringData()
+extern Il2CppClass* Encoding_t663144255_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t GK_TBM_Match_get_UTF8StringData_m2368880421_MetadataUsageId;
+extern "C"  String_t* GK_TBM_Match_get_UTF8StringData_m2368880421 (GK_TBM_Match_t132033130 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_Match_get_UTF8StringData_m2368880421_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get_Data_4();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_1 = Encoding_get_UTF8_m1752852937(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_2 = __this->get_Data_4();
+		NullCheck(L_1);
+		String_t* L_3 = VirtFuncInvoker1< String_t*, ByteU5BU5D_t3397334013* >::Invoke(23 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_1, L_2);
+		return L_3;
+	}
+
+IL_001c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_4;
+	}
+}
+// GK_TBM_Participant GK_TBM_Match::GetParticipantByPlayerId(System.String)
+extern const MethodInfo* List_1_GetEnumerator_m3060125852_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3254241970_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2309702196_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m4134050342_MethodInfo_var;
+extern const uint32_t GK_TBM_Match_GetParticipantByPlayerId_m786209554_MetadataUsageId;
+extern "C"  GK_TBM_Participant_t3803955090 * GK_TBM_Match_GetParticipantByPlayerId_m786209554 (GK_TBM_Match_t132033130 * __this, String_t* ___playerId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_Match_GetParticipantByPlayerId_m786209554_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GK_TBM_Participant_t3803955090 * V_0 = NULL;
+	Enumerator_t2707805896  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	GK_TBM_Participant_t3803955090 * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t3173076222 * L_0 = __this->get_Participants_6();
+		NullCheck(L_0);
+		Enumerator_t2707805896  L_1 = List_1_GetEnumerator_m3060125852(L_0, /*hidden argument*/List_1_GetEnumerator_m3060125852_MethodInfo_var);
+		V_1 = L_1;
+	}
+
+IL_000c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0058;
+		}
+
+IL_0011:
+		{
+			GK_TBM_Participant_t3803955090 * L_2 = Enumerator_get_Current_m3254241970((&V_1), /*hidden argument*/Enumerator_get_Current_m3254241970_MethodInfo_var);
+			V_0 = L_2;
+			GK_TBM_Participant_t3803955090 * L_3 = V_0;
+			NullCheck(L_3);
+			GK_Player_t2782008294 * L_4 = GK_TBM_Participant_get_Player_m3985885614(L_3, /*hidden argument*/NULL);
+			if (L_4)
+			{
+				goto IL_003b;
+			}
+		}
+
+IL_0024:
+		{
+			String_t* L_5 = ___playerId0;
+			NullCheck(L_5);
+			int32_t L_6 = String_get_Length_m1606060069(L_5, /*hidden argument*/NULL);
+			if (L_6)
+			{
+				goto IL_0036;
+			}
+		}
+
+IL_002f:
+		{
+			GK_TBM_Participant_t3803955090 * L_7 = V_0;
+			V_2 = L_7;
+			IL2CPP_LEAVE(0x79, FINALLY_0069);
+		}
+
+IL_0036:
+		{
+			goto IL_0058;
+		}
+
+IL_003b:
+		{
+			String_t* L_8 = ___playerId0;
+			GK_TBM_Participant_t3803955090 * L_9 = V_0;
+			NullCheck(L_9);
+			GK_Player_t2782008294 * L_10 = GK_TBM_Participant_get_Player_m3985885614(L_9, /*hidden argument*/NULL);
+			NullCheck(L_10);
+			String_t* L_11 = GK_Player_get_Id_m1915750486(L_10, /*hidden argument*/NULL);
+			NullCheck(L_8);
+			bool L_12 = String_Equals_m2633592423(L_8, L_11, /*hidden argument*/NULL);
+			if (!L_12)
+			{
+				goto IL_0058;
+			}
+		}
+
+IL_0051:
+		{
+			GK_TBM_Participant_t3803955090 * L_13 = V_0;
+			V_2 = L_13;
+			IL2CPP_LEAVE(0x79, FINALLY_0069);
+		}
+
+IL_0058:
+		{
+			bool L_14 = Enumerator_MoveNext_m2309702196((&V_1), /*hidden argument*/Enumerator_MoveNext_m2309702196_MethodInfo_var);
+			if (L_14)
+			{
+				goto IL_0011;
+			}
+		}
+
+IL_0064:
+		{
+			IL2CPP_LEAVE(0x77, FINALLY_0069);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0069;
+	}
+
+FINALLY_0069:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m4134050342((&V_1), /*hidden argument*/Enumerator_Dispose_m4134050342_MethodInfo_var);
+		IL2CPP_END_FINALLY(105)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(105)
+	{
+		IL2CPP_JUMP_TBL(0x79, IL_0079)
+		IL2CPP_JUMP_TBL(0x77, IL_0077)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0077:
+	{
+		return (GK_TBM_Participant_t3803955090 *)NULL;
+	}
+
+IL_0079:
+	{
+		GK_TBM_Participant_t3803955090 * L_15 = V_2;
+		return L_15;
+	}
+}
+// System.Void GK_TBM_MatchDataUpdateResult::.ctor()
+extern "C"  void GK_TBM_MatchDataUpdateResult__ctor_m1298964075 (GK_TBM_MatchDataUpdateResult_t1356006034 * __this, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_TBM_MatchDataUpdateResult::.ctor(GK_TBM_Match)
+extern "C"  void GK_TBM_MatchDataUpdateResult__ctor_m1121471075 (GK_TBM_MatchDataUpdateResult_t1356006034 * __this, GK_TBM_Match_t132033130 * ___updatedMatch0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_TBM_Match_t132033130 * L_0 = ___updatedMatch0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_MatchDataUpdateResult::.ctor(System.String)
+extern "C"  void GK_TBM_MatchDataUpdateResult__ctor_m1913260293 (GK_TBM_MatchDataUpdateResult_t1356006034 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_TBM_Match GK_TBM_MatchDataUpdateResult::get_Match()
+extern "C"  GK_TBM_Match_t132033130 * GK_TBM_MatchDataUpdateResult_get_Match_m1622970804 (GK_TBM_MatchDataUpdateResult_t1356006034 * __this, const MethodInfo* method)
+{
+	{
+		GK_TBM_Match_t132033130 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_MatchEndResult::.ctor(GK_TBM_Match)
+extern "C"  void GK_TBM_MatchEndResult__ctor_m3730691353 (GK_TBM_MatchEndResult_t3461768810 * __this, GK_TBM_Match_t132033130 * ___match0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_TBM_Match_t132033130 * L_0 = ___match0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_MatchEndResult::.ctor(System.String)
+extern "C"  void GK_TBM_MatchEndResult__ctor_m3317104571 (GK_TBM_MatchEndResult_t3461768810 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_TBM_Match GK_TBM_MatchEndResult::get_Match()
+extern "C"  GK_TBM_Match_t132033130 * GK_TBM_MatchEndResult_get_Match_m49740202 (GK_TBM_MatchEndResult_t3461768810 * __this, const MethodInfo* method)
+{
+	{
+		GK_TBM_Match_t132033130 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_MatchInitResult::.ctor(GK_TBM_Match)
+extern "C"  void GK_TBM_MatchInitResult__ctor_m3115457510 (GK_TBM_MatchInitResult_t3847830897 * __this, GK_TBM_Match_t132033130 * ___match0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_TBM_Match_t132033130 * L_0 = ___match0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_MatchInitResult::.ctor(System.String)
+extern "C"  void GK_TBM_MatchInitResult__ctor_m1836306054 (GK_TBM_MatchInitResult_t3847830897 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_TBM_Match GK_TBM_MatchInitResult::get_Match()
+extern "C"  GK_TBM_Match_t132033130 * GK_TBM_MatchInitResult_get_Match_m3689362757 (GK_TBM_MatchInitResult_t3847830897 * __this, const MethodInfo* method)
+{
+	{
+		GK_TBM_Match_t132033130 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_MatchQuitResult::.ctor(System.String)
+extern "C"  void GK_TBM_MatchQuitResult__ctor_m3034192961 (GK_TBM_MatchQuitResult_t1233820656 * __this, String_t* ___matchId0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		String_t* L_0 = ___matchId0;
+		__this->set__MatchId_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_MatchQuitResult::.ctor()
+extern "C"  void GK_TBM_MatchQuitResult__ctor_m2910853039 (GK_TBM_MatchQuitResult_t1233820656 * __this, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GK_TBM_MatchQuitResult::get_MatchId()
+extern "C"  String_t* GK_TBM_MatchQuitResult_get_MatchId_m287412837 (GK_TBM_MatchQuitResult_t1233820656 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__MatchId_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_MatchRemovedResult::.ctor(System.String)
+extern "C"  void GK_TBM_MatchRemovedResult__ctor_m1596242716 (GK_TBM_MatchRemovedResult_t909126313 * __this, String_t* ___matchId0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		String_t* L_0 = ___matchId0;
+		__this->set__MatchId_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_MatchRemovedResult::.ctor()
+extern "C"  void GK_TBM_MatchRemovedResult__ctor_m1728089422 (GK_TBM_MatchRemovedResult_t909126313 * __this, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GK_TBM_MatchRemovedResult::get_MatchId()
+extern "C"  String_t* GK_TBM_MatchRemovedResult_get_MatchId_m2258519776 (GK_TBM_MatchRemovedResult_t909126313 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__MatchId_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_MatchTurnResult::.ctor(GK_TBM_Match)
+extern "C"  void GK_TBM_MatchTurnResult__ctor_m3111777819 (GK_TBM_MatchTurnResult_t3583658160 * __this, GK_TBM_Match_t132033130 * ___match0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_TBM_Match_t132033130 * L_0 = ___match0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_MatchTurnResult::.ctor(System.String)
+extern "C"  void GK_TBM_MatchTurnResult__ctor_m1271792241 (GK_TBM_MatchTurnResult_t3583658160 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_TBM_Match GK_TBM_MatchTurnResult::get_Match()
+extern "C"  GK_TBM_Match_t132033130 * GK_TBM_MatchTurnResult_get_Match_m4056839130 (GK_TBM_MatchTurnResult_t3583658160 * __this, const MethodInfo* method)
+{
+	{
+		GK_TBM_Match_t132033130 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_Participant::.ctor(System.String,System.String,System.String,System.String,System.String)
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t GK_TBM_Participant__ctor_m4229819301_MetadataUsageId;
+extern "C"  void GK_TBM_Participant__ctor_m4229819301 (GK_TBM_Participant_t3803955090 * __this, String_t* ___playerId0, String_t* ___status1, String_t* ___outcome2, String_t* ___timeoutDate3, String_t* ___lastTurnDate4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_Participant__ctor_m4229819301_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___playerId0;
+		__this->set__PlayerId_0(L_0);
+		String_t* L_1 = ___timeoutDate3;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_2 = DateTime_Parse_m1142721566(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		__this->set__TimeoutDate_2(L_2);
+		String_t* L_3 = ___lastTurnDate4;
+		DateTime_t693205669  L_4 = DateTime_Parse_m1142721566(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		__this->set__LastTurnDate_3(L_4);
+		String_t* L_5 = ___status1;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_6 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		__this->set__Status_4(L_6);
+		String_t* L_7 = ___outcome2;
+		int32_t L_8 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		__this->set__MatchOutcome_5(L_8);
+		return;
+	}
+}
+// System.Void GK_TBM_Participant::SetOutcome(GK_TurnBasedMatchOutcome)
+extern Il2CppClass* GameCenter_TBM_t3457554475_il2cpp_TypeInfo_var;
+extern const uint32_t GK_TBM_Participant_SetOutcome_m1613224645_MetadataUsageId;
+extern "C"  void GK_TBM_Participant_SetOutcome_m1613224645 (GK_TBM_Participant_t3803955090 * __this, int32_t ___outcome0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_Participant_SetOutcome_m1613224645_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GK_Player_t2782008294 * L_0 = GK_TBM_Participant_get_Player_m3985885614(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		int32_t L_1 = ___outcome0;
+		__this->set__MatchOutcome_5(L_1);
+		String_t* L_2 = GK_TBM_Participant_get_MatchId_m3980324305(__this, /*hidden argument*/NULL);
+		int32_t L_3 = __this->get__MatchOutcome_5();
+		String_t* L_4 = __this->get__PlayerId_0();
+		IL2CPP_RUNTIME_CLASS_INIT(GameCenter_TBM_t3457554475_il2cpp_TypeInfo_var);
+		GameCenter_TBM__ISN_TBM_UpdateParticipantOutcome_m1178151907(NULL /*static, unused*/, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GK_TBM_Participant::SetMatchId(System.String)
+extern "C"  void GK_TBM_Participant_SetMatchId_m179701189 (GK_TBM_Participant_t3803955090 * __this, String_t* ___matchId0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___matchId0;
+		__this->set__MatchId_1(L_0);
+		return;
+	}
+}
+// System.String GK_TBM_Participant::get_PlayerId()
+extern "C"  String_t* GK_TBM_Participant_get_PlayerId_m3360718925 (GK_TBM_Participant_t3803955090 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__PlayerId_0();
+		return L_0;
+	}
+}
+// GK_Player GK_TBM_Participant::get_Player()
+extern Il2CppClass* GameCenterManager_t1487113918_il2cpp_TypeInfo_var;
+extern const uint32_t GK_TBM_Participant_get_Player_m3985885614_MetadataUsageId;
+extern "C"  GK_Player_t2782008294 * GK_TBM_Participant_get_Player_m3985885614 (GK_TBM_Participant_t3803955090 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GK_TBM_Participant_get_Player_m3985885614_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__PlayerId_0();
+		IL2CPP_RUNTIME_CLASS_INIT(GameCenterManager_t1487113918_il2cpp_TypeInfo_var);
+		GK_Player_t2782008294 * L_1 = GameCenterManager_GetPlayerById_m3190959603(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.String GK_TBM_Participant::get_MatchId()
+extern "C"  String_t* GK_TBM_Participant_get_MatchId_m3980324305 (GK_TBM_Participant_t3803955090 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__MatchId_1();
+		return L_0;
+	}
+}
+// System.DateTime GK_TBM_Participant::get_TimeoutDate()
+extern "C"  DateTime_t693205669  GK_TBM_Participant_get_TimeoutDate_m2592113534 (GK_TBM_Participant_t3803955090 * __this, const MethodInfo* method)
+{
+	{
+		DateTime_t693205669  L_0 = __this->get__TimeoutDate_2();
+		return L_0;
+	}
+}
+// System.DateTime GK_TBM_Participant::get_LastTurnDate()
+extern "C"  DateTime_t693205669  GK_TBM_Participant_get_LastTurnDate_m4170172166 (GK_TBM_Participant_t3803955090 * __this, const MethodInfo* method)
+{
+	{
+		DateTime_t693205669  L_0 = __this->get__LastTurnDate_3();
+		return L_0;
+	}
+}
+// GK_TurnBasedParticipantStatus GK_TBM_Participant::get_Status()
+extern "C"  int32_t GK_TBM_Participant_get_Status_m1237030061 (GK_TBM_Participant_t3803955090 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__Status_4();
+		return L_0;
+	}
+}
+// GK_TurnBasedMatchOutcome GK_TBM_Participant::get_MatchOutcome()
+extern "C"  int32_t GK_TBM_Participant_get_MatchOutcome_m2424052360 (GK_TBM_Participant_t3803955090 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__MatchOutcome_5();
+		return L_0;
+	}
+}
+// System.Void GK_TBM_RematchResult::.ctor(GK_TBM_Match)
+extern "C"  void GK_TBM_RematchResult__ctor_m1268729961 (GK_TBM_RematchResult_t3159773700 * __this, GK_TBM_Match_t132033130 * ___match0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_TBM_Match_t132033130 * L_0 = ___match0;
+		__this->set__Match_2(L_0);
+		return;
+	}
+}
+// System.Void GK_TBM_RematchResult::.ctor(System.String)
+extern "C"  void GK_TBM_RematchResult__ctor_m3848845587 (GK_TBM_RematchResult_t3159773700 * __this, String_t* ___errorData0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData0;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GK_TBM_Match GK_TBM_RematchResult::get_Match()
+extern "C"  GK_TBM_Match_t132033130 * GK_TBM_RematchResult_get_Match_m4021063006 (GK_TBM_RematchResult_t3159773700 * __this, const MethodInfo* method)
+{
+	{
+		GK_TBM_Match_t132033130 * L_0 = __this->get__Match_2();
+		return L_0;
+	}
+}
+// System.Void GK_UserInfoLoadResult::.ctor(System.String)
+extern "C"  void GK_UserInfoLoadResult__ctor_m3210176722 (GK_UserInfoLoadResult_t1177841233 * __this, String_t* ___id0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)0, /*hidden argument*/NULL);
+		String_t* L_0 = ___id0;
+		__this->set__playerId_2(L_0);
+		return;
+	}
+}
+// System.Void GK_UserInfoLoadResult::.ctor(GK_Player)
+extern "C"  void GK_UserInfoLoadResult__ctor_m1749856352 (GK_UserInfoLoadResult_t1177841233 * __this, GK_Player_t2782008294 * ___tpl0, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		GK_Player_t2782008294 * L_0 = ___tpl0;
+		__this->set__tpl_3(L_0);
+		return;
+	}
+}
+// System.String GK_UserInfoLoadResult::get_playerId()
+extern "C"  String_t* GK_UserInfoLoadResult_get_playerId_m2103409428 (GK_UserInfoLoadResult_t1177841233 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__playerId_2();
+		return L_0;
+	}
+}
+// GK_Player GK_UserInfoLoadResult::get_playerTemplate()
+extern "C"  GK_Player_t2782008294 * GK_UserInfoLoadResult_get_playerTemplate_m1233536261 (GK_UserInfoLoadResult_t1177841233 * __this, const MethodInfo* method)
+{
+	{
+		GK_Player_t2782008294 * L_0 = __this->get__tpl_3();
+		return L_0;
+	}
+}
+// System.Void GK_UserPhotoLoadResult::.ctor(GK_PhotoSize,UnityEngine.Texture2D)
+extern "C"  void GK_UserPhotoLoadResult__ctor_m1940012940 (GK_UserPhotoLoadResult_t1614198031 * __this, int32_t ___size0, Texture2D_t3542995729 * ___photo1, const MethodInfo* method)
+{
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		int32_t L_0 = ___size0;
+		__this->set__Size_3(L_0);
+		Texture2D_t3542995729 * L_1 = ___photo1;
+		__this->set__Photo_2(L_1);
+		return;
+	}
+}
+// System.Void GK_UserPhotoLoadResult::.ctor(GK_PhotoSize,System.String)
+extern "C"  void GK_UserPhotoLoadResult__ctor_m585106284 (GK_UserPhotoLoadResult_t1614198031 * __this, int32_t ___size0, String_t* ___errorData1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorData1;
+		ISN_Result__ctor_m2861769927(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = ___size0;
+		__this->set__Size_3(L_1);
+		return;
+	}
+}
+// UnityEngine.Texture2D GK_UserPhotoLoadResult::get_Photo()
+extern "C"  Texture2D_t3542995729 * GK_UserPhotoLoadResult_get_Photo_m1992334628 (GK_UserPhotoLoadResult_t1614198031 * __this, const MethodInfo* method)
+{
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__Photo_2();
+		return L_0;
+	}
+}
+// GK_PhotoSize GK_UserPhotoLoadResult::get_Size()
+extern "C"  int32_t GK_UserPhotoLoadResult_get_Size_m985672619 (GK_UserPhotoLoadResult_t1614198031 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__Size_3();
+		return L_0;
+	}
+}
+// System.Void Gradient::.ctor()
+extern "C"  void Gradient__ctor_m3358485757 (Gradient_t1716119128 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color32_t874517518  L_1 = Color32_op_Implicit_m624191464(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_topColor_3(L_1);
+		Color_t2020392075  L_2 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color32_t874517518  L_3 = Color32_op_Implicit_m624191464(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_bottomColor_4(L_3);
+		BaseMeshEffect__ctor_m2843647600(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gradient::ModifyMesh(UnityEngine.Mesh)
+extern Il2CppClass* List_1_t573379950_il2cpp_TypeInfo_var;
+extern Il2CppClass* VertexHelper_t385374196_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3162931864_MethodInfo_var;
+extern const uint32_t Gradient_ModifyMesh_m1656652226_MetadataUsageId;
+extern "C"  void Gradient_ModifyMesh_m1656652226 (Gradient_t1716119128 * __this, Mesh_t1356156583 * ___mesh0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Gradient_ModifyMesh_m1656652226_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t573379950 * V_0 = NULL;
+	VertexHelper_t385374196 * V_1 = NULL;
+	VertexHelper_t385374196 * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.EventSystems.UIBehaviour::IsActive() */, __this);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		List_1_t573379950 * L_1 = (List_1_t573379950 *)il2cpp_codegen_object_new(List_1_t573379950_il2cpp_TypeInfo_var);
+		List_1__ctor_m3162931864(L_1, /*hidden argument*/List_1__ctor_m3162931864_MethodInfo_var);
+		V_0 = L_1;
+		Mesh_t1356156583 * L_2 = ___mesh0;
+		VertexHelper_t385374196 * L_3 = (VertexHelper_t385374196 *)il2cpp_codegen_object_new(VertexHelper_t385374196_il2cpp_TypeInfo_var);
+		VertexHelper__ctor_m1386464415(L_3, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+	}
+
+IL_0019:
+	try
+	{ // begin try (depth: 1)
+		VertexHelper_t385374196 * L_4 = V_1;
+		List_1_t573379950 * L_5 = V_0;
+		NullCheck(L_4);
+		VertexHelper_GetUIVertexStream_m3849188814(L_4, L_5, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x32, FINALLY_0025);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0025;
+	}
+
+FINALLY_0025:
+	{ // begin finally (depth: 1)
+		{
+			VertexHelper_t385374196 * L_6 = V_1;
+			if (!L_6)
+			{
+				goto IL_0031;
+			}
+		}
+
+IL_002b:
+		{
+			VertexHelper_t385374196 * L_7 = V_1;
+			NullCheck(L_7);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_7);
+		}
+
+IL_0031:
+		{
+			IL2CPP_END_FINALLY(37)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(37)
+	{
+		IL2CPP_JUMP_TBL(0x32, IL_0032)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0032:
+	{
+		List_1_t573379950 * L_8 = V_0;
+		Gradient_ModifyVertices_m3912655633(__this, L_8, /*hidden argument*/NULL);
+		VertexHelper_t385374196 * L_9 = (VertexHelper_t385374196 *)il2cpp_codegen_object_new(VertexHelper_t385374196_il2cpp_TypeInfo_var);
+		VertexHelper__ctor_m732625615(L_9, /*hidden argument*/NULL);
+		V_2 = L_9;
+	}
+
+IL_003f:
+	try
+	{ // begin try (depth: 1)
+		VertexHelper_t385374196 * L_10 = V_2;
+		List_1_t573379950 * L_11 = V_0;
+		NullCheck(L_10);
+		VertexHelper_AddUIVertexTriangleStream_m4009409241(L_10, L_11, /*hidden argument*/NULL);
+		VertexHelper_t385374196 * L_12 = V_2;
+		Mesh_t1356156583 * L_13 = ___mesh0;
+		NullCheck(L_12);
+		VertexHelper_FillMesh_m1891350547(L_12, L_13, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x5F, FINALLY_0052);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0052;
+	}
+
+FINALLY_0052:
+	{ // begin finally (depth: 1)
+		{
+			VertexHelper_t385374196 * L_14 = V_2;
+			if (!L_14)
+			{
+				goto IL_005e;
+			}
+		}
+
+IL_0058:
+		{
+			VertexHelper_t385374196 * L_15 = V_2;
+			NullCheck(L_15);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_15);
+		}
+
+IL_005e:
+		{
+			IL2CPP_END_FINALLY(82)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(82)
+	{
+		IL2CPP_JUMP_TBL(0x5F, IL_005f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_005f:
+	{
+		return;
+	}
+}
+// System.Void Gradient::ModifyMesh(UnityEngine.UI.VertexHelper)
+extern Il2CppClass* List_1_t573379950_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3162931864_MethodInfo_var;
+extern const uint32_t Gradient_ModifyMesh_m1483817265_MetadataUsageId;
+extern "C"  void Gradient_ModifyMesh_m1483817265 (Gradient_t1716119128 * __this, VertexHelper_t385374196 * ___vh0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Gradient_ModifyMesh_m1483817265_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t573379950 * V_0 = NULL;
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.EventSystems.UIBehaviour::IsActive() */, __this);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		List_1_t573379950 * L_1 = (List_1_t573379950 *)il2cpp_codegen_object_new(List_1_t573379950_il2cpp_TypeInfo_var);
+		List_1__ctor_m3162931864(L_1, /*hidden argument*/List_1__ctor_m3162931864_MethodInfo_var);
+		V_0 = L_1;
+		VertexHelper_t385374196 * L_2 = ___vh0;
+		List_1_t573379950 * L_3 = V_0;
+		NullCheck(L_2);
+		VertexHelper_GetUIVertexStream_m3849188814(L_2, L_3, /*hidden argument*/NULL);
+		List_1_t573379950 * L_4 = V_0;
+		Gradient_ModifyVertices_m3912655633(__this, L_4, /*hidden argument*/NULL);
+		VertexHelper_t385374196 * L_5 = ___vh0;
+		NullCheck(L_5);
+		VertexHelper_Clear_m648714328(L_5, /*hidden argument*/NULL);
+		VertexHelper_t385374196 * L_6 = ___vh0;
+		List_1_t573379950 * L_7 = V_0;
+		NullCheck(L_6);
+		VertexHelper_AddUIVertexTriangleStream_m4009409241(L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gradient::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
+extern const MethodInfo* List_1_get_Count_m2390119157_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2318061838_MethodInfo_var;
+extern const MethodInfo* List_1_set_Item_m1747579297_MethodInfo_var;
+extern const uint32_t Gradient_ModifyVertices_m3912655633_MetadataUsageId;
+extern "C"  void Gradient_ModifyVertices_m3912655633 (Gradient_t1716119128 * __this, List_1_t573379950 * ___vertexList0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Gradient_ModifyVertices_m3912655633_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	UIVertex_t1204258818  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	UIVertex_t1204258818  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	UIVertex_t1204258818  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	UIVertex_t1204258818  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.EventSystems.UIBehaviour::IsActive() */, __this);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		List_1_t573379950 * L_1 = ___vertexList0;
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m2390119157(L_1, /*hidden argument*/List_1_get_Count_m2390119157_MethodInfo_var);
+		V_0 = L_2;
+		List_1_t573379950 * L_3 = ___vertexList0;
+		NullCheck(L_3);
+		UIVertex_t1204258818  L_4 = List_1_get_Item_m2318061838(L_3, 0, /*hidden argument*/List_1_get_Item_m2318061838_MethodInfo_var);
+		V_2 = L_4;
+		Vector3_t2243707580 * L_5 = (&V_2)->get_address_of_position_0();
+		float L_6 = L_5->get_y_2();
+		V_1 = L_6;
+		List_1_t573379950 * L_7 = ___vertexList0;
+		NullCheck(L_7);
+		UIVertex_t1204258818  L_8 = List_1_get_Item_m2318061838(L_7, 0, /*hidden argument*/List_1_get_Item_m2318061838_MethodInfo_var);
+		V_4 = L_8;
+		Vector3_t2243707580 * L_9 = (&V_4)->get_address_of_position_0();
+		float L_10 = L_9->get_y_2();
+		V_3 = L_10;
+		V_5 = 1;
+		goto IL_007f;
+	}
+
+IL_0046:
+	{
+		List_1_t573379950 * L_11 = ___vertexList0;
+		int32_t L_12 = V_5;
+		NullCheck(L_11);
+		UIVertex_t1204258818  L_13 = List_1_get_Item_m2318061838(L_11, L_12, /*hidden argument*/List_1_get_Item_m2318061838_MethodInfo_var);
+		V_7 = L_13;
+		Vector3_t2243707580 * L_14 = (&V_7)->get_address_of_position_0();
+		float L_15 = L_14->get_y_2();
+		V_6 = L_15;
+		float L_16 = V_6;
+		float L_17 = V_3;
+		if ((!(((float)L_16) > ((float)L_17))))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		float L_18 = V_6;
+		V_3 = L_18;
+		goto IL_0079;
+	}
+
+IL_006e:
+	{
+		float L_19 = V_6;
+		float L_20 = V_1;
+		if ((!(((float)L_19) < ((float)L_20))))
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		float L_21 = V_6;
+		V_1 = L_21;
+	}
+
+IL_0079:
+	{
+		int32_t L_22 = V_5;
+		V_5 = ((int32_t)((int32_t)L_22+(int32_t)1));
+	}
+
+IL_007f:
+	{
+		int32_t L_23 = V_5;
+		int32_t L_24 = V_0;
+		if ((((int32_t)L_23) < ((int32_t)L_24)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		float L_25 = V_3;
+		float L_26 = V_1;
+		V_8 = ((float)((float)L_25-(float)L_26));
+		V_9 = 0;
+		goto IL_00d7;
+	}
+
+IL_0094:
+	{
+		List_1_t573379950 * L_27 = ___vertexList0;
+		int32_t L_28 = V_9;
+		NullCheck(L_27);
+		UIVertex_t1204258818  L_29 = List_1_get_Item_m2318061838(L_27, L_28, /*hidden argument*/List_1_get_Item_m2318061838_MethodInfo_var);
+		V_10 = L_29;
+		Color32_t874517518  L_30 = __this->get_bottomColor_4();
+		Color32_t874517518  L_31 = __this->get_topColor_3();
+		Vector3_t2243707580 * L_32 = (&V_10)->get_address_of_position_0();
+		float L_33 = L_32->get_y_2();
+		float L_34 = V_1;
+		float L_35 = V_8;
+		Color32_t874517518  L_36 = Color32_Lerp_m750003431(NULL /*static, unused*/, L_30, L_31, ((float)((float)((float)((float)L_33-(float)L_34))/(float)L_35)), /*hidden argument*/NULL);
+		(&V_10)->set_color_2(L_36);
+		List_1_t573379950 * L_37 = ___vertexList0;
+		int32_t L_38 = V_9;
+		UIVertex_t1204258818  L_39 = V_10;
+		NullCheck(L_37);
+		List_1_set_Item_m1747579297(L_37, L_38, L_39, /*hidden argument*/List_1_set_Item_m1747579297_MethodInfo_var);
+		int32_t L_40 = V_9;
+		V_9 = ((int32_t)((int32_t)L_40+(int32_t)1));
+	}
+
+IL_00d7:
+	{
+		int32_t L_41 = V_9;
+		int32_t L_42 = V_0;
+		if ((((int32_t)L_41) < ((int32_t)L_42)))
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GSetting::.ctor()
+extern "C"  void GSetting__ctor_m1789524710 (GSetting_t3807090435 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSetting::Start()
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisImage_t2042527209_m2189462422_MethodInfo_var;
+extern const uint32_t GSetting_Start_m716032706_MetadataUsageId;
+extern "C"  void GSetting_Start_m716032706 (GSetting_t3807090435 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GSetting_Start_m716032706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DB_t3235597902 * L_0 = DB_get_getInstance_m2881971082(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = DB_getSettingSoundOn_m3077506779(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Image_t2042527209 * L_2 = __this->get_sound_img_4();
+		Sprite_t309593783 * L_3 = __this->get_scheck_yes_2();
+		NullCheck(L_2);
+		Image_set_sprite_m1800056820(L_2, L_3, /*hidden argument*/NULL);
+		goto IL_0036;
+	}
+
+IL_0025:
+	{
+		Image_t2042527209 * L_4 = __this->get_sound_img_4();
+		Sprite_t309593783 * L_5 = __this->get_scheck_no_3();
+		NullCheck(L_4);
+		Image_set_sprite_m1800056820(L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		int32_t L_6 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_gameApp_4();
+		if ((!(((uint32_t)L_6) == ((uint32_t)3))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		Image_t2042527209 * L_7 = Component_GetComponent_TisImage_t2042527209_m2189462422(__this, /*hidden argument*/Component_GetComponent_TisImage_t2042527209_m2189462422_MethodInfo_var);
+		Sprite_t309593783 * L_8 = __this->get_bg_52fun_5();
+		NullCheck(L_7);
+		Image_set_sprite_m1800056820(L_7, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0052:
+	{
+		return;
+	}
+}
+// System.Void GSetting::toogleSound()
+extern "C"  void GSetting_toogleSound_m4125635971 (GSetting_t3807090435 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		DB_t3235597902 * L_0 = DB_get_getInstance_m2881971082(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = DB_getSettingSoundOn_m3077506779(L_0, /*hidden argument*/NULL);
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Image_t2042527209 * L_3 = __this->get_sound_img_4();
+		Sprite_t309593783 * L_4 = __this->get_scheck_yes_2();
+		NullCheck(L_3);
+		Image_set_sprite_m1800056820(L_3, L_4, /*hidden argument*/NULL);
+		goto IL_003b;
+	}
+
+IL_002a:
+	{
+		Image_t2042527209 * L_5 = __this->get_sound_img_4();
+		Sprite_t309593783 * L_6 = __this->get_scheck_no_3();
+		NullCheck(L_5);
+		Image_set_sprite_m1800056820(L_5, L_6, /*hidden argument*/NULL);
+	}
+
+IL_003b:
+	{
+		DB_t3235597902 * L_7 = DB_get_getInstance_m2881971082(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_8 = V_0;
+		NullCheck(L_7);
+		DB_storeSettingSoundOn_m1473437657(L_7, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSetting::showGSetting(System.Boolean)
+extern Il2CppClass* LeanTween_t4120592429_il2cpp_TypeInfo_var;
+extern const uint32_t GSetting_showGSetting_m2588011943_MetadataUsageId;
+extern "C"  void GSetting_showGSetting_m2588011943 (GSetting_t3807090435 * __this, bool ___show0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GSetting_showGSetting_m2588011943_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___show0;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTween_t4120592429_il2cpp_TypeInfo_var);
+		LeanTween_moveLocalX_m2192841450(NULL /*static, unused*/, L_1, (640.0f), (0.2f), /*hidden argument*/NULL);
+		goto IL_0037;
+	}
+
+IL_0021:
+	{
+		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTween_t4120592429_il2cpp_TypeInfo_var);
+		LeanTween_moveLocalX_m2192841450(NULL /*static, unused*/, L_2, (944.0f), (0.2f), /*hidden argument*/NULL);
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Void GSetting::forcedLogout()
+extern Il2CppClass* U3CforcedLogoutU3Ec__AnonStorey0_t3193201296_il2cpp_TypeInfo_var;
+extern Il2CppClass* SuperScene_t3760801569_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__0_m2737042598_MethodInfo_var;
+extern const MethodInfo* U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__1_m2737042693_MethodInfo_var;
+extern const MethodInfo* U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__2_m2737042664_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1745988573;
+extern Il2CppCodeGenString* _stringLiteral3106583914;
+extern Il2CppCodeGenString* _stringLiteral3085553623;
+extern const uint32_t GSetting_forcedLogout_m219513469_MetadataUsageId;
+extern "C"  void GSetting_forcedLogout_m219513469 (GSetting_t3807090435 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GSetting_forcedLogout_m219513469_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * V_0 = NULL;
+	{
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_0 = (U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 *)il2cpp_codegen_object_new(U3CforcedLogoutU3Ec__AnonStorey0_t3193201296_il2cpp_TypeInfo_var);
+		U3CforcedLogoutU3Ec__AnonStorey0__ctor_m1751956859(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_1 = V_0;
+		SuperScene_t3760801569 * L_2 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
+		DialogInfo_t3864811688 * L_3 = DialogInfo_get_OKCancelDialog_m692933975(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SDialog_t1510781833 * L_4 = SuperScene_showDialog_m1833724257(L_2, L_3, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		L_1->set_dialog_0(L_4);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_5 = V_0;
+		NullCheck(L_5);
+		SDialog_t1510781833 * L_6 = L_5->get_dialog_0();
+		NullCheck(L_6);
+		Text_t356221433 * L_7 = L_6->get_content_7();
+		NullCheck(L_7);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_7, _stringLiteral1745988573);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_8 = V_0;
+		NullCheck(L_8);
+		SDialog_t1510781833 * L_9 = L_8->get_dialog_0();
+		NullCheck(L_9);
+		Text_t356221433 * L_10 = L_9->get_positiveText_8();
+		NullCheck(L_10);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_10, _stringLiteral3106583914);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_11 = V_0;
+		NullCheck(L_11);
+		SDialog_t1510781833 * L_12 = L_11->get_dialog_0();
+		NullCheck(L_12);
+		Text_t356221433 * L_13 = L_12->get_negativeText_9();
+		NullCheck(L_13);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, _stringLiteral3085553623);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_14 = V_0;
+		NullCheck(L_14);
+		SDialog_t1510781833 * L_15 = L_14->get_dialog_0();
+		NullCheck(L_15);
+		Button_t2872111280 * L_16 = L_15->get_positive_3();
+		NullCheck(L_16);
+		ButtonClickedEvent_t2455055323 * L_17 = Button_get_onClick_m1595880935(L_16, /*hidden argument*/NULL);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_18 = V_0;
+		IntPtr_t L_19;
+		L_19.set_m_value_0((void*)(void*)U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__0_m2737042598_MethodInfo_var);
+		UnityAction_t4025899511 * L_20 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_20, L_18, L_19, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		UnityEvent_AddListener_m1596810379(L_17, L_20, /*hidden argument*/NULL);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_21 = V_0;
+		NullCheck(L_21);
+		SDialog_t1510781833 * L_22 = L_21->get_dialog_0();
+		NullCheck(L_22);
+		Button_t2872111280 * L_23 = L_22->get_negative_4();
+		NullCheck(L_23);
+		ButtonClickedEvent_t2455055323 * L_24 = Button_get_onClick_m1595880935(L_23, /*hidden argument*/NULL);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_25 = V_0;
+		IntPtr_t L_26;
+		L_26.set_m_value_0((void*)(void*)U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__1_m2737042693_MethodInfo_var);
+		UnityAction_t4025899511 * L_27 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_27, L_25, L_26, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		UnityEvent_AddListener_m1596810379(L_24, L_27, /*hidden argument*/NULL);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_28 = V_0;
+		NullCheck(L_28);
+		SDialog_t1510781833 * L_29 = L_28->get_dialog_0();
+		NullCheck(L_29);
+		Button_t2872111280 * L_30 = L_29->get_cancel_2();
+		NullCheck(L_30);
+		ButtonClickedEvent_t2455055323 * L_31 = Button_get_onClick_m1595880935(L_30, /*hidden argument*/NULL);
+		U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * L_32 = V_0;
+		IntPtr_t L_33;
+		L_33.set_m_value_0((void*)(void*)U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__2_m2737042664_MethodInfo_var);
+		UnityAction_t4025899511 * L_34 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_34, L_32, L_33, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		UnityEvent_AddListener_m1596810379(L_31, L_34, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSetting/<forcedLogout>c__AnonStorey0::.ctor()
+extern "C"  void U3CforcedLogoutU3Ec__AnonStorey0__ctor_m1751956859 (U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSetting/<forcedLogout>c__AnonStorey0::<>m__0()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1198377566;
+extern const uint32_t U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__0_m2737042598_MetadataUsageId;
+extern "C"  void U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__0_m2737042598 (U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__0_m2737042598_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		SDialog_t1510781833 * L_0 = __this->get_dialog_0();
+		NullCheck(L_0);
+		SDialog_dismiss_m2591117800(L_0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_1 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1198377566, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GameObject_t1756533147 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		GameApplication_set_game_m2252470058(NULL /*static, unused*/, (Game_t1600141214 *)NULL, /*hidden argument*/NULL);
+		String_t* L_5 = GameApplication_get_LOGINSCENE_m3283051322(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSetting/<forcedLogout>c__AnonStorey0::<>m__1()
+extern "C"  void U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__1_m2737042693 (U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * __this, const MethodInfo* method)
+{
+	{
+		SDialog_t1510781833 * L_0 = __this->get_dialog_0();
+		NullCheck(L_0);
+		SDialog_dismiss_m2591117800(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSetting/<forcedLogout>c__AnonStorey0::<>m__2()
+extern "C"  void U3CforcedLogoutU3Ec__AnonStorey0_U3CU3Em__2_m2737042664 (U3CforcedLogoutU3Ec__AnonStorey0_t3193201296 * __this, const MethodInfo* method)
+{
+	{
+		SDialog_t1510781833 * L_0 = __this->get_dialog_0();
+		NullCheck(L_0);
+		SDialog_dismiss_m2591117800(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HelloPackage::.ctor()
+extern "C"  void HelloPackage__ctor_m1449788523 (HelloPackage_t1108260788 * __this, const MethodInfo* method)
+{
+	{
+		BasePackage__ctor_m904316046(__this, /*hidden argument*/NULL);
+		BasePackage_initWriter_m3681199625(__this, /*hidden argument*/NULL);
+		BasePackage_writeFloat_m1841605300(__this, (1.1f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 HelloPackage::getId()
+extern "C"  int32_t HelloPackage_getId_m600388940 (HelloPackage_t1108260788 * __this, const MethodInfo* method)
+{
+	{
+		return 2;
+	}
+}
+// System.Void Hints::.ctor()
+extern "C"  void Hints__ctor_m2569668387 (Hints_t638492818 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Hints::Init(SimpleJSON.JSONArray)
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern Il2CppClass* Hints_t638492818_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern const uint32_t Hints_Init_m1109817620_MetadataUsageId;
+extern "C"  void Hints_Init_m1109817620 (Il2CppObject * __this /* static, unused */, JSONArray_t3986483147 * ___jarr0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Hints_Init_m1109817620_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		List_1_t1398341365 * L_0 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_0, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->set_hints_0(L_0);
+		V_0 = 0;
+		goto IL_002b;
+	}
+
+IL_0011:
+	{
+		List_1_t1398341365 * L_1 = ((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->get_hints_0();
+		JSONArray_t3986483147 * L_2 = ___jarr0;
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		JSONNode_t1250409636 * L_4 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_2, L_3);
+		String_t* L_5 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		List_1_Add_m4061286785(L_1, L_5, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_002b:
+	{
+		int32_t L_7 = V_0;
+		JSONArray_t3986483147 * L_8 = ___jarr0;
+		NullCheck(L_8);
+		int32_t L_9 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_8);
+		if ((((int32_t)L_7) < ((int32_t)L_9)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		JSONArray_t3986483147 * L_10 = ___jarr0;
+		NullCheck(L_10);
+		int32_t L_11 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_10);
+		int32_t L_12 = Random_Range_m694320887(NULL /*static, unused*/, 0, ((int32_t)((int32_t)L_11-(int32_t)1)), /*hidden argument*/NULL);
+		((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->set_index_1(L_12);
+		return;
+	}
+}
+// System.String Hints::getNextHint()
+extern Il2CppClass* Hints_t638492818_il2cpp_TypeInfo_var;
+extern Il2CppClass* Strings_t183934206_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m4077476129_MethodInfo_var;
+extern const uint32_t Hints_getNextHint_m564972396_MetadataUsageId;
+extern "C"  String_t* Hints_getNextHint_m564972396 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Hints_getNextHint_m564972396_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		int32_t L_0 = ((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->get_index_1();
+		int32_t L_1 = ((int32_t)((int32_t)L_0+(int32_t)1));
+		((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->set_index_1(L_1);
+		List_1_t1398341365 * L_2 = ((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->get_hints_0();
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m780127360(L_2, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->set_index_1(((int32_t)((int32_t)L_1%(int32_t)L_3)));
+		List_1_t1398341365 * L_4 = ((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->get_hints_0();
+		int32_t L_5 = ((Hints_t638492818_StaticFields*)Hints_t638492818_il2cpp_TypeInfo_var->static_fields)->get_index_1();
+		NullCheck(L_4);
+		String_t* L_6 = List_1_get_Item_m4077476129(L_4, L_5, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		V_0 = L_6;
+		IL2CPP_RUNTIME_CLASS_INIT(Strings_t183934206_il2cpp_TypeInfo_var);
+		Strings_t183934206 * L_7 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_8 = V_0;
+		NullCheck(L_7);
+		String_t* L_9 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String Strings::getLocalString(System.String) */, L_7, L_8);
+		return L_9;
+	}
+}
+// System.Void HomeScene::.ctor()
+extern "C"  void HomeScene__ctor_m178713284 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	{
+		SuperScene__ctor_m2257887516(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::Start()
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* OperatorGame_t4100832846_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* SceneControl_t3361513587_il2cpp_TypeInfo_var;
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1_t334943763_il2cpp_TypeInfo_var;
+extern Il2CppClass* FacebookDelegate_1_t909463455_il2cpp_TypeInfo_var;
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1921196075_MethodInfo_var;
+extern const MethodInfo* List_1_Contains_m793041670_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAnimator_t69676727_m475627522_MethodInfo_var;
+extern const MethodInfo* HomeScene_appRequestCallback_m1285047852_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m113473383_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3804822174;
+extern Il2CppCodeGenString* _stringLiteral4183277322;
+extern Il2CppCodeGenString* _stringLiteral478850893;
+extern Il2CppCodeGenString* _stringLiteral3257407169;
+extern Il2CppCodeGenString* _stringLiteral2967032398;
+extern Il2CppCodeGenString* _stringLiteral1815368246;
+extern Il2CppCodeGenString* _stringLiteral3359819398;
+extern Il2CppCodeGenString* _stringLiteral2986769741;
+extern Il2CppCodeGenString* _stringLiteral372029325;
+extern const uint32_t HomeScene_Start_m3681382552_MetadataUsageId;
+extern "C"  void HomeScene_Start_m3681382552 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_Start_m3681382552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Animator_t69676727 * V_2 = NULL;
+	GameObject_t1756533147 * V_3 = NULL;
+	GameObject_t1756533147 * V_4 = NULL;
+	GameObject_t1756533147 * V_5 = NULL;
+	JSONClass_t1609506608 * V_6 = NULL;
+	Nullable_1_t334943763  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		bool L_0 = GameApplication_get_IsInitialized_m1802258980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		String_t* L_1 = GameApplication_get_LOGINSCENE_m3283051322(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0015:
+	{
+		SuperScene_Start_m893179532(__this, /*hidden argument*/NULL);
+		Scrollbar_t3248359358 * L_2 = __this->get_scrollbar_33();
+		NullCheck(L_2);
+		Scrollbar_set_value_m1056753036(L_2, (0.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		GameApplication_set_game_m2252470058(NULL /*static, unused*/, (Game_t1600141214 *)NULL, /*hidden argument*/NULL);
+		HomeScene_updateInfo_m525121245(__this, /*hidden argument*/NULL);
+		HomeScene_updateAvatar_m2300526042(__this, /*hidden argument*/NULL);
+		bool L_3 = HomeScene_checkForChangeName_m1595516444(__this, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		bool L_4 = HomeScene_showDailyBonus_m3840667721(__this, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		SuperScene_checkMail_m1922225535(__this, /*hidden argument*/NULL);
+	}
+
+IL_0059:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		int32_t L_5 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_gameApp_4();
+		if ((((int32_t)L_5) == ((int32_t)4)))
+		{
+			goto IL_00cd;
+		}
+	}
+	{
+		GameListControl_t2306893813 * L_6 = __this->get_gameListControl_40();
+		NullCheck(L_6);
+		GameListControl_clearAll_m2462236616(L_6, /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_00bd;
+	}
+
+IL_0076:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(OperatorGame_t4100832846_il2cpp_TypeInfo_var);
+		List_1_t1440998580 * L_7 = ((OperatorGame_t4100832846_StaticFields*)OperatorGame_t4100832846_il2cpp_TypeInfo_var->static_fields)->get_games_0();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = List_1_get_Item_m1921196075(L_7, L_8, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		V_1 = L_9;
+		List_1_t1440998580 * L_10 = ((OperatorGame_t4100832846_StaticFields*)OperatorGame_t4100832846_il2cpp_TypeInfo_var->static_fields)->get_disableGames_1();
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		bool L_12 = List_1_Contains_m793041670(L_10, L_11, /*hidden argument*/List_1_Contains_m793041670_MethodInfo_var);
+		if (L_12)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		GameListControl_t2306893813 * L_13 = __this->get_gameListControl_40();
+		int32_t L_14 = V_1;
+		NullCheck(L_13);
+		GameListControl_addGameItem_m3675693495(L_13, L_14, /*hidden argument*/NULL);
+		goto IL_00b9;
+	}
+
+IL_00a3:
+	{
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		Il2CppObject * L_17 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_16);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_18 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3804822174, L_17, /*hidden argument*/NULL);
+		Debug_LogWarning_m1379396000(NULL /*static, unused*/, L_18, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_00b9:
+	{
+		int32_t L_19 = V_0;
+		V_0 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_00bd:
+	{
+		int32_t L_20 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(OperatorGame_t4100832846_il2cpp_TypeInfo_var);
+		List_1_t1440998580 * L_21 = ((OperatorGame_t4100832846_StaticFields*)OperatorGame_t4100832846_il2cpp_TypeInfo_var->static_fields)->get_games_0();
+		NullCheck(L_21);
+		int32_t L_22 = List_1_get_Count_m852068579(L_21, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if ((((int32_t)L_20) < ((int32_t)L_22)))
+		{
+			goto IL_0076;
+		}
+	}
+
+IL_00cd:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		int32_t L_23 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_gameApp_4();
+		if ((!(((uint32_t)L_23) == ((uint32_t)4))))
+		{
+			goto IL_0168;
+		}
+	}
+	{
+		GameListControl_t2306893813 * L_24 = __this->get_gameListControl_40();
+		NullCheck(L_24);
+		GameListControl_clearAll_m2462236616(L_24, /*hidden argument*/NULL);
+		GameListControl_t2306893813 * L_25 = __this->get_gameListControl_40();
+		NullCheck(L_25);
+		GameListControl_addGameItem_m3675693495(L_25, ((int32_t)8020), /*hidden argument*/NULL);
+		GameListControl_t2306893813 * L_26 = __this->get_gameListControl_40();
+		NullCheck(L_26);
+		GameListControl_addGameItem_m3675693495(L_26, ((int32_t)8021), /*hidden argument*/NULL);
+		GameListControl_t2306893813 * L_27 = __this->get_gameListControl_40();
+		NullCheck(L_27);
+		GameListControl_addGameItem_m3675693495(L_27, ((int32_t)8008), /*hidden argument*/NULL);
+		GameListControl_t2306893813 * L_28 = __this->get_gameListControl_40();
+		NullCheck(L_28);
+		GameListControl_addGameItem_m3675693495(L_28, ((int32_t)9006), /*hidden argument*/NULL);
+		GameListControl_t2306893813 * L_29 = __this->get_gameListControl_40();
+		NullCheck(L_29);
+		GameListControl_addGameItem_m3675693495(L_29, ((int32_t)8013), /*hidden argument*/NULL);
+		Image_t2042527209 * L_30 = __this->get_image_42();
+		NullCheck(L_30);
+		RectTransform_t3349966182 * L_31 = Graphic_get_rectTransform_m2697395074(L_30, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Animator_t69676727 * L_32 = Component_GetComponent_TisAnimator_t69676727_m475627522(L_31, /*hidden argument*/Component_GetComponent_TisAnimator_t69676727_m475627522_MethodInfo_var);
+		V_2 = L_32;
+		Animator_t69676727 * L_33 = V_2;
+		NullCheck(L_33);
+		Behaviour_set_enabled_m1796096907(L_33, (bool)1, /*hidden argument*/NULL);
+		Image_t2042527209 * L_34 = __this->get_image_42();
+		NullCheck(L_34);
+		GameObject_t1756533147 * L_35 = Component_get_gameObject_m3105766835(L_34, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		GameObject_SetActive_m2887581199(L_35, (bool)1, /*hidden argument*/NULL);
+		Animator_t69676727 * L_36 = V_2;
+		RuntimeAnimatorController_t670468573 * L_37 = __this->get_emos_43();
+		NullCheck(L_36);
+		Animator_set_runtimeAnimatorController_m4277899194(L_36, L_37, /*hidden argument*/NULL);
+	}
+
+IL_0168:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		int32_t L_38 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_gameApp_4();
+		if ((!(((uint32_t)L_38) == ((uint32_t)4))))
+		{
+			goto IL_017f;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_39 = __this->get_doithuongButton_34();
+		NullCheck(L_39);
+		GameObject_SetActive_m2887581199(L_39, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_017f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(OperatorGame_t4100832846_il2cpp_TypeInfo_var);
+		List_1_t1440998580 * L_40 = ((OperatorGame_t4100832846_StaticFields*)OperatorGame_t4100832846_il2cpp_TypeInfo_var->static_fields)->get_disableGames_1();
+		NullCheck(L_40);
+		bool L_41 = List_1_Contains_m793041670(L_40, ((int32_t)8016), /*hidden argument*/List_1_Contains_m793041670_MethodInfo_var);
+		if (!L_41)
+		{
+			goto IL_01b1;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_42 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral4183277322, /*hidden argument*/NULL);
+		V_3 = L_42;
+		GameObject_t1756533147 * L_43 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_44 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_43, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_44)
+		{
+			goto IL_01b1;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_45 = V_3;
+		NullCheck(L_45);
+		GameObject_SetActive_m2887581199(L_45, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_01b1:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(OperatorGame_t4100832846_il2cpp_TypeInfo_var);
+		List_1_t1440998580 * L_46 = ((OperatorGame_t4100832846_StaticFields*)OperatorGame_t4100832846_il2cpp_TypeInfo_var->static_fields)->get_disableGames_1();
+		NullCheck(L_46);
+		bool L_47 = List_1_Contains_m793041670(L_46, ((int32_t)1001), /*hidden argument*/List_1_Contains_m793041670_MethodInfo_var);
+		if (L_47)
+		{
+			goto IL_01d9;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(OperatorGame_t4100832846_il2cpp_TypeInfo_var);
+		List_1_t1440998580 * L_48 = ((OperatorGame_t4100832846_StaticFields*)OperatorGame_t4100832846_il2cpp_TypeInfo_var->static_fields)->get_disableGames_1();
+		NullCheck(L_48);
+		bool L_49 = List_1_Contains_m793041670(L_48, ((int32_t)1112), /*hidden argument*/List_1_Contains_m793041670_MethodInfo_var);
+		if (!L_49)
+		{
+			goto IL_023d;
+		}
+	}
+
+IL_01d9:
+	{
+		RectTransform_t3349966182 * L_50 = __this->get_topPannel_45();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_51 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_50, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_51)
+		{
+			goto IL_01fb;
+		}
+	}
+	{
+		RectTransform_t3349966182 * L_52 = __this->get_topPannel_45();
+		NullCheck(L_52);
+		GameObject_t1756533147 * L_53 = Component_get_gameObject_m3105766835(L_52, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		GameObject_SetActive_m2887581199(L_53, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_01fb:
+	{
+		GameObject_t1756533147 * L_54 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral478850893, /*hidden argument*/NULL);
+		V_4 = L_54;
+		GameObject_t1756533147 * L_55 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_56 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_55, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_56)
+		{
+			goto IL_021c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_57 = V_4;
+		NullCheck(L_57);
+		GameObject_SetActive_m2887581199(L_57, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_021c:
+	{
+		GameObject_t1756533147 * L_58 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral3257407169, /*hidden argument*/NULL);
+		V_5 = L_58;
+		GameObject_t1756533147 * L_59 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_60 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_59, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_60)
+		{
+			goto IL_023d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_61 = V_5;
+		NullCheck(L_61);
+		GameObject_SetActive_m2887581199(L_61, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_023d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SceneControl_t3361513587_il2cpp_TypeInfo_var);
+		bool L_62 = ((SceneControl_t3361513587_StaticFields*)SceneControl_t3361513587_il2cpp_TypeInfo_var->static_fields)->get_showInviteFriendOnStart_0();
+		if (!L_62)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SceneControl_t3361513587_il2cpp_TypeInfo_var);
+		((SceneControl_t3361513587_StaticFields*)SceneControl_t3361513587_il2cpp_TypeInfo_var->static_fields)->set_showInviteFriendOnStart_0((bool)0);
+		JSONClass_t1609506608 * L_63 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_63, /*hidden argument*/NULL);
+		V_6 = L_63;
+		JSONClass_t1609506608 * L_64 = V_6;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_65 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_66 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_66);
+		int32_t L_67 = L_66->get_id_0();
+		int32_t L_68 = L_67;
+		Il2CppObject * L_69 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_68);
+		String_t* L_70 = String_Concat_m56707527(NULL /*static, unused*/, L_65, L_69, /*hidden argument*/NULL);
+		JSONNode_t1250409636 * L_71 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_64, _stringLiteral2967032398, L_71);
+		String_t* L_72 = GameApplication_get_gameName_m429985844(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_73 = String_Concat_m2596409543(NULL /*static, unused*/, L_72, _stringLiteral1815368246, /*hidden argument*/NULL);
+		Initobj (Nullable_1_t334943763_il2cpp_TypeInfo_var, (&V_7));
+		Nullable_1_t334943763  L_74 = V_7;
+		JSONClass_t1609506608 * L_75 = V_6;
+		NullCheck(L_75);
+		String_t* L_76 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_75);
+		String_t* L_77 = GameApplication_get_gameName_m429985844(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_78 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral3359819398, L_77, _stringLiteral2986769741, /*hidden argument*/NULL);
+		IntPtr_t L_79;
+		L_79.set_m_value_0((void*)(void*)HomeScene_appRequestCallback_m1285047852_MethodInfo_var);
+		FacebookDelegate_1_t909463455 * L_80 = (FacebookDelegate_1_t909463455 *)il2cpp_codegen_object_new(FacebookDelegate_1_t909463455_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m113473383(L_80, __this, L_79, /*hidden argument*/FacebookDelegate_1__ctor_m113473383_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		FB_AppRequest_m2392001211(NULL /*static, unused*/, L_73, (Il2CppObject*)NULL, (Il2CppObject*)NULL, (Il2CppObject*)NULL, L_74, L_76, L_78, L_80, /*hidden argument*/NULL);
+	}
+
+IL_02c6:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		bool L_81 = FB_get_IsLoggedIn_m3262230974(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_81)
+		{
+			goto IL_02fa;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_82 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_82);
+		LoginInfo_t657176999 * L_83 = L_82->get_loginInfo_18();
+		NullCheck(L_83);
+		String_t* L_84 = L_83->get_name_0();
+		NullCheck(L_84);
+		bool L_85 = String_Equals_m2633592423(L_84, _stringLiteral372029325, /*hidden argument*/NULL);
+		if (!L_85)
+		{
+			goto IL_02fa;
+		}
+	}
+	{
+		HomeScene_getFBRequestIds_m4088654155(__this, /*hidden argument*/NULL);
+		HomeScene_checkFBRequest_m2962966109(__this, /*hidden argument*/NULL);
+	}
+
+IL_02fa:
+	{
+		return;
+	}
+}
+// System.Void HomeScene::getFBRequestIds()
+extern Il2CppClass* FacebookDelegate_1_t3020292135_il2cpp_TypeInfo_var;
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern const MethodInfo* HomeScene_U3CgetFBRequestIdsU3Em__0_m3220804427_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3799077747_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4210311559;
+extern const uint32_t HomeScene_getFBRequestIds_m4088654155_MetadataUsageId;
+extern "C"  void HomeScene_getFBRequestIds_m4088654155 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_getFBRequestIds_m4088654155_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)HomeScene_U3CgetFBRequestIdsU3Em__0_m3220804427_MethodInfo_var);
+		FacebookDelegate_1_t3020292135 * L_1 = (FacebookDelegate_1_t3020292135 *)il2cpp_codegen_object_new(FacebookDelegate_1_t3020292135_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3799077747(L_1, __this, L_0, /*hidden argument*/FacebookDelegate_1__ctor_m3799077747_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		FB_API_m4120372446(NULL /*static, unused*/, _stringLiteral4210311559, 0, L_1, (Il2CppObject*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::sendInvitesToCubeia(System.String)
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2712451827;
+extern Il2CppCodeGenString* _stringLiteral2818192043;
+extern Il2CppCodeGenString* _stringLiteral2619694;
+extern const uint32_t HomeScene_sendInvitesToCubeia_m4038020704_MetadataUsageId;
+extern "C"  void HomeScene_sendInvitesToCubeia_m4038020704 (HomeScene_t3664546087 * __this, String_t* ___invites0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_sendInvitesToCubeia_m4038020704_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	{
+		JSONClass_t1609506608 * L_0 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONClass_t1609506608 * L_1 = V_0;
+		JSONNode_t1250409636 * L_2 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, _stringLiteral2818192043, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_1, _stringLiteral2712451827, L_2);
+		JSONClass_t1609506608 * L_3 = V_0;
+		String_t* L_4 = ___invites0;
+		JSONNode_t1250409636 * L_5 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_3, _stringLiteral2619694, L_5);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		CubeiaClient_t2232589536 * L_6 = GameApplication_get_cubeia_m1520786160(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_7 = V_0;
+		NullCheck(L_6);
+		CubeiaClient_sendService_m2737964952(L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::checkFBRequest()
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern Il2CppClass* FBRequest_t3759256207_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral138689031;
+extern const uint32_t HomeScene_checkFBRequest_m2962966109_MetadataUsageId;
+extern "C"  void HomeScene_checkFBRequest_m2962966109 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_checkFBRequest_m2962966109_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m3262230974(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		String_t* L_1 = ((FBRequest_t3759256207_StaticFields*)FBRequest_t3759256207_il2cpp_TypeInfo_var->static_fields)->get_fbrequestId_0();
+		if (!L_1)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		SuperScene_showToast_m4163344990(__this, _stringLiteral138689031, /*hidden argument*/NULL);
+		String_t* L_2 = ((FBRequest_t3759256207_StaticFields*)FBRequest_t3759256207_il2cpp_TypeInfo_var->static_fields)->get_fbrequestId_0();
+		HomeScene_getRequestData_m1683681403(__this, L_2, /*hidden argument*/NULL);
+		((FBRequest_t3759256207_StaticFields*)FBRequest_t3759256207_il2cpp_TypeInfo_var->static_fields)->set_fbrequestId_0((String_t*)NULL);
+	}
+
+IL_0030:
+	{
+		return;
+	}
+}
+// System.Void HomeScene::getRequestData(System.String)
+extern Il2CppClass* U3CgetRequestDataU3Ec__AnonStorey0_t3181833180_il2cpp_TypeInfo_var;
+extern Il2CppClass* FacebookDelegate_1_t3020292135_il2cpp_TypeInfo_var;
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CgetRequestDataU3Ec__AnonStorey0_U3CU3Em__0_m617515039_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3799077747_MethodInfo_var;
+extern const uint32_t HomeScene_getRequestData_m1683681403_MetadataUsageId;
+extern "C"  void HomeScene_getRequestData_m1683681403 (HomeScene_t3664546087 * __this, String_t* ___inRequestId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_getRequestData_m1683681403_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 * V_0 = NULL;
+	{
+		U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 * L_0 = (U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 *)il2cpp_codegen_object_new(U3CgetRequestDataU3Ec__AnonStorey0_t3181833180_il2cpp_TypeInfo_var);
+		U3CgetRequestDataU3Ec__AnonStorey0__ctor_m1832379331(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 * L_1 = V_0;
+		String_t* L_2 = ___inRequestId0;
+		NullCheck(L_1);
+		L_1->set_inRequestId_0(L_2);
+		U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 * L_3 = V_0;
+		NullCheck(L_3);
+		String_t* L_4 = L_3->get_inRequestId_0();
+		U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 * L_5 = V_0;
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)U3CgetRequestDataU3Ec__AnonStorey0_U3CU3Em__0_m617515039_MethodInfo_var);
+		FacebookDelegate_1_t3020292135 * L_7 = (FacebookDelegate_1_t3020292135 *)il2cpp_codegen_object_new(FacebookDelegate_1_t3020292135_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3799077747(L_7, L_5, L_6, /*hidden argument*/FacebookDelegate_1__ctor_m3799077747_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		FB_API_m4120372446(NULL /*static, unused*/, L_4, 0, L_7, (Il2CppObject*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::deleteTheRequest(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* HomeScene_t3664546087_il2cpp_TypeInfo_var;
+extern Il2CppClass* FacebookDelegate_1_t3020292135_il2cpp_TypeInfo_var;
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern const MethodInfo* HomeScene_U3CdeleteTheRequestU3Em__1_m3409955980_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3799077747_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029315;
+extern const uint32_t HomeScene_deleteTheRequest_m552683289_MetadataUsageId;
+extern "C"  void HomeScene_deleteTheRequest_m552683289 (HomeScene_t3664546087 * __this, String_t* ___requestID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_deleteTheRequest_m552683289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B2_0 = 0;
+	String_t* G_B2_1 = NULL;
+	int32_t G_B1_0 = 0;
+	String_t* G_B1_1 = NULL;
+	{
+		String_t* L_0 = ___requestID0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral372029315, L_0, /*hidden argument*/NULL);
+		FacebookDelegate_1_t3020292135 * L_2 = ((HomeScene_t3664546087_StaticFields*)HomeScene_t3664546087_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_46();
+		G_B1_0 = 2;
+		G_B1_1 = L_1;
+		if (L_2)
+		{
+			G_B2_0 = 2;
+			G_B2_1 = L_1;
+			goto IL_0024;
+		}
+	}
+	{
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)HomeScene_U3CdeleteTheRequestU3Em__1_m3409955980_MethodInfo_var);
+		FacebookDelegate_1_t3020292135 * L_4 = (FacebookDelegate_1_t3020292135 *)il2cpp_codegen_object_new(FacebookDelegate_1_t3020292135_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3799077747(L_4, NULL, L_3, /*hidden argument*/FacebookDelegate_1__ctor_m3799077747_MethodInfo_var);
+		((HomeScene_t3664546087_StaticFields*)HomeScene_t3664546087_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_46(L_4);
+		G_B2_0 = G_B1_0;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0024:
+	{
+		FacebookDelegate_1_t3020292135 * L_5 = ((HomeScene_t3664546087_StaticFields*)HomeScene_t3664546087_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_46();
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		FB_API_m4120372446(NULL /*static, unused*/, G_B2_1, G_B2_0, L_5, (Il2CppObject*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean HomeScene::checkForChangeName()
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern const uint32_t HomeScene_checkForChangeName_m1595516444_MetadataUsageId;
+extern "C"  bool HomeScene_checkForChangeName_m1595516444 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_checkForChangeName_m1595516444_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RegFBUserName_t2686569770 * L_0 = __this->get_regFBUserName_39();
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		bool L_2 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_showRegName_63();
+		NullCheck(L_1);
+		GameObject_SetActive_m2887581199(L_1, L_2, /*hidden argument*/NULL);
+		bool L_3 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_showRegName_63();
+		return L_3;
+	}
+}
+// System.Void HomeScene::updateInfo()
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1622188724;
+extern Il2CppCodeGenString* _stringLiteral3209846303;
+extern const uint32_t HomeScene_updateInfo_m525121245_MetadataUsageId;
+extern "C"  void HomeScene_updateInfo_m525121245 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_updateInfo_m525121245_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	User_t719925459 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_0 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Text_t356221433 * L_1 = __this->get_username_29();
+		User_t719925459 * L_2 = V_0;
+		NullCheck(L_2);
+		String_t* L_3 = User_get_displayName_m4132980907(L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_3);
+		int32_t L_4 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_gameApp_4();
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		Text_t356221433 * L_5 = __this->get_balance_30();
+		User_t719925459 * L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->get_ag_1();
+		String_t* L_8 = Utils_formatNumber_m921523394(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Concat_m2596409543(NULL /*static, unused*/, L_8, _stringLiteral1622188724, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_5, L_9);
+		Text_t356221433 * L_10 = __this->get_vip_31();
+		User_t719925459 * L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12 = L_11->get_vip_5();
+		int32_t L_13 = L_12;
+		Il2CppObject * L_14 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_13);
+		String_t* L_15 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3209846303, L_14, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_10, L_15);
+		goto IL_009d;
+	}
+
+IL_0067:
+	{
+		Text_t356221433 * L_16 = __this->get_vip_31();
+		User_t719925459 * L_17 = V_0;
+		NullCheck(L_17);
+		int32_t L_18 = L_17->get_vip_5();
+		int32_t L_19 = L_18;
+		Il2CppObject * L_20 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_19);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3209846303, L_20, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, L_21);
+		Text_t356221433 * L_22 = __this->get_balance_30();
+		User_t719925459 * L_23 = V_0;
+		NullCheck(L_23);
+		int32_t L_24 = L_23->get_ag_1();
+		String_t* L_25 = Utils_formatNumber_m921523394(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_22, L_25);
+	}
+
+IL_009d:
+	{
+		SuperScene_dismissWaittingDialog_m670794641(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::updateAvatar()
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* HomeScene_t3664546087_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExeOneSpriteParam_t3418620788_il2cpp_TypeInfo_var;
+extern const MethodInfo* HomeScene_U3CupdateAvatarU3Em__2_m1920275481_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1817087462;
+extern const uint32_t HomeScene_updateAvatar_m2300526042_MetadataUsageId;
+extern "C"  void HomeScene_updateAvatar_m2300526042 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_updateAvatar_m2300526042_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	User_t719925459 * V_0 = NULL;
+	Image_t2042527209 * G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	HomeScene_t3664546087 * G_B4_2 = NULL;
+	Image_t2042527209 * G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	HomeScene_t3664546087 * G_B3_2 = NULL;
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral1817087462, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_0 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		User_t719925459 * L_1 = V_0;
+		NullCheck(L_1);
+		Sprite_t309593783 * L_2 = User_get_avatarSprite_m1841281352(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Image_t2042527209 * L_4 = __this->get_avatar_32();
+		User_t719925459 * L_5 = V_0;
+		NullCheck(L_5);
+		Sprite_t309593783 * L_6 = User_get_avatarSprite_m1841281352(L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Image_set_sprite_m1800056820(L_4, L_6, /*hidden argument*/NULL);
+		goto IL_006b;
+	}
+
+IL_0038:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_7 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		String_t* L_8 = User_get_avatarUrl_m789652720(L_7, /*hidden argument*/NULL);
+		Image_t2042527209 * L_9 = __this->get_avatar_32();
+		ExeOneSpriteParam_t3418620788 * L_10 = ((HomeScene_t3664546087_StaticFields*)HomeScene_t3664546087_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_47();
+		G_B3_0 = L_9;
+		G_B3_1 = L_8;
+		G_B3_2 = __this;
+		if (L_10)
+		{
+			G_B4_0 = L_9;
+			G_B4_1 = L_8;
+			G_B4_2 = __this;
+			goto IL_0061;
+		}
+	}
+	{
+		IntPtr_t L_11;
+		L_11.set_m_value_0((void*)(void*)HomeScene_U3CupdateAvatarU3Em__2_m1920275481_MethodInfo_var);
+		ExeOneSpriteParam_t3418620788 * L_12 = (ExeOneSpriteParam_t3418620788 *)il2cpp_codegen_object_new(ExeOneSpriteParam_t3418620788_il2cpp_TypeInfo_var);
+		ExeOneSpriteParam__ctor_m1031715041(L_12, NULL, L_11, /*hidden argument*/NULL);
+		((HomeScene_t3664546087_StaticFields*)HomeScene_t3664546087_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_47(L_12);
+		G_B4_0 = G_B3_0;
+		G_B4_1 = G_B3_1;
+		G_B4_2 = G_B3_2;
+	}
+
+IL_0061:
+	{
+		ExeOneSpriteParam_t3418620788 * L_13 = ((HomeScene_t3664546087_StaticFields*)HomeScene_t3664546087_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_47();
+		NullCheck(G_B4_2);
+		SuperScene_loadImage_m2216090671(G_B4_2, G_B4_1, G_B4_0, L_13, /*hidden argument*/NULL);
+	}
+
+IL_006b:
+	{
+		return;
+	}
+}
+// System.Void HomeScene::checkFBisLoggedIn()
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029352;
+extern Il2CppCodeGenString* _stringLiteral3915919975;
+extern Il2CppCodeGenString* _stringLiteral255550142;
+extern const uint32_t HomeScene_checkFBisLoggedIn_m1147042579_MetadataUsageId;
+extern "C"  void HomeScene_checkFBisLoggedIn_m1147042579 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_checkFBisLoggedIn_m1147042579_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	HomeScene_t3664546087 * G_B2_2 = NULL;
+	String_t* G_B1_0 = NULL;
+	String_t* G_B1_1 = NULL;
+	HomeScene_t3664546087 * G_B1_2 = NULL;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	String_t* G_B3_2 = NULL;
+	HomeScene_t3664546087 * G_B3_3 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_0 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = User_get_avatarUrl_m789652720(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		bool L_2 = FB_get_IsLoggedIn_m3262230974(NULL /*static, unused*/, /*hidden argument*/NULL);
+		G_B1_0 = _stringLiteral372029352;
+		G_B1_1 = L_1;
+		G_B1_2 = __this;
+		if (!L_2)
+		{
+			G_B2_0 = _stringLiteral372029352;
+			G_B2_1 = L_1;
+			G_B2_2 = __this;
+			goto IL_0024;
+		}
+	}
+	{
+		G_B3_0 = _stringLiteral3915919975;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		G_B3_3 = G_B1_2;
+		goto IL_0029;
+	}
+
+IL_0024:
+	{
+		G_B3_0 = _stringLiteral255550142;
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+		G_B3_3 = G_B2_2;
+	}
+
+IL_0029:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m612901809(NULL /*static, unused*/, G_B3_2, G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		NullCheck(G_B3_3);
+		SuperScene_showInfoDialog_m1411141035(G_B3_3, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::loginToGame(System.Int32)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SuperScene_t3760801569_il2cpp_TypeInfo_var;
+extern Il2CppClass* Strings_t183934206_il2cpp_TypeInfo_var;
+extern Il2CppClass* STabsScene_t3083040787_il2cpp_TypeInfo_var;
+extern Il2CppClass* U3CloginToGameU3Ec__AnonStorey1_t892008602_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3627374100_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m2886742484_MethodInfo_var;
+extern const MethodInfo* U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__0_m3809230059_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1505245730_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1478213053;
+extern Il2CppCodeGenString* _stringLiteral422466950;
+extern Il2CppCodeGenString* _stringLiteral285463463;
+extern Il2CppCodeGenString* _stringLiteral1838672617;
+extern Il2CppCodeGenString* _stringLiteral424321743;
+extern const uint32_t HomeScene_loginToGame_m715991453_MetadataUsageId;
+extern "C"  void HomeScene_loginToGame_m715991453 (HomeScene_t3664546087 * __this, int32_t ___gameID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_loginToGame_m715991453_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CloginToGameU3Ec__AnonStorey1_t892008602 * V_0 = NULL;
+	{
+		int32_t L_0 = ___gameID0;
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1478213053, L_2, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		int32_t L_4 = ___gameID0;
+		if ((!(((uint32_t)L_4) == ((uint32_t)((int32_t)9006)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		String_t* L_5 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->set_previousScene_2(L_5);
+		LevelManager_Load_m1308163316(NULL /*static, unused*/, _stringLiteral422466950, /*hidden argument*/NULL);
+		goto IL_012b;
+	}
+
+IL_003a:
+	{
+		int32_t L_6 = ___gameID0;
+		if ((!(((uint32_t)L_6) == ((uint32_t)((int32_t)1008)))))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Strings_t183934206_il2cpp_TypeInfo_var);
+		Strings_t183934206 * L_7 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(19 /* System.String Strings::get_common_comming_soon() */, L_7);
+		SuperScene_showInfoDialog_m1411141035(__this, L_8, /*hidden argument*/NULL);
+		goto IL_012b;
+	}
+
+IL_005b:
+	{
+		int32_t L_9 = ___gameID0;
+		if ((!(((uint32_t)L_9) == ((uint32_t)((int32_t)1004)))))
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(STabsScene_t3083040787_il2cpp_TypeInfo_var);
+		((STabsScene_t3083040787_StaticFields*)STabsScene_t3083040787_il2cpp_TypeInfo_var->static_fields)->set_tabsType_32(0);
+		((STabsScene_t3083040787_StaticFields*)STabsScene_t3083040787_il2cpp_TypeInfo_var->static_fields)->set_currentTabPos_33(1);
+		SuperScene_gotoStabsScene_m3078581470(__this, /*hidden argument*/NULL);
+		Tracking_changeScene_m456188005(NULL /*static, unused*/, _stringLiteral285463463, (bool)1, /*hidden argument*/NULL);
+		goto IL_012b;
+	}
+
+IL_0088:
+	{
+		int32_t L_10 = ___gameID0;
+		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)1006)))))
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		SuperScene_gotoBankScreen_m1366663273(__this, /*hidden argument*/NULL);
+		goto IL_012b;
+	}
+
+IL_009e:
+	{
+		int32_t L_11 = ___gameID0;
+		if ((!(((uint32_t)L_11) == ((uint32_t)((int32_t)1003)))))
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(STabsScene_t3083040787_il2cpp_TypeInfo_var);
+		((STabsScene_t3083040787_StaticFields*)STabsScene_t3083040787_il2cpp_TypeInfo_var->static_fields)->set_tabsType_32(((int32_t)12));
+		((STabsScene_t3083040787_StaticFields*)STabsScene_t3083040787_il2cpp_TypeInfo_var->static_fields)->set_currentTabPos_33(0);
+		SuperScene_gotoStabsScene_m3078581470(__this, /*hidden argument*/NULL);
+		Tracking_changeScene_m456188005(NULL /*static, unused*/, _stringLiteral1838672617, (bool)1, /*hidden argument*/NULL);
+		goto IL_012b;
+	}
+
+IL_00cc:
+	{
+		U3CloginToGameU3Ec__AnonStorey1_t892008602 * L_12 = (U3CloginToGameU3Ec__AnonStorey1_t892008602 *)il2cpp_codegen_object_new(U3CloginToGameU3Ec__AnonStorey1_t892008602_il2cpp_TypeInfo_var);
+		U3CloginToGameU3Ec__AnonStorey1__ctor_m3494603835(L_12, /*hidden argument*/NULL);
+		V_0 = L_12;
+		U3CloginToGameU3Ec__AnonStorey1_t892008602 * L_13 = V_0;
+		NullCheck(L_13);
+		L_13->set_U24this_1(__this);
+		U3CloginToGameU3Ec__AnonStorey1_t892008602 * L_14 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_15 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		L_14->set_user_0(L_15);
+		U3CloginToGameU3Ec__AnonStorey1_t892008602 * L_16 = V_0;
+		NullCheck(L_16);
+		User_t719925459 * L_17 = L_16->get_user_0();
+		NullCheck(L_17);
+		LoginInfo_t657176999 * L_18 = L_17->get_loginInfo_18();
+		int32_t L_19 = ___gameID0;
+		NullCheck(L_18);
+		L_18->set_gameID_4(L_19);
+		Nullable_1_t339576247  L_20;
+		memset(&L_20, 0, sizeof(L_20));
+		Nullable_1__ctor_m2886742484(&L_20, (1.0f), /*hidden argument*/Nullable_1__ctor_m2886742484_MethodInfo_var);
+		Dictionary_2_t309261261 * L_21 = DSTFBEvent_get_defaultParams_m1202375368(NULL /*static, unused*/, /*hidden argument*/NULL);
+		DSTFBEvent_LogAppEvent_m195226156(NULL /*static, unused*/, _stringLiteral424321743, L_20, L_21, /*hidden argument*/NULL);
+		U3CloginToGameU3Ec__AnonStorey1_t892008602 * L_22 = V_0;
+		NullCheck(L_22);
+		User_t719925459 * L_23 = L_22->get_user_0();
+		NullCheck(L_23);
+		LoginInfo_t657176999 * L_24 = L_23->get_loginInfo_18();
+		U3CloginToGameU3Ec__AnonStorey1_t892008602 * L_25 = V_0;
+		IntPtr_t L_26;
+		L_26.set_m_value_0((void*)(void*)U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__0_m3809230059_MethodInfo_var);
+		Action_1_t3627374100 * L_27 = (Action_1_t3627374100 *)il2cpp_codegen_object_new(Action_1_t3627374100_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1505245730(L_27, L_25, L_26, /*hidden argument*/Action_1__ctor_m1505245730_MethodInfo_var);
+		SuperScene_getIPToLogin_m4258536155(__this, L_24, L_27, /*hidden argument*/NULL);
+	}
+
+IL_012b:
+	{
+		return;
+	}
+}
+// System.Void HomeScene::exit()
+extern Il2CppClass* SoundManager_t654432262_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* SuperScene_t3760801569_il2cpp_TypeInfo_var;
+extern const uint32_t HomeScene_exit_m1106539114_MetadataUsageId;
+extern "C"  void HomeScene_exit_m1106539114 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_exit_m1106539114_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoundManager_t654432262_il2cpp_TypeInfo_var);
+		SoundManager_t654432262 * L_0 = ((SoundManager_t654432262_StaticFields*)SoundManager_t654432262_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
+		NullCheck(L_0);
+		SoundManager_playButtonClicked_m2053907494(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		String_t* L_2 = GameApplication_get_HOMESCENE_m1474225252(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_3 = String_Equals_m2633592423(L_1, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		CubeiaClient_t2232589536 * L_4 = GameApplication_get_cubeia_m1520786160(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		CubeiaClient_disconnect_m1551828055(L_4, /*hidden argument*/NULL);
+		GameApplication_set_cubeia_m2283012059(NULL /*static, unused*/, (CubeiaClient_t2232589536 *)NULL, /*hidden argument*/NULL);
+		String_t* L_5 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->set_previousScene_2(L_5);
+		String_t* L_6 = GameApplication_get_LOGINSCENE_m3283051322(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Boolean HomeScene::showDailyBonus()
+extern Il2CppCodeGenString* _stringLiteral2859032630;
+extern const uint32_t HomeScene_showDailyBonus_m3840667721_MetadataUsageId;
+extern "C"  bool HomeScene_showDailyBonus_m3840667721 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_showDailyBonus_m3840667721_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral2859032630, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+}
+// System.Void HomeScene::showChannelChooser(System.Collections.Generic.List`1<IPConfig>,System.Int32,System.Action`1<System.Boolean>)
+extern Il2CppClass* U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* RectTransform_t3349966182_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1355432693_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisRectTransform_t3349966182_m4066292940_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisImage_t2042527209_m4249278385_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisButton_t2872111280_m2040183338_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisLayoutElement_t2808691390_m2435425422_MethodInfo_var;
+extern const MethodInfo* U3CshowChannelChooserU3Ec__AnonStorey2_U3CU3Em__0_m3825672164_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m2868981490_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3537684098;
+extern Il2CppCodeGenString* _stringLiteral1563053001;
+extern Il2CppCodeGenString* _stringLiteral3689215502;
+extern Il2CppCodeGenString* _stringLiteral339799487;
+extern const uint32_t HomeScene_showChannelChooser_m2722243214_MetadataUsageId;
+extern "C"  void HomeScene_showChannelChooser_m2722243214 (HomeScene_t3664546087 * __this, List_1_t1781958757 * ___availableList0, int32_t ___gameID1, Action_1_t3627374100 * ___onFinish2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_showChannelChooser_m2722243214_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * V_0 = NULL;
+	RectTransform_t3349966182 * V_1 = NULL;
+	RectTransform_t3349966182 * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Il2CppObject * V_4 = NULL;
+	int32_t V_5 = 0;
+	U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 * V_6 = NULL;
+	RectTransform_t3349966182 * V_7 = NULL;
+	Image_t2042527209 * V_8 = NULL;
+	Button_t2872111280 * V_9 = NULL;
+	LayoutElement_t2808691390 * V_10 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * L_0 = (U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 *)il2cpp_codegen_object_new(U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525_il2cpp_TypeInfo_var);
+		U3CshowChannelChooserU3Ec__AnonStorey3__ctor_m2455443592(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * L_1 = V_0;
+		Action_1_t3627374100 * L_2 = ___onFinish2;
+		NullCheck(L_1);
+		L_1->set_onFinish_0(L_2);
+		U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * L_3 = V_0;
+		NullCheck(L_3);
+		L_3->set_U24this_1(__this);
+		RectTransform_t3349966182 * L_4 = __this->get_ChannelChosser_38();
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = Component_get_gameObject_m3105766835(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m2887581199(L_5, (bool)1, /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_6 = __this->get_ChannelChosser_38();
+		NullCheck(L_6);
+		Transform_t3275118058 * L_7 = Transform_Find_m3323476454(L_6, _stringLiteral3537684098, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_t3275118058 * L_8 = Transform_Find_m3323476454(L_7, _stringLiteral1563053001, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		RectTransform_t3349966182 * L_9 = Component_GetComponent_TisRectTransform_t3349966182_m1310250299(L_8, /*hidden argument*/Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var);
+		V_1 = L_9;
+		RectTransform_t3349966182 * L_10 = V_1;
+		NullCheck(L_10);
+		Il2CppObject * L_11 = Transform_GetEnumerator_m3479720613(L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
+	}
+
+IL_004c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0068;
+		}
+
+IL_0051:
+		{
+			Il2CppObject * L_12 = V_3;
+			NullCheck(L_12);
+			Il2CppObject * L_13 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_12);
+			V_2 = ((RectTransform_t3349966182 *)CastclassSealed(L_13, RectTransform_t3349966182_il2cpp_TypeInfo_var));
+			RectTransform_t3349966182 * L_14 = V_2;
+			NullCheck(L_14);
+			GameObject_t1756533147 * L_15 = Component_get_gameObject_m3105766835(L_14, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+			Object_Destroy_m4145850038(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		}
+
+IL_0068:
+		{
+			Il2CppObject * L_16 = V_3;
+			NullCheck(L_16);
+			bool L_17 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_16);
+			if (L_17)
+			{
+				goto IL_0051;
+			}
+		}
+
+IL_0073:
+		{
+			IL2CPP_LEAVE(0x8E, FINALLY_0078);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0078;
+	}
+
+FINALLY_0078:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_18 = V_3;
+			Il2CppObject * L_19 = ((Il2CppObject *)IsInst(L_18, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_4 = L_19;
+			if (!L_19)
+			{
+				goto IL_008d;
+			}
+		}
+
+IL_0086:
+		{
+			Il2CppObject * L_20 = V_4;
+			NullCheck(L_20);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_20);
+		}
+
+IL_008d:
+		{
+			IL2CPP_END_FINALLY(120)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(120)
+	{
+		IL2CPP_JUMP_TBL(0x8E, IL_008e)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_008e:
+	{
+		V_5 = 0;
+		goto IL_016b;
+	}
+
+IL_0096:
+	{
+		U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 * L_21 = (U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 *)il2cpp_codegen_object_new(U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466_il2cpp_TypeInfo_var);
+		U3CshowChannelChooserU3Ec__AnonStorey2__ctor_m1747460013(L_21, /*hidden argument*/NULL);
+		V_6 = L_21;
+		U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 * L_22 = V_6;
+		U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * L_23 = V_0;
+		NullCheck(L_22);
+		L_22->set_U3CU3Ef__refU243_1(L_23);
+		U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 * L_24 = V_6;
+		List_1_t1781958757 * L_25 = ___availableList0;
+		int32_t L_26 = V_5;
+		NullCheck(L_25);
+		IPConfig_t2412837625 * L_27 = List_1_get_Item_m1355432693(L_25, L_26, /*hidden argument*/List_1_get_Item_m1355432693_MethodInfo_var);
+		NullCheck(L_24);
+		L_24->set_ipconfig_0(L_27);
+		GameObject_t1756533147 * L_28 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_28, _stringLiteral3689215502, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		RectTransform_t3349966182 * L_29 = GameObject_AddComponent_TisRectTransform_t3349966182_m4066292940(L_28, /*hidden argument*/GameObject_AddComponent_TisRectTransform_t3349966182_m4066292940_MethodInfo_var);
+		V_7 = L_29;
+		RectTransform_t3349966182 * L_30 = V_7;
+		NullCheck(L_30);
+		GameObject_t1756533147 * L_31 = Component_get_gameObject_m3105766835(L_30, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Image_t2042527209 * L_32 = GameObject_AddComponent_TisImage_t2042527209_m4249278385(L_31, /*hidden argument*/GameObject_AddComponent_TisImage_t2042527209_m4249278385_MethodInfo_var);
+		V_8 = L_32;
+		RectTransform_t3349966182 * L_33 = V_7;
+		NullCheck(L_33);
+		GameObject_t1756533147 * L_34 = Component_get_gameObject_m3105766835(L_33, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		Button_t2872111280 * L_35 = GameObject_AddComponent_TisButton_t2872111280_m2040183338(L_34, /*hidden argument*/GameObject_AddComponent_TisButton_t2872111280_m2040183338_MethodInfo_var);
+		V_9 = L_35;
+		RectTransform_t3349966182 * L_36 = V_7;
+		NullCheck(L_36);
+		GameObject_t1756533147 * L_37 = Component_get_gameObject_m3105766835(L_36, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		LayoutElement_t2808691390 * L_38 = GameObject_AddComponent_TisLayoutElement_t2808691390_m2435425422(L_37, /*hidden argument*/GameObject_AddComponent_TisLayoutElement_t2808691390_m2435425422_MethodInfo_var);
+		V_10 = L_38;
+		LayoutElement_t2808691390 * L_39 = V_10;
+		NullCheck(L_39);
+		VirtActionInvoker1< float >::Invoke(36 /* System.Void UnityEngine.UI.LayoutElement::set_preferredWidth(System.Single) */, L_39, (250.0f));
+		LayoutElement_t2808691390 * L_40 = V_10;
+		NullCheck(L_40);
+		VirtActionInvoker1< float >::Invoke(38 /* System.Void UnityEngine.UI.LayoutElement::set_preferredHeight(System.Single) */, L_40, (220.0f));
+		RectTransform_t3349966182 * L_41 = V_7;
+		RectTransform_t3349966182 * L_42 = V_1;
+		NullCheck(L_41);
+		Transform_SetParent_m1963830867(L_41, L_42, (bool)0, /*hidden argument*/NULL);
+		List_1_t1781958757 * L_43 = ___availableList0;
+		int32_t L_44 = V_5;
+		NullCheck(L_43);
+		IPConfig_t2412837625 * L_45 = List_1_get_Item_m1355432693(L_43, L_44, /*hidden argument*/List_1_get_Item_m1355432693_MethodInfo_var);
+		NullCheck(L_45);
+		String_t* L_46 = L_45->get_name_4();
+		NullCheck(L_46);
+		bool L_47 = String_Equals_m1185277978(L_46, _stringLiteral339799487, 1, /*hidden argument*/NULL);
+		if (!L_47)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		Image_t2042527209 * L_48 = V_8;
+		Sprite_t309593783 * L_49 = __this->get_sprite_channel_vip_36();
+		NullCheck(L_48);
+		Image_set_sprite_m1800056820(L_48, L_49, /*hidden argument*/NULL);
+		goto IL_014c;
+	}
+
+IL_013f:
+	{
+		Image_t2042527209 * L_50 = V_8;
+		Sprite_t309593783 * L_51 = __this->get_sprite_channel_public_37();
+		NullCheck(L_50);
+		Image_set_sprite_m1800056820(L_50, L_51, /*hidden argument*/NULL);
+	}
+
+IL_014c:
+	{
+		Button_t2872111280 * L_52 = V_9;
+		NullCheck(L_52);
+		ButtonClickedEvent_t2455055323 * L_53 = Button_get_onClick_m1595880935(L_52, /*hidden argument*/NULL);
+		U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 * L_54 = V_6;
+		IntPtr_t L_55;
+		L_55.set_m_value_0((void*)(void*)U3CshowChannelChooserU3Ec__AnonStorey2_U3CU3Em__0_m3825672164_MethodInfo_var);
+		UnityAction_t4025899511 * L_56 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_56, L_54, L_55, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		UnityEvent_AddListener_m1596810379(L_53, L_56, /*hidden argument*/NULL);
+		int32_t L_57 = V_5;
+		V_5 = ((int32_t)((int32_t)L_57+(int32_t)1));
+	}
+
+IL_016b:
+	{
+		int32_t L_58 = V_5;
+		List_1_t1781958757 * L_59 = ___availableList0;
+		NullCheck(L_59);
+		int32_t L_60 = List_1_get_Count_m2868981490(L_59, /*hidden argument*/List_1_get_Count_m2868981490_MethodInfo_var);
+		if ((((int32_t)L_58) < ((int32_t)L_60)))
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void HomeScene::showInviteFBFriends()
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1_t334943763_il2cpp_TypeInfo_var;
+extern Il2CppClass* FacebookDelegate_1_t909463455_il2cpp_TypeInfo_var;
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern const MethodInfo* HomeScene_appRequestCallback_m1285047852_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m113473383_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2967032398;
+extern Il2CppCodeGenString* _stringLiteral1815368246;
+extern Il2CppCodeGenString* _stringLiteral3359819398;
+extern Il2CppCodeGenString* _stringLiteral2986769741;
+extern const uint32_t HomeScene_showInviteFBFriends_m3886624877_MetadataUsageId;
+extern "C"  void HomeScene_showInviteFBFriends_m3886624877 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_showInviteFBFriends_m3886624877_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	Nullable_1_t334943763  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		JSONClass_t1609506608 * L_0 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONClass_t1609506608 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_3 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		int32_t L_4 = L_3->get_id_0();
+		int32_t L_5 = L_4;
+		Il2CppObject * L_6 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_5);
+		String_t* L_7 = String_Concat_m56707527(NULL /*static, unused*/, L_2, L_6, /*hidden argument*/NULL);
+		JSONNode_t1250409636 * L_8 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_1, _stringLiteral2967032398, L_8);
+		String_t* L_9 = GameApplication_get_gameName_m429985844(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, L_9, _stringLiteral1815368246, /*hidden argument*/NULL);
+		Initobj (Nullable_1_t334943763_il2cpp_TypeInfo_var, (&V_1));
+		Nullable_1_t334943763  L_11 = V_1;
+		JSONClass_t1609506608 * L_12 = V_0;
+		NullCheck(L_12);
+		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_12);
+		String_t* L_14 = GameApplication_get_gameName_m429985844(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral3359819398, L_14, _stringLiteral2986769741, /*hidden argument*/NULL);
+		IntPtr_t L_16;
+		L_16.set_m_value_0((void*)(void*)HomeScene_appRequestCallback_m1285047852_MethodInfo_var);
+		FacebookDelegate_1_t909463455 * L_17 = (FacebookDelegate_1_t909463455 *)il2cpp_codegen_object_new(FacebookDelegate_1_t909463455_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m113473383(L_17, __this, L_16, /*hidden argument*/FacebookDelegate_1__ctor_m113473383_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		FB_AppRequest_m2392001211(NULL /*static, unused*/, L_10, (Il2CppObject*)NULL, (Il2CppObject*)NULL, (Il2CppObject*)NULL, L_11, L_13, L_15, L_17, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::appRequestCallback(Facebook.Unity.IAppRequestResult)
+extern Il2CppClass* IResult_t3447678270_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1043157763;
+extern Il2CppCodeGenString* _stringLiteral433537963;
+extern Il2CppCodeGenString* _stringLiteral3269832984;
+extern Il2CppCodeGenString* _stringLiteral1496915075;
+extern Il2CppCodeGenString* _stringLiteral4003718429;
+extern Il2CppCodeGenString* _stringLiteral2759502645;
+extern const uint32_t HomeScene_appRequestCallback_m1285047852_MetadataUsageId;
+extern "C"  void HomeScene_appRequestCallback_m1285047852 (HomeScene_t3664546087 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_appRequestCallback_m1285047852_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONNode_t1250409636 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	JSONArray_t3986483147 * V_2 = NULL;
+	{
+		Il2CppObject * L_0 = ___result0;
+		if (!L_0)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		Il2CppObject * L_1 = ___result0;
+		NullCheck(L_1);
+		String_t* L_2 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1043157763, L_2, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = ___result0;
+		NullCheck(L_4);
+		String_t* L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_4);
+		JSONNode_t1250409636 * L_6 = JSONNode_Parse_m1024344361(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		JSONNode_t1250409636 * L_7 = V_0;
+		NullCheck(L_7);
+		JSONNode_t1250409636 * L_8 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_7, _stringLiteral433537963);
+		NullCheck(L_8);
+		bool L_9 = VirtFuncInvoker0< bool >::Invoke(26 /* System.Boolean SimpleJSON.JSONNode::get_AsBool() */, L_8);
+		if (!L_9)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral3269832984, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		goto IL_0095;
+	}
+
+IL_004d:
+	{
+		JSONNode_t1250409636 * L_10 = V_0;
+		NullCheck(L_10);
+		JSONNode_t1250409636 * L_11 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_10, _stringLiteral1496915075);
+		NullCheck(L_11);
+		JSONArray_t3986483147 * L_12 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_11);
+		NullCheck(L_12);
+		int32_t L_13 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_12);
+		if ((((int32_t)L_13) < ((int32_t)1)))
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral4003718429, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		JSONNode_t1250409636 * L_14 = V_0;
+		NullCheck(L_14);
+		JSONNode_t1250409636 * L_15 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_14, _stringLiteral2759502645);
+		String_t* L_16 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		V_1 = L_16;
+		JSONNode_t1250409636 * L_17 = V_0;
+		NullCheck(L_17);
+		JSONNode_t1250409636 * L_18 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_17, _stringLiteral1496915075);
+		NullCheck(L_18);
+		JSONArray_t3986483147 * L_19 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_18);
+		V_2 = L_19;
+	}
+
+IL_0095:
+	{
+		return;
+	}
+}
+// System.Void HomeScene::gotoRo()
+extern Il2CppClass* SuperScene_t3760801569_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral422466950;
+extern const uint32_t HomeScene_gotoRo_m319962366_MetadataUsageId;
+extern "C"  void HomeScene_gotoRo_m319962366 (HomeScene_t3664546087 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_gotoRo_m319962366_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->set_previousScene_2(L_0);
+		LevelManager_Load_m1308163316(NULL /*static, unused*/, _stringLiteral422466950, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::ShareCallback(Facebook.Unity.IShareResult)
+extern Il2CppClass* IResult_t3447678270_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IShareResult_t830127229_il2cpp_TypeInfo_var;
+extern Il2CppClass* SuperScene_t3760801569_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral422056055;
+extern Il2CppCodeGenString* _stringLiteral918739315;
+extern const uint32_t HomeScene_ShareCallback_m1256984590_MetadataUsageId;
+extern "C"  void HomeScene_ShareCallback_m1256984590 (HomeScene_t3664546087 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_ShareCallback_m1256984590_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___result0;
+		NullCheck(L_0);
+		bool L_1 = InterfaceFuncInvoker0< bool >::Invoke(3 /* System.Boolean Facebook.Unity.IResult::get_Cancelled() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_0);
+		if (L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Il2CppObject * L_2 = ___result0;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_4 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0036;
+		}
+	}
+
+IL_001b:
+	{
+		Il2CppObject * L_5 = ___result0;
+		NullCheck(L_5);
+		String_t* L_6 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_5);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral422056055, L_6, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		goto IL_0062;
+	}
+
+IL_0036:
+	{
+		Il2CppObject * L_8 = ___result0;
+		NullCheck(L_8);
+		String_t* L_9 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IShareResult::get_PostId() */, IShareResult_t830127229_il2cpp_TypeInfo_var, L_8);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_10 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		if (L_10)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Il2CppObject * L_11 = ___result0;
+		NullCheck(L_11);
+		String_t* L_12 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IShareResult::get_PostId() */, IShareResult_t830127229_il2cpp_TypeInfo_var, L_11);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_12, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		goto IL_0062;
+	}
+
+IL_0057:
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral918739315, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0062:
+	{
+		SuperScene_t3760801569 * L_13 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
+		NullCheck(L_13);
+		SuperScene_checkMail_m1922225535(L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene::<getFBRequestIds>m__0(Facebook.Unity.IGraphResult)
+extern Il2CppClass* IResult_t3447678270_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* FB_t1612658294_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral500545293;
+extern Il2CppCodeGenString* _stringLiteral2930924858;
+extern Il2CppCodeGenString* _stringLiteral4249817941;
+extern Il2CppCodeGenString* _stringLiteral2619694;
+extern Il2CppCodeGenString* _stringLiteral3130431008;
+extern Il2CppCodeGenString* _stringLiteral287061489;
+extern Il2CppCodeGenString* _stringLiteral2967032398;
+extern const uint32_t HomeScene_U3CgetFBRequestIdsU3Em__0_m3220804427_MetadataUsageId;
+extern "C"  void HomeScene_U3CgetFBRequestIdsU3Em__0_m3220804427 (HomeScene_t3664546087 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_U3CgetFBRequestIdsU3Em__0_m3220804427_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	JSONArray_t3986483147 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	int32_t V_3 = 0;
+	JSONNode_t1250409636 * V_4 = NULL;
+	String_t* V_5 = NULL;
+	JSONNode_t1250409636 * V_6 = NULL;
+	String_t* V_7 = NULL;
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral500545293, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		Il2CppObject * L_0 = ___result0;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		Il2CppObject * L_2 = ___result0;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2930924858, L_3, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		goto IL_0144;
+	}
+
+IL_0031:
+	{
+		Il2CppObject * L_5 = ___result0;
+		NullCheck(L_5);
+		String_t* L_6 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_5);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4249817941, L_6, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		Il2CppObject * L_8 = ___result0;
+		NullCheck(L_8);
+		String_t* L_9 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_8);
+		JSONNode_t1250409636 * L_10 = JSONNode_Parse_m1024344361(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		JSONClass_t1609506608 * L_11 = VirtFuncInvoker0< JSONClass_t1609506608 * >::Invoke(29 /* SimpleJSON.JSONClass SimpleJSON.JSONNode::get_AsObject() */, L_10);
+		V_0 = L_11;
+		JSONClass_t1609506608 * L_12 = V_0;
+		NullCheck(L_12);
+		JSONNode_t1250409636 * L_13 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_12, _stringLiteral2619694);
+		NullCheck(L_13);
+		JSONArray_t3986483147 * L_14 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_13);
+		V_1 = L_14;
+		String_t* L_15 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_2 = L_15;
+		V_3 = 0;
+		goto IL_0138;
+	}
+
+IL_0076:
+	{
+		JSONArray_t3986483147 * L_16 = V_1;
+		int32_t L_17 = V_3;
+		NullCheck(L_16);
+		JSONNode_t1250409636 * L_18 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_16, L_17);
+		V_4 = L_18;
+		JSONNode_t1250409636 * L_19 = V_4;
+		NullCheck(L_19);
+		JSONNode_t1250409636 * L_20 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_19, _stringLiteral3130431008);
+		NullCheck(L_20);
+		JSONNode_t1250409636 * L_21 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_20, _stringLiteral287061489);
+		String_t* L_22 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		V_5 = L_22;
+		String_t* L_23 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t1612658294_il2cpp_TypeInfo_var);
+		String_t* L_24 = FB_get_AppId_m763110890(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		bool L_25 = String_Equals_m2633592423(L_23, L_24, /*hidden argument*/NULL);
+		if (!L_25)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		JSONNode_t1250409636 * L_26 = V_4;
+		NullCheck(L_26);
+		JSONNode_t1250409636 * L_27 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_26, _stringLiteral2619694);
+		String_t* L_28 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		JSONNode_t1250409636 * L_29 = JSONNode_Parse_m1024344361(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		V_6 = L_29;
+		JSONNode_t1250409636 * L_30 = V_6;
+		bool L_31 = JSONNode_op_Equality_m3189593931(NULL /*static, unused*/, L_30, NULL, /*hidden argument*/NULL);
+		if (!L_31)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		JSONNode_t1250409636 * L_32 = V_4;
+		NullCheck(L_32);
+		JSONNode_t1250409636 * L_33 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_32, _stringLiteral2619694);
+		String_t* L_34 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
+		V_2 = L_34;
+		goto IL_00fb;
+	}
+
+IL_00e9:
+	{
+		JSONNode_t1250409636 * L_35 = V_6;
+		NullCheck(L_35);
+		JSONNode_t1250409636 * L_36 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_35, _stringLiteral2967032398);
+		String_t* L_37 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		V_2 = L_37;
+	}
+
+IL_00fb:
+	{
+		String_t* L_38 = V_2;
+		if (!L_38)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		String_t* L_39 = V_2;
+		NullCheck(L_39);
+		int32_t L_40 = String_get_Length_m1606060069(L_39, /*hidden argument*/NULL);
+		if ((((int32_t)L_40) <= ((int32_t)0)))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		String_t* L_41 = V_2;
+		HomeScene_sendInvitesToCubeia_m4038020704(__this, L_41, /*hidden argument*/NULL);
+		JSONNode_t1250409636 * L_42 = V_4;
+		NullCheck(L_42);
+		JSONNode_t1250409636 * L_43 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_42, _stringLiteral287061489);
+		String_t* L_44 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
+		V_7 = L_44;
+		String_t* L_45 = V_7;
+		HomeScene_deleteTheRequest_m552683289(__this, L_45, /*hidden argument*/NULL);
+		goto IL_0144;
+	}
+
+IL_0134:
+	{
+		int32_t L_46 = V_3;
+		V_3 = ((int32_t)((int32_t)L_46+(int32_t)1));
+	}
+
+IL_0138:
+	{
+		int32_t L_47 = V_3;
+		JSONArray_t3986483147 * L_48 = V_1;
+		NullCheck(L_48);
+		int32_t L_49 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_48);
+		if ((((int32_t)L_47) < ((int32_t)L_49)))
+		{
+			goto IL_0076;
+		}
+	}
+
+IL_0144:
+	{
+		return;
+	}
+}
+// System.Void HomeScene::<deleteTheRequest>m__1(Facebook.Unity.IGraphResult)
+extern Il2CppClass* IResult_t3447678270_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3470095746;
+extern const uint32_t HomeScene_U3CdeleteTheRequestU3Em__1_m3409955980_MetadataUsageId;
+extern "C"  void HomeScene_U3CdeleteTheRequestU3Em__1_m3409955980 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_U3CdeleteTheRequestU3Em__1_m3409955980_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___result0;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Il2CppObject * L_2 = ___result0;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3470095746, L_3, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void HomeScene::<updateAvatar>m__2(UnityEngine.Sprite)
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern const uint32_t HomeScene_U3CupdateAvatarU3Em__2_m1920275481_MetadataUsageId;
+extern "C"  void HomeScene_U3CupdateAvatarU3Em__2_m1920275481 (Il2CppObject * __this /* static, unused */, Sprite_t309593783 * ___sprite0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeScene_U3CupdateAvatarU3Em__2_m1920275481_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_0 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Sprite_t309593783 * L_1 = ___sprite0;
+		NullCheck(L_0);
+		User_set_avatarSprite_m818951485(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene/<getRequestData>c__AnonStorey0::.ctor()
+extern "C"  void U3CgetRequestDataU3Ec__AnonStorey0__ctor_m1832379331 (U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene/<getRequestData>c__AnonStorey0::<>m__0(Facebook.Unity.IGraphResult)
+extern Il2CppClass* IResult_t3447678270_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2438392036;
+extern const uint32_t U3CgetRequestDataU3Ec__AnonStorey0_U3CU3Em__0_m617515039_MetadataUsageId;
+extern "C"  void U3CgetRequestDataU3Ec__AnonStorey0_U3CU3Em__0_m617515039 (U3CgetRequestDataU3Ec__AnonStorey0_t3181833180 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CgetRequestDataU3Ec__AnonStorey0_U3CU3Em__0_m617515039_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___result0;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t3447678270_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		String_t* L_2 = __this->get_inRequestId_0();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2438392036, L_2, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void HomeScene/<loginToGame>c__AnonStorey1::.ctor()
+extern "C"  void U3CloginToGameU3Ec__AnonStorey1__ctor_m3494603835 (U3CloginToGameU3Ec__AnonStorey1_t892008602 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene/<loginToGame>c__AnonStorey1::<>m__0(System.Boolean)
+extern Il2CppClass* Strings_t183934206_il2cpp_TypeInfo_var;
+extern Il2CppClass* Executor_t2576254565_il2cpp_TypeInfo_var;
+extern Il2CppClass* CubeiaClient_t2232589536_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__1_m258943225_MethodInfo_var;
+extern const MethodInfo* U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__2_m258943126_MethodInfo_var;
+extern const uint32_t U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__0_m3809230059_MetadataUsageId;
+extern "C"  void U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__0_m3809230059 (U3CloginToGameU3Ec__AnonStorey1_t892008602 * __this, bool ___selectG_only0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__0_m3809230059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___selectG_only0;
+		if (!L_0)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		HomeScene_t3664546087 * L_1 = __this->get_U24this_1();
+		NullCheck(L_1);
+		CubeiaClient_t2232589536 * L_2 = SuperScene_get_cubeia_m3700966831(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		HomeScene_t3664546087 * L_3 = __this->get_U24this_1();
+		NullCheck(L_3);
+		CubeiaClient_t2232589536 * L_4 = SuperScene_get_cubeia_m3700966831(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		bool L_5 = CubeiaClient_isConnected_m4289788838(L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		HomeScene_t3664546087 * L_6 = __this->get_U24this_1();
+		NullCheck(L_6);
+		CubeiaClient_t2232589536 * L_7 = SuperScene_get_cubeia_m3700966831(L_6, /*hidden argument*/NULL);
+		User_t719925459 * L_8 = __this->get_user_0();
+		NullCheck(L_8);
+		LoginInfo_t657176999 * L_9 = L_8->get_loginInfo_18();
+		NullCheck(L_9);
+		int32_t L_10 = L_9->get_gameID_4();
+		NullCheck(L_7);
+		L_7->set_gameId_5(L_10);
+		HomeScene_t3664546087 * L_11 = __this->get_U24this_1();
+		NullCheck(L_11);
+		CubeiaClient_t2232589536 * L_12 = SuperScene_get_cubeia_m3700966831(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		CubeiaClient_sendSelectGame_m882993301(L_12, /*hidden argument*/NULL);
+		HomeScene_t3664546087 * L_13 = __this->get_U24this_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Strings_t183934206_il2cpp_TypeInfo_var);
+		Strings_t183934206 * L_14 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		String_t* L_15 = VirtFuncInvoker0< String_t* >::Invoke(282 /* System.String Strings::get_common_waitingdialog_loading() */, L_14);
+		IntPtr_t L_16;
+		L_16.set_m_value_0((void*)(void*)U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__1_m258943225_MethodInfo_var);
+		Executor_t2576254565 * L_17 = (Executor_t2576254565 *)il2cpp_codegen_object_new(Executor_t2576254565_il2cpp_TypeInfo_var);
+		Executor__ctor_m2283687114(L_17, __this, L_16, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		SuperScene_showWaittingDialog_m4188252382(L_13, L_15, L_17, (UnityAction_t4025899511 *)NULL, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_0082:
+	{
+		HomeScene_t3664546087 * L_18 = __this->get_U24this_1();
+		NullCheck(L_18);
+		CubeiaClient_t2232589536 * L_19 = SuperScene_get_cubeia_m3700966831(L_18, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		HomeScene_t3664546087 * L_20 = __this->get_U24this_1();
+		NullCheck(L_20);
+		CubeiaClient_t2232589536 * L_21 = SuperScene_get_cubeia_m3700966831(L_20, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		CubeiaClient_disconnect_m1551828055(L_21, /*hidden argument*/NULL);
+	}
+
+IL_00a2:
+	{
+		HomeScene_t3664546087 * L_22 = __this->get_U24this_1();
+		CubeiaClient_t2232589536 * L_23 = (CubeiaClient_t2232589536 *)il2cpp_codegen_object_new(CubeiaClient_t2232589536_il2cpp_TypeInfo_var);
+		CubeiaClient__ctor_m1876745803(L_23, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		SuperScene_set_cubeia_m1944768400(L_22, L_23, /*hidden argument*/NULL);
+		HomeScene_t3664546087 * L_24 = __this->get_U24this_1();
+		NullCheck(L_24);
+		CubeiaClient_t2232589536 * L_25 = SuperScene_get_cubeia_m3700966831(L_24, /*hidden argument*/NULL);
+		User_t719925459 * L_26 = __this->get_user_0();
+		NullCheck(L_26);
+		LoginInfo_t657176999 * L_27 = L_26->get_loginInfo_18();
+		NullCheck(L_25);
+		CubeiaClient_login_m3764739982(L_25, L_27, (bool)0, /*hidden argument*/NULL);
+		HomeScene_t3664546087 * L_28 = __this->get_U24this_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Strings_t183934206_il2cpp_TypeInfo_var);
+		Strings_t183934206 * L_29 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		String_t* L_30 = VirtFuncInvoker0< String_t* >::Invoke(282 /* System.String Strings::get_common_waitingdialog_loading() */, L_29);
+		IntPtr_t L_31;
+		L_31.set_m_value_0((void*)(void*)U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__2_m258943126_MethodInfo_var);
+		Executor_t2576254565 * L_32 = (Executor_t2576254565 *)il2cpp_codegen_object_new(Executor_t2576254565_il2cpp_TypeInfo_var);
+		Executor__ctor_m2283687114(L_32, __this, L_31, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		SuperScene_showWaittingDialog_m4188252382(L_28, L_30, L_32, (UnityAction_t4025899511 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_00f0:
+	{
+		return;
+	}
+}
+// System.Void HomeScene/<loginToGame>c__AnonStorey1::<>m__1()
+extern Il2CppClass* CubeiaClient_t2232589536_il2cpp_TypeInfo_var;
+extern const uint32_t U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__1_m258943225_MetadataUsageId;
+extern "C"  void U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__1_m258943225 (U3CloginToGameU3Ec__AnonStorey1_t892008602 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__1_m258943225_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		HomeScene_t3664546087 * L_0 = __this->get_U24this_1();
+		NullCheck(L_0);
+		CubeiaClient_t2232589536 * L_1 = SuperScene_get_cubeia_m3700966831(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		CubeiaClient_disconnect_m1551828055(L_1, /*hidden argument*/NULL);
+		HomeScene_t3664546087 * L_2 = __this->get_U24this_1();
+		CubeiaClient_t2232589536 * L_3 = (CubeiaClient_t2232589536 *)il2cpp_codegen_object_new(CubeiaClient_t2232589536_il2cpp_TypeInfo_var);
+		CubeiaClient__ctor_m1876745803(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SuperScene_set_cubeia_m1944768400(L_2, L_3, /*hidden argument*/NULL);
+		HomeScene_t3664546087 * L_4 = __this->get_U24this_1();
+		NullCheck(L_4);
+		CubeiaClient_t2232589536 * L_5 = SuperScene_get_cubeia_m3700966831(L_4, /*hidden argument*/NULL);
+		User_t719925459 * L_6 = __this->get_user_0();
+		NullCheck(L_6);
+		LoginInfo_t657176999 * L_7 = L_6->get_loginInfo_18();
+		NullCheck(L_5);
+		CubeiaClient_login_m3764739982(L_5, L_7, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene/<loginToGame>c__AnonStorey1::<>m__2()
+extern Il2CppClass* CubeiaClient_t2232589536_il2cpp_TypeInfo_var;
+extern const uint32_t U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__2_m258943126_MetadataUsageId;
+extern "C"  void U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__2_m258943126 (U3CloginToGameU3Ec__AnonStorey1_t892008602 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CloginToGameU3Ec__AnonStorey1_U3CU3Em__2_m258943126_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		HomeScene_t3664546087 * L_0 = __this->get_U24this_1();
+		NullCheck(L_0);
+		CubeiaClient_t2232589536 * L_1 = SuperScene_get_cubeia_m3700966831(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		CubeiaClient_disconnect_m1551828055(L_1, /*hidden argument*/NULL);
+		HomeScene_t3664546087 * L_2 = __this->get_U24this_1();
+		CubeiaClient_t2232589536 * L_3 = (CubeiaClient_t2232589536 *)il2cpp_codegen_object_new(CubeiaClient_t2232589536_il2cpp_TypeInfo_var);
+		CubeiaClient__ctor_m1876745803(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SuperScene_set_cubeia_m1944768400(L_2, L_3, /*hidden argument*/NULL);
+		HomeScene_t3664546087 * L_4 = __this->get_U24this_1();
+		NullCheck(L_4);
+		CubeiaClient_t2232589536 * L_5 = SuperScene_get_cubeia_m3700966831(L_4, /*hidden argument*/NULL);
+		User_t719925459 * L_6 = __this->get_user_0();
+		NullCheck(L_6);
+		LoginInfo_t657176999 * L_7 = L_6->get_loginInfo_18();
+		NullCheck(L_5);
+		CubeiaClient_login_m3764739982(L_5, L_7, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene/<showChannelChooser>c__AnonStorey2::.ctor()
+extern "C"  void U3CshowChannelChooserU3Ec__AnonStorey2__ctor_m1747460013 (U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene/<showChannelChooser>c__AnonStorey2::<>m__0()
+extern Il2CppClass* LoadBalancer_t148112434_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3662000152_MethodInfo_var;
+extern const uint32_t U3CshowChannelChooserU3Ec__AnonStorey2_U3CU3Em__0_m3825672164_MetadataUsageId;
+extern "C"  void U3CshowChannelChooserU3Ec__AnonStorey2_U3CU3Em__0_m3825672164 (U3CshowChannelChooserU3Ec__AnonStorey2_t3280201466 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CshowChannelChooserU3Ec__AnonStorey2_U3CU3Em__0_m3825672164_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LoadBalancer_t148112434_il2cpp_TypeInfo_var);
+		LoadBalancer_t148112434 * L_0 = ((LoadBalancer_t148112434_StaticFields*)LoadBalancer_t148112434_il2cpp_TypeInfo_var->static_fields)->get_instance_0();
+		IPConfig_t2412837625 * L_1 = __this->get_ipconfig_0();
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_2 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		int32_t L_3 = L_2->get_ag_1();
+		NullCheck(L_0);
+		bool L_4 = LoadBalancer_checkConditionLogin_m3532796549(L_0, L_1, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		bool L_5 = V_0;
+		if (!L_5)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_6 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		LoginInfo_t657176999 * L_7 = L_6->get_loginInfo_18();
+		IPConfig_t2412837625 * L_8 = __this->get_ipconfig_0();
+		NullCheck(L_8);
+		String_t* L_9 = L_8->get_ip_2();
+		NullCheck(L_7);
+		L_7->set_host_3(L_9);
+		IPConfig_t2412837625 * L_10 = __this->get_ipconfig_0();
+		NullCheck(L_10);
+		bool L_11 = L_10->get_isVIP_5();
+		IL2CPP_RUNTIME_CLASS_INIT(LoadBalancer_t148112434_il2cpp_TypeInfo_var);
+		((LoadBalancer_t148112434_StaticFields*)LoadBalancer_t148112434_il2cpp_TypeInfo_var->static_fields)->set_inVIPChannel_1(L_11);
+		U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * L_12 = __this->get_U3CU3Ef__refU243_1();
+		NullCheck(L_12);
+		Action_1_t3627374100 * L_13 = L_12->get_onFinish_0();
+		NullCheck(L_13);
+		Action_1_Invoke_m3662000152(L_13, (bool)0, /*hidden argument*/Action_1_Invoke_m3662000152_MethodInfo_var);
+	}
+
+IL_005c:
+	{
+		U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * L_14 = __this->get_U3CU3Ef__refU243_1();
+		NullCheck(L_14);
+		HomeScene_t3664546087 * L_15 = L_14->get_U24this_1();
+		NullCheck(L_15);
+		RectTransform_t3349966182 * L_16 = L_15->get_ChannelChosser_38();
+		NullCheck(L_16);
+		GameObject_t1756533147 * L_17 = Component_get_gameObject_m3105766835(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		GameObject_SetActive_m2887581199(L_17, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeScene/<showChannelChooser>c__AnonStorey3::.ctor()
+extern "C"  void U3CshowChannelChooserU3Ec__AnonStorey3__ctor_m2455443592 (U3CshowChannelChooserU3Ec__AnonStorey3_t1714117525 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeSceneTextInit::.ctor()
+extern "C"  void HomeSceneTextInit__ctor_m2488017985 (HomeSceneTextInit_t2515867944 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeSceneTextInit::Start()
+extern "C"  void HomeSceneTextInit_Start_m276655513 (HomeSceneTextInit_t2515867944 * __this, const MethodInfo* method)
+{
+	{
+		HomeSceneTextInit_initText_m871376562(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void HomeSceneTextInit::initText()
+extern Il2CppClass* Strings_t183934206_il2cpp_TypeInfo_var;
+extern const uint32_t HomeSceneTextInit_initText_m871376562_MetadataUsageId;
+extern "C"  void HomeSceneTextInit_initText_m871376562 (HomeSceneTextInit_t2515867944 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HomeSceneTextInit_initText_m871376562_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Text_t356221433 * L_0 = __this->get_napGold_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Strings_t183934206_il2cpp_TypeInfo_var);
+		Strings_t183934206 * L_1 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(302 /* System.String Strings::get_dialog_common_join_game_dialog_op3() */, L_1);
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_2);
+		Text_t356221433 * L_3 = __this->get_freeGold_3();
+		Strings_t183934206 * L_4 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(414 /* System.String Strings::get_free_gold() */, L_4);
+		NullCheck(L_3);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_3, L_5);
+		Text_t356221433 * L_6 = __this->get_fanPage_4();
+		Strings_t183934206 * L_7 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(35 /* System.String Strings::get_common_setting_fanpage() */, L_7);
+		NullCheck(L_6);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_6, L_8);
+		return;
+	}
+}
+// System.Void HTTPPOSTParam::.ctor()
+extern "C"  void HTTPPOSTParam__ctor_m2845617714 (HTTPPOSTParam_t2574473185 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// SimpleJSON.JSONClass HTTPPOSTParam::createParam(System.String,System.String)
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral190184483;
+extern Il2CppCodeGenString* _stringLiteral1803325615;
+extern const uint32_t HTTPPOSTParam_createParam_m1532511482_MetadataUsageId;
+extern "C"  JSONClass_t1609506608 * HTTPPOSTParam_createParam_m1532511482 (Il2CppObject * __this /* static, unused */, String_t* ___param0, String_t* ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HTTPPOSTParam_createParam_m1532511482_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	{
+		JSONClass_t1609506608 * L_0 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONClass_t1609506608 * L_1 = V_0;
+		String_t* L_2 = ___param0;
+		JSONNode_t1250409636 * L_3 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_1, _stringLiteral190184483, L_3);
+		JSONClass_t1609506608 * L_4 = V_0;
+		String_t* L_5 = ___value1;
+		JSONNode_t1250409636 * L_6 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_4, _stringLiteral1803325615, L_6);
+		JSONClass_t1609506608 * L_7 = V_0;
+		return L_7;
+	}
+}
+// SimpleJSON.JSONClass HTTPPOSTParam::createParam(System.String,System.Int32)
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral190184483;
+extern Il2CppCodeGenString* _stringLiteral1803325615;
+extern const uint32_t HTTPPOSTParam_createParam_m2150925057_MetadataUsageId;
+extern "C"  JSONClass_t1609506608 * HTTPPOSTParam_createParam_m2150925057 (Il2CppObject * __this /* static, unused */, String_t* ___param0, int32_t ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HTTPPOSTParam_createParam_m2150925057_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	{
+		JSONClass_t1609506608 * L_0 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONClass_t1609506608 * L_1 = V_0;
+		String_t* L_2 = ___param0;
+		JSONNode_t1250409636 * L_3 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_1, _stringLiteral190184483, L_3);
+		JSONClass_t1609506608 * L_4 = V_0;
+		NullCheck(L_4);
+		JSONNode_t1250409636 * L_5 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_4, _stringLiteral1803325615);
+		int32_t L_6 = ___value1;
+		NullCheck(L_5);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32) */, L_5, L_6);
+		JSONClass_t1609506608 * L_7 = V_0;
+		return L_7;
+	}
+}
+// SimpleJSON.JSONClass HTTPPOSTParam::createParam(System.String,System.Boolean)
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral190184483;
+extern Il2CppCodeGenString* _stringLiteral1803325615;
+extern const uint32_t HTTPPOSTParam_createParam_m2533548523_MetadataUsageId;
+extern "C"  JSONClass_t1609506608 * HTTPPOSTParam_createParam_m2533548523 (Il2CppObject * __this /* static, unused */, String_t* ___param0, bool ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HTTPPOSTParam_createParam_m2533548523_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	{
+		JSONClass_t1609506608 * L_0 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONClass_t1609506608 * L_1 = V_0;
+		String_t* L_2 = ___param0;
+		JSONNode_t1250409636 * L_3 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_1, _stringLiteral190184483, L_3);
+		JSONClass_t1609506608 * L_4 = V_0;
+		NullCheck(L_4);
+		JSONNode_t1250409636 * L_5 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_4, _stringLiteral1803325615);
+		bool L_6 = ___value1;
+		NullCheck(L_5);
+		VirtActionInvoker1< bool >::Invoke(27 /* System.Void SimpleJSON.JSONNode::set_AsBool(System.Boolean) */, L_5, L_6);
+		JSONClass_t1609506608 * L_7 = V_0;
+		return L_7;
+	}
+}
+// SimpleJSON.JSONArray HTTPPOSTParam::get_defaultParameters()
+extern Il2CppClass* JSONArray_t3986483147_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3366826370;
+extern Il2CppCodeGenString* _stringLiteral26390085;
+extern Il2CppCodeGenString* _stringLiteral2141979733;
+extern Il2CppCodeGenString* _stringLiteral3617362;
+extern Il2CppCodeGenString* _stringLiteral2851724865;
+extern Il2CppCodeGenString* _stringLiteral547736758;
+extern Il2CppCodeGenString* _stringLiteral3110053176;
+extern Il2CppCodeGenString* _stringLiteral2967019500;
+extern const uint32_t HTTPPOSTParam_get_defaultParameters_m2746468336_MetadataUsageId;
+extern "C"  JSONArray_t3986483147 * HTTPPOSTParam_get_defaultParameters_m2746468336 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HTTPPOSTParam_get_defaultParameters_m2746468336_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	JSONArray_t3986483147 * V_1 = NULL;
+	{
+		V_0 = _stringLiteral3366826370;
+		V_0 = _stringLiteral26390085;
+		JSONArray_t3986483147 * L_0 = (JSONArray_t3986483147 *)il2cpp_codegen_object_new(JSONArray_t3986483147_il2cpp_TypeInfo_var);
+		JSONArray__ctor_m2496257826(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		JSONArray_t3986483147 * L_1 = V_1;
+		String_t* L_2 = Application_get_bundleIdentifier_m848640906(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_3 = HTTPPOSTParam_createParam_m1532511482(NULL /*static, unused*/, _stringLiteral2141979733, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< int32_t, JSONNode_t1250409636 * >::Invoke(6 /* System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode) */, L_1, (-1), L_3);
+		JSONArray_t3986483147 * L_4 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		String_t* L_5 = GameApplication_get_versionname_m2206270554(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_6 = HTTPPOSTParam_createParam_m1532511482(NULL /*static, unused*/, _stringLiteral3617362, L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		VirtActionInvoker2< int32_t, JSONNode_t1250409636 * >::Invoke(6 /* System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode) */, L_4, (-1), L_6);
+		JSONArray_t3986483147 * L_7 = V_1;
+		int32_t L_8 = GameApplication_get_operatorID_m4104244737(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_9 = L_8;
+		Il2CppObject * L_10 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_12 = String_Concat_m56707527(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_13 = HTTPPOSTParam_createParam_m1532511482(NULL /*static, unused*/, _stringLiteral2851724865, L_12, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		VirtActionInvoker2< int32_t, JSONNode_t1250409636 * >::Invoke(6 /* System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode) */, L_7, (-1), L_13);
+		JSONArray_t3986483147 * L_14 = V_1;
+		String_t* L_15 = GameApplication_get_referrer_m971586722(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_16 = HTTPPOSTParam_createParam_m1532511482(NULL /*static, unused*/, _stringLiteral547736758, L_15, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		VirtActionInvoker2< int32_t, JSONNode_t1250409636 * >::Invoke(6 /* System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode) */, L_14, (-1), L_16);
+		JSONArray_t3986483147 * L_17 = V_1;
+		String_t* L_18 = V_0;
+		JSONClass_t1609506608 * L_19 = HTTPPOSTParam_createParam_m1532511482(NULL /*static, unused*/, _stringLiteral3110053176, L_18, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		VirtActionInvoker2< int32_t, JSONNode_t1250409636 * >::Invoke(6 /* System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode) */, L_17, (-1), L_19);
+		JSONArray_t3986483147 * L_20 = V_1;
+		int32_t L_21 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_ENCODE_3();
+		JSONClass_t1609506608 * L_22 = HTTPPOSTParam_createParam_m2150925057(NULL /*static, unused*/, _stringLiteral2967019500, L_21, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		VirtActionInvoker2< int32_t, JSONNode_t1250409636 * >::Invoke(6 /* System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode) */, L_20, (-1), L_22);
+		JSONArray_t3986483147 * L_23 = V_1;
+		return L_23;
+	}
+}
+// System.Void iAdBanner::.ctor(UnityEngine.TextAnchor,System.Int32)
+extern Il2CppClass* iAdBanner_t2205758560_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdLoadedActionU3Em__0_m2641721240_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CFailToReceiveAdActionU3Em__1_m2566509630_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdWiewLoadedActionU3Em__2_m3199026606_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdViewActionBeginActionU3Em__3_m356107436_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdViewFinishedActionU3Em__4_m3787035098_MethodInfo_var;
+extern const uint32_t iAdBanner__ctor_m3778275513_MetadataUsageId;
+extern "C"  void iAdBanner__ctor_m3778275513 (iAdBanner_t2205758560 * __this, int32_t ___anchor0, int32_t ___id1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner__ctor_m3778275513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	iAdBanner_t2205758560 * G_B2_0 = NULL;
+	iAdBanner_t2205758560 * G_B1_0 = NULL;
+	iAdBanner_t2205758560 * G_B4_0 = NULL;
+	iAdBanner_t2205758560 * G_B3_0 = NULL;
+	iAdBanner_t2205758560 * G_B6_0 = NULL;
+	iAdBanner_t2205758560 * G_B5_0 = NULL;
+	iAdBanner_t2205758560 * G_B8_0 = NULL;
+	iAdBanner_t2205758560 * G_B7_0 = NULL;
+	iAdBanner_t2205758560 * G_B10_0 = NULL;
+	iAdBanner_t2205758560 * G_B9_0 = NULL;
+	{
+		__this->set_firstLoad_2((bool)1);
+		__this->set__ShowOnLoad_3((bool)1);
+		Action_t3226471752 * L_0 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_11();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0027;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)iAdBanner_U3CAdLoadedActionU3Em__0_m2641721240_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, NULL, L_1, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_11(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0027:
+	{
+		Action_t3226471752 * L_3 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_11();
+		NullCheck(G_B2_0);
+		G_B2_0->set_AdLoadedAction_6(L_3);
+		Action_t3226471752 * L_4 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_12();
+		G_B3_0 = __this;
+		if (L_4)
+		{
+			G_B4_0 = __this;
+			goto IL_004a;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)iAdBanner_U3CFailToReceiveAdActionU3Em__1_m2566509630_MethodInfo_var);
+		Action_t3226471752 * L_6 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_6, NULL, L_5, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_12(L_6);
+		G_B4_0 = G_B3_0;
+	}
+
+IL_004a:
+	{
+		Action_t3226471752 * L_7 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_12();
+		NullCheck(G_B4_0);
+		G_B4_0->set_FailToReceiveAdAction_7(L_7);
+		Action_t3226471752 * L_8 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_13();
+		G_B5_0 = __this;
+		if (L_8)
+		{
+			G_B6_0 = __this;
+			goto IL_006d;
+		}
+	}
+	{
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)iAdBanner_U3CAdWiewLoadedActionU3Em__2_m3199026606_MethodInfo_var);
+		Action_t3226471752 * L_10 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_10, NULL, L_9, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache2_13(L_10);
+		G_B6_0 = G_B5_0;
+	}
+
+IL_006d:
+	{
+		Action_t3226471752 * L_11 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_13();
+		NullCheck(G_B6_0);
+		G_B6_0->set_AdWiewLoadedAction_8(L_11);
+		Action_t3226471752 * L_12 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_14();
+		G_B7_0 = __this;
+		if (L_12)
+		{
+			G_B8_0 = __this;
+			goto IL_0090;
+		}
+	}
+	{
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)iAdBanner_U3CAdViewActionBeginActionU3Em__3_m356107436_MethodInfo_var);
+		Action_t3226471752 * L_14 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_14, NULL, L_13, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache3_14(L_14);
+		G_B8_0 = G_B7_0;
+	}
+
+IL_0090:
+	{
+		Action_t3226471752 * L_15 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_14();
+		NullCheck(G_B8_0);
+		G_B8_0->set_AdViewActionBeginAction_9(L_15);
+		Action_t3226471752 * L_16 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4_15();
+		G_B9_0 = __this;
+		if (L_16)
+		{
+			G_B10_0 = __this;
+			goto IL_00b3;
+		}
+	}
+	{
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)iAdBanner_U3CAdViewFinishedActionU3Em__4_m3787035098_MethodInfo_var);
+		Action_t3226471752 * L_18 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_18, NULL, L_17, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache4_15(L_18);
+		G_B10_0 = G_B9_0;
+	}
+
+IL_00b3:
+	{
+		Action_t3226471752 * L_19 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4_15();
+		NullCheck(G_B10_0);
+		G_B10_0->set_AdViewFinishedAction_10(L_19);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_20 = ___id1;
+		__this->set__id_4(L_20);
+		int32_t L_21 = ___anchor0;
+		__this->set__anchor_5(L_21);
+		int32_t L_22 = iAdBanner_get_gravity_m2221157968(__this, /*hidden argument*/NULL);
+		int32_t L_23 = __this->get__id_4();
+		iAdBanner__IADCreateBannerAd_m4053947453(NULL /*static, unused*/, L_22, L_23, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBanner::.ctor(System.Int32,System.Int32,System.Int32)
+extern Il2CppClass* iAdBanner_t2205758560_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdLoadedActionU3Em__0_m2641721240_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CFailToReceiveAdActionU3Em__1_m2566509630_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdWiewLoadedActionU3Em__2_m3199026606_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdViewActionBeginActionU3Em__3_m356107436_MethodInfo_var;
+extern const MethodInfo* iAdBanner_U3CAdViewFinishedActionU3Em__4_m3787035098_MethodInfo_var;
+extern const uint32_t iAdBanner__ctor_m3424004724_MetadataUsageId;
+extern "C"  void iAdBanner__ctor_m3424004724 (iAdBanner_t2205758560 * __this, int32_t ___x0, int32_t ___y1, int32_t ___id2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner__ctor_m3424004724_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	iAdBanner_t2205758560 * G_B2_0 = NULL;
+	iAdBanner_t2205758560 * G_B1_0 = NULL;
+	iAdBanner_t2205758560 * G_B4_0 = NULL;
+	iAdBanner_t2205758560 * G_B3_0 = NULL;
+	iAdBanner_t2205758560 * G_B6_0 = NULL;
+	iAdBanner_t2205758560 * G_B5_0 = NULL;
+	iAdBanner_t2205758560 * G_B8_0 = NULL;
+	iAdBanner_t2205758560 * G_B7_0 = NULL;
+	iAdBanner_t2205758560 * G_B10_0 = NULL;
+	iAdBanner_t2205758560 * G_B9_0 = NULL;
+	{
+		__this->set_firstLoad_2((bool)1);
+		__this->set__ShowOnLoad_3((bool)1);
+		Action_t3226471752 * L_0 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_11();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0027;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)iAdBanner_U3CAdLoadedActionU3Em__0_m2641721240_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, NULL, L_1, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_11(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0027:
+	{
+		Action_t3226471752 * L_3 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_11();
+		NullCheck(G_B2_0);
+		G_B2_0->set_AdLoadedAction_6(L_3);
+		Action_t3226471752 * L_4 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_12();
+		G_B3_0 = __this;
+		if (L_4)
+		{
+			G_B4_0 = __this;
+			goto IL_004a;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)iAdBanner_U3CFailToReceiveAdActionU3Em__1_m2566509630_MethodInfo_var);
+		Action_t3226471752 * L_6 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_6, NULL, L_5, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_12(L_6);
+		G_B4_0 = G_B3_0;
+	}
+
+IL_004a:
+	{
+		Action_t3226471752 * L_7 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_12();
+		NullCheck(G_B4_0);
+		G_B4_0->set_FailToReceiveAdAction_7(L_7);
+		Action_t3226471752 * L_8 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_13();
+		G_B5_0 = __this;
+		if (L_8)
+		{
+			G_B6_0 = __this;
+			goto IL_006d;
+		}
+	}
+	{
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)iAdBanner_U3CAdWiewLoadedActionU3Em__2_m3199026606_MethodInfo_var);
+		Action_t3226471752 * L_10 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_10, NULL, L_9, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache2_13(L_10);
+		G_B6_0 = G_B5_0;
+	}
+
+IL_006d:
+	{
+		Action_t3226471752 * L_11 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_13();
+		NullCheck(G_B6_0);
+		G_B6_0->set_AdWiewLoadedAction_8(L_11);
+		Action_t3226471752 * L_12 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_14();
+		G_B7_0 = __this;
+		if (L_12)
+		{
+			G_B8_0 = __this;
+			goto IL_0090;
+		}
+	}
+	{
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)iAdBanner_U3CAdViewActionBeginActionU3Em__3_m356107436_MethodInfo_var);
+		Action_t3226471752 * L_14 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_14, NULL, L_13, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache3_14(L_14);
+		G_B8_0 = G_B7_0;
+	}
+
+IL_0090:
+	{
+		Action_t3226471752 * L_15 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_14();
+		NullCheck(G_B8_0);
+		G_B8_0->set_AdViewActionBeginAction_9(L_15);
+		Action_t3226471752 * L_16 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4_15();
+		G_B9_0 = __this;
+		if (L_16)
+		{
+			G_B10_0 = __this;
+			goto IL_00b3;
+		}
+	}
+	{
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)iAdBanner_U3CAdViewFinishedActionU3Em__4_m3787035098_MethodInfo_var);
+		Action_t3226471752 * L_18 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_18, NULL, L_17, /*hidden argument*/NULL);
+		((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache4_15(L_18);
+		G_B10_0 = G_B9_0;
+	}
+
+IL_00b3:
+	{
+		Action_t3226471752 * L_19 = ((iAdBanner_t2205758560_StaticFields*)iAdBanner_t2205758560_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4_15();
+		NullCheck(G_B10_0);
+		G_B10_0->set_AdViewFinishedAction_10(L_19);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_20 = ___id2;
+		__this->set__id_4(L_20);
+		int32_t L_21 = ___x0;
+		int32_t L_22 = ___y1;
+		int32_t L_23 = __this->get__id_4();
+		iAdBanner__IADCreateBannerAdPos_m3243616320(NULL /*static, unused*/, L_21, L_22, L_23, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _IADCreateBannerAd(int32_t, int32_t);
+// System.Void iAdBanner::_IADCreateBannerAd(System.Int32,System.Int32)
+extern "C"  void iAdBanner__IADCreateBannerAd_m4053947453 (Il2CppObject * __this /* static, unused */, int32_t ___gravity0, int32_t ___id1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADCreateBannerAd)(___gravity0, ___id1);
+
+}
+extern "C" void DEFAULT_CALL _IADCreateBannerAdPos(int32_t, int32_t, int32_t);
+// System.Void iAdBanner::_IADCreateBannerAdPos(System.Int32,System.Int32,System.Int32)
+extern "C"  void iAdBanner__IADCreateBannerAdPos_m3243616320 (Il2CppObject * __this /* static, unused */, int32_t ___x0, int32_t ___y1, int32_t ___id2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADCreateBannerAdPos)(___x0, ___y1, ___id2);
+
+}
+extern "C" void DEFAULT_CALL _IADShowAd(int32_t);
+// System.Void iAdBanner::_IADShowAd(System.Int32)
+extern "C"  void iAdBanner__IADShowAd_m2376854699 (Il2CppObject * __this /* static, unused */, int32_t ___id0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADShowAd)(___id0);
+
+}
+extern "C" void DEFAULT_CALL _IADHideAd(int32_t);
+// System.Void iAdBanner::_IADHideAd(System.Int32)
+extern "C"  void iAdBanner__IADHideAd_m1596708650 (Il2CppObject * __this /* static, unused */, int32_t ___id0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADHideAd)(___id0);
+
+}
+// System.Void iAdBanner::add_AdLoadedAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_add_AdLoadedAction_m4262491036_MetadataUsageId;
+extern "C"  void iAdBanner_add_AdLoadedAction_m4262491036 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_add_AdLoadedAction_m4262491036_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdLoadedAction_6();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdLoadedAction_6();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::remove_AdLoadedAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_remove_AdLoadedAction_m2961843343_MetadataUsageId;
+extern "C"  void iAdBanner_remove_AdLoadedAction_m2961843343 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_remove_AdLoadedAction_m2961843343_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdLoadedAction_6();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdLoadedAction_6();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::add_FailToReceiveAdAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_add_FailToReceiveAdAction_m1636558933_MetadataUsageId;
+extern "C"  void iAdBanner_add_FailToReceiveAdAction_m1636558933 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_add_FailToReceiveAdAction_m1636558933_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_FailToReceiveAdAction_7();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_FailToReceiveAdAction_7();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::remove_FailToReceiveAdAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_remove_FailToReceiveAdAction_m9838572_MetadataUsageId;
+extern "C"  void iAdBanner_remove_FailToReceiveAdAction_m9838572 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_remove_FailToReceiveAdAction_m9838572_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_FailToReceiveAdAction_7();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_FailToReceiveAdAction_7();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::add_AdWiewLoadedAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_add_AdWiewLoadedAction_m858191028_MetadataUsageId;
+extern "C"  void iAdBanner_add_AdWiewLoadedAction_m858191028 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_add_AdWiewLoadedAction_m858191028_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdWiewLoadedAction_8();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdWiewLoadedAction_8();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::remove_AdWiewLoadedAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_remove_AdWiewLoadedAction_m2562449371_MetadataUsageId;
+extern "C"  void iAdBanner_remove_AdWiewLoadedAction_m2562449371 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_remove_AdWiewLoadedAction_m2562449371_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdWiewLoadedAction_8();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdWiewLoadedAction_8();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::add_AdViewActionBeginAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_add_AdViewActionBeginAction_m555384687_MetadataUsageId;
+extern "C"  void iAdBanner_add_AdViewActionBeginAction_m555384687 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_add_AdViewActionBeginAction_m555384687_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdViewActionBeginAction_9();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdViewActionBeginAction_9();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::remove_AdViewActionBeginAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_remove_AdViewActionBeginAction_m3763071728_MetadataUsageId;
+extern "C"  void iAdBanner_remove_AdViewActionBeginAction_m3763071728 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_remove_AdViewActionBeginAction_m3763071728_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdViewActionBeginAction_9();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdViewActionBeginAction_9();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::add_AdViewFinishedAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_add_AdViewFinishedAction_m106155754_MetadataUsageId;
+extern "C"  void iAdBanner_add_AdViewFinishedAction_m106155754 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_add_AdViewFinishedAction_m106155754_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdViewFinishedAction_10();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdViewFinishedAction_10();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::remove_AdViewFinishedAction(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBanner_remove_AdViewFinishedAction_m4235435883_MetadataUsageId;
+extern "C"  void iAdBanner_remove_AdViewFinishedAction_m4235435883 (iAdBanner_t2205758560 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBanner_remove_AdViewFinishedAction_m4235435883_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_AdViewFinishedAction_10();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_AdViewFinishedAction_10();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::Hide()
+extern "C"  void iAdBanner_Hide_m1279103991 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsOnScreen_1();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		__this->set__IsOnScreen_1((bool)0);
+		int32_t L_1 = __this->get__id_4();
+		iAdBanner__IADHideAd_m1596708650(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBanner::Show()
+extern "C"  void iAdBanner_Show_m2243488598 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsOnScreen_1();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		__this->set__IsOnScreen_1((bool)1);
+		int32_t L_1 = __this->get__id_4();
+		iAdBanner__IADShowAd_m2376854699(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 iAdBanner::get_id()
+extern "C"  int32_t iAdBanner_get_id_m3016548669 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__id_4();
+		return L_0;
+	}
+}
+// System.Boolean iAdBanner::get_IsLoaded()
+extern "C"  bool iAdBanner_get_IsLoaded_m2480644795 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsLoaded_0();
+		return L_0;
+	}
+}
+// System.Boolean iAdBanner::get_IsOnScreen()
+extern "C"  bool iAdBanner_get_IsOnScreen_m3167228753 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsOnScreen_1();
+		return L_0;
+	}
+}
+// System.Boolean iAdBanner::get_ShowOnLoad()
+extern "C"  bool iAdBanner_get_ShowOnLoad_m2281711484 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__ShowOnLoad_3();
+		return L_0;
+	}
+}
+// System.Void iAdBanner::set_ShowOnLoad(System.Boolean)
+extern "C"  void iAdBanner_set_ShowOnLoad_m170712393 (iAdBanner_t2205758560 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set__ShowOnLoad_3(L_0);
+		return;
+	}
+}
+// UnityEngine.TextAnchor iAdBanner::get_anchor()
+extern "C"  int32_t iAdBanner_get_anchor_m3152460095 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__anchor_5();
+		return L_0;
+	}
+}
+// System.Int32 iAdBanner::get_gravity()
+extern "C"  int32_t iAdBanner_get_gravity_m2221157968 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get__anchor_5();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_004b;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0048;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_004e;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_0042;
+		}
+		if (L_1 == 4)
+		{
+			goto IL_003f;
+		}
+		if (L_1 == 5)
+		{
+			goto IL_0045;
+		}
+		if (L_1 == 6)
+		{
+			goto IL_0039;
+		}
+		if (L_1 == 7)
+		{
+			goto IL_0036;
+		}
+		if (L_1 == 8)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		goto IL_0051;
+	}
+
+IL_0036:
+	{
+		return ((int32_t)81);
+	}
+
+IL_0039:
+	{
+		return ((int32_t)83);
+	}
+
+IL_003c:
+	{
+		return ((int32_t)85);
+	}
+
+IL_003f:
+	{
+		return ((int32_t)17);
+	}
+
+IL_0042:
+	{
+		return ((int32_t)19);
+	}
+
+IL_0045:
+	{
+		return ((int32_t)21);
+	}
+
+IL_0048:
+	{
+		return ((int32_t)49);
+	}
+
+IL_004b:
+	{
+		return ((int32_t)51);
+	}
+
+IL_004e:
+	{
+		return ((int32_t)53);
+	}
+
+IL_0051:
+	{
+		return ((int32_t)48);
+	}
+}
+// System.Void iAdBanner::didFailToReceiveAdWithError()
+extern "C"  void iAdBanner_didFailToReceiveAdWithError_m1671984235 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		Action_t3226471752 * L_0 = __this->get_FailToReceiveAdAction_7();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBanner::bannerViewDidLoadAd()
+extern "C"  void iAdBanner_bannerViewDidLoadAd_m2855627174 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		__this->set__IsLoaded_0((bool)1);
+		bool L_0 = iAdBanner_get_ShowOnLoad_m2281711484(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		bool L_1 = __this->get_firstLoad_2();
+		if (!L_1)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		iAdBanner_Show_m2243488598(__this, /*hidden argument*/NULL);
+		__this->set_firstLoad_2((bool)0);
+	}
+
+IL_002a:
+	{
+		Action_t3226471752 * L_2 = __this->get_AdLoadedAction_6();
+		NullCheck(L_2);
+		Action_Invoke_m3801112262(L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBanner::bannerViewWillLoadAd()
+extern "C"  void iAdBanner_bannerViewWillLoadAd_m272237359 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		Action_t3226471752 * L_0 = __this->get_AdWiewLoadedAction_8();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBanner::bannerViewActionDidFinish()
+extern "C"  void iAdBanner_bannerViewActionDidFinish_m1620037094 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		Action_t3226471752 * L_0 = __this->get_AdViewFinishedAction_10();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBanner::bannerViewActionShouldBegin()
+extern "C"  void iAdBanner_bannerViewActionShouldBegin_m3062178944 (iAdBanner_t2205758560 * __this, const MethodInfo* method)
+{
+	{
+		Action_t3226471752 * L_0 = __this->get_AdViewActionBeginAction_9();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBanner::<AdLoadedAction>m__0()
+extern "C"  void iAdBanner_U3CAdLoadedActionU3Em__0_m2641721240 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::<FailToReceiveAdAction>m__1()
+extern "C"  void iAdBanner_U3CFailToReceiveAdActionU3Em__1_m2566509630 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::<AdWiewLoadedAction>m__2()
+extern "C"  void iAdBanner_U3CAdWiewLoadedActionU3Em__2_m3199026606 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::<AdViewActionBeginAction>m__3()
+extern "C"  void iAdBanner_U3CAdViewActionBeginActionU3Em__3_m356107436 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBanner::<AdViewFinishedAction>m__4()
+extern "C"  void iAdBanner_U3CAdViewFinishedActionU3Em__4_m3787035098 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::.ctor()
+extern Il2CppClass* ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m1607744874_MethodInfo_var;
+extern const uint32_t iAdBannerController__ctor_m4248268387_MetadataUsageId;
+extern "C"  void iAdBannerController__ctor_m4248268387 (iAdBannerController_t2502498128 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController__ctor_m4248268387_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m1607744874(__this, /*hidden argument*/ISN_Singleton_1__ctor_m1607744874_MethodInfo_var);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _IADDestroyBanner(int32_t);
+// System.Void iAdBannerController::_IADDestroyBanner(System.Int32)
+extern "C"  void iAdBannerController__IADDestroyBanner_m2221714559 (Il2CppObject * __this /* static, unused */, int32_t ___id0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADDestroyBanner)(___id0);
+
+}
+extern "C" void DEFAULT_CALL _IADStartInterstitialAd();
+// System.Void iAdBannerController::_IADStartInterstitialAd()
+extern "C"  void iAdBannerController__IADStartInterstitialAd_m1282980747 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADStartInterstitialAd)();
+
+}
+extern "C" void DEFAULT_CALL _IADLoadInterstitialAd();
+// System.Void iAdBannerController::_IADLoadInterstitialAd()
+extern "C"  void iAdBannerController__IADLoadInterstitialAd_m3488727549 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADLoadInterstitialAd)();
+
+}
+extern "C" void DEFAULT_CALL _IADShowInterstitialAd();
+// System.Void iAdBannerController::_IADShowInterstitialAd()
+extern "C"  void iAdBannerController__IADShowInterstitialAd_m3105918260 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_IADShowInterstitialAd)();
+
+}
+// System.Void iAdBannerController::add_InterstitialDidFailWithErrorAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_add_InterstitialDidFailWithErrorAction_m192981393_MetadataUsageId;
+extern "C"  void iAdBannerController_add_InterstitialDidFailWithErrorAction_m192981393 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_add_InterstitialDidFailWithErrorAction_m192981393_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialDidFailWithErrorAction_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialDidFailWithErrorAction_7()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::remove_InterstitialDidFailWithErrorAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_remove_InterstitialDidFailWithErrorAction_m8068630_MetadataUsageId;
+extern "C"  void iAdBannerController_remove_InterstitialDidFailWithErrorAction_m8068630 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_remove_InterstitialDidFailWithErrorAction_m8068630_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialDidFailWithErrorAction_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialDidFailWithErrorAction_7()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::add_InterstitialAdWillLoadAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_add_InterstitialAdWillLoadAction_m1324071761_MetadataUsageId;
+extern "C"  void iAdBannerController_add_InterstitialAdWillLoadAction_m1324071761 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_add_InterstitialAdWillLoadAction_m1324071761_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdWillLoadAction_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialAdWillLoadAction_8()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::remove_InterstitialAdWillLoadAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_remove_InterstitialAdWillLoadAction_m3424755594_MetadataUsageId;
+extern "C"  void iAdBannerController_remove_InterstitialAdWillLoadAction_m3424755594 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_remove_InterstitialAdWillLoadAction_m3424755594_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdWillLoadAction_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialAdWillLoadAction_8()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::add_InterstitialAdDidLoadAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_add_InterstitialAdDidLoadAction_m2580892304_MetadataUsageId;
+extern "C"  void iAdBannerController_add_InterstitialAdDidLoadAction_m2580892304 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_add_InterstitialAdDidLoadAction_m2580892304_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdDidLoadAction_9();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialAdDidLoadAction_9()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::remove_InterstitialAdDidLoadAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_remove_InterstitialAdDidLoadAction_m3640501589_MetadataUsageId;
+extern "C"  void iAdBannerController_remove_InterstitialAdDidLoadAction_m3640501589 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_remove_InterstitialAdDidLoadAction_m3640501589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdDidLoadAction_9();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialAdDidLoadAction_9()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::add_InterstitialAdDidFinishAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_add_InterstitialAdDidFinishAction_m2496851295_MetadataUsageId;
+extern "C"  void iAdBannerController_add_InterstitialAdDidFinishAction_m2496851295 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_add_InterstitialAdDidFinishAction_m2496851295_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdDidFinishAction_10();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialAdDidFinishAction_10()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::remove_InterstitialAdDidFinishAction(System.Action)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_remove_InterstitialAdDidFinishAction_m2090643804_MetadataUsageId;
+extern "C"  void iAdBannerController_remove_InterstitialAdDidFinishAction_m2090643804 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_remove_InterstitialAdDidFinishAction_m2090643804_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdDidFinishAction_10();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_address_of_InterstitialAdDidFinishAction_10()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::Awake()
+extern Il2CppClass* Dictionary_2_t1213584195_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m315699981_MethodInfo_var;
+extern const uint32_t iAdBannerController_Awake_m1296918060_MetadataUsageId;
+extern "C"  void iAdBannerController_Awake_m1296918060 (iAdBannerController_t2502498128 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_Awake_m1296918060_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t1213584195 * L_0 = (Dictionary_2_t1213584195 *)il2cpp_codegen_object_new(Dictionary_2_t1213584195_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m315699981(L_0, /*hidden argument*/Dictionary_2__ctor_m315699981_MethodInfo_var);
+		__this->set__banners_6(L_0);
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// iAdBanner iAdBannerController::CreateAdBanner(UnityEngine.TextAnchor)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* iAdBanner_t2205758560_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m2322195445_MethodInfo_var;
+extern const uint32_t iAdBannerController_CreateAdBanner_m1908993036_MetadataUsageId;
+extern "C"  iAdBanner_t2205758560 * iAdBannerController_CreateAdBanner_m1908993036 (iAdBannerController_t2502498128 * __this, int32_t ___anchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_CreateAdBanner_m1908993036_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	iAdBanner_t2205758560 * V_0 = NULL;
+	{
+		int32_t L_0 = ___anchor0;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		int32_t L_1 = iAdBannerController_get_nextId_m2975800000(NULL /*static, unused*/, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_2 = (iAdBanner_t2205758560 *)il2cpp_codegen_object_new(iAdBanner_t2205758560_il2cpp_TypeInfo_var);
+		iAdBanner__ctor_m3778275513(L_2, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Dictionary_2_t1213584195 * L_3 = __this->get__banners_6();
+		iAdBanner_t2205758560 * L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = iAdBanner_get_id_m3016548669(L_4, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_6 = V_0;
+		NullCheck(L_3);
+		Dictionary_2_Add_m2322195445(L_3, L_5, L_6, /*hidden argument*/Dictionary_2_Add_m2322195445_MethodInfo_var);
+		iAdBanner_t2205758560 * L_7 = V_0;
+		return L_7;
+	}
+}
+// iAdBanner iAdBannerController::CreateAdBanner(System.Int32,System.Int32)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* iAdBanner_t2205758560_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m2322195445_MethodInfo_var;
+extern const uint32_t iAdBannerController_CreateAdBanner_m1792969925_MetadataUsageId;
+extern "C"  iAdBanner_t2205758560 * iAdBannerController_CreateAdBanner_m1792969925 (iAdBannerController_t2502498128 * __this, int32_t ___x0, int32_t ___y1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_CreateAdBanner_m1792969925_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	iAdBanner_t2205758560 * V_0 = NULL;
+	{
+		int32_t L_0 = ___x0;
+		int32_t L_1 = ___y1;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		int32_t L_2 = iAdBannerController_get_nextId_m2975800000(NULL /*static, unused*/, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_3 = (iAdBanner_t2205758560 *)il2cpp_codegen_object_new(iAdBanner_t2205758560_il2cpp_TypeInfo_var);
+		iAdBanner__ctor_m3424004724(L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Dictionary_2_t1213584195 * L_4 = __this->get__banners_6();
+		iAdBanner_t2205758560 * L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = iAdBanner_get_id_m3016548669(L_5, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_7 = V_0;
+		NullCheck(L_4);
+		Dictionary_2_Add_m2322195445(L_4, L_6, L_7, /*hidden argument*/Dictionary_2_Add_m2322195445_MethodInfo_var);
+		iAdBanner_t2205758560 * L_8 = V_0;
+		return L_8;
+	}
+}
+// System.Void iAdBannerController::DestroyBanner(System.Int32)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m4081458946_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Remove_m895901654_MethodInfo_var;
+extern const uint32_t iAdBannerController_DestroyBanner_m2825064078_MetadataUsageId;
+extern "C"  void iAdBannerController_DestroyBanner_m2825064078 (iAdBannerController_t2502498128 * __this, int32_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_DestroyBanner_m2825064078_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t1213584195 * L_0 = __this->get__banners_6();
+		if (!L_0)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Dictionary_2_t1213584195 * L_1 = __this->get__banners_6();
+		int32_t L_2 = ___id0;
+		NullCheck(L_1);
+		bool L_3 = Dictionary_2_ContainsKey_m4081458946(L_1, L_2, /*hidden argument*/Dictionary_2_ContainsKey_m4081458946_MethodInfo_var);
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Dictionary_2_t1213584195 * L_4 = __this->get__banners_6();
+		int32_t L_5 = ___id0;
+		NullCheck(L_4);
+		Dictionary_2_Remove_m895901654(L_4, L_5, /*hidden argument*/Dictionary_2_Remove_m895901654_MethodInfo_var);
+		int32_t L_6 = ___id0;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		iAdBannerController__IADDestroyBanner_m2221714559(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::StartInterstitialAd()
+extern Il2CppClass* DeviceGeneration_t1717781390_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4277072453;
+extern Il2CppCodeGenString* _stringLiteral1979411778;
+extern Il2CppCodeGenString* _stringLiteral2369046602;
+extern Il2CppCodeGenString* _stringLiteral1739179052;
+extern const uint32_t iAdBannerController_StartInterstitialAd_m1103521336_MetadataUsageId;
+extern "C"  void iAdBannerController_StartInterstitialAd_m1103521336 (iAdBannerController_t2502498128 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_StartInterstitialAd_m1103521336_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = Device_get_generation_m3224462050(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Il2CppObject * L_1 = Box(DeviceGeneration_t1717781390_il2cpp_TypeInfo_var, (&V_0));
+		NullCheck(L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
+		NullCheck(L_2);
+		int32_t L_3 = String_IndexOf_m4251815737(L_2, _stringLiteral4277072453, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_3) == ((uint32_t)(-1)))))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		int32_t L_4 = Device_get_generation_m3224462050(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_4;
+		Il2CppObject * L_5 = Box(DeviceGeneration_t1717781390_il2cpp_TypeInfo_var, (&V_1));
+		NullCheck(L_5);
+		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_5);
+		NullCheck(L_6);
+		int32_t L_7 = String_IndexOf_m4251815737(L_6, _stringLiteral1979411778, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_7) == ((uint32_t)(-1)))))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_8 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		bool L_9 = L_8->get_DisablePluginLogs_16();
+		if (L_9)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		int32_t L_10 = Device_get_generation_m3224462050(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = L_10;
+		Il2CppObject * L_11 = Box(DeviceGeneration_t1717781390_il2cpp_TypeInfo_var, (&V_2));
+		NullCheck(L_11);
+		String_t* L_12 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_11);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral2369046602, L_12, _stringLiteral1739179052, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_13, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_007d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		iAdBannerController_interstitialdidFailWithError_m1871557138(__this, L_14, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0089:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		iAdBannerController__IADStartInterstitialAd_m1282980747(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBannerController::LoadInterstitialAd()
+extern Il2CppClass* DeviceGeneration_t1717781390_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4277072453;
+extern Il2CppCodeGenString* _stringLiteral1979411778;
+extern Il2CppCodeGenString* _stringLiteral2369046602;
+extern Il2CppCodeGenString* _stringLiteral1739179052;
+extern const uint32_t iAdBannerController_LoadInterstitialAd_m2274973876_MetadataUsageId;
+extern "C"  void iAdBannerController_LoadInterstitialAd_m2274973876 (iAdBannerController_t2502498128 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_LoadInterstitialAd_m2274973876_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = Device_get_generation_m3224462050(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Il2CppObject * L_1 = Box(DeviceGeneration_t1717781390_il2cpp_TypeInfo_var, (&V_0));
+		NullCheck(L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
+		NullCheck(L_2);
+		int32_t L_3 = String_IndexOf_m4251815737(L_2, _stringLiteral4277072453, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_3) == ((uint32_t)(-1)))))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		int32_t L_4 = Device_get_generation_m3224462050(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_4;
+		Il2CppObject * L_5 = Box(DeviceGeneration_t1717781390_il2cpp_TypeInfo_var, (&V_1));
+		NullCheck(L_5);
+		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_5);
+		NullCheck(L_6);
+		int32_t L_7 = String_IndexOf_m4251815737(L_6, _stringLiteral1979411778, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_7) == ((uint32_t)(-1)))))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_8 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		bool L_9 = L_8->get_DisablePluginLogs_16();
+		if (L_9)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		int32_t L_10 = Device_get_generation_m3224462050(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = L_10;
+		Il2CppObject * L_11 = Box(DeviceGeneration_t1717781390_il2cpp_TypeInfo_var, (&V_2));
+		NullCheck(L_11);
+		String_t* L_12 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_11);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral2369046602, L_12, _stringLiteral1739179052, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_13, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_007d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		iAdBannerController_interstitialdidFailWithError_m1871557138(__this, L_14, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0089:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		iAdBannerController__IADLoadInterstitialAd_m3488727549(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBannerController::ShowInterstitialAd()
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_ShowInterstitialAd_m2167144979_MetadataUsageId;
+extern "C"  void iAdBannerController_ShowInterstitialAd_m2167144979 (iAdBannerController_t2502498128 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_ShowInterstitialAd_m2167144979_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		iAdBannerController__IADShowInterstitialAd_m3105918260(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 iAdBannerController::get_nextId()
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_get_nextId_m2975800000_MetadataUsageId;
+extern "C"  int32_t iAdBannerController_get_nextId_m2975800000 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_get_nextId_m2975800000_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get__nextId_4();
+		((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->set__nextId_4(((int32_t)((int32_t)L_0+(int32_t)1)));
+		int32_t L_1 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get__nextId_4();
+		return L_1;
+	}
+}
+// iAdBanner iAdBannerController::GetBanner(System.Int32)
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m4081458946_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m774183799_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4007447615;
+extern Il2CppCodeGenString* _stringLiteral3400027091;
+extern const uint32_t iAdBannerController_GetBanner_m1525889695_MetadataUsageId;
+extern "C"  iAdBanner_t2205758560 * iAdBannerController_GetBanner_m1525889695 (iAdBannerController_t2502498128 * __this, int32_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_GetBanner_m1525889695_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t1213584195 * L_0 = __this->get__banners_6();
+		int32_t L_1 = ___id0;
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_ContainsKey_m4081458946(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m4081458946_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Dictionary_2_t1213584195 * L_3 = __this->get__banners_6();
+		int32_t L_4 = ___id0;
+		NullCheck(L_3);
+		iAdBanner_t2205758560 * L_5 = Dictionary_2_get_Item_m774183799(L_3, L_4, /*hidden argument*/Dictionary_2_get_Item_m774183799_MethodInfo_var);
+		return L_5;
+	}
+
+IL_001e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_6 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		bool L_7 = L_6->get_DisablePluginLogs_16();
+		if (L_7)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		String_t* L_8 = Int32_ToString_m2960866144((&___id0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral4007447615, L_8, _stringLiteral3400027091, /*hidden argument*/NULL);
+		Debug_LogWarning_m1379396000(NULL /*static, unused*/, L_9, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_004f:
+	{
+		return (iAdBanner_t2205758560 *)NULL;
+	}
+}
+// System.Collections.Generic.List`1<iAdBanner> iAdBannerController::get_banners()
+extern Il2CppClass* List_1_t1574879692_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m4095534109_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m4166591493_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m918917481_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2984340808_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3801517217_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m629752124_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1650001370_MethodInfo_var;
+extern const uint32_t iAdBannerController_get_banners_m699043976_MetadataUsageId;
+extern "C"  List_1_t1574879692 * iAdBannerController_get_banners_m699043976 (iAdBannerController_t2502498128 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_get_banners_m699043976_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1574879692 * V_0 = NULL;
+	KeyValuePair_2_t3265896713  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Enumerator_t2533608897  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t1574879692 * L_0 = (List_1_t1574879692 *)il2cpp_codegen_object_new(List_1_t1574879692_il2cpp_TypeInfo_var);
+		List_1__ctor_m4095534109(L_0, /*hidden argument*/List_1__ctor_m4095534109_MethodInfo_var);
+		V_0 = L_0;
+		Dictionary_2_t1213584195 * L_1 = __this->get__banners_6();
+		if (L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		List_1_t1574879692 * L_2 = V_0;
+		return L_2;
+	}
+
+IL_0013:
+	{
+		Dictionary_2_t1213584195 * L_3 = __this->get__banners_6();
+		NullCheck(L_3);
+		Enumerator_t2533608897  L_4 = Dictionary_2_GetEnumerator_m4166591493(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m4166591493_MethodInfo_var);
+		V_2 = L_4;
+	}
+
+IL_001f:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0039;
+		}
+
+IL_0024:
+		{
+			KeyValuePair_2_t3265896713  L_5 = Enumerator_get_Current_m918917481((&V_2), /*hidden argument*/Enumerator_get_Current_m918917481_MethodInfo_var);
+			V_1 = L_5;
+			List_1_t1574879692 * L_6 = V_0;
+			iAdBanner_t2205758560 * L_7 = KeyValuePair_2_get_Value_m2984340808((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2984340808_MethodInfo_var);
+			NullCheck(L_6);
+			List_1_Add_m3801517217(L_6, L_7, /*hidden argument*/List_1_Add_m3801517217_MethodInfo_var);
+		}
+
+IL_0039:
+		{
+			bool L_8 = Enumerator_MoveNext_m629752124((&V_2), /*hidden argument*/Enumerator_MoveNext_m629752124_MethodInfo_var);
+			if (L_8)
+			{
+				goto IL_0024;
+			}
+		}
+
+IL_0045:
+		{
+			IL2CPP_LEAVE(0x58, FINALLY_004a);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_004a;
+	}
+
+FINALLY_004a:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1650001370((&V_2), /*hidden argument*/Enumerator_Dispose_m1650001370_MethodInfo_var);
+		IL2CPP_END_FINALLY(74)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(74)
+	{
+		IL2CPP_JUMP_TBL(0x58, IL_0058)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0058:
+	{
+		List_1_t1574879692 * L_9 = V_0;
+		return L_9;
+	}
+}
+// System.Void iAdBannerController::didFailToReceiveAdWithError(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_didFailToReceiveAdWithError_m2830549809_MetadataUsageId;
+extern "C"  void iAdBannerController_didFailToReceiveAdWithError_m2830549809 (iAdBannerController_t2502498128 * __this, String_t* ___bannerID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_didFailToReceiveAdWithError_m2830549809_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	iAdBanner_t2205758560 * V_1 = NULL;
+	{
+		String_t* L_0 = ___bannerID0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		iAdBanner_t2205758560 * L_3 = iAdBannerController_GetBanner_m1525889695(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		iAdBanner_t2205758560 * L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_5 = V_1;
+		NullCheck(L_5);
+		iAdBanner_didFailToReceiveAdWithError_m1671984235(L_5, /*hidden argument*/NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::bannerViewDidLoadAd(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_bannerViewDidLoadAd_m4226842616_MetadataUsageId;
+extern "C"  void iAdBannerController_bannerViewDidLoadAd_m4226842616 (iAdBannerController_t2502498128 * __this, String_t* ___bannerID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_bannerViewDidLoadAd_m4226842616_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	iAdBanner_t2205758560 * V_1 = NULL;
+	{
+		String_t* L_0 = ___bannerID0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		iAdBanner_t2205758560 * L_3 = iAdBannerController_GetBanner_m1525889695(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		iAdBanner_t2205758560 * L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_5 = V_1;
+		NullCheck(L_5);
+		iAdBanner_bannerViewDidLoadAd_m2855627174(L_5, /*hidden argument*/NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::bannerViewWillLoadAd(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_bannerViewWillLoadAd_m2992192461_MetadataUsageId;
+extern "C"  void iAdBannerController_bannerViewWillLoadAd_m2992192461 (iAdBannerController_t2502498128 * __this, String_t* ___bannerID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_bannerViewWillLoadAd_m2992192461_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	iAdBanner_t2205758560 * V_1 = NULL;
+	{
+		String_t* L_0 = ___bannerID0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		iAdBanner_t2205758560 * L_3 = iAdBannerController_GetBanner_m1525889695(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		iAdBanner_t2205758560 * L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_5 = V_1;
+		NullCheck(L_5);
+		iAdBanner_bannerViewWillLoadAd_m272237359(L_5, /*hidden argument*/NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::bannerViewActionDidFinish(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_bannerViewActionDidFinish_m1401351312_MetadataUsageId;
+extern "C"  void iAdBannerController_bannerViewActionDidFinish_m1401351312 (iAdBannerController_t2502498128 * __this, String_t* ___bannerID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_bannerViewActionDidFinish_m1401351312_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	iAdBanner_t2205758560 * V_1 = NULL;
+	{
+		String_t* L_0 = ___bannerID0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		iAdBanner_t2205758560 * L_3 = iAdBannerController_GetBanner_m1525889695(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		iAdBanner_t2205758560 * L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_5 = V_1;
+		NullCheck(L_5);
+		iAdBanner_bannerViewActionDidFinish_m1620037094(L_5, /*hidden argument*/NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::bannerViewActionShouldBegin(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_bannerViewActionShouldBegin_m1132649278_MetadataUsageId;
+extern "C"  void iAdBannerController_bannerViewActionShouldBegin_m1132649278 (iAdBannerController_t2502498128 * __this, String_t* ___bannerID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_bannerViewActionShouldBegin_m1132649278_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	iAdBanner_t2205758560 * V_1 = NULL;
+	{
+		String_t* L_0 = ___bannerID0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		iAdBanner_t2205758560 * L_3 = iAdBannerController_GetBanner_m1525889695(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		iAdBanner_t2205758560 * L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_5 = V_1;
+		NullCheck(L_5);
+		iAdBanner_bannerViewActionShouldBegin_m3062178944(L_5, /*hidden argument*/NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::interstitialdidFailWithError(System.String)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_interstitialdidFailWithError_m1871557138_MetadataUsageId;
+extern "C"  void iAdBannerController_interstitialdidFailWithError_m1871557138 (iAdBannerController_t2502498128 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_interstitialdidFailWithError_m1871557138_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialDidFailWithErrorAction_7();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBannerController::interstitialAdWillLoad(System.String)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_interstitialAdWillLoad_m2995471518_MetadataUsageId;
+extern "C"  void iAdBannerController_interstitialAdWillLoad_m2995471518 (iAdBannerController_t2502498128 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_interstitialAdWillLoad_m2995471518_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdWillLoadAction_8();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBannerController::interstitialAdDidLoad(System.String)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_interstitialAdDidLoad_m4046182933_MetadataUsageId;
+extern "C"  void iAdBannerController_interstitialAdDidLoad_m4046182933 (iAdBannerController_t2502498128 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_interstitialAdDidLoad_m4046182933_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdDidLoadAction_9();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBannerController::interstitialAdActionDidFinish(System.String)
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const uint32_t iAdBannerController_interstitialAdActionDidFinish_m3967456960_MetadataUsageId;
+extern "C"  void iAdBannerController_interstitialAdActionDidFinish_m3967456960 (iAdBannerController_t2502498128 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController_interstitialAdActionDidFinish_m3967456960_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->get_InterstitialAdDidFinishAction_10();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdBannerController::.cctor()
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* iAdBannerController_U3CInterstitialDidFailWithErrorActionU3Em__0_m3299429361_MethodInfo_var;
+extern const MethodInfo* iAdBannerController_U3CInterstitialAdWillLoadActionU3Em__1_m361474434_MethodInfo_var;
+extern const MethodInfo* iAdBannerController_U3CInterstitialAdDidLoadActionU3Em__2_m2258172134_MethodInfo_var;
+extern const MethodInfo* iAdBannerController_U3CInterstitialAdDidFinishActionU3Em__3_m1425400176_MethodInfo_var;
+extern const uint32_t iAdBannerController__cctor_m525055950_MetadataUsageId;
+extern "C"  void iAdBannerController__cctor_m525055950 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdBannerController__cctor_m525055950_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->set__nextId_4(0);
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)iAdBannerController_U3CInterstitialDidFailWithErrorActionU3Em__0_m3299429361_MethodInfo_var);
+		Action_t3226471752 * L_1 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_1, NULL, L_0, /*hidden argument*/NULL);
+		((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->set_InterstitialDidFailWithErrorAction_7(L_1);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)iAdBannerController_U3CInterstitialAdWillLoadActionU3Em__1_m361474434_MethodInfo_var);
+		Action_t3226471752 * L_3 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_3, NULL, L_2, /*hidden argument*/NULL);
+		((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->set_InterstitialAdWillLoadAction_8(L_3);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)iAdBannerController_U3CInterstitialAdDidLoadActionU3Em__2_m2258172134_MethodInfo_var);
+		Action_t3226471752 * L_5 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_5, NULL, L_4, /*hidden argument*/NULL);
+		((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->set_InterstitialAdDidLoadAction_9(L_5);
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)iAdBannerController_U3CInterstitialAdDidFinishActionU3Em__3_m1425400176_MethodInfo_var);
+		Action_t3226471752 * L_7 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_7, NULL, L_6, /*hidden argument*/NULL);
+		((iAdBannerController_t2502498128_StaticFields*)iAdBannerController_t2502498128_il2cpp_TypeInfo_var->static_fields)->set_InterstitialAdDidFinishAction_10(L_7);
+		return;
+	}
+}
+// System.Void iAdBannerController::<InterstitialDidFailWithErrorAction>m__0()
+extern "C"  void iAdBannerController_U3CInterstitialDidFailWithErrorActionU3Em__0_m3299429361 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::<InterstitialAdWillLoadAction>m__1()
+extern "C"  void iAdBannerController_U3CInterstitialAdWillLoadActionU3Em__1_m361474434 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::<InterstitialAdDidLoadAction>m__2()
+extern "C"  void iAdBannerController_U3CInterstitialAdDidLoadActionU3Em__2_m2258172134 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdBannerController::<InterstitialAdDidFinishAction>m__3()
+extern "C"  void iAdBannerController_U3CInterstitialAdDidFinishActionU3Em__3_m1425400176 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdEvent::.ctor()
+extern "C"  void iAdEvent__ctor_m2976844919 (iAdEvent_t3810634698 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdIOSBanner::.ctor()
+extern "C"  void iAdIOSBanner__ctor_m678553848 (iAdIOSBanner_t1295524391 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_anchor_2(7);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdIOSBanner::Start()
+extern "C"  void iAdIOSBanner_Start_m3169718900 (iAdIOSBanner_t1295524391 * __this, const MethodInfo* method)
+{
+	{
+		iAdIOSBanner_ShowBanner_m3019529809(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdIOSBanner::OnDestroy()
+extern "C"  void iAdIOSBanner_OnDestroy_m593096013 (iAdIOSBanner_t1295524391 * __this, const MethodInfo* method)
+{
+	{
+		iAdIOSBanner_HideBanner_m1560105408(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdIOSBanner::ShowBanner()
+extern Il2CppClass* iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m2723389379_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m3784024332_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m439380570_MethodInfo_var;
+extern const uint32_t iAdIOSBanner_ShowBanner_m3019529809_MetadataUsageId;
+extern "C"  void iAdIOSBanner_ShowBanner_m3019529809 (iAdIOSBanner_t1295524391 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdIOSBanner_ShowBanner_m3019529809_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	iAdBanner_t2205758560 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		Dictionary_2_t4120537822 * L_0 = iAdIOSBanner_get_registeredBanners_m1760895986(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = iAdIOSBanner_get_sceneBannerId_m1335240929(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_ContainsKey_m2723389379(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m2723389379_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		Dictionary_2_t4120537822 * L_3 = iAdIOSBanner_get_registeredBanners_m1760895986(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = iAdIOSBanner_get_sceneBannerId_m1335240929(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		iAdBanner_t2205758560 * L_5 = Dictionary_2_get_Item_m3784024332(L_3, L_4, /*hidden argument*/Dictionary_2_get_Item_m3784024332_MethodInfo_var);
+		V_0 = L_5;
+		goto IL_004d;
+	}
+
+IL_002b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_6 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		int32_t L_7 = __this->get_anchor_2();
+		NullCheck(L_6);
+		iAdBanner_t2205758560 * L_8 = iAdBannerController_CreateAdBanner_m1908993036(L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		Dictionary_2_t4120537822 * L_9 = iAdIOSBanner_get_registeredBanners_m1760895986(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_10 = iAdIOSBanner_get_sceneBannerId_m1335240929(__this, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_11 = V_0;
+		NullCheck(L_9);
+		Dictionary_2_Add_m439380570(L_9, L_10, L_11, /*hidden argument*/Dictionary_2_Add_m439380570_MethodInfo_var);
+	}
+
+IL_004d:
+	{
+		iAdBanner_t2205758560 * L_12 = V_0;
+		NullCheck(L_12);
+		bool L_13 = iAdBanner_get_IsLoaded_m2480644795(L_12, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_14 = V_0;
+		NullCheck(L_14);
+		bool L_15 = iAdBanner_get_IsOnScreen_m3167228753(L_14, /*hidden argument*/NULL);
+		if (L_15)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_16 = V_0;
+		NullCheck(L_16);
+		iAdBanner_Show_m2243488598(L_16, /*hidden argument*/NULL);
+	}
+
+IL_0069:
+	{
+		return;
+	}
+}
+// System.Void iAdIOSBanner::HideBanner()
+extern Il2CppClass* iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m2723389379_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m3784024332_MethodInfo_var;
+extern const uint32_t iAdIOSBanner_HideBanner_m1560105408_MetadataUsageId;
+extern "C"  void iAdIOSBanner_HideBanner_m1560105408 (iAdIOSBanner_t1295524391 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdIOSBanner_HideBanner_m1560105408_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	iAdBanner_t2205758560 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		Dictionary_2_t4120537822 * L_0 = iAdIOSBanner_get_registeredBanners_m1760895986(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = iAdIOSBanner_get_sceneBannerId_m1335240929(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_ContainsKey_m2723389379(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m2723389379_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		Dictionary_2_t4120537822 * L_3 = iAdIOSBanner_get_registeredBanners_m1760895986(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = iAdIOSBanner_get_sceneBannerId_m1335240929(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		iAdBanner_t2205758560 * L_5 = Dictionary_2_get_Item_m3784024332(L_3, L_4, /*hidden argument*/Dictionary_2_get_Item_m3784024332_MethodInfo_var);
+		V_0 = L_5;
+		iAdBanner_t2205758560 * L_6 = V_0;
+		NullCheck(L_6);
+		bool L_7 = iAdBanner_get_IsLoaded_m2480644795(L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_8 = V_0;
+		NullCheck(L_8);
+		bool L_9 = iAdBanner_get_IsOnScreen_m3167228753(L_8, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_10 = V_0;
+		NullCheck(L_10);
+		iAdBanner_Hide_m1279103991(L_10, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		goto IL_004e;
+	}
+
+IL_0047:
+	{
+		iAdBanner_t2205758560 * L_11 = V_0;
+		NullCheck(L_11);
+		iAdBanner_set_ShowOnLoad_m170712393(L_11, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_004e:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.Dictionary`2<System.String,iAdBanner> iAdIOSBanner::get_registeredBanners()
+extern Il2CppClass* iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t4120537822_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2380953714_MethodInfo_var;
+extern const uint32_t iAdIOSBanner_get_registeredBanners_m1760895986_MetadataUsageId;
+extern "C"  Dictionary_2_t4120537822 * iAdIOSBanner_get_registeredBanners_m1760895986 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdIOSBanner_get_registeredBanners_m1760895986_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		Dictionary_2_t4120537822 * L_0 = ((iAdIOSBanner_t1295524391_StaticFields*)iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var->static_fields)->get__registeredBanners_3();
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Dictionary_2_t4120537822 * L_1 = (Dictionary_2_t4120537822 *)il2cpp_codegen_object_new(Dictionary_2_t4120537822_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2380953714(L_1, /*hidden argument*/Dictionary_2__ctor_m2380953714_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		((iAdIOSBanner_t1295524391_StaticFields*)iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var->static_fields)->set__registeredBanners_3(L_1);
+	}
+
+IL_0014:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var);
+		Dictionary_2_t4120537822 * L_2 = ((iAdIOSBanner_t1295524391_StaticFields*)iAdIOSBanner_t1295524391_il2cpp_TypeInfo_var->static_fields)->get__registeredBanners_3();
+		return L_2;
+	}
+}
+// System.String iAdIOSBanner::get_sceneBannerId()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029427;
+extern const uint32_t iAdIOSBanner_get_sceneBannerId_m1335240929_MetadataUsageId;
+extern "C"  String_t* iAdIOSBanner_get_sceneBannerId_m1335240929 (iAdIOSBanner_t1295524391 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdIOSBanner_get_sceneBannerId_m1335240929_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = Object_get_name_m2079638459(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m612901809(NULL /*static, unused*/, L_0, _stringLiteral372029427, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void iAdIOSBanner::.cctor()
+extern "C"  void iAdIOSBanner__cctor_m2155093561 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdIOSInterstitial::.ctor()
+extern "C"  void iAdIOSInterstitial__ctor_m4221594832 (iAdIOSInterstitial_t2266953957 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdIOSInterstitial::Start()
+extern "C"  void iAdIOSInterstitial_Start_m581363792 (iAdIOSInterstitial_t2266953957 * __this, const MethodInfo* method)
+{
+	{
+		iAdIOSInterstitial_ShowBanner_m1501598107(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdIOSInterstitial::ShowBanner()
+extern Il2CppClass* ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var;
+extern const uint32_t iAdIOSInterstitial_ShowBanner_m1501598107_MetadataUsageId;
+extern "C"  void iAdIOSInterstitial_ShowBanner_m1501598107 (iAdIOSInterstitial_t2266953957 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdIOSInterstitial_ShowBanner_m1501598107_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_0 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_0);
+		iAdBannerController_StartInterstitialAd_m1103521336(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String iAdIOSInterstitial::get_sceneBannerId()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029427;
+extern const uint32_t iAdIOSInterstitial_get_sceneBannerId_m84902387_MetadataUsageId;
+extern "C"  String_t* iAdIOSInterstitial_get_sceneBannerId_m84902387 (iAdIOSInterstitial_t2266953957 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdIOSInterstitial_get_sceneBannerId_m84902387_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = Object_get_name_m2079638459(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m612901809(NULL /*static, unused*/, L_0, _stringLiteral372029427, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void iAdUseExample::.ctor()
+extern "C"  void iAdUseExample__ctor_m245567296 (iAdUseExample_t2247018965 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdUseExample::Start()
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern Il2CppClass* iAdBannerController_t2502498128_il2cpp_TypeInfo_var;
+extern const MethodInfo* iAdUseExample_HandleInterstitialAdDidLoadAction_m2076241292_MethodInfo_var;
+extern const MethodInfo* iAdUseExample_HandleInterstitialAdDidFinishAction_m647929497_MethodInfo_var;
+extern const uint32_t iAdUseExample_Start_m3787379440_MetadataUsageId;
+extern "C"  void iAdUseExample_Start_m3787379440 (iAdUseExample_t2247018965 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdUseExample_Start_m3787379440_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = __this->get_Quad_7();
+		NullCheck(L_0);
+		GameObject_SetActive_m2887581199(L_0, (bool)0, /*hidden argument*/NULL);
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)iAdUseExample_HandleInterstitialAdDidLoadAction_m2076241292_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, __this, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(iAdBannerController_t2502498128_il2cpp_TypeInfo_var);
+		iAdBannerController_add_InterstitialAdDidLoadAction_m2580892304(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)iAdUseExample_HandleInterstitialAdDidFinishAction_m647929497_MethodInfo_var);
+		Action_t3226471752 * L_4 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_4, __this, L_3, /*hidden argument*/NULL);
+		iAdBannerController_add_InterstitialAdDidFinishAction_m2496851295(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		iAdUseExample_InitStyles_m3259883066(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdUseExample::InitStyles()
+extern Il2CppClass* GUIStyle_t1799908754_il2cpp_TypeInfo_var;
+extern const uint32_t iAdUseExample_InitStyles_m3259883066_MetadataUsageId;
+extern "C"  void iAdUseExample_InitStyles_m3259883066 (iAdUseExample_t2247018965 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdUseExample_InitStyles_m3259883066_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GUIStyle_t1799908754 * L_0 = (GUIStyle_t1799908754 *)il2cpp_codegen_object_new(GUIStyle_t1799908754_il2cpp_TypeInfo_var);
+		GUIStyle__ctor_m3665892801(L_0, /*hidden argument*/NULL);
+		__this->set_style_2(L_0);
+		GUIStyle_t1799908754 * L_1 = __this->get_style_2();
+		NullCheck(L_1);
+		GUIStyleState_t3801000545 * L_2 = GUIStyle_get_normal_m2789468942(L_1, /*hidden argument*/NULL);
+		Color_t2020392075  L_3 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		GUIStyleState_set_textColor_m3970174237(L_2, L_3, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_4 = __this->get_style_2();
+		NullCheck(L_4);
+		GUIStyle_set_fontSize_m4015341543(L_4, ((int32_t)16), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_5 = __this->get_style_2();
+		NullCheck(L_5);
+		GUIStyle_set_fontStyle_m3960530579(L_5, 3, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_6 = __this->get_style_2();
+		NullCheck(L_6);
+		GUIStyle_set_alignment_m1024943876(L_6, 0, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_7 = __this->get_style_2();
+		NullCheck(L_7);
+		GUIStyle_set_wordWrap_m2043927261(L_7, (bool)1, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_8 = (GUIStyle_t1799908754 *)il2cpp_codegen_object_new(GUIStyle_t1799908754_il2cpp_TypeInfo_var);
+		GUIStyle__ctor_m3665892801(L_8, /*hidden argument*/NULL);
+		__this->set_style2_3(L_8);
+		GUIStyle_t1799908754 * L_9 = __this->get_style2_3();
+		NullCheck(L_9);
+		GUIStyleState_t3801000545 * L_10 = GUIStyle_get_normal_m2789468942(L_9, /*hidden argument*/NULL);
+		Color_t2020392075  L_11 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		GUIStyleState_set_textColor_m3970174237(L_10, L_11, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_12 = __this->get_style2_3();
+		NullCheck(L_12);
+		GUIStyle_set_fontSize_m4015341543(L_12, ((int32_t)12), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_13 = __this->get_style2_3();
+		NullCheck(L_13);
+		GUIStyle_set_fontStyle_m3960530579(L_13, 2, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_14 = __this->get_style2_3();
+		NullCheck(L_14);
+		GUIStyle_set_alignment_m1024943876(L_14, 0, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_15 = __this->get_style2_3();
+		NullCheck(L_15);
+		GUIStyle_set_wordWrap_m2043927261(L_15, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdUseExample::Update()
+extern "C"  void iAdUseExample_Update_m3670541621 (iAdUseExample_t2247018965 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iAdUseExample::OnGUI()
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2525452018;
+extern Il2CppCodeGenString* _stringLiteral1198742935;
+extern Il2CppCodeGenString* _stringLiteral797219217;
+extern Il2CppCodeGenString* _stringLiteral612277436;
+extern Il2CppCodeGenString* _stringLiteral3347839571;
+extern Il2CppCodeGenString* _stringLiteral2220221899;
+extern Il2CppCodeGenString* _stringLiteral553766848;
+extern Il2CppCodeGenString* _stringLiteral1699819428;
+extern Il2CppCodeGenString* _stringLiteral66800883;
+extern Il2CppCodeGenString* _stringLiteral1514581248;
+extern Il2CppCodeGenString* _stringLiteral2266004732;
+extern Il2CppCodeGenString* _stringLiteral3838408827;
+extern Il2CppCodeGenString* _stringLiteral3457520150;
+extern Il2CppCodeGenString* _stringLiteral1441097755;
+extern Il2CppCodeGenString* _stringLiteral4158036384;
+extern Il2CppCodeGenString* _stringLiteral1896665735;
+extern const uint32_t iAdUseExample_OnGUI_m4028027300_MetadataUsageId;
+extern "C"  void iAdUseExample_OnGUI_m4028027300 (iAdUseExample_t2247018965 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdUseExample_OnGUI_m4028027300_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		V_0 = (20.0f);
+		V_1 = (10.0f);
+		float L_0 = V_1;
+		float L_1 = V_0;
+		int32_t L_2 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, L_0, L_1, (((float)((float)L_2))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_4 = __this->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_3, _stringLiteral2525452018, L_4, /*hidden argument*/NULL);
+		float L_5 = V_0;
+		V_0 = ((float)((float)L_5+(float)(40.0f)));
+		float L_6 = V_1;
+		float L_7 = V_0;
+		Rect_t3681755626  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Rect__ctor_m1220545469(&L_8, L_6, L_7, (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_9 = GUI_Button_m3054448581(NULL /*static, unused*/, L_8, _stringLiteral1198742935, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		__this->set_IsInterstisialsAdReady_6((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_10 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_10);
+		iAdBannerController_StartInterstitialAd_m1103521336(L_10, /*hidden argument*/NULL);
+	}
+
+IL_0067:
+	{
+		float L_11 = V_1;
+		V_1 = ((float)((float)L_11+(float)(170.0f)));
+		float L_12 = V_1;
+		float L_13 = V_0;
+		Rect_t3681755626  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Rect__ctor_m1220545469(&L_14, L_12, L_13, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_15 = GUI_Button_m3054448581(NULL /*static, unused*/, L_14, _stringLiteral797219217, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		__this->set_IsInterstisialsAdReady_6((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_16 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_16);
+		iAdBannerController_LoadInterstitialAd_m2274973876(L_16, /*hidden argument*/NULL);
+	}
+
+IL_00a0:
+	{
+		float L_17 = V_1;
+		V_1 = ((float)((float)L_17+(float)(170.0f)));
+		bool L_18 = __this->get_IsInterstisialsAdReady_6();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		float L_19 = V_1;
+		float L_20 = V_0;
+		Rect_t3681755626  L_21;
+		memset(&L_21, 0, sizeof(L_21));
+		Rect__ctor_m1220545469(&L_21, L_19, L_20, (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_22 = GUI_Button_m3054448581(NULL /*static, unused*/, L_21, _stringLiteral612277436, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_23 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_23);
+		iAdBannerController_ShowInterstitialAd_m2167144979(L_23, /*hidden argument*/NULL);
+		__this->set_IsInterstisialsAdReady_6((bool)0);
+	}
+
+IL_00e4:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		float L_24 = V_0;
+		V_0 = ((float)((float)L_24+(float)(80.0f)));
+		V_1 = (10.0f);
+		float L_25 = V_1;
+		float L_26 = V_0;
+		int32_t L_27 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_28;
+		memset(&L_28, 0, sizeof(L_28));
+		Rect__ctor_m1220545469(&L_28, L_25, L_26, (((float)((float)L_27))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_29 = __this->get_style_2();
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_28, _stringLiteral3347839571, L_29, /*hidden argument*/NULL);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_30 = __this->get_banner1_4();
+		if (L_30)
+		{
+			goto IL_0131;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0131:
+	{
+		float L_31 = V_0;
+		V_0 = ((float)((float)L_31+(float)(40.0f)));
+		float L_32 = V_1;
+		float L_33 = V_0;
+		Rect_t3681755626  L_34;
+		memset(&L_34, 0, sizeof(L_34));
+		Rect__ctor_m1220545469(&L_34, L_32, L_33, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_35 = GUI_Button_m3054448581(NULL /*static, unused*/, L_34, _stringLiteral2220221899, /*hidden argument*/NULL);
+		if (!L_35)
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_36 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_36);
+		iAdBanner_t2205758560 * L_37 = iAdBannerController_CreateAdBanner_m1792969925(L_36, ((int32_t)300), ((int32_t)100), /*hidden argument*/NULL);
+		__this->set_banner1_4(L_37);
+	}
+
+IL_0170:
+	{
+		float L_38 = V_0;
+		V_0 = ((float)((float)L_38+(float)(80.0f)));
+		V_1 = (10.0f);
+		float L_39 = V_1;
+		float L_40 = V_0;
+		Rect_t3681755626  L_41;
+		memset(&L_41, 0, sizeof(L_41));
+		Rect__ctor_m1220545469(&L_41, L_39, L_40, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_42 = GUI_Button_m3054448581(NULL /*static, unused*/, L_41, _stringLiteral553766848, /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_01af;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_43 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_43);
+		iAdBanner_t2205758560 * L_44 = iAdBannerController_CreateAdBanner_m1908993036(L_43, 0, /*hidden argument*/NULL);
+		__this->set_banner1_4(L_44);
+	}
+
+IL_01af:
+	{
+		float L_45 = V_1;
+		V_1 = ((float)((float)L_45+(float)(170.0f)));
+		float L_46 = V_1;
+		float L_47 = V_0;
+		Rect_t3681755626  L_48;
+		memset(&L_48, 0, sizeof(L_48));
+		Rect__ctor_m1220545469(&L_48, L_46, L_47, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_49 = GUI_Button_m3054448581(NULL /*static, unused*/, L_48, _stringLiteral1699819428, /*hidden argument*/NULL);
+		if (!L_49)
+		{
+			goto IL_01e8;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_50 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_50);
+		iAdBanner_t2205758560 * L_51 = iAdBannerController_CreateAdBanner_m1908993036(L_50, 1, /*hidden argument*/NULL);
+		__this->set_banner1_4(L_51);
+	}
+
+IL_01e8:
+	{
+		float L_52 = V_1;
+		V_1 = ((float)((float)L_52+(float)(170.0f)));
+		float L_53 = V_1;
+		float L_54 = V_0;
+		Rect_t3681755626  L_55;
+		memset(&L_55, 0, sizeof(L_55));
+		Rect__ctor_m1220545469(&L_55, L_53, L_54, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_56 = GUI_Button_m3054448581(NULL /*static, unused*/, L_55, _stringLiteral66800883, /*hidden argument*/NULL);
+		if (!L_56)
+		{
+			goto IL_0221;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_57 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_57);
+		iAdBanner_t2205758560 * L_58 = iAdBannerController_CreateAdBanner_m1908993036(L_57, 2, /*hidden argument*/NULL);
+		__this->set_banner1_4(L_58);
+	}
+
+IL_0221:
+	{
+		float L_59 = V_0;
+		V_0 = ((float)((float)L_59+(float)(80.0f)));
+		V_1 = (10.0f);
+		float L_60 = V_1;
+		float L_61 = V_0;
+		Rect_t3681755626  L_62;
+		memset(&L_62, 0, sizeof(L_62));
+		Rect__ctor_m1220545469(&L_62, L_60, L_61, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_63 = GUI_Button_m3054448581(NULL /*static, unused*/, L_62, _stringLiteral1514581248, /*hidden argument*/NULL);
+		if (!L_63)
+		{
+			goto IL_0260;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_64 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_64);
+		iAdBanner_t2205758560 * L_65 = iAdBannerController_CreateAdBanner_m1908993036(L_64, 6, /*hidden argument*/NULL);
+		__this->set_banner1_4(L_65);
+	}
+
+IL_0260:
+	{
+		float L_66 = V_1;
+		V_1 = ((float)((float)L_66+(float)(170.0f)));
+		float L_67 = V_1;
+		float L_68 = V_0;
+		Rect_t3681755626  L_69;
+		memset(&L_69, 0, sizeof(L_69));
+		Rect__ctor_m1220545469(&L_69, L_67, L_68, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_70 = GUI_Button_m3054448581(NULL /*static, unused*/, L_69, _stringLiteral2266004732, /*hidden argument*/NULL);
+		if (!L_70)
+		{
+			goto IL_0299;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_71 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_71);
+		iAdBanner_t2205758560 * L_72 = iAdBannerController_CreateAdBanner_m1908993036(L_71, 7, /*hidden argument*/NULL);
+		__this->set_banner1_4(L_72);
+	}
+
+IL_0299:
+	{
+		float L_73 = V_1;
+		V_1 = ((float)((float)L_73+(float)(170.0f)));
+		float L_74 = V_1;
+		float L_75 = V_0;
+		Rect_t3681755626  L_76;
+		memset(&L_76, 0, sizeof(L_76));
+		Rect__ctor_m1220545469(&L_76, L_74, L_75, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_77 = GUI_Button_m3054448581(NULL /*static, unused*/, L_76, _stringLiteral3838408827, /*hidden argument*/NULL);
+		if (!L_77)
+		{
+			goto IL_02d2;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_78 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		NullCheck(L_78);
+		iAdBanner_t2205758560 * L_79 = iAdBannerController_CreateAdBanner_m1908993036(L_78, 8, /*hidden argument*/NULL);
+		__this->set_banner1_4(L_79);
+	}
+
+IL_02d2:
+	{
+		float L_80 = V_0;
+		V_0 = ((float)((float)L_80+(float)(80.0f)));
+		V_1 = (10.0f);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_81 = __this->get_banner1_4();
+		if (!L_81)
+		{
+			goto IL_0317;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_82 = __this->get_banner1_4();
+		NullCheck(L_82);
+		bool L_83 = iAdBanner_get_IsLoaded_m2480644795(L_82, /*hidden argument*/NULL);
+		if (!L_83)
+		{
+			goto IL_0317;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_84 = __this->get_banner1_4();
+		NullCheck(L_84);
+		bool L_85 = iAdBanner_get_IsOnScreen_m3167228753(L_84, /*hidden argument*/NULL);
+		if (!L_85)
+		{
+			goto IL_0317;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0317:
+	{
+		float L_86 = V_1;
+		float L_87 = V_0;
+		Rect_t3681755626  L_88;
+		memset(&L_88, 0, sizeof(L_88));
+		Rect__ctor_m1220545469(&L_88, L_86, L_87, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_89 = GUI_Button_m3054448581(NULL /*static, unused*/, L_88, _stringLiteral3457520150, /*hidden argument*/NULL);
+		if (!L_89)
+		{
+			goto IL_0342;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_90 = __this->get_banner1_4();
+		NullCheck(L_90);
+		iAdBanner_Hide_m1279103991(L_90, /*hidden argument*/NULL);
+	}
+
+IL_0342:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_91 = __this->get_banner1_4();
+		if (!L_91)
+		{
+			goto IL_0379;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_92 = __this->get_banner1_4();
+		NullCheck(L_92);
+		bool L_93 = iAdBanner_get_IsLoaded_m2480644795(L_92, /*hidden argument*/NULL);
+		if (!L_93)
+		{
+			goto IL_0379;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_94 = __this->get_banner1_4();
+		NullCheck(L_94);
+		bool L_95 = iAdBanner_get_IsOnScreen_m3167228753(L_94, /*hidden argument*/NULL);
+		if (L_95)
+		{
+			goto IL_0379;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0379:
+	{
+		float L_96 = V_1;
+		V_1 = ((float)((float)L_96+(float)(170.0f)));
+		float L_97 = V_1;
+		float L_98 = V_0;
+		Rect_t3681755626  L_99;
+		memset(&L_99, 0, sizeof(L_99));
+		Rect__ctor_m1220545469(&L_99, L_97, L_98, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_100 = GUI_Button_m3054448581(NULL /*static, unused*/, L_99, _stringLiteral1441097755, /*hidden argument*/NULL);
+		if (!L_100)
+		{
+			goto IL_03ac;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_101 = __this->get_banner1_4();
+		NullCheck(L_101);
+		iAdBanner_Show_m2243488598(L_101, /*hidden argument*/NULL);
+	}
+
+IL_03ac:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		iAdBanner_t2205758560 * L_102 = __this->get_banner1_4();
+		if (!L_102)
+		{
+			goto IL_03c3;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_03c3:
+	{
+		float L_103 = V_1;
+		V_1 = ((float)((float)L_103+(float)(170.0f)));
+		float L_104 = V_1;
+		float L_105 = V_0;
+		Rect_t3681755626  L_106;
+		memset(&L_106, 0, sizeof(L_106));
+		Rect__ctor_m1220545469(&L_106, L_104, L_105, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_107 = GUI_Button_m3054448581(NULL /*static, unused*/, L_106, _stringLiteral4158036384, /*hidden argument*/NULL);
+		if (!L_107)
+		{
+			goto IL_0427;
+		}
+	}
+	{
+		iAdBanner_t2205758560 * L_108 = __this->get_banner1_4();
+		NullCheck(L_108);
+		int32_t L_109 = iAdBanner_get_id_m3016548669(L_108, /*hidden argument*/NULL);
+		int32_t L_110 = L_109;
+		Il2CppObject * L_111 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_110);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_112 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1896665735, L_111, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_112, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1443098144_il2cpp_TypeInfo_var);
+		iAdBannerController_t2502498128 * L_113 = ISN_Singleton_1_get_instance_m1328533691(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1328533691_MethodInfo_var);
+		iAdBanner_t2205758560 * L_114 = __this->get_banner1_4();
+		NullCheck(L_114);
+		int32_t L_115 = iAdBanner_get_id_m3016548669(L_114, /*hidden argument*/NULL);
+		NullCheck(L_113);
+		iAdBannerController_DestroyBanner_m2825064078(L_113, L_115, /*hidden argument*/NULL);
+		__this->set_banner1_4((iAdBanner_t2205758560 *)NULL);
+	}
+
+IL_0427:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_enabled_m1897336325(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdUseExample::HandleInterstitialAdDidFinishAction()
+extern Il2CppCodeGenString* _stringLiteral1307384752;
+extern Il2CppCodeGenString* _stringLiteral4256256485;
+extern Il2CppCodeGenString* _stringLiteral869491527;
+extern const uint32_t iAdUseExample_HandleInterstitialAdDidFinishAction_m647929497_MetadataUsageId;
+extern "C"  void iAdUseExample_HandleInterstitialAdDidFinishAction_m647929497 (iAdUseExample_t2247018965 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdUseExample_HandleInterstitialAdDidFinishAction_m647929497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral1307384752, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		IOSMessage_Create_m765555766(NULL /*static, unused*/, _stringLiteral4256256485, _stringLiteral869491527, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iAdUseExample::HandleInterstitialAdDidLoadAction()
+extern Il2CppCodeGenString* _stringLiteral942264330;
+extern const uint32_t iAdUseExample_HandleInterstitialAdDidLoadAction_m2076241292_MetadataUsageId;
+extern "C"  void iAdUseExample_HandleInterstitialAdDidLoadAction_m2076241292 (iAdUseExample_t2247018965 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iAdUseExample_HandleInterstitialAdDidLoadAction_m2076241292_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral942264330, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		__this->set_IsInterstisialsAdReady_6((bool)0);
+		return;
+	}
+}
+// System.Void IAPGG::.ctor()
+extern "C"  void IAPGG__ctor_m494624247 (IAPGG_t2272086804 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudData::.ctor(System.String,System.String)
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1743624307;
+extern Il2CppCodeGenString* _stringLiteral3658830315;
+extern const uint32_t iCloudData__ctor_m2347291427_MetadataUsageId;
+extern "C"  void iCloudData__ctor_m2347291427 (iCloudData_t3080637488 * __this, String_t* ___k0, String_t* ___v1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudData__ctor_m2347291427_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___k0;
+		__this->set__key_0(L_0);
+		String_t* L_1 = ___v1;
+		__this->set__val_1(L_1);
+		String_t* L_2 = __this->get__val_1();
+		NullCheck(L_2);
+		bool L_3 = String_Equals_m2633592423(L_2, _stringLiteral1743624307, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_4 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		bool L_5 = L_4->get_DisablePluginLogs_16();
+		if (L_5)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		Debug_Log_m3849937430(NULL /*static, unused*/, _stringLiteral3658830315, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0043:
+	{
+		__this->set__IsEmpty_2((bool)1);
+	}
+
+IL_004a:
+	{
+		return;
+	}
+}
+// System.String iCloudData::get_key()
+extern "C"  String_t* iCloudData_get_key_m3978415184 (iCloudData_t3080637488 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__key_0();
+		return L_0;
+	}
+}
+// System.String iCloudData::get_stringValue()
+extern "C"  String_t* iCloudData_get_stringValue_m359553617 (iCloudData_t3080637488 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsEmpty_2();
+		if (!L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_000d:
+	{
+		String_t* L_1 = __this->get__val_1();
+		return L_1;
+	}
+}
+// System.Single iCloudData::get_floatValue()
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudData_get_floatValue_m2986639967_MetadataUsageId;
+extern "C"  float iCloudData_get_floatValue_m2986639967 (iCloudData_t3080637488 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudData_get_floatValue_m2986639967_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__IsEmpty_2();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return (0.0f);
+	}
+
+IL_0011:
+	{
+		String_t* L_1 = __this->get__val_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		float L_2 = Convert_ToSingle_m1977583125(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Byte[] iCloudData::get_bytesValue()
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3052225568_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3689494784_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m127864652_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m3280299950_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029314;
+extern const uint32_t iCloudData_get_bytesValue_m598851706_MetadataUsageId;
+extern "C"  ByteU5BU5D_t3397334013* iCloudData_get_bytesValue_m598851706 (iCloudData_t3080637488 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudData_get_bytesValue_m598851706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	List_1_t3052225568 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		bool L_0 = __this->get__IsEmpty_2();
+		if (!L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (ByteU5BU5D_t3397334013*)NULL;
+	}
+
+IL_000d:
+	{
+		String_t* L_1 = __this->get__val_1();
+		CharU5BU5D_t1328083999* L_2 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029314);
+		Il2CppChar L_3 = String_get_Chars_m4230566705(_stringLiteral372029314, 0, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_3);
+		NullCheck(L_1);
+		StringU5BU5D_t1642385972* L_4 = String_Split_m3326265864(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_4;
+		List_1_t3052225568 * L_5 = (List_1_t3052225568 *)il2cpp_codegen_object_new(List_1_t3052225568_il2cpp_TypeInfo_var);
+		List_1__ctor_m3689494784(L_5, /*hidden argument*/List_1__ctor_m3689494784_MethodInfo_var);
+		V_1 = L_5;
+		StringU5BU5D_t1642385972* L_6 = V_0;
+		V_3 = L_6;
+		V_4 = 0;
+		goto IL_0054;
+	}
+
+IL_003d:
+	{
+		StringU5BU5D_t1642385972* L_7 = V_3;
+		int32_t L_8 = V_4;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_2 = L_10;
+		List_1_t3052225568 * L_11 = V_1;
+		String_t* L_12 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		uint8_t L_13 = Convert_ToByte_m3147313973(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		List_1_Add_m127864652(L_11, L_13, /*hidden argument*/List_1_Add_m127864652_MethodInfo_var);
+		int32_t L_14 = V_4;
+		V_4 = ((int32_t)((int32_t)L_14+(int32_t)1));
+	}
+
+IL_0054:
+	{
+		int32_t L_15 = V_4;
+		StringU5BU5D_t1642385972* L_16 = V_3;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		List_1_t3052225568 * L_17 = V_1;
+		NullCheck(L_17);
+		ByteU5BU5D_t3397334013* L_18 = List_1_ToArray_m3280299950(L_17, /*hidden argument*/List_1_ToArray_m3280299950_MethodInfo_var);
+		return L_18;
+	}
+}
+// System.Boolean iCloudData::get_IsEmpty()
+extern "C"  bool iCloudData_get_IsEmpty_m1455958333 (iCloudData_t3080637488 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsEmpty_2();
+		return L_0;
+	}
+}
+// System.Void iCloudManager::.ctor()
+extern Il2CppClass* ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m1803908163_MethodInfo_var;
+extern const uint32_t iCloudManager__ctor_m1134742466_MetadataUsageId;
+extern "C"  void iCloudManager__ctor_m1134742466 (iCloudManager_t2506189173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager__ctor_m1134742466_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m1803908163(__this, /*hidden argument*/ISN_Singleton_1__ctor_m1803908163_MethodInfo_var);
+		return;
+	}
+}
+// System.Void iCloudManager::add_OnCloundInitAction(System.Action`1<ISN_Result>)
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_add_OnCloundInitAction_m3301239822_MetadataUsageId;
+extern "C"  void iCloudManager_add_OnCloundInitAction_m3301239822 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_add_OnCloundInitAction_m3301239822_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloundInitAction_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnCloundInitAction_4()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iCloudManager::remove_OnCloundInitAction(System.Action`1<ISN_Result>)
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_remove_OnCloundInitAction_m33582019_MetadataUsageId;
+extern "C"  void iCloudManager_remove_OnCloundInitAction_m33582019 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_remove_OnCloundInitAction_m33582019_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloundInitAction_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnCloundInitAction_4()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iCloudManager::add_OnCloudDataReceivedAction(System.Action`1<iCloudData>)
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2882436870_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_add_OnCloudDataReceivedAction_m3903530825_MetadataUsageId;
+extern "C"  void iCloudManager_add_OnCloudDataReceivedAction_m3903530825 (Il2CppObject * __this /* static, unused */, Action_1_t2882436870 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_add_OnCloudDataReceivedAction_m3903530825_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2882436870 * V_0 = NULL;
+	Action_1_t2882436870 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2882436870 * L_0 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloudDataReceivedAction_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2882436870 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2882436870 * L_2 = V_1;
+		Action_1_t2882436870 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2882436870 * L_5 = V_0;
+		Action_1_t2882436870 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2882436870 *>((((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnCloudDataReceivedAction_5()), ((Action_1_t2882436870 *)CastclassSealed(L_4, Action_1_t2882436870_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2882436870 * L_7 = V_0;
+		Action_1_t2882436870 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2882436870 *)L_7) == ((Il2CppObject*)(Action_1_t2882436870 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void iCloudManager::remove_OnCloudDataReceivedAction(System.Action`1<iCloudData>)
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2882436870_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_remove_OnCloudDataReceivedAction_m359701572_MetadataUsageId;
+extern "C"  void iCloudManager_remove_OnCloudDataReceivedAction_m359701572 (Il2CppObject * __this /* static, unused */, Action_1_t2882436870 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_remove_OnCloudDataReceivedAction_m359701572_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2882436870 * V_0 = NULL;
+	Action_1_t2882436870 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2882436870 * L_0 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloudDataReceivedAction_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2882436870 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2882436870 * L_2 = V_1;
+		Action_1_t2882436870 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2882436870 * L_5 = V_0;
+		Action_1_t2882436870 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2882436870 *>((((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnCloudDataReceivedAction_5()), ((Action_1_t2882436870 *)CastclassSealed(L_4, Action_1_t2882436870_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2882436870 * L_7 = V_0;
+		Action_1_t2882436870 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2882436870 *)L_7) == ((Il2CppObject*)(Action_1_t2882436870 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _initCloud();
+// System.Void iCloudManager::_initCloud()
+extern "C"  void iCloudManager__initCloud_m1091091068 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_initCloud)();
+
+}
+extern "C" void DEFAULT_CALL _setString(char*, char*);
+// System.Void iCloudManager::_setString(System.String,System.String)
+extern "C"  void iCloudManager__setString_m89158044 (Il2CppObject * __this /* static, unused */, String_t* ___key0, String_t* ___val1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
+
+	// Marshaling of parameter '___key0' to native representation
+	char* ____key0_marshaled = NULL;
+	____key0_marshaled = il2cpp_codegen_marshal_string(___key0);
+
+	// Marshaling of parameter '___val1' to native representation
+	char* ____val1_marshaled = NULL;
+	____val1_marshaled = il2cpp_codegen_marshal_string(___val1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_setString)(____key0_marshaled, ____val1_marshaled);
+
+	// Marshaling cleanup of parameter '___key0' native representation
+	il2cpp_codegen_marshal_free(____key0_marshaled);
+	____key0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___val1' native representation
+	il2cpp_codegen_marshal_free(____val1_marshaled);
+	____val1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _setDouble(char*, float);
+// System.Void iCloudManager::_setDouble(System.String,System.Single)
+extern "C"  void iCloudManager__setDouble_m3879210787 (Il2CppObject * __this /* static, unused */, String_t* ___key0, float ___val1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, float);
+
+	// Marshaling of parameter '___key0' to native representation
+	char* ____key0_marshaled = NULL;
+	____key0_marshaled = il2cpp_codegen_marshal_string(___key0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_setDouble)(____key0_marshaled, ___val1);
+
+	// Marshaling cleanup of parameter '___key0' native representation
+	il2cpp_codegen_marshal_free(____key0_marshaled);
+	____key0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _setData(char*, char*);
+// System.Void iCloudManager::_setData(System.String,System.String)
+extern "C"  void iCloudManager__setData_m3915679129 (Il2CppObject * __this /* static, unused */, String_t* ___key0, String_t* ___val1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
+
+	// Marshaling of parameter '___key0' to native representation
+	char* ____key0_marshaled = NULL;
+	____key0_marshaled = il2cpp_codegen_marshal_string(___key0);
+
+	// Marshaling of parameter '___val1' to native representation
+	char* ____val1_marshaled = NULL;
+	____val1_marshaled = il2cpp_codegen_marshal_string(___val1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_setData)(____key0_marshaled, ____val1_marshaled);
+
+	// Marshaling cleanup of parameter '___key0' native representation
+	il2cpp_codegen_marshal_free(____key0_marshaled);
+	____key0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___val1' native representation
+	il2cpp_codegen_marshal_free(____val1_marshaled);
+	____val1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _requestDataForKey(char*);
+// System.Void iCloudManager::_requestDataForKey(System.String)
+extern "C"  void iCloudManager__requestDataForKey_m1822187782 (Il2CppObject * __this /* static, unused */, String_t* ___key0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___key0' to native representation
+	char* ____key0_marshaled = NULL;
+	____key0_marshaled = il2cpp_codegen_marshal_string(___key0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_requestDataForKey)(____key0_marshaled);
+
+	// Marshaling cleanup of parameter '___key0' native representation
+	il2cpp_codegen_marshal_free(____key0_marshaled);
+	____key0_marshaled = NULL;
+
+}
+// System.Void iCloudManager::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_Awake_m67896225_MetadataUsageId;
+extern "C"  void iCloudManager_Awake_m67896225 (iCloudManager_t2506189173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_Awake_m67896225_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudManager::init()
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_init_m143061178_MetadataUsageId;
+extern "C"  void iCloudManager_init_m143061178 (iCloudManager_t2506189173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_init_m143061178_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		iCloudManager__initCloud_m1091091068(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudManager::setString(System.String,System.String)
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_setString_m2890721799_MetadataUsageId;
+extern "C"  void iCloudManager_setString_m2890721799 (iCloudManager_t2506189173 * __this, String_t* ___key0, String_t* ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_setString_m2890721799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___key0;
+		String_t* L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		iCloudManager__setString_m89158044(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudManager::setFloat(System.String,System.Single)
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_setFloat_m3352024565_MetadataUsageId;
+extern "C"  void iCloudManager_setFloat_m3352024565 (iCloudManager_t2506189173 * __this, String_t* ___key0, float ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_setFloat_m3352024565_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___key0;
+		float L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		iCloudManager__setDouble_m3879210787(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudManager::setData(System.String,System.Byte[])
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029314;
+extern const uint32_t iCloudManager_setData_m3697762991_MetadataUsageId;
+extern "C"  void iCloudManager_setData_m3697762991 (iCloudManager_t2506189173 * __this, String_t* ___key0, ByteU5BU5D_t3397334013* ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_setData_m3697762991_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_0;
+		ByteU5BU5D_t3397334013* L_1 = ___val1;
+		NullCheck(L_1);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))));
+		V_2 = 0;
+		goto IL_0040;
+	}
+
+IL_0011:
+	{
+		int32_t L_2 = V_2;
+		if (!L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		String_t* L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, L_3, _stringLiteral372029314, /*hidden argument*/NULL);
+		V_0 = L_4;
+	}
+
+IL_0023:
+	{
+		String_t* L_5 = V_0;
+		ByteU5BU5D_t3397334013* L_6 = ___val1;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		String_t* L_8 = Byte_ToString_m1526839480(((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Concat_m2596409543(NULL /*static, unused*/, L_5, L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+		int32_t L_10 = V_2;
+		V_2 = ((int32_t)((int32_t)L_10+(int32_t)1));
+	}
+
+IL_0040:
+	{
+		int32_t L_11 = V_2;
+		int32_t L_12 = V_1;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		String_t* L_13 = ___key0;
+		String_t* L_14 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		iCloudManager__setData_m3915679129(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudManager::requestDataForKey(System.String)
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const uint32_t iCloudManager_requestDataForKey_m610672163_MetadataUsageId;
+extern "C"  void iCloudManager_requestDataForKey_m610672163 (iCloudManager_t2506189173 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_requestDataForKey_m610672163_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___key0;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		iCloudManager__requestDataForKey_m1822187782(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudManager::OnCloudInit()
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t iCloudManager_OnCloudInit_m3299950434_MetadataUsageId;
+extern "C"  void iCloudManager_OnCloudInit_m3299950434 (iCloudManager_t2506189173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_OnCloudInit_m3299950434_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		ISN_Result_t2775631610 * L_0 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_0, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_1 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloundInitAction_4();
+		ISN_Result_t2775631610 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1651425124(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		return;
+	}
+}
+// System.Void iCloudManager::OnCloudInitFail()
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t iCloudManager_OnCloudInitFail_m2619899150_MetadataUsageId;
+extern "C"  void iCloudManager_OnCloudInitFail_m2619899150 (iCloudManager_t2506189173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_OnCloudInitFail_m2619899150_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		ISN_Result_t2775631610 * L_0 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_1 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloundInitAction_4();
+		ISN_Result_t2775631610 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1651425124(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		return;
+	}
+}
+// System.Void iCloudManager::OnCloudDataChanged()
+extern "C"  void iCloudManager_OnCloudDataChanged_m1416069706 (iCloudManager_t2506189173 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iCloudManager::OnCloudData(System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudData_t3080637488_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m2701747614_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern const uint32_t iCloudManager_OnCloudData_m3618590_MetadataUsageId;
+extern "C"  void iCloudManager_OnCloudData_m3618590 (iCloudManager_t2506189173 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_OnCloudData_m3618590_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	iCloudData_t3080637488 * V_1 = NULL;
+	{
+		String_t* L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_2 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_2);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		StringU5BU5D_t1642385972* L_7 = V_0;
+		NullCheck(L_7);
+		int32_t L_8 = 1;
+		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		iCloudData_t3080637488 * L_10 = (iCloudData_t3080637488 *)il2cpp_codegen_object_new(iCloudData_t3080637488_il2cpp_TypeInfo_var);
+		iCloudData__ctor_m2347291427(L_10, L_6, L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2882436870 * L_11 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloudDataReceivedAction_5();
+		iCloudData_t3080637488 * L_12 = V_1;
+		NullCheck(L_11);
+		Action_1_Invoke_m2701747614(L_11, L_12, /*hidden argument*/Action_1_Invoke_m2701747614_MethodInfo_var);
+		return;
+	}
+}
+// System.Void iCloudManager::OnCloudDataEmpty(System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudData_t3080637488_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m2701747614_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern Il2CppCodeGenString* _stringLiteral1743624307;
+extern const uint32_t iCloudManager_OnCloudDataEmpty_m3694880251_MetadataUsageId;
+extern "C"  void iCloudManager_OnCloudDataEmpty_m3694880251 (iCloudManager_t2506189173 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager_OnCloudDataEmpty_m3694880251_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	iCloudData_t3080637488 * V_1 = NULL;
+	{
+		String_t* L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_2 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_2);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		iCloudData_t3080637488 * L_7 = (iCloudData_t3080637488 *)il2cpp_codegen_object_new(iCloudData_t3080637488_il2cpp_TypeInfo_var);
+		iCloudData__ctor_m2347291427(L_7, L_6, _stringLiteral1743624307, /*hidden argument*/NULL);
+		V_1 = L_7;
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		Action_1_t2882436870 * L_8 = ((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->get_OnCloudDataReceivedAction_5();
+		iCloudData_t3080637488 * L_9 = V_1;
+		NullCheck(L_8);
+		Action_1_Invoke_m2701747614(L_8, L_9, /*hidden argument*/Action_1_Invoke_m2701747614_MethodInfo_var);
+		return;
+	}
+}
+// System.Void iCloudManager::.cctor()
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2882436870_il2cpp_TypeInfo_var;
+extern const MethodInfo* iCloudManager_U3COnCloundInitActionU3Em__0_m3014066091_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const MethodInfo* iCloudManager_U3COnCloudDataReceivedActionU3Em__1_m1815170003_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3901198773_MethodInfo_var;
+extern const uint32_t iCloudManager__cctor_m3378771047_MetadataUsageId;
+extern "C"  void iCloudManager__cctor_m3378771047 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudManager__cctor_m3378771047_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)iCloudManager_U3COnCloundInitActionU3Em__0_m3014066091_MethodInfo_var);
+		Action_1_t2577430992 * L_1 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_1, NULL, L_0, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->set_OnCloundInitAction_4(L_1);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)iCloudManager_U3COnCloudDataReceivedActionU3Em__1_m1815170003_MethodInfo_var);
+		Action_1_t2882436870 * L_3 = (Action_1_t2882436870 *)il2cpp_codegen_object_new(Action_1_t2882436870_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3901198773(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m3901198773_MethodInfo_var);
+		((iCloudManager_t2506189173_StaticFields*)iCloudManager_t2506189173_il2cpp_TypeInfo_var->static_fields)->set_OnCloudDataReceivedAction_5(L_3);
+		return;
+	}
+}
+// System.Void iCloudManager::<OnCloundInitAction>m__0(ISN_Result)
+extern "C"  void iCloudManager_U3COnCloundInitActionU3Em__0_m3014066091 (Il2CppObject * __this /* static, unused */, ISN_Result_t2775631610 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iCloudManager::<OnCloudDataReceivedAction>m__1(iCloudData)
+extern "C"  void iCloudManager_U3COnCloudDataReceivedActionU3Em__1_m1815170003 (Il2CppObject * __this /* static, unused */, iCloudData_t3080637488 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void iCloudUseExample::.ctor()
+extern "C"  void iCloudUseExample__ctor_m3525078198 (iCloudUseExample_t1641895601 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_v_2((1.1f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudUseExample::Awake()
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2882436870_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var;
+extern const MethodInfo* iCloudUseExample_OnCloundInitAction_m461614886_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const MethodInfo* iCloudUseExample_OnCloudDataReceivedAction_m3518084505_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3901198773_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var;
+extern const uint32_t iCloudUseExample_Awake_m1634641073_MetadataUsageId;
+extern "C"  void iCloudUseExample_Awake_m1634641073 (iCloudUseExample_t1641895601 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudUseExample_Awake_m1634641073_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)iCloudUseExample_OnCloundInitAction_m461614886_MethodInfo_var);
+		Action_1_t2577430992 * L_1 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_1, __this, L_0, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		iCloudManager_add_OnCloundInitAction_m3301239822(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)iCloudUseExample_OnCloudDataReceivedAction_m3518084505_MethodInfo_var);
+		Action_1_t2882436870 * L_3 = (Action_1_t2882436870 *)il2cpp_codegen_object_new(Action_1_t2882436870_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3901198773(L_3, __this, L_2, /*hidden argument*/Action_1__ctor_m3901198773_MethodInfo_var);
+		iCloudManager_add_OnCloudDataReceivedAction_m3903530825(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		iCloudManager_t2506189173 * L_4 = ISN_Singleton_1_get_instance_m1295787142(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var);
+		NullCheck(L_4);
+		iCloudManager_init_m143061178(L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudUseExample::OnGUI()
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var;
+extern Il2CppClass* UTF8Encoding_t111055448_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral904339759;
+extern Il2CppCodeGenString* _stringLiteral2087206806;
+extern Il2CppCodeGenString* _stringLiteral2600806330;
+extern Il2CppCodeGenString* _stringLiteral882025019;
+extern Il2CppCodeGenString* _stringLiteral10267776;
+extern Il2CppCodeGenString* _stringLiteral1588700049;
+extern Il2CppCodeGenString* _stringLiteral4282945644;
+extern Il2CppCodeGenString* _stringLiteral3532419731;
+extern Il2CppCodeGenString* _stringLiteral1118511802;
+extern Il2CppCodeGenString* _stringLiteral3186539975;
+extern Il2CppCodeGenString* _stringLiteral3510137503;
+extern Il2CppCodeGenString* _stringLiteral740983238;
+extern Il2CppCodeGenString* _stringLiteral2144096097;
+extern const uint32_t iCloudUseExample_OnGUI_m1719018762_MetadataUsageId;
+extern "C"  void iCloudUseExample_OnGUI_m1719018762 (iCloudUseExample_t1641895601 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudUseExample_OnGUI_m1719018762_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	UTF8Encoding_t111055448 * V_1 = NULL;
+	ByteU5BU5D_t3397334013* V_2 = NULL;
+	{
+		Rect_t3681755626  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Rect__ctor_m1220545469(&L_0, (170.0f), (70.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_1 = GUI_Button_m3054448581(NULL /*static, unused*/, L_0, _stringLiteral904339759, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		iCloudManager_t2506189173 * L_2 = ISN_Singleton_1_get_instance_m1295787142(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var);
+		NullCheck(L_2);
+		iCloudManager_setString_m2890721799(L_2, _stringLiteral2087206806, _stringLiteral2600806330, /*hidden argument*/NULL);
+	}
+
+IL_003c:
+	{
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, (170.0f), (130.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_4 = GUI_Button_m3054448581(NULL /*static, unused*/, L_3, _stringLiteral882025019, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		iCloudManager_t2506189173 * L_5 = ISN_Singleton_1_get_instance_m1295787142(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var);
+		NullCheck(L_5);
+		iCloudManager_requestDataForKey_m610672163(L_5, _stringLiteral2087206806, /*hidden argument*/NULL);
+	}
+
+IL_0073:
+	{
+		Rect_t3681755626  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Rect__ctor_m1220545469(&L_6, (330.0f), (70.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_7 = GUI_Button_m3054448581(NULL /*static, unused*/, L_6, _stringLiteral10267776, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		float L_8 = __this->get_v_2();
+		__this->set_v_2(((float)((float)L_8+(float)(1.1f))));
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		iCloudManager_t2506189173 * L_9 = ISN_Singleton_1_get_instance_m1295787142(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var);
+		float L_10 = __this->get_v_2();
+		NullCheck(L_9);
+		iCloudManager_setFloat_m3352024565(L_9, _stringLiteral1588700049, L_10, /*hidden argument*/NULL);
+	}
+
+IL_00c2:
+	{
+		Rect_t3681755626  L_11;
+		memset(&L_11, 0, sizeof(L_11));
+		Rect__ctor_m1220545469(&L_11, (330.0f), (130.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_12 = GUI_Button_m3054448581(NULL /*static, unused*/, L_11, _stringLiteral4282945644, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		iCloudManager_t2506189173 * L_13 = ISN_Singleton_1_get_instance_m1295787142(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var);
+		NullCheck(L_13);
+		iCloudManager_requestDataForKey_m610672163(L_13, _stringLiteral1588700049, /*hidden argument*/NULL);
+	}
+
+IL_00f9:
+	{
+		Rect_t3681755626  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Rect__ctor_m1220545469(&L_14, (490.0f), (70.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_15 = GUI_Button_m3054448581(NULL /*static, unused*/, L_14, _stringLiteral3532419731, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_0145;
+		}
+	}
+	{
+		V_0 = _stringLiteral1118511802;
+		UTF8Encoding_t111055448 * L_16 = (UTF8Encoding_t111055448 *)il2cpp_codegen_object_new(UTF8Encoding_t111055448_il2cpp_TypeInfo_var);
+		UTF8Encoding__ctor_m100325490(L_16, /*hidden argument*/NULL);
+		V_1 = L_16;
+		UTF8Encoding_t111055448 * L_17 = V_1;
+		String_t* L_18 = V_0;
+		NullCheck(L_17);
+		ByteU5BU5D_t3397334013* L_19 = VirtFuncInvoker1< ByteU5BU5D_t3397334013*, String_t* >::Invoke(10 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_17, L_18);
+		V_2 = L_19;
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		iCloudManager_t2506189173 * L_20 = ISN_Singleton_1_get_instance_m1295787142(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var);
+		ByteU5BU5D_t3397334013* L_21 = V_2;
+		NullCheck(L_20);
+		iCloudManager_setData_m3697762991(L_20, _stringLiteral3186539975, L_21, /*hidden argument*/NULL);
+	}
+
+IL_0145:
+	{
+		Rect_t3681755626  L_22;
+		memset(&L_22, 0, sizeof(L_22));
+		Rect__ctor_m1220545469(&L_22, (490.0f), (130.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_23 = GUI_Button_m3054448581(NULL /*static, unused*/, L_22, _stringLiteral3510137503, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_017c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1446789189_il2cpp_TypeInfo_var);
+		iCloudManager_t2506189173 * L_24 = ISN_Singleton_1_get_instance_m1295787142(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m1295787142_MethodInfo_var);
+		NullCheck(L_24);
+		iCloudManager_requestDataForKey_m610672163(L_24, _stringLiteral3186539975, /*hidden argument*/NULL);
+	}
+
+IL_017c:
+	{
+		Rect_t3681755626  L_25;
+		memset(&L_25, 0, sizeof(L_25));
+		Rect__ctor_m1220545469(&L_25, (170.0f), (500.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_26 = GUI_Button_m3054448581(NULL /*static, unused*/, L_25, _stringLiteral740983238, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_01ae;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral2144096097, /*hidden argument*/NULL);
+	}
+
+IL_01ae:
+	{
+		return;
+	}
+}
+// System.Void iCloudUseExample::OnCloundInitAction(ISN_Result)
+extern Il2CppCodeGenString* _stringLiteral2232955126;
+extern Il2CppCodeGenString* _stringLiteral4083122040;
+extern Il2CppCodeGenString* _stringLiteral2174219018;
+extern const uint32_t iCloudUseExample_OnCloundInitAction_m461614886_MetadataUsageId;
+extern "C"  void iCloudUseExample_OnCloundInitAction_m461614886 (iCloudUseExample_t1641895601 * __this, ISN_Result_t2775631610 * ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudUseExample_OnCloundInitAction_m461614886_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ISN_Result_t2775631610 * L_0 = ___result0;
+		NullCheck(L_0);
+		bool L_1 = ISN_Result_get_IsSucceeded_m2375621801(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral2232955126, _stringLiteral4083122040, /*hidden argument*/NULL);
+		goto IL_002e;
+	}
+
+IL_001f:
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral2232955126, _stringLiteral2174219018, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void iCloudUseExample::OnCloudDataReceivedAction(iCloudData)
+extern Il2CppCodeGenString* _stringLiteral1697698323;
+extern const uint32_t iCloudUseExample_OnCloudDataReceivedAction_m3518084505_MetadataUsageId;
+extern "C"  void iCloudUseExample_OnCloudDataReceivedAction_m3518084505 (iCloudUseExample_t1641895601 * __this, iCloudData_t3080637488 * ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudUseExample_OnCloudDataReceivedAction_m3518084505_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		iCloudData_t3080637488 * L_0 = ___data0;
+		NullCheck(L_0);
+		bool L_1 = iCloudData_get_IsEmpty_m1455958333(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		iCloudData_t3080637488 * L_2 = ___data0;
+		NullCheck(L_2);
+		String_t* L_3 = iCloudData_get_key_m3978415184(L_2, /*hidden argument*/NULL);
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, L_3, _stringLiteral1697698323, /*hidden argument*/NULL);
+		goto IL_0031;
+	}
+
+IL_0020:
+	{
+		iCloudData_t3080637488 * L_4 = ___data0;
+		NullCheck(L_4);
+		String_t* L_5 = iCloudData_get_key_m3978415184(L_4, /*hidden argument*/NULL);
+		iCloudData_t3080637488 * L_6 = ___data0;
+		NullCheck(L_6);
+		String_t* L_7 = iCloudData_get_stringValue_m359553617(L_6, /*hidden argument*/NULL);
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0031:
+	{
+		return;
+	}
+}
+// System.Void iCloudUseExample::OnCloundDataChangedAction()
+extern Il2CppCodeGenString* _stringLiteral2232955126;
+extern Il2CppCodeGenString* _stringLiteral2231579611;
+extern const uint32_t iCloudUseExample_OnCloundDataChangedAction_m3988331464_MetadataUsageId;
+extern "C"  void iCloudUseExample_OnCloundDataChangedAction_m3988331464 (iCloudUseExample_t1641895601 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudUseExample_OnCloundDataChangedAction_m3988331464_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral2232955126, _stringLiteral2231579611, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void iCloudUseExample::OnDestroy()
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* iCloudManager_t2506189173_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2882436870_il2cpp_TypeInfo_var;
+extern const MethodInfo* iCloudUseExample_OnCloundInitAction_m461614886_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const MethodInfo* iCloudUseExample_OnCloudDataReceivedAction_m3518084505_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3901198773_MethodInfo_var;
+extern const uint32_t iCloudUseExample_OnDestroy_m918528783_MetadataUsageId;
+extern "C"  void iCloudUseExample_OnDestroy_m918528783 (iCloudUseExample_t1641895601 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iCloudUseExample_OnDestroy_m918528783_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)iCloudUseExample_OnCloundInitAction_m461614886_MethodInfo_var);
+		Action_1_t2577430992 * L_1 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_1, __this, L_0, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(iCloudManager_t2506189173_il2cpp_TypeInfo_var);
+		iCloudManager_remove_OnCloundInitAction_m33582019(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)iCloudUseExample_OnCloudDataReceivedAction_m3518084505_MethodInfo_var);
+		Action_1_t2882436870 * L_3 = (Action_1_t2882436870 *)il2cpp_codegen_object_new(Action_1_t2882436870_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3901198773(L_3, __this, L_2, /*hidden argument*/Action_1__ctor_m3901198773_MethodInfo_var);
+		iCloudManager_remove_OnCloudDataReceivedAction_m359701572(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl::.ctor()
+extern "C"  void InvitePlayerBoxControl__ctor_m1898808223 (InvitePlayerBoxControl_t3082712906 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl::Start()
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* InvitePlayerBoxControl_U3CStartU3Em__0_m1807426804_MethodInfo_var;
+extern const uint32_t InvitePlayerBoxControl_Start_m2299983147_MetadataUsageId;
+extern "C"  void InvitePlayerBoxControl_Start_m2299983147 (InvitePlayerBoxControl_t3082712906 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InvitePlayerBoxControl_Start_m2299983147_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Button_t2872111280 * L_0 = __this->get_refresh_5();
+		NullCheck(L_0);
+		ButtonClickedEvent_t2455055323 * L_1 = Button_get_onClick_m1595880935(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		UnityEventBase_RemoveAllListeners_m230188638(L_1, /*hidden argument*/NULL);
+		Button_t2872111280 * L_2 = __this->get_refresh_5();
+		NullCheck(L_2);
+		ButtonClickedEvent_t2455055323 * L_3 = Button_get_onClick_m1595880935(L_2, /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)InvitePlayerBoxControl_U3CStartU3Em__0_m1807426804_MethodInfo_var);
+		UnityAction_t4025899511 * L_5 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_5, __this, L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		UnityEvent_AddListener_m1596810379(L_3, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl::send_refresh()
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* Transform_t3275118058_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2712451827;
+extern Il2CppCodeGenString* _stringLiteral2712452219;
+extern Il2CppCodeGenString* _stringLiteral372029418;
+extern Il2CppCodeGenString* _stringLiteral428224014;
+extern const uint32_t InvitePlayerBoxControl_send_refresh_m336958905_MetadataUsageId;
+extern "C"  void InvitePlayerBoxControl_send_refresh_m336958905 (InvitePlayerBoxControl_t3082712906 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InvitePlayerBoxControl_send_refresh_m336958905_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	Transform_t3275118058 * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		JSONClass_t1609506608 * L_0 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONClass_t1609506608 * L_1 = V_0;
+		JSONNode_t1250409636 * L_2 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, _stringLiteral2712452219, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_1, _stringLiteral2712451827, L_2);
+		JSONClass_t1609506608 * L_3 = V_0;
+		NullCheck(L_3);
+		JSONNode_t1250409636 * L_4 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_3, _stringLiteral372029418);
+		NullCheck(L_4);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32) */, L_4, 0);
+		JSONClass_t1609506608 * L_5 = V_0;
+		NullCheck(L_5);
+		JSONNode_t1250409636 * L_6 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_5, _stringLiteral428224014);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		Game_t1600141214 * L_7 = GameApplication_get_game_m310160389(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		int32_t L_8 = L_7->get_stake_6();
+		NullCheck(L_6);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32) */, L_6, L_8);
+		CubeiaClient_t2232589536 * L_9 = GameApplication_get_cubeia_m1520786160(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_10 = V_0;
+		NullCheck(L_9);
+		CubeiaClient_sendService_m2737964952(L_9, L_10, /*hidden argument*/NULL);
+		Text_t356221433 * L_11 = __this->get_status_7();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_12 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_11);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_11, L_12);
+		WaitingDialog_t2062014917 * L_13 = __this->get_waitingDialog_4();
+		String_t* L_14 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_13);
+		WaitingDialog_show_m4076612809(L_13, L_14, /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_15 = __this->get_content_3();
+		NullCheck(L_15);
+		Il2CppObject * L_16 = Transform_GetEnumerator_m3479720613(L_15, /*hidden argument*/NULL);
+		V_2 = L_16;
+	}
+
+IL_007e:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_009a;
+		}
+
+IL_0083:
+		{
+			Il2CppObject * L_17 = V_2;
+			NullCheck(L_17);
+			Il2CppObject * L_18 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_17);
+			V_1 = ((Transform_t3275118058 *)CastclassClass(L_18, Transform_t3275118058_il2cpp_TypeInfo_var));
+			Transform_t3275118058 * L_19 = V_1;
+			NullCheck(L_19);
+			GameObject_t1756533147 * L_20 = Component_get_gameObject_m3105766835(L_19, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+			Object_Destroy_m4145850038(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		}
+
+IL_009a:
+		{
+			Il2CppObject * L_21 = V_2;
+			NullCheck(L_21);
+			bool L_22 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_21);
+			if (L_22)
+			{
+				goto IL_0083;
+			}
+		}
+
+IL_00a5:
+		{
+			IL2CPP_LEAVE(0xBE, FINALLY_00aa);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00aa;
+	}
+
+FINALLY_00aa:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_23 = V_2;
+			Il2CppObject * L_24 = ((Il2CppObject *)IsInst(L_23, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_3 = L_24;
+			if (!L_24)
+			{
+				goto IL_00bd;
+			}
+		}
+
+IL_00b7:
+		{
+			Il2CppObject * L_25 = V_3;
+			NullCheck(L_25);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_25);
+		}
+
+IL_00bd:
+		{
+			IL2CPP_END_FINALLY(170)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(170)
+	{
+		IL2CPP_JUMP_TBL(0xBE, IL_00be)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00be:
+	{
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl::show()
+extern "C"  void InvitePlayerBoxControl_show_m2269803212 (InvitePlayerBoxControl_t3082712906 * __this, const MethodInfo* method)
+{
+	{
+		InvitePlayerBoxControl_send_refresh_m336958905(__this, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m2887581199(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl::showPlayers(SimpleJSON.JSONArray)
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* Transform_t3275118058_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* U3CshowPlayersU3Ec__AnonStorey0_t2951125539_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern Il2CppClass* Strings_t183934206_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisRectTransform_t3349966182_m2279203877_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisText_t356221433_m1342661039_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var;
+extern const MethodInfo* U3CshowPlayersU3Ec__AnonStorey0_U3CU3Em__0_m257815165_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2328219947;
+extern Il2CppCodeGenString* _stringLiteral339800479;
+extern Il2CppCodeGenString* _stringLiteral4143129268;
+extern Il2CppCodeGenString* _stringLiteral372029412;
+extern Il2CppCodeGenString* _stringLiteral1010961855;
+extern Il2CppCodeGenString* _stringLiteral372029420;
+extern Il2CppCodeGenString* _stringLiteral428224014;
+extern Il2CppCodeGenString* _stringLiteral287061521;
+extern const uint32_t InvitePlayerBoxControl_showPlayers_m1991894149_MetadataUsageId;
+extern "C"  void InvitePlayerBoxControl_showPlayers_m1991894149 (InvitePlayerBoxControl_t3082712906 * __this, JSONArray_t3986483147 * ___jarr0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InvitePlayerBoxControl_showPlayers_m1991894149_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Transform_t3275118058 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	int32_t V_3 = 0;
+	U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * V_4 = NULL;
+	Text_t356221433 * V_5 = NULL;
+	Text_t356221433 * V_6 = NULL;
+	Text_t356221433 * V_7 = NULL;
+	Button_t2872111280 * V_8 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		RectTransform_t3349966182 * L_0 = __this->get_content_3();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = Transform_GetEnumerator_m3479720613(L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+	}
+
+IL_000c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0028;
+		}
+
+IL_0011:
+		{
+			Il2CppObject * L_2 = V_1;
+			NullCheck(L_2);
+			Il2CppObject * L_3 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_2);
+			V_0 = ((Transform_t3275118058 *)CastclassClass(L_3, Transform_t3275118058_il2cpp_TypeInfo_var));
+			Transform_t3275118058 * L_4 = V_0;
+			NullCheck(L_4);
+			GameObject_t1756533147 * L_5 = Component_get_gameObject_m3105766835(L_4, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+			Object_Destroy_m4145850038(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		}
+
+IL_0028:
+		{
+			Il2CppObject * L_6 = V_1;
+			NullCheck(L_6);
+			bool L_7 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_6);
+			if (L_7)
+			{
+				goto IL_0011;
+			}
+		}
+
+IL_0033:
+		{
+			IL2CPP_LEAVE(0x4C, FINALLY_0038);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0038;
+	}
+
+FINALLY_0038:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_8 = V_1;
+			Il2CppObject * L_9 = ((Il2CppObject *)IsInst(L_8, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_2 = L_9;
+			if (!L_9)
+			{
+				goto IL_004b;
+			}
+		}
+
+IL_0045:
+		{
+			Il2CppObject * L_10 = V_2;
+			NullCheck(L_10);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_10);
+		}
+
+IL_004b:
+		{
+			IL2CPP_END_FINALLY(56)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(56)
+	{
+		IL2CPP_JUMP_TBL(0x4C, IL_004c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_004c:
+	{
+		V_3 = 0;
+		goto IL_017b;
+	}
+
+IL_0053:
+	{
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_11 = (U3CshowPlayersU3Ec__AnonStorey0_t2951125539 *)il2cpp_codegen_object_new(U3CshowPlayersU3Ec__AnonStorey0_t2951125539_il2cpp_TypeInfo_var);
+		U3CshowPlayersU3Ec__AnonStorey0__ctor_m251013466(L_11, /*hidden argument*/NULL);
+		V_4 = L_11;
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_12 = V_4;
+		RectTransform_t3349966182 * L_13 = __this->get_pfPlayerInviteItem_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		RectTransform_t3349966182 * L_14 = Object_Instantiate_TisRectTransform_t3349966182_m2279203877(NULL /*static, unused*/, L_13, /*hidden argument*/Object_Instantiate_TisRectTransform_t3349966182_m2279203877_MethodInfo_var);
+		NullCheck(L_12);
+		L_12->set_rectItem_1(L_14);
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_15 = V_4;
+		NullCheck(L_15);
+		RectTransform_t3349966182 * L_16 = L_15->get_rectItem_1();
+		RectTransform_t3349966182 * L_17 = __this->get_content_3();
+		NullCheck(L_16);
+		Transform_SetParent_m1963830867(L_16, L_17, (bool)0, /*hidden argument*/NULL);
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_18 = V_4;
+		NullCheck(L_18);
+		RectTransform_t3349966182 * L_19 = L_18->get_rectItem_1();
+		NullCheck(L_19);
+		Transform_t3275118058 * L_20 = Transform_Find_m3323476454(L_19, _stringLiteral2328219947, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Text_t356221433 * L_21 = Component_GetComponent_TisText_t356221433_m1342661039(L_20, /*hidden argument*/Component_GetComponent_TisText_t356221433_m1342661039_MethodInfo_var);
+		V_5 = L_21;
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_22 = V_4;
+		NullCheck(L_22);
+		RectTransform_t3349966182 * L_23 = L_22->get_rectItem_1();
+		NullCheck(L_23);
+		Transform_t3275118058 * L_24 = Transform_Find_m3323476454(L_23, _stringLiteral339800479, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Text_t356221433 * L_25 = Component_GetComponent_TisText_t356221433_m1342661039(L_24, /*hidden argument*/Component_GetComponent_TisText_t356221433_m1342661039_MethodInfo_var);
+		V_6 = L_25;
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_26 = V_4;
+		NullCheck(L_26);
+		RectTransform_t3349966182 * L_27 = L_26->get_rectItem_1();
+		NullCheck(L_27);
+		Transform_t3275118058 * L_28 = Transform_Find_m3323476454(L_27, _stringLiteral4143129268, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Text_t356221433 * L_29 = Component_GetComponent_TisText_t356221433_m1342661039(L_28, /*hidden argument*/Component_GetComponent_TisText_t356221433_m1342661039_MethodInfo_var);
+		V_7 = L_29;
+		Text_t356221433 * L_30 = V_5;
+		JSONArray_t3986483147 * L_31 = ___jarr0;
+		int32_t L_32 = V_3;
+		NullCheck(L_31);
+		JSONNode_t1250409636 * L_33 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_31, L_32);
+		NullCheck(L_33);
+		JSONNode_t1250409636 * L_34 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_33, _stringLiteral372029412);
+		String_t* L_35 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_30, L_35);
+		Text_t356221433 * L_36 = V_6;
+		JSONArray_t3986483147 * L_37 = ___jarr0;
+		int32_t L_38 = V_3;
+		NullCheck(L_37);
+		JSONNode_t1250409636 * L_39 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_37, L_38);
+		NullCheck(L_39);
+		JSONNode_t1250409636 * L_40 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_39, _stringLiteral372029420);
+		NullCheck(L_40);
+		int32_t L_41 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_40);
+		int32_t L_42 = L_41;
+		Il2CppObject * L_43 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_42);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_44 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1010961855, L_43, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_36, L_44);
+		Text_t356221433 * L_45 = V_7;
+		JSONArray_t3986483147 * L_46 = ___jarr0;
+		int32_t L_47 = V_3;
+		NullCheck(L_46);
+		JSONNode_t1250409636 * L_48 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_46, L_47);
+		NullCheck(L_48);
+		JSONNode_t1250409636 * L_49 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_48, _stringLiteral428224014);
+		NullCheck(L_49);
+		int32_t L_50 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_49);
+		String_t* L_51 = Utils_formatCurrency_m2548941187(NULL /*static, unused*/, L_50, (bool)1, /*hidden argument*/NULL);
+		NullCheck(L_45);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_45, L_51);
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_52 = V_4;
+		JSONArray_t3986483147 * L_53 = ___jarr0;
+		int32_t L_54 = V_3;
+		NullCheck(L_53);
+		JSONNode_t1250409636 * L_55 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_53, L_54);
+		NullCheck(L_55);
+		JSONNode_t1250409636 * L_56 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_55, _stringLiteral287061521);
+		NullCheck(L_56);
+		int32_t L_57 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_56);
+		NullCheck(L_52);
+		L_52->set_id_0(L_57);
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_58 = V_4;
+		NullCheck(L_58);
+		RectTransform_t3349966182 * L_59 = L_58->get_rectItem_1();
+		NullCheck(L_59);
+		Button_t2872111280 * L_60 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_59, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
+		V_8 = L_60;
+		Button_t2872111280 * L_61 = V_8;
+		NullCheck(L_61);
+		ButtonClickedEvent_t2455055323 * L_62 = Button_get_onClick_m1595880935(L_61, /*hidden argument*/NULL);
+		U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * L_63 = V_4;
+		IntPtr_t L_64;
+		L_64.set_m_value_0((void*)(void*)U3CshowPlayersU3Ec__AnonStorey0_U3CU3Em__0_m257815165_MethodInfo_var);
+		UnityAction_t4025899511 * L_65 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_65, L_63, L_64, /*hidden argument*/NULL);
+		NullCheck(L_62);
+		UnityEvent_AddListener_m1596810379(L_62, L_65, /*hidden argument*/NULL);
+		int32_t L_66 = V_3;
+		V_3 = ((int32_t)((int32_t)L_66+(int32_t)1));
+	}
+
+IL_017b:
+	{
+		int32_t L_67 = V_3;
+		JSONArray_t3986483147 * L_68 = ___jarr0;
+		NullCheck(L_68);
+		int32_t L_69 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_68);
+		if ((((int32_t)L_67) < ((int32_t)L_69)))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		WaitingDialog_t2062014917 * L_70 = __this->get_waitingDialog_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_71 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_70, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_71)
+		{
+			goto IL_01a3;
+		}
+	}
+	{
+		WaitingDialog_t2062014917 * L_72 = __this->get_waitingDialog_4();
+		NullCheck(L_72);
+		WaitingDialog_dismiss_m2684015506(L_72, /*hidden argument*/NULL);
+	}
+
+IL_01a3:
+	{
+		JSONArray_t3986483147 * L_73 = ___jarr0;
+		NullCheck(L_73);
+		int32_t L_74 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_73);
+		if ((((int32_t)L_74) >= ((int32_t)1)))
+		{
+			goto IL_01c4;
+		}
+	}
+	{
+		Text_t356221433 * L_75 = __this->get_status_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Strings_t183934206_il2cpp_TypeInfo_var);
+		Strings_t183934206 * L_76 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_76);
+		String_t* L_77 = VirtFuncInvoker0< String_t* >::Invoke(412 /* System.String Strings::get_gameplay_no_find_player() */, L_76);
+		NullCheck(L_75);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_75, L_77);
+	}
+
+IL_01c4:
+	{
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl::<Start>m__0()
+extern "C"  void InvitePlayerBoxControl_U3CStartU3Em__0_m1807426804 (InvitePlayerBoxControl_t3082712906 * __this, const MethodInfo* method)
+{
+	{
+		InvitePlayerBoxControl_send_refresh_m336958905(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl/<showPlayers>c__AnonStorey0::.ctor()
+extern "C"  void U3CshowPlayersU3Ec__AnonStorey0__ctor_m251013466 (U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void InvitePlayerBoxControl/<showPlayers>c__AnonStorey0::<>m__0()
+extern Il2CppClass* JSONClass_t1609506608_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2712451827;
+extern Il2CppCodeGenString* _stringLiteral2712452219;
+extern Il2CppCodeGenString* _stringLiteral372029418;
+extern Il2CppCodeGenString* _stringLiteral3209846154;
+extern Il2CppCodeGenString* _stringLiteral428224014;
+extern const uint32_t U3CshowPlayersU3Ec__AnonStorey0_U3CU3Em__0_m257815165_MetadataUsageId;
+extern "C"  void U3CshowPlayersU3Ec__AnonStorey0_U3CU3Em__0_m257815165 (U3CshowPlayersU3Ec__AnonStorey0_t2951125539 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CshowPlayersU3Ec__AnonStorey0_U3CU3Em__0_m257815165_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONClass_t1609506608 * V_0 = NULL;
+	{
+		JSONClass_t1609506608 * L_0 = (JSONClass_t1609506608 *)il2cpp_codegen_object_new(JSONClass_t1609506608_il2cpp_TypeInfo_var);
+		JSONClass__ctor_m4142002655(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONClass_t1609506608 * L_1 = V_0;
+		JSONNode_t1250409636 * L_2 = JSONNode_op_Implicit_m2456296135(NULL /*static, unused*/, _stringLiteral2712452219, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, JSONNode_t1250409636 * >::Invoke(8 /* System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode) */, L_1, _stringLiteral2712451827, L_2);
+		JSONClass_t1609506608 * L_3 = V_0;
+		NullCheck(L_3);
+		JSONNode_t1250409636 * L_4 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_3, _stringLiteral372029418);
+		NullCheck(L_4);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32) */, L_4, 1);
+		JSONClass_t1609506608 * L_5 = V_0;
+		NullCheck(L_5);
+		JSONNode_t1250409636 * L_6 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_5, _stringLiteral3209846154);
+		int32_t L_7 = __this->get_id_0();
+		NullCheck(L_6);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32) */, L_6, L_7);
+		JSONClass_t1609506608 * L_8 = V_0;
+		NullCheck(L_8);
+		JSONNode_t1250409636 * L_9 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_8, _stringLiteral428224014);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		Game_t1600141214 * L_10 = GameApplication_get_game_m310160389(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		int32_t L_11 = L_10->get_stake_6();
+		NullCheck(L_9);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32) */, L_9, L_11);
+		CubeiaClient_t2232589536 * L_12 = GameApplication_get_cubeia_m1520786160(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_13 = V_0;
+		NullCheck(L_12);
+		CubeiaClient_sendService_m2737964952(L_12, L_13, /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_14 = __this->get_rectItem_1();
+		NullCheck(L_14);
+		GameObject_t1756533147 * L_15 = Component_get_gameObject_m3105766835(L_14, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSBillingInitChecker::.ctor(IOSBillingInitChecker/BillingInitListener)
+extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var;
+extern const MethodInfo* IOSBillingInitChecker_HandleOnStoreKitInitComplete_m3228485097_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const uint32_t IOSBillingInitChecker__ctor_m2400001523_MetadataUsageId;
+extern "C"  void IOSBillingInitChecker__ctor_m2400001523 (IOSBillingInitChecker_t4166635083 * __this, BillingInitListener_t4162012659 * ___listener0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSBillingInitChecker__ctor_m2400001523_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		BillingInitListener_t4162012659 * L_0 = ___listener0;
+		__this->set__listener_0(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_t644626385 * L_1 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		NullCheck(L_1);
+		bool L_2 = IOSInAppPurchaseManager_get_IsStoreLoaded_m3811618283(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		BillingInitListener_t4162012659 * L_3 = __this->get__listener_0();
+		NullCheck(L_3);
+		BillingInitListener_Invoke_m2042359388(L_3, /*hidden argument*/NULL);
+		goto IL_0056;
+	}
+
+IL_002c:
+	{
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)IOSBillingInitChecker_HandleOnStoreKitInitComplete_m3228485097_MethodInfo_var);
+		Action_1_t2577430992 * L_5 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_add_OnStoreKitInitComplete_m434975573(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_t644626385 * L_6 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		NullCheck(L_6);
+		bool L_7 = IOSInAppPurchaseManager_get_IsWaitingLoadResult_m1640646835(L_6, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_t644626385 * L_8 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		NullCheck(L_8);
+		IOSInAppPurchaseManager_loadStore_m2301575177(L_8, /*hidden argument*/NULL);
+	}
+
+IL_0056:
+	{
+		return;
+	}
+}
+// System.Void IOSBillingInitChecker::HandleOnStoreKitInitComplete(ISN_Result)
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSBillingInitChecker_HandleOnStoreKitInitComplete_m3228485097_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const uint32_t IOSBillingInitChecker_HandleOnStoreKitInitComplete_m3228485097_MetadataUsageId;
+extern "C"  void IOSBillingInitChecker_HandleOnStoreKitInitComplete_m3228485097 (IOSBillingInitChecker_t4166635083 * __this, ISN_Result_t2775631610 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSBillingInitChecker_HandleOnStoreKitInitComplete_m3228485097_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)IOSBillingInitChecker_HandleOnStoreKitInitComplete_m3228485097_MethodInfo_var);
+		Action_1_t2577430992 * L_1 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_1, __this, L_0, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_remove_OnStoreKitInitComplete_m856715212(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		BillingInitListener_t4162012659 * L_2 = __this->get__listener_0();
+		NullCheck(L_2);
+		BillingInitListener_Invoke_m2042359388(L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSBillingInitChecker/BillingInitListener::.ctor(System.Object,System.IntPtr)
+extern "C"  void BillingInitListener__ctor_m3577547142 (BillingInitListener_t4162012659 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void IOSBillingInitChecker/BillingInitListener::Invoke()
+extern "C"  void BillingInitListener_Invoke_m2042359388 (BillingInitListener_t4162012659 * __this, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		BillingInitListener_Invoke_m2042359388((BillingInitListener_t4162012659 *)__this->get_prev_9(), method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if ((__this->get_m_target_2() != NULL || MethodHasParameters((MethodInfo*)(__this->get_method_3().get_m_value_0()))) && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_BillingInitListener_t4162012659 (BillingInitListener_t4162012659 * __this, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)();
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc();
+
+}
+// System.IAsyncResult IOSBillingInitChecker/BillingInitListener::BeginInvoke(System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * BillingInitListener_BeginInvoke_m3144287461 (BillingInitListener_t4162012659 * __this, AsyncCallback_t163412349 * ___callback0, Il2CppObject * ___object1, const MethodInfo* method)
+{
+	void *__d_args[1] = {0};
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback0, (Il2CppObject*)___object1);
+}
+// System.Void IOSBillingInitChecker/BillingInitListener::EndInvoke(System.IAsyncResult)
+extern "C"  void BillingInitListener_EndInvoke_m3854253652 (BillingInitListener_t4162012659 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void IOSCamera::.ctor()
+extern Il2CppClass* ISN_Singleton_1_t1785708706_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m4260616524_MethodInfo_var;
+extern const uint32_t IOSCamera__ctor_m158284279_MetadataUsageId;
+extern "C"  void IOSCamera__ctor_m158284279 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera__ctor_m158284279_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1785708706_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m4260616524(__this, /*hidden argument*/ISN_Singleton_1__ctor_m4260616524_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSCamera::add_OnImagePicked(System.Action`1<IOSImagePickResult>)
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1473133776_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_add_OnImagePicked_m1531898631_MetadataUsageId;
+extern "C"  void IOSCamera_add_OnImagePicked_m1531898631 (Il2CppObject * __this /* static, unused */, Action_1_t1473133776 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_add_OnImagePicked_m1531898631_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1473133776 * V_0 = NULL;
+	Action_1_t1473133776 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1473133776 * L_0 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnImagePicked_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1473133776 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1473133776 * L_2 = V_1;
+		Action_1_t1473133776 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1473133776 * L_5 = V_0;
+		Action_1_t1473133776 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1473133776 *>((((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnImagePicked_4()), ((Action_1_t1473133776 *)CastclassSealed(L_4, Action_1_t1473133776_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1473133776 * L_7 = V_0;
+		Action_1_t1473133776 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1473133776 *)L_7) == ((Il2CppObject*)(Action_1_t1473133776 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::remove_OnImagePicked(System.Action`1<IOSImagePickResult>)
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1473133776_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_remove_OnImagePicked_m324496930_MetadataUsageId;
+extern "C"  void IOSCamera_remove_OnImagePicked_m324496930 (Il2CppObject * __this /* static, unused */, Action_1_t1473133776 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_remove_OnImagePicked_m324496930_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1473133776 * V_0 = NULL;
+	Action_1_t1473133776 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1473133776 * L_0 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnImagePicked_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1473133776 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1473133776 * L_2 = V_1;
+		Action_1_t1473133776 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1473133776 * L_5 = V_0;
+		Action_1_t1473133776 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1473133776 *>((((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnImagePicked_4()), ((Action_1_t1473133776 *)CastclassSealed(L_4, Action_1_t1473133776_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1473133776 * L_7 = V_0;
+		Action_1_t1473133776 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1473133776 *)L_7) == ((Il2CppObject*)(Action_1_t1473133776 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::add_OnImageSaved(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_add_OnImageSaved_m999115822_MetadataUsageId;
+extern "C"  void IOSCamera_add_OnImageSaved_m999115822 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_add_OnImageSaved_m999115822_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnImageSaved_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnImageSaved_5()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::remove_OnImageSaved(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_remove_OnImageSaved_m86853089_MetadataUsageId;
+extern "C"  void IOSCamera_remove_OnImageSaved_m86853089 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_remove_OnImageSaved_m86853089_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnImageSaved_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnImageSaved_5()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::add_OnVideoPathPicked(System.Action`1<System.String>)
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1831019615_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_add_OnVideoPathPicked_m2245086388_MetadataUsageId;
+extern "C"  void IOSCamera_add_OnVideoPathPicked_m2245086388 (Il2CppObject * __this /* static, unused */, Action_1_t1831019615 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_add_OnVideoPathPicked_m2245086388_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1831019615 * V_0 = NULL;
+	Action_1_t1831019615 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_0 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnVideoPathPicked_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1831019615 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_2 = V_1;
+		Action_1_t1831019615 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1831019615 * L_5 = V_0;
+		Action_1_t1831019615 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1831019615 *>((((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnVideoPathPicked_6()), ((Action_1_t1831019615 *)CastclassSealed(L_4, Action_1_t1831019615_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1831019615 * L_7 = V_0;
+		Action_1_t1831019615 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1831019615 *)L_7) == ((Il2CppObject*)(Action_1_t1831019615 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::remove_OnVideoPathPicked(System.Action`1<System.String>)
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1831019615_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_remove_OnVideoPathPicked_m2741633647_MetadataUsageId;
+extern "C"  void IOSCamera_remove_OnVideoPathPicked_m2741633647 (Il2CppObject * __this /* static, unused */, Action_1_t1831019615 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_remove_OnVideoPathPicked_m2741633647_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1831019615 * V_0 = NULL;
+	Action_1_t1831019615 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_0 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnVideoPathPicked_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1831019615 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_2 = V_1;
+		Action_1_t1831019615 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1831019615 * L_5 = V_0;
+		Action_1_t1831019615 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1831019615 *>((((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnVideoPathPicked_6()), ((Action_1_t1831019615 *)CastclassSealed(L_4, Action_1_t1831019615_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1831019615 * L_7 = V_0;
+		Action_1_t1831019615 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1831019615 *)L_7) == ((Il2CppObject*)(Action_1_t1831019615 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_SaveToCameraRoll(char*);
+// System.Void IOSCamera::_ISN_SaveToCameraRoll(System.String)
+extern "C"  void IOSCamera__ISN_SaveToCameraRoll_m1784499607 (Il2CppObject * __this /* static, unused */, String_t* ___encodedMedia0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___encodedMedia0' to native representation
+	char* ____encodedMedia0_marshaled = NULL;
+	____encodedMedia0_marshaled = il2cpp_codegen_marshal_string(___encodedMedia0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_SaveToCameraRoll)(____encodedMedia0_marshaled);
+
+	// Marshaling cleanup of parameter '___encodedMedia0' native representation
+	il2cpp_codegen_marshal_free(____encodedMedia0_marshaled);
+	____encodedMedia0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_GetImageFromCamera();
+// System.Void IOSCamera::_ISN_GetImageFromCamera()
+extern "C"  void IOSCamera__ISN_GetImageFromCamera_m13213841 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_GetImageFromCamera)();
+
+}
+extern "C" void DEFAULT_CALL _ISN_GetVideoPathFromAlbum();
+// System.Void IOSCamera::_ISN_GetVideoPathFromAlbum()
+extern "C"  void IOSCamera__ISN_GetVideoPathFromAlbum_m1509408756 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_GetVideoPathFromAlbum)();
+
+}
+extern "C" void DEFAULT_CALL _ISN_GetImageFromAlbum();
+// System.Void IOSCamera::_ISN_GetImageFromAlbum()
+extern "C"  void IOSCamera__ISN_GetImageFromAlbum_m1714519087 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_GetImageFromAlbum)();
+
+}
+extern "C" void DEFAULT_CALL _ISN_InitCameraAPI(float, int32_t, int32_t);
+// System.Void IOSCamera::_ISN_InitCameraAPI(System.Single,System.Int32,System.Int32)
+extern "C"  void IOSCamera__ISN_InitCameraAPI_m4015877441 (Il2CppObject * __this /* static, unused */, float ___compressionRate0, int32_t ___maxSize1, int32_t ___encodingType2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float, int32_t, int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_InitCameraAPI)(___compressionRate0, ___maxSize1, ___encodingType2);
+
+}
+// System.Void IOSCamera::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_Awake_m322707278_MetadataUsageId;
+extern "C"  void IOSCamera_Awake_m322707278 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_Awake_m322707278_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_1 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		float L_2 = L_1->get_JPegCompressionRate_23();
+		IOSNativeSettings_t547170227 * L_3 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		int32_t L_4 = L_3->get_MaxImageLoadSize_22();
+		IOSNativeSettings_t547170227 * L_5 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		int32_t L_6 = L_5->get_GalleryImageFormat_24();
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		IOSCamera__ISN_InitCameraAPI_m4015877441(NULL /*static, unused*/, L_2, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSCamera::SaveTextureToCameraRoll(UnityEngine.Texture2D)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_SaveTextureToCameraRoll_m1085181654_MetadataUsageId;
+extern "C"  void IOSCamera_SaveTextureToCameraRoll_m1085181654 (IOSCamera_t2845108690 * __this, Texture2D_t3542995729 * ___texture0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_SaveTextureToCameraRoll_m1085181654_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		Texture2D_t3542995729 * L_0 = ___texture0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_2 = ___texture0;
+		NullCheck(L_2);
+		ByteU5BU5D_t3397334013* L_3 = Texture2D_EncodeToPNG_m2680110528(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		ByteU5BU5D_t3397334013* L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		String_t* L_5 = Convert_ToBase64String_m1936815455(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		String_t* L_6 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		IOSCamera__ISN_SaveToCameraRoll_m1784499607(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::SaveScreenshotToCameraRoll()
+extern "C"  void IOSCamera_SaveScreenshotToCameraRoll_m2156115041 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = IOSCamera_SaveScreenshot_m2798110416(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSCamera::GetVideoPathFromAlbum()
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_GetVideoPathFromAlbum_m2425696022_MetadataUsageId;
+extern "C"  void IOSCamera_GetVideoPathFromAlbum_m2425696022 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_GetVideoPathFromAlbum_m2425696022_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		IOSCamera__ISN_GetVideoPathFromAlbum_m1509408756(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSCamera::GetImageFromCamera()
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_GetImageFromCamera_m1088258629_MetadataUsageId;
+extern "C"  void IOSCamera_GetImageFromCamera_m1088258629 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_GetImageFromCamera_m1088258629_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IsWaitngForResponce_7();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		__this->set_IsWaitngForResponce_7((bool)1);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		IOSCamera__ISN_GetImageFromCamera_m13213841(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSCamera::GetImageFromAlbum()
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_GetImageFromAlbum_m720822163_MetadataUsageId;
+extern "C"  void IOSCamera_GetImageFromAlbum_m720822163 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_GetImageFromAlbum_m720822163_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IsWaitngForResponce_7();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		__this->set_IsWaitngForResponce_7((bool)1);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		IOSCamera__ISN_GetImageFromAlbum_m1714519087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSCamera::OnImagePickedEvent(System.String)
+extern Il2CppClass* IOSImagePickResult_t1671334394_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m335367564_MethodInfo_var;
+extern const uint32_t IOSCamera_OnImagePickedEvent_m3687597163_MetadataUsageId;
+extern "C"  void IOSCamera_OnImagePickedEvent_m3687597163 (IOSCamera_t2845108690 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_OnImagePickedEvent_m3687597163_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSImagePickResult_t1671334394 * V_0 = NULL;
+	{
+		__this->set_IsWaitngForResponce_7((bool)0);
+		String_t* L_0 = ___data0;
+		IOSImagePickResult_t1671334394 * L_1 = (IOSImagePickResult_t1671334394 *)il2cpp_codegen_object_new(IOSImagePickResult_t1671334394_il2cpp_TypeInfo_var);
+		IOSImagePickResult__ctor_m2811778119(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1473133776 * L_2 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnImagePicked_4();
+		IOSImagePickResult_t1671334394 * L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m335367564(L_2, L_3, /*hidden argument*/Action_1_Invoke_m335367564_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSCamera::OnImageSaveFailed()
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSCamera_OnImageSaveFailed_m3909524707_MetadataUsageId;
+extern "C"  void IOSCamera_OnImageSaveFailed_m3909524707 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_OnImageSaveFailed_m3909524707_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		ISN_Result_t2775631610 * L_0 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_1 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnImageSaved_5();
+		ISN_Result_t2775631610 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1651425124(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSCamera::OnImageSaveSuccess()
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSCamera_OnImageSaveSuccess_m4004994319_MetadataUsageId;
+extern "C"  void IOSCamera_OnImageSaveSuccess_m4004994319 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_OnImageSaveSuccess_m4004994319_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		ISN_Result_t2775631610 * L_0 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_0, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_1 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnImageSaved_5();
+		ISN_Result_t2775631610 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1651425124(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSCamera::OnVideoPickedEvent(System.String)
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m338810690_MethodInfo_var;
+extern const uint32_t IOSCamera_OnVideoPickedEvent_m2819715485_MetadataUsageId;
+extern "C"  void IOSCamera_OnVideoPickedEvent_m2819715485 (IOSCamera_t2845108690 * __this, String_t* ___path0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_OnVideoPickedEvent_m2819715485_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSCamera_t2845108690_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_0 = ((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->get_OnVideoPathPicked_6();
+		String_t* L_1 = ___path0;
+		NullCheck(L_0);
+		Action_1_Invoke_m338810690(L_0, L_1, /*hidden argument*/Action_1_Invoke_m338810690_MethodInfo_var);
+		return;
+	}
+}
+// System.Collections.IEnumerator IOSCamera::SaveScreenshot()
+extern Il2CppClass* U3CSaveScreenshotU3Ec__Iterator0_t106016999_il2cpp_TypeInfo_var;
+extern const uint32_t IOSCamera_SaveScreenshot_m2798110416_MetadataUsageId;
+extern "C"  Il2CppObject * IOSCamera_SaveScreenshot_m2798110416 (IOSCamera_t2845108690 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera_SaveScreenshot_m2798110416_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CSaveScreenshotU3Ec__Iterator0_t106016999 * V_0 = NULL;
+	{
+		U3CSaveScreenshotU3Ec__Iterator0_t106016999 * L_0 = (U3CSaveScreenshotU3Ec__Iterator0_t106016999 *)il2cpp_codegen_object_new(U3CSaveScreenshotU3Ec__Iterator0_t106016999_il2cpp_TypeInfo_var);
+		U3CSaveScreenshotU3Ec__Iterator0__ctor_m2560713472(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CSaveScreenshotU3Ec__Iterator0_t106016999 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U24this_3(__this);
+		U3CSaveScreenshotU3Ec__Iterator0_t106016999 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void IOSCamera::.cctor()
+extern Il2CppClass* Action_1_t1473133776_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSCamera_t2845108690_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1831019615_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSCamera_U3COnImagePickedU3Em__0_m4100995128_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2165319159_MethodInfo_var;
+extern const MethodInfo* IOSCamera_U3COnImageSavedU3Em__1_m2462385558_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const MethodInfo* IOSCamera_U3COnVideoPathPickedU3Em__2_m3511615417_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m4012585251_MethodInfo_var;
+extern const uint32_t IOSCamera__cctor_m3436549672_MetadataUsageId;
+extern "C"  void IOSCamera__cctor_m3436549672 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSCamera__cctor_m3436549672_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)IOSCamera_U3COnImagePickedU3Em__0_m4100995128_MethodInfo_var);
+		Action_1_t1473133776 * L_1 = (Action_1_t1473133776 *)il2cpp_codegen_object_new(Action_1_t1473133776_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2165319159(L_1, NULL, L_0, /*hidden argument*/Action_1__ctor_m2165319159_MethodInfo_var);
+		((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->set_OnImagePicked_4(L_1);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)IOSCamera_U3COnImageSavedU3Em__1_m2462385558_MethodInfo_var);
+		Action_1_t2577430992 * L_3 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->set_OnImageSaved_5(L_3);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)IOSCamera_U3COnVideoPathPickedU3Em__2_m3511615417_MethodInfo_var);
+		Action_1_t1831019615 * L_5 = (Action_1_t1831019615 *)il2cpp_codegen_object_new(Action_1_t1831019615_il2cpp_TypeInfo_var);
+		Action_1__ctor_m4012585251(L_5, NULL, L_4, /*hidden argument*/Action_1__ctor_m4012585251_MethodInfo_var);
+		((IOSCamera_t2845108690_StaticFields*)IOSCamera_t2845108690_il2cpp_TypeInfo_var->static_fields)->set_OnVideoPathPicked_6(L_5);
+		return;
+	}
+}
+// System.Void IOSCamera::<OnImagePicked>m__0(IOSImagePickResult)
+extern "C"  void IOSCamera_U3COnImagePickedU3Em__0_m4100995128 (Il2CppObject * __this /* static, unused */, IOSImagePickResult_t1671334394 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::<OnImageSaved>m__1(ISN_Result)
+extern "C"  void IOSCamera_U3COnImageSavedU3Em__1_m2462385558 (Il2CppObject * __this /* static, unused */, ISN_Result_t2775631610 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSCamera::<OnVideoPathPicked>m__2(System.String)
+extern "C"  void IOSCamera_U3COnVideoPathPickedU3Em__2_m3511615417 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSCamera/<SaveScreenshot>c__Iterator0::.ctor()
+extern "C"  void U3CSaveScreenshotU3Ec__Iterator0__ctor_m2560713472 (U3CSaveScreenshotU3Ec__Iterator0_t106016999 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean IOSCamera/<SaveScreenshot>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSaveScreenshotU3Ec__Iterator0_MoveNext_m3580717732_MetadataUsageId;
+extern "C"  bool U3CSaveScreenshotU3Ec__Iterator0_MoveNext_m3580717732 (U3CSaveScreenshotU3Ec__Iterator0_t106016999 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSaveScreenshotU3Ec__Iterator0_MoveNext_m3580717732_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_6();
+		V_0 = L_0;
+		__this->set_U24PC_6((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		goto IL_00c7;
+	}
+
+IL_0021:
+	{
+		WaitForEndOfFrame_t1785723201 * L_2 = (WaitForEndOfFrame_t1785723201 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m3062480170(L_2, /*hidden argument*/NULL);
+		__this->set_U24current_4(L_2);
+		bool L_3 = __this->get_U24disposing_5();
+		if (L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		__this->set_U24PC_6(1);
+	}
+
+IL_003b:
+	{
+		goto IL_00c9;
+	}
+
+IL_0040:
+	{
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CwidthU3E__0_0(L_4);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CheightU3E__1_1(L_5);
+		int32_t L_6 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_7 = __this->get_U3CheightU3E__1_1();
+		Texture2D_t3542995729 * L_8 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m1873923924(L_8, L_6, L_7, 3, (bool)0, /*hidden argument*/NULL);
+		__this->set_U3CtexU3E__2_2(L_8);
+		Texture2D_t3542995729 * L_9 = __this->get_U3CtexU3E__2_2();
+		int32_t L_10 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_11 = __this->get_U3CheightU3E__1_1();
+		Rect_t3681755626  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		Rect__ctor_m1220545469(&L_12, (0.0f), (0.0f), (((float)((float)L_10))), (((float)((float)L_11))), /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Texture2D_ReadPixels_m1120832672(L_9, L_12, 0, 0, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_13 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_13);
+		Texture2D_Apply_m3543341930(L_13, /*hidden argument*/NULL);
+		IOSCamera_t2845108690 * L_14 = __this->get_U24this_3();
+		Texture2D_t3542995729 * L_15 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_14);
+		IOSCamera_SaveTextureToCameraRoll_m1085181654(L_14, L_15, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_16 = __this->get_U3CtexU3E__2_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		__this->set_U24PC_6((-1));
+	}
+
+IL_00c7:
+	{
+		return (bool)0;
+	}
+
+IL_00c9:
+	{
+		return (bool)1;
+	}
+}
+// System.Object IOSCamera/<SaveScreenshot>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CSaveScreenshotU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3225119148 (U3CSaveScreenshotU3Ec__Iterator0_t106016999 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Object IOSCamera/<SaveScreenshot>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CSaveScreenshotU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4013118884 (U3CSaveScreenshotU3Ec__Iterator0_t106016999 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Void IOSCamera/<SaveScreenshot>c__Iterator0::Dispose()
+extern "C"  void U3CSaveScreenshotU3Ec__Iterator0_Dispose_m4231855437 (U3CSaveScreenshotU3Ec__Iterator0_t106016999 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_5((bool)1);
+		__this->set_U24PC_6((-1));
+		return;
+	}
+}
+// System.Void IOSCamera/<SaveScreenshot>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSaveScreenshotU3Ec__Iterator0_Reset_m1769095799_MetadataUsageId;
+extern "C"  void U3CSaveScreenshotU3Ec__Iterator0_Reset_m1769095799 (U3CSaveScreenshotU3Ec__Iterator0_t106016999 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSaveScreenshotU3Ec__Iterator0_Reset_m1769095799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void IOSDateTimePicker::.ctor()
+extern Il2CppClass* IOSDateTimePicker_t849222074_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t495005051_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t4084789386_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSDateTimePicker_U3COnDateChangedU3Em__0_m266014115_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3390488079_MethodInfo_var;
+extern const MethodInfo* IOSDateTimePicker_U3COnPickerClosedU3Em__1_m2900521580_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m2514399912_MethodInfo_var;
+extern const uint32_t IOSDateTimePicker__ctor_m54556869_MetadataUsageId;
+extern "C"  void IOSDateTimePicker__ctor_m54556869 (IOSDateTimePicker_t849222074 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDateTimePicker__ctor_m54556869_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSDateTimePicker_t849222074 * G_B2_0 = NULL;
+	IOSDateTimePicker_t849222074 * G_B1_0 = NULL;
+	IOSDateTimePicker_t849222074 * G_B4_0 = NULL;
+	IOSDateTimePicker_t849222074 * G_B3_0 = NULL;
+	{
+		Action_1_t495005051 * L_0 = ((IOSDateTimePicker_t849222074_StaticFields*)IOSDateTimePicker_t849222074_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)IOSDateTimePicker_U3COnDateChangedU3Em__0_m266014115_MethodInfo_var);
+		Action_1_t495005051 * L_2 = (Action_1_t495005051 *)il2cpp_codegen_object_new(Action_1_t495005051_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3390488079(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m3390488079_MethodInfo_var);
+		((IOSDateTimePicker_t849222074_StaticFields*)IOSDateTimePicker_t849222074_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_6(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_1_t495005051 * L_3 = ((IOSDateTimePicker_t849222074_StaticFields*)IOSDateTimePicker_t849222074_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		NullCheck(G_B2_0);
+		G_B2_0->set_OnDateChanged_4(L_3);
+		Action_1_t495005051 * L_4 = ((IOSDateTimePicker_t849222074_StaticFields*)IOSDateTimePicker_t849222074_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_7();
+		G_B3_0 = __this;
+		if (L_4)
+		{
+			G_B4_0 = __this;
+			goto IL_003c;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)IOSDateTimePicker_U3COnPickerClosedU3Em__1_m2900521580_MethodInfo_var);
+		Action_1_t495005051 * L_6 = (Action_1_t495005051 *)il2cpp_codegen_object_new(Action_1_t495005051_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3390488079(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m3390488079_MethodInfo_var);
+		((IOSDateTimePicker_t849222074_StaticFields*)IOSDateTimePicker_t849222074_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_7(L_6);
+		G_B4_0 = G_B3_0;
+	}
+
+IL_003c:
+	{
+		Action_1_t495005051 * L_7 = ((IOSDateTimePicker_t849222074_StaticFields*)IOSDateTimePicker_t849222074_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_7();
+		NullCheck(G_B4_0);
+		G_B4_0->set_OnPickerClosed_5(L_7);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t4084789386_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m2514399912(__this, /*hidden argument*/ISN_Singleton_1__ctor_m2514399912_MethodInfo_var);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_ShowDP(int32_t);
+// System.Void IOSDateTimePicker::_ISN_ShowDP(System.Int32)
+extern "C"  void IOSDateTimePicker__ISN_ShowDP_m355759315 (Il2CppObject * __this /* static, unused */, int32_t ___mode0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ShowDP)(___mode0);
+
+}
+// System.Void IOSDateTimePicker::Show(IOSDateTimePickerMode)
+extern "C"  void IOSDateTimePicker_Show_m3977456623 (IOSDateTimePicker_t849222074 * __this, int32_t ___mode0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___mode0;
+		IOSDateTimePicker__ISN_ShowDP_m355759315(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSDateTimePicker::DateChangedEvent(System.String)
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m794213822_MethodInfo_var;
+extern const uint32_t IOSDateTimePicker_DateChangedEvent_m1110016961_MetadataUsageId;
+extern "C"  void IOSDateTimePicker_DateChangedEvent_m1110016961 (IOSDateTimePicker_t849222074 * __this, String_t* ___time0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDateTimePicker_DateChangedEvent_m1110016961_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DateTime_t693205669  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		String_t* L_0 = ___time0;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_1 = DateTime_Parse_m1142721566(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t495005051 * L_2 = __this->get_OnDateChanged_4();
+		DateTime_t693205669  L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m794213822(L_2, L_3, /*hidden argument*/Action_1_Invoke_m794213822_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSDateTimePicker::PickerClosed(System.String)
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m794213822_MethodInfo_var;
+extern const uint32_t IOSDateTimePicker_PickerClosed_m2304915803_MetadataUsageId;
+extern "C"  void IOSDateTimePicker_PickerClosed_m2304915803 (IOSDateTimePicker_t849222074 * __this, String_t* ___time0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDateTimePicker_PickerClosed_m2304915803_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DateTime_t693205669  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		String_t* L_0 = ___time0;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_1 = DateTime_Parse_m1142721566(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t495005051 * L_2 = __this->get_OnPickerClosed_5();
+		DateTime_t693205669  L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m794213822(L_2, L_3, /*hidden argument*/Action_1_Invoke_m794213822_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSDateTimePicker::<OnDateChanged>m__0(System.DateTime)
+extern "C"  void IOSDateTimePicker_U3COnDateChangedU3Em__0_m266014115 (Il2CppObject * __this /* static, unused */, DateTime_t693205669  p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSDateTimePicker::<OnPickerClosed>m__1(System.DateTime)
+extern "C"  void IOSDateTimePicker_U3COnPickerClosedU3Em__1_m2900521580 (Il2CppObject * __this /* static, unused */, DateTime_t693205669  p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSDialog::.ctor()
+extern Il2CppClass* IOSDialog_t3518705031_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3541040698_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSDialog_U3COnCompleteU3Em__0_m2945816041_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m157354353_MethodInfo_var;
+extern const uint32_t IOSDialog__ctor_m2563357144_MetadataUsageId;
+extern "C"  void IOSDialog__ctor_m2563357144 (IOSDialog_t3518705031 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDialog__ctor_m2563357144_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSDialog_t3518705031 * G_B2_0 = NULL;
+	IOSDialog_t3518705031 * G_B1_0 = NULL;
+	{
+		Action_1_t3541040698 * L_0 = ((IOSDialog_t3518705031_StaticFields*)IOSDialog_t3518705031_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_7();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)IOSDialog_U3COnCompleteU3Em__0_m2945816041_MethodInfo_var);
+		Action_1_t3541040698 * L_2 = (Action_1_t3541040698 *)il2cpp_codegen_object_new(Action_1_t3541040698_il2cpp_TypeInfo_var);
+		Action_1__ctor_m157354353(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m157354353_MethodInfo_var);
+		((IOSDialog_t3518705031_StaticFields*)IOSDialog_t3518705031_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_7(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_1_t3541040698 * L_3 = ((IOSDialog_t3518705031_StaticFields*)IOSDialog_t3518705031_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_7();
+		NullCheck(G_B2_0);
+		G_B2_0->set_OnComplete_6(L_3);
+		BaseIOSPopup__ctor_m3656648297(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSDialog::add_OnComplete(System.Action`1<IOSDialogResult>)
+extern Il2CppClass* Action_1_t3541040698_il2cpp_TypeInfo_var;
+extern const uint32_t IOSDialog_add_OnComplete_m2951254042_MetadataUsageId;
+extern "C"  void IOSDialog_add_OnComplete_m2951254042 (IOSDialog_t3518705031 * __this, Action_1_t3541040698 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDialog_add_OnComplete_m2951254042_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3541040698 * V_0 = NULL;
+	Action_1_t3541040698 * V_1 = NULL;
+	{
+		Action_1_t3541040698 * L_0 = __this->get_OnComplete_6();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t3541040698 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t3541040698 ** L_2 = __this->get_address_of_OnComplete_6();
+		Action_1_t3541040698 * L_3 = V_1;
+		Action_1_t3541040698 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t3541040698 * L_6 = V_0;
+		Action_1_t3541040698 * L_7 = InterlockedCompareExchangeImpl<Action_1_t3541040698 *>(L_2, ((Action_1_t3541040698 *)CastclassSealed(L_5, Action_1_t3541040698_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t3541040698 * L_8 = V_0;
+		Action_1_t3541040698 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3541040698 *)L_8) == ((Il2CppObject*)(Action_1_t3541040698 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSDialog::remove_OnComplete(System.Action`1<IOSDialogResult>)
+extern Il2CppClass* Action_1_t3541040698_il2cpp_TypeInfo_var;
+extern const uint32_t IOSDialog_remove_OnComplete_m491098941_MetadataUsageId;
+extern "C"  void IOSDialog_remove_OnComplete_m491098941 (IOSDialog_t3518705031 * __this, Action_1_t3541040698 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDialog_remove_OnComplete_m491098941_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3541040698 * V_0 = NULL;
+	Action_1_t3541040698 * V_1 = NULL;
+	{
+		Action_1_t3541040698 * L_0 = __this->get_OnComplete_6();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t3541040698 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t3541040698 ** L_2 = __this->get_address_of_OnComplete_6();
+		Action_1_t3541040698 * L_3 = V_1;
+		Action_1_t3541040698 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t3541040698 * L_6 = V_0;
+		Action_1_t3541040698 * L_7 = InterlockedCompareExchangeImpl<Action_1_t3541040698 *>(L_2, ((Action_1_t3541040698 *)CastclassSealed(L_5, Action_1_t3541040698_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t3541040698 * L_8 = V_0;
+		Action_1_t3541040698 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3541040698 *)L_8) == ((Il2CppObject*)(Action_1_t3541040698 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// IOSDialog IOSDialog::Create(System.String,System.String)
+extern Il2CppCodeGenString* _stringLiteral3021629903;
+extern Il2CppCodeGenString* _stringLiteral1496915101;
+extern const uint32_t IOSDialog_Create_m1314851946_MetadataUsageId;
+extern "C"  IOSDialog_t3518705031 * IOSDialog_Create_m1314851946 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDialog_Create_m1314851946_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		IOSDialog_t3518705031 * L_2 = IOSDialog_Create_m1582807338(NULL /*static, unused*/, L_0, L_1, _stringLiteral3021629903, _stringLiteral1496915101, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// IOSDialog IOSDialog::Create(System.String,System.String,System.String,System.String)
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisIOSDialog_t3518705031_m2261869937_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2239062855;
+extern const uint32_t IOSDialog_Create_m1582807338_MetadataUsageId;
+extern "C"  IOSDialog_t3518705031 * IOSDialog_Create_m1582807338 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___yes2, String_t* ___no3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDialog_Create_m1582807338_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSDialog_t3518705031 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_0, _stringLiteral2239062855, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		IOSDialog_t3518705031 * L_1 = GameObject_AddComponent_TisIOSDialog_t3518705031_m2261869937(L_0, /*hidden argument*/GameObject_AddComponent_TisIOSDialog_t3518705031_m2261869937_MethodInfo_var);
+		V_0 = L_1;
+		IOSDialog_t3518705031 * L_2 = V_0;
+		String_t* L_3 = ___title0;
+		NullCheck(L_2);
+		((BaseIOSPopup_t3320937364 *)L_2)->set_title_2(L_3);
+		IOSDialog_t3518705031 * L_4 = V_0;
+		String_t* L_5 = ___message1;
+		NullCheck(L_4);
+		((BaseIOSPopup_t3320937364 *)L_4)->set_message_3(L_5);
+		IOSDialog_t3518705031 * L_6 = V_0;
+		String_t* L_7 = ___yes2;
+		NullCheck(L_6);
+		L_6->set_yes_4(L_7);
+		IOSDialog_t3518705031 * L_8 = V_0;
+		String_t* L_9 = ___no3;
+		NullCheck(L_8);
+		L_8->set_no_5(L_9);
+		IOSDialog_t3518705031 * L_10 = V_0;
+		NullCheck(L_10);
+		IOSDialog_init_m3064361236(L_10, /*hidden argument*/NULL);
+		IOSDialog_t3518705031 * L_11 = V_0;
+		return L_11;
+	}
+}
+// System.Void IOSDialog::init()
+extern "C"  void IOSDialog_init_m3064361236 (IOSDialog_t3518705031 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ((BaseIOSPopup_t3320937364 *)__this)->get_title_2();
+		String_t* L_1 = ((BaseIOSPopup_t3320937364 *)__this)->get_message_3();
+		String_t* L_2 = __this->get_yes_4();
+		String_t* L_3 = __this->get_no_5();
+		IOSNativePopUpManager_showDialog_m3905221345(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSDialog::onPopUpCallBack(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1604875246_MethodInfo_var;
+extern const uint32_t IOSDialog_onPopUpCallBack_m340235872_MetadataUsageId;
+extern "C"  void IOSDialog_onPopUpCallBack_m340235872 (IOSDialog_t3518705031 * __this, String_t* ___buttonIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSDialog_onPopUpCallBack_m340235872_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___buttonIndex0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int16_t L_1 = Convert_ToInt16_m2606681745(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		goto IL_003b;
+	}
+
+IL_0019:
+	{
+		Action_1_t3541040698 * L_4 = __this->get_OnComplete_6();
+		NullCheck(L_4);
+		Action_1_Invoke_m1604875246(L_4, 0, /*hidden argument*/Action_1_Invoke_m1604875246_MethodInfo_var);
+		goto IL_003b;
+	}
+
+IL_002a:
+	{
+		Action_1_t3541040698 * L_5 = __this->get_OnComplete_6();
+		NullCheck(L_5);
+		Action_1_Invoke_m1604875246(L_5, 1, /*hidden argument*/Action_1_Invoke_m1604875246_MethodInfo_var);
+		goto IL_003b;
+	}
+
+IL_003b:
+	{
+		GameObject_t1756533147 * L_6 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSDialog::<OnComplete>m__0(IOSDialogResult)
+extern "C"  void IOSDialog_U3COnCompleteU3Em__0_m2945816041 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSGravity::.ctor()
+extern "C"  void IOSGravity__ctor_m2684224100 (IOSGravity_t1757344581 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSImagePickResult::.ctor(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1890700843;
+extern Il2CppCodeGenString* _stringLiteral4001963648;
+extern const uint32_t IOSImagePickResult__ctor_m2811778119_MetadataUsageId;
+extern "C"  void IOSImagePickResult__ctor_m2811778119 (IOSImagePickResult_t1671334394 * __this, String_t* ___ImageData0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSImagePickResult__ctor_m2811778119_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	{
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		String_t* L_0 = ___ImageData0;
+		NullCheck(L_0);
+		int32_t L_1 = String_get_Length_m1606060069(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		((ISN_Result_t2775631610 *)__this)->set__IsSucceeded_1((bool)0);
+		return;
+	}
+
+IL_001a:
+	{
+		String_t* L_2 = ___ImageData0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_3 = Convert_FromBase64String_m3629466114(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Texture2D_t3542995729 * L_4 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m3598323350(L_4, 1, 1, /*hidden argument*/NULL);
+		__this->set__image_2(L_4);
+		Texture2D_t3542995729 * L_5 = __this->get__image_2();
+		ByteU5BU5D_t3397334013* L_6 = V_0;
+		NullCheck(L_5);
+		Texture2D_LoadImage_m867542842(L_5, L_6, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_7 = __this->get__image_2();
+		NullCheck(L_7);
+		Object_set_hideFlags_m2204253440(L_7, ((int32_t)52), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_8 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		bool L_9 = L_8->get_DisablePluginLogs_16();
+		if (L_9)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_10 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, _stringLiteral1890700843);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral1890700843);
+		ObjectU5BU5D_t3614634134* L_11 = L_10;
+		Texture2D_t3542995729 * L_12 = __this->get__image_2();
+		NullCheck(L_12);
+		int32_t L_13 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_12);
+		int32_t L_14 = L_13;
+		Il2CppObject * L_15 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_14);
+		NullCheck(L_11);
+		ArrayElementTypeCheck (L_11, L_15);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_15);
+		ObjectU5BU5D_t3614634134* L_16 = L_11;
+		NullCheck(L_16);
+		ArrayElementTypeCheck (L_16, _stringLiteral4001963648);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)_stringLiteral4001963648);
+		ObjectU5BU5D_t3614634134* L_17 = L_16;
+		Texture2D_t3542995729 * L_18 = __this->get__image_2();
+		NullCheck(L_18);
+		int32_t L_19 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_height() */, L_18);
+		int32_t L_20 = L_19;
+		Il2CppObject * L_21 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_20);
+		NullCheck(L_17);
+		ArrayElementTypeCheck (L_17, L_21);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_21);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Concat_m3881798623(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_22, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_009e:
+	{
+		return;
+	}
+}
+// UnityEngine.Texture2D IOSImagePickResult::get_image()
+extern "C"  Texture2D_t3542995729 * IOSImagePickResult_get_image_m253256924 (IOSImagePickResult_t1671334394 * __this, const MethodInfo* method)
+{
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__image_2();
+		return L_0;
+	}
+}
+// System.Void IOSInAppPurchaseManager::.ctor()
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t405719514_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3909993199_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3132292715_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1780662897_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m3849954239_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager__ctor_m1169473228_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager__ctor_m1169473228 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager__ctor_m1169473228_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set__IsInAppPurchasesEnabled_13((bool)1);
+		List_1_t1398341365 * L_0 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_0, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set__productsIds_15(L_0);
+		List_1_t405719514 * L_1 = (List_1_t405719514 *)il2cpp_codegen_object_new(List_1_t405719514_il2cpp_TypeInfo_var);
+		List_1__ctor_m3132292715(L_1, /*hidden argument*/List_1__ctor_m3132292715_MethodInfo_var);
+		__this->set__products_16(L_1);
+		Dictionary_2_t3909993199 * L_2 = (Dictionary_2_t3909993199 *)il2cpp_codegen_object_new(Dictionary_2_t3909993199_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1780662897(L_2, /*hidden argument*/Dictionary_2__ctor_m1780662897_MethodInfo_var);
+		__this->set__productsView_17(L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m3849954239(__this, /*hidden argument*/ISN_Singleton_1__ctor_m3849954239_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::add_OnTransactionComplete(System.Action`1<IOSStoreKitResult>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2161206965_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_add_OnTransactionComplete_m3023858701_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_add_OnTransactionComplete_m3023858701 (Il2CppObject * __this /* static, unused */, Action_1_t2161206965 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_add_OnTransactionComplete_m3023858701_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2161206965 * V_0 = NULL;
+	Action_1_t2161206965 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2161206965 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnTransactionComplete_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2161206965 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2161206965 * L_2 = V_1;
+		Action_1_t2161206965 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2161206965 * L_5 = V_0;
+		Action_1_t2161206965 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2161206965 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnTransactionComplete_6()), ((Action_1_t2161206965 *)CastclassSealed(L_4, Action_1_t2161206965_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2161206965 * L_7 = V_0;
+		Action_1_t2161206965 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2161206965 *)L_7) == ((Il2CppObject*)(Action_1_t2161206965 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::remove_OnTransactionComplete(System.Action`1<IOSStoreKitResult>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2161206965_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_remove_OnTransactionComplete_m2166749436_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_remove_OnTransactionComplete_m2166749436 (Il2CppObject * __this /* static, unused */, Action_1_t2161206965 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_remove_OnTransactionComplete_m2166749436_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2161206965 * V_0 = NULL;
+	Action_1_t2161206965 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2161206965 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnTransactionComplete_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2161206965 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2161206965 * L_2 = V_1;
+		Action_1_t2161206965 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2161206965 * L_5 = V_0;
+		Action_1_t2161206965 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2161206965 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnTransactionComplete_6()), ((Action_1_t2161206965 *)CastclassSealed(L_4, Action_1_t2161206965_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2161206965 * L_7 = V_0;
+		Action_1_t2161206965 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2161206965 *)L_7) == ((Il2CppObject*)(Action_1_t2161206965 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::add_OnRestoreComplete(System.Action`1<IOSStoreKitRestoreResult>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3107075537_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_add_OnRestoreComplete_m1672779289_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_add_OnRestoreComplete_m1672779289 (Il2CppObject * __this /* static, unused */, Action_1_t3107075537 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_add_OnRestoreComplete_m1672779289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3107075537 * V_0 = NULL;
+	Action_1_t3107075537 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3107075537 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnRestoreComplete_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t3107075537 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3107075537 * L_2 = V_1;
+		Action_1_t3107075537 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t3107075537 * L_5 = V_0;
+		Action_1_t3107075537 * L_6 = InterlockedCompareExchangeImpl<Action_1_t3107075537 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnRestoreComplete_7()), ((Action_1_t3107075537 *)CastclassSealed(L_4, Action_1_t3107075537_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t3107075537 * L_7 = V_0;
+		Action_1_t3107075537 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3107075537 *)L_7) == ((Il2CppObject*)(Action_1_t3107075537 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::remove_OnRestoreComplete(System.Action`1<IOSStoreKitRestoreResult>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3107075537_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_remove_OnRestoreComplete_m4095046072_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_remove_OnRestoreComplete_m4095046072 (Il2CppObject * __this /* static, unused */, Action_1_t3107075537 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_remove_OnRestoreComplete_m4095046072_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3107075537 * V_0 = NULL;
+	Action_1_t3107075537 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3107075537 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnRestoreComplete_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t3107075537 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3107075537 * L_2 = V_1;
+		Action_1_t3107075537 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t3107075537 * L_5 = V_0;
+		Action_1_t3107075537 * L_6 = InterlockedCompareExchangeImpl<Action_1_t3107075537 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnRestoreComplete_7()), ((Action_1_t3107075537 *)CastclassSealed(L_4, Action_1_t3107075537_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t3107075537 * L_7 = V_0;
+		Action_1_t3107075537 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3107075537 *)L_7) == ((Il2CppObject*)(Action_1_t3107075537 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::add_OnStoreKitInitComplete(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_add_OnStoreKitInitComplete_m434975573_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_add_OnStoreKitInitComplete_m434975573 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_add_OnStoreKitInitComplete_m434975573_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnStoreKitInitComplete_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnStoreKitInitComplete_8()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::remove_OnStoreKitInitComplete(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_remove_OnStoreKitInitComplete_m856715212_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_remove_OnStoreKitInitComplete_m856715212 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_remove_OnStoreKitInitComplete_m856715212_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnStoreKitInitComplete_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnStoreKitInitComplete_8()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::add_OnPurchasesStateSettingsLoaded(System.Action`1<System.Boolean>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3627374100_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_add_OnPurchasesStateSettingsLoaded_m3882691367_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_add_OnPurchasesStateSettingsLoaded_m3882691367 (Il2CppObject * __this /* static, unused */, Action_1_t3627374100 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_add_OnPurchasesStateSettingsLoaded_m3882691367_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3627374100 * V_0 = NULL;
+	Action_1_t3627374100 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3627374100 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnPurchasesStateSettingsLoaded_9();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t3627374100 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3627374100 * L_2 = V_1;
+		Action_1_t3627374100 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t3627374100 * L_5 = V_0;
+		Action_1_t3627374100 * L_6 = InterlockedCompareExchangeImpl<Action_1_t3627374100 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnPurchasesStateSettingsLoaded_9()), ((Action_1_t3627374100 *)CastclassSealed(L_4, Action_1_t3627374100_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t3627374100 * L_7 = V_0;
+		Action_1_t3627374100 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3627374100 *)L_7) == ((Il2CppObject*)(Action_1_t3627374100 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::remove_OnPurchasesStateSettingsLoaded(System.Action`1<System.Boolean>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3627374100_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_remove_OnPurchasesStateSettingsLoaded_m1517391232_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_remove_OnPurchasesStateSettingsLoaded_m1517391232 (Il2CppObject * __this /* static, unused */, Action_1_t3627374100 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_remove_OnPurchasesStateSettingsLoaded_m1517391232_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3627374100 * V_0 = NULL;
+	Action_1_t3627374100 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3627374100 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnPurchasesStateSettingsLoaded_9();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t3627374100 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3627374100 * L_2 = V_1;
+		Action_1_t3627374100 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t3627374100 * L_5 = V_0;
+		Action_1_t3627374100 * L_6 = InterlockedCompareExchangeImpl<Action_1_t3627374100 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnPurchasesStateSettingsLoaded_9()), ((Action_1_t3627374100 *)CastclassSealed(L_4, Action_1_t3627374100_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t3627374100 * L_7 = V_0;
+		Action_1_t3627374100 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3627374100 *)L_7) == ((Il2CppObject*)(Action_1_t3627374100 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::add_OnVerificationComplete(System.Action`1<IOSStoreKitVerificationResponse>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4065457964_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_add_OnVerificationComplete_m1779016707_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_add_OnVerificationComplete_m1779016707 (Il2CppObject * __this /* static, unused */, Action_1_t4065457964 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_add_OnVerificationComplete_m1779016707_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t4065457964 * V_0 = NULL;
+	Action_1_t4065457964 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t4065457964 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnVerificationComplete_10();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t4065457964 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t4065457964 * L_2 = V_1;
+		Action_1_t4065457964 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t4065457964 * L_5 = V_0;
+		Action_1_t4065457964 * L_6 = InterlockedCompareExchangeImpl<Action_1_t4065457964 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnVerificationComplete_10()), ((Action_1_t4065457964 *)CastclassSealed(L_4, Action_1_t4065457964_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t4065457964 * L_7 = V_0;
+		Action_1_t4065457964 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t4065457964 *)L_7) == ((Il2CppObject*)(Action_1_t4065457964 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::remove_OnVerificationComplete(System.Action`1<IOSStoreKitVerificationResponse>)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4065457964_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_remove_OnVerificationComplete_m1582466936_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_remove_OnVerificationComplete_m1582466936 (Il2CppObject * __this /* static, unused */, Action_1_t4065457964 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_remove_OnVerificationComplete_m1582466936_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t4065457964 * V_0 = NULL;
+	Action_1_t4065457964 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t4065457964 * L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnVerificationComplete_10();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t4065457964 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t4065457964 * L_2 = V_1;
+		Action_1_t4065457964 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t4065457964 * L_5 = V_0;
+		Action_1_t4065457964 * L_6 = InterlockedCompareExchangeImpl<Action_1_t4065457964 *>((((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnVerificationComplete_10()), ((Action_1_t4065457964 *)CastclassSealed(L_4, Action_1_t4065457964_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t4065457964 * L_7 = V_0;
+		Action_1_t4065457964 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t4065457964 *)L_7) == ((Il2CppObject*)(Action_1_t4065457964 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_Awake_m728279501_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_Awake_m728279501 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_Awake_m728279501_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::loadStore()
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m804483696_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m870713862_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4175023932_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m2205157096_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m4077476129_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3959008621;
+extern Il2CppCodeGenString* _stringLiteral372029314;
+extern const uint32_t IOSInAppPurchaseManager_loadStore_m2301575177_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_loadStore_m2301575177 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_loadStore_m2301575177_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Enumerator_t933071039  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	String_t* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = __this->get__IsStoreLoaded_11();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		MonoBehaviour_Invoke_m666563676(__this, _stringLiteral3959008621, (1.0f), /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		bool L_1 = __this->get__IsWaitingLoadResult_12();
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0028:
+	{
+		__this->set__IsWaitingLoadResult_12((bool)1);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_2 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		List_1_t1398341365 * L_3 = L_2->get_InAppProducts_4();
+		NullCheck(L_3);
+		Enumerator_t933071039  L_4 = List_1_GetEnumerator_m804483696(L_3, /*hidden argument*/List_1_GetEnumerator_m804483696_MethodInfo_var);
+		V_1 = L_4;
+	}
+
+IL_003f:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0053;
+		}
+
+IL_0044:
+		{
+			String_t* L_5 = Enumerator_get_Current_m870713862((&V_1), /*hidden argument*/Enumerator_get_Current_m870713862_MethodInfo_var);
+			V_0 = L_5;
+			String_t* L_6 = V_0;
+			IOSInAppPurchaseManager_addProductId_m3734468261(__this, L_6, /*hidden argument*/NULL);
+		}
+
+IL_0053:
+		{
+			bool L_7 = Enumerator_MoveNext_m4175023932((&V_1), /*hidden argument*/Enumerator_MoveNext_m4175023932_MethodInfo_var);
+			if (L_7)
+			{
+				goto IL_0044;
+			}
+		}
+
+IL_005f:
+		{
+			IL2CPP_LEAVE(0x72, FINALLY_0064);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0064;
+	}
+
+FINALLY_0064:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m2205157096((&V_1), /*hidden argument*/Enumerator_Dispose_m2205157096_MethodInfo_var);
+		IL2CPP_END_FINALLY(100)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(100)
+	{
+		IL2CPP_JUMP_TBL(0x72, IL_0072)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0072:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_2 = L_8;
+		List_1_t1398341365 * L_9 = __this->get__productsIds_15();
+		NullCheck(L_9);
+		int32_t L_10 = List_1_get_Count_m780127360(L_9, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		V_3 = L_10;
+		V_4 = 0;
+		goto IL_00b9;
+	}
+
+IL_008c:
+	{
+		int32_t L_11 = V_4;
+		if (!L_11)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		String_t* L_12 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m2596409543(NULL /*static, unused*/, L_12, _stringLiteral372029314, /*hidden argument*/NULL);
+		V_2 = L_13;
+	}
+
+IL_009f:
+	{
+		String_t* L_14 = V_2;
+		List_1_t1398341365 * L_15 = __this->get__productsIds_15();
+		int32_t L_16 = V_4;
+		NullCheck(L_15);
+		String_t* L_17 = List_1_get_Item_m4077476129(L_15, L_16, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_18 = String_Concat_m2596409543(NULL /*static, unused*/, L_14, L_17, /*hidden argument*/NULL);
+		V_2 = L_18;
+		int32_t L_19 = V_4;
+		V_4 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_00b9:
+	{
+		int32_t L_20 = V_4;
+		int32_t L_21 = V_3;
+		if ((((int32_t)L_20) < ((int32_t)L_21)))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		String_t* L_22 = V_2;
+		IOSNativeMarketBridge_loadStore_m2640748431(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::RequestInAppSettingState()
+extern "C"  void IOSInAppPurchaseManager_RequestInAppSettingState_m3391090446 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	{
+		IOSNativeMarketBridge_ISN_RequestInAppSettingState_m2685199765(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::buyProduct(System.String)
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral729994691;
+extern Il2CppCodeGenString* _stringLiteral1817689272;
+extern const uint32_t IOSInAppPurchaseManager_buyProduct_m630097255_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_buyProduct_m630097255 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___productId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_buyProduct_m630097255_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__IsStoreLoaded_11();
+		if (L_0)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_1 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_2 = L_1->get_DisablePluginLogs_16();
+		if (L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Debug_LogWarning_m1379396000(NULL /*static, unused*/, _stringLiteral729994691, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		String_t* L_3 = ___productId0;
+		IOSInAppPurchaseManager_SendTransactionFailEvent_m3660563928(__this, L_3, _stringLiteral1817689272, 4, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0033:
+	{
+		String_t* L_4 = ___productId0;
+		IOSNativeMarketBridge_buyProduct_m1979115479(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::addProductId(System.String)
+extern const MethodInfo* List_1_Contains_m2369280605_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_addProductId_m3734468261_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_addProductId_m3734468261 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___productId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_addProductId_m3734468261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1398341365 * L_0 = __this->get__productsIds_15();
+		String_t* L_1 = ___productId0;
+		NullCheck(L_0);
+		bool L_2 = List_1_Contains_m2369280605(L_0, L_1, /*hidden argument*/List_1_Contains_m2369280605_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		List_1_t1398341365 * L_3 = __this->get__productsIds_15();
+		String_t* L_4 = ___productId0;
+		NullCheck(L_3);
+		List_1_Add_m4061286785(L_3, L_4, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		return;
+	}
+}
+// IOSProductTemplate IOSInAppPurchaseManager::GetProductById(System.String)
+extern const MethodInfo* List_1_GetEnumerator_m2598230760_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3497235734_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3035319172_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1186179714_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_GetProductById_m244587224_MetadataUsageId;
+extern "C"  IOSProductTemplate_t1036598382 * IOSInAppPurchaseManager_GetProductById_m244587224 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_GetProductById_m244587224_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSProductTemplate_t1036598382 * V_0 = NULL;
+	Enumerator_t4235416484  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IOSProductTemplate_t1036598382 * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t405719514 * L_0 = IOSInAppPurchaseManager_get_products_m946512798(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Enumerator_t4235416484  L_1 = List_1_GetEnumerator_m2598230760(L_0, /*hidden argument*/List_1_GetEnumerator_m2598230760_MethodInfo_var);
+		V_1 = L_1;
+	}
+
+IL_000c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0031;
+		}
+
+IL_0011:
+		{
+			IOSProductTemplate_t1036598382 * L_2 = Enumerator_get_Current_m3497235734((&V_1), /*hidden argument*/Enumerator_get_Current_m3497235734_MethodInfo_var);
+			V_0 = L_2;
+			IOSProductTemplate_t1036598382 * L_3 = V_0;
+			NullCheck(L_3);
+			String_t* L_4 = L_3->get_id_0();
+			String_t* L_5 = ___id0;
+			NullCheck(L_4);
+			bool L_6 = String_Equals_m2633592423(L_4, L_5, /*hidden argument*/NULL);
+			if (!L_6)
+			{
+				goto IL_0031;
+			}
+		}
+
+IL_002a:
+		{
+			IOSProductTemplate_t1036598382 * L_7 = V_0;
+			V_2 = L_7;
+			IL2CPP_LEAVE(0x52, FINALLY_0042);
+		}
+
+IL_0031:
+		{
+			bool L_8 = Enumerator_MoveNext_m3035319172((&V_1), /*hidden argument*/Enumerator_MoveNext_m3035319172_MethodInfo_var);
+			if (L_8)
+			{
+				goto IL_0011;
+			}
+		}
+
+IL_003d:
+		{
+			IL2CPP_LEAVE(0x50, FINALLY_0042);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0042;
+	}
+
+FINALLY_0042:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1186179714((&V_1), /*hidden argument*/Enumerator_Dispose_m1186179714_MethodInfo_var);
+		IL2CPP_END_FINALLY(66)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(66)
+	{
+		IL2CPP_JUMP_TBL(0x52, IL_0052)
+		IL2CPP_JUMP_TBL(0x50, IL_0050)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0050:
+	{
+		return (IOSProductTemplate_t1036598382 *)NULL;
+	}
+
+IL_0052:
+	{
+		IOSProductTemplate_t1036598382 * L_9 = V_2;
+		return L_9;
+	}
+}
+// System.Void IOSInAppPurchaseManager::restorePurchases()
+extern Il2CppClass* ISN_Error_t553253557_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSStoreKitRestoreResult_t3305276155_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1434018633_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4227957384;
+extern const uint32_t IOSInAppPurchaseManager_restorePurchases_m2029669048_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_restorePurchases_m2029669048 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_restorePurchases_m2029669048_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Error_t553253557 * V_0 = NULL;
+	IOSStoreKitRestoreResult_t3305276155 * V_1 = NULL;
+	{
+		bool L_0 = __this->get__IsStoreLoaded_11();
+		if (L_0)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		ISN_Error_t553253557 * L_1 = (ISN_Error_t553253557 *)il2cpp_codegen_object_new(ISN_Error_t553253557_il2cpp_TypeInfo_var);
+		ISN_Error__ctor_m2554300207(L_1, 7, _stringLiteral4227957384, /*hidden argument*/NULL);
+		V_0 = L_1;
+		ISN_Error_t553253557 * L_2 = V_0;
+		IOSStoreKitRestoreResult_t3305276155 * L_3 = (IOSStoreKitRestoreResult_t3305276155 *)il2cpp_codegen_object_new(IOSStoreKitRestoreResult_t3305276155_il2cpp_TypeInfo_var);
+		IOSStoreKitRestoreResult__ctor_m957296133(L_3, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3107075537 * L_4 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnRestoreComplete_7();
+		IOSStoreKitRestoreResult_t3305276155 * L_5 = V_1;
+		NullCheck(L_4);
+		Action_1_Invoke_m1434018633(L_4, L_5, /*hidden argument*/Action_1_Invoke_m1434018633_MethodInfo_var);
+		return;
+	}
+
+IL_002a:
+	{
+		IOSNativeMarketBridge_restorePurchases_m224082834(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::verifyLastPurchase(System.String)
+extern "C"  void IOSInAppPurchaseManager_verifyLastPurchase_m2958022130 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___url0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___url0;
+		IOSInAppPurchaseManager_VerifyLastPurchase_m2386444434(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::VerifyLastPurchase(System.String)
+extern "C"  void IOSInAppPurchaseManager_VerifyLastPurchase_m2386444434 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___url0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___url0;
+		IOSNativeMarketBridge_verifyLastPurchase_m1415496064(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::RegisterProductView(IOSStoreProductView)
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m2204903337_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_RegisterProductView_m3355014571_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_RegisterProductView_m3355014571 (IOSInAppPurchaseManager_t644626385 * __this, IOSStoreProductView_t607200268 * ___view0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_RegisterProductView_m3355014571_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IOSStoreProductView_t607200268 * L_0 = ___view0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		int32_t L_1 = IOSInAppPurchaseManager_get_nextId_m857341981(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		IOSStoreProductView_SetId_m231812149(L_0, L_1, /*hidden argument*/NULL);
+		Dictionary_2_t3909993199 * L_2 = __this->get__productsView_17();
+		IOSStoreProductView_t607200268 * L_3 = ___view0;
+		NullCheck(L_3);
+		int32_t L_4 = IOSStoreProductView_get_id_m4253295001(L_3, /*hidden argument*/NULL);
+		IOSStoreProductView_t607200268 * L_5 = ___view0;
+		NullCheck(L_2);
+		Dictionary_2_Add_m2204903337(L_2, L_4, L_5, /*hidden argument*/Dictionary_2_Add_m2204903337_MethodInfo_var);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<IOSProductTemplate> IOSInAppPurchaseManager::get_products()
+extern "C"  List_1_t405719514 * IOSInAppPurchaseManager_get_products_m946512798 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	{
+		List_1_t405719514 * L_0 = __this->get__products_16();
+		return L_0;
+	}
+}
+// System.Boolean IOSInAppPurchaseManager::get_IsStoreLoaded()
+extern "C"  bool IOSInAppPurchaseManager_get_IsStoreLoaded_m3811618283 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsStoreLoaded_11();
+		return L_0;
+	}
+}
+// System.Boolean IOSInAppPurchaseManager::get_IsInAppPurchasesEnabled()
+extern "C"  bool IOSInAppPurchaseManager_get_IsInAppPurchasesEnabled_m3381933626 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsInAppPurchasesEnabled_13();
+		return L_0;
+	}
+}
+// System.Boolean IOSInAppPurchaseManager::get_IsWaitingLoadResult()
+extern "C"  bool IOSInAppPurchaseManager_get_IsWaitingLoadResult_m1640646835 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__IsWaitingLoadResult_12();
+		return L_0;
+	}
+}
+// System.Int32 IOSInAppPurchaseManager::get_nextId()
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_get_nextId_m857341981_MetadataUsageId;
+extern "C"  int32_t IOSInAppPurchaseManager_get_nextId_m857341981 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_get_nextId_m857341981_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get__nextId_14();
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set__nextId_14(((int32_t)((int32_t)L_0+(int32_t)1)));
+		int32_t L_1 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get__nextId_14();
+		return L_1;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onStoreKitStart(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3662000152_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_onStoreKitStart_m3679063940_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_onStoreKitStart_m3679063940 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_onStoreKitStart_m3679063940_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___data0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		__this->set__IsInAppPurchasesEnabled_13((bool)1);
+		goto IL_0021;
+	}
+
+IL_001a:
+	{
+		__this->set__IsInAppPurchasesEnabled_13((bool)0);
+	}
+
+IL_0021:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3627374100 * L_3 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnPurchasesStateSettingsLoaded_9();
+		bool L_4 = __this->get__IsInAppPurchasesEnabled_13();
+		NullCheck(L_3);
+		Action_1_Invoke_m3662000152(L_3, L_4, /*hidden argument*/Action_1_Invoke_m3662000152_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::OnStoreKitInitFailed(System.String)
+extern Il2CppClass* ISN_Error_t553253557_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2004420705;
+extern const uint32_t IOSInAppPurchaseManager_OnStoreKitInitFailed_m2068004431_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_OnStoreKitInitFailed_m2068004431 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_OnStoreKitInitFailed_m2068004431_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Error_t553253557 * V_0 = NULL;
+	ISN_Result_t2775631610 * V_1 = NULL;
+	{
+		String_t* L_0 = ___data0;
+		ISN_Error_t553253557 * L_1 = (ISN_Error_t553253557 *)il2cpp_codegen_object_new(ISN_Error_t553253557_il2cpp_TypeInfo_var);
+		ISN_Error__ctor_m4248599056(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		__this->set__IsStoreLoaded_11((bool)0);
+		__this->set__IsWaitingLoadResult_12((bool)0);
+		ISN_Result_t2775631610 * L_2 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_2, (bool)0, /*hidden argument*/NULL);
+		V_1 = L_2;
+		ISN_Result_t2775631610 * L_3 = V_1;
+		ISN_Error_t553253557 * L_4 = V_0;
+		NullCheck(L_3);
+		ISN_Result_SetError_m2049516378(L_3, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_5 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnStoreKitInitComplete_8();
+		ISN_Result_t2775631610 * L_6 = V_1;
+		NullCheck(L_5);
+		Action_1_Invoke_m1651425124(L_5, L_6, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_7 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		bool L_8 = L_7->get_DisablePluginLogs_16();
+		if (L_8)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		ISN_Error_t553253557 * L_9 = V_0;
+		NullCheck(L_9);
+		String_t* L_10 = ISN_Error_get_Description_m3136629502(L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2004420705, L_10, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_11, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0053:
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onStoreDataReceived(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSProductTemplate_t1036598382_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m2607393979_MethodInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2094622111_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2345539370;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern Il2CppCodeGenString* _stringLiteral1170460129;
+extern const uint32_t IOSInAppPurchaseManager_onStoreDataReceived_m3120330807_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_onStoreDataReceived_m3120330807 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_onStoreDataReceived_m3120330807_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ISN_Result_t2775631610 * V_1 = NULL;
+	StringU5BU5D_t1642385972* V_2 = NULL;
+	int32_t V_3 = 0;
+	IOSProductTemplate_t1036598382 * V_4 = NULL;
+	int32_t V_5 = 0;
+	{
+		String_t* L_0 = ___data0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_0);
+		bool L_2 = String_Equals_m2633592423(L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		List_1_t405719514 * L_3 = __this->get__products_16();
+		NullCheck(L_3);
+		int32_t L_4 = List_1_get_Count_m2607393979(L_3, /*hidden argument*/List_1_get_Count_m2607393979_MethodInfo_var);
+		V_0 = L_4;
+		String_t* L_5 = Int32_ToString_m2960866144((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2345539370, L_5, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		ISN_Result_t2775631610 * L_7 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_7, (bool)1, /*hidden argument*/NULL);
+		V_1 = L_7;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_8 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnStoreKitInitComplete_8();
+		ISN_Result_t2775631610 * L_9 = V_1;
+		NullCheck(L_8);
+		Action_1_Invoke_m1651425124(L_8, L_9, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		return;
+	}
+
+IL_004c:
+	{
+		String_t* L_10 = ___data0;
+		CharU5BU5D_t1328083999* L_11 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_12 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_12);
+		NullCheck(L_10);
+		StringU5BU5D_t1642385972* L_13 = String_Split_m3326265864(L_10, L_11, /*hidden argument*/NULL);
+		V_2 = L_13;
+		V_3 = 0;
+		goto IL_00d8;
+	}
+
+IL_006e:
+	{
+		IOSProductTemplate_t1036598382 * L_14 = (IOSProductTemplate_t1036598382 *)il2cpp_codegen_object_new(IOSProductTemplate_t1036598382_il2cpp_TypeInfo_var);
+		IOSProductTemplate__ctor_m339007845(L_14, /*hidden argument*/NULL);
+		V_4 = L_14;
+		IOSProductTemplate_t1036598382 * L_15 = V_4;
+		StringU5BU5D_t1642385972* L_16 = V_2;
+		int32_t L_17 = V_3;
+		NullCheck(L_16);
+		int32_t L_18 = L_17;
+		String_t* L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		NullCheck(L_15);
+		L_15->set_id_0(L_19);
+		IOSProductTemplate_t1036598382 * L_20 = V_4;
+		StringU5BU5D_t1642385972* L_21 = V_2;
+		int32_t L_22 = V_3;
+		NullCheck(L_21);
+		int32_t L_23 = ((int32_t)((int32_t)L_22+(int32_t)1));
+		String_t* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		NullCheck(L_20);
+		L_20->set_title_1(L_24);
+		IOSProductTemplate_t1036598382 * L_25 = V_4;
+		StringU5BU5D_t1642385972* L_26 = V_2;
+		int32_t L_27 = V_3;
+		NullCheck(L_26);
+		int32_t L_28 = ((int32_t)((int32_t)L_27+(int32_t)2));
+		String_t* L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		NullCheck(L_25);
+		L_25->set_description_2(L_29);
+		IOSProductTemplate_t1036598382 * L_30 = V_4;
+		StringU5BU5D_t1642385972* L_31 = V_2;
+		int32_t L_32 = V_3;
+		NullCheck(L_31);
+		int32_t L_33 = ((int32_t)((int32_t)L_32+(int32_t)3));
+		String_t* L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
+		NullCheck(L_30);
+		L_30->set_localizedPrice_4(L_34);
+		IOSProductTemplate_t1036598382 * L_35 = V_4;
+		StringU5BU5D_t1642385972* L_36 = V_2;
+		int32_t L_37 = V_3;
+		NullCheck(L_36);
+		int32_t L_38 = ((int32_t)((int32_t)L_37+(int32_t)4));
+		String_t* L_39 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		NullCheck(L_35);
+		L_35->set_price_3(L_39);
+		IOSProductTemplate_t1036598382 * L_40 = V_4;
+		StringU5BU5D_t1642385972* L_41 = V_2;
+		int32_t L_42 = V_3;
+		NullCheck(L_41);
+		int32_t L_43 = ((int32_t)((int32_t)L_42+(int32_t)5));
+		String_t* L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		NullCheck(L_40);
+		L_40->set_currencyCode_6(L_44);
+		IOSProductTemplate_t1036598382 * L_45 = V_4;
+		StringU5BU5D_t1642385972* L_46 = V_2;
+		int32_t L_47 = V_3;
+		NullCheck(L_46);
+		int32_t L_48 = ((int32_t)((int32_t)L_47+(int32_t)6));
+		String_t* L_49 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		NullCheck(L_45);
+		L_45->set_currencySymbol_5(L_49);
+		List_1_t405719514 * L_50 = __this->get__products_16();
+		IOSProductTemplate_t1036598382 * L_51 = V_4;
+		NullCheck(L_50);
+		List_1_Add_m2094622111(L_50, L_51, /*hidden argument*/List_1_Add_m2094622111_MethodInfo_var);
+		int32_t L_52 = V_3;
+		V_3 = ((int32_t)((int32_t)L_52+(int32_t)7));
+	}
+
+IL_00d8:
+	{
+		int32_t L_53 = V_3;
+		StringU5BU5D_t1642385972* L_54 = V_2;
+		NullCheck(L_54);
+		if ((((int32_t)L_53) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_54)->max_length)))))))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		List_1_t405719514 * L_55 = __this->get__products_16();
+		NullCheck(L_55);
+		int32_t L_56 = List_1_get_Count_m2607393979(L_55, /*hidden argument*/List_1_get_Count_m2607393979_MethodInfo_var);
+		V_5 = L_56;
+		String_t* L_57 = Int32_ToString_m2960866144((&V_5), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_58 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1170460129, L_57, /*hidden argument*/NULL);
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_58, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		IOSInAppPurchaseManager_FireSuccessInitEvent_m552864905(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onProductBought(System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern Il2CppCodeGenString* _stringLiteral372029326;
+extern const uint32_t IOSInAppPurchaseManager_onProductBought_m308685875_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_onProductBought_m308685875 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_onProductBought_m308685875_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	bool V_1 = false;
+	{
+		String_t* L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_2 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_2);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		V_1 = (bool)0;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = 1;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		bool L_7 = String_Equals_m2633592423(L_6, _stringLiteral372029326, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		V_1 = (bool)1;
+	}
+
+IL_0031:
+	{
+		StringU5BU5D_t1642385972* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = 0;
+		String_t* L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		StringU5BU5D_t1642385972* L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12 = 2;
+		String_t* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		StringU5BU5D_t1642385972* L_14 = V_0;
+		NullCheck(L_14);
+		int32_t L_15 = 3;
+		String_t* L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		StringU5BU5D_t1642385972* L_17 = V_0;
+		NullCheck(L_17);
+		int32_t L_18 = 4;
+		String_t* L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		bool L_20 = V_1;
+		IOSInAppPurchaseManager_FireProductBoughtEvent_m3587038079(__this, L_10, L_13, L_16, L_19, L_20, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onProductStateDeferred(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSStoreKitResult_t2359407583_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1589140297_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_onProductStateDeferred_m4228607322_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_onProductStateDeferred_m4228607322 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___productIdentifier0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_onProductStateDeferred_m4228607322_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSStoreKitResult_t2359407583 * V_0 = NULL;
+	{
+		String_t* L_0 = ___productIdentifier0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		IOSStoreKitResult_t2359407583 * L_4 = (IOSStoreKitResult_t2359407583 *)il2cpp_codegen_object_new(IOSStoreKitResult_t2359407583_il2cpp_TypeInfo_var);
+		IOSStoreKitResult__ctor_m2735797076(L_4, L_0, 2, L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2161206965 * L_5 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnTransactionComplete_6();
+		IOSStoreKitResult_t2359407583 * L_6 = V_0;
+		NullCheck(L_5);
+		Action_1_Invoke_m1589140297(L_5, L_6, /*hidden argument*/Action_1_Invoke_m1589140297_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onTransactionFailed(System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern const uint32_t IOSInAppPurchaseManager_onTransactionFailed_m1773997240_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_onTransactionFailed_m1773997240 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_onTransactionFailed_m1773997240_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	{
+		String_t* L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_2 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_2);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		StringU5BU5D_t1642385972* L_7 = V_0;
+		NullCheck(L_7);
+		int32_t L_8 = 1;
+		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		StringU5BU5D_t1642385972* L_10 = V_0;
+		NullCheck(L_10);
+		int32_t L_11 = 2;
+		String_t* L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_13 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		IOSInAppPurchaseManager_SendTransactionFailEvent_m3660563928(__this, L_6, L_9, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onVerificationResult(System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSStoreKitVerificationResponse_t4263658582_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m649443264_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern const uint32_t IOSInAppPurchaseManager_onVerificationResult_m3579832179_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_onVerificationResult_m3579832179 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_onVerificationResult_m3579832179_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	IOSStoreKitVerificationResponse_t4263658582 * V_1 = NULL;
+	{
+		String_t* L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_2 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_2);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IOSStoreKitVerificationResponse_t4263658582 * L_4 = (IOSStoreKitVerificationResponse_t4263658582 *)il2cpp_codegen_object_new(IOSStoreKitVerificationResponse_t4263658582_il2cpp_TypeInfo_var);
+		IOSStoreKitVerificationResponse__ctor_m2787422913(L_4, /*hidden argument*/NULL);
+		V_1 = L_4;
+		IOSStoreKitVerificationResponse_t4263658582 * L_5 = V_1;
+		StringU5BU5D_t1642385972* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = 0;
+		String_t* L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_9 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		L_5->set_status_0(L_9);
+		IOSStoreKitVerificationResponse_t4263658582 * L_10 = V_1;
+		StringU5BU5D_t1642385972* L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12 = 1;
+		String_t* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		NullCheck(L_10);
+		L_10->set_originalJSON_3(L_13);
+		IOSStoreKitVerificationResponse_t4263658582 * L_14 = V_1;
+		StringU5BU5D_t1642385972* L_15 = V_0;
+		NullCheck(L_15);
+		int32_t L_16 = 2;
+		String_t* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		NullCheck(L_14);
+		L_14->set_receipt_1(L_17);
+		IOSStoreKitVerificationResponse_t4263658582 * L_18 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		String_t* L_19 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_lastPurchasedProduct_18();
+		NullCheck(L_18);
+		L_18->set_productIdentifier_2(L_19);
+		Action_1_t4065457964 * L_20 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnVerificationComplete_10();
+		IOSStoreKitVerificationResponse_t4263658582 * L_21 = V_1;
+		NullCheck(L_20);
+		Action_1_Invoke_m649443264(L_20, L_21, /*hidden argument*/Action_1_Invoke_m649443264_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onRestoreTransactionFailed(System.String)
+extern Il2CppClass* ISN_Error_t553253557_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSStoreKitRestoreResult_t3305276155_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1434018633_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_onRestoreTransactionFailed_m1147645890_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_onRestoreTransactionFailed_m1147645890 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_onRestoreTransactionFailed_m1147645890_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Error_t553253557 * V_0 = NULL;
+	IOSStoreKitRestoreResult_t3305276155 * V_1 = NULL;
+	{
+		String_t* L_0 = ___array0;
+		ISN_Error_t553253557 * L_1 = (ISN_Error_t553253557 *)il2cpp_codegen_object_new(ISN_Error_t553253557_il2cpp_TypeInfo_var);
+		ISN_Error__ctor_m4248599056(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		ISN_Error_t553253557 * L_2 = V_0;
+		IOSStoreKitRestoreResult_t3305276155 * L_3 = (IOSStoreKitRestoreResult_t3305276155 *)il2cpp_codegen_object_new(IOSStoreKitRestoreResult_t3305276155_il2cpp_TypeInfo_var);
+		IOSStoreKitRestoreResult__ctor_m957296133(L_3, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3107075537 * L_4 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnRestoreComplete_7();
+		IOSStoreKitRestoreResult_t3305276155 * L_5 = V_1;
+		NullCheck(L_4);
+		Action_1_Invoke_m1434018633(L_4, L_5, /*hidden argument*/Action_1_Invoke_m1434018633_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::onRestoreTransactionComplete(System.String)
+extern "C"  void IOSInAppPurchaseManager_onRestoreTransactionComplete_m460896576 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	{
+		IOSInAppPurchaseManager_FireRestoreCompleteEvent_m2260826529(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::OnProductViewLoaded(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m2952499926_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1669439267_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_OnProductViewLoaded_m61580006_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_OnProductViewLoaded_m61580006 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___viewId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_OnProductViewLoaded_m61580006_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___viewId0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Dictionary_2_t3909993199 * L_2 = __this->get__productsView_17();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		bool L_4 = Dictionary_2_ContainsKey_m2952499926(L_2, L_3, /*hidden argument*/Dictionary_2_ContainsKey_m2952499926_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Dictionary_2_t3909993199 * L_5 = __this->get__productsView_17();
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		IOSStoreProductView_t607200268 * L_7 = Dictionary_2_get_Item_m1669439267(L_5, L_6, /*hidden argument*/Dictionary_2_get_Item_m1669439267_MethodInfo_var);
+		NullCheck(L_7);
+		IOSStoreProductView_OnContentLoaded_m4032890632(L_7, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::OnProductViewLoadedFailed(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m2952499926_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1669439267_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_OnProductViewLoadedFailed_m3269617433_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_OnProductViewLoadedFailed_m3269617433 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___viewId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_OnProductViewLoadedFailed_m3269617433_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___viewId0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Dictionary_2_t3909993199 * L_2 = __this->get__productsView_17();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		bool L_4 = Dictionary_2_ContainsKey_m2952499926(L_2, L_3, /*hidden argument*/Dictionary_2_ContainsKey_m2952499926_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Dictionary_2_t3909993199 * L_5 = __this->get__productsView_17();
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		IOSStoreProductView_t607200268 * L_7 = Dictionary_2_get_Item_m1669439267(L_5, L_6, /*hidden argument*/Dictionary_2_get_Item_m1669439267_MethodInfo_var);
+		NullCheck(L_7);
+		IOSStoreProductView_OnContentLoadFailed_m206520168(L_7, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::OnProductViewDismissed(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m2952499926_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1669439267_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_OnProductViewDismissed_m3337811570_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_OnProductViewDismissed_m3337811570 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___viewId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_OnProductViewDismissed_m3337811570_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___viewId0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Dictionary_2_t3909993199 * L_2 = __this->get__productsView_17();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		bool L_4 = Dictionary_2_ContainsKey_m2952499926(L_2, L_3, /*hidden argument*/Dictionary_2_ContainsKey_m2952499926_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Dictionary_2_t3909993199 * L_5 = __this->get__productsView_17();
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		IOSStoreProductView_t607200268 * L_7 = Dictionary_2_get_Item_m1669439267(L_5, L_6, /*hidden argument*/Dictionary_2_get_Item_m1669439267_MethodInfo_var);
+		NullCheck(L_7);
+		IOSStoreProductView_OnProductViewDismissed_m1942633723(L_7, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::FireSuccessInitEvent()
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_FireSuccessInitEvent_m552864905_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_FireSuccessInitEvent_m552864905 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_FireSuccessInitEvent_m552864905_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		__this->set__IsStoreLoaded_11((bool)1);
+		__this->set__IsWaitingLoadResult_12((bool)0);
+		ISN_Result_t2775631610 * L_0 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_0, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_1 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnStoreKitInitComplete_8();
+		ISN_Result_t2775631610 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1651425124(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::FireRestoreCompleteEvent()
+extern Il2CppClass* IOSStoreKitRestoreResult_t3305276155_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1434018633_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_FireRestoreCompleteEvent_m2260826529_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_FireRestoreCompleteEvent_m2260826529 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_FireRestoreCompleteEvent_m2260826529_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSStoreKitRestoreResult_t3305276155 * V_0 = NULL;
+	{
+		IOSStoreKitRestoreResult_t3305276155 * L_0 = (IOSStoreKitRestoreResult_t3305276155 *)il2cpp_codegen_object_new(IOSStoreKitRestoreResult_t3305276155_il2cpp_TypeInfo_var);
+		IOSStoreKitRestoreResult__ctor_m2944630037(L_0, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t3107075537 * L_1 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnRestoreComplete_7();
+		IOSStoreKitRestoreResult_t3305276155 * L_2 = V_0;
+		NullCheck(L_1);
+		Action_1_Invoke_m1434018633(L_1, L_2, /*hidden argument*/Action_1_Invoke_m1434018633_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::FireProductBoughtEvent(System.String,System.String,System.String,System.String,System.Boolean)
+extern Il2CppClass* IOSStoreKitResult_t2359407583_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1589140297_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_FireProductBoughtEvent_m3587038079_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_FireProductBoughtEvent_m3587038079 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___productIdentifier0, String_t* ___applicationUsername1, String_t* ___receipt2, String_t* ___transactionIdentifier3, bool ___IsRestored4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_FireProductBoughtEvent_m3587038079_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	IOSStoreKitResult_t2359407583 * V_1 = NULL;
+	{
+		bool L_0 = ___IsRestored4;
+		if (!L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		V_0 = 3;
+		goto IL_0010;
+	}
+
+IL_000e:
+	{
+		V_0 = 0;
+	}
+
+IL_0010:
+	{
+		String_t* L_1 = ___productIdentifier0;
+		int32_t L_2 = V_0;
+		String_t* L_3 = ___applicationUsername1;
+		String_t* L_4 = ___receipt2;
+		String_t* L_5 = ___transactionIdentifier3;
+		IOSStoreKitResult_t2359407583 * L_6 = (IOSStoreKitResult_t2359407583 *)il2cpp_codegen_object_new(IOSStoreKitResult_t2359407583_il2cpp_TypeInfo_var);
+		IOSStoreKitResult__ctor_m2735797076(L_6, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		IOSStoreKitResult_t2359407583 * L_7 = V_1;
+		NullCheck(L_7);
+		String_t* L_8 = IOSStoreKitResult_get_ProductIdentifier_m3238599700(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set_lastPurchasedProduct_18(L_8);
+		Action_1_t2161206965 * L_9 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnTransactionComplete_6();
+		IOSStoreKitResult_t2359407583 * L_10 = V_1;
+		NullCheck(L_9);
+		Action_1_Invoke_m1589140297(L_9, L_10, /*hidden argument*/Action_1_Invoke_m1589140297_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::SendTransactionFailEvent(System.String,System.String,IOSTransactionErrorCode)
+extern Il2CppClass* ISN_Error_t553253557_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSStoreKitResult_t2359407583_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1589140297_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager_SendTransactionFailEvent_m3660563928_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_SendTransactionFailEvent_m3660563928 (IOSInAppPurchaseManager_t644626385 * __this, String_t* ___productIdentifier0, String_t* ___errorDescribtion1, int32_t ___errorCode2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_SendTransactionFailEvent_m3660563928_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSStoreKitResult_t2359407583 * V_0 = NULL;
+	{
+		String_t* L_0 = ___productIdentifier0;
+		int32_t L_1 = ___errorCode2;
+		String_t* L_2 = ___errorDescribtion1;
+		ISN_Error_t553253557 * L_3 = (ISN_Error_t553253557 *)il2cpp_codegen_object_new(ISN_Error_t553253557_il2cpp_TypeInfo_var);
+		ISN_Error__ctor_m2554300207(L_3, L_1, L_2, /*hidden argument*/NULL);
+		IOSStoreKitResult_t2359407583 * L_4 = (IOSStoreKitResult_t2359407583 *)il2cpp_codegen_object_new(IOSStoreKitResult_t2359407583_il2cpp_TypeInfo_var);
+		IOSStoreKitResult__ctor_m1093106419(L_4, L_0, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		Action_1_t2161206965 * L_5 = ((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->get_OnTransactionComplete_6();
+		IOSStoreKitResult_t2359407583 * L_6 = V_0;
+		NullCheck(L_5);
+		Action_1_Invoke_m1589140297(L_5, L_6, /*hidden argument*/Action_1_Invoke_m1589140297_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::EditorFakeInitEvent()
+extern Il2CppClass* IOSProductTemplate_t1036598382_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m804483696_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m870713862_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2094622111_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4175023932_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m2205157096_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1563575167;
+extern Il2CppCodeGenString* _stringLiteral2411664089;
+extern Il2CppCodeGenString* _stringLiteral816987305;
+extern Il2CppCodeGenString* _stringLiteral372029325;
+extern Il2CppCodeGenString* _stringLiteral1690816450;
+extern Il2CppCodeGenString* _stringLiteral372029306;
+extern const uint32_t IOSInAppPurchaseManager_EditorFakeInitEvent_m2515970670_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager_EditorFakeInitEvent_m2515970670 (IOSInAppPurchaseManager_t644626385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager_EditorFakeInitEvent_m2515970670_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Enumerator_t933071039  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IOSProductTemplate_t1036598382 * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t1398341365 * L_0 = __this->get__productsIds_15();
+		NullCheck(L_0);
+		Enumerator_t933071039  L_1 = List_1_GetEnumerator_m804483696(L_0, /*hidden argument*/List_1_GetEnumerator_m804483696_MethodInfo_var);
+		V_1 = L_1;
+	}
+
+IL_000c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0080;
+		}
+
+IL_0011:
+		{
+			String_t* L_2 = Enumerator_get_Current_m870713862((&V_1), /*hidden argument*/Enumerator_get_Current_m870713862_MethodInfo_var);
+			V_0 = L_2;
+			IOSProductTemplate_t1036598382 * L_3 = (IOSProductTemplate_t1036598382 *)il2cpp_codegen_object_new(IOSProductTemplate_t1036598382_il2cpp_TypeInfo_var);
+			IOSProductTemplate__ctor_m339007845(L_3, /*hidden argument*/NULL);
+			V_2 = L_3;
+			IOSProductTemplate_t1036598382 * L_4 = V_2;
+			String_t* L_5 = V_0;
+			NullCheck(L_4);
+			L_4->set_id_0(L_5);
+			IOSProductTemplate_t1036598382 * L_6 = V_2;
+			String_t* L_7 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1563575167, L_7, /*hidden argument*/NULL);
+			NullCheck(L_6);
+			L_6->set_title_1(L_8);
+			IOSProductTemplate_t1036598382 * L_9 = V_2;
+			String_t* L_10 = V_0;
+			String_t* L_11 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2411664089, L_10, /*hidden argument*/NULL);
+			NullCheck(L_9);
+			L_9->set_description_2(L_11);
+			IOSProductTemplate_t1036598382 * L_12 = V_2;
+			NullCheck(L_12);
+			L_12->set_localizedPrice_4(_stringLiteral816987305);
+			IOSProductTemplate_t1036598382 * L_13 = V_2;
+			NullCheck(L_13);
+			L_13->set_price_3(_stringLiteral372029325);
+			IOSProductTemplate_t1036598382 * L_14 = V_2;
+			NullCheck(L_14);
+			L_14->set_currencyCode_6(_stringLiteral1690816450);
+			IOSProductTemplate_t1036598382 * L_15 = V_2;
+			NullCheck(L_15);
+			L_15->set_currencySymbol_5(_stringLiteral372029306);
+			List_1_t405719514 * L_16 = __this->get__products_16();
+			IOSProductTemplate_t1036598382 * L_17 = V_2;
+			NullCheck(L_16);
+			List_1_Add_m2094622111(L_16, L_17, /*hidden argument*/List_1_Add_m2094622111_MethodInfo_var);
+		}
+
+IL_0080:
+		{
+			bool L_18 = Enumerator_MoveNext_m4175023932((&V_1), /*hidden argument*/Enumerator_MoveNext_m4175023932_MethodInfo_var);
+			if (L_18)
+			{
+				goto IL_0011;
+			}
+		}
+
+IL_008c:
+		{
+			IL2CPP_LEAVE(0x9F, FINALLY_0091);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0091;
+	}
+
+FINALLY_0091:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m2205157096((&V_1), /*hidden argument*/Enumerator_Dispose_m2205157096_MethodInfo_var);
+		IL2CPP_END_FINALLY(145)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(145)
+	{
+		IL2CPP_JUMP_TBL(0x9F, IL_009f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_009f:
+	{
+		IOSInAppPurchaseManager_FireSuccessInitEvent_m552864905(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::.cctor()
+extern Il2CppClass* Action_1_t2161206965_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3107075537_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3627374100_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4065457964_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSInAppPurchaseManager_U3COnTransactionCompleteU3Em__0_m876950180_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2264613190_MethodInfo_var;
+extern const MethodInfo* IOSInAppPurchaseManager_U3COnRestoreCompleteU3Em__1_m2745267443_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2967929040_MethodInfo_var;
+extern const MethodInfo* IOSInAppPurchaseManager_U3COnStoreKitInitCompleteU3Em__2_m1366557346_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const MethodInfo* IOSInAppPurchaseManager_U3COnPurchasesStateSettingsLoadedU3Em__3_m2593033627_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1505245730_MethodInfo_var;
+extern const MethodInfo* IOSInAppPurchaseManager_U3COnVerificationCompleteU3Em__4_m3630206628_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1676337983_MethodInfo_var;
+extern const uint32_t IOSInAppPurchaseManager__cctor_m1033748187_MetadataUsageId;
+extern "C"  void IOSInAppPurchaseManager__cctor_m1033748187 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSInAppPurchaseManager__cctor_m1033748187_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)IOSInAppPurchaseManager_U3COnTransactionCompleteU3Em__0_m876950180_MethodInfo_var);
+		Action_1_t2161206965 * L_1 = (Action_1_t2161206965 *)il2cpp_codegen_object_new(Action_1_t2161206965_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2264613190(L_1, NULL, L_0, /*hidden argument*/Action_1__ctor_m2264613190_MethodInfo_var);
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set_OnTransactionComplete_6(L_1);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)IOSInAppPurchaseManager_U3COnRestoreCompleteU3Em__1_m2745267443_MethodInfo_var);
+		Action_1_t3107075537 * L_3 = (Action_1_t3107075537 *)il2cpp_codegen_object_new(Action_1_t3107075537_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2967929040(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m2967929040_MethodInfo_var);
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set_OnRestoreComplete_7(L_3);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)IOSInAppPurchaseManager_U3COnStoreKitInitCompleteU3Em__2_m1366557346_MethodInfo_var);
+		Action_1_t2577430992 * L_5 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_5, NULL, L_4, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set_OnStoreKitInitComplete_8(L_5);
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)IOSInAppPurchaseManager_U3COnPurchasesStateSettingsLoadedU3Em__3_m2593033627_MethodInfo_var);
+		Action_1_t3627374100 * L_7 = (Action_1_t3627374100 *)il2cpp_codegen_object_new(Action_1_t3627374100_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1505245730(L_7, NULL, L_6, /*hidden argument*/Action_1__ctor_m1505245730_MethodInfo_var);
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set_OnPurchasesStateSettingsLoaded_9(L_7);
+		IntPtr_t L_8;
+		L_8.set_m_value_0((void*)(void*)IOSInAppPurchaseManager_U3COnVerificationCompleteU3Em__4_m3630206628_MethodInfo_var);
+		Action_1_t4065457964 * L_9 = (Action_1_t4065457964 *)il2cpp_codegen_object_new(Action_1_t4065457964_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1676337983(L_9, NULL, L_8, /*hidden argument*/Action_1__ctor_m1676337983_MethodInfo_var);
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set_OnVerificationComplete_10(L_9);
+		((IOSInAppPurchaseManager_t644626385_StaticFields*)IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var->static_fields)->set__nextId_14(1);
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::<OnTransactionComplete>m__0(IOSStoreKitResult)
+extern "C"  void IOSInAppPurchaseManager_U3COnTransactionCompleteU3Em__0_m876950180 (Il2CppObject * __this /* static, unused */, IOSStoreKitResult_t2359407583 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::<OnRestoreComplete>m__1(IOSStoreKitRestoreResult)
+extern "C"  void IOSInAppPurchaseManager_U3COnRestoreCompleteU3Em__1_m2745267443 (Il2CppObject * __this /* static, unused */, IOSStoreKitRestoreResult_t3305276155 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::<OnStoreKitInitComplete>m__2(ISN_Result)
+extern "C"  void IOSInAppPurchaseManager_U3COnStoreKitInitCompleteU3Em__2_m1366557346 (Il2CppObject * __this /* static, unused */, ISN_Result_t2775631610 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::<OnPurchasesStateSettingsLoaded>m__3(System.Boolean)
+extern "C"  void IOSInAppPurchaseManager_U3COnPurchasesStateSettingsLoadedU3Em__3_m2593033627 (Il2CppObject * __this /* static, unused */, bool p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSInAppPurchaseManager::<OnVerificationComplete>m__4(IOSStoreKitVerificationResponse)
+extern "C"  void IOSInAppPurchaseManager_U3COnVerificationCompleteU3Em__4_m3630206628 (Il2CppObject * __this /* static, unused */, IOSStoreKitVerificationResponse_t4263658582 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSMessage::.ctor()
+extern Il2CppClass* IOSMessage_t2569463336_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSMessage_U3COnCompleteU3Em__0_m4078890280_MethodInfo_var;
+extern const uint32_t IOSMessage__ctor_m1383080057_MetadataUsageId;
+extern "C"  void IOSMessage__ctor_m1383080057 (IOSMessage_t2569463336 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSMessage__ctor_m1383080057_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSMessage_t2569463336 * G_B2_0 = NULL;
+	IOSMessage_t2569463336 * G_B1_0 = NULL;
+	{
+		Action_t3226471752 * L_0 = ((IOSMessage_t2569463336_StaticFields*)IOSMessage_t2569463336_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)IOSMessage_U3COnCompleteU3Em__0_m4078890280_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, NULL, L_1, /*hidden argument*/NULL);
+		((IOSMessage_t2569463336_StaticFields*)IOSMessage_t2569463336_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_6(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_t3226471752 * L_3 = ((IOSMessage_t2569463336_StaticFields*)IOSMessage_t2569463336_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		NullCheck(G_B2_0);
+		G_B2_0->set_OnComplete_5(L_3);
+		BaseIOSPopup__ctor_m3656648297(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSMessage::add_OnComplete(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSMessage_add_OnComplete_m2237258724_MetadataUsageId;
+extern "C"  void IOSMessage_add_OnComplete_m2237258724 (IOSMessage_t2569463336 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSMessage_add_OnComplete_m2237258724_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_OnComplete_5();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_OnComplete_5();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSMessage::remove_OnComplete(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSMessage_remove_OnComplete_m1496777181_MetadataUsageId;
+extern "C"  void IOSMessage_remove_OnComplete_m1496777181 (IOSMessage_t2569463336 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSMessage_remove_OnComplete_m1496777181_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_OnComplete_5();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_OnComplete_5();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// IOSMessage IOSMessage::Create(System.String,System.String)
+extern Il2CppCodeGenString* _stringLiteral3466283568;
+extern const uint32_t IOSMessage_Create_m765555766_MetadataUsageId;
+extern "C"  IOSMessage_t2569463336 * IOSMessage_Create_m765555766 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSMessage_Create_m765555766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		IOSMessage_t2569463336 * L_2 = IOSMessage_Create_m1036938966(NULL /*static, unused*/, L_0, L_1, _stringLiteral3466283568, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// IOSMessage IOSMessage::Create(System.String,System.String,System.String)
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisIOSMessage_t2569463336_m726090906_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2239062855;
+extern const uint32_t IOSMessage_Create_m1036938966_MetadataUsageId;
+extern "C"  IOSMessage_t2569463336 * IOSMessage_Create_m1036938966 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___ok2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSMessage_Create_m1036938966_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSMessage_t2569463336 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_0, _stringLiteral2239062855, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		IOSMessage_t2569463336 * L_1 = GameObject_AddComponent_TisIOSMessage_t2569463336_m726090906(L_0, /*hidden argument*/GameObject_AddComponent_TisIOSMessage_t2569463336_m726090906_MethodInfo_var);
+		V_0 = L_1;
+		IOSMessage_t2569463336 * L_2 = V_0;
+		String_t* L_3 = ___title0;
+		NullCheck(L_2);
+		((BaseIOSPopup_t3320937364 *)L_2)->set_title_2(L_3);
+		IOSMessage_t2569463336 * L_4 = V_0;
+		String_t* L_5 = ___message1;
+		NullCheck(L_4);
+		((BaseIOSPopup_t3320937364 *)L_4)->set_message_3(L_5);
+		IOSMessage_t2569463336 * L_6 = V_0;
+		String_t* L_7 = ___ok2;
+		NullCheck(L_6);
+		L_6->set_ok_4(L_7);
+		IOSMessage_t2569463336 * L_8 = V_0;
+		NullCheck(L_8);
+		IOSMessage_init_m1707966995(L_8, /*hidden argument*/NULL);
+		IOSMessage_t2569463336 * L_9 = V_0;
+		return L_9;
+	}
+}
+// System.Void IOSMessage::init()
+extern "C"  void IOSMessage_init_m1707966995 (IOSMessage_t2569463336 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ((BaseIOSPopup_t3320937364 *)__this)->get_title_2();
+		String_t* L_1 = ((BaseIOSPopup_t3320937364 *)__this)->get_message_3();
+		String_t* L_2 = __this->get_ok_4();
+		IOSNativePopUpManager_showMessage_m3791036248(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSMessage::onPopUpCallBack(System.String)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t IOSMessage_onPopUpCallBack_m607113905_MetadataUsageId;
+extern "C"  void IOSMessage_onPopUpCallBack_m607113905 (IOSMessage_t2569463336 * __this, String_t* ___buttonIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSMessage_onPopUpCallBack_m607113905_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Action_t3226471752 * L_0 = __this->get_OnComplete_5();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSMessage::<OnComplete>m__0()
+extern "C"  void IOSMessage_U3COnCompleteU3Em__0_m4078890280 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNative::.ctor()
+extern "C"  void IOSNative__ctor_m2731384399 (IOSNative_t1234227034 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String IOSNative::SerializeArray(System.String[])
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern const uint32_t IOSNative_SerializeArray_m565831201_MetadataUsageId;
+extern "C"  String_t* IOSNative_SerializeArray_m565831201 (Il2CppObject * __this /* static, unused */, StringU5BU5D_t1642385972* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNative_SerializeArray_m565831201_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		StringU5BU5D_t1642385972* L_0 = ___array0;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_1;
+	}
+
+IL_000c:
+	{
+		StringU5BU5D_t1642385972* L_2 = ___array0;
+		NullCheck(L_2);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_2)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_3;
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_4;
+		StringU5BU5D_t1642385972* L_5 = ___array0;
+		NullCheck(L_5);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length))));
+		V_2 = 0;
+		goto IL_004b;
+	}
+
+IL_002b:
+	{
+		int32_t L_6 = V_2;
+		if (!L_6)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		String_t* L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, L_7, _stringLiteral372029394, /*hidden argument*/NULL);
+		V_0 = L_8;
+	}
+
+IL_003d:
+	{
+		String_t* L_9 = V_0;
+		StringU5BU5D_t1642385972* L_10 = ___array0;
+		int32_t L_11 = V_2;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		String_t* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m2596409543(NULL /*static, unused*/, L_9, L_13, /*hidden argument*/NULL);
+		V_0 = L_14;
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)((int32_t)L_15+(int32_t)1));
+	}
+
+IL_004b:
+	{
+		int32_t L_16 = V_2;
+		int32_t L_17 = V_1;
+		if ((((int32_t)L_16) < ((int32_t)L_17)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		String_t* L_18 = V_0;
+		return L_18;
+	}
+}
+// System.String[] IOSNative::ParseArray(System.String)
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern const MethodInfo* List_1_ToArray_m948919263_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern Il2CppCodeGenString* _stringLiteral2226164812;
+extern const uint32_t IOSNative_ParseArray_m7195392_MetadataUsageId;
+extern "C"  StringU5BU5D_t1642385972* IOSNative_ParseArray_m7195392 (Il2CppObject * __this /* static, unused */, String_t* ___arrayData0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNative_ParseArray_m7195392_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1398341365 * V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		List_1_t1398341365 * L_0 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_0, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		V_0 = L_0;
+		String_t* L_1 = ___arrayData0;
+		CharU5BU5D_t1328083999* L_2 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_3 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_3);
+		NullCheck(L_1);
+		StringU5BU5D_t1642385972* L_4 = String_Split_m3326265864(L_1, L_2, /*hidden argument*/NULL);
+		V_1 = L_4;
+		V_2 = 0;
+		goto IL_004c;
+	}
+
+IL_0028:
+	{
+		StringU5BU5D_t1642385972* L_5 = V_1;
+		int32_t L_6 = V_2;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		String_t* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_9 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_8, _stringLiteral2226164812, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		goto IL_0055;
+	}
+
+IL_003f:
+	{
+		List_1_t1398341365 * L_10 = V_0;
+		StringU5BU5D_t1642385972* L_11 = V_1;
+		int32_t L_12 = V_2;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		String_t* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_10);
+		List_1_Add_m4061286785(L_10, L_14, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)((int32_t)L_15+(int32_t)1));
+	}
+
+IL_004c:
+	{
+		int32_t L_16 = V_2;
+		StringU5BU5D_t1642385972* L_17 = V_1;
+		NullCheck(L_17);
+		if ((((int32_t)L_16) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_17)->max_length)))))))
+		{
+			goto IL_0028;
+		}
+	}
+
+IL_0055:
+	{
+		List_1_t1398341365 * L_18 = V_0;
+		NullCheck(L_18);
+		StringU5BU5D_t1642385972* L_19 = List_1_ToArray_m948919263(L_18, /*hidden argument*/List_1_ToArray_m948919263_MethodInfo_var);
+		return L_19;
+	}
+}
+// System.Void IOSNativeAppEvents::.ctor()
+extern Il2CppClass* ISN_Singleton_1_t3929979100_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m889395864_MethodInfo_var;
+extern const uint32_t IOSNativeAppEvents__ctor_m4166547229_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents__ctor_m4166547229 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents__ctor_m4166547229_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3929979100_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m889395864(__this, /*hidden argument*/ISN_Singleton_1__ctor_m889395864_MethodInfo_var);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISNsubscribe();
+// System.Void IOSNativeAppEvents::_ISNsubscribe()
+extern "C"  void IOSNativeAppEvents__ISNsubscribe_m557737584 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISNsubscribe)();
+
+}
+// System.Void IOSNativeAppEvents::add_OnApplicationDidEnterBackground(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_add_OnApplicationDidEnterBackground_m1946900654_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_add_OnApplicationDidEnterBackground_m1946900654 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_add_OnApplicationDidEnterBackground_m1946900654_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidEnterBackground_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationDidEnterBackground_4()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::remove_OnApplicationDidEnterBackground(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_remove_OnApplicationDidEnterBackground_m1785771549_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_remove_OnApplicationDidEnterBackground_m1785771549 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_remove_OnApplicationDidEnterBackground_m1785771549_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidEnterBackground_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationDidEnterBackground_4()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::add_OnApplicationDidBecomeActive(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_add_OnApplicationDidBecomeActive_m1861089239_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_add_OnApplicationDidBecomeActive_m1861089239 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_add_OnApplicationDidBecomeActive_m1861089239_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidBecomeActive_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationDidBecomeActive_5()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::remove_OnApplicationDidBecomeActive(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_remove_OnApplicationDidBecomeActive_m2890839050_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_remove_OnApplicationDidBecomeActive_m2890839050 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_remove_OnApplicationDidBecomeActive_m2890839050_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidBecomeActive_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationDidBecomeActive_5()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::add_OnApplicationDidReceiveMemoryWarning(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_add_OnApplicationDidReceiveMemoryWarning_m1815584534_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_add_OnApplicationDidReceiveMemoryWarning_m1815584534 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_add_OnApplicationDidReceiveMemoryWarning_m1815584534_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidReceiveMemoryWarning_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationDidReceiveMemoryWarning_6()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::remove_OnApplicationDidReceiveMemoryWarning(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_remove_OnApplicationDidReceiveMemoryWarning_m3685930659_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_remove_OnApplicationDidReceiveMemoryWarning_m3685930659 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_remove_OnApplicationDidReceiveMemoryWarning_m3685930659_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidReceiveMemoryWarning_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationDidReceiveMemoryWarning_6()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::add_OnApplicationWillResignActive(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_add_OnApplicationWillResignActive_m3272892031_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_add_OnApplicationWillResignActive_m3272892031 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_add_OnApplicationWillResignActive_m3272892031_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationWillResignActive_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationWillResignActive_7()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::remove_OnApplicationWillResignActive(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_remove_OnApplicationWillResignActive_m3689179342_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_remove_OnApplicationWillResignActive_m3689179342 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_remove_OnApplicationWillResignActive_m3689179342_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationWillResignActive_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationWillResignActive_7()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::add_OnApplicationWillTerminate(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_add_OnApplicationWillTerminate_m751546806_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_add_OnApplicationWillTerminate_m751546806 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_add_OnApplicationWillTerminate_m751546806_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationWillTerminate_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationWillTerminate_8()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::remove_OnApplicationWillTerminate(System.Action)
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_remove_OnApplicationWillTerminate_m627498149_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_remove_OnApplicationWillTerminate_m627498149 (Il2CppObject * __this /* static, unused */, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_remove_OnApplicationWillTerminate_m627498149_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationWillTerminate_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_2 = V_1;
+		Action_t3226471752 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_t3226471752 * L_5 = V_0;
+		Action_t3226471752 * L_6 = InterlockedCompareExchangeImpl<Action_t3226471752 *>((((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnApplicationWillTerminate_8()), ((Action_t3226471752 *)CastclassSealed(L_4, Action_t3226471752_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_t3226471752 * L_7 = V_0;
+		Action_t3226471752 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_7) == ((Il2CppObject*)(Action_t3226471752 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_Awake_m3534960424_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_Awake_m3534960424 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_Awake_m3534960424_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		IOSNativeAppEvents__ISNsubscribe_m557737584(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::Subscribe()
+extern "C"  void IOSNativeAppEvents_Subscribe_m1074013749 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::applicationDidEnterBackground()
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_applicationDidEnterBackground_m4127668092_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_applicationDidEnterBackground_m4127668092 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_applicationDidEnterBackground_m4127668092_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidEnterBackground_4();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::applicationDidBecomeActive()
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_applicationDidBecomeActive_m443222361_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_applicationDidBecomeActive_m443222361 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_applicationDidBecomeActive_m443222361_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidBecomeActive_5();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::applicationDidReceiveMemoryWarning()
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_applicationDidReceiveMemoryWarning_m1875518690_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_applicationDidReceiveMemoryWarning_m1875518690 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_applicationDidReceiveMemoryWarning_m1875518690_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationDidReceiveMemoryWarning_6();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::applicationWillResignActive()
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_applicationWillResignActive_m3200646769_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_applicationWillResignActive_m3200646769 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_applicationWillResignActive_m3200646769_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationWillResignActive_7();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::applicationWillTerminate()
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeAppEvents_applicationWillTerminate_m2802663354_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents_applicationWillTerminate_m2802663354 (IOSNativeAppEvents_t694411788 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents_applicationWillTerminate_m2802663354_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var);
+		Action_t3226471752 * L_0 = ((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->get_OnApplicationWillTerminate_8();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::.cctor()
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSNativeAppEvents_U3COnApplicationDidEnterBackgroundU3Em__0_m3503397010_MethodInfo_var;
+extern const MethodInfo* IOSNativeAppEvents_U3COnApplicationDidBecomeActiveU3Em__1_m2654385258_MethodInfo_var;
+extern const MethodInfo* IOSNativeAppEvents_U3COnApplicationDidReceiveMemoryWarningU3Em__2_m495189516_MethodInfo_var;
+extern const MethodInfo* IOSNativeAppEvents_U3COnApplicationWillResignActiveU3Em__3_m854624074_MethodInfo_var;
+extern const MethodInfo* IOSNativeAppEvents_U3COnApplicationWillTerminateU3Em__4_m16526134_MethodInfo_var;
+extern const uint32_t IOSNativeAppEvents__cctor_m2107193982_MetadataUsageId;
+extern "C"  void IOSNativeAppEvents__cctor_m2107193982 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeAppEvents__cctor_m2107193982_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)IOSNativeAppEvents_U3COnApplicationDidEnterBackgroundU3Em__0_m3503397010_MethodInfo_var);
+		Action_t3226471752 * L_1 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_1, NULL, L_0, /*hidden argument*/NULL);
+		((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->set_OnApplicationDidEnterBackground_4(L_1);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)IOSNativeAppEvents_U3COnApplicationDidBecomeActiveU3Em__1_m2654385258_MethodInfo_var);
+		Action_t3226471752 * L_3 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_3, NULL, L_2, /*hidden argument*/NULL);
+		((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->set_OnApplicationDidBecomeActive_5(L_3);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)IOSNativeAppEvents_U3COnApplicationDidReceiveMemoryWarningU3Em__2_m495189516_MethodInfo_var);
+		Action_t3226471752 * L_5 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_5, NULL, L_4, /*hidden argument*/NULL);
+		((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->set_OnApplicationDidReceiveMemoryWarning_6(L_5);
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)IOSNativeAppEvents_U3COnApplicationWillResignActiveU3Em__3_m854624074_MethodInfo_var);
+		Action_t3226471752 * L_7 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_7, NULL, L_6, /*hidden argument*/NULL);
+		((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->set_OnApplicationWillResignActive_7(L_7);
+		IntPtr_t L_8;
+		L_8.set_m_value_0((void*)(void*)IOSNativeAppEvents_U3COnApplicationWillTerminateU3Em__4_m16526134_MethodInfo_var);
+		Action_t3226471752 * L_9 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_9, NULL, L_8, /*hidden argument*/NULL);
+		((IOSNativeAppEvents_t694411788_StaticFields*)IOSNativeAppEvents_t694411788_il2cpp_TypeInfo_var->static_fields)->set_OnApplicationWillTerminate_8(L_9);
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::<OnApplicationDidEnterBackground>m__0()
+extern "C"  void IOSNativeAppEvents_U3COnApplicationDidEnterBackgroundU3Em__0_m3503397010 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::<OnApplicationDidBecomeActive>m__1()
+extern "C"  void IOSNativeAppEvents_U3COnApplicationDidBecomeActiveU3Em__1_m2654385258 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::<OnApplicationDidReceiveMemoryWarning>m__2()
+extern "C"  void IOSNativeAppEvents_U3COnApplicationDidReceiveMemoryWarningU3Em__2_m495189516 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::<OnApplicationWillResignActive>m__3()
+extern "C"  void IOSNativeAppEvents_U3COnApplicationWillResignActiveU3Em__3_m854624074 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeAppEvents::<OnApplicationWillTerminate>m__4()
+extern "C"  void IOSNativeAppEvents_U3COnApplicationWillTerminateU3Em__4_m16526134 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeFeaturesPreview::.ctor()
+extern "C"  void IOSNativeFeaturesPreview__ctor_m1768503014 (IOSNativeFeaturesPreview_t172115631 * __this, const MethodInfo* method)
+{
+	{
+		BaseIOSFeaturePreview__ctor_m2883712885(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeFeaturesPreview::Awake()
+extern Il2CppClass* IOSNativeFeaturesPreview_t172115631_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeFeaturesPreview_Awake_m3654331883_MetadataUsageId;
+extern "C"  void IOSNativeFeaturesPreview_Awake_m3654331883 (IOSNativeFeaturesPreview_t172115631 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeFeaturesPreview_Awake_m3654331883_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeFeaturesPreview_t172115631_il2cpp_TypeInfo_var);
+		IOSNativePreviewBackButton_t2513092733 * L_0 = ((IOSNativeFeaturesPreview_t172115631_StaticFields*)IOSNativeFeaturesPreview_t172115631_il2cpp_TypeInfo_var->static_fields)->get_back_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IOSNativePreviewBackButton_t2513092733 * L_2 = IOSNativePreviewBackButton_Create_m4127262626(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeFeaturesPreview_t172115631_il2cpp_TypeInfo_var);
+		((IOSNativeFeaturesPreview_t172115631_StaticFields*)IOSNativeFeaturesPreview_t172115631_il2cpp_TypeInfo_var->static_fields)->set_back_12(L_2);
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Void IOSNativeFeaturesPreview::OnGUI()
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1764818188;
+extern Il2CppCodeGenString* _stringLiteral1114563825;
+extern Il2CppCodeGenString* _stringLiteral1134278591;
+extern Il2CppCodeGenString* _stringLiteral1393391679;
+extern Il2CppCodeGenString* _stringLiteral2847910071;
+extern Il2CppCodeGenString* _stringLiteral224650601;
+extern Il2CppCodeGenString* _stringLiteral1607353537;
+extern Il2CppCodeGenString* _stringLiteral3048977218;
+extern Il2CppCodeGenString* _stringLiteral2079329419;
+extern Il2CppCodeGenString* _stringLiteral3467035319;
+extern Il2CppCodeGenString* _stringLiteral3614361163;
+extern Il2CppCodeGenString* _stringLiteral3525105050;
+extern Il2CppCodeGenString* _stringLiteral2423166429;
+extern Il2CppCodeGenString* _stringLiteral3434920697;
+extern Il2CppCodeGenString* _stringLiteral2232955126;
+extern Il2CppCodeGenString* _stringLiteral2607483116;
+extern Il2CppCodeGenString* _stringLiteral4204485291;
+extern Il2CppCodeGenString* _stringLiteral3383835159;
+extern Il2CppCodeGenString* _stringLiteral3537691156;
+extern Il2CppCodeGenString* _stringLiteral2495154841;
+extern Il2CppCodeGenString* _stringLiteral1780679788;
+extern Il2CppCodeGenString* _stringLiteral3993625657;
+extern Il2CppCodeGenString* _stringLiteral1010150657;
+extern Il2CppCodeGenString* _stringLiteral4123754389;
+extern Il2CppCodeGenString* _stringLiteral4003097749;
+extern Il2CppCodeGenString* _stringLiteral3919980000;
+extern Il2CppCodeGenString* _stringLiteral2144096097;
+extern Il2CppCodeGenString* _stringLiteral3663316753;
+extern Il2CppCodeGenString* _stringLiteral1571002562;
+extern Il2CppCodeGenString* _stringLiteral3850658180;
+extern Il2CppCodeGenString* _stringLiteral3204867591;
+extern Il2CppCodeGenString* _stringLiteral491290988;
+extern Il2CppCodeGenString* _stringLiteral4171815389;
+extern Il2CppCodeGenString* _stringLiteral2507127673;
+extern const uint32_t IOSNativeFeaturesPreview_OnGUI_m932738174_MetadataUsageId;
+extern "C"  void IOSNativeFeaturesPreview_OnGUI_m932738174 (IOSNativeFeaturesPreview_t172115631 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeFeaturesPreview_OnGUI_m932738174_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		BaseIOSFeaturePreview_UpdateToStartPos_m2692100595(__this, /*hidden argument*/NULL);
+		float L_0 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_1 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_2 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, L_0, L_1, (((float)((float)L_2))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_4 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_3, _stringLiteral1764818188, L_4, /*hidden argument*/NULL);
+		float L_5 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_6 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_5+(float)L_6)));
+		float L_7 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_8 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_9 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_10 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_11;
+		memset(&L_11, 0, sizeof(L_11));
+		Rect__ctor_m1220545469(&L_11, L_7, L_8, (((float)((float)L_9))), (((float)((float)L_10))), /*hidden argument*/NULL);
+		bool L_12 = GUI_Button_m3054448581(NULL /*static, unused*/, L_11, _stringLiteral1114563825, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral1134278591, /*hidden argument*/NULL);
+	}
+
+IL_007d:
+	{
+		float L_13 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_14 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_13+(float)L_14)));
+		float L_15 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_16 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_17 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_18 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Rect__ctor_m1220545469(&L_19, L_15, L_16, (((float)((float)L_17))), (((float)((float)L_18))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_20 = GUI_Button_m3054448581(NULL /*static, unused*/, L_19, _stringLiteral1393391679, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00c8;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral2847910071, /*hidden argument*/NULL);
+	}
+
+IL_00c8:
+	{
+		float L_21 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_22 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_21+(float)L_22)));
+		float L_23 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_24 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_25 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_26 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_27;
+		memset(&L_27, 0, sizeof(L_27));
+		Rect__ctor_m1220545469(&L_27, L_23, L_24, (((float)((float)L_25))), (((float)((float)L_26))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_28 = GUI_Button_m3054448581(NULL /*static, unused*/, L_27, _stringLiteral224650601, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_0113;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral1607353537, /*hidden argument*/NULL);
+	}
+
+IL_0113:
+	{
+		float L_29 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XStartPos_7();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(L_29);
+		float L_30 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_31 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_30+(float)L_31)));
+		float L_32 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_33 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_32+(float)L_33)));
+		float L_34 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_35 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_36 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_37;
+		memset(&L_37, 0, sizeof(L_37));
+		Rect__ctor_m1220545469(&L_37, L_34, L_35, (((float)((float)L_36))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_38 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_37, _stringLiteral3048977218, L_38, /*hidden argument*/NULL);
+		float L_39 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XStartPos_7();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(L_39);
+		float L_40 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_41 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_40+(float)L_41)));
+		float L_42 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_43 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_44 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_45 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_46;
+		memset(&L_46, 0, sizeof(L_46));
+		Rect__ctor_m1220545469(&L_46, L_42, L_43, (((float)((float)L_44))), (((float)((float)L_45))), /*hidden argument*/NULL);
+		bool L_47 = GUI_Button_m3054448581(NULL /*static, unused*/, L_46, _stringLiteral2079329419, /*hidden argument*/NULL);
+		if (!L_47)
+		{
+			goto IL_01c8;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral3467035319, /*hidden argument*/NULL);
+	}
+
+IL_01c8:
+	{
+		float L_48 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_49 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_48+(float)L_49)));
+		float L_50 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_51 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_52 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_53 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_54;
+		memset(&L_54, 0, sizeof(L_54));
+		Rect__ctor_m1220545469(&L_54, L_50, L_51, (((float)((float)L_52))), (((float)((float)L_53))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_55 = GUI_Button_m3054448581(NULL /*static, unused*/, L_54, _stringLiteral3614361163, /*hidden argument*/NULL);
+		if (!L_55)
+		{
+			goto IL_0213;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral3525105050, /*hidden argument*/NULL);
+	}
+
+IL_0213:
+	{
+		float L_56 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_57 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_56+(float)L_57)));
+		float L_58 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_59 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_60 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_61 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_62;
+		memset(&L_62, 0, sizeof(L_62));
+		Rect__ctor_m1220545469(&L_62, L_58, L_59, (((float)((float)L_60))), (((float)((float)L_61))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_63 = GUI_Button_m3054448581(NULL /*static, unused*/, L_62, _stringLiteral2423166429, /*hidden argument*/NULL);
+		if (!L_63)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral3434920697, /*hidden argument*/NULL);
+	}
+
+IL_025e:
+	{
+		float L_64 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XStartPos_7();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(L_64);
+		float L_65 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_66 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YButtonStep_10();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_65+(float)L_66)));
+		float L_67 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_68 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_69 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_70 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_71;
+		memset(&L_71, 0, sizeof(L_71));
+		Rect__ctor_m1220545469(&L_71, L_67, L_68, (((float)((float)L_69))), (((float)((float)L_70))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_72 = GUI_Button_m3054448581(NULL /*static, unused*/, L_71, _stringLiteral2232955126, /*hidden argument*/NULL);
+		if (!L_72)
+		{
+			goto IL_02b5;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral2607483116, /*hidden argument*/NULL);
+	}
+
+IL_02b5:
+	{
+		float L_73 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_74 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_73+(float)L_74)));
+		float L_75 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_76 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_77 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_78 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_79;
+		memset(&L_79, 0, sizeof(L_79));
+		Rect__ctor_m1220545469(&L_79, L_75, L_76, (((float)((float)L_77))), (((float)((float)L_78))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_80 = GUI_Button_m3054448581(NULL /*static, unused*/, L_79, _stringLiteral4204485291, /*hidden argument*/NULL);
+		if (!L_80)
+		{
+			goto IL_0300;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral3383835159, /*hidden argument*/NULL);
+	}
+
+IL_0300:
+	{
+		float L_81 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_82 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_81+(float)L_82)));
+		float L_83 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_84 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_85 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_86 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_87;
+		memset(&L_87, 0, sizeof(L_87));
+		Rect__ctor_m1220545469(&L_87, L_83, L_84, (((float)((float)L_85))), (((float)((float)L_86))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_88 = GUI_Button_m3054448581(NULL /*static, unused*/, L_87, _stringLiteral3537691156, /*hidden argument*/NULL);
+		if (!L_88)
+		{
+			goto IL_034b;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral2495154841, /*hidden argument*/NULL);
+	}
+
+IL_034b:
+	{
+		float L_89 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XStartPos_7();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(L_89);
+		float L_90 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_91 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_90+(float)L_91)));
+		float L_92 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_93 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_92+(float)L_93)));
+		float L_94 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_95 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_96 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_97;
+		memset(&L_97, 0, sizeof(L_97));
+		Rect__ctor_m1220545469(&L_97, L_94, L_95, (((float)((float)L_96))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_98 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_97, _stringLiteral1780679788, L_98, /*hidden argument*/NULL);
+		float L_99 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XStartPos_7();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(L_99);
+		float L_100 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_101 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_100+(float)L_101)));
+		float L_102 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_103 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_104 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_105 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_106;
+		memset(&L_106, 0, sizeof(L_106));
+		Rect__ctor_m1220545469(&L_106, L_102, L_103, (((float)((float)L_104))), (((float)((float)L_105))), /*hidden argument*/NULL);
+		bool L_107 = GUI_Button_m3054448581(NULL /*static, unused*/, L_106, _stringLiteral3993625657, /*hidden argument*/NULL);
+		if (!L_107)
+		{
+			goto IL_0400;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral1010150657, /*hidden argument*/NULL);
+	}
+
+IL_0400:
+	{
+		float L_108 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_109 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_108+(float)L_109)));
+		float L_110 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_111 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_112 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_113 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_114;
+		memset(&L_114, 0, sizeof(L_114));
+		Rect__ctor_m1220545469(&L_114, L_110, L_111, (((float)((float)L_112))), (((float)((float)L_113))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_115 = GUI_Button_m3054448581(NULL /*static, unused*/, L_114, _stringLiteral4123754389, /*hidden argument*/NULL);
+		if (!L_115)
+		{
+			goto IL_044b;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral4003097749, /*hidden argument*/NULL);
+	}
+
+IL_044b:
+	{
+		float L_116 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_117 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_116+(float)L_117)));
+		float L_118 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_119 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_120 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_121 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_122;
+		memset(&L_122, 0, sizeof(L_122));
+		Rect__ctor_m1220545469(&L_122, L_118, L_119, (((float)((float)L_120))), (((float)((float)L_121))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_123 = GUI_Button_m3054448581(NULL /*static, unused*/, L_122, _stringLiteral3919980000, /*hidden argument*/NULL);
+		if (!L_123)
+		{
+			goto IL_0496;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral2144096097, /*hidden argument*/NULL);
+	}
+
+IL_0496:
+	{
+		float L_124 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XStartPos_7();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(L_124);
+		float L_125 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_126 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_125+(float)L_126)));
+		float L_127 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_128 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_127+(float)L_128)));
+		float L_129 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_130 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_131 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_132;
+		memset(&L_132, 0, sizeof(L_132));
+		Rect__ctor_m1220545469(&L_132, L_129, L_130, (((float)((float)L_131))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_133 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_132, _stringLiteral3663316753, L_133, /*hidden argument*/NULL);
+		float L_134 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XStartPos_7();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(L_134);
+		float L_135 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		float L_136 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_YLableStep_11();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartY_5(((float)((float)L_135+(float)L_136)));
+		float L_137 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_138 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_139 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_140 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_141;
+		memset(&L_141, 0, sizeof(L_141));
+		Rect__ctor_m1220545469(&L_141, L_137, L_138, (((float)((float)L_139))), (((float)((float)L_140))), /*hidden argument*/NULL);
+		bool L_142 = GUI_Button_m3054448581(NULL /*static, unused*/, L_141, _stringLiteral1571002562, /*hidden argument*/NULL);
+		if (!L_142)
+		{
+			goto IL_054b;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral3850658180, /*hidden argument*/NULL);
+	}
+
+IL_054b:
+	{
+		float L_143 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_144 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_143+(float)L_144)));
+		float L_145 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_146 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_147 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_148 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_149;
+		memset(&L_149, 0, sizeof(L_149));
+		Rect__ctor_m1220545469(&L_149, L_145, L_146, (((float)((float)L_147))), (((float)((float)L_148))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_150 = GUI_Button_m3054448581(NULL /*static, unused*/, L_149, _stringLiteral3204867591, /*hidden argument*/NULL);
+		if (!L_150)
+		{
+			goto IL_0596;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral491290988, /*hidden argument*/NULL);
+	}
+
+IL_0596:
+	{
+		float L_151 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_152 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_XButtonStep_9();
+		((BaseIOSFeaturePreview_t3055692840 *)__this)->set_StartX_6(((float)((float)L_151+(float)L_152)));
+		float L_153 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartX_6();
+		float L_154 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_StartY_5();
+		int32_t L_155 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonWidth_3();
+		int32_t L_156 = ((BaseIOSFeaturePreview_t3055692840 *)__this)->get_buttonHeight_4();
+		Rect_t3681755626  L_157;
+		memset(&L_157, 0, sizeof(L_157));
+		Rect__ctor_m1220545469(&L_157, L_153, L_154, (((float)((float)L_155))), (((float)((float)L_156))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_158 = GUI_Button_m3054448581(NULL /*static, unused*/, L_157, _stringLiteral4171815389, /*hidden argument*/NULL);
+		if (!L_158)
+		{
+			goto IL_05e1;
+		}
+	}
+	{
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral2507127673, /*hidden argument*/NULL);
+	}
+
+IL_05e1:
+	{
+		return;
+	}
+}
+// System.Void IOSNativeFeaturesPreview::.cctor()
+extern "C"  void IOSNativeFeaturesPreview__cctor_m2570914761 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeMarketBridge::.ctor()
+extern "C"  void IOSNativeMarketBridge__ctor_m3216374374 (IOSNativeMarketBridge_t1553898649 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _loadStore(char*);
+// System.Void IOSNativeMarketBridge::_loadStore(System.String)
+extern "C"  void IOSNativeMarketBridge__loadStore_m770179252 (Il2CppObject * __this /* static, unused */, String_t* ___ids0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___ids0' to native representation
+	char* ____ids0_marshaled = NULL;
+	____ids0_marshaled = il2cpp_codegen_marshal_string(___ids0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_loadStore)(____ids0_marshaled);
+
+	// Marshaling cleanup of parameter '___ids0' native representation
+	il2cpp_codegen_marshal_free(____ids0_marshaled);
+	____ids0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _restorePurchases();
+// System.Void IOSNativeMarketBridge::_restorePurchases()
+extern "C"  void IOSNativeMarketBridge__restorePurchases_m641328623 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_restorePurchases)();
+
+}
+extern "C" void DEFAULT_CALL _buyProduct(char*);
+// System.Void IOSNativeMarketBridge::_buyProduct(System.String)
+extern "C"  void IOSNativeMarketBridge__buyProduct_m3885903054 (Il2CppObject * __this /* static, unused */, String_t* ___id0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___id0' to native representation
+	char* ____id0_marshaled = NULL;
+	____id0_marshaled = il2cpp_codegen_marshal_string(___id0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_buyProduct)(____id0_marshaled);
+
+	// Marshaling cleanup of parameter '___id0' native representation
+	il2cpp_codegen_marshal_free(____id0_marshaled);
+	____id0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_RequestInAppSettingState();
+// System.Void IOSNativeMarketBridge::_ISN_RequestInAppSettingState()
+extern "C"  void IOSNativeMarketBridge__ISN_RequestInAppSettingState_m711179876 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_RequestInAppSettingState)();
+
+}
+extern "C" void DEFAULT_CALL _verifyLastPurchase(char*);
+// System.Void IOSNativeMarketBridge::_verifyLastPurchase(System.String)
+extern "C"  void IOSNativeMarketBridge__verifyLastPurchase_m2146478139 (Il2CppObject * __this /* static, unused */, String_t* ___url0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___url0' to native representation
+	char* ____url0_marshaled = NULL;
+	____url0_marshaled = il2cpp_codegen_marshal_string(___url0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_verifyLastPurchase)(____url0_marshaled);
+
+	// Marshaling cleanup of parameter '___url0' native representation
+	il2cpp_codegen_marshal_free(____url0_marshaled);
+	____url0_marshaled = NULL;
+
+}
+// System.Void IOSNativeMarketBridge::loadStore(System.String)
+extern "C"  void IOSNativeMarketBridge_loadStore_m2640748431 (Il2CppObject * __this /* static, unused */, String_t* ___ids0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___ids0;
+		IOSNativeMarketBridge__loadStore_m770179252(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeMarketBridge::buyProduct(System.String)
+extern "C"  void IOSNativeMarketBridge_buyProduct_m1979115479 (Il2CppObject * __this /* static, unused */, String_t* ___id0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___id0;
+		IOSNativeMarketBridge__buyProduct_m3885903054(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeMarketBridge::restorePurchases()
+extern "C"  void IOSNativeMarketBridge_restorePurchases_m224082834 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		IOSNativeMarketBridge__restorePurchases_m641328623(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeMarketBridge::verifyLastPurchase(System.String)
+extern "C"  void IOSNativeMarketBridge_verifyLastPurchase_m1415496064 (Il2CppObject * __this /* static, unused */, String_t* ___url0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___url0;
+		IOSNativeMarketBridge__verifyLastPurchase_m2146478139(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeMarketBridge::ISN_RequestInAppSettingState()
+extern "C"  void IOSNativeMarketBridge_ISN_RequestInAppSettingState_m2685199765 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		IOSNativeMarketBridge__ISN_RequestInAppSettingState_m711179876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativePopUpManager::.ctor()
+extern "C"  void IOSNativePopUpManager__ctor_m2368966410 (IOSNativePopUpManager_t3689761895 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_ShowRateUsPopUp(char*, char*, char*, char*, char*);
+// System.Void IOSNativePopUpManager::_ISN_ShowRateUsPopUp(System.String,System.String,System.String,System.String,System.String)
+extern "C"  void IOSNativePopUpManager__ISN_ShowRateUsPopUp_m1112959113 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___rate2, String_t* ___remind3, String_t* ___declined4, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*, char*);
+
+	// Marshaling of parameter '___title0' to native representation
+	char* ____title0_marshaled = NULL;
+	____title0_marshaled = il2cpp_codegen_marshal_string(___title0);
+
+	// Marshaling of parameter '___message1' to native representation
+	char* ____message1_marshaled = NULL;
+	____message1_marshaled = il2cpp_codegen_marshal_string(___message1);
+
+	// Marshaling of parameter '___rate2' to native representation
+	char* ____rate2_marshaled = NULL;
+	____rate2_marshaled = il2cpp_codegen_marshal_string(___rate2);
+
+	// Marshaling of parameter '___remind3' to native representation
+	char* ____remind3_marshaled = NULL;
+	____remind3_marshaled = il2cpp_codegen_marshal_string(___remind3);
+
+	// Marshaling of parameter '___declined4' to native representation
+	char* ____declined4_marshaled = NULL;
+	____declined4_marshaled = il2cpp_codegen_marshal_string(___declined4);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ShowRateUsPopUp)(____title0_marshaled, ____message1_marshaled, ____rate2_marshaled, ____remind3_marshaled, ____declined4_marshaled);
+
+	// Marshaling cleanup of parameter '___title0' native representation
+	il2cpp_codegen_marshal_free(____title0_marshaled);
+	____title0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___message1' native representation
+	il2cpp_codegen_marshal_free(____message1_marshaled);
+	____message1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___rate2' native representation
+	il2cpp_codegen_marshal_free(____rate2_marshaled);
+	____rate2_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___remind3' native representation
+	il2cpp_codegen_marshal_free(____remind3_marshaled);
+	____remind3_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___declined4' native representation
+	il2cpp_codegen_marshal_free(____declined4_marshaled);
+	____declined4_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_ShowDialog(char*, char*, char*, char*);
+// System.Void IOSNativePopUpManager::_ISN_ShowDialog(System.String,System.String,System.String,System.String)
+extern "C"  void IOSNativePopUpManager__ISN_ShowDialog_m3876456769 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___yes2, String_t* ___no3, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*);
+
+	// Marshaling of parameter '___title0' to native representation
+	char* ____title0_marshaled = NULL;
+	____title0_marshaled = il2cpp_codegen_marshal_string(___title0);
+
+	// Marshaling of parameter '___message1' to native representation
+	char* ____message1_marshaled = NULL;
+	____message1_marshaled = il2cpp_codegen_marshal_string(___message1);
+
+	// Marshaling of parameter '___yes2' to native representation
+	char* ____yes2_marshaled = NULL;
+	____yes2_marshaled = il2cpp_codegen_marshal_string(___yes2);
+
+	// Marshaling of parameter '___no3' to native representation
+	char* ____no3_marshaled = NULL;
+	____no3_marshaled = il2cpp_codegen_marshal_string(___no3);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ShowDialog)(____title0_marshaled, ____message1_marshaled, ____yes2_marshaled, ____no3_marshaled);
+
+	// Marshaling cleanup of parameter '___title0' native representation
+	il2cpp_codegen_marshal_free(____title0_marshaled);
+	____title0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___message1' native representation
+	il2cpp_codegen_marshal_free(____message1_marshaled);
+	____message1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___yes2' native representation
+	il2cpp_codegen_marshal_free(____yes2_marshaled);
+	____yes2_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___no3' native representation
+	il2cpp_codegen_marshal_free(____no3_marshaled);
+	____no3_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_ShowMessage(char*, char*, char*);
+// System.Void IOSNativePopUpManager::_ISN_ShowMessage(System.String,System.String,System.String)
+extern "C"  void IOSNativePopUpManager__ISN_ShowMessage_m1787524956 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___ok2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*);
+
+	// Marshaling of parameter '___title0' to native representation
+	char* ____title0_marshaled = NULL;
+	____title0_marshaled = il2cpp_codegen_marshal_string(___title0);
+
+	// Marshaling of parameter '___message1' to native representation
+	char* ____message1_marshaled = NULL;
+	____message1_marshaled = il2cpp_codegen_marshal_string(___message1);
+
+	// Marshaling of parameter '___ok2' to native representation
+	char* ____ok2_marshaled = NULL;
+	____ok2_marshaled = il2cpp_codegen_marshal_string(___ok2);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ShowMessage)(____title0_marshaled, ____message1_marshaled, ____ok2_marshaled);
+
+	// Marshaling cleanup of parameter '___title0' native representation
+	il2cpp_codegen_marshal_free(____title0_marshaled);
+	____title0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___message1' native representation
+	il2cpp_codegen_marshal_free(____message1_marshaled);
+	____message1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___ok2' native representation
+	il2cpp_codegen_marshal_free(____ok2_marshaled);
+	____ok2_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_DismissCurrentAlert();
+// System.Void IOSNativePopUpManager::_ISN_DismissCurrentAlert()
+extern "C"  void IOSNativePopUpManager__ISN_DismissCurrentAlert_m688472171 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_DismissCurrentAlert)();
+
+}
+// System.Void IOSNativePopUpManager::dismissCurrentAlert()
+extern "C"  void IOSNativePopUpManager_dismissCurrentAlert_m2441179419 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		IOSNativePopUpManager__ISN_DismissCurrentAlert_m688472171(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativePopUpManager::showRateUsPopUp(System.String,System.String,System.String,System.String,System.String)
+extern "C"  void IOSNativePopUpManager_showRateUsPopUp_m2782449697 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___rate2, String_t* ___remind3, String_t* ___declined4, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		String_t* L_2 = ___rate2;
+		String_t* L_3 = ___remind3;
+		String_t* L_4 = ___declined4;
+		IOSNativePopUpManager__ISN_ShowRateUsPopUp_m1112959113(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativePopUpManager::showDialog(System.String,System.String)
+extern Il2CppCodeGenString* _stringLiteral3021629903;
+extern Il2CppCodeGenString* _stringLiteral1496915101;
+extern const uint32_t IOSNativePopUpManager_showDialog_m4107582753_MetadataUsageId;
+extern "C"  void IOSNativePopUpManager_showDialog_m4107582753 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativePopUpManager_showDialog_m4107582753_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		IOSNativePopUpManager_showDialog_m3905221345(NULL /*static, unused*/, L_0, L_1, _stringLiteral3021629903, _stringLiteral1496915101, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativePopUpManager::showDialog(System.String,System.String,System.String,System.String)
+extern "C"  void IOSNativePopUpManager_showDialog_m3905221345 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___yes2, String_t* ___no3, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		String_t* L_2 = ___yes2;
+		String_t* L_3 = ___no3;
+		IOSNativePopUpManager__ISN_ShowDialog_m3876456769(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativePopUpManager::showMessage(System.String,System.String)
+extern Il2CppCodeGenString* _stringLiteral3466283568;
+extern const uint32_t IOSNativePopUpManager_showMessage_m885280144_MetadataUsageId;
+extern "C"  void IOSNativePopUpManager_showMessage_m885280144 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativePopUpManager_showMessage_m885280144_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		IOSNativePopUpManager_showMessage_m3791036248(NULL /*static, unused*/, L_0, L_1, _stringLiteral3466283568, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativePopUpManager::showMessage(System.String,System.String,System.String)
+extern "C"  void IOSNativePopUpManager_showMessage_m3791036248 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___ok2, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		String_t* L_2 = ___ok2;
+		IOSNativePopUpManager__ISN_ShowMessage_m1787524956(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativePreviewBackButton::.ctor()
+extern Il2CppCodeGenString* _stringLiteral633882814;
+extern const uint32_t IOSNativePreviewBackButton__ctor_m4049587428_MetadataUsageId;
+extern "C"  void IOSNativePreviewBackButton__ctor_m4049587428 (IOSNativePreviewBackButton_t2513092733 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativePreviewBackButton__ctor_m4049587428_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_initialSceneName_12(_stringLiteral633882814);
+		BaseIOSFeaturePreview__ctor_m2883712885(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// IOSNativePreviewBackButton IOSNativePreviewBackButton::Create()
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisIOSNativePreviewBackButton_t2513092733_m881900763_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1984317533;
+extern const uint32_t IOSNativePreviewBackButton_Create_m4127262626_MetadataUsageId;
+extern "C"  IOSNativePreviewBackButton_t2513092733 * IOSNativePreviewBackButton_Create_m4127262626 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativePreviewBackButton_Create_m4127262626_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_0, _stringLiteral1984317533, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		IOSNativePreviewBackButton_t2513092733 * L_1 = GameObject_AddComponent_TisIOSNativePreviewBackButton_t2513092733_m881900763(L_0, /*hidden argument*/GameObject_AddComponent_TisIOSNativePreviewBackButton_t2513092733_m881900763_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Void IOSNativePreviewBackButton::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativePreviewBackButton_Awake_m383619737_MetadataUsageId;
+extern "C"  void IOSNativePreviewBackButton_Awake_m383619737 (IOSNativePreviewBackButton_t2513092733 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativePreviewBackButton_Awake_m383619737_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_initialSceneName_12(L_1);
+		return;
+	}
+}
+// System.Void IOSNativePreviewBackButton::OnGUI()
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2778558511;
+extern const uint32_t IOSNativePreviewBackButton_OnGUI_m2443852416_MetadataUsageId;
+extern "C"  void IOSNativePreviewBackButton_OnGUI_m2443852416 (IOSNativePreviewBackButton_t2513092733 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativePreviewBackButton_OnGUI_m2443852416_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	Color_t2020392075  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		V_0 = (120.0f);
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_1 = V_0;
+		V_1 = ((float)((float)(((float)((float)L_0)))-(float)((float)((float)L_1*(float)(1.2f)))));
+		float L_2 = V_0;
+		V_2 = ((float)((float)L_2*(float)(0.2f)));
+		String_t* L_3 = Application_get_loadedLevelName_m1151756873(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = __this->get_initialSceneName_12();
+		NullCheck(L_3);
+		bool L_5 = String_Equals_m2633592423(L_3, L_4, /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_6 = GUI_get_color_m1234367343(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = L_6;
+		Color_t2020392075  L_7 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_color_m3547334264(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		float L_8 = V_1;
+		float L_9 = V_2;
+		float L_10 = V_0;
+		float L_11 = V_0;
+		Rect_t3681755626  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		Rect__ctor_m1220545469(&L_12, L_8, L_9, L_10, ((float)((float)L_11*(float)(0.4f))), /*hidden argument*/NULL);
+		bool L_13 = GUI_Button_m3054448581(NULL /*static, unused*/, L_12, _stringLiteral2778558511, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		String_t* L_14 = __this->get_initialSceneName_12();
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+	}
+
+IL_006b:
+	{
+		Color_t2020392075  L_15 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_color_m3547334264(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+	}
+
+IL_0071:
+	{
+		return;
+	}
+}
+// System.Void IOSNativeSettings::.ctor()
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4250254070;
+extern const uint32_t IOSNativeSettings__ctor_m2247136798_MetadataUsageId;
+extern "C"  void IOSNativeSettings__ctor_m2247136798 (IOSNativeSettings_t547170227 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeSettings__ctor_m2247136798_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_AppleId_3(_stringLiteral4250254070);
+		List_1_t1398341365 * L_0 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_0, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_InAppProducts_4(L_0);
+		__this->set_SendFakeEventsInEditor_5((bool)1);
+		List_1_t1398341365 * L_1 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_1, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_RegisteredAchievementsIds_6(L_1);
+		List_1_t1398341365 * L_2 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_2, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_DefaultStoreProductsView_7(L_2);
+		__this->set_AutoLoadUsersSmallImages_20((bool)1);
+		__this->set_MaxImageLoadSize_22(((int32_t)512));
+		__this->set_JPegCompressionRate_23((0.8f));
+		__this->set_GalleryImageFormat_24(1);
+		ScriptableObject__ctor_m2671490429(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// IOSNativeSettings IOSNativeSettings::get_Instance()
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisIOSNativeSettings_t547170227_m347344897_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1275248745;
+extern const uint32_t IOSNativeSettings_get_Instance_m669900754_MetadataUsageId;
+extern "C"  IOSNativeSettings_t547170227 * IOSNativeSettings_get_Instance_m669900754 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeSettings_get_Instance_m669900754_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_0 = ((IOSNativeSettings_t547170227_StaticFields*)IOSNativeSettings_t547170227_il2cpp_TypeInfo_var->static_fields)->get_instance_28();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		Object_t1021602117 * L_2 = Resources_Load_m2041782325(NULL /*static, unused*/, _stringLiteral1275248745, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		((IOSNativeSettings_t547170227_StaticFields*)IOSNativeSettings_t547170227_il2cpp_TypeInfo_var->static_fields)->set_instance_28(((IOSNativeSettings_t547170227 *)IsInstClass(L_2, IOSNativeSettings_t547170227_il2cpp_TypeInfo_var)));
+		IOSNativeSettings_t547170227 * L_3 = ((IOSNativeSettings_t547170227_StaticFields*)IOSNativeSettings_t547170227_il2cpp_TypeInfo_var->static_fields)->get_instance_28();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		IOSNativeSettings_t547170227 * L_5 = ScriptableObject_CreateInstance_TisIOSNativeSettings_t547170227_m347344897(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisIOSNativeSettings_t547170227_m347344897_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		((IOSNativeSettings_t547170227_StaticFields*)IOSNativeSettings_t547170227_il2cpp_TypeInfo_var->static_fields)->set_instance_28(L_5);
+	}
+
+IL_003e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_6 = ((IOSNativeSettings_t547170227_StaticFields*)IOSNativeSettings_t547170227_il2cpp_TypeInfo_var->static_fields)->get_instance_28();
+		return L_6;
+	}
+}
+// System.Void IOSNativeSettings::.cctor()
+extern "C"  void IOSNativeSettings__cctor_m3451570793 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNativeUtility::.ctor()
+extern "C"  void IOSNativeUtility__ctor_m3421687355 (IOSNativeUtility_t933355194 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_RedirectToAppStoreRatingPage(char*);
+// System.Void IOSNativeUtility::_ISN_RedirectToAppStoreRatingPage(System.String)
+extern "C"  void IOSNativeUtility__ISN_RedirectToAppStoreRatingPage_m844158534 (Il2CppObject * __this /* static, unused */, String_t* ___appId0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___appId0' to native representation
+	char* ____appId0_marshaled = NULL;
+	____appId0_marshaled = il2cpp_codegen_marshal_string(___appId0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_RedirectToAppStoreRatingPage)(____appId0_marshaled);
+
+	// Marshaling cleanup of parameter '___appId0' native representation
+	il2cpp_codegen_marshal_free(____appId0_marshaled);
+	____appId0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_ShowPreloader();
+// System.Void IOSNativeUtility::_ISN_ShowPreloader()
+extern "C"  void IOSNativeUtility__ISN_ShowPreloader_m1577770598 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ShowPreloader)();
+
+}
+extern "C" void DEFAULT_CALL _ISN_HidePreloader();
+// System.Void IOSNativeUtility::_ISN_HidePreloader()
+extern "C"  void IOSNativeUtility__ISN_HidePreloader_m655908933 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_HidePreloader)();
+
+}
+extern "C" void DEFAULT_CALL _ISN_SetApplicationBagesNumber(int32_t);
+// System.Void IOSNativeUtility::_ISN_SetApplicationBagesNumber(System.Int32)
+extern "C"  void IOSNativeUtility__ISN_SetApplicationBagesNumber_m4084483139 (Il2CppObject * __this /* static, unused */, int32_t ___count0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_SetApplicationBagesNumber)(___count0);
+
+}
+// System.Void IOSNativeUtility::RedirectToAppStoreRatingPage()
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNativeUtility_RedirectToAppStoreRatingPage_m3820068446_MetadataUsageId;
+extern "C"  void IOSNativeUtility_RedirectToAppStoreRatingPage_m3820068446 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNativeUtility_RedirectToAppStoreRatingPage_m3820068446_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_0 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = L_0->get_AppleId_3();
+		IOSNativeUtility_RedirectToAppStoreRatingPage_m925545608(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeUtility::RedirectToAppStoreRatingPage(System.String)
+extern "C"  void IOSNativeUtility_RedirectToAppStoreRatingPage_m925545608 (Il2CppObject * __this /* static, unused */, String_t* ___appleId0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___appleId0;
+		IOSNativeUtility__ISN_RedirectToAppStoreRatingPage_m844158534(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeUtility::SetApplicationBagesNumber(System.Int32)
+extern "C"  void IOSNativeUtility_SetApplicationBagesNumber_m1293268631 (Il2CppObject * __this /* static, unused */, int32_t ___count0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___count0;
+		IOSNativeUtility__ISN_SetApplicationBagesNumber_m4084483139(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeUtility::ShowPreloader()
+extern "C"  void IOSNativeUtility_ShowPreloader_m133845536 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		IOSNativeUtility__ISN_ShowPreloader_m1577770598(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNativeUtility::HidePreloader()
+extern "C"  void IOSNativeUtility_HidePreloader_m370985009 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		IOSNativeUtility__ISN_HidePreloader_m655908933(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::.ctor()
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2056052277_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t4031929870_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSNotificationController_U3COnRemoteNotificationReceivedU3Em__0_m602774008_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1775116570_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m408464656_MethodInfo_var;
+extern const uint32_t IOSNotificationController__ctor_m505757695_MetadataUsageId;
+extern "C"  void IOSNotificationController__ctor_m505757695 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController__ctor_m505757695_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSNotificationController_t796362558 * G_B2_0 = NULL;
+	IOSNotificationController_t796362558 * G_B1_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2056052277 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_13();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)IOSNotificationController_U3COnRemoteNotificationReceivedU3Em__0_m602774008_MethodInfo_var);
+		Action_1_t2056052277 * L_2 = (Action_1_t2056052277 *)il2cpp_codegen_object_new(Action_1_t2056052277_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1775116570(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m1775116570_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_13(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2056052277 * L_3 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_13();
+		NullCheck(G_B2_0);
+		G_B2_0->set_OnRemoteNotificationReceived_11(L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t4031929870_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m408464656(__this, /*hidden argument*/ISN_Singleton_1__ctor_m408464656_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSNotificationController::add_OnDeviceTokenReceived(System.Action`1<IOSNotificationDeviceToken>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2364224027_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_add_OnDeviceTokenReceived_m2425652833_MetadataUsageId;
+extern "C"  void IOSNotificationController_add_OnDeviceTokenReceived_m2425652833 (Il2CppObject * __this /* static, unused */, Action_1_t2364224027 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_add_OnDeviceTokenReceived_m2425652833_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2364224027 * V_0 = NULL;
+	Action_1_t2364224027 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2364224027 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnDeviceTokenReceived_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2364224027 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2364224027 * L_2 = V_1;
+		Action_1_t2364224027 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2364224027 * L_5 = V_0;
+		Action_1_t2364224027 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2364224027 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnDeviceTokenReceived_7()), ((Action_1_t2364224027 *)CastclassSealed(L_4, Action_1_t2364224027_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2364224027 * L_7 = V_0;
+		Action_1_t2364224027 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2364224027 *)L_7) == ((Il2CppObject*)(Action_1_t2364224027 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::remove_OnDeviceTokenReceived(System.Action`1<IOSNotificationDeviceToken>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2364224027_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_remove_OnDeviceTokenReceived_m190010662_MetadataUsageId;
+extern "C"  void IOSNotificationController_remove_OnDeviceTokenReceived_m190010662 (Il2CppObject * __this /* static, unused */, Action_1_t2364224027 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_remove_OnDeviceTokenReceived_m190010662_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2364224027 * V_0 = NULL;
+	Action_1_t2364224027 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2364224027 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnDeviceTokenReceived_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2364224027 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2364224027 * L_2 = V_1;
+		Action_1_t2364224027 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2364224027 * L_5 = V_0;
+		Action_1_t2364224027 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2364224027 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnDeviceTokenReceived_7()), ((Action_1_t2364224027 *)CastclassSealed(L_4, Action_1_t2364224027_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2364224027 * L_7 = V_0;
+		Action_1_t2364224027 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2364224027 *)L_7) == ((Il2CppObject*)(Action_1_t2364224027 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::add_OnNotificationScheduleResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_add_OnNotificationScheduleResult_m881373165_MetadataUsageId;
+extern "C"  void IOSNotificationController_add_OnNotificationScheduleResult_m881373165 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_add_OnNotificationScheduleResult_m881373165_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnNotificationScheduleResult_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnNotificationScheduleResult_8()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::remove_OnNotificationScheduleResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_remove_OnNotificationScheduleResult_m3974995544_MetadataUsageId;
+extern "C"  void IOSNotificationController_remove_OnNotificationScheduleResult_m3974995544 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_remove_OnNotificationScheduleResult_m3974995544_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnNotificationScheduleResult_8();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnNotificationScheduleResult_8()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::add_OnNotificationSettingsInfoResult(System.Action`1<System.Int32>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1873676830_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_add_OnNotificationSettingsInfoResult_m633662126_MetadataUsageId;
+extern "C"  void IOSNotificationController_add_OnNotificationSettingsInfoResult_m633662126 (Il2CppObject * __this /* static, unused */, Action_1_t1873676830 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_add_OnNotificationSettingsInfoResult_m633662126_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1873676830 * V_0 = NULL;
+	Action_1_t1873676830 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t1873676830 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnNotificationSettingsInfoResult_9();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1873676830 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t1873676830 * L_2 = V_1;
+		Action_1_t1873676830 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1873676830 * L_5 = V_0;
+		Action_1_t1873676830 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1873676830 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnNotificationSettingsInfoResult_9()), ((Action_1_t1873676830 *)CastclassSealed(L_4, Action_1_t1873676830_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1873676830 * L_7 = V_0;
+		Action_1_t1873676830 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1873676830 *)L_7) == ((Il2CppObject*)(Action_1_t1873676830 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::remove_OnNotificationSettingsInfoResult(System.Action`1<System.Int32>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1873676830_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_remove_OnNotificationSettingsInfoResult_m4240172439_MetadataUsageId;
+extern "C"  void IOSNotificationController_remove_OnNotificationSettingsInfoResult_m4240172439 (Il2CppObject * __this /* static, unused */, Action_1_t1873676830 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_remove_OnNotificationSettingsInfoResult_m4240172439_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1873676830 * V_0 = NULL;
+	Action_1_t1873676830 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t1873676830 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnNotificationSettingsInfoResult_9();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1873676830 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t1873676830 * L_2 = V_1;
+		Action_1_t1873676830 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1873676830 * L_5 = V_0;
+		Action_1_t1873676830 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1873676830 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnNotificationSettingsInfoResult_9()), ((Action_1_t1873676830 *)CastclassSealed(L_4, Action_1_t1873676830_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1873676830 * L_7 = V_0;
+		Action_1_t1873676830 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1873676830 *)L_7) == ((Il2CppObject*)(Action_1_t1873676830 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::add_OnLocalNotificationReceived(System.Action`1<ISN_LocalNotification>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t74986071_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_add_OnLocalNotificationReceived_m882720562_MetadataUsageId;
+extern "C"  void IOSNotificationController_add_OnLocalNotificationReceived_m882720562 (Il2CppObject * __this /* static, unused */, Action_1_t74986071 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_add_OnLocalNotificationReceived_m882720562_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t74986071 * V_0 = NULL;
+	Action_1_t74986071 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t74986071 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnLocalNotificationReceived_10();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t74986071 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t74986071 * L_2 = V_1;
+		Action_1_t74986071 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t74986071 * L_5 = V_0;
+		Action_1_t74986071 * L_6 = InterlockedCompareExchangeImpl<Action_1_t74986071 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnLocalNotificationReceived_10()), ((Action_1_t74986071 *)CastclassSealed(L_4, Action_1_t74986071_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t74986071 * L_7 = V_0;
+		Action_1_t74986071 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t74986071 *)L_7) == ((Il2CppObject*)(Action_1_t74986071 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::remove_OnLocalNotificationReceived(System.Action`1<ISN_LocalNotification>)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t74986071_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_remove_OnLocalNotificationReceived_m1898398033_MetadataUsageId;
+extern "C"  void IOSNotificationController_remove_OnLocalNotificationReceived_m1898398033 (Il2CppObject * __this /* static, unused */, Action_1_t74986071 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_remove_OnLocalNotificationReceived_m1898398033_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t74986071 * V_0 = NULL;
+	Action_1_t74986071 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t74986071 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnLocalNotificationReceived_10();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t74986071 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t74986071 * L_2 = V_1;
+		Action_1_t74986071 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t74986071 * L_5 = V_0;
+		Action_1_t74986071 * L_6 = InterlockedCompareExchangeImpl<Action_1_t74986071 *>((((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnLocalNotificationReceived_10()), ((Action_1_t74986071 *)CastclassSealed(L_4, Action_1_t74986071_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t74986071 * L_7 = V_0;
+		Action_1_t74986071 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t74986071 *)L_7) == ((Il2CppObject*)(Action_1_t74986071 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_ScheduleNotification(int32_t, char*, int32_t, char*, int32_t, char*);
+// System.Void IOSNotificationController::_ISN_ScheduleNotification(System.Int32,System.String,System.Boolean,System.String,System.Int32,System.String)
+extern "C"  void IOSNotificationController__ISN_ScheduleNotification_m3508980350 (Il2CppObject * __this /* static, unused */, int32_t ___time0, String_t* ___message1, bool ___sound2, String_t* ___nId3, int32_t ___badges4, String_t* ___data5, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, int32_t, char*, int32_t, char*);
+
+	// Marshaling of parameter '___message1' to native representation
+	char* ____message1_marshaled = NULL;
+	____message1_marshaled = il2cpp_codegen_marshal_string(___message1);
+
+	// Marshaling of parameter '___nId3' to native representation
+	char* ____nId3_marshaled = NULL;
+	____nId3_marshaled = il2cpp_codegen_marshal_string(___nId3);
+
+	// Marshaling of parameter '___data5' to native representation
+	char* ____data5_marshaled = NULL;
+	____data5_marshaled = il2cpp_codegen_marshal_string(___data5);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ScheduleNotification)(___time0, ____message1_marshaled, static_cast<int32_t>(___sound2), ____nId3_marshaled, ___badges4, ____data5_marshaled);
+
+	// Marshaling cleanup of parameter '___message1' native representation
+	il2cpp_codegen_marshal_free(____message1_marshaled);
+	____message1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___nId3' native representation
+	il2cpp_codegen_marshal_free(____nId3_marshaled);
+	____nId3_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___data5' native representation
+	il2cpp_codegen_marshal_free(____data5_marshaled);
+	____data5_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_ShowNotificationBanner(char*, char*);
+// System.Void IOSNotificationController::_ISN_ShowNotificationBanner(System.String,System.String)
+extern "C"  void IOSNotificationController__ISN_ShowNotificationBanner_m3887486053 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
+
+	// Marshaling of parameter '___title0' to native representation
+	char* ____title0_marshaled = NULL;
+	____title0_marshaled = il2cpp_codegen_marshal_string(___title0);
+
+	// Marshaling of parameter '___message1' to native representation
+	char* ____message1_marshaled = NULL;
+	____message1_marshaled = il2cpp_codegen_marshal_string(___message1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ShowNotificationBanner)(____title0_marshaled, ____message1_marshaled);
+
+	// Marshaling cleanup of parameter '___title0' native representation
+	il2cpp_codegen_marshal_free(____title0_marshaled);
+	____title0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___message1' native representation
+	il2cpp_codegen_marshal_free(____message1_marshaled);
+	____message1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_CancelNotifications();
+// System.Void IOSNotificationController::_ISN_CancelNotifications()
+extern "C"  void IOSNotificationController__ISN_CancelNotifications_m1242086219 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_CancelNotifications)();
+
+}
+extern "C" void DEFAULT_CALL _ISN_RequestNotificationPermissions();
+// System.Void IOSNotificationController::_ISN_RequestNotificationPermissions()
+extern "C"  void IOSNotificationController__ISN_RequestNotificationPermissions_m1161967355 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_RequestNotificationPermissions)();
+
+}
+extern "C" void DEFAULT_CALL _ISN_CancelNotificationById(char*);
+// System.Void IOSNotificationController::_ISN_CancelNotificationById(System.String)
+extern "C"  void IOSNotificationController__ISN_CancelNotificationById_m2568948408 (Il2CppObject * __this /* static, unused */, String_t* ___nId0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___nId0' to native representation
+	char* ____nId0_marshaled = NULL;
+	____nId0_marshaled = il2cpp_codegen_marshal_string(___nId0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_CancelNotificationById)(____nId0_marshaled);
+
+	// Marshaling cleanup of parameter '___nId0' native representation
+	il2cpp_codegen_marshal_free(____nId0_marshaled);
+	____nId0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_ApplicationIconBadgeNumber(int32_t);
+// System.Void IOSNotificationController::_ISN_ApplicationIconBadgeNumber(System.Int32)
+extern "C"  void IOSNotificationController__ISN_ApplicationIconBadgeNumber_m539000173 (Il2CppObject * __this /* static, unused */, int32_t ___badges0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_ApplicationIconBadgeNumber)(___badges0);
+
+}
+extern "C" void DEFAULT_CALL _ISN_RegisterForRemoteNotifications(int32_t);
+// System.Void IOSNotificationController::_ISN_RegisterForRemoteNotifications(System.Int32)
+extern "C"  void IOSNotificationController__ISN_RegisterForRemoteNotifications_m1291441320 (Il2CppObject * __this /* static, unused */, int32_t ___types0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_RegisterForRemoteNotifications)(___types0);
+
+}
+extern "C" void DEFAULT_CALL _ISN_RequestNotificationSettings();
+// System.Void IOSNotificationController::_ISN_RequestNotificationSettings()
+extern "C"  void IOSNotificationController__ISN_RequestNotificationSettings_m1522495632 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_RequestNotificationSettings)();
+
+}
+// System.Void IOSNotificationController::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_LocalNotification_t273186689_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDictionary_t596158605_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1285189882;
+extern Il2CppCodeGenString* _stringLiteral2619694;
+extern const uint32_t IOSNotificationController_Awake_m732697470_MetadataUsageId;
+extern "C"  void IOSNotificationController_Awake_m732697470 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_Awake_m732697470_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LocalNotification_t317971878 * V_0 = NULL;
+	ISN_LocalNotification_t273186689 * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = NotificationServices_get_localNotificationCount_m3722631625(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		LocalNotificationU5BU5D_t620603651* L_2 = NotificationServices_get_localNotifications_m779039864(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		LocalNotification_t317971878 * L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = L_4;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_5 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		LocalNotification_t317971878 * L_6 = V_0;
+		NullCheck(L_6);
+		String_t* L_7 = LocalNotification_get_alertBody_m3389080544(L_6, /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_8 = (ISN_LocalNotification_t273186689 *)il2cpp_codegen_object_new(ISN_LocalNotification_t273186689_il2cpp_TypeInfo_var);
+		ISN_LocalNotification__ctor_m704509163(L_8, L_5, L_7, (bool)1, /*hidden argument*/NULL);
+		V_1 = L_8;
+		V_2 = 0;
+		LocalNotification_t317971878 * L_9 = V_0;
+		NullCheck(L_9);
+		Il2CppObject * L_10 = LocalNotification_get_userInfo_m2319244588(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		bool L_11 = InterfaceFuncInvoker1< bool, Il2CppObject * >::Invoke(8 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t596158605_il2cpp_TypeInfo_var, L_10, _stringLiteral1285189882);
+		if (!L_11)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		LocalNotification_t317971878 * L_12 = V_0;
+		NullCheck(L_12);
+		Il2CppObject * L_13 = LocalNotification_get_userInfo_m2319244588(L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Il2CppObject * L_14 = InterfaceFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(2 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t596158605_il2cpp_TypeInfo_var, L_13, _stringLiteral1285189882);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_15 = Convert_ToInt32_m366159805(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		V_2 = L_15;
+	}
+
+IL_005d:
+	{
+		LocalNotification_t317971878 * L_16 = V_0;
+		NullCheck(L_16);
+		Il2CppObject * L_17 = LocalNotification_get_userInfo_m2319244588(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		bool L_18 = InterfaceFuncInvoker1< bool, Il2CppObject * >::Invoke(8 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t596158605_il2cpp_TypeInfo_var, L_17, _stringLiteral2619694);
+		if (!L_18)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		ISN_LocalNotification_t273186689 * L_19 = V_1;
+		LocalNotification_t317971878 * L_20 = V_0;
+		NullCheck(L_20);
+		Il2CppObject * L_21 = LocalNotification_get_userInfo_m2319244588(L_20, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Il2CppObject * L_22 = InterfaceFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(2 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t596158605_il2cpp_TypeInfo_var, L_21, _stringLiteral2619694);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		String_t* L_23 = Convert_ToString_m2915777777(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		ISN_LocalNotification_SetData_m500201786(L_19, L_23, /*hidden argument*/NULL);
+	}
+
+IL_008d:
+	{
+		ISN_LocalNotification_t273186689 * L_24 = V_1;
+		int32_t L_25 = V_2;
+		NullCheck(L_24);
+		ISN_LocalNotification_SetId_m3701617740(L_24, L_25, /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_26 = V_1;
+		__this->set__LaunchNotification_6(L_26);
+	}
+
+IL_009b:
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::FixedUpdate()
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m4050048513_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2889982010;
+extern const uint32_t IOSNotificationController_FixedUpdate_m4167256690_MetadataUsageId;
+extern "C"  void IOSNotificationController_FixedUpdate_m4167256690 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_FixedUpdate_m4167256690_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RemoteNotification_t2254252895 * V_0 = NULL;
+	RemoteNotificationU5BU5D_t2783721542* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = NotificationServices_get_remoteNotificationCount_m2799459672(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		RemoteNotificationU5BU5D_t2783721542* L_1 = NotificationServices_get_remoteNotifications_m1285975986(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_1;
+		V_2 = 0;
+		goto IL_0050;
+	}
+
+IL_0018:
+	{
+		RemoteNotificationU5BU5D_t2783721542* L_2 = V_1;
+		int32_t L_3 = V_2;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		RemoteNotification_t2254252895 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_0 = L_5;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_6 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		bool L_7 = L_6->get_DisablePluginLogs_16();
+		if (L_7)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		RemoteNotification_t2254252895 * L_8 = V_0;
+		NullCheck(L_8);
+		String_t* L_9 = RemoteNotification_get_alertBody_m2415664629(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2889982010, L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0040:
+	{
+		Action_1_t2056052277 * L_11 = __this->get_OnRemoteNotificationReceived_11();
+		RemoteNotification_t2254252895 * L_12 = V_0;
+		NullCheck(L_11);
+		Action_1_Invoke_m4050048513(L_11, L_12, /*hidden argument*/Action_1_Invoke_m4050048513_MethodInfo_var);
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)((int32_t)L_13+(int32_t)1));
+	}
+
+IL_0050:
+	{
+		int32_t L_14 = V_2;
+		RemoteNotificationU5BU5D_t2783721542* L_15 = V_1;
+		NullCheck(L_15);
+		if ((((int32_t)L_14) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_15)->max_length)))))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		NotificationServices_ClearRemoteNotifications_m4251806526(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::RegisterForRemoteNotifications(UnityEngine.iOS.NotificationType)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1739302857;
+extern const uint32_t IOSNotificationController_RegisterForRemoteNotifications_m3740135460_MetadataUsageId;
+extern "C"  void IOSNotificationController_RegisterForRemoteNotifications_m3740135460 (IOSNotificationController_t796362558 * __this, int32_t ___notificationTypes0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_RegisterForRemoteNotifications_m3740135460_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		String_t* L_0 = SystemInfo_get_operatingSystem_m2575097876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		String_t* L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_1);
+		String_t* L_3 = String_Replace_m1941156251(L_1, _stringLiteral1739302857, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		String_t* L_4 = V_0;
+		CharU5BU5D_t1328083999* L_5 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)46));
+		NullCheck(L_4);
+		StringU5BU5D_t1642385972* L_6 = String_Split_m3326265864(L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		StringU5BU5D_t1642385972* L_7 = V_1;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		int32_t L_10 = Int32_Parse_m3683414232(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		int32_t L_11 = V_2;
+		if ((((int32_t)L_11) < ((int32_t)8)))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		int32_t L_12 = ___notificationTypes0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_RegisterForRemoteNotifications_m1291441320(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+	}
+
+IL_003f:
+	{
+		int32_t L_13 = ___notificationTypes0;
+		NotificationServices_RegisterForNotifications_m2431930612(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		DeviceTokenListener_Create_m3274911648(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::RequestNotificationPermissions()
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_RequestNotificationPermissions_m772536063_MetadataUsageId;
+extern "C"  void IOSNotificationController_RequestNotificationPermissions_m772536063 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_RequestNotificationPermissions_m772536063_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_RequestNotificationPermissions_m1161967355(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::ShowGmaeKitNotification(System.String,System.String)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_ShowGmaeKitNotification_m3450525149_MetadataUsageId;
+extern "C"  void IOSNotificationController_ShowGmaeKitNotification_m3450525149 (IOSNotificationController_t796362558 * __this, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_ShowGmaeKitNotification_m3450525149_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_ShowNotificationBanner_m3887486053(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::ShowNotificationBanner(System.String,System.String)
+extern "C"  void IOSNotificationController_ShowNotificationBanner_m7281089 (IOSNotificationController_t796362558 * __this, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		IOSNotificationController_ShowGmaeKitNotification_m3450525149(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::CancelNotifications()
+extern "C"  void IOSNotificationController_CancelNotifications_m1450318759 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	{
+		IOSNotificationController_CancelAllLocalNotifications_m47263607(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::CancelAllLocalNotifications()
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_CancelAllLocalNotifications_m47263607_MetadataUsageId;
+extern "C"  void IOSNotificationController_CancelAllLocalNotifications_m47263607 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_CancelAllLocalNotifications_m47263607_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_CancelNotifications_m1242086219(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::CancelLocalNotification(ISN_LocalNotification)
+extern "C"  void IOSNotificationController_CancelLocalNotification_m4037030968 (IOSNotificationController_t796362558 * __this, ISN_LocalNotification_t273186689 * ___notification0, const MethodInfo* method)
+{
+	{
+		ISN_LocalNotification_t273186689 * L_0 = ___notification0;
+		NullCheck(L_0);
+		int32_t L_1 = ISN_LocalNotification_get_Id_m4223279224(L_0, /*hidden argument*/NULL);
+		IOSNotificationController_CancelLocalNotificationById_m171924286(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::CancelLocalNotificationById(System.Int32)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_CancelLocalNotificationById_m171924286_MetadataUsageId;
+extern "C"  void IOSNotificationController_CancelLocalNotificationById_m171924286 (IOSNotificationController_t796362558 * __this, int32_t ___notificationId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_CancelLocalNotificationById_m171924286_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = Int32_ToString_m2960866144((&___notificationId0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_CancelNotificationById_m2568948408(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::ScheduleNotification(ISN_LocalNotification)
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_ScheduleNotification_m757888756_MetadataUsageId;
+extern "C"  void IOSNotificationController_ScheduleNotification_m757888756 (IOSNotificationController_t796362558 * __this, ISN_LocalNotification_t273186689 * ___notification0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_ScheduleNotification_m757888756_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	TimeSpan_t3430258949  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	{
+		ISN_LocalNotification_t273186689 * L_0 = ___notification0;
+		NullCheck(L_0);
+		DateTime_t693205669  L_1 = ISN_LocalNotification_get_Date_m1641856012(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_2 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		TimeSpan_t3430258949  L_3 = DateTime_op_Subtraction_m3246456251(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		double L_4 = TimeSpan_get_TotalSeconds_m1295026915((&V_1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_5 = Convert_ToInt32_m2988544165(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		int32_t L_6 = V_0;
+		ISN_LocalNotification_t273186689 * L_7 = ___notification0;
+		NullCheck(L_7);
+		String_t* L_8 = ISN_LocalNotification_get_Message_m41404367(L_7, /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_9 = ___notification0;
+		NullCheck(L_9);
+		bool L_10 = ISN_LocalNotification_get_UseSound_m1435313705(L_9, /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_11 = ___notification0;
+		NullCheck(L_11);
+		int32_t L_12 = ISN_LocalNotification_get_Id_m4223279224(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		String_t* L_13 = Int32_ToString_m2960866144((&V_2), /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_14 = ___notification0;
+		NullCheck(L_14);
+		int32_t L_15 = ISN_LocalNotification_get_Badges_m3192142109(L_14, /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_16 = ___notification0;
+		NullCheck(L_16);
+		String_t* L_17 = ISN_LocalNotification_get_Data_m2366119240(L_16, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_ScheduleNotification_m3508980350(NULL /*static, unused*/, L_6, L_8, L_10, L_13, L_15, L_17, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::ApplicationIconBadgeNumber(System.Int32)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_ApplicationIconBadgeNumber_m1148613289_MetadataUsageId;
+extern "C"  void IOSNotificationController_ApplicationIconBadgeNumber_m1148613289 (IOSNotificationController_t796362558 * __this, int32_t ___badges0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_ApplicationIconBadgeNumber_m1148613289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___badges0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_ApplicationIconBadgeNumber_m539000173(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSNotificationController::RequestNotificationSettings()
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_RequestNotificationSettings_m2760732934_MetadataUsageId;
+extern "C"  void IOSNotificationController_RequestNotificationSettings_m2760732934 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_RequestNotificationSettings_m2760732934_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		IOSNotificationController__ISN_RequestNotificationSettings_m1522495632(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 IOSNotificationController::get_GetNextNotificationId()
+extern Il2CppCodeGenString* _stringLiteral3815672913;
+extern const uint32_t IOSNotificationController_get_GetNextNotificationId_m467340401_MetadataUsageId;
+extern "C"  int32_t IOSNotificationController_get_GetNextNotificationId_m467340401 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_get_GetNextNotificationId_m467340401_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 1;
+		bool L_0 = PlayerPrefs_HasKey_m1212656251(NULL /*static, unused*/, _stringLiteral3815672913, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_1 = PlayerPrefs_GetInt_m2889062785(NULL /*static, unused*/, _stringLiteral3815672913, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		V_0 = ((int32_t)((int32_t)L_2+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_3 = V_0;
+		PlayerPrefs_SetInt_m3351928596(NULL /*static, unused*/, _stringLiteral3815672913, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int32 IOSNotificationController::get_AllowedNotificationsType()
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const uint32_t IOSNotificationController_get_AllowedNotificationsType_m933325694_MetadataUsageId;
+extern "C"  int32_t IOSNotificationController_get_AllowedNotificationsType_m933325694 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_get_AllowedNotificationsType_m933325694_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get__AllowedNotificationsType_5();
+		return L_0;
+	}
+}
+// ISN_LocalNotification IOSNotificationController::get_LaunchNotification()
+extern "C"  ISN_LocalNotification_t273186689 * IOSNotificationController_get_LaunchNotification_m584141482 (IOSNotificationController_t796362558 * __this, const MethodInfo* method)
+{
+	{
+		ISN_LocalNotification_t273186689 * L_0 = __this->get__LaunchNotification_6();
+		return L_0;
+	}
+}
+// System.Void IOSNotificationController::OnDeviceTockeReceivedAction(IOSNotificationDeviceToken)
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m867010079_MethodInfo_var;
+extern const uint32_t IOSNotificationController_OnDeviceTockeReceivedAction_m2907572040_MetadataUsageId;
+extern "C"  void IOSNotificationController_OnDeviceTockeReceivedAction_m2907572040 (IOSNotificationController_t796362558 * __this, IOSNotificationDeviceToken_t2562424645 * ___token0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_OnDeviceTockeReceivedAction_m2907572040_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t2364224027 * L_0 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnDeviceTokenReceived_7();
+		IOSNotificationDeviceToken_t2562424645 * L_1 = ___token0;
+		NullCheck(L_0);
+		Action_1_Invoke_m867010079(L_0, L_1, /*hidden argument*/Action_1_Invoke_m867010079_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSNotificationController::OnNotificationScheduleResultAction(System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern Il2CppCodeGenString* _stringLiteral372029326;
+extern const uint32_t IOSNotificationController_OnNotificationScheduleResultAction_m150981819_MetadataUsageId;
+extern "C"  void IOSNotificationController_OnNotificationScheduleResultAction_m150981819 (IOSNotificationController_t796362558 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_OnNotificationScheduleResultAction_m150981819_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	ISN_Result_t2775631610 * V_1 = NULL;
+	{
+		String_t* L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_2 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_2);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		V_1 = (ISN_Result_t2775631610 *)NULL;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		bool L_7 = String_Equals_m2633592423(L_6, _stringLiteral372029326, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		ISN_Result_t2775631610 * L_8 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_8, (bool)0, /*hidden argument*/NULL);
+		V_1 = L_8;
+		goto IL_0042;
+	}
+
+IL_003b:
+	{
+		ISN_Result_t2775631610 * L_9 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_9, (bool)1, /*hidden argument*/NULL);
+		V_1 = L_9;
+	}
+
+IL_0042:
+	{
+		StringU5BU5D_t1642385972* L_10 = V_0;
+		NullCheck(L_10);
+		int32_t L_11 = 1;
+		String_t* L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_13 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->set__AllowedNotificationsType_5(L_13);
+		Action_1_t2577430992 * L_14 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnNotificationScheduleResult_8();
+		ISN_Result_t2775631610 * L_15 = V_1;
+		NullCheck(L_14);
+		Action_1_Invoke_m1651425124(L_14, L_15, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSNotificationController::OnNotificationSettingsInfoRetrived(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3352874125_MethodInfo_var;
+extern const uint32_t IOSNotificationController_OnNotificationSettingsInfoRetrived_m4155146621_MetadataUsageId;
+extern "C"  void IOSNotificationController_OnNotificationSettingsInfoRetrived_m4155146621 (IOSNotificationController_t796362558 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_OnNotificationSettingsInfoRetrived_m4155146621_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___data0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_1 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t1873676830 * L_2 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnNotificationSettingsInfoResult_9();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m3352874125(L_2, L_3, /*hidden argument*/Action_1_Invoke_m3352874125_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSNotificationController::OnLocalNotificationReceived_Event(System.String)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_LocalNotification_t273186689_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3790097787_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern const uint32_t IOSNotificationController_OnLocalNotificationReceived_Event_m1006410336_MetadataUsageId;
+extern "C"  void IOSNotificationController_OnLocalNotificationReceived_Event_m1006410336 (IOSNotificationController_t796362558 * __this, String_t* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController_OnLocalNotificationReceived_Event_m1006410336_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	String_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	ISN_LocalNotification_t273186689 * V_5 = NULL;
+	{
+		String_t* L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(_stringLiteral372029394);
+		Il2CppChar L_2 = String_get_Chars_m4230566705(_stringLiteral372029394, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_2);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_3 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_1 = L_6;
+		StringU5BU5D_t1642385972* L_7 = V_0;
+		NullCheck(L_7);
+		int32_t L_8 = 1;
+		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_10 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		StringU5BU5D_t1642385972* L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12 = 2;
+		String_t* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		V_3 = L_13;
+		StringU5BU5D_t1642385972* L_14 = V_0;
+		NullCheck(L_14);
+		int32_t L_15 = 3;
+		String_t* L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		int32_t L_17 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		V_4 = L_17;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_18 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_19 = V_1;
+		ISN_LocalNotification_t273186689 * L_20 = (ISN_LocalNotification_t273186689 *)il2cpp_codegen_object_new(ISN_LocalNotification_t273186689_il2cpp_TypeInfo_var);
+		ISN_LocalNotification__ctor_m704509163(L_20, L_18, L_19, (bool)1, /*hidden argument*/NULL);
+		V_5 = L_20;
+		ISN_LocalNotification_t273186689 * L_21 = V_5;
+		String_t* L_22 = V_3;
+		NullCheck(L_21);
+		ISN_LocalNotification_SetData_m500201786(L_21, L_22, /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_23 = V_5;
+		int32_t L_24 = V_4;
+		NullCheck(L_23);
+		ISN_LocalNotification_SetBadgesNumber_m2828654276(L_23, L_24, /*hidden argument*/NULL);
+		ISN_LocalNotification_t273186689 * L_25 = V_5;
+		int32_t L_26 = V_2;
+		NullCheck(L_25);
+		ISN_LocalNotification_SetId_m3701617740(L_25, L_26, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNotificationController_t796362558_il2cpp_TypeInfo_var);
+		Action_1_t74986071 * L_27 = ((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->get_OnLocalNotificationReceived_10();
+		ISN_LocalNotification_t273186689 * L_28 = V_5;
+		NullCheck(L_27);
+		Action_1_Invoke_m3790097787(L_27, L_28, /*hidden argument*/Action_1_Invoke_m3790097787_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSNotificationController::.cctor()
+extern Il2CppClass* IOSNotificationController_t796362558_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2364224027_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1873676830_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t74986071_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSNotificationController_U3COnDeviceTokenReceivedU3Em__1_m2950321139_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2842253140_MethodInfo_var;
+extern const MethodInfo* IOSNotificationController_U3COnNotificationScheduleResultU3Em__2_m752917538_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const MethodInfo* IOSNotificationController_U3COnNotificationSettingsInfoResultU3Em__3_m3485357918_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m345545414_MethodInfo_var;
+extern const MethodInfo* IOSNotificationController_U3COnLocalNotificationReceivedU3Em__4_m2534834909_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1048505612_MethodInfo_var;
+extern const uint32_t IOSNotificationController__cctor_m4008867348_MetadataUsageId;
+extern "C"  void IOSNotificationController__cctor_m4008867348 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationController__cctor_m4008867348_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->set__AllowedNotificationsType_5((-1));
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)IOSNotificationController_U3COnDeviceTokenReceivedU3Em__1_m2950321139_MethodInfo_var);
+		Action_1_t2364224027 * L_1 = (Action_1_t2364224027 *)il2cpp_codegen_object_new(Action_1_t2364224027_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2842253140(L_1, NULL, L_0, /*hidden argument*/Action_1__ctor_m2842253140_MethodInfo_var);
+		((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->set_OnDeviceTokenReceived_7(L_1);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)IOSNotificationController_U3COnNotificationScheduleResultU3Em__2_m752917538_MethodInfo_var);
+		Action_1_t2577430992 * L_3 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->set_OnNotificationScheduleResult_8(L_3);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)IOSNotificationController_U3COnNotificationSettingsInfoResultU3Em__3_m3485357918_MethodInfo_var);
+		Action_1_t1873676830 * L_5 = (Action_1_t1873676830 *)il2cpp_codegen_object_new(Action_1_t1873676830_il2cpp_TypeInfo_var);
+		Action_1__ctor_m345545414(L_5, NULL, L_4, /*hidden argument*/Action_1__ctor_m345545414_MethodInfo_var);
+		((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->set_OnNotificationSettingsInfoResult_9(L_5);
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)IOSNotificationController_U3COnLocalNotificationReceivedU3Em__4_m2534834909_MethodInfo_var);
+		Action_1_t74986071 * L_7 = (Action_1_t74986071 *)il2cpp_codegen_object_new(Action_1_t74986071_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1048505612(L_7, NULL, L_6, /*hidden argument*/Action_1__ctor_m1048505612_MethodInfo_var);
+		((IOSNotificationController_t796362558_StaticFields*)IOSNotificationController_t796362558_il2cpp_TypeInfo_var->static_fields)->set_OnLocalNotificationReceived_10(L_7);
+		return;
+	}
+}
+// System.Void IOSNotificationController::<OnRemoteNotificationReceived>m__0(UnityEngine.iOS.RemoteNotification)
+extern "C"  void IOSNotificationController_U3COnRemoteNotificationReceivedU3Em__0_m602774008 (Il2CppObject * __this /* static, unused */, RemoteNotification_t2254252895 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::<OnDeviceTokenReceived>m__1(IOSNotificationDeviceToken)
+extern "C"  void IOSNotificationController_U3COnDeviceTokenReceivedU3Em__1_m2950321139 (Il2CppObject * __this /* static, unused */, IOSNotificationDeviceToken_t2562424645 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::<OnNotificationScheduleResult>m__2(ISN_Result)
+extern "C"  void IOSNotificationController_U3COnNotificationScheduleResultU3Em__2_m752917538 (Il2CppObject * __this /* static, unused */, ISN_Result_t2775631610 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::<OnNotificationSettingsInfoResult>m__3(System.Int32)
+extern "C"  void IOSNotificationController_U3COnNotificationSettingsInfoResultU3Em__3_m3485357918 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationController::<OnLocalNotificationReceived>m__4(ISN_LocalNotification)
+extern "C"  void IOSNotificationController_U3COnLocalNotificationReceivedU3Em__4_m2534834909 (Il2CppObject * __this /* static, unused */, ISN_LocalNotification_t273186689 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSNotificationDeviceToken::.ctor(System.Byte[])
+extern Il2CppClass* BitConverter_t3195628829_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029313;
+extern const uint32_t IOSNotificationDeviceToken__ctor_m2228844067_MetadataUsageId;
+extern "C"  void IOSNotificationDeviceToken__ctor_m2228844067 (IOSNotificationDeviceToken_t2562424645 * __this, ByteU5BU5D_t3397334013* ___token0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSNotificationDeviceToken__ctor_m2228844067_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_0 = ___token0;
+		__this->set__tokenBytes_1(L_0);
+		ByteU5BU5D_t3397334013* L_1 = ___token0;
+		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3195628829_il2cpp_TypeInfo_var);
+		String_t* L_2 = BitConverter_ToString_m927173850(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_2);
+		String_t* L_4 = String_Replace_m1941156251(L_2, _stringLiteral372029313, L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		String_t* L_5 = String_ToLower_m2994460523(L_4, /*hidden argument*/NULL);
+		__this->set__tokenString_0(L_5);
+		return;
+	}
+}
+// System.String IOSNotificationDeviceToken::get_tokenString()
+extern "C"  String_t* IOSNotificationDeviceToken_get_tokenString_m2934518548 (IOSNotificationDeviceToken_t2562424645 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__tokenString_0();
+		return L_0;
+	}
+}
+// System.Byte[] IOSNotificationDeviceToken::get_tokenBytes()
+extern "C"  ByteU5BU5D_t3397334013* IOSNotificationDeviceToken_get_tokenBytes_m741357347 (IOSNotificationDeviceToken_t2562424645 * __this, const MethodInfo* method)
+{
+	{
+		ByteU5BU5D_t3397334013* L_0 = __this->get__tokenBytes_1();
+		return L_0;
+	}
+}
+// System.Void IOSProductTemplate::.ctor()
+extern "C"  void IOSProductTemplate__ctor_m339007845 (IOSProductTemplate_t1036598382 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSRateUsPopUp::.ctor()
+extern Il2CppClass* IOSRateUsPopUp_t2222998473_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3541040698_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSRateUsPopUp_U3COnCompleteU3Em__0_m2424454687_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m157354353_MethodInfo_var;
+extern const uint32_t IOSRateUsPopUp__ctor_m2419503650_MetadataUsageId;
+extern "C"  void IOSRateUsPopUp__ctor_m2419503650 (IOSRateUsPopUp_t2222998473 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSRateUsPopUp__ctor_m2419503650_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSRateUsPopUp_t2222998473 * G_B2_0 = NULL;
+	IOSRateUsPopUp_t2222998473 * G_B1_0 = NULL;
+	{
+		Action_1_t3541040698 * L_0 = ((IOSRateUsPopUp_t2222998473_StaticFields*)IOSRateUsPopUp_t2222998473_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_8();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)IOSRateUsPopUp_U3COnCompleteU3Em__0_m2424454687_MethodInfo_var);
+		Action_1_t3541040698 * L_2 = (Action_1_t3541040698 *)il2cpp_codegen_object_new(Action_1_t3541040698_il2cpp_TypeInfo_var);
+		Action_1__ctor_m157354353(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m157354353_MethodInfo_var);
+		((IOSRateUsPopUp_t2222998473_StaticFields*)IOSRateUsPopUp_t2222998473_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_8(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_1_t3541040698 * L_3 = ((IOSRateUsPopUp_t2222998473_StaticFields*)IOSRateUsPopUp_t2222998473_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_8();
+		NullCheck(G_B2_0);
+		G_B2_0->set_OnComplete_7(L_3);
+		BaseIOSPopup__ctor_m3656648297(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSRateUsPopUp::add_OnComplete(System.Action`1<IOSDialogResult>)
+extern Il2CppClass* Action_1_t3541040698_il2cpp_TypeInfo_var;
+extern const uint32_t IOSRateUsPopUp_add_OnComplete_m2642133836_MetadataUsageId;
+extern "C"  void IOSRateUsPopUp_add_OnComplete_m2642133836 (IOSRateUsPopUp_t2222998473 * __this, Action_1_t3541040698 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSRateUsPopUp_add_OnComplete_m2642133836_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3541040698 * V_0 = NULL;
+	Action_1_t3541040698 * V_1 = NULL;
+	{
+		Action_1_t3541040698 * L_0 = __this->get_OnComplete_7();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t3541040698 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t3541040698 ** L_2 = __this->get_address_of_OnComplete_7();
+		Action_1_t3541040698 * L_3 = V_1;
+		Action_1_t3541040698 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t3541040698 * L_6 = V_0;
+		Action_1_t3541040698 * L_7 = InterlockedCompareExchangeImpl<Action_1_t3541040698 *>(L_2, ((Action_1_t3541040698 *)CastclassSealed(L_5, Action_1_t3541040698_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t3541040698 * L_8 = V_0;
+		Action_1_t3541040698 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3541040698 *)L_8) == ((Il2CppObject*)(Action_1_t3541040698 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSRateUsPopUp::remove_OnComplete(System.Action`1<IOSDialogResult>)
+extern Il2CppClass* Action_1_t3541040698_il2cpp_TypeInfo_var;
+extern const uint32_t IOSRateUsPopUp_remove_OnComplete_m1020571783_MetadataUsageId;
+extern "C"  void IOSRateUsPopUp_remove_OnComplete_m1020571783 (IOSRateUsPopUp_t2222998473 * __this, Action_1_t3541040698 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSRateUsPopUp_remove_OnComplete_m1020571783_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t3541040698 * V_0 = NULL;
+	Action_1_t3541040698 * V_1 = NULL;
+	{
+		Action_1_t3541040698 * L_0 = __this->get_OnComplete_7();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t3541040698 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t3541040698 ** L_2 = __this->get_address_of_OnComplete_7();
+		Action_1_t3541040698 * L_3 = V_1;
+		Action_1_t3541040698 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t3541040698 * L_6 = V_0;
+		Action_1_t3541040698 * L_7 = InterlockedCompareExchangeImpl<Action_1_t3541040698 *>(L_2, ((Action_1_t3541040698 *)CastclassSealed(L_5, Action_1_t3541040698_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t3541040698 * L_8 = V_0;
+		Action_1_t3541040698 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t3541040698 *)L_8) == ((Il2CppObject*)(Action_1_t3541040698 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// IOSRateUsPopUp IOSRateUsPopUp::Create()
+extern Il2CppCodeGenString* _stringLiteral2005595023;
+extern Il2CppCodeGenString* _stringLiteral3958426580;
+extern const uint32_t IOSRateUsPopUp_Create_m3985942946_MetadataUsageId;
+extern "C"  IOSRateUsPopUp_t2222998473 * IOSRateUsPopUp_Create_m3985942946 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSRateUsPopUp_Create_m3985942946_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IOSRateUsPopUp_t2222998473 * L_0 = IOSRateUsPopUp_Create_m167257216(NULL /*static, unused*/, _stringLiteral2005595023, _stringLiteral3958426580, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// IOSRateUsPopUp IOSRateUsPopUp::Create(System.String,System.String)
+extern Il2CppCodeGenString* _stringLiteral4122693860;
+extern Il2CppCodeGenString* _stringLiteral1157589283;
+extern Il2CppCodeGenString* _stringLiteral3212070740;
+extern const uint32_t IOSRateUsPopUp_Create_m167257216_MetadataUsageId;
+extern "C"  IOSRateUsPopUp_t2222998473 * IOSRateUsPopUp_Create_m167257216 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSRateUsPopUp_Create_m167257216_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___title0;
+		String_t* L_1 = ___message1;
+		IOSRateUsPopUp_t2222998473 * L_2 = IOSRateUsPopUp_Create_m3388147756(NULL /*static, unused*/, L_0, L_1, _stringLiteral4122693860, _stringLiteral1157589283, _stringLiteral3212070740, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// IOSRateUsPopUp IOSRateUsPopUp::Create(System.String,System.String,System.String,System.String,System.String)
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisIOSRateUsPopUp_t2222998473_m2444019535_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2951076991;
+extern const uint32_t IOSRateUsPopUp_Create_m3388147756_MetadataUsageId;
+extern "C"  IOSRateUsPopUp_t2222998473 * IOSRateUsPopUp_Create_m3388147756 (Il2CppObject * __this /* static, unused */, String_t* ___title0, String_t* ___message1, String_t* ___rate2, String_t* ___remind3, String_t* ___declined4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSRateUsPopUp_Create_m3388147756_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IOSRateUsPopUp_t2222998473 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_0, _stringLiteral2951076991, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		IOSRateUsPopUp_t2222998473 * L_1 = GameObject_AddComponent_TisIOSRateUsPopUp_t2222998473_m2444019535(L_0, /*hidden argument*/GameObject_AddComponent_TisIOSRateUsPopUp_t2222998473_m2444019535_MethodInfo_var);
+		V_0 = L_1;
+		IOSRateUsPopUp_t2222998473 * L_2 = V_0;
+		String_t* L_3 = ___title0;
+		NullCheck(L_2);
+		((BaseIOSPopup_t3320937364 *)L_2)->set_title_2(L_3);
+		IOSRateUsPopUp_t2222998473 * L_4 = V_0;
+		String_t* L_5 = ___message1;
+		NullCheck(L_4);
+		((BaseIOSPopup_t3320937364 *)L_4)->set_message_3(L_5);
+		IOSRateUsPopUp_t2222998473 * L_6 = V_0;
+		String_t* L_7 = ___rate2;
+		NullCheck(L_6);
+		L_6->set_rate_4(L_7);
+		IOSRateUsPopUp_t2222998473 * L_8 = V_0;
+		String_t* L_9 = ___remind3;
+		NullCheck(L_8);
+		L_8->set_remind_5(L_9);
+		IOSRateUsPopUp_t2222998473 * L_10 = V_0;
+		String_t* L_11 = ___declined4;
+		NullCheck(L_10);
+		L_10->set_declined_6(L_11);
+		IOSRateUsPopUp_t2222998473 * L_12 = V_0;
+		NullCheck(L_12);
+		IOSRateUsPopUp_init_m1625308226(L_12, /*hidden argument*/NULL);
+		IOSRateUsPopUp_t2222998473 * L_13 = V_0;
+		return L_13;
+	}
+}
+// System.Void IOSRateUsPopUp::init()
+extern "C"  void IOSRateUsPopUp_init_m1625308226 (IOSRateUsPopUp_t2222998473 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ((BaseIOSPopup_t3320937364 *)__this)->get_title_2();
+		String_t* L_1 = ((BaseIOSPopup_t3320937364 *)__this)->get_message_3();
+		String_t* L_2 = __this->get_rate_4();
+		String_t* L_3 = __this->get_remind_5();
+		String_t* L_4 = __this->get_declined_6();
+		IOSNativePopUpManager_showRateUsPopUp_m2782449697(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSRateUsPopUp::onPopUpCallBack(System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1604875246_MethodInfo_var;
+extern const uint32_t IOSRateUsPopUp_onPopUpCallBack_m3239341610_MetadataUsageId;
+extern "C"  void IOSRateUsPopUp_onPopUpCallBack_m3239341610 (IOSRateUsPopUp_t2222998473 * __this, String_t* ___buttonIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSRateUsPopUp_onPopUpCallBack_m3239341610_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___buttonIndex0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int16_t L_1 = Convert_ToInt16_m2606681745(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) == ((int32_t)2)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		goto IL_0058;
+	}
+
+IL_0020:
+	{
+		IOSNativeUtility_RedirectToAppStoreRatingPage_m3820068446(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Action_1_t3541040698 * L_5 = __this->get_OnComplete_7();
+		NullCheck(L_5);
+		Action_1_Invoke_m1604875246(L_5, 2, /*hidden argument*/Action_1_Invoke_m1604875246_MethodInfo_var);
+		goto IL_0058;
+	}
+
+IL_0036:
+	{
+		Action_1_t3541040698 * L_6 = __this->get_OnComplete_7();
+		NullCheck(L_6);
+		Action_1_Invoke_m1604875246(L_6, 3, /*hidden argument*/Action_1_Invoke_m1604875246_MethodInfo_var);
+		goto IL_0058;
+	}
+
+IL_0047:
+	{
+		Action_1_t3541040698 * L_7 = __this->get_OnComplete_7();
+		NullCheck(L_7);
+		Action_1_Invoke_m1604875246(L_7, 4, /*hidden argument*/Action_1_Invoke_m1604875246_MethodInfo_var);
+		goto IL_0058;
+	}
+
+IL_0058:
+	{
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSRateUsPopUp::<OnComplete>m__0(IOSDialogResult)
+extern "C"  void IOSRateUsPopUp_U3COnCompleteU3Em__0_m2424454687 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSSharedApplication::.ctor()
+extern Il2CppClass* ISN_Singleton_1_t3006285614_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m2362029742_MethodInfo_var;
+extern const uint32_t IOSSharedApplication__ctor_m45306785_MetadataUsageId;
+extern "C"  void IOSSharedApplication__ctor_m45306785 (IOSSharedApplication_t4065685598 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication__ctor_m45306785_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3006285614_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m2362029742(__this, /*hidden argument*/ISN_Singleton_1__ctor_m2362029742_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::add_OnUrlCheckResultAction(System.Action`1<ISN_CheckUrlResult>)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1447523883_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSharedApplication_add_OnUrlCheckResultAction_m3310147593_MetadataUsageId;
+extern "C"  void IOSSharedApplication_add_OnUrlCheckResultAction_m3310147593 (Il2CppObject * __this /* static, unused */, Action_1_t1447523883 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_add_OnUrlCheckResultAction_m3310147593_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1447523883 * V_0 = NULL;
+	Action_1_t1447523883 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1447523883 * L_0 = ((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_OnUrlCheckResultAction_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1447523883 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1447523883 * L_2 = V_1;
+		Action_1_t1447523883 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1447523883 * L_5 = V_0;
+		Action_1_t1447523883 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1447523883 *>((((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnUrlCheckResultAction_6()), ((Action_1_t1447523883 *)CastclassSealed(L_4, Action_1_t1447523883_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1447523883 * L_7 = V_0;
+		Action_1_t1447523883 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1447523883 *)L_7) == ((Il2CppObject*)(Action_1_t1447523883 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSharedApplication::remove_OnUrlCheckResultAction(System.Action`1<ISN_CheckUrlResult>)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1447523883_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSharedApplication_remove_OnUrlCheckResultAction_m1919939180_MetadataUsageId;
+extern "C"  void IOSSharedApplication_remove_OnUrlCheckResultAction_m1919939180 (Il2CppObject * __this /* static, unused */, Action_1_t1447523883 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_remove_OnUrlCheckResultAction_m1919939180_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1447523883 * V_0 = NULL;
+	Action_1_t1447523883 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1447523883 * L_0 = ((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_OnUrlCheckResultAction_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1447523883 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1447523883 * L_2 = V_1;
+		Action_1_t1447523883 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1447523883 * L_5 = V_0;
+		Action_1_t1447523883 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1447523883 *>((((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnUrlCheckResultAction_6()), ((Action_1_t1447523883 *)CastclassSealed(L_4, Action_1_t1447523883_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1447523883 * L_7 = V_0;
+		Action_1_t1447523883 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1447523883 *)L_7) == ((Il2CppObject*)(Action_1_t1447523883 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSharedApplication::add_OnAdvertisingIdentifierLoadedAction(System.Action`1<System.String>)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1831019615_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSharedApplication_add_OnAdvertisingIdentifierLoadedAction_m2326686442_MetadataUsageId;
+extern "C"  void IOSSharedApplication_add_OnAdvertisingIdentifierLoadedAction_m2326686442 (Il2CppObject * __this /* static, unused */, Action_1_t1831019615 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_add_OnAdvertisingIdentifierLoadedAction_m2326686442_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1831019615 * V_0 = NULL;
+	Action_1_t1831019615 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_0 = ((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_OnAdvertisingIdentifierLoadedAction_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1831019615 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_2 = V_1;
+		Action_1_t1831019615 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1831019615 * L_5 = V_0;
+		Action_1_t1831019615 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1831019615 *>((((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnAdvertisingIdentifierLoadedAction_7()), ((Action_1_t1831019615 *)CastclassSealed(L_4, Action_1_t1831019615_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1831019615 * L_7 = V_0;
+		Action_1_t1831019615 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1831019615 *)L_7) == ((Il2CppObject*)(Action_1_t1831019615 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSharedApplication::remove_OnAdvertisingIdentifierLoadedAction(System.Action`1<System.String>)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1831019615_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSharedApplication_remove_OnAdvertisingIdentifierLoadedAction_m3483459877_MetadataUsageId;
+extern "C"  void IOSSharedApplication_remove_OnAdvertisingIdentifierLoadedAction_m3483459877 (Il2CppObject * __this /* static, unused */, Action_1_t1831019615 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_remove_OnAdvertisingIdentifierLoadedAction_m3483459877_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t1831019615 * V_0 = NULL;
+	Action_1_t1831019615 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_0 = ((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_OnAdvertisingIdentifierLoadedAction_7();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t1831019615 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_2 = V_1;
+		Action_1_t1831019615 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t1831019615 * L_5 = V_0;
+		Action_1_t1831019615 * L_6 = InterlockedCompareExchangeImpl<Action_1_t1831019615 *>((((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnAdvertisingIdentifierLoadedAction_7()), ((Action_1_t1831019615 *)CastclassSealed(L_4, Action_1_t1831019615_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t1831019615 * L_7 = V_0;
+		Action_1_t1831019615 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t1831019615 *)L_7) == ((Il2CppObject*)(Action_1_t1831019615 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_checkUrl(char*);
+// System.Void IOSSharedApplication::_ISN_checkUrl(System.String)
+extern "C"  void IOSSharedApplication__ISN_checkUrl_m2385617976 (Il2CppObject * __this /* static, unused */, String_t* ___url0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___url0' to native representation
+	char* ____url0_marshaled = NULL;
+	____url0_marshaled = il2cpp_codegen_marshal_string(___url0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_checkUrl)(____url0_marshaled);
+
+	// Marshaling cleanup of parameter '___url0' native representation
+	il2cpp_codegen_marshal_free(____url0_marshaled);
+	____url0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_openUrl(char*);
+// System.Void IOSSharedApplication::_ISN_openUrl(System.String)
+extern "C"  void IOSSharedApplication__ISN_openUrl_m3869141420 (Il2CppObject * __this /* static, unused */, String_t* ___url0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___url0' to native representation
+	char* ____url0_marshaled = NULL;
+	____url0_marshaled = il2cpp_codegen_marshal_string(___url0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_openUrl)(____url0_marshaled);
+
+	// Marshaling cleanup of parameter '___url0' native representation
+	il2cpp_codegen_marshal_free(____url0_marshaled);
+	____url0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_GetIFA();
+// System.Void IOSSharedApplication::_ISN_GetIFA()
+extern "C"  void IOSSharedApplication__ISN_GetIFA_m3344568965 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_GetIFA)();
+
+}
+// System.Void IOSSharedApplication::CheckUrl(System.String)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSharedApplication_CheckUrl_m3707965302_MetadataUsageId;
+extern "C"  void IOSSharedApplication_CheckUrl_m3707965302 (IOSSharedApplication_t4065685598 * __this, String_t* ___url0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_CheckUrl_m3707965302_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___url0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		IOSSharedApplication__ISN_checkUrl_m2385617976(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::OpenUrl(System.String)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSharedApplication_OpenUrl_m2409020746_MetadataUsageId;
+extern "C"  void IOSSharedApplication_OpenUrl_m2409020746 (IOSSharedApplication_t4065685598 * __this, String_t* ___url0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_OpenUrl_m2409020746_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___url0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		IOSSharedApplication__ISN_openUrl_m3869141420(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::GetAdvertisingIdentifier()
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSharedApplication_GetAdvertisingIdentifier_m733947328_MetadataUsageId;
+extern "C"  void IOSSharedApplication_GetAdvertisingIdentifier_m733947328 (IOSSharedApplication_t4065685598 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_GetAdvertisingIdentifier_m733947328_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		IOSSharedApplication__ISN_GetIFA_m3344568965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::UrlCheckSuccess(System.String)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_CheckUrlResult_t1645724501_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1298039247_MethodInfo_var;
+extern const uint32_t IOSSharedApplication_UrlCheckSuccess_m2654871701_MetadataUsageId;
+extern "C"  void IOSSharedApplication_UrlCheckSuccess_m2654871701 (IOSSharedApplication_t4065685598 * __this, String_t* ___url0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_UrlCheckSuccess_m2654871701_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1447523883 * L_0 = ((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_OnUrlCheckResultAction_6();
+		String_t* L_1 = ___url0;
+		ISN_CheckUrlResult_t1645724501 * L_2 = (ISN_CheckUrlResult_t1645724501 *)il2cpp_codegen_object_new(ISN_CheckUrlResult_t1645724501_il2cpp_TypeInfo_var);
+		ISN_CheckUrlResult__ctor_m3431343489(L_2, L_1, (bool)1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Action_1_Invoke_m1298039247(L_0, L_2, /*hidden argument*/Action_1_Invoke_m1298039247_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::UrlCheckFailed(System.String)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_CheckUrlResult_t1645724501_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1298039247_MethodInfo_var;
+extern const uint32_t IOSSharedApplication_UrlCheckFailed_m1998028837_MetadataUsageId;
+extern "C"  void IOSSharedApplication_UrlCheckFailed_m1998028837 (IOSSharedApplication_t4065685598 * __this, String_t* ___url0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_UrlCheckFailed_m1998028837_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1447523883 * L_0 = ((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_OnUrlCheckResultAction_6();
+		String_t* L_1 = ___url0;
+		ISN_CheckUrlResult_t1645724501 * L_2 = (ISN_CheckUrlResult_t1645724501 *)il2cpp_codegen_object_new(ISN_CheckUrlResult_t1645724501_il2cpp_TypeInfo_var);
+		ISN_CheckUrlResult__ctor_m3431343489(L_2, L_1, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Action_1_Invoke_m1298039247(L_0, L_2, /*hidden argument*/Action_1_Invoke_m1298039247_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::OnAdvertisingIdentifierLoaded(System.String)
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m338810690_MethodInfo_var;
+extern const uint32_t IOSSharedApplication_OnAdvertisingIdentifierLoaded_m1762172068_MetadataUsageId;
+extern "C"  void IOSSharedApplication_OnAdvertisingIdentifierLoaded_m1762172068 (IOSSharedApplication_t4065685598 * __this, String_t* ___Identifier0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication_OnAdvertisingIdentifierLoaded_m1762172068_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var);
+		Action_1_t1831019615 * L_0 = ((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->get_OnAdvertisingIdentifierLoadedAction_7();
+		String_t* L_1 = ___Identifier0;
+		NullCheck(L_0);
+		Action_1_Invoke_m338810690(L_0, L_1, /*hidden argument*/Action_1_Invoke_m338810690_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::.cctor()
+extern Il2CppClass* Action_1_t1447523883_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1831019615_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSSharedApplication_U3COnUrlCheckResultActionU3Em__0_m3306264718_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m162137498_MethodInfo_var;
+extern const MethodInfo* IOSSharedApplication_U3COnAdvertisingIdentifierLoadedActionU3Em__1_m54576538_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m4012585251_MethodInfo_var;
+extern const uint32_t IOSSharedApplication__cctor_m2573944016_MetadataUsageId;
+extern "C"  void IOSSharedApplication__cctor_m2573944016 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSharedApplication__cctor_m2573944016_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)IOSSharedApplication_U3COnUrlCheckResultActionU3Em__0_m3306264718_MethodInfo_var);
+		Action_1_t1447523883 * L_1 = (Action_1_t1447523883 *)il2cpp_codegen_object_new(Action_1_t1447523883_il2cpp_TypeInfo_var);
+		Action_1__ctor_m162137498(L_1, NULL, L_0, /*hidden argument*/Action_1__ctor_m162137498_MethodInfo_var);
+		((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->set_OnUrlCheckResultAction_6(L_1);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)IOSSharedApplication_U3COnAdvertisingIdentifierLoadedActionU3Em__1_m54576538_MethodInfo_var);
+		Action_1_t1831019615 * L_3 = (Action_1_t1831019615 *)il2cpp_codegen_object_new(Action_1_t1831019615_il2cpp_TypeInfo_var);
+		Action_1__ctor_m4012585251(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m4012585251_MethodInfo_var);
+		((IOSSharedApplication_t4065685598_StaticFields*)IOSSharedApplication_t4065685598_il2cpp_TypeInfo_var->static_fields)->set_OnAdvertisingIdentifierLoadedAction_7(L_3);
+		return;
+	}
+}
+// System.Void IOSSharedApplication::<OnUrlCheckResultAction>m__0(ISN_CheckUrlResult)
+extern "C"  void IOSSharedApplication_U3COnUrlCheckResultActionU3Em__0_m3306264718 (Il2CppObject * __this /* static, unused */, ISN_CheckUrlResult_t1645724501 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSSharedApplication::<OnAdvertisingIdentifierLoadedAction>m__1(System.String)
+extern "C"  void IOSSharedApplication_U3COnAdvertisingIdentifierLoadedActionU3Em__1_m54576538 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::.ctor()
+extern Il2CppClass* ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m2028205789_MethodInfo_var;
+extern const uint32_t IOSSocialManager__ctor_m608595288_MetadataUsageId;
+extern "C"  void IOSSocialManager__ctor_m608595288 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager__ctor_m608595288_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m2028205789(__this, /*hidden argument*/ISN_Singleton_1__ctor_m2028205789_MethodInfo_var);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_TwPost(char*, char*, char*);
+// System.Void IOSSocialManager::_ISN_TwPost(System.String,System.String,System.String)
+extern "C"  void IOSSocialManager__ISN_TwPost_m4009521739 (Il2CppObject * __this /* static, unused */, String_t* ___text0, String_t* ___url1, String_t* ___encodedMedia2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*);
+
+	// Marshaling of parameter '___text0' to native representation
+	char* ____text0_marshaled = NULL;
+	____text0_marshaled = il2cpp_codegen_marshal_string(___text0);
+
+	// Marshaling of parameter '___url1' to native representation
+	char* ____url1_marshaled = NULL;
+	____url1_marshaled = il2cpp_codegen_marshal_string(___url1);
+
+	// Marshaling of parameter '___encodedMedia2' to native representation
+	char* ____encodedMedia2_marshaled = NULL;
+	____encodedMedia2_marshaled = il2cpp_codegen_marshal_string(___encodedMedia2);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_TwPost)(____text0_marshaled, ____url1_marshaled, ____encodedMedia2_marshaled);
+
+	// Marshaling cleanup of parameter '___text0' native representation
+	il2cpp_codegen_marshal_free(____text0_marshaled);
+	____text0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___url1' native representation
+	il2cpp_codegen_marshal_free(____url1_marshaled);
+	____url1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___encodedMedia2' native representation
+	il2cpp_codegen_marshal_free(____encodedMedia2_marshaled);
+	____encodedMedia2_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_FbPost(char*, char*, char*);
+// System.Void IOSSocialManager::_ISN_FbPost(System.String,System.String,System.String)
+extern "C"  void IOSSocialManager__ISN_FbPost_m1938649542 (Il2CppObject * __this /* static, unused */, String_t* ___text0, String_t* ___url1, String_t* ___encodedMedia2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*);
+
+	// Marshaling of parameter '___text0' to native representation
+	char* ____text0_marshaled = NULL;
+	____text0_marshaled = il2cpp_codegen_marshal_string(___text0);
+
+	// Marshaling of parameter '___url1' to native representation
+	char* ____url1_marshaled = NULL;
+	____url1_marshaled = il2cpp_codegen_marshal_string(___url1);
+
+	// Marshaling of parameter '___encodedMedia2' to native representation
+	char* ____encodedMedia2_marshaled = NULL;
+	____encodedMedia2_marshaled = il2cpp_codegen_marshal_string(___encodedMedia2);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_FbPost)(____text0_marshaled, ____url1_marshaled, ____encodedMedia2_marshaled);
+
+	// Marshaling cleanup of parameter '___text0' native representation
+	il2cpp_codegen_marshal_free(____text0_marshaled);
+	____text0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___url1' native representation
+	il2cpp_codegen_marshal_free(____url1_marshaled);
+	____url1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___encodedMedia2' native representation
+	il2cpp_codegen_marshal_free(____encodedMedia2_marshaled);
+	____encodedMedia2_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_MediaShare(char*, char*);
+// System.Void IOSSocialManager::_ISN_MediaShare(System.String,System.String)
+extern "C"  void IOSSocialManager__ISN_MediaShare_m149746323 (Il2CppObject * __this /* static, unused */, String_t* ___text0, String_t* ___encodedMedia1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
+
+	// Marshaling of parameter '___text0' to native representation
+	char* ____text0_marshaled = NULL;
+	____text0_marshaled = il2cpp_codegen_marshal_string(___text0);
+
+	// Marshaling of parameter '___encodedMedia1' to native representation
+	char* ____encodedMedia1_marshaled = NULL;
+	____encodedMedia1_marshaled = il2cpp_codegen_marshal_string(___encodedMedia1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_MediaShare)(____text0_marshaled, ____encodedMedia1_marshaled);
+
+	// Marshaling cleanup of parameter '___text0' native representation
+	il2cpp_codegen_marshal_free(____text0_marshaled);
+	____text0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___encodedMedia1' native representation
+	il2cpp_codegen_marshal_free(____encodedMedia1_marshaled);
+	____encodedMedia1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_SendMail(char*, char*, char*, char*);
+// System.Void IOSSocialManager::_ISN_SendMail(System.String,System.String,System.String,System.String)
+extern "C"  void IOSSocialManager__ISN_SendMail_m1202584443 (Il2CppObject * __this /* static, unused */, String_t* ___subject0, String_t* ___body1, String_t* ___recipients2, String_t* ___encodedMedia3, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*);
+
+	// Marshaling of parameter '___subject0' to native representation
+	char* ____subject0_marshaled = NULL;
+	____subject0_marshaled = il2cpp_codegen_marshal_string(___subject0);
+
+	// Marshaling of parameter '___body1' to native representation
+	char* ____body1_marshaled = NULL;
+	____body1_marshaled = il2cpp_codegen_marshal_string(___body1);
+
+	// Marshaling of parameter '___recipients2' to native representation
+	char* ____recipients2_marshaled = NULL;
+	____recipients2_marshaled = il2cpp_codegen_marshal_string(___recipients2);
+
+	// Marshaling of parameter '___encodedMedia3' to native representation
+	char* ____encodedMedia3_marshaled = NULL;
+	____encodedMedia3_marshaled = il2cpp_codegen_marshal_string(___encodedMedia3);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_SendMail)(____subject0_marshaled, ____body1_marshaled, ____recipients2_marshaled, ____encodedMedia3_marshaled);
+
+	// Marshaling cleanup of parameter '___subject0' native representation
+	il2cpp_codegen_marshal_free(____subject0_marshaled);
+	____subject0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___body1' native representation
+	il2cpp_codegen_marshal_free(____body1_marshaled);
+	____body1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___recipients2' native representation
+	il2cpp_codegen_marshal_free(____recipients2_marshaled);
+	____recipients2_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___encodedMedia3' native representation
+	il2cpp_codegen_marshal_free(____encodedMedia3_marshaled);
+	____encodedMedia3_marshaled = NULL;
+
+}
+// System.Void IOSSocialManager::add_OnFacebookPostResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_add_OnFacebookPostResult_m4216263970_MetadataUsageId;
+extern "C"  void IOSSocialManager_add_OnFacebookPostResult_m4216263970 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_add_OnFacebookPostResult_m4216263970_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnFacebookPostResult_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnFacebookPostResult_4()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::remove_OnFacebookPostResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_remove_OnFacebookPostResult_m934686651_MetadataUsageId;
+extern "C"  void IOSSocialManager_remove_OnFacebookPostResult_m934686651 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_remove_OnFacebookPostResult_m934686651_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnFacebookPostResult_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnFacebookPostResult_4()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::add_OnTwitterPostResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_add_OnTwitterPostResult_m2321497017_MetadataUsageId;
+extern "C"  void IOSSocialManager_add_OnTwitterPostResult_m2321497017 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_add_OnTwitterPostResult_m2321497017_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnTwitterPostResult_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnTwitterPostResult_5()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::remove_OnTwitterPostResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_remove_OnTwitterPostResult_m114998796_MetadataUsageId;
+extern "C"  void IOSSocialManager_remove_OnTwitterPostResult_m114998796 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_remove_OnTwitterPostResult_m114998796_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnTwitterPostResult_5();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnTwitterPostResult_5()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::add_OnMailResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_add_OnMailResult_m4264457157_MetadataUsageId;
+extern "C"  void IOSSocialManager_add_OnMailResult_m4264457157 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_add_OnMailResult_m4264457157_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnMailResult_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnMailResult_6()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::remove_OnMailResult(System.Action`1<ISN_Result>)
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_remove_OnMailResult_m2186521032_MetadataUsageId;
+extern "C"  void IOSSocialManager_remove_OnMailResult_m2186521032 (Il2CppObject * __this /* static, unused */, Action_1_t2577430992 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_remove_OnMailResult_m2186521032_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2577430992 * V_0 = NULL;
+	Action_1_t2577430992 * V_1 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnMailResult_6();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2577430992 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2577430992 * L_2 = V_1;
+		Action_1_t2577430992 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = V_0;
+		Action_1_t2577430992 * L_6 = InterlockedCompareExchangeImpl<Action_1_t2577430992 *>((((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_address_of_OnMailResult_6()), ((Action_1_t2577430992 *)CastclassSealed(L_4, Action_1_t2577430992_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		Action_1_t2577430992 * L_7 = V_0;
+		Action_1_t2577430992 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(Action_1_t2577430992 *)L_7) == ((Il2CppObject*)(Action_1_t2577430992 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_Awake_m3018587323_MetadataUsageId;
+extern "C"  void IOSSocialManager_Awake_m3018587323 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_Awake_m3018587323_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialManager::ShareMedia(System.String)
+extern "C"  void IOSSocialManager_ShareMedia_m826920501 (IOSSocialManager_t2957403963 * __this, String_t* ___text0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___text0;
+		IOSSocialManager_ShareMedia_m1050107615(__this, L_0, (Texture2D_t3542995729 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialManager::ShareMedia(System.String,UnityEngine.Texture2D)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_ShareMedia_m1050107615_MetadataUsageId;
+extern "C"  void IOSSocialManager_ShareMedia_m1050107615 (IOSSocialManager_t2957403963 * __this, String_t* ___text0, Texture2D_t3542995729 * ___texture1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_ShareMedia_m1050107615_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		Texture2D_t3542995729 * L_0 = ___texture1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_2 = ___texture1;
+		NullCheck(L_2);
+		ByteU5BU5D_t3397334013* L_3 = Texture2D_EncodeToPNG_m2680110528(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		ByteU5BU5D_t3397334013* L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		String_t* L_5 = Convert_ToBase64String_m1936815455(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		String_t* L_6 = ___text0;
+		String_t* L_7 = V_1;
+		IOSSocialManager__ISN_MediaShare_m149746323(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		goto IL_0031;
+	}
+
+IL_0026:
+	{
+		String_t* L_8 = ___text0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		IOSSocialManager__ISN_MediaShare_m149746323(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0031:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::TwitterPost(System.String,System.String,UnityEngine.Texture2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_TwitterPost_m2589780573_MetadataUsageId;
+extern "C"  void IOSSocialManager_TwitterPost_m2589780573 (IOSSocialManager_t2957403963 * __this, String_t* ___text0, String_t* ___url1, Texture2D_t3542995729 * ___texture2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_TwitterPost_m2589780573_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	{
+		String_t* L_0 = ___text0;
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		___text0 = L_1;
+	}
+
+IL_000d:
+	{
+		String_t* L_2 = ___url1;
+		if (L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		___url1 = L_3;
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_4;
+		Texture2D_t3542995729 * L_5 = ___texture2;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_7 = ___texture2;
+		NullCheck(L_7);
+		ByteU5BU5D_t3397334013* L_8 = Texture2D_EncodeToPNG_m2680110528(L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		ByteU5BU5D_t3397334013* L_9 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		String_t* L_10 = Convert_ToBase64String_m1936815455(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_0 = L_10;
+	}
+
+IL_003a:
+	{
+		String_t* L_11 = ___text0;
+		String_t* L_12 = ___url1;
+		String_t* L_13 = V_0;
+		IOSSocialManager__ISN_TwPost_m4009521739(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialManager::FacebookPost(System.String,System.String,UnityEngine.Texture2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_FacebookPost_m2567889078_MetadataUsageId;
+extern "C"  void IOSSocialManager_FacebookPost_m2567889078 (IOSSocialManager_t2957403963 * __this, String_t* ___text0, String_t* ___url1, Texture2D_t3542995729 * ___texture2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_FacebookPost_m2567889078_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	{
+		String_t* L_0 = ___text0;
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		___text0 = L_1;
+	}
+
+IL_000d:
+	{
+		String_t* L_2 = ___url1;
+		if (L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		___url1 = L_3;
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_4;
+		Texture2D_t3542995729 * L_5 = ___texture2;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_7 = ___texture2;
+		NullCheck(L_7);
+		ByteU5BU5D_t3397334013* L_8 = Texture2D_EncodeToPNG_m2680110528(L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		ByteU5BU5D_t3397334013* L_9 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		String_t* L_10 = Convert_ToBase64String_m1936815455(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_0 = L_10;
+	}
+
+IL_003a:
+	{
+		String_t* L_11 = ___text0;
+		String_t* L_12 = ___url1;
+		String_t* L_13 = V_0;
+		IOSSocialManager__ISN_FbPost_m1938649542(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialManager::SendMail(System.String,System.String,System.String)
+extern "C"  void IOSSocialManager_SendMail_m467143893 (IOSSocialManager_t2957403963 * __this, String_t* ___subject0, String_t* ___body1, String_t* ___recipients2, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___subject0;
+		String_t* L_1 = ___body1;
+		String_t* L_2 = ___recipients2;
+		IOSSocialManager_SendMail_m1502025723(__this, L_0, L_1, L_2, (Texture2D_t3542995729 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialManager::SendMail(System.String,System.String,System.String,UnityEngine.Texture2D)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialManager_SendMail_m1502025723_MetadataUsageId;
+extern "C"  void IOSSocialManager_SendMail_m1502025723 (IOSSocialManager_t2957403963 * __this, String_t* ___subject0, String_t* ___body1, String_t* ___recipients2, Texture2D_t3542995729 * ___texture3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_SendMail_m1502025723_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		Texture2D_t3542995729 * L_0 = ___texture3;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		String_t* L_2 = ___subject0;
+		String_t* L_3 = ___body1;
+		String_t* L_4 = ___recipients2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		IOSSocialManager__ISN_SendMail_m1202584443(NULL /*static, unused*/, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		goto IL_0037;
+	}
+
+IL_001f:
+	{
+		Texture2D_t3542995729 * L_6 = ___texture3;
+		NullCheck(L_6);
+		ByteU5BU5D_t3397334013* L_7 = Texture2D_EncodeToPNG_m2680110528(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		ByteU5BU5D_t3397334013* L_8 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		String_t* L_9 = Convert_ToBase64String_m1936815455(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		String_t* L_10 = ___subject0;
+		String_t* L_11 = ___body1;
+		String_t* L_12 = ___recipients2;
+		String_t* L_13 = V_1;
+		IOSSocialManager__ISN_SendMail_m1202584443(NULL /*static, unused*/, L_10, L_11, L_12, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::OnTwitterPostFailed()
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSSocialManager_OnTwitterPostFailed_m518160281_MetadataUsageId;
+extern "C"  void IOSSocialManager_OnTwitterPostFailed_m518160281 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_OnTwitterPostFailed_m518160281_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnTwitterPostResult_5();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ISN_Result_t2775631610 * L_1 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_1, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t2577430992 * L_2 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnTwitterPostResult_5();
+		ISN_Result_t2775631610 * L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m1651425124(L_2, L_3, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::OnTwitterPostSuccess()
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSSocialManager_OnTwitterPostSuccess_m1014792981_MetadataUsageId;
+extern "C"  void IOSSocialManager_OnTwitterPostSuccess_m1014792981 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_OnTwitterPostSuccess_m1014792981_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnTwitterPostResult_5();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ISN_Result_t2775631610 * L_1 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_1, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t2577430992 * L_2 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnTwitterPostResult_5();
+		ISN_Result_t2775631610 * L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m1651425124(L_2, L_3, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::OnFacebookPostFailed()
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSSocialManager_OnFacebookPostFailed_m1890299548_MetadataUsageId;
+extern "C"  void IOSSocialManager_OnFacebookPostFailed_m1890299548 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_OnFacebookPostFailed_m1890299548_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnFacebookPostResult_4();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ISN_Result_t2775631610 * L_1 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_1, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t2577430992 * L_2 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnFacebookPostResult_4();
+		ISN_Result_t2775631610 * L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m1651425124(L_2, L_3, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::OnFacebookPostSuccess()
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSSocialManager_OnFacebookPostSuccess_m61649522_MetadataUsageId;
+extern "C"  void IOSSocialManager_OnFacebookPostSuccess_m61649522 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_OnFacebookPostSuccess_m61649522_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnFacebookPostResult_4();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ISN_Result_t2775631610 * L_1 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_1, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t2577430992 * L_2 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnFacebookPostResult_4();
+		ISN_Result_t2775631610 * L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m1651425124(L_2, L_3, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::OnMailFailed()
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSSocialManager_OnMailFailed_m3233000641_MetadataUsageId;
+extern "C"  void IOSSocialManager_OnMailFailed_m3233000641 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_OnMailFailed_m3233000641_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnMailResult_6();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ISN_Result_t2775631610 * L_1 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_1, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t2577430992 * L_2 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnMailResult_6();
+		ISN_Result_t2775631610 * L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m1651425124(L_2, L_3, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialManager::OnMailSuccess()
+extern Il2CppClass* IOSSocialManager_t2957403963_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Result_t2775631610_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1651425124_MethodInfo_var;
+extern const uint32_t IOSSocialManager_OnMailSuccess_m3793290533_MetadataUsageId;
+extern "C"  void IOSSocialManager_OnMailSuccess_m3793290533 (IOSSocialManager_t2957403963 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialManager_OnMailSuccess_m3793290533_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ISN_Result_t2775631610 * V_0 = NULL;
+	{
+		Action_1_t2577430992 * L_0 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnMailResult_6();
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ISN_Result_t2775631610 * L_1 = (ISN_Result_t2775631610 *)il2cpp_codegen_object_new(ISN_Result_t2775631610_il2cpp_TypeInfo_var);
+		ISN_Result__ctor_m3842574264(L_1, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Action_1_t2577430992 * L_2 = ((IOSSocialManager_t2957403963_StaticFields*)IOSSocialManager_t2957403963_il2cpp_TypeInfo_var->static_fields)->get_OnMailResult_6();
+		ISN_Result_t2775631610 * L_3 = V_0;
+		NullCheck(L_2);
+		Action_1_Invoke_m1651425124(L_2, L_3, /*hidden argument*/Action_1_Invoke_m1651425124_MethodInfo_var);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialUseExample::.ctor()
+extern "C"  void IOSSocialUseExample__ctor_m1184834296 (IOSSocialUseExample_t1825493211 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialUseExample::Awake()
+extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSSocialUseExample_HandleOnFacebookPostResult_m1411015996_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1403073535_MethodInfo_var;
+extern const MethodInfo* IOSSocialUseExample_HandleOnTwitterPostResult_m1725584139_MethodInfo_var;
+extern const MethodInfo* IOSSocialUseExample_OnMailResult_m2854851509_MethodInfo_var;
+extern const uint32_t IOSSocialUseExample_Awake_m3117401191_MetadataUsageId;
+extern "C"  void IOSSocialUseExample_Awake_m3117401191 (IOSSocialUseExample_t1825493211 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_Awake_m3117401191_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)IOSSocialUseExample_HandleOnFacebookPostResult_m1411015996_MethodInfo_var);
+		Action_1_t2577430992 * L_1 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_1, __this, L_0, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IOSSocialManager_add_OnFacebookPostResult_m4216263970(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)IOSSocialUseExample_HandleOnTwitterPostResult_m1725584139_MethodInfo_var);
+		Action_1_t2577430992 * L_3 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_3, __this, L_2, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IOSSocialManager_add_OnTwitterPostResult_m2321497017(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)IOSSocialUseExample_OnMailResult_m2854851509_MethodInfo_var);
+		Action_1_t2577430992 * L_5 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IOSSocialManager_add_OnMailResult_m4264457157(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		IOSSocialUseExample_InitStyles_m2472722334(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialUseExample::InitStyles()
+extern Il2CppClass* GUIStyle_t1799908754_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialUseExample_InitStyles_m2472722334_MetadataUsageId;
+extern "C"  void IOSSocialUseExample_InitStyles_m2472722334 (IOSSocialUseExample_t1825493211 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_InitStyles_m2472722334_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GUIStyle_t1799908754 * L_0 = (GUIStyle_t1799908754 *)il2cpp_codegen_object_new(GUIStyle_t1799908754_il2cpp_TypeInfo_var);
+		GUIStyle__ctor_m3665892801(L_0, /*hidden argument*/NULL);
+		__this->set_style_2(L_0);
+		GUIStyle_t1799908754 * L_1 = __this->get_style_2();
+		NullCheck(L_1);
+		GUIStyleState_t3801000545 * L_2 = GUIStyle_get_normal_m2789468942(L_1, /*hidden argument*/NULL);
+		Color_t2020392075  L_3 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		GUIStyleState_set_textColor_m3970174237(L_2, L_3, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_4 = __this->get_style_2();
+		NullCheck(L_4);
+		GUIStyle_set_fontSize_m4015341543(L_4, ((int32_t)16), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_5 = __this->get_style_2();
+		NullCheck(L_5);
+		GUIStyle_set_fontStyle_m3960530579(L_5, 3, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_6 = __this->get_style_2();
+		NullCheck(L_6);
+		GUIStyle_set_alignment_m1024943876(L_6, 0, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_7 = __this->get_style_2();
+		NullCheck(L_7);
+		GUIStyle_set_wordWrap_m2043927261(L_7, (bool)1, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_8 = (GUIStyle_t1799908754 *)il2cpp_codegen_object_new(GUIStyle_t1799908754_il2cpp_TypeInfo_var);
+		GUIStyle__ctor_m3665892801(L_8, /*hidden argument*/NULL);
+		__this->set_style2_3(L_8);
+		GUIStyle_t1799908754 * L_9 = __this->get_style2_3();
+		NullCheck(L_9);
+		GUIStyleState_t3801000545 * L_10 = GUIStyle_get_normal_m2789468942(L_9, /*hidden argument*/NULL);
+		Color_t2020392075  L_11 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		GUIStyleState_set_textColor_m3970174237(L_10, L_11, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_12 = __this->get_style2_3();
+		NullCheck(L_12);
+		GUIStyle_set_fontSize_m4015341543(L_12, ((int32_t)12), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_13 = __this->get_style2_3();
+		NullCheck(L_13);
+		GUIStyle_set_fontStyle_m3960530579(L_13, 2, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_14 = __this->get_style2_3();
+		NullCheck(L_14);
+		GUIStyle_set_alignment_m1024943876(L_14, 0, /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_15 = __this->get_style2_3();
+		NullCheck(L_15);
+		GUIStyle_set_wordWrap_m2043927261(L_15, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSSocialUseExample::OnGUI()
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m908358136_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral536941;
+extern Il2CppCodeGenString* _stringLiteral3430669212;
+extern Il2CppCodeGenString* _stringLiteral608297623;
+extern Il2CppCodeGenString* _stringLiteral1081477232;
+extern Il2CppCodeGenString* _stringLiteral1783356774;
+extern Il2CppCodeGenString* _stringLiteral2949079860;
+extern Il2CppCodeGenString* _stringLiteral3669980907;
+extern Il2CppCodeGenString* _stringLiteral2600765082;
+extern Il2CppCodeGenString* _stringLiteral1579170218;
+extern Il2CppCodeGenString* _stringLiteral1433338209;
+extern Il2CppCodeGenString* _stringLiteral3423762541;
+extern Il2CppCodeGenString* _stringLiteral231209707;
+extern Il2CppCodeGenString* _stringLiteral4157947506;
+extern Il2CppCodeGenString* _stringLiteral1324197173;
+extern Il2CppCodeGenString* _stringLiteral1739234821;
+extern Il2CppCodeGenString* _stringLiteral3913654572;
+extern Il2CppCodeGenString* _stringLiteral3339857275;
+extern const uint32_t IOSSocialUseExample_OnGUI_m674520600_MetadataUsageId;
+extern "C"  void IOSSocialUseExample_OnGUI_m674520600 (IOSSocialUseExample_t1825493211 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_OnGUI_m674520600_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		V_0 = (20.0f);
+		V_1 = (10.0f);
+		float L_0 = V_1;
+		float L_1 = V_0;
+		int32_t L_2 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, L_0, L_1, (((float)((float)L_2))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_4 = __this->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_3, _stringLiteral536941, L_4, /*hidden argument*/NULL);
+		float L_5 = V_0;
+		V_0 = ((float)((float)L_5+(float)(40.0f)));
+		float L_6 = V_1;
+		float L_7 = V_0;
+		Rect_t3681755626  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Rect__ctor_m1220545469(&L_8, L_6, L_7, (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_9 = GUI_Button_m3054448581(NULL /*static, unused*/, L_8, _stringLiteral3430669212, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_10 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		NullCheck(L_10);
+		IOSSocialManager_TwitterPost_m2589780573(L_10, _stringLiteral608297623, (String_t*)NULL, (Texture2D_t3542995729 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0067:
+	{
+		float L_11 = V_1;
+		V_1 = ((float)((float)L_11+(float)(170.0f)));
+		float L_12 = V_1;
+		float L_13 = V_0;
+		Rect_t3681755626  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Rect__ctor_m1220545469(&L_14, L_12, L_13, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_15 = GUI_Button_m3054448581(NULL /*static, unused*/, L_14, _stringLiteral1081477232, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		Il2CppObject * L_16 = IOSSocialUseExample_PostTwitterScreenshot_m1891571209(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_16, /*hidden argument*/NULL);
+	}
+
+IL_009c:
+	{
+		float L_17 = V_0;
+		V_0 = ((float)((float)L_17+(float)(80.0f)));
+		V_1 = (10.0f);
+		float L_18 = V_1;
+		float L_19 = V_0;
+		int32_t L_20 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_21;
+		memset(&L_21, 0, sizeof(L_21));
+		Rect__ctor_m1220545469(&L_21, L_18, L_19, (((float)((float)L_20))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_22 = __this->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_21, _stringLiteral1783356774, L_22, /*hidden argument*/NULL);
+		float L_23 = V_0;
+		V_0 = ((float)((float)L_23+(float)(40.0f)));
+		float L_24 = V_1;
+		float L_25 = V_0;
+		Rect_t3681755626  L_26;
+		memset(&L_26, 0, sizeof(L_26));
+		Rect__ctor_m1220545469(&L_26, L_24, L_25, (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_27 = GUI_Button_m3054448581(NULL /*static, unused*/, L_26, _stringLiteral3430669212, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_0105;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_28 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		NullCheck(L_28);
+		IOSSocialManager_FacebookPost_m2567889078(L_28, _stringLiteral2949079860, (String_t*)NULL, (Texture2D_t3542995729 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0105:
+	{
+		float L_29 = V_1;
+		V_1 = ((float)((float)L_29+(float)(170.0f)));
+		float L_30 = V_1;
+		float L_31 = V_0;
+		Rect_t3681755626  L_32;
+		memset(&L_32, 0, sizeof(L_32));
+		Rect__ctor_m1220545469(&L_32, L_30, L_31, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_33 = GUI_Button_m3054448581(NULL /*static, unused*/, L_32, _stringLiteral1081477232, /*hidden argument*/NULL);
+		if (!L_33)
+		{
+			goto IL_013a;
+		}
+	}
+	{
+		Il2CppObject * L_34 = IOSSocialUseExample_PostFBScreenshot_m274713436(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_34, /*hidden argument*/NULL);
+	}
+
+IL_013a:
+	{
+		float L_35 = V_1;
+		V_1 = ((float)((float)L_35+(float)(170.0f)));
+		float L_36 = V_1;
+		float L_37 = V_0;
+		Rect_t3681755626  L_38;
+		memset(&L_38, 0, sizeof(L_38));
+		Rect__ctor_m1220545469(&L_38, L_36, L_37, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_39 = GUI_Button_m3054448581(NULL /*static, unused*/, L_38, _stringLiteral3669980907, /*hidden argument*/NULL);
+		if (!L_39)
+		{
+			goto IL_017c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_40 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		Texture2D_t3542995729 * L_41 = __this->get_textureForPost_4();
+		NullCheck(L_40);
+		IOSSocialManager_FacebookPost_m2567889078(L_40, _stringLiteral2600765082, _stringLiteral1579170218, L_41, /*hidden argument*/NULL);
+	}
+
+IL_017c:
+	{
+		float L_42 = V_0;
+		V_0 = ((float)((float)L_42+(float)(80.0f)));
+		V_1 = (10.0f);
+		float L_43 = V_1;
+		float L_44 = V_0;
+		int32_t L_45 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_46;
+		memset(&L_46, 0, sizeof(L_46));
+		Rect__ctor_m1220545469(&L_46, L_43, L_44, (((float)((float)L_45))), (40.0f), /*hidden argument*/NULL);
+		GUIStyle_t1799908754 * L_47 = __this->get_style_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2231582000(NULL /*static, unused*/, L_46, _stringLiteral1433338209, L_47, /*hidden argument*/NULL);
+		float L_48 = V_0;
+		V_0 = ((float)((float)L_48+(float)(40.0f)));
+		float L_49 = V_1;
+		float L_50 = V_0;
+		Rect_t3681755626  L_51;
+		memset(&L_51, 0, sizeof(L_51));
+		Rect__ctor_m1220545469(&L_51, L_49, L_50, (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_52 = GUI_Button_m3054448581(NULL /*static, unused*/, L_51, _stringLiteral3423762541, /*hidden argument*/NULL);
+		if (!L_52)
+		{
+			goto IL_01e3;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_53 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		NullCheck(L_53);
+		IOSSocialManager_ShareMedia_m826920501(L_53, _stringLiteral231209707, /*hidden argument*/NULL);
+	}
+
+IL_01e3:
+	{
+		float L_54 = V_1;
+		V_1 = ((float)((float)L_54+(float)(170.0f)));
+		float L_55 = V_1;
+		float L_56 = V_0;
+		Rect_t3681755626  L_57;
+		memset(&L_57, 0, sizeof(L_57));
+		Rect__ctor_m1220545469(&L_57, L_55, L_56, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_58 = GUI_Button_m3054448581(NULL /*static, unused*/, L_57, _stringLiteral4157947506, /*hidden argument*/NULL);
+		if (!L_58)
+		{
+			goto IL_0218;
+		}
+	}
+	{
+		Il2CppObject * L_59 = IOSSocialUseExample_PostScreenshot_m1602510604(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_59, /*hidden argument*/NULL);
+	}
+
+IL_0218:
+	{
+		float L_60 = V_1;
+		V_1 = ((float)((float)L_60+(float)(170.0f)));
+		float L_61 = V_1;
+		float L_62 = V_0;
+		Rect_t3681755626  L_63;
+		memset(&L_63, 0, sizeof(L_63));
+		Rect__ctor_m1220545469(&L_63, L_61, L_62, (150.0f), (50.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_64 = GUI_Button_m3054448581(NULL /*static, unused*/, L_63, _stringLiteral1324197173, /*hidden argument*/NULL);
+		if (!L_64)
+		{
+			goto IL_025f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_65 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		Texture2D_t3542995729 * L_66 = __this->get_textureForPost_4();
+		NullCheck(L_65);
+		IOSSocialManager_SendMail_m1502025723(L_65, _stringLiteral1739234821, _stringLiteral3913654572, _stringLiteral3339857275, L_66, /*hidden argument*/NULL);
+	}
+
+IL_025f:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerator IOSSocialUseExample::PostScreenshot()
+extern Il2CppClass* U3CPostScreenshotU3Ec__Iterator0_t2989829515_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialUseExample_PostScreenshot_m1602510604_MetadataUsageId;
+extern "C"  Il2CppObject * IOSSocialUseExample_PostScreenshot_m1602510604 (IOSSocialUseExample_t1825493211 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_PostScreenshot_m1602510604_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CPostScreenshotU3Ec__Iterator0_t2989829515 * V_0 = NULL;
+	{
+		U3CPostScreenshotU3Ec__Iterator0_t2989829515 * L_0 = (U3CPostScreenshotU3Ec__Iterator0_t2989829515 *)il2cpp_codegen_object_new(U3CPostScreenshotU3Ec__Iterator0_t2989829515_il2cpp_TypeInfo_var);
+		U3CPostScreenshotU3Ec__Iterator0__ctor_m2488609768(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CPostScreenshotU3Ec__Iterator0_t2989829515 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Collections.IEnumerator IOSSocialUseExample::PostTwitterScreenshot()
+extern Il2CppClass* U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialUseExample_PostTwitterScreenshot_m1891571209_MetadataUsageId;
+extern "C"  Il2CppObject * IOSSocialUseExample_PostTwitterScreenshot_m1891571209 (IOSSocialUseExample_t1825493211 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_PostTwitterScreenshot_m1891571209_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * V_0 = NULL;
+	{
+		U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * L_0 = (U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 *)il2cpp_codegen_object_new(U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815_il2cpp_TypeInfo_var);
+		U3CPostTwitterScreenshotU3Ec__Iterator1__ctor_m3608347254(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Collections.IEnumerator IOSSocialUseExample::PostFBScreenshot()
+extern Il2CppClass* U3CPostFBScreenshotU3Ec__Iterator2_t2908493817_il2cpp_TypeInfo_var;
+extern const uint32_t IOSSocialUseExample_PostFBScreenshot_m274713436_MetadataUsageId;
+extern "C"  Il2CppObject * IOSSocialUseExample_PostFBScreenshot_m274713436 (IOSSocialUseExample_t1825493211 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_PostFBScreenshot_m274713436_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * V_0 = NULL;
+	{
+		U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * L_0 = (U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 *)il2cpp_codegen_object_new(U3CPostFBScreenshotU3Ec__Iterator2_t2908493817_il2cpp_TypeInfo_var);
+		U3CPostFBScreenshotU3Ec__Iterator2__ctor_m1955019474(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void IOSSocialUseExample::HandleOnTwitterPostResult(ISN_Result)
+extern Il2CppCodeGenString* _stringLiteral3934888102;
+extern Il2CppCodeGenString* _stringLiteral3903686650;
+extern Il2CppCodeGenString* _stringLiteral3706773505;
+extern const uint32_t IOSSocialUseExample_HandleOnTwitterPostResult_m1725584139_MetadataUsageId;
+extern "C"  void IOSSocialUseExample_HandleOnTwitterPostResult_m1725584139 (IOSSocialUseExample_t1825493211 * __this, ISN_Result_t2775631610 * ___res0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_HandleOnTwitterPostResult_m1725584139_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ISN_Result_t2775631610 * L_0 = ___res0;
+		NullCheck(L_0);
+		bool L_1 = ISN_Result_get_IsSucceeded_m2375621801(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral3934888102, _stringLiteral3903686650, /*hidden argument*/NULL);
+		goto IL_002e;
+	}
+
+IL_001f:
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral3934888102, _stringLiteral3706773505, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialUseExample::HandleOnFacebookPostResult(ISN_Result)
+extern Il2CppCodeGenString* _stringLiteral3934888102;
+extern Il2CppCodeGenString* _stringLiteral3903686650;
+extern Il2CppCodeGenString* _stringLiteral3706773505;
+extern const uint32_t IOSSocialUseExample_HandleOnFacebookPostResult_m1411015996_MetadataUsageId;
+extern "C"  void IOSSocialUseExample_HandleOnFacebookPostResult_m1411015996 (IOSSocialUseExample_t1825493211 * __this, ISN_Result_t2775631610 * ___res0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_HandleOnFacebookPostResult_m1411015996_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ISN_Result_t2775631610 * L_0 = ___res0;
+		NullCheck(L_0);
+		bool L_1 = ISN_Result_get_IsSucceeded_m2375621801(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral3934888102, _stringLiteral3903686650, /*hidden argument*/NULL);
+		goto IL_002e;
+	}
+
+IL_001f:
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral3934888102, _stringLiteral3706773505, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialUseExample::OnMailResult(ISN_Result)
+extern Il2CppCodeGenString* _stringLiteral3934888102;
+extern Il2CppCodeGenString* _stringLiteral1515447193;
+extern Il2CppCodeGenString* _stringLiteral3972072740;
+extern const uint32_t IOSSocialUseExample_OnMailResult_m2854851509_MetadataUsageId;
+extern "C"  void IOSSocialUseExample_OnMailResult_m2854851509 (IOSSocialUseExample_t1825493211 * __this, ISN_Result_t2775631610 * ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSSocialUseExample_OnMailResult_m2854851509_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ISN_Result_t2775631610 * L_0 = ___result0;
+		NullCheck(L_0);
+		bool L_1 = ISN_Result_get_IsSucceeded_m2375621801(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral3934888102, _stringLiteral1515447193, /*hidden argument*/NULL);
+		goto IL_002e;
+	}
+
+IL_001f:
+	{
+		IOSNativePopUpManager_showMessage_m885280144(NULL /*static, unused*/, _stringLiteral3934888102, _stringLiteral3972072740, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void IOSSocialUseExample/<PostFBScreenshot>c__Iterator2::.ctor()
+extern "C"  void U3CPostFBScreenshotU3Ec__Iterator2__ctor_m1955019474 (U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean IOSSocialUseExample/<PostFBScreenshot>c__Iterator2::MoveNext()
+extern Il2CppClass* WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m908358136_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2081507445;
+extern const uint32_t U3CPostFBScreenshotU3Ec__Iterator2_MoveNext_m499253494_MetadataUsageId;
+extern "C"  bool U3CPostFBScreenshotU3Ec__Iterator2_MoveNext_m499253494 (U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPostFBScreenshotU3Ec__Iterator2_MoveNext_m499253494_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		goto IL_00cc;
+	}
+
+IL_0021:
+	{
+		WaitForEndOfFrame_t1785723201 * L_2 = (WaitForEndOfFrame_t1785723201 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m3062480170(L_2, /*hidden argument*/NULL);
+		__this->set_U24current_3(L_2);
+		bool L_3 = __this->get_U24disposing_4();
+		if (L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		__this->set_U24PC_5(1);
+	}
+
+IL_003b:
+	{
+		goto IL_00ce;
+	}
+
+IL_0040:
+	{
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CwidthU3E__0_0(L_4);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CheightU3E__1_1(L_5);
+		int32_t L_6 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_7 = __this->get_U3CheightU3E__1_1();
+		Texture2D_t3542995729 * L_8 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m1873923924(L_8, L_6, L_7, 3, (bool)0, /*hidden argument*/NULL);
+		__this->set_U3CtexU3E__2_2(L_8);
+		Texture2D_t3542995729 * L_9 = __this->get_U3CtexU3E__2_2();
+		int32_t L_10 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_11 = __this->get_U3CheightU3E__1_1();
+		Rect_t3681755626  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		Rect__ctor_m1220545469(&L_12, (0.0f), (0.0f), (((float)((float)L_10))), (((float)((float)L_11))), /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Texture2D_ReadPixels_m1120832672(L_9, L_12, 0, 0, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_13 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_13);
+		Texture2D_Apply_m3543341930(L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_14 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		Texture2D_t3542995729 * L_15 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_14);
+		IOSSocialManager_FacebookPost_m2567889078(L_14, _stringLiteral2081507445, (String_t*)NULL, L_15, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_16 = __this->get_U3CtexU3E__2_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		__this->set_U24PC_5((-1));
+	}
+
+IL_00cc:
+	{
+		return (bool)0;
+	}
+
+IL_00ce:
+	{
+		return (bool)1;
+	}
+}
+// System.Object IOSSocialUseExample/<PostFBScreenshot>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CPostFBScreenshotU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1392927410 (U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Object IOSSocialUseExample/<PostFBScreenshot>c__Iterator2::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CPostFBScreenshotU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1011432234 (U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Void IOSSocialUseExample/<PostFBScreenshot>c__Iterator2::Dispose()
+extern "C"  void U3CPostFBScreenshotU3Ec__Iterator2_Dispose_m2567545851 (U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_4((bool)1);
+		__this->set_U24PC_5((-1));
+		return;
+	}
+}
+// System.Void IOSSocialUseExample/<PostFBScreenshot>c__Iterator2::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CPostFBScreenshotU3Ec__Iterator2_Reset_m2134888593_MetadataUsageId;
+extern "C"  void U3CPostFBScreenshotU3Ec__Iterator2_Reset_m2134888593 (U3CPostFBScreenshotU3Ec__Iterator2_t2908493817 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPostFBScreenshotU3Ec__Iterator2_Reset_m2134888593_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void IOSSocialUseExample/<PostScreenshot>c__Iterator0::.ctor()
+extern "C"  void U3CPostScreenshotU3Ec__Iterator0__ctor_m2488609768 (U3CPostScreenshotU3Ec__Iterator0_t2989829515 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean IOSSocialUseExample/<PostScreenshot>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m908358136_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral231209707;
+extern const uint32_t U3CPostScreenshotU3Ec__Iterator0_MoveNext_m1987734504_MetadataUsageId;
+extern "C"  bool U3CPostScreenshotU3Ec__Iterator0_MoveNext_m1987734504 (U3CPostScreenshotU3Ec__Iterator0_t2989829515 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPostScreenshotU3Ec__Iterator0_MoveNext_m1987734504_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		goto IL_00cb;
+	}
+
+IL_0021:
+	{
+		WaitForEndOfFrame_t1785723201 * L_2 = (WaitForEndOfFrame_t1785723201 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m3062480170(L_2, /*hidden argument*/NULL);
+		__this->set_U24current_3(L_2);
+		bool L_3 = __this->get_U24disposing_4();
+		if (L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		__this->set_U24PC_5(1);
+	}
+
+IL_003b:
+	{
+		goto IL_00cd;
+	}
+
+IL_0040:
+	{
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CwidthU3E__0_0(L_4);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CheightU3E__1_1(L_5);
+		int32_t L_6 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_7 = __this->get_U3CheightU3E__1_1();
+		Texture2D_t3542995729 * L_8 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m1873923924(L_8, L_6, L_7, 3, (bool)0, /*hidden argument*/NULL);
+		__this->set_U3CtexU3E__2_2(L_8);
+		Texture2D_t3542995729 * L_9 = __this->get_U3CtexU3E__2_2();
+		int32_t L_10 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_11 = __this->get_U3CheightU3E__1_1();
+		Rect_t3681755626  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		Rect__ctor_m1220545469(&L_12, (0.0f), (0.0f), (((float)((float)L_10))), (((float)((float)L_11))), /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Texture2D_ReadPixels_m1120832672(L_9, L_12, 0, 0, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_13 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_13);
+		Texture2D_Apply_m3543341930(L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_14 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		Texture2D_t3542995729 * L_15 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_14);
+		IOSSocialManager_ShareMedia_m1050107615(L_14, _stringLiteral231209707, L_15, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_16 = __this->get_U3CtexU3E__2_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		__this->set_U24PC_5((-1));
+	}
+
+IL_00cb:
+	{
+		return (bool)0;
+	}
+
+IL_00cd:
+	{
+		return (bool)1;
+	}
+}
+// System.Object IOSSocialUseExample/<PostScreenshot>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CPostScreenshotU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1822001832 (U3CPostScreenshotU3Ec__Iterator0_t2989829515 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Object IOSSocialUseExample/<PostScreenshot>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CPostScreenshotU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m752844128 (U3CPostScreenshotU3Ec__Iterator0_t2989829515 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Void IOSSocialUseExample/<PostScreenshot>c__Iterator0::Dispose()
+extern "C"  void U3CPostScreenshotU3Ec__Iterator0_Dispose_m2039526697 (U3CPostScreenshotU3Ec__Iterator0_t2989829515 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_4((bool)1);
+		__this->set_U24PC_5((-1));
+		return;
+	}
+}
+// System.Void IOSSocialUseExample/<PostScreenshot>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CPostScreenshotU3Ec__Iterator0_Reset_m800218367_MetadataUsageId;
+extern "C"  void U3CPostScreenshotU3Ec__Iterator0_Reset_m800218367 (U3CPostScreenshotU3Ec__Iterator0_t2989829515 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPostScreenshotU3Ec__Iterator0_Reset_m800218367_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void IOSSocialUseExample/<PostTwitterScreenshot>c__Iterator1::.ctor()
+extern "C"  void U3CPostTwitterScreenshotU3Ec__Iterator1__ctor_m3608347254 (U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean IOSSocialUseExample/<PostTwitterScreenshot>c__Iterator1::MoveNext()
+extern Il2CppClass* WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m908358136_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2081507445;
+extern const uint32_t U3CPostTwitterScreenshotU3Ec__Iterator1_MoveNext_m3501275190_MetadataUsageId;
+extern "C"  bool U3CPostTwitterScreenshotU3Ec__Iterator1_MoveNext_m3501275190 (U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPostTwitterScreenshotU3Ec__Iterator1_MoveNext_m3501275190_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		goto IL_00cc;
+	}
+
+IL_0021:
+	{
+		WaitForEndOfFrame_t1785723201 * L_2 = (WaitForEndOfFrame_t1785723201 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m3062480170(L_2, /*hidden argument*/NULL);
+		__this->set_U24current_3(L_2);
+		bool L_3 = __this->get_U24disposing_4();
+		if (L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		__this->set_U24PC_5(1);
+	}
+
+IL_003b:
+	{
+		goto IL_00ce;
+	}
+
+IL_0040:
+	{
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CwidthU3E__0_0(L_4);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CheightU3E__1_1(L_5);
+		int32_t L_6 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_7 = __this->get_U3CheightU3E__1_1();
+		Texture2D_t3542995729 * L_8 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m1873923924(L_8, L_6, L_7, 3, (bool)0, /*hidden argument*/NULL);
+		__this->set_U3CtexU3E__2_2(L_8);
+		Texture2D_t3542995729 * L_9 = __this->get_U3CtexU3E__2_2();
+		int32_t L_10 = __this->get_U3CwidthU3E__0_0();
+		int32_t L_11 = __this->get_U3CheightU3E__1_1();
+		Rect_t3681755626  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		Rect__ctor_m1220545469(&L_12, (0.0f), (0.0f), (((float)((float)L_10))), (((float)((float)L_11))), /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Texture2D_ReadPixels_m1120832672(L_9, L_12, 0, 0, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_13 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_13);
+		Texture2D_Apply_m3543341930(L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1898003979_il2cpp_TypeInfo_var);
+		IOSSocialManager_t2957403963 * L_14 = ISN_Singleton_1_get_instance_m908358136(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m908358136_MethodInfo_var);
+		Texture2D_t3542995729 * L_15 = __this->get_U3CtexU3E__2_2();
+		NullCheck(L_14);
+		IOSSocialManager_TwitterPost_m2589780573(L_14, _stringLiteral2081507445, (String_t*)NULL, L_15, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_16 = __this->get_U3CtexU3E__2_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		__this->set_U24PC_5((-1));
+	}
+
+IL_00cc:
+	{
+		return (bool)0;
+	}
+
+IL_00ce:
+	{
+		return (bool)1;
+	}
+}
+// System.Object IOSSocialUseExample/<PostTwitterScreenshot>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CPostTwitterScreenshotU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3753662104 (U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Object IOSSocialUseExample/<PostTwitterScreenshot>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CPostTwitterScreenshotU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m3760088624 (U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Void IOSSocialUseExample/<PostTwitterScreenshot>c__Iterator1::Dispose()
+extern "C"  void U3CPostTwitterScreenshotU3Ec__Iterator1_Dispose_m2239954073 (U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_4((bool)1);
+		__this->set_U24PC_5((-1));
+		return;
+	}
+}
+// System.Void IOSSocialUseExample/<PostTwitterScreenshot>c__Iterator1::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CPostTwitterScreenshotU3Ec__Iterator1_Reset_m3411174987_MetadataUsageId;
+extern "C"  void U3CPostTwitterScreenshotU3Ec__Iterator1_Reset_m3411174987 (U3CPostTwitterScreenshotU3Ec__Iterator1_t2799471815 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPostTwitterScreenshotU3Ec__Iterator1_Reset_m3411174987_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void IOSStoreKitRestoreResult::.ctor(ISN_Error)
+extern "C"  void IOSStoreKitRestoreResult__ctor_m957296133 (IOSStoreKitRestoreResult_t3305276155 * __this, ISN_Error_t553253557 * ___e0, const MethodInfo* method)
+{
+	{
+		ISN_Error_t553253557 * L_0 = ___e0;
+		ISN_Result__ctor_m4038088764(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreKitRestoreResult::.ctor(System.Boolean)
+extern "C"  void IOSStoreKitRestoreResult__ctor_m2944630037 (IOSStoreKitRestoreResult_t3305276155 * __this, bool ___IsResultSucceeded0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___IsResultSucceeded0;
+		ISN_Result__ctor_m3842574264(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// IOSTransactionErrorCode IOSStoreKitRestoreResult::get_TransactionErrorCode()
+extern "C"  int32_t IOSStoreKitRestoreResult_get_TransactionErrorCode_m1192121613 (IOSStoreKitRestoreResult_t3305276155 * __this, const MethodInfo* method)
+{
+	{
+		ISN_Error_t553253557 * L_0 = ((ISN_Result_t2775631610 *)__this)->get__Error_0();
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ISN_Error_t553253557 * L_1 = ((ISN_Result_t2775631610 *)__this)->get__Error_0();
+		NullCheck(L_1);
+		int32_t L_2 = ISN_Error_get_Code_m3097451418(L_1, /*hidden argument*/NULL);
+		return (int32_t)(L_2);
+	}
+
+IL_0017:
+	{
+		return (int32_t)(8);
+	}
+}
+// System.Void IOSStoreKitResult::.ctor(System.String,ISN_Error)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreKitResult__ctor_m1093106419_MetadataUsageId;
+extern "C"  void IOSStoreKitResult__ctor_m1093106419 (IOSStoreKitResult_t2359407583 * __this, String_t* ___productIdentifier0, ISN_Error_t553253557 * ___e1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreKitResult__ctor_m1093106419_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__ProductIdentifier_2(L_0);
+		__this->set__State_3(1);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__Receipt_4(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__TransactionIdentifier_5(L_2);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__ApplicationUsername_6(L_3);
+		ISN_Error_t553253557 * L_4 = ___e1;
+		ISN_Result__ctor_m4038088764(__this, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = ___productIdentifier0;
+		__this->set__ProductIdentifier_2(L_5);
+		__this->set__State_3(1);
+		return;
+	}
+}
+// System.Void IOSStoreKitResult::.ctor(System.String,InAppPurchaseState,System.String,System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreKitResult__ctor_m2735797076_MetadataUsageId;
+extern "C"  void IOSStoreKitResult__ctor_m2735797076 (IOSStoreKitResult_t2359407583 * __this, String_t* ___productIdentifier0, int32_t ___state1, String_t* ___applicationUsername2, String_t* ___receipt3, String_t* ___transactionIdentifier4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreKitResult__ctor_m2735797076_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__ProductIdentifier_2(L_0);
+		__this->set__State_3(1);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__Receipt_4(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__TransactionIdentifier_5(L_2);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set__ApplicationUsername_6(L_3);
+		ISN_Result__ctor_m3842574264(__this, (bool)1, /*hidden argument*/NULL);
+		String_t* L_4 = ___productIdentifier0;
+		__this->set__ProductIdentifier_2(L_4);
+		int32_t L_5 = ___state1;
+		__this->set__State_3(L_5);
+		String_t* L_6 = ___receipt3;
+		__this->set__Receipt_4(L_6);
+		String_t* L_7 = ___transactionIdentifier4;
+		__this->set__TransactionIdentifier_5(L_7);
+		String_t* L_8 = ___applicationUsername2;
+		__this->set__ApplicationUsername_6(L_8);
+		return;
+	}
+}
+// IOSTransactionErrorCode IOSStoreKitResult::get_TransactionErrorCode()
+extern "C"  int32_t IOSStoreKitResult_get_TransactionErrorCode_m1029827189 (IOSStoreKitResult_t2359407583 * __this, const MethodInfo* method)
+{
+	{
+		ISN_Error_t553253557 * L_0 = ((ISN_Result_t2775631610 *)__this)->get__Error_0();
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ISN_Error_t553253557 * L_1 = ((ISN_Result_t2775631610 *)__this)->get__Error_0();
+		NullCheck(L_1);
+		int32_t L_2 = ISN_Error_get_Code_m3097451418(L_1, /*hidden argument*/NULL);
+		return (int32_t)(L_2);
+	}
+
+IL_0017:
+	{
+		return (int32_t)(8);
+	}
+}
+// InAppPurchaseState IOSStoreKitResult::get_State()
+extern "C"  int32_t IOSStoreKitResult_get_State_m3315267005 (IOSStoreKitResult_t2359407583 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__State_3();
+		return L_0;
+	}
+}
+// System.String IOSStoreKitResult::get_ProductIdentifier()
+extern "C"  String_t* IOSStoreKitResult_get_ProductIdentifier_m3238599700 (IOSStoreKitResult_t2359407583 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__ProductIdentifier_2();
+		return L_0;
+	}
+}
+// System.String IOSStoreKitResult::get_ApplicationUsername()
+extern "C"  String_t* IOSStoreKitResult_get_ApplicationUsername_m2715308138 (IOSStoreKitResult_t2359407583 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__ApplicationUsername_6();
+		return L_0;
+	}
+}
+// System.String IOSStoreKitResult::get_Receipt()
+extern "C"  String_t* IOSStoreKitResult_get_Receipt_m484686480 (IOSStoreKitResult_t2359407583 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__Receipt_4();
+		return L_0;
+	}
+}
+// System.String IOSStoreKitResult::get_TransactionIdentifier()
+extern "C"  String_t* IOSStoreKitResult_get_TransactionIdentifier_m236981577 (IOSStoreKitResult_t2359407583 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__TransactionIdentifier_5();
+		return L_0;
+	}
+}
+// System.Void IOSStoreKitVerificationResponse::.ctor()
+extern "C"  void IOSStoreKitVerificationResponse__ctor_m2787422913 (IOSStoreKitVerificationResponse_t4263658582 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::.ctor()
+extern Il2CppClass* IOSStoreProductView_t607200268_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSNativeSettings_t547170227_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CLoadedU3Em__0_m3081703351_MethodInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CLoadFailedU3Em__1_m2381908634_MethodInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CAppearedU3Em__2_m2944910948_MethodInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CDismissedU3Em__3_m1887886240_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m804483696_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m870713862_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4175023932_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m2205157096_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var;
+extern const uint32_t IOSStoreProductView__ctor_m515929291_MetadataUsageId;
+extern "C"  void IOSStoreProductView__ctor_m515929291 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView__ctor_m515929291_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Enumerator_t933071039  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	IOSStoreProductView_t607200268 * G_B2_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B1_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B4_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B3_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B6_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B5_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B8_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B7_0 = NULL;
+	{
+		Action_t3226471752 * L_0 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)IOSStoreProductView_U3CLoadedU3Em__0_m3081703351_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, NULL, L_1, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_6(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_t3226471752 * L_3 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		NullCheck(G_B2_0);
+		G_B2_0->set_Loaded_0(L_3);
+		Action_t3226471752 * L_4 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_7();
+		G_B3_0 = __this;
+		if (L_4)
+		{
+			G_B4_0 = __this;
+			goto IL_003c;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)IOSStoreProductView_U3CLoadFailedU3Em__1_m2381908634_MethodInfo_var);
+		Action_t3226471752 * L_6 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_6, NULL, L_5, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_7(L_6);
+		G_B4_0 = G_B3_0;
+	}
+
+IL_003c:
+	{
+		Action_t3226471752 * L_7 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_7();
+		NullCheck(G_B4_0);
+		G_B4_0->set_LoadFailed_1(L_7);
+		Action_t3226471752 * L_8 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_8();
+		G_B5_0 = __this;
+		if (L_8)
+		{
+			G_B6_0 = __this;
+			goto IL_005f;
+		}
+	}
+	{
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)IOSStoreProductView_U3CAppearedU3Em__2_m2944910948_MethodInfo_var);
+		Action_t3226471752 * L_10 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_10, NULL, L_9, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache2_8(L_10);
+		G_B6_0 = G_B5_0;
+	}
+
+IL_005f:
+	{
+		Action_t3226471752 * L_11 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_8();
+		NullCheck(G_B6_0);
+		G_B6_0->set_Appeared_2(L_11);
+		Action_t3226471752 * L_12 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_9();
+		G_B7_0 = __this;
+		if (L_12)
+		{
+			G_B8_0 = __this;
+			goto IL_0082;
+		}
+	}
+	{
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)IOSStoreProductView_U3CDismissedU3Em__3_m1887886240_MethodInfo_var);
+		Action_t3226471752 * L_14 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_14, NULL, L_13, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache3_9(L_14);
+		G_B8_0 = G_B7_0;
+	}
+
+IL_0082:
+	{
+		Action_t3226471752 * L_15 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_9();
+		NullCheck(G_B8_0);
+		G_B8_0->set_Dismissed_3(L_15);
+		List_1_t1398341365 * L_16 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_16, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set__ids_4(L_16);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IOSNativeSettings_t547170227_il2cpp_TypeInfo_var);
+		IOSNativeSettings_t547170227 * L_17 = IOSNativeSettings_get_Instance_m669900754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		List_1_t1398341365 * L_18 = L_17->get_DefaultStoreProductsView_7();
+		NullCheck(L_18);
+		Enumerator_t933071039  L_19 = List_1_GetEnumerator_m804483696(L_18, /*hidden argument*/List_1_GetEnumerator_m804483696_MethodInfo_var);
+		V_1 = L_19;
+	}
+
+IL_00ad:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00c1;
+		}
+
+IL_00b2:
+		{
+			String_t* L_20 = Enumerator_get_Current_m870713862((&V_1), /*hidden argument*/Enumerator_get_Current_m870713862_MethodInfo_var);
+			V_0 = L_20;
+			String_t* L_21 = V_0;
+			IOSStoreProductView_addProductId_m1899443902(__this, L_21, /*hidden argument*/NULL);
+		}
+
+IL_00c1:
+		{
+			bool L_22 = Enumerator_MoveNext_m4175023932((&V_1), /*hidden argument*/Enumerator_MoveNext_m4175023932_MethodInfo_var);
+			if (L_22)
+			{
+				goto IL_00b2;
+			}
+		}
+
+IL_00cd:
+		{
+			IL2CPP_LEAVE(0xE0, FINALLY_00d2);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00d2;
+	}
+
+FINALLY_00d2:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m2205157096((&V_1), /*hidden argument*/Enumerator_Dispose_m2205157096_MethodInfo_var);
+		IL2CPP_END_FINALLY(210)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(210)
+	{
+		IL2CPP_JUMP_TBL(0xE0, IL_00e0)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00e0:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_t644626385 * L_23 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		NullCheck(L_23);
+		IOSInAppPurchaseManager_RegisterProductView_m3355014571(L_23, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::.ctor(System.String[])
+extern Il2CppClass* IOSStoreProductView_t607200268_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CLoadedU3Em__0_m3081703351_MethodInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CLoadFailedU3Em__1_m2381908634_MethodInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CAppearedU3Em__2_m2944910948_MethodInfo_var;
+extern const MethodInfo* IOSStoreProductView_U3CDismissedU3Em__3_m1887886240_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var;
+extern const uint32_t IOSStoreProductView__ctor_m72927807_MetadataUsageId;
+extern "C"  void IOSStoreProductView__ctor_m72927807 (IOSStoreProductView_t607200268 * __this, StringU5BU5D_t1642385972* ___ids0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView__ctor_m72927807_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	IOSStoreProductView_t607200268 * G_B2_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B1_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B4_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B3_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B6_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B5_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B8_0 = NULL;
+	IOSStoreProductView_t607200268 * G_B7_0 = NULL;
+	{
+		Action_t3226471752 * L_0 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)IOSStoreProductView_U3CLoadedU3Em__0_m3081703351_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, NULL, L_1, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_6(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_t3226471752 * L_3 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_6();
+		NullCheck(G_B2_0);
+		G_B2_0->set_Loaded_0(L_3);
+		Action_t3226471752 * L_4 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_7();
+		G_B3_0 = __this;
+		if (L_4)
+		{
+			G_B4_0 = __this;
+			goto IL_003c;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)IOSStoreProductView_U3CLoadFailedU3Em__1_m2381908634_MethodInfo_var);
+		Action_t3226471752 * L_6 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_6, NULL, L_5, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_7(L_6);
+		G_B4_0 = G_B3_0;
+	}
+
+IL_003c:
+	{
+		Action_t3226471752 * L_7 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_7();
+		NullCheck(G_B4_0);
+		G_B4_0->set_LoadFailed_1(L_7);
+		Action_t3226471752 * L_8 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_8();
+		G_B5_0 = __this;
+		if (L_8)
+		{
+			G_B6_0 = __this;
+			goto IL_005f;
+		}
+	}
+	{
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)IOSStoreProductView_U3CAppearedU3Em__2_m2944910948_MethodInfo_var);
+		Action_t3226471752 * L_10 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_10, NULL, L_9, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache2_8(L_10);
+		G_B6_0 = G_B5_0;
+	}
+
+IL_005f:
+	{
+		Action_t3226471752 * L_11 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_8();
+		NullCheck(G_B6_0);
+		G_B6_0->set_Appeared_2(L_11);
+		Action_t3226471752 * L_12 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_9();
+		G_B7_0 = __this;
+		if (L_12)
+		{
+			G_B8_0 = __this;
+			goto IL_0082;
+		}
+	}
+	{
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)IOSStoreProductView_U3CDismissedU3Em__3_m1887886240_MethodInfo_var);
+		Action_t3226471752 * L_14 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_14, NULL, L_13, /*hidden argument*/NULL);
+		((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache3_9(L_14);
+		G_B8_0 = G_B7_0;
+	}
+
+IL_0082:
+	{
+		Action_t3226471752 * L_15 = ((IOSStoreProductView_t607200268_StaticFields*)IOSStoreProductView_t607200268_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache3_9();
+		NullCheck(G_B8_0);
+		G_B8_0->set_Dismissed_3(L_15);
+		List_1_t1398341365 * L_16 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_16, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set__ids_4(L_16);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		StringU5BU5D_t1642385972* L_17 = ___ids0;
+		V_1 = L_17;
+		V_2 = 0;
+		goto IL_00b5;
+	}
+
+IL_00a6:
+	{
+		StringU5BU5D_t1642385972* L_18 = V_1;
+		int32_t L_19 = V_2;
+		NullCheck(L_18);
+		int32_t L_20 = L_19;
+		String_t* L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		V_0 = L_21;
+		String_t* L_22 = V_0;
+		IOSStoreProductView_addProductId_m1899443902(__this, L_22, /*hidden argument*/NULL);
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)((int32_t)L_23+(int32_t)1));
+	}
+
+IL_00b5:
+	{
+		int32_t L_24 = V_2;
+		StringU5BU5D_t1642385972* L_25 = V_1;
+		NullCheck(L_25);
+		if ((((int32_t)L_24) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_25)->max_length)))))))
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_t644626385 * L_26 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		NullCheck(L_26);
+		IOSInAppPurchaseManager_RegisterProductView_m3355014571(L_26, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::add_Loaded(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_add_Loaded_m891075671_MetadataUsageId;
+extern "C"  void IOSStoreProductView_add_Loaded_m891075671 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_add_Loaded_m891075671_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_Loaded_0();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_Loaded_0();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::remove_Loaded(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_remove_Loaded_m3022796630_MetadataUsageId;
+extern "C"  void IOSStoreProductView_remove_Loaded_m3022796630 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_remove_Loaded_m3022796630_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_Loaded_0();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_Loaded_0();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::add_LoadFailed(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_add_LoadFailed_m3966408705_MetadataUsageId;
+extern "C"  void IOSStoreProductView_add_LoadFailed_m3966408705 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_add_LoadFailed_m3966408705_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_LoadFailed_1();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_LoadFailed_1();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::remove_LoadFailed(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_remove_LoadFailed_m494021838_MetadataUsageId;
+extern "C"  void IOSStoreProductView_remove_LoadFailed_m494021838 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_remove_LoadFailed_m494021838_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_LoadFailed_1();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_LoadFailed_1();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::add_Appeared(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_add_Appeared_m3266898906_MetadataUsageId;
+extern "C"  void IOSStoreProductView_add_Appeared_m3266898906 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_add_Appeared_m3266898906_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_Appeared_2();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_Appeared_2();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::remove_Appeared(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_remove_Appeared_m2850651365_MetadataUsageId;
+extern "C"  void IOSStoreProductView_remove_Appeared_m2850651365 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_remove_Appeared_m2850651365_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_Appeared_2();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_Appeared_2();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::add_Dismissed(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_add_Dismissed_m3043607975_MetadataUsageId;
+extern "C"  void IOSStoreProductView_add_Dismissed_m3043607975 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_add_Dismissed_m3043607975_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_Dismissed_3();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_Dismissed_3();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::remove_Dismissed(System.Action)
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const uint32_t IOSStoreProductView_remove_Dismissed_m3525600796_MetadataUsageId;
+extern "C"  void IOSStoreProductView_remove_Dismissed_m3525600796 (IOSStoreProductView_t607200268 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_remove_Dismissed_m3525600796_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_t3226471752 * V_0 = NULL;
+	Action_t3226471752 * V_1 = NULL;
+	{
+		Action_t3226471752 * L_0 = __this->get_Dismissed_3();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_t3226471752 * L_1 = V_0;
+		V_1 = L_1;
+		Action_t3226471752 ** L_2 = __this->get_address_of_Dismissed_3();
+		Action_t3226471752 * L_3 = V_1;
+		Action_t3226471752 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Action_t3226471752 * L_6 = V_0;
+		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_t3226471752 * L_8 = V_0;
+		Action_t3226471752 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _createProductView(int32_t, char*);
+// System.Void IOSStoreProductView::_createProductView(System.Int32,System.String)
+extern "C"  void IOSStoreProductView__createProductView_m1338153561 (Il2CppObject * __this /* static, unused */, int32_t ___viewId0, String_t* ___productsId1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*);
+
+	// Marshaling of parameter '___productsId1' to native representation
+	char* ____productsId1_marshaled = NULL;
+	____productsId1_marshaled = il2cpp_codegen_marshal_string(___productsId1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_createProductView)(___viewId0, ____productsId1_marshaled);
+
+	// Marshaling cleanup of parameter '___productsId1' native representation
+	il2cpp_codegen_marshal_free(____productsId1_marshaled);
+	____productsId1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _showProductView(int32_t);
+// System.Void IOSStoreProductView::_showProductView(System.Int32)
+extern "C"  void IOSStoreProductView__showProductView_m399716588 (Il2CppObject * __this /* static, unused */, int32_t ___viewId0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_showProductView)(___viewId0);
+
+}
+// System.Void IOSStoreProductView::addProductId(System.String)
+extern const MethodInfo* List_1_Contains_m2369280605_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern const uint32_t IOSStoreProductView_addProductId_m1899443902_MetadataUsageId;
+extern "C"  void IOSStoreProductView_addProductId_m1899443902 (IOSStoreProductView_t607200268 * __this, String_t* ___productId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_addProductId_m1899443902_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1398341365 * L_0 = __this->get__ids_4();
+		String_t* L_1 = ___productId0;
+		NullCheck(L_0);
+		bool L_2 = List_1_Contains_m2369280605(L_0, L_1, /*hidden argument*/List_1_Contains_m2369280605_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		List_1_t1398341365 * L_3 = __this->get__ids_4();
+		String_t* L_4 = ___productId0;
+		NullCheck(L_3);
+		List_1_Add_m4061286785(L_3, L_4, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::Load()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m4077476129_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029314;
+extern const uint32_t IOSStoreProductView_Load_m764310273_MetadataUsageId;
+extern "C"  void IOSStoreProductView_Load_m764310273 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSStoreProductView_Load_m764310273_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_0;
+		List_1_t1398341365 * L_1 = __this->get__ids_4();
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m780127360(L_1, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0042;
+	}
+
+IL_0019:
+	{
+		int32_t L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		String_t* L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m2596409543(NULL /*static, unused*/, L_4, _stringLiteral372029314, /*hidden argument*/NULL);
+		V_0 = L_5;
+	}
+
+IL_002b:
+	{
+		String_t* L_6 = V_0;
+		List_1_t1398341365 * L_7 = __this->get__ids_4();
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		String_t* L_9 = List_1_get_Item_m4077476129(L_7, L_8, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, L_6, L_9, /*hidden argument*/NULL);
+		V_0 = L_10;
+		int32_t L_11 = V_2;
+		V_2 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0042:
+	{
+		int32_t L_12 = V_2;
+		int32_t L_13 = V_1;
+		if ((((int32_t)L_12) < ((int32_t)L_13)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_14 = IOSStoreProductView_get_id_m4253295001(__this, /*hidden argument*/NULL);
+		String_t* L_15 = V_0;
+		IOSStoreProductView__createProductView_m1338153561(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::Show()
+extern "C"  void IOSStoreProductView_Show_m52823394 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = IOSStoreProductView_get_id_m4253295001(__this, /*hidden argument*/NULL);
+		IOSStoreProductView__showProductView_m399716588(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 IOSStoreProductView::get_id()
+extern "C"  int32_t IOSStoreProductView_get_id_m4253295001 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__id_5();
+		return L_0;
+	}
+}
+// System.Void IOSStoreProductView::OnProductViewAppeard()
+extern "C"  void IOSStoreProductView_OnProductViewAppeard_m272022207 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	{
+		Action_t3226471752 * L_0 = __this->get_Appeared_2();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::OnProductViewDismissed()
+extern "C"  void IOSStoreProductView_OnProductViewDismissed_m1942633723 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	{
+		Action_t3226471752 * L_0 = __this->get_Dismissed_3();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::OnContentLoaded()
+extern "C"  void IOSStoreProductView_OnContentLoaded_m4032890632 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	{
+		IOSStoreProductView_Show_m52823394(__this, /*hidden argument*/NULL);
+		Action_t3226471752 * L_0 = __this->get_Loaded_0();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::OnContentLoadFailed()
+extern "C"  void IOSStoreProductView_OnContentLoadFailed_m206520168 (IOSStoreProductView_t607200268 * __this, const MethodInfo* method)
+{
+	{
+		Action_t3226471752 * L_0 = __this->get_LoadFailed_1();
+		NullCheck(L_0);
+		Action_Invoke_m3801112262(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::SetId(System.Int32)
+extern "C"  void IOSStoreProductView_SetId_m231812149 (IOSStoreProductView_t607200268 * __this, int32_t ___viewId0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___viewId0;
+		__this->set__id_5(L_0);
+		return;
+	}
+}
+// System.Void IOSStoreProductView::<Loaded>m__0()
+extern "C"  void IOSStoreProductView_U3CLoadedU3Em__0_m3081703351 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::<LoadFailed>m__1()
+extern "C"  void IOSStoreProductView_U3CLoadFailedU3Em__1_m2381908634 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::<Appeared>m__2()
+extern "C"  void IOSStoreProductView_U3CAppearedU3Em__2_m2944910948 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSStoreProductView::<Dismissed>m__3()
+extern "C"  void IOSStoreProductView_U3CDismissedU3Em__3_m1887886240 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IOSStoreResultCode::.ctor()
+extern "C"  void IOSStoreResultCode__ctor_m2127612965 (IOSStoreResultCode_t365779630 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSUIUserNotificationType::.ctor()
+extern "C"  void IOSUIUserNotificationType__ctor_m3747601394 (IOSUIUserNotificationType_t1946295863 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSVideoManager::.ctor()
+extern Il2CppClass* ISN_Singleton_1_t1944249497_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1__ctor_m4086365031_MethodInfo_var;
+extern const uint32_t IOSVideoManager__ctor_m1151283498_MetadataUsageId;
+extern "C"  void IOSVideoManager__ctor_m1151283498 (IOSVideoManager_t3003649481 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSVideoManager__ctor_m1151283498_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t1944249497_il2cpp_TypeInfo_var);
+		ISN_Singleton_1__ctor_m4086365031(__this, /*hidden argument*/ISN_Singleton_1__ctor_m4086365031_MethodInfo_var);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL _ISN_StreamVideo(char*);
+// System.Void IOSVideoManager::_ISN_StreamVideo(System.String)
+extern "C"  void IOSVideoManager__ISN_StreamVideo_m2871638367 (Il2CppObject * __this /* static, unused */, String_t* ___videoUrl0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___videoUrl0' to native representation
+	char* ____videoUrl0_marshaled = NULL;
+	____videoUrl0_marshaled = il2cpp_codegen_marshal_string(___videoUrl0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_StreamVideo)(____videoUrl0_marshaled);
+
+	// Marshaling cleanup of parameter '___videoUrl0' native representation
+	il2cpp_codegen_marshal_free(____videoUrl0_marshaled);
+	____videoUrl0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL _ISN_OpenYouTubeVideo(char*);
+// System.Void IOSVideoManager::_ISN_OpenYouTubeVideo(System.String)
+extern "C"  void IOSVideoManager__ISN_OpenYouTubeVideo_m1276274038 (Il2CppObject * __this /* static, unused */, String_t* ___videoUrl0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___videoUrl0' to native representation
+	char* ____videoUrl0_marshaled = NULL;
+	____videoUrl0_marshaled = il2cpp_codegen_marshal_string(___videoUrl0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(_ISN_OpenYouTubeVideo)(____videoUrl0_marshaled);
+
+	// Marshaling cleanup of parameter '___videoUrl0' native representation
+	il2cpp_codegen_marshal_free(____videoUrl0_marshaled);
+	____videoUrl0_marshaled = NULL;
+
+}
+// System.Void IOSVideoManager::PlayStreamingVideo(System.String)
+extern "C"  void IOSVideoManager_PlayStreamingVideo_m781283695 (IOSVideoManager_t3003649481 * __this, String_t* ___videoUrl0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___videoUrl0;
+		IOSVideoManager__ISN_StreamVideo_m2871638367(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IOSVideoManager::OpenYouTubeVideo(System.String)
+extern "C"  void IOSVideoManager_OpenYouTubeVideo_m4254920178 (IOSVideoManager_t3003649481 * __this, String_t* ___videoUrl0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___videoUrl0;
+		IOSVideoManager__ISN_OpenYouTubeVideo_m1276274038(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IPCHOSEN::.ctor()
+extern "C"  void IPCHOSEN__ctor_m2418547890 (IPCHOSEN_t4233482351 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void IPCHOSEN::Start()
+extern "C"  void IPCHOSEN_Start_m3248075950 (IPCHOSEN_t4233482351 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IPCHOSEN::Update()
+extern "C"  void IPCHOSEN_Update_m3811258971 (IPCHOSEN_t4233482351 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void IPCHOSEN::choseIP()
+extern Il2CppClass* IPCHOSEN_t4233482351_il2cpp_TypeInfo_var;
+extern const uint32_t IPCHOSEN_choseIP_m2774049097_MetadataUsageId;
+extern "C"  void IPCHOSEN_choseIP_m2774049097 (IPCHOSEN_t4233482351 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IPCHOSEN_choseIP_m2774049097_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		InputField_t1631627530 * L_0 = __this->get_iptext_5();
+		NullCheck(L_0);
+		String_t* L_1 = InputField_get_text_m409351770(L_0, /*hidden argument*/NULL);
+		((IPCHOSEN_t4233482351_StaticFields*)IPCHOSEN_t4233482351_il2cpp_TypeInfo_var->static_fields)->set_IP_2(L_1);
+		InputField_t1631627530 * L_2 = __this->get_opetext_6();
+		NullCheck(L_2);
+		String_t* L_3 = InputField_get_text_m409351770(L_2, /*hidden argument*/NULL);
+		((IPCHOSEN_t4233482351_StaticFields*)IPCHOSEN_t4233482351_il2cpp_TypeInfo_var->static_fields)->set_OPE_3(L_3);
+		InputField_t1631627530 * L_4 = __this->get_gameIdText_7();
+		NullCheck(L_4);
+		String_t* L_5 = InputField_get_text_m409351770(L_4, /*hidden argument*/NULL);
+		((IPCHOSEN_t4233482351_StaticFields*)IPCHOSEN_t4233482351_il2cpp_TypeInfo_var->static_fields)->set_GAMEID_4(L_5);
+		String_t* L_6 = ((IPCHOSEN_t4233482351_StaticFields*)IPCHOSEN_t4233482351_il2cpp_TypeInfo_var->static_fields)->get_IP_2();
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		String_t* L_7 = ((IPCHOSEN_t4233482351_StaticFields*)IPCHOSEN_t4233482351_il2cpp_TypeInfo_var->static_fields)->get_OPE_3();
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		String_t* L_8 = ((IPCHOSEN_t4233482351_StaticFields*)IPCHOSEN_t4233482351_il2cpp_TypeInfo_var->static_fields)->get_GAMEID_4();
+		Debug_Log_m3849937430(NULL /*static, unused*/, L_8, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
