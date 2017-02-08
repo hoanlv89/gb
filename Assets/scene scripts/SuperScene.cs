@@ -35,6 +35,7 @@ public class SuperScene : MonoBehaviour
 	public DebugPanel debugPanel = null;
 	private const bool allowCarrierDataNetwork = true;
 	private bool showLostInternetConnection = false;
+	BannerScene bannerScene = null;
 	// connection var
 	private const string pingAddress = "8.8.8.8"; // Google Public DNS server
 	private const float waitingTime = 35.0f;
@@ -468,6 +469,11 @@ public class SuperScene : MonoBehaviour
 		waittingDialog = Instantiate (PFWaittingDialog).GetComponent<WaitingDialog> ();
 		waittingDialog.transform.SetParent (mainCanvas.transform, false);
 
+		RectTransform PFBannerView = Resources.Load ("prefabs/bannerView", typeof(RectTransform)) as RectTransform;
+		GameObject btt_stake = Instantiate (PFBannerView.gameObject);
+		btt_stake.transform.SetParent (mainCanvas.transform, false);
+		bannerScene = btt_stake.GetComponent<BannerScene> ();
+
 		// TODO: dua debub log vao gay lag rat lon
 //		RectTransform PFDebugPanel = Resources.Load ("prefabs/DebugPanel", typeof(RectTransform)) as RectTransform;
 //		debugPanel = Instantiate (PFDebugPanel).GetComponent<DebugPanel> ();
@@ -477,6 +483,7 @@ public class SuperScene : MonoBehaviour
 		waittingDialog.gameObject.SetActive (false);
 		toastInstance.gameObject.SetActive (false);
 		dialogInstance.gameObject.SetActive (false);
+		bannerScene.gameObject.SetActive (false);
 
 		GameObject go = GameObject.Find ("NotificationBar");
 		if (go != null)
@@ -1118,46 +1125,7 @@ public class SuperScene : MonoBehaviour
 	{
 		showInfoDialog ("onResume");
 	}
-
-	public void connectSocketIO(){
-		SocketOptions options = new SocketOptions();
-		options.AutoConnect = false; //http://192.168.1.40:3000/socket.io/
-		int indexOf = GameApplication.urlTrackingEvent.LastIndexOf("/");
-		string nameSpace = GameApplication.urlTrackingEvent.Substring (indexOf);
-//		Debug.LogError ("NAMESPACE ====>>> " + nameSpace);
-		string url = GameApplication.urlTrackingEvent.Insert (indexOf+1, "socket.io/");
-//		Debug.LogError ("URL ====>>> " + url);
-
-		GameApplication.Manager = new SocketManager(new Uri(url)); //http://socket.dstmon.space/socket.io/client52/
-		GameApplication.socketIO = GameApplication.Manager.GetSocket (nameSpace);
-		GameApplication.socketIO.On("connect", onConnectedIO);
-		GameApplication.socketIO.On("disconnect", onDisconnectedIO);
-		GameApplication.socketIO.On("error", onErrorIO);
-		GameApplication.socketIO.On("event", onEventIO);
-		GameApplication.socketIO.On(SocketIOEventTypes.Error, (socket, packet, args) => Debug.LogError(string.Format("Error: {0}", args[0].ToString())));
-		GameApplication.Manager.Open();
-	}
-
-	public void onConnectedIO(Socket socket, Packet packet, params object[] args){
-		Debug.LogError ("IO  ==> CONNETED");
-		GameApplication.checkConnectSocketIO = true;
-		Tracking.regInfo ();
-	}
-
-	public void onDisconnectedIO(Socket socket, Packet packet, params object[] args){
-		Debug.LogError ("IO  ==> DISCONNETED");
-		GameApplication.checkConnectSocketIO = false;
-	}
-
-	public void onEventIO(Socket socket, Packet packet, params object[] args){
-		Debug.LogError ("IO  ==> EVENT");
-	}
-
-	public void onErrorIO(Socket socket, Packet packet, params object[] args){
-		Debug.LogError ("IO  ==> ERROR");
-		GameApplication.checkConnectSocketIO = false;
-	}
-
+		
 	public void checkUserInFBGroup ()
 	{
 		/* make the API call */
@@ -1278,5 +1246,122 @@ public class SuperScene : MonoBehaviour
 //				});
 //			}
 		}
+	}
+
+	public void showBanner(int i){
+//		string dialogPFpath = "prefabs/bannerView";
+//		RectTransform bt_stake = Resources.Load (dialogPFpath, typeof(RectTransform)) as RectTransform;
+//		GameObject btt_stake = Instantiate (bt_stake.gameObject);
+//		btt_stake.transform.SetParent (mainCanvas.transform.Find("Center"));
+//		btt_stake.transform.localScale = new Vector3 (0.54f, 0.54f,1.0f);
+//		BannerScene bt_stake1 = btt_stake.GetComponent<BannerScene> ();
+		bannerScene.gameObject.SetActive(true);
+	}
+
+	public void connectSocketIO(){
+		SocketOptions options = new SocketOptions();
+		options.AutoConnect = false; //http://192.168.1.40:3000/socket.io/
+		int indexOf = GameApplication.urlTrackingEvent.LastIndexOf("/");
+		string nameSpace = GameApplication.urlTrackingEvent.Substring (indexOf);
+		//		Debug.LogError ("NAMESPACE ====>>> " + nameSpace);
+		string url = GameApplication.urlTrackingEvent.Insert (indexOf+1, "socket.io/");
+		//		Debug.LogError ("URL ====>>> " + url);
+
+		GameApplication.Manager = new SocketManager(new Uri(url)); //http://socket.dstmon.space/socket.io/client52/
+		GameApplication.socketIO = GameApplication.Manager.GetSocket (nameSpace);
+		GameApplication.socketIO.On("connect", onConnectedIO);
+		GameApplication.socketIO.On("disconnect", onDisconnectedIO);
+		GameApplication.socketIO.On("error", onErrorIO);
+		GameApplication.socketIO.On("event", onEventIO);
+		GameApplication.socketIO.On(SocketIOEventTypes.Error, (socket, packet, args) => Debug.LogError(string.Format("Error: {0}", args[0].ToString())));
+		GameApplication.Manager.Open();
+	}
+
+	public void onConnectedIO(Socket socket, Packet packet, params object[] args){
+		Debug.Log ("IO  ==> CONNETED");
+		GameApplication.checkConnectSocketIO = true;
+		Tracking.regInfo ();
+	}
+
+	public void onDisconnectedIO(Socket socket, Packet packet, params object[] args){
+		Debug.Log ("IO  ==> DISCONNETED");
+		GameApplication.checkConnectSocketIO = false;
+	}
+
+	public void onEventIO(Socket socket, Packet packet, params object[] args){
+		//		packet.Parse (packet.Encode ());
+		Debug.Log(packet.Payload);
+		return;
+		var serviceData = JSONNode.Parse (packet.RemoveEventName(true));
+		string evt = serviceData ["event"];
+		if (String.IsNullOrEmpty (evt)) {
+			return;
+		}
+		if (evt.Equals ("news")) {
+//			return;
+			GameApplication.bannerData.Clear ();
+			//			bannerScene.gameObject.SetActive (true);
+			//			if (String.IsNullOrEmpty (serviceData ["data"])) {
+			//				return;
+			//			}
+			JSONArray jarr = serviceData ["data"].AsArray;
+			Debug.LogError ("Co vao day k00 ===> " + jarr.Count);
+
+			for (int i = 0; i < jarr.Count; i++) {
+				BannerData bannerData1 = new BannerData ();
+				var data = jarr [i];
+				int type = data ["type"].AsInt;
+				if (type == 10 || type == 5)
+					return;
+				string desc = data ["title"];
+				string url = data ["url"];
+				string idPack = data ["_id"];
+				bool allowClose = data ["allowClose"].AsBool;
+				JSONArray jarrPos = data ["data"].AsArray;
+				Vector2 pos = new Vector2 (jarr [0].AsInt, jarr [1].AsInt);
+				bannerData1.type = type;
+				bannerData1.desc = desc;
+				bannerData1.url = url;
+				bannerData1.idPack = idPack;
+				bannerData1.allowClose = allowClose;
+				bannerData1.posClose = pos;
+
+				JSONArray jarrButton = data ["arrButton"].AsArray;
+
+				for (int j = 0; j < jarrButton.Count; j++) {
+					BannerItem item = new BannerItem();
+					item.cost = data["arrButton"][j]["cost"];
+					item.type = data["arrButton"][j]["type"];
+					item.value = data["arrButton"][j]["value"];
+					item.bonus = data["arrButton"][j]["bonus"];
+					item.comment = data["arrButton"][j]["comment"];
+					item.ctype = data["arrButton"][j]["ctype"].AsInt;
+					item.syntax = data["arrButton"][j]["syntax"];
+					item.addd = data["arrButton"][j]["add"];
+					item.btn = data["arrButton"][j]["btn"];
+					JSONArray jarrPosButton = data["arrButton"][j]["pos"].AsArray;
+					item.pos.x = jarrPosButton [0].AsFloat;
+					item.pos.y = jarrPosButton [1].AsFloat;
+					item.urllink = data["arrButton"][j]["urllink"];
+					item.btype = data["arrButton"][j]["btype"].AsInt;
+					item.bstyle = data["arrButton"][j]["bstyle"].AsInt;
+					item.showTextButton = data["arrButton"][j]["showTextButton"].AsBool;
+					bannerData1.arrValue_type20.Add (item);
+				}
+				Debug.LogError ("Co vao day k11 ===> ");
+				GameApplication.bannerData.Add (bannerData1);
+				Debug.LogError ("Co vao day k22 ===> ");
+			}
+			Debug.LogError ("Co vao day k ===> ");
+			if (GameApplication.bannerData.Count > 0) {
+				Debug.LogError ("Co vao day k");
+				SuperScene.instance.showBanner (0);
+			}
+		}
+	}
+
+	public void onErrorIO(Socket socket, Packet packet, params object[] args){
+		Debug.LogError ("IO  ==> ERROR");
+		GameApplication.checkConnectSocketIO = false;
 	}
 }

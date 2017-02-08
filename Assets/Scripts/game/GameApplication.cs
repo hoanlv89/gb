@@ -226,6 +226,7 @@ public class GameApplication : MonoBehaviour
 
 	public static List<int> stakeList = new List<int>();
 	public static List<int> ccusList = new List<int>();
+	public static List<BannerData> bannerData = new List<BannerData>();
 
 	public static string admin_account {
 		get {
