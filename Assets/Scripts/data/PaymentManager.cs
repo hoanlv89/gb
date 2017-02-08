@@ -29,9 +29,11 @@ public class PaymentManager
 			//You do not have to add products by code if you already did it in seetings guid
 			//Windows -> IOS Native -> Edit Settings
 			//Billing tab.
-			for(int i = 0; i<iap_items.Count; i++){
-				IOSInAppPurchaseManager.Instance.addProductId(iap_items[i]);
-			}
+
+//			for(int i = 0; i<iap_items.Count; i++){
+//				Debug.Log ("loadStore "+ iap_items[i]);
+//				IOSInAppPurchaseManager.Instance.addProductId(iap_items[i]);
+//			}
 
 			//Event Use Examples
 			IOSInAppPurchaseManager.OnVerificationComplete += HandleOnVerificationComplete;

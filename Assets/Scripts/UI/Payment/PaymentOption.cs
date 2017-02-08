@@ -32,6 +32,7 @@ public class PaymentOption : MonoBehaviour {
 		string type = itemFormat ["type"];
 		if (type.Equals("IAP")) {
 			paymentItemListView.setContent (jsondata, itemFormat, selectedProviderName);
+
 		} else {
 			activeProvider (providerindex);
 		}
@@ -48,11 +49,21 @@ public class PaymentOption : MonoBehaviour {
 		this.jsondata = jsondata;
 
 		this.type = itemFormat ["type"];
+
+		// test
+//		IOSInAppPurchaseManager.Instance.addProductId(jsondata[i]["itemid"]);
+		if (type.Equals (PaymentScene.IAP)) {
+			for (int i = 0; i < jsondata.Count; i++) {
+				IOSInAppPurchaseManager.Instance.addProductId(jsondata[i]["itemid"]);
+			}
+
+			IOSInAppPurchaseManager.instance.RequestInAppSettingState();
+		}
 	}
 
 	public void activeProvider(int providerindex){
 		string type = itemFormat ["type"];
-		if (!type.Equals ("IAP")) {
+		if (!type.Equals (PaymentScene.IAP)) {
 			// IAP ko bao h thay doi content View
 			selectedProviderName = jsondata [providerindex] ["op"];
 			paymentItemListView.setContent (jsondata [providerindex] ["items"].AsArray, itemFormat, selectedProviderName);

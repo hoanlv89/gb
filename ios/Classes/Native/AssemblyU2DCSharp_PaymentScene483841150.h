@@ -28,8 +28,6 @@ struct GameObject_t1756533147;
 struct InputField_t1631627530;
 // PaymentOption[]
 struct PaymentOptionU5BU5D_t603911586;
-// Utils/ExeOneSpriteParam
-struct ExeOneSpriteParam_t3418620788;
 // Utils/Executor
 struct Executor_t2576254565;
 
@@ -239,10 +237,8 @@ struct PaymentScene_t483841150_StaticFields
 public:
 	// System.String PaymentScene::rawData
 	String_t* ___rawData_29;
-	// Utils/ExeOneSpriteParam PaymentScene::<>f__am$cache0
-	ExeOneSpriteParam_t3418620788 * ___U3CU3Ef__amU24cache0_50;
-	// Utils/Executor PaymentScene::<>f__am$cache1
-	Executor_t2576254565 * ___U3CU3Ef__amU24cache1_51;
+	// Utils/Executor PaymentScene::<>f__am$cache0
+	Executor_t2576254565 * ___U3CU3Ef__amU24cache0_50;
 
 public:
 	inline static int32_t get_offset_of_rawData_29() { return static_cast<int32_t>(offsetof(PaymentScene_t483841150_StaticFields, ___rawData_29)); }
@@ -255,21 +251,12 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Ef__amU24cache0_50() { return static_cast<int32_t>(offsetof(PaymentScene_t483841150_StaticFields, ___U3CU3Ef__amU24cache0_50)); }
-	inline ExeOneSpriteParam_t3418620788 * get_U3CU3Ef__amU24cache0_50() const { return ___U3CU3Ef__amU24cache0_50; }
-	inline ExeOneSpriteParam_t3418620788 ** get_address_of_U3CU3Ef__amU24cache0_50() { return &___U3CU3Ef__amU24cache0_50; }
-	inline void set_U3CU3Ef__amU24cache0_50(ExeOneSpriteParam_t3418620788 * value)
+	inline Executor_t2576254565 * get_U3CU3Ef__amU24cache0_50() const { return ___U3CU3Ef__amU24cache0_50; }
+	inline Executor_t2576254565 ** get_address_of_U3CU3Ef__amU24cache0_50() { return &___U3CU3Ef__amU24cache0_50; }
+	inline void set_U3CU3Ef__amU24cache0_50(Executor_t2576254565 * value)
 	{
 		___U3CU3Ef__amU24cache0_50 = value;
 		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache0_50, value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3Ef__amU24cache1_51() { return static_cast<int32_t>(offsetof(PaymentScene_t483841150_StaticFields, ___U3CU3Ef__amU24cache1_51)); }
-	inline Executor_t2576254565 * get_U3CU3Ef__amU24cache1_51() const { return ___U3CU3Ef__amU24cache1_51; }
-	inline Executor_t2576254565 ** get_address_of_U3CU3Ef__amU24cache1_51() { return &___U3CU3Ef__amU24cache1_51; }
-	inline void set_U3CU3Ef__amU24cache1_51(Executor_t2576254565 * value)
-	{
-		___U3CU3Ef__amU24cache1_51 = value;
-		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__amU24cache1_51, value);
 	}
 };
 

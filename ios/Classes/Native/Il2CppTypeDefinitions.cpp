@@ -30555,12 +30555,6 @@ extern const Il2CppType PaymentOption_t3724463155_0_0_0;
 extern const Il2CppType PaymentOptionU5BU5D_t603911586_0_0_1 = { (void*)&PaymentOption_t3724463155_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const Il2CppType PaymentOptionU5BU5D_t603911586_0_0_0 = { (void*)&PaymentOption_t3724463155_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_17 = { (void*)3923, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_0 = { (void*)3923, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType ExeOneSpriteParam_t3418620788_1_0_0 = { (void*)3923, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_4112 = { (void*)3923, 4112, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_3 = { (void*)3923, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-
 extern const Il2CppType U3CdoPaymentCardU3Ec__AnonStorey0_t3927620713_0_0_0 = { (void*)3669, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType U3CdoPaymentCardU3Ec__AnonStorey0_t3927620713_1_0_0 = { (void*)3669, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
@@ -31485,6 +31479,12 @@ extern const Il2CppType ExeOneStringParam_t2750684624_0_0_0 = { (void*)3922, 0, 
 extern const Il2CppType ExeOneStringParam_t2750684624_1_0_0 = { (void*)3922, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const Il2CppType ExeOneStringParam_t2750684624_0_0_17 = { (void*)3922, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType ExeOneStringParam_t2750684624_0_0_3 = { (void*)3922, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_0 = { (void*)3923, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType ExeOneSpriteParam_t3418620788_1_0_0 = { (void*)3923, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_4112 = { (void*)3923, 4112, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_3 = { (void*)3923, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType ExeOneSpriteParam_t3418620788_0_0_17 = { (void*)3923, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const Il2CppType U3Ccr_runDelayedU3Ec__Iterator0_t3452346606_0_0_0 = { (void*)3924, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType U3Ccr_runDelayedU3Ec__Iterator0_t3452346606_1_0_0 = { (void*)3924, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -48719,7 +48719,6 @@ extern const Il2CppType* const  g_Il2CppTypeTable[17735] =
 	&PaymentItemListView_t3650854580_0_0_6,
 	&PaymentOptionU5BU5D_t603911586_0_0_1,
 	&PaymentOption_t3724463155_0_0_1,
-	&ExeOneSpriteParam_t3418620788_0_0_17,
 	&Executor_t2576254565_0_0_17,
 	&U3CdoPaymentCardU3Ec__AnonStorey0_t3927620713_0_0_0,
 	&U3CdoPaymentCardU3Ec__AnonStorey0_t3927620713_1_0_0,
@@ -49833,6 +49832,7 @@ extern const Il2CppType* const  g_Il2CppTypeTable[17735] =
 	&GameListControl_t2306893813_0_0_6,
 	&FBFriends_t3398107007_0_0_6,
 	&RuntimeAnimatorController_t670468573_0_0_6,
+	&ExeOneSpriteParam_t3418620788_0_0_17,
 	&U3CgetRequestDataU3Ec__AnonStorey0_t3181833180_0_0_0,
 	&U3CgetRequestDataU3Ec__AnonStorey0_t3181833180_1_0_0,
 	&U3CloginToGameU3Ec__AnonStorey1_t892008602_0_0_0,
