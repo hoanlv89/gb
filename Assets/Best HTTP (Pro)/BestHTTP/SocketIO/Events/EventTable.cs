@@ -102,8 +102,9 @@ namespace BestHTTP.SocketIO.Events
                 args = packet.Decode(Socket.Manager.Encoder);
 
             // call event callbacks registered for 'eventName'
-            if (!string.IsNullOrEmpty(eventName))
-                Call(eventName, packet, args);
+			// comment thang nay vi dang bi lap
+//            if (!string.IsNullOrEmpty(eventName))
+//                Call(eventName, packet, args);
 
             if (!packet.IsDecoded && ShouldDecodePayload(typeName))
                 args = packet.Decode(Socket.Manager.Encoder);

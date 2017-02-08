@@ -769,7 +769,7 @@ public class SuperScene : MonoBehaviour
 				result = Utils.base64_decode(result);
 
 			Debug.Log ("result: " + result);
-
+			previousScene = Application.loadedLevelName;
 			PaymentScene.rawData = result;
 			LevelManager.Load (GameApplication.PAYMENTSCENE);
 			Tracking.changeScene("PAYMENT",true);
@@ -1252,6 +1252,7 @@ public class SuperScene : MonoBehaviour
 //		btt_stake.transform.localScale = new Vector3 (0.54f, 0.54f,1.0f);
 //		BannerScene bt_stake1 = btt_stake.GetComponent<BannerScene> ();
 		bannerScene.gameObject.SetActive(true);
+		bannerScene.showBanner (i);
 	}
 
 	public void connectSocketIO(){
@@ -1285,25 +1286,17 @@ public class SuperScene : MonoBehaviour
 	}
 
 	public void onEventIO(Socket socket, Packet packet, params object[] args){
-		//		packet.Parse (packet.Encode ());
-		Debug.Log(packet.Payload);
-		return;
+		Debug.Log("EVENT ======> " + packet.RemoveEventName(true));
 		var serviceData = JSONNode.Parse (packet.RemoveEventName(true));
 		string evt = serviceData ["event"];
 		if (String.IsNullOrEmpty (evt)) {
 			return;
 		}
 		if (evt.Equals ("news")) {
-//			return;
 			GameApplication.bannerData.Clear ();
-			//			bannerScene.gameObject.SetActive (true);
-			//			if (String.IsNullOrEmpty (serviceData ["data"])) {
-			//				return;
-			//			}
 			JSONArray jarr = serviceData ["data"].AsArray;
-			Debug.LogError ("Co vao day k00 ===> " + jarr.Count);
-
-			for (int i = 0; i < jarr.Count; i++) {
+			int size = jarr.Count;
+			for (int i = 0; i < size; i++) {
 				BannerData bannerData1 = new BannerData ();
 				var data = jarr [i];
 				int type = data ["type"].AsInt;
@@ -1341,16 +1334,15 @@ public class SuperScene : MonoBehaviour
 					item.urllink = data["arrButton"][j]["urllink"];
 					item.btype = data["arrButton"][j]["btype"].AsInt;
 					item.bstyle = data["arrButton"][j]["bstyle"].AsInt;
-					item.showTextButton = data["arrButton"][j]["showTextButton"].AsBool;
+					Debug.LogError ("BEFOR  =====>  " + item.showTextButton);
+					if(data["arrButton"][j]["showTextButton"].Count>0)
+						item.showTextButton = data["arrButton"][j]["showTextButton"].AsBool;
+					Debug.LogError ("AFTER  =====>  " + item.showTextButton);
 					bannerData1.arrValue_type20.Add (item);
 				}
-				Debug.LogError ("Co vao day k11 ===> ");
 				GameApplication.bannerData.Add (bannerData1);
-				Debug.LogError ("Co vao day k22 ===> ");
 			}
-			Debug.LogError ("Co vao day k ===> ");
 			if (GameApplication.bannerData.Count > 0) {
-				Debug.LogError ("Co vao day k");
 				SuperScene.instance.showBanner (0);
 			}
 		}

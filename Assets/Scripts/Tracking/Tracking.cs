@@ -12,7 +12,12 @@ public class Tracking
 		data ["app_version"] = GameApplication.versionname;
 		data ["operator"].AsInt = GameApplication.operatorID;
 		data ["did"] = GameApplication.getUniqueIdentifier();
-		data ["provider"] = "unknown";
+		#if UNITY_EDITOR
+			data ["provider"] = "unknow";
+		#else
+			data ["provider"] = Countly.Bindings.GetCarrierName();	
+		#endif
+
 		data ["device_OS"] = GameApplication.getOSDevice;
 		data ["device_OS_version"] = "frl";
 		if (GameApplication.user.name != null) {
@@ -43,7 +48,11 @@ public class Tracking
 			data ["vip"].AsInt = GameApplication.user.vip;
 			data ["lq"].AsInt = GameApplication.user.lq;
 			data ["dm"].AsInt = GameApplication.user.dm;
-			data ["provider"] = "unknown";
+			#if UNITY_EDITOR
+				data ["provider"] = "unknow";
+			#else
+				data ["provider"] = Countly.Bindings.GetCarrierName();	
+			#endif
 			data ["operator"].AsInt = GameApplication.operatorID;
 			if(sceneName.Equals(GameApplication.LOGINSCENE) && !isTabsScene)
 				sceneName = "LOGIN_VIEW";
