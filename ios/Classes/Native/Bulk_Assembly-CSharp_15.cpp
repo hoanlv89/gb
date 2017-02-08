@@ -1023,14 +1023,12 @@ struct JSONNode_t1250409636;
 #include "AssemblyU2DCSharp_SDialog1510781833MethodDeclarations.h"
 #include "AssemblyU2DCSharp_PaymentItemView1095659196MethodDeclarations.h"
 #include "AssemblyU2DCSharp_PaymentManager2844975479.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen1398341365MethodDeclarations.h"
 #include "mscorlib_System_Action_1_gen4065457964MethodDeclarations.h"
 #include "mscorlib_System_Action_1_gen2577430992MethodDeclarations.h"
 #include "mscorlib_System_Action_1_gen2161206965MethodDeclarations.h"
 #include "mscorlib_System_Action_1_gen3107075537MethodDeclarations.h"
 #include "AssemblyU2DCSharp_STabsScene3083040787MethodDeclarations.h"
 #include "AssemblyU2DCSharp_STabsScene3083040787.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
 #include "mscorlib_System_Action_1_gen4065457964.h"
 #include "AssemblyU2DCSharp_IOSStoreKitVerificationResponse4263658582.h"
 #include "mscorlib_System_Action_1_gen2577430992.h"
@@ -1044,6 +1042,8 @@ struct JSONNode_t1250409636;
 #include "AssemblyU2DCSharp_ISN_Error553253557MethodDeclarations.h"
 #include "AssemblyU2DCSharp_InAppPurchaseState3414001346.h"
 #include "AssemblyU2DCSharp_ISN_Error553253557.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
 #include "AssemblyU2DCSharp_PaymentManagerExample3283960187.h"
 #include "AssemblyU2DCSharp_PaymentManagerExample3283960187MethodDeclarations.h"
 #include "AssemblyU2DCSharp_PaymentOption3724463155.h"
@@ -47408,18 +47408,15 @@ extern "C"  void PaymentManager__ctor_m162205204 (PaymentManager_t2844975479 * _
 }
 // System.Void PaymentManager::init()
 extern Il2CppClass* PaymentManager_t2844975479_il2cpp_TypeInfo_var;
-extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
 extern Il2CppClass* Action_1_t4065457964_il2cpp_TypeInfo_var;
 extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
 extern Il2CppClass* Action_1_t2577430992_il2cpp_TypeInfo_var;
 extern Il2CppClass* Action_1_t2161206965_il2cpp_TypeInfo_var;
 extern Il2CppClass* Action_1_t3107075537_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
 extern Il2CppClass* SuperScene_t3760801569_il2cpp_TypeInfo_var;
 extern Il2CppClass* Strings_t183934206_il2cpp_TypeInfo_var;
 extern Il2CppClass* STabsScene_t3083040787_il2cpp_TypeInfo_var;
-extern const MethodInfo* ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var;
-extern const MethodInfo* List_1_get_Item_m4077476129_MethodInfo_var;
-extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
 extern const MethodInfo* PaymentManager_HandleOnVerificationComplete_m2687357627_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m1676337983_MethodInfo_var;
 extern const MethodInfo* PaymentManager_OnStoreKitInitComplete_m1732614715_MethodInfo_var;
@@ -47428,6 +47425,7 @@ extern const MethodInfo* PaymentManager_OnTransactionComplete_m2552910675_Method
 extern const MethodInfo* Action_1__ctor_m2264613190_MethodInfo_var;
 extern const MethodInfo* PaymentManager_OnRestoreComplete_m3417992639_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m2967929040_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var;
 extern const uint32_t PaymentManager_init_m2596048804_MetadataUsageId;
 extern "C"  void PaymentManager_init_m2596048804 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
 {
@@ -47437,176 +47435,143 @@ extern "C"  void PaymentManager_init_m2596048804 (Il2CppObject * __this /* stati
 		il2cpp_codegen_initialize_method (PaymentManager_init_m2596048804_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	STabsScene_t3083040787 * V_1 = NULL;
+	STabsScene_t3083040787 * V_0 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
 		bool L_0 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_IsInitialized_13();
 		if (L_0)
 		{
-			goto IL_00eb;
+			goto IL_00bb;
 		}
 	}
 	{
-		V_0 = 0;
-		goto IL_002a;
-	}
-
-IL_0011:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_t644626385 * L_1 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		List_1_t1398341365 * L_2 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_iap_items_12();
-		int32_t L_3 = V_0;
-		NullCheck(L_2);
-		String_t* L_4 = List_1_get_Item_m4077476129(L_2, L_3, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
-		NullCheck(L_1);
-		IOSInAppPurchaseManager_addProductId_m3734468261(L_1, L_4, /*hidden argument*/NULL);
-		int32_t L_5 = V_0;
-		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
-	}
-
-IL_002a:
-	{
-		int32_t L_6 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		List_1_t1398341365 * L_7 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_iap_items_12();
-		NullCheck(L_7);
-		int32_t L_8 = List_1_get_Count_m780127360(L_7, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
-		if ((((int32_t)L_6) < ((int32_t)L_8)))
+		Action_1_t4065457964 * L_1 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_14();
+		if (L_1)
 		{
-			goto IL_0011;
+			goto IL_0022;
 		}
 	}
 	{
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)PaymentManager_HandleOnVerificationComplete_m2687357627_MethodInfo_var);
+		Action_1_t4065457964 * L_3 = (Action_1_t4065457964 *)il2cpp_codegen_object_new(Action_1_t4065457964_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1676337983(L_3, NULL, L_2, /*hidden argument*/Action_1__ctor_m1676337983_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		Action_1_t4065457964 * L_9 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_14();
+		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache0_14(L_3);
+	}
+
+IL_0022:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
+		Action_1_t4065457964 * L_4 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_14();
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_add_OnVerificationComplete_m1779016707(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Action_1_t2577430992 * L_5 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache1_15();
+		if (L_5)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)PaymentManager_OnStoreKitInitComplete_m1732614715_MethodInfo_var);
+		Action_1_t2577430992 * L_7 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1403073535(L_7, NULL, L_6, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
+		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache1_15(L_7);
+	}
+
+IL_0044:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
+		Action_1_t2577430992 * L_8 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache1_15();
+		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_add_OnStoreKitInitComplete_m434975573(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		Action_1_t2161206965 * L_9 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache2_16();
 		if (L_9)
 		{
-			goto IL_0052;
+			goto IL_0066;
 		}
 	}
 	{
 		IntPtr_t L_10;
-		L_10.set_m_value_0((void*)(void*)PaymentManager_HandleOnVerificationComplete_m2687357627_MethodInfo_var);
-		Action_1_t4065457964 * L_11 = (Action_1_t4065457964 *)il2cpp_codegen_object_new(Action_1_t4065457964_il2cpp_TypeInfo_var);
-		Action_1__ctor_m1676337983(L_11, NULL, L_10, /*hidden argument*/Action_1__ctor_m1676337983_MethodInfo_var);
+		L_10.set_m_value_0((void*)(void*)PaymentManager_OnTransactionComplete_m2552910675_MethodInfo_var);
+		Action_1_t2161206965 * L_11 = (Action_1_t2161206965 *)il2cpp_codegen_object_new(Action_1_t2161206965_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2264613190(L_11, NULL, L_10, /*hidden argument*/Action_1__ctor_m2264613190_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache0_14(L_11);
+		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache2_16(L_11);
 	}
 
-IL_0052:
+IL_0066:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		Action_1_t4065457964 * L_12 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_14();
+		Action_1_t2161206965 * L_12 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache2_16();
 		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_add_OnVerificationComplete_m1779016707(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
-		Action_1_t2577430992 * L_13 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache1_15();
+		IOSInAppPurchaseManager_add_OnTransactionComplete_m3023858701(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Action_1_t3107075537 * L_13 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache3_17();
 		if (L_13)
 		{
-			goto IL_0074;
+			goto IL_0088;
 		}
 	}
 	{
 		IntPtr_t L_14;
-		L_14.set_m_value_0((void*)(void*)PaymentManager_OnStoreKitInitComplete_m1732614715_MethodInfo_var);
-		Action_1_t2577430992 * L_15 = (Action_1_t2577430992 *)il2cpp_codegen_object_new(Action_1_t2577430992_il2cpp_TypeInfo_var);
-		Action_1__ctor_m1403073535(L_15, NULL, L_14, /*hidden argument*/Action_1__ctor_m1403073535_MethodInfo_var);
+		L_14.set_m_value_0((void*)(void*)PaymentManager_OnRestoreComplete_m3417992639_MethodInfo_var);
+		Action_1_t3107075537 * L_15 = (Action_1_t3107075537 *)il2cpp_codegen_object_new(Action_1_t3107075537_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2967929040(L_15, NULL, L_14, /*hidden argument*/Action_1__ctor_m2967929040_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache1_15(L_15);
+		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache3_17(L_15);
 	}
 
-IL_0074:
+IL_0088:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		Action_1_t2577430992 * L_16 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache1_15();
+		Action_1_t3107075537 * L_16 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache3_17();
 		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_add_OnStoreKitInitComplete_m434975573(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
-		Action_1_t2161206965 * L_17 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache2_16();
-		if (L_17)
-		{
-			goto IL_0096;
-		}
-	}
-	{
-		IntPtr_t L_18;
-		L_18.set_m_value_0((void*)(void*)PaymentManager_OnTransactionComplete_m2552910675_MethodInfo_var);
-		Action_1_t2161206965 * L_19 = (Action_1_t2161206965 *)il2cpp_codegen_object_new(Action_1_t2161206965_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2264613190(L_19, NULL, L_18, /*hidden argument*/Action_1__ctor_m2264613190_MethodInfo_var);
-		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache2_16(L_19);
-	}
-
-IL_0096:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		Action_1_t2161206965 * L_20 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache2_16();
-		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_add_OnTransactionComplete_m3023858701(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
-		Action_1_t3107075537 * L_21 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache3_17();
-		if (L_21)
-		{
-			goto IL_00b8;
-		}
-	}
-	{
-		IntPtr_t L_22;
-		L_22.set_m_value_0((void*)(void*)PaymentManager_OnRestoreComplete_m3417992639_MethodInfo_var);
-		Action_1_t3107075537 * L_23 = (Action_1_t3107075537 *)il2cpp_codegen_object_new(Action_1_t3107075537_il2cpp_TypeInfo_var);
-		Action_1__ctor_m2967929040(L_23, NULL, L_22, /*hidden argument*/Action_1__ctor_m2967929040_MethodInfo_var);
-		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache3_17(L_23);
-	}
-
-IL_00b8:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		Action_1_t3107075537 * L_24 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache3_17();
-		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_add_OnRestoreComplete_m1672779289(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		IOSInAppPurchaseManager_add_OnRestoreComplete_m1672779289(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->set_IsInitialized_13((bool)1);
 		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_t644626385 * L_25 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
-		NullCheck(L_25);
-		IOSInAppPurchaseManager_loadStore_m2301575177(L_25, /*hidden argument*/NULL);
-		SuperScene_t3760801569 * L_26 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
+		IOSInAppPurchaseManager_t644626385 * L_17 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		NullCheck(L_17);
+		IOSInAppPurchaseManager_loadStore_m2301575177(L_17, /*hidden argument*/NULL);
+		SuperScene_t3760801569 * L_18 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
 		IL2CPP_RUNTIME_CLASS_INIT(Strings_t183934206_il2cpp_TypeInfo_var);
-		Strings_t183934206 * L_27 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_27);
-		String_t* L_28 = VirtFuncInvoker0< String_t* >::Invoke(282 /* System.String Strings::get_common_waitingdialog_loading() */, L_27);
-		NullCheck(L_26);
-		SuperScene_showWaittingDialog_m2659225596(L_26, L_28, /*hidden argument*/NULL);
-		goto IL_011a;
+		Strings_t183934206 * L_19 = Strings_get_instance_m1187775378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		String_t* L_20 = VirtFuncInvoker0< String_t* >::Invoke(282 /* System.String Strings::get_common_waitingdialog_loading() */, L_19);
+		NullCheck(L_18);
+		SuperScene_showWaittingDialog_m2659225596(L_18, L_20, /*hidden argument*/NULL);
+		goto IL_00ea;
 	}
 
-IL_00eb:
+IL_00bb:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_t644626385 * L_29 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
-		NullCheck(L_29);
-		bool L_30 = IOSInAppPurchaseManager_get_IsStoreLoaded_m3811618283(L_29, /*hidden argument*/NULL);
-		if (!L_30)
+		IOSInAppPurchaseManager_t644626385 * L_21 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		NullCheck(L_21);
+		bool L_22 = IOSInAppPurchaseManager_get_IsStoreLoaded_m3811618283(L_21, /*hidden argument*/NULL);
+		if (!L_22)
 		{
-			goto IL_011a;
+			goto IL_00ea;
 		}
 	}
 	{
-		SuperScene_t3760801569 * L_31 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
-		if (!((STabsScene_t3083040787 *)IsInstClass(L_31, STabsScene_t3083040787_il2cpp_TypeInfo_var)))
+		SuperScene_t3760801569 * L_23 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
+		if (!((STabsScene_t3083040787 *)IsInstClass(L_23, STabsScene_t3083040787_il2cpp_TypeInfo_var)))
 		{
-			goto IL_011a;
+			goto IL_00ea;
 		}
 	}
 	{
-		SuperScene_t3760801569 * L_32 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
-		V_1 = ((STabsScene_t3083040787 *)CastclassClass(L_32, STabsScene_t3083040787_il2cpp_TypeInfo_var));
-		STabsScene_t3083040787 * L_33 = V_1;
-		NullCheck(L_33);
-		STabsScene_showIAPItems_m2747601159(L_33, /*hidden argument*/NULL);
+		SuperScene_t3760801569 * L_24 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
+		V_0 = ((STabsScene_t3083040787 *)CastclassClass(L_24, STabsScene_t3083040787_il2cpp_TypeInfo_var));
+		STabsScene_t3083040787 * L_25 = V_0;
+		NullCheck(L_25);
+		STabsScene_showIAPItems_m2747601159(L_25, /*hidden argument*/NULL);
 	}
 
-IL_011a:
+IL_00ea:
 	{
 		return;
 	}
@@ -48790,7 +48755,12 @@ extern "C"  void PaymentOption_deactive_m1469780951 (PaymentOption_t3724463155 *
 	}
 }
 // System.Void PaymentOption::setData(SimpleJSON.JSONArray,SimpleJSON.JSONClass,PaymentItemListView)
+extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var;
+extern const MethodInfo* ISN_Singleton_1_get_instance_m2696554944_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1421151742;
+extern Il2CppCodeGenString* _stringLiteral3566076464;
+extern Il2CppCodeGenString* _stringLiteral3828595320;
 extern const uint32_t PaymentOption_setData_m1799059023_MetadataUsageId;
 extern "C"  void PaymentOption_setData_m1799059023 (PaymentOption_t3724463155 * __this, JSONArray_t3986483147 * ___jsondata0, JSONClass_t1609506608 * ___format1, PaymentItemListView_t3650854580 * ___view2, const MethodInfo* method)
 {
@@ -48800,6 +48770,7 @@ extern "C"  void PaymentOption_setData_m1799059023 (PaymentOption_t3724463155 * 
 		il2cpp_codegen_initialize_method (PaymentOption_setData_m1799059023_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	int32_t V_0 = 0;
 	{
 		JSONClass_t1609506608 * L_0 = ___format1;
 		__this->set_itemFormat_5(L_0);
@@ -48812,6 +48783,56 @@ extern "C"  void PaymentOption_setData_m1799059023 (PaymentOption_t3724463155 * 
 		JSONNode_t1250409636 * L_4 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_3, _stringLiteral1421151742);
 		String_t* L_5 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		__this->set_type_7(L_5);
+		String_t* L_6 = __this->get_type_7();
+		NullCheck(L_6);
+		bool L_7 = String_Equals_m2633592423(L_6, _stringLiteral3566076464, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0070;
+	}
+
+IL_004c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_t644626385 * L_8 = ISN_Singleton_1_get_Instance_m2660837792(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_Instance_m2660837792_MethodInfo_var);
+		JSONArray_t3986483147 * L_9 = ___jsondata0;
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		JSONNode_t1250409636 * L_11 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_9, L_10);
+		NullCheck(L_11);
+		JSONNode_t1250409636 * L_12 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_11, _stringLiteral3828595320);
+		String_t* L_13 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		IOSInAppPurchaseManager_addProductId_m3734468261(L_8, L_13, /*hidden argument*/NULL);
+		int32_t L_14 = V_0;
+		V_0 = ((int32_t)((int32_t)L_14+(int32_t)1));
+	}
+
+IL_0070:
+	{
+		int32_t L_15 = V_0;
+		JSONArray_t3986483147 * L_16 = ___jsondata0;
+		NullCheck(L_16);
+		int32_t L_17 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_16);
+		if ((((int32_t)L_15) < ((int32_t)L_17)))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
+		IOSInAppPurchaseManager_t644626385 * L_18 = ISN_Singleton_1_get_instance_m2696554944(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m2696554944_MethodInfo_var);
+		NullCheck(L_18);
+		IOSInAppPurchaseManager_RequestInAppSettingState_m3391090446(L_18, /*hidden argument*/NULL);
+	}
+
+IL_0086:
+	{
 		return;
 	}
 }
@@ -48885,12 +48906,10 @@ extern "C"  void PaymentScene__ctor_m2246478891 (PaymentScene_t483841150 * __thi
 extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
 extern Il2CppClass* Action_1_t3627374100_il2cpp_TypeInfo_var;
 extern Il2CppClass* IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var;
-extern Il2CppClass* ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var;
 extern Il2CppClass* PaymentScene_t483841150_il2cpp_TypeInfo_var;
 extern Il2CppClass* PaymentOptionU5BU5D_t603911586_il2cpp_TypeInfo_var;
 extern const MethodInfo* PaymentScene_OnPurchasesStateSettingsLoaded_m3816997988_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m1505245730_MethodInfo_var;
-extern const MethodInfo* ISN_Singleton_1_get_instance_m2696554944_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2791125701;
 extern const uint32_t PaymentScene_Start_m2034321695_MetadataUsageId;
 extern "C"  void PaymentScene_Start_m2034321695 (PaymentScene_t483841150 * __this, const MethodInfo* method)
@@ -48926,58 +48945,54 @@ IL_001b:
 		Action_1__ctor_m1505245730(L_3, __this, L_2, /*hidden argument*/Action_1__ctor_m1505245730_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(IOSInAppPurchaseManager_t644626385_il2cpp_TypeInfo_var);
 		IOSInAppPurchaseManager_add_OnPurchasesStateSettingsLoaded_m3882691367(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(ISN_Singleton_1_t3880193697_il2cpp_TypeInfo_var);
-		IOSInAppPurchaseManager_t644626385 * L_4 = ISN_Singleton_1_get_instance_m2696554944(NULL /*static, unused*/, /*hidden argument*/ISN_Singleton_1_get_instance_m2696554944_MethodInfo_var);
-		NullCheck(L_4);
-		IOSInAppPurchaseManager_RequestInAppSettingState_m3391090446(L_4, /*hidden argument*/NULL);
+		String_t* L_4 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_rawData_29();
+		if (!L_4)
+		{
+			goto IL_0091;
+		}
+	}
+	{
 		String_t* L_5 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_rawData_29();
-		if (!L_5)
+		NullCheck(L_5);
+		int32_t L_6 = String_get_Length_m1606060069(L_5, /*hidden argument*/NULL);
+		if ((((int32_t)L_6) <= ((int32_t)0)))
 		{
-			goto IL_009b;
+			goto IL_0091;
 		}
 	}
 	{
-		String_t* L_6 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_rawData_29();
-		NullCheck(L_6);
-		int32_t L_7 = String_get_Length_m1606060069(L_6, /*hidden argument*/NULL);
-		if ((((int32_t)L_7) <= ((int32_t)0)))
-		{
-			goto IL_009b;
-		}
-	}
-	{
-		String_t* L_8 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_rawData_29();
-		PaymentScene_setData_m2519429079(__this, L_8, /*hidden argument*/NULL);
-		PaymentOptionU5BU5D_t603911586* L_9 = ((PaymentOptionU5BU5D_t603911586*)SZArrayNew(PaymentOptionU5BU5D_t603911586_il2cpp_TypeInfo_var, (uint32_t)3));
-		PaymentOption_t3724463155 * L_10 = __this->get_PO_IAP_36();
-		NullCheck(L_9);
-		ArrayElementTypeCheck (L_9, L_10);
-		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (PaymentOption_t3724463155 *)L_10);
-		PaymentOptionU5BU5D_t603911586* L_11 = L_9;
-		PaymentOption_t3724463155 * L_12 = __this->get_PO_SMS_37();
-		NullCheck(L_11);
-		ArrayElementTypeCheck (L_11, L_12);
-		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(1), (PaymentOption_t3724463155 *)L_12);
-		PaymentOptionU5BU5D_t603911586* L_13 = L_11;
-		PaymentOption_t3724463155 * L_14 = __this->get_PO_Card_38();
-		NullCheck(L_13);
-		ArrayElementTypeCheck (L_13, L_14);
-		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (PaymentOption_t3724463155 *)L_14);
-		__this->set_paymentOptions_47(L_13);
-		PaymentOptionU5BU5D_t603911586* L_15 = __this->get_paymentOptions_47();
-		NullCheck(L_15);
-		int32_t L_16 = 0;
-		PaymentOption_t3724463155 * L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
-		PaymentScene_selectPaymentOptions_m777902680(__this, L_17, /*hidden argument*/NULL);
-		goto IL_00a6;
+		String_t* L_7 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_rawData_29();
+		PaymentScene_setData_m2519429079(__this, L_7, /*hidden argument*/NULL);
+		PaymentOptionU5BU5D_t603911586* L_8 = ((PaymentOptionU5BU5D_t603911586*)SZArrayNew(PaymentOptionU5BU5D_t603911586_il2cpp_TypeInfo_var, (uint32_t)3));
+		PaymentOption_t3724463155 * L_9 = __this->get_PO_IAP_36();
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_9);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (PaymentOption_t3724463155 *)L_9);
+		PaymentOptionU5BU5D_t603911586* L_10 = L_8;
+		PaymentOption_t3724463155 * L_11 = __this->get_PO_SMS_37();
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, L_11);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(1), (PaymentOption_t3724463155 *)L_11);
+		PaymentOptionU5BU5D_t603911586* L_12 = L_10;
+		PaymentOption_t3724463155 * L_13 = __this->get_PO_Card_38();
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_13);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (PaymentOption_t3724463155 *)L_13);
+		__this->set_paymentOptions_47(L_12);
+		PaymentOptionU5BU5D_t603911586* L_14 = __this->get_paymentOptions_47();
+		NullCheck(L_14);
+		int32_t L_15 = 0;
+		PaymentOption_t3724463155 * L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		PaymentScene_selectPaymentOptions_m777902680(__this, L_16, /*hidden argument*/NULL);
+		goto IL_009c;
 	}
 
-IL_009b:
+IL_0091:
 	{
 		Debug_LogError_m280235470(NULL /*static, unused*/, _stringLiteral2791125701, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
 	}
 
-IL_00a6:
+IL_009c:
 	{
 		return;
 	}
@@ -48992,7 +49007,6 @@ extern "C"  void PaymentScene_FixedUpdate_m3964061878 (PaymentScene_t483841150 *
 // System.Void PaymentScene::LoadUserInfo()
 extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
 extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
-extern Il2CppClass* PaymentScene_t483841150_il2cpp_TypeInfo_var;
 extern Il2CppClass* ExeOneSpriteParam_t3418620788_il2cpp_TypeInfo_var;
 extern const MethodInfo* PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007_MethodInfo_var;
 extern const uint32_t PaymentScene_LoadUserInfo_m2447911366_MetadataUsageId;
@@ -49005,12 +49019,6 @@ extern "C"  void PaymentScene_LoadUserInfo_m2447911366 (PaymentScene_t483841150 
 		s_Il2CppMethodInitialized = true;
 	}
 	User_t719925459 * V_0 = NULL;
-	Image_t2042527209 * G_B4_0 = NULL;
-	String_t* G_B4_1 = NULL;
-	PaymentScene_t483841150 * G_B4_2 = NULL;
-	Image_t2042527209 * G_B3_0 = NULL;
-	String_t* G_B3_1 = NULL;
-	PaymentScene_t483841150 * G_B3_2 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
 		User_t719925459 * L_0 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -49022,82 +49030,62 @@ extern "C"  void PaymentScene_LoadUserInfo_m2447911366 (PaymentScene_t483841150 
 		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_002d;
+			goto IL_0039;
 		}
 	}
 	{
 		Image_t2042527209 * L_4 = __this->get_avatar_33();
-		User_t719925459 * L_5 = V_0;
-		NullCheck(L_5);
-		Sprite_t309593783 * L_6 = User_get_avatarSprite_m1841281352(L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Image_set_sprite_m1800056820(L_4, L_6, /*hidden argument*/NULL);
-		goto IL_0060;
+		Behaviour_set_enabled_m1796096907(L_4, (bool)1, /*hidden argument*/NULL);
+		Image_t2042527209 * L_5 = __this->get_avatar_33();
+		User_t719925459 * L_6 = V_0;
+		NullCheck(L_6);
+		Sprite_t309593783 * L_7 = User_get_avatarSprite_m1841281352(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Image_set_sprite_m1800056820(L_5, L_7, /*hidden argument*/NULL);
+		goto IL_005b;
 	}
 
-IL_002d:
+IL_0039:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
-		User_t719925459 * L_7 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		String_t* L_8 = User_get_avatarUrl_m789652720(L_7, /*hidden argument*/NULL);
-		Image_t2042527209 * L_9 = __this->get_avatar_33();
-		ExeOneSpriteParam_t3418620788 * L_10 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_50();
-		G_B3_0 = L_9;
-		G_B3_1 = L_8;
-		G_B3_2 = __this;
-		if (L_10)
-		{
-			G_B4_0 = L_9;
-			G_B4_1 = L_8;
-			G_B4_2 = __this;
-			goto IL_0056;
-		}
-	}
-	{
+		User_t719925459 * L_8 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		String_t* L_9 = User_get_avatarUrl_m789652720(L_8, /*hidden argument*/NULL);
+		Image_t2042527209 * L_10 = __this->get_avatar_33();
 		IntPtr_t L_11;
 		L_11.set_m_value_0((void*)(void*)PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007_MethodInfo_var);
 		ExeOneSpriteParam_t3418620788 * L_12 = (ExeOneSpriteParam_t3418620788 *)il2cpp_codegen_object_new(ExeOneSpriteParam_t3418620788_il2cpp_TypeInfo_var);
-		ExeOneSpriteParam__ctor_m1031715041(L_12, NULL, L_11, /*hidden argument*/NULL);
-		((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_50(L_12);
-		G_B4_0 = G_B3_0;
-		G_B4_1 = G_B3_1;
-		G_B4_2 = G_B3_2;
+		ExeOneSpriteParam__ctor_m1031715041(L_12, __this, L_11, /*hidden argument*/NULL);
+		SuperScene_loadImage_m2216090671(__this, L_9, L_10, L_12, /*hidden argument*/NULL);
 	}
 
-IL_0056:
+IL_005b:
 	{
-		ExeOneSpriteParam_t3418620788 * L_13 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_50();
-		NullCheck(G_B4_2);
-		SuperScene_loadImage_m2216090671(G_B4_2, G_B4_1, G_B4_0, L_13, /*hidden argument*/NULL);
-	}
-
-IL_0060:
-	{
-		Text_t356221433 * L_14 = __this->get_username_34();
-		User_t719925459 * L_15 = V_0;
-		NullCheck(L_15);
-		String_t* L_16 = User_get_displayName_m4132980907(L_15, /*hidden argument*/NULL);
+		Text_t356221433 * L_13 = __this->get_username_34();
+		User_t719925459 * L_14 = V_0;
 		NullCheck(L_14);
-		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_14, L_16);
+		String_t* L_15 = User_get_displayName_m4132980907(L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, L_15);
 		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
-		int32_t L_17 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_gameApp_4();
-		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		int32_t L_16 = ((GameApplication_t4152476660_StaticFields*)GameApplication_t4152476660_il2cpp_TypeInfo_var->static_fields)->get_gameApp_4();
+		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
 		{
-			goto IL_0092;
+			goto IL_008d;
 		}
 	}
 	{
-		Text_t356221433 * L_18 = __this->get_balance_35();
-		User_t719925459 * L_19 = V_0;
-		NullCheck(L_19);
-		int32_t L_20 = L_19->get_ag_1();
-		String_t* L_21 = Utils_formatNumber_m921523394(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		Text_t356221433 * L_17 = __this->get_balance_35();
+		User_t719925459 * L_18 = V_0;
 		NullCheck(L_18);
-		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_18, L_21);
+		int32_t L_19 = L_18->get_ag_1();
+		String_t* L_20 = Utils_formatNumber_m921523394(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_17, L_20);
 	}
 
-IL_0092:
+IL_008d:
 	{
 		return;
 	}
@@ -49202,133 +49190,156 @@ extern "C"  void PaymentScene_setData_m2519429079 (PaymentScene_t483841150 * __t
 		String_t* L_27 = ___rawData0;
 		JSONNode_t1250409636 * L_28 = JSONNode_Parse_m1024344361(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 		V_3 = L_28;
-		PaymentOption_t3724463155 * L_29 = __this->get_PO_IAP_36();
+		PaymentOption_t3724463155 * L_29 = __this->get_PO_Card_38();
 		NullCheck(L_29);
 		GameObject_t1756533147 * L_30 = Component_get_gameObject_m3105766835(L_29, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
-		bool L_31 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_iap_ios_enable_6();
+		bool L_31 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_card_enable_4();
 		NullCheck(L_30);
 		GameObject_SetActive_m2887581199(L_30, L_31, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_32 = __this->get_PO_Card_38();
+		PaymentOption_t3724463155 * L_32 = __this->get_PO_SMS_37();
 		NullCheck(L_32);
 		GameObject_t1756533147 * L_33 = Component_get_gameObject_m3105766835(L_32, /*hidden argument*/NULL);
-		bool L_34 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_card_enable_4();
+		bool L_34 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_sms_enable_3();
 		NullCheck(L_33);
 		GameObject_SetActive_m2887581199(L_33, L_34, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_35 = __this->get_PO_SMS_37();
-		NullCheck(L_35);
-		GameObject_t1756533147 * L_36 = Component_get_gameObject_m3105766835(L_35, /*hidden argument*/NULL);
-		bool L_37 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_sms_enable_3();
-		NullCheck(L_36);
-		GameObject_SetActive_m2887581199(L_36, L_37, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_38 = __this->get_PO_IAP_36();
-		JSONNode_t1250409636 * L_39 = V_3;
-		NullCheck(L_39);
-		JSONNode_t1250409636 * L_40 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_39, _stringLiteral341210797);
-		NullCheck(L_40);
-		JSONArray_t3986483147 * L_41 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_40);
-		JSONClass_t1609506608 * L_42 = V_2;
-		PaymentItemListView_t3650854580 * L_43 = __this->get_paymentItemListView_42();
+		bool L_35 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_card_enable_4();
+		bool L_36 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_sms_enable_3();
+		if ((((int32_t)((((int32_t)L_35) == ((int32_t)0))? 1 : 0)) == ((int32_t)L_36)))
+		{
+			goto IL_0167;
+		}
+	}
+	{
+		PaymentOption_t3724463155 * L_37 = __this->get_PO_IAP_36();
+		NullCheck(L_37);
+		GameObject_t1756533147 * L_38 = Component_get_gameObject_m3105766835(L_37, /*hidden argument*/NULL);
 		NullCheck(L_38);
-		PaymentOption_setData_m1799059023(L_38, L_41, L_42, L_43, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_44 = __this->get_PO_SMS_37();
-		JSONNode_t1250409636 * L_45 = V_3;
-		NullCheck(L_45);
-		JSONNode_t1250409636 * L_46 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_45, _stringLiteral269914336);
-		NullCheck(L_46);
-		JSONArray_t3986483147 * L_47 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_46);
-		JSONClass_t1609506608 * L_48 = V_1;
-		PaymentItemListView_t3650854580 * L_49 = __this->get_paymentItemListView_42();
+		GameObject_SetActive_m2887581199(L_38, (bool)0, /*hidden argument*/NULL);
+		goto IL_017c;
+	}
+
+IL_0167:
+	{
+		PaymentOption_t3724463155 * L_39 = __this->get_PO_IAP_36();
+		NullCheck(L_39);
+		GameObject_t1756533147 * L_40 = Component_get_gameObject_m3105766835(L_39, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(PaymentManager_t2844975479_il2cpp_TypeInfo_var);
+		bool L_41 = ((PaymentManager_t2844975479_StaticFields*)PaymentManager_t2844975479_il2cpp_TypeInfo_var->static_fields)->get_iap_ios_enable_6();
+		NullCheck(L_40);
+		GameObject_SetActive_m2887581199(L_40, L_41, /*hidden argument*/NULL);
+	}
+
+IL_017c:
+	{
+		PaymentOption_t3724463155 * L_42 = __this->get_PO_IAP_36();
+		JSONNode_t1250409636 * L_43 = V_3;
+		NullCheck(L_43);
+		JSONNode_t1250409636 * L_44 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_43, _stringLiteral341210797);
 		NullCheck(L_44);
-		PaymentOption_setData_m1799059023(L_44, L_47, L_48, L_49, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_50 = __this->get_PO_Card_38();
-		JSONNode_t1250409636 * L_51 = V_3;
-		NullCheck(L_51);
-		JSONNode_t1250409636 * L_52 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_51, _stringLiteral1318647885);
-		NullCheck(L_52);
-		JSONArray_t3986483147 * L_53 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_52);
-		JSONClass_t1609506608 * L_54 = V_0;
-		PaymentItemListView_t3650854580 * L_55 = __this->get_paymentItemListView_42();
+		JSONArray_t3986483147 * L_45 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_44);
+		JSONClass_t1609506608 * L_46 = V_2;
+		PaymentItemListView_t3650854580 * L_47 = __this->get_paymentItemListView_42();
+		NullCheck(L_42);
+		PaymentOption_setData_m1799059023(L_42, L_45, L_46, L_47, /*hidden argument*/NULL);
+		PaymentOption_t3724463155 * L_48 = __this->get_PO_SMS_37();
+		JSONNode_t1250409636 * L_49 = V_3;
+		NullCheck(L_49);
+		JSONNode_t1250409636 * L_50 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_49, _stringLiteral269914336);
 		NullCheck(L_50);
-		PaymentOption_setData_m1799059023(L_50, L_53, L_54, L_55, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_56 = __this->get_PO_IAP_36();
+		JSONArray_t3986483147 * L_51 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_50);
+		JSONClass_t1609506608 * L_52 = V_1;
+		PaymentItemListView_t3650854580 * L_53 = __this->get_paymentItemListView_42();
+		NullCheck(L_48);
+		PaymentOption_setData_m1799059023(L_48, L_51, L_52, L_53, /*hidden argument*/NULL);
+		PaymentOption_t3724463155 * L_54 = __this->get_PO_Card_38();
+		JSONNode_t1250409636 * L_55 = V_3;
+		NullCheck(L_55);
+		JSONNode_t1250409636 * L_56 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_55, _stringLiteral1318647885);
 		NullCheck(L_56);
-		Transform_t3275118058 * L_57 = Component_get_transform_m2697483695(L_56, /*hidden argument*/NULL);
-		NullCheck(L_57);
-		Button_t2872111280 * L_58 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_57, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
-		NullCheck(L_58);
-		ButtonClickedEvent_t2455055323 * L_59 = Button_get_onClick_m1595880935(L_58, /*hidden argument*/NULL);
-		IntPtr_t L_60;
-		L_60.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__1_m2636180775_MethodInfo_var);
-		UnityAction_t4025899511 * L_61 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m2649891629(L_61, __this, L_60, /*hidden argument*/NULL);
-		NullCheck(L_59);
-		UnityEvent_AddListener_m1596810379(L_59, L_61, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_62 = __this->get_PO_SMS_37();
+		JSONArray_t3986483147 * L_57 = VirtFuncInvoker0< JSONArray_t3986483147 * >::Invoke(28 /* SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray() */, L_56);
+		JSONClass_t1609506608 * L_58 = V_0;
+		PaymentItemListView_t3650854580 * L_59 = __this->get_paymentItemListView_42();
+		NullCheck(L_54);
+		PaymentOption_setData_m1799059023(L_54, L_57, L_58, L_59, /*hidden argument*/NULL);
+		PaymentOption_t3724463155 * L_60 = __this->get_PO_IAP_36();
+		NullCheck(L_60);
+		Transform_t3275118058 * L_61 = Component_get_transform_m2697483695(L_60, /*hidden argument*/NULL);
+		NullCheck(L_61);
+		Button_t2872111280 * L_62 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_61, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
 		NullCheck(L_62);
-		Transform_t3275118058 * L_63 = Component_get_transform_m2697483695(L_62, /*hidden argument*/NULL);
+		ButtonClickedEvent_t2455055323 * L_63 = Button_get_onClick_m1595880935(L_62, /*hidden argument*/NULL);
+		IntPtr_t L_64;
+		L_64.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__1_m2636180775_MethodInfo_var);
+		UnityAction_t4025899511 * L_65 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_65, __this, L_64, /*hidden argument*/NULL);
 		NullCheck(L_63);
-		Button_t2872111280 * L_64 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_63, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
-		NullCheck(L_64);
-		ButtonClickedEvent_t2455055323 * L_65 = Button_get_onClick_m1595880935(L_64, /*hidden argument*/NULL);
-		IntPtr_t L_66;
-		L_66.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__2_m2636180614_MethodInfo_var);
-		UnityAction_t4025899511 * L_67 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m2649891629(L_67, __this, L_66, /*hidden argument*/NULL);
-		NullCheck(L_65);
-		UnityEvent_AddListener_m1596810379(L_65, L_67, /*hidden argument*/NULL);
-		PaymentOption_t3724463155 * L_68 = __this->get_PO_Card_38();
+		UnityEvent_AddListener_m1596810379(L_63, L_65, /*hidden argument*/NULL);
+		PaymentOption_t3724463155 * L_66 = __this->get_PO_SMS_37();
+		NullCheck(L_66);
+		Transform_t3275118058 * L_67 = Component_get_transform_m2697483695(L_66, /*hidden argument*/NULL);
+		NullCheck(L_67);
+		Button_t2872111280 * L_68 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_67, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
 		NullCheck(L_68);
-		Transform_t3275118058 * L_69 = Component_get_transform_m2697483695(L_68, /*hidden argument*/NULL);
+		ButtonClickedEvent_t2455055323 * L_69 = Button_get_onClick_m1595880935(L_68, /*hidden argument*/NULL);
+		IntPtr_t L_70;
+		L_70.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__2_m2636180614_MethodInfo_var);
+		UnityAction_t4025899511 * L_71 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_71, __this, L_70, /*hidden argument*/NULL);
 		NullCheck(L_69);
-		Button_t2872111280 * L_70 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_69, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
-		NullCheck(L_70);
-		ButtonClickedEvent_t2455055323 * L_71 = Button_get_onClick_m1595880935(L_70, /*hidden argument*/NULL);
-		IntPtr_t L_72;
-		L_72.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__3_m2636180709_MethodInfo_var);
-		UnityAction_t4025899511 * L_73 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m2649891629(L_73, __this, L_72, /*hidden argument*/NULL);
-		NullCheck(L_71);
-		UnityEvent_AddListener_m1596810379(L_71, L_73, /*hidden argument*/NULL);
-		ProviderOption_t2068997740 * L_74 = __this->get_ProviderOption1_39();
+		UnityEvent_AddListener_m1596810379(L_69, L_71, /*hidden argument*/NULL);
+		PaymentOption_t3724463155 * L_72 = __this->get_PO_Card_38();
+		NullCheck(L_72);
+		Transform_t3275118058 * L_73 = Component_get_transform_m2697483695(L_72, /*hidden argument*/NULL);
+		NullCheck(L_73);
+		Button_t2872111280 * L_74 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_73, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
 		NullCheck(L_74);
-		Transform_t3275118058 * L_75 = Component_get_transform_m2697483695(L_74, /*hidden argument*/NULL);
+		ButtonClickedEvent_t2455055323 * L_75 = Button_get_onClick_m1595880935(L_74, /*hidden argument*/NULL);
+		IntPtr_t L_76;
+		L_76.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__3_m2636180709_MethodInfo_var);
+		UnityAction_t4025899511 * L_77 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_77, __this, L_76, /*hidden argument*/NULL);
 		NullCheck(L_75);
-		Button_t2872111280 * L_76 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_75, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
-		NullCheck(L_76);
-		ButtonClickedEvent_t2455055323 * L_77 = Button_get_onClick_m1595880935(L_76, /*hidden argument*/NULL);
-		IntPtr_t L_78;
-		L_78.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__4_m2636180548_MethodInfo_var);
-		UnityAction_t4025899511 * L_79 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m2649891629(L_79, __this, L_78, /*hidden argument*/NULL);
-		NullCheck(L_77);
-		UnityEvent_AddListener_m1596810379(L_77, L_79, /*hidden argument*/NULL);
-		ProviderOption_t2068997740 * L_80 = __this->get_ProviderOption2_40();
+		UnityEvent_AddListener_m1596810379(L_75, L_77, /*hidden argument*/NULL);
+		ProviderOption_t2068997740 * L_78 = __this->get_ProviderOption1_39();
+		NullCheck(L_78);
+		Transform_t3275118058 * L_79 = Component_get_transform_m2697483695(L_78, /*hidden argument*/NULL);
+		NullCheck(L_79);
+		Button_t2872111280 * L_80 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_79, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
 		NullCheck(L_80);
-		Transform_t3275118058 * L_81 = Component_get_transform_m2697483695(L_80, /*hidden argument*/NULL);
+		ButtonClickedEvent_t2455055323 * L_81 = Button_get_onClick_m1595880935(L_80, /*hidden argument*/NULL);
+		IntPtr_t L_82;
+		L_82.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__4_m2636180548_MethodInfo_var);
+		UnityAction_t4025899511 * L_83 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_83, __this, L_82, /*hidden argument*/NULL);
 		NullCheck(L_81);
-		Button_t2872111280 * L_82 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_81, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
-		NullCheck(L_82);
-		ButtonClickedEvent_t2455055323 * L_83 = Button_get_onClick_m1595880935(L_82, /*hidden argument*/NULL);
-		IntPtr_t L_84;
-		L_84.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__5_m2636180643_MethodInfo_var);
-		UnityAction_t4025899511 * L_85 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m2649891629(L_85, __this, L_84, /*hidden argument*/NULL);
-		NullCheck(L_83);
-		UnityEvent_AddListener_m1596810379(L_83, L_85, /*hidden argument*/NULL);
-		ProviderOption_t2068997740 * L_86 = __this->get_ProviderOption3_41();
+		UnityEvent_AddListener_m1596810379(L_81, L_83, /*hidden argument*/NULL);
+		ProviderOption_t2068997740 * L_84 = __this->get_ProviderOption2_40();
+		NullCheck(L_84);
+		Transform_t3275118058 * L_85 = Component_get_transform_m2697483695(L_84, /*hidden argument*/NULL);
+		NullCheck(L_85);
+		Button_t2872111280 * L_86 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_85, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
 		NullCheck(L_86);
-		Transform_t3275118058 * L_87 = Component_get_transform_m2697483695(L_86, /*hidden argument*/NULL);
+		ButtonClickedEvent_t2455055323 * L_87 = Button_get_onClick_m1595880935(L_86, /*hidden argument*/NULL);
+		IntPtr_t L_88;
+		L_88.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__5_m2636180643_MethodInfo_var);
+		UnityAction_t4025899511 * L_89 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_89, __this, L_88, /*hidden argument*/NULL);
 		NullCheck(L_87);
-		Button_t2872111280 * L_88 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_87, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
-		NullCheck(L_88);
-		ButtonClickedEvent_t2455055323 * L_89 = Button_get_onClick_m1595880935(L_88, /*hidden argument*/NULL);
-		IntPtr_t L_90;
-		L_90.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__6_m2636180482_MethodInfo_var);
-		UnityAction_t4025899511 * L_91 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m2649891629(L_91, __this, L_90, /*hidden argument*/NULL);
-		NullCheck(L_89);
-		UnityEvent_AddListener_m1596810379(L_89, L_91, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m1596810379(L_87, L_89, /*hidden argument*/NULL);
+		ProviderOption_t2068997740 * L_90 = __this->get_ProviderOption3_41();
+		NullCheck(L_90);
+		Transform_t3275118058 * L_91 = Component_get_transform_m2697483695(L_90, /*hidden argument*/NULL);
+		NullCheck(L_91);
+		Button_t2872111280 * L_92 = Component_GetComponent_TisButton_t2872111280_m3412601438(L_91, /*hidden argument*/Component_GetComponent_TisButton_t2872111280_m3412601438_MethodInfo_var);
+		NullCheck(L_92);
+		ButtonClickedEvent_t2455055323 * L_93 = Button_get_onClick_m1595880935(L_92, /*hidden argument*/NULL);
+		IntPtr_t L_94;
+		L_94.set_m_value_0((void*)(void*)PaymentScene_U3CsetDataU3Em__6_m2636180482_MethodInfo_var);
+		UnityAction_t4025899511 * L_95 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_95, __this, L_94, /*hidden argument*/NULL);
+		NullCheck(L_93);
+		UnityEvent_AddListener_m1596810379(L_93, L_95, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -49758,7 +49769,7 @@ IL_009a:
 		ExeOneStringParam_t2750684624 * L_38 = (ExeOneStringParam_t2750684624 *)il2cpp_codegen_object_new(ExeOneStringParam_t2750684624_il2cpp_TypeInfo_var);
 		ExeOneStringParam__ctor_m4211096745(L_38, L_36, L_37, /*hidden argument*/NULL);
 		V_3 = L_38;
-		Executor_t2576254565 * L_39 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_51();
+		Executor_t2576254565 * L_39 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_50();
 		if (L_39)
 		{
 			goto IL_011d;
@@ -49769,12 +49780,12 @@ IL_009a:
 		L_40.set_m_value_0((void*)(void*)PaymentScene_U3CdoPaymentCardU3Em__7_m2278482504_MethodInfo_var);
 		Executor_t2576254565 * L_41 = (Executor_t2576254565 *)il2cpp_codegen_object_new(Executor_t2576254565_il2cpp_TypeInfo_var);
 		Executor__ctor_m2283687114(L_41, NULL, L_40, /*hidden argument*/NULL);
-		((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_51(L_41);
+		((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_50(L_41);
 	}
 
 IL_011d:
 	{
-		Executor_t2576254565 * L_42 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_51();
+		Executor_t2576254565 * L_42 = ((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_50();
 		V_4 = L_42;
 		SuperScene_t3760801569 * L_43 = ((SuperScene_t3760801569_StaticFields*)SuperScene_t3760801569_il2cpp_TypeInfo_var->static_fields)->get_instance_3();
 		U3CdoPaymentCardU3Ec__AnonStorey0_t3927620713 * L_44 = V_0;
@@ -49894,7 +49905,7 @@ IL_0030:
 // System.Void PaymentScene::<LoadUserInfo>m__0(UnityEngine.Sprite)
 extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
 extern const uint32_t PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007_MetadataUsageId;
-extern "C"  void PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007 (Il2CppObject * __this /* static, unused */, Sprite_t309593783 * ___sprite0, const MethodInfo* method)
+extern "C"  void PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007 (PaymentScene_t483841150 * __this, Sprite_t309593783 * ___sprite0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -49903,11 +49914,14 @@ extern "C"  void PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007 (Il2CppObject *
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
-		User_t719925459 * L_0 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Sprite_t309593783 * L_1 = ___sprite0;
+		Image_t2042527209 * L_0 = __this->get_avatar_33();
 		NullCheck(L_0);
-		User_set_avatarSprite_m818951485(L_0, L_1, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m1796096907(L_0, (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameApplication_t4152476660_il2cpp_TypeInfo_var);
+		User_t719925459 * L_1 = GameApplication_get_user_m2176602021(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Sprite_t309593783 * L_2 = ___sprite0;
+		NullCheck(L_1);
+		User_set_avatarSprite_m818951485(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }

@@ -47,7 +47,7 @@ extern "C"  void PaymentScene_backToHome_m186032988 (PaymentScene_t483841150 * _
 // System.Void PaymentScene::OnPurchasesStateSettingsLoaded(System.Boolean)
 extern "C"  void PaymentScene_OnPurchasesStateSettingsLoaded_m3816997988 (PaymentScene_t483841150 * __this, bool ___IsInAppPurchasesEnabled0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PaymentScene::<LoadUserInfo>m__0(UnityEngine.Sprite)
-extern "C"  void PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007 (Il2CppObject * __this /* static, unused */, Sprite_t309593783 * ___sprite0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void PaymentScene_U3CLoadUserInfoU3Em__0_m2727050007 (PaymentScene_t483841150 * __this, Sprite_t309593783 * ___sprite0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PaymentScene::<setData>m__1()
 extern "C"  void PaymentScene_U3CsetDataU3Em__1_m2636180775 (PaymentScene_t483841150 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PaymentScene::<setData>m__2()

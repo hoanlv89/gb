@@ -39,7 +39,6 @@ public class PaymentScene : SuperScene {
 		LoadUserInfo ();
 
 		IOSInAppPurchaseManager.OnPurchasesStateSettingsLoaded += OnPurchasesStateSettingsLoaded;
-		IOSInAppPurchaseManager.instance.RequestInAppSettingState();
 
 		if (rawData != null && rawData.Length > 0) {
 			setData (rawData);
@@ -62,9 +61,11 @@ public class PaymentScene : SuperScene {
 	void LoadUserInfo(){
 		User user = GameApplication.user;
 		if (user.avatarSprite != null){
+			avatar.enabled = true;
 			avatar.sprite = user.avatarSprite;
 		} else {
 			loadImage (GameApplication.user.avatarUrl, avatar, delegate(Sprite sprite) {
+				avatar.enabled = true;
 				GameApplication.user.avatarSprite = sprite;
 			});
 		}
@@ -128,9 +129,15 @@ public class PaymentScene : SuperScene {
 
 		// TODO: need to check option is valid
 
-		PO_IAP.gameObject.SetActive (PaymentManager.iap_ios_enable);
+
 		PO_Card.gameObject.SetActive (PaymentManager.card_enable);
 		PO_SMS.gameObject.SetActive (PaymentManager.sms_enable);
+
+		if (PaymentManager.card_enable == false == PaymentManager.sms_enable == false) {
+			PO_IAP.gameObject.SetActive (false);
+		} else {
+			PO_IAP.gameObject.SetActive (PaymentManager.iap_ios_enable);
+		}
 
 		PO_IAP.setData (jsondata["iap_items"].AsArray, formatIAP, paymentItemListView);
 		PO_SMS.setData (jsondata["sms_items"].AsArray, formatSMS, paymentItemListView);

@@ -419,7 +419,7 @@ extern const int32_t g_FieldOffsetTable3665[8] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3666 = { sizeof (OneSignalIOS_t2876627657), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3667 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3668 = { sizeof (PaymentScene_t483841150), -1, sizeof(PaymentScene_t483841150_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3668[23] = 
+extern const int32_t g_FieldOffsetTable3668[22] = 
 {
 	PaymentScene_t483841150_StaticFields::get_offset_of_rawData_29(),
 	0,
@@ -443,7 +443,6 @@ extern const int32_t g_FieldOffsetTable3668[23] =
 	PaymentScene_t483841150::get_offset_of_selectedPaymentOption_48(),
 	PaymentScene_t483841150::get_offset_of_selectedProviderIndex_49(),
 	PaymentScene_t483841150_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_50(),
-	PaymentScene_t483841150_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_51(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3669 = { sizeof (U3CdoPaymentCardU3Ec__AnonStorey0_t3927620713), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3669[2] = 

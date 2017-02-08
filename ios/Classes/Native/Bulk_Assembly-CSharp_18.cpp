@@ -58320,6 +58320,7 @@ extern Il2CppClass* GameApplication_t4152476660_il2cpp_TypeInfo_var;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern Il2CppClass* PaymentScene_t483841150_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral632735575;
+extern Il2CppCodeGenString* _stringLiteral1687751996;
 extern Il2CppCodeGenString* _stringLiteral1211919668;
 extern Il2CppCodeGenString* _stringLiteral786289216;
 extern const uint32_t SuperScene_U3CgotoPaymentScreenU3Em__B_m140713512_MetadataUsageId;
@@ -58351,6 +58352,7 @@ IL_0013:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral632735575, L_3, /*hidden argument*/NULL);
 		Debug_Log_m3849937430(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		___result0 = _stringLiteral1687751996;
 		String_t* L_5 = ___result0;
 		((PaymentScene_t483841150_StaticFields*)PaymentScene_t483841150_il2cpp_TypeInfo_var->static_fields)->set_rawData_29(L_5);
 		LevelManager_Load_m1308163316(NULL /*static, unused*/, _stringLiteral1211919668, /*hidden argument*/NULL);
