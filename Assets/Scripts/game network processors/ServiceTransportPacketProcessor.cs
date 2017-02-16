@@ -237,7 +237,7 @@ public class ServiceTransportPacketProcessor
 				LobbyScene lobbyScene = (LobbyScene)SuperScene.instance;
 				// sau khi da luu room vao cubeia.roomList, update view
 				if (GameApplication.gameApp.Equals (GameApplication.GameApp.DauTruong)) {
-					lobbyScene.updateRoomDT ();
+//					lobbyScene.updateRoomDT ();
 				} else if (GameApplication.gameApp.Equals (GameApplication.GameApp.G3C)) {
 					lobbyScene.updateRoom3C ();
 				} else if (GameApplication.gameApp.Equals (GameApplication.GameApp.GTL)) {
@@ -247,7 +247,7 @@ public class ServiceTransportPacketProcessor
 				} else {
 					Debug.LogError ("GameApplication.gameApp = " + GameApplication.gameApp);
 					Debug.LogError ("Chua ton tai ham update");
-					lobbyScene.updateRoomDT ();
+//					lobbyScene.updateRoomDT ();
 				}
 			}
 
@@ -349,6 +349,18 @@ public class ServiceTransportPacketProcessor
 				RoomGame.visibleList.Add (arr [i] ["mark"].AsInt);
 				GameApplication.stakeList.Add (arr [i] ["mark"].AsInt);
 				GameApplication.ccusList.Add (arr [i] ["currplay"].AsInt);
+			}
+			if (SuperScene.instance is LobbyScene) {
+				LobbyScene lobbyScene = (LobbyScene)SuperScene.instance;
+				// sau khi da luu room vao cubeia.roomList, update view
+				if (GameApplication.gameApp.Equals (GameApplication.GameApp.DauTruong)) {
+					lobbyScene.updateRoomDT ();
+				} else if (GameApplication.gameApp.Equals (GameApplication.GameApp.G3C)) {
+				} else if (GameApplication.gameApp.Equals (GameApplication.GameApp.GTL)) {
+				} else if (GameApplication.gameApp.Equals (GameApplication.GameApp.G52Fun)) {
+				} else {
+					lobbyScene.updateRoomDT ();
+				}
 			}
 		} else if (evt.Equals ("pctable")) {
 			var arr = JSON.Parse (serviceData ["data"]).AsArray;

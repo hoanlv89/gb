@@ -33,11 +33,12 @@ public class BannerScene : MonoBehaviour {
 		SuperScene.instance.loadImage (bannerData.url, bg, delegate(Sprite sprite) {
 			bg.sprite = sprite;
 			bg.color = new Color32(255,255,255,255);
-//			Debug.LogError ("KAKAKA11 =====> " + sprite.texture.width);
-//			Debug.LogError ("KAKAKA22 =====> " + sprite.texture.height);
 		});
 		for (int i = 0; i < 3; i++) {
 			buttons [i].gameObject.SetActive (false);
+			buttons [i].transform.FindChild ("values").gameObject.SetActive (false);
+			buttons [i].transform.FindChild ("bonus").gameObject.SetActive (false);
+			buttons [i].transform.FindChild ("cost").gameObject.SetActive (false);
 		}
 
 		for (int i = 0; i < size; i++) {

@@ -56,7 +56,7 @@ public class GameApplication : MonoBehaviour
 	}
 
 	public static bool DEBUG_ON = false;
-	public static int ENCODE = 1; // hoac 0
+	public static int ENCODE = 1; // hoac 0 (52fun) , 1 DauTruong 
 	public static readonly GameApp gameApp = GameApp.DauTruong;
 
 	public enum GameApp

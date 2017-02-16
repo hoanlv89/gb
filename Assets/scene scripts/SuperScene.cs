@@ -757,63 +757,77 @@ public class SuperScene : MonoBehaviour
 	{
 		Debug.Log ("gotoPaymentScreen");
 		SoundManager.instance.playButtonClicked ();
-//		int storedDisID = DB.getInstance.getStoredDisID ();
-//		string url = GameApplication.url_dis_get_update_info.
-//			Replace ("%dis_id%", "" + storedDisID).
-//				Replace ("%dev_id%", GameApplication.getUniqueIdentifier ());
-		string url = GameApplication.url_paymentconfig;
 
-		Utils.ExeOneStringParam onSuccess = delegate(string result) {
+		if (GameApplication.gameApp == GameApplication.GameApp.G52Fun) {
+			int storedDisID = DB.getInstance.getStoredDisID ();
+			string url = GameApplication.url_dis_get_update_info.
+				Replace ("%dis_id%", "" + storedDisID).
+				Replace ("%dev_id%", GameApplication.getUniqueIdentifier ());
+
+			Utils.ExeOneStringParam onSuccess = delegate(string result) {
+				Debug.Log ("result: " + result);
+				JSONClass jsonResult = JSONNode.Parse (result).AsObject;
+				PaymentManager.sms_enable = jsonResult ["sms"].AsBool;
+				PaymentManager.iap_ios_enable = jsonResult ["iap"].AsBool;
+				PaymentManager.card_enable = jsonResult ["card"].AsBool;
+				PaymentManager.atm_enable = jsonResult ["atm"].AsBool;
+				PaymentManager.exchange_rate_enable = jsonResult ["rate"].AsBool;
+				PaymentManager.payment = PaymentManager.sms_enable || PaymentManager.iap_ios_enable || PaymentManager.card_enable || PaymentManager.atm_enable;
+				PaymentManager.gamenotification = jsonResult ["gamenotification"].AsBool;
+
+				PaymentManager.iap_items.Clear ();
+				for (int i = 0; i < jsonResult ["iap_ios_items"].AsArray.Count; i++) {
+					PaymentManager.iap_items.Add (jsonResult ["iap_ios_items"] [i]);
+				}
+
+				PaymentManager.url_exchange_rate = jsonResult ["url_exchange_rate"];
+				PaymentManager.url_payment_atm = jsonResult ["url_payment_atm"];
+				PaymentManager.url_payment_card = jsonResult ["url_payment_card"];
+
+				if (PaymentManager.payment) {
+					STabsScene.tabsType = STabsScene.STabType.PAYMENT;
+					STabsScene.currentTabPos = STabsScene.PAYMENT_CARD;
+					gotoStabsScene ();
+					Tracking.changeScene ("PAYMENT", true);
+				} else {
+					showInfoDialog (Strings.instance.common_comming_soon);
+				}
+			};
+			Utils.Executor onFailed = delegate() {
+				showToast (Strings.instance.common_network_error);
+			};
+
+			doHTTPRequest (url, onSuccess, onFailed);
+
+			DSTFBEvent.LogAppEvent (DSTFBEvent.UnityPurchaseClick, (float)1f, DSTFBEvent.defaultParams);
+		} else {
+
+			string url = GameApplication.url_paymentconfig;
+
+			Utils.ExeOneStringParam onSuccess = delegate(string result) {
 			
-			if(GameApplication.ENCODE == 1)
-				result = Utils.base64_decode(result);
+				if (GameApplication.ENCODE == 1)
+					result = Utils.base64_decode (result);
 
-			Debug.Log ("result: " + result);
-
-
-			// Test: 
-			result = "{ \"iap_items\": [ { \"itemid\": \"52ios.golditem.tier01\", \"USD\": \"0.99 USD\", \"Chip\": \"60K Chip\", \"amount\": \"35\", \"oldChip\": \"50K\", \"plus\": \"+10K\", \"ccost\": 1, \"value\": 60000 }, { \"itemid\": \"52ios.golditem.tier05\", \"USD\": \"4.99 USD\", \"Chip\": \"300K Chip\", \"amount\": \"177\", \"oldChip\": \"250K\", \"plus\": \"+50K\", \"ccost\": 5, \"value\": 300000 }, { \"itemid\": \"52ios.golditem.tier10\", \"USD\": \"9.99 USD\", \"Chip\": \"600K Chip\", \"amount\": \"354\", \"oldChip\": \"500K\", \"plus\": \"+100K\", \"ccost\": 10, \"value\": 600000 }, { \"itemid\": \"52ios.golditem.tier20\", \"USD\": \"19.99 USD\", \"Chip\": \"1.2M Chip\", \"amount\": \"709\", \"oldChip\": \"1M\", \"plus\": \"+200K\", \"ccost\": 20, \"value\": 1200000 }, { \"itemid\": \"52ios.golditem.tier50\", \"USD\": \"49.99 USD\", \"Chip\": \"3M Chip\", \"amount\": \"1774\", \"oldChip\": \"2.5M\", \"plus\": \"+500K\", \"ccost\": 50, \"value\": 3000000 }, { \"itemid\": \"52ios.golditem.tier100\", \"USD\": \"99.99 USD\", \"Chip\": \"6M Chip\", \"amount\": \"3549\", \"oldChip\": \"5M\", \"plus\": \"+1M\", \"ccost\": 100, \"value\": 6000000 } ], \"card_items\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Chip\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Chip\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"605K Chip\", \"p\": \"+105K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 605000 }, { \"old\": \"1M\", \"new\": \"1.22M Chip\", \"p\": \"+220K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1220000 }, { \"old\": \"2.5M\", \"new\": \"3.1M Chip\", \"p\": \"+0.6M\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3100000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Chip\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Chip\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"605K Chip\", \"p\": \"+105K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 605000 }, { \"old\": \"1M\", \"new\": \"1.22M Chip\", \"p\": \"+220K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1220000 }, { \"old\": \"2.5M\", \"new\": \"3.1M Chip\", \"p\": \"+0.6M\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3100000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Chip\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Chip\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"605K Chip\", \"p\": \"+105K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 605000 }, { \"old\": \"1M\", \"new\": \"1.22M Chip\", \"p\": \"+220K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1220000 }, { \"old\": \"2.5M\", \"new\": \"3.1M Chip\", \"p\": \"+0.6M\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3100000 } ] } ], \"sms_items\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"25K\", \"new\": \"30K Chip\", \"p\": \"+5K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw 10000 teen NAP 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 30000 }, { \"old\": \"37.5K\", \"new\": \"45K Chip\", \"p\": \"+7.5K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw 15000 teen NAP 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 45000 }, { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw 20000 teen NAP 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 60000 }, { \"old\": \"75K\", \"new\": \"90K Chip\", \"p\": \"+15K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw 30000 teen NAP 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 90000 }, { \"old\": \"125K\", \"new\": \"155K Chip\", \"p\": \"+30K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw 50000 teen NAP 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 155000 }, { \"old\": \"250K\", \"new\": \"320K Chip\", \"p\": \"+70K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw 100000 teen NAP 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 320000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"25K\", \"new\": \"30K\", \"p\": \"+5K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 30000 }, { \"old\": \"37.5K\", \"new\": \"45K Chip\", \"p\": \"+7.5K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 45000 }, { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 60000 }, { \"old\": \"75K\", \"new\": \"90K Chip\", \"p\": \"+15K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 90000 }, { \"old\": \"125K\", \"new\": \"155K Chip\", \"p\": \"+30K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 155000 }, { \"old\": \"250K\", \"new\": \"320K Chip\", \"p\": \"+70K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap100 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 320000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"25K\", \"new\": \"30K Chip\", \"p\": \"+5K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 30000 }, { \"old\": \"37.5K\", \"new\": \"45K Chip\", \"p\": \"+7.5K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 45000 }, { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 60000 }, { \"old\": \"75K\", \"new\": \"90K Chip\", \"p\": \"+15K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 90000 }, { \"old\": \"125K\", \"new\": \"155K Chip\", \"p\": \"+30K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 155000 }, { \"old\": \"250K\", \"new\": \"320K Chip\", \"p\": \"+70K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 320000, \"hide\": true } ] } ], \"iap_items_gold\": [ { \"itemid\": \"52ios.golditem.tier1\", \"USD\": \"0.99 USD\", \"Chip\": \"60K Gold\", \"amount\": \"35\", \"oldChip\": \"50K\", \"plus\": \"+10K\", \"ccost\": 1, \"value\": 60000 }, { \"itemid\": \"52ios.golditem.tier2\", \"USD\": \"4.99 USD\", \"Chip\": \"300K Gold\", \"amount\": \"177\", \"oldChip\": \"250K\", \"plus\": \"+50K\", \"ccost\": 5, \"value\": 300000 }, { \"itemid\": \"52ios.golditem.tier3\", \"USD\": \"9.99 USD\", \"Chip\": \"600K Gold\", \"amount\": \"354\", \"oldChip\": \"500K\", \"plus\": \"+100K\", \"ccost\": 10, \"value\": 600000 }, { \"itemid\": \"52ios.golditem.tier4\", \"USD\": \"19.99 USD\", \"Chip\": \"1.2M Gold\", \"amount\": \"709\", \"oldChip\": \"1M\", \"plus\": \"+200K\", \"ccost\": 20, \"value\": 1200000 }, { \"itemid\": \"52ios.golditem.tier5\", \"USD\": \"49.99 USD\", \"Chip\": \"3M Gold\", \"amount\": \"1774\", \"oldChip\": \"2.5M\", \"plus\": \"+500K\", \"ccost\": 50, \"value\": 3000000 }, { \"itemid\": \"52ios.golditem.tier6\", \"USD\": \"99.99 USD\", \"Chip\": \"6M Gold\", \"amount\": \"3549\", \"oldChip\": \"5M\", \"plus\": \"+1M\", \"ccost\": 100, \"value\": 6000000 } ], \"card_items_gold\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Gold\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Gold\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"600K Gold\", \"p\": \"+100K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 600000 }, { \"old\": \"1M\", \"new\": \"1.2M Gold\", \"p\": \"+200K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1200000 }, { \"old\": \"2.5M\", \"new\": \"3M Gold\", \"p\": \"+500K\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3000000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Gold\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Gold\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"600K Gold\", \"p\": \"+100K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 600000 }, { \"old\": \"1M\", \"new\": \"1.2M Gold\", \"p\": \"+200K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1200000 }, { \"old\": \"2.5M\", \"new\": \"3M Gold\", \"p\": \"+500K\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3000000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Gold\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Gold\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"600K Gold\", \"p\": \"+100K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 600000 }, { \"old\": \"1M\", \"new\": \"1.2M Gold\", \"p\": \"+200K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1200000 }, { \"old\": \"2.5M\", \"new\": \"3M Gold\", \"p\": \"+500K\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3000000 } ] } ], \"sms_items_gold\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"20K\", \"new\": \"24K Gold\", \"p\": \"4K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw 10000 teen NAP 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 24000 }, { \"old\": \"30K\", \"new\": \"36K Gold\", \"p\": \"6K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw 15000 teen NAP 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 36000 }, { \"old\": \"40K\", \"new\": \"48K Gold\", \"p\": \"8K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw 20000 teen NAP 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 48000 }, { \"old\": \"60K\", \"new\": \"72K Gold\", \"p\": \"12K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw 30000 teen NAP 52fun-%user%-%type%\", \"ccost\": 40000, \"value\": 72000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"20K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw 50000 teen NAP 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 120000 }, { \"old\": \"200K\", \"new\": \"240K Gold\", \"p\": \"40K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw 100000 teen NAP 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 240000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"20K\", \"new\": \"24K Gold\", \"p\": \"4K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 24000 }, { \"old\": \"30K\", \"new\": \"36K Gold\", \"p\": \"6K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 36000 }, { \"old\": \"40K\", \"new\": \"48K Gold\", \"p\": \"8K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 48000 }, { \"old\": \"60K\", \"new\": \"72K Gold\", \"p\": \"12K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 72000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"20K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 120000 }, { \"old\": \"200K\", \"new\": \"240K Gold\", \"p\": \"40K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap100 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 240000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"20K\", \"new\": \"24K Gold\", \"p\": \"4K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 24000 }, { \"old\": \"30K\", \"new\": \"36K Gold\", \"p\": \"6K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 36000 }, { \"old\": \"40K\", \"new\": \"48K Gold\", \"p\": \"8K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 48000 }, { \"old\": \"60K\", \"new\": \"72K Gold\", \"p\": \"12K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 72000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"20K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 120000 }, { \"old\": \"200K\", \"new\": \"240K Gold\", \"p\": \"40K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap100 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 240000 } ] } ], \"convert_gold_to_chip\": [ { \"gold\": 50000, \"chip\": 50000 }, { \"gold\": 100000, \"chip\": 100000 }, { \"gold\": 500000, \"chip\": 500000 }, { \"gold\": 1000000, \"chip\": 1000000 }, { \"gold\": 5000000, \"chip\": 5000000 }, { \"gold\": 10000000, \"chip\": 10000000 } ], \"convert_chip_to_gold\": [ { \"gold\": 50000, \"chip\": 65000 }, { \"gold\": 100000, \"chip\": 130000 }, { \"gold\": 500000, \"chip\": 650000 }, { \"gold\": 1000000, \"chip\": 1300000 }, { \"gold\": 5000000, \"chip\": 6500000 }, { \"gold\": 10000000, \"chip\": 13000000 } ] }";
-
-			PaymentScene.rawData = result;
-			previousScene = Application.loadedLevelName;
-			LevelManager.Load (GameApplication.PAYMENTSCENE);
-			Tracking.changeScene("PAYMENT",true);
+				Debug.Log ("result: " + result);
 
 
-//			PaymentManager.sms_enable = jsonResult ["sms"] .AsBool;
-//			PaymentManager.iap_ios_enable = jsonResult ["iap"] .AsBool;
-//			PaymentManager.card_enable = jsonResult ["card"] .AsBool;
-//			PaymentManager.atm_enable = jsonResult ["atm"] .AsBool;
-//			PaymentManager.exchange_rate_enable = jsonResult ["rate"] .AsBool;
-//			PaymentManager.payment = PaymentManager.sms_enable || PaymentManager.iap_ios_enable || PaymentManager.card_enable || PaymentManager.atm_enable;
-//			PaymentManager.gamenotification = jsonResult ["gamenotification"] .AsBool;
-//
-//			PaymentManager.iap_items.Clear ();
-//			for (int i = 0; i < jsonResult ["iap_ios_items"].AsArray.Count; i++) {
-//				PaymentManager.iap_items.Add (jsonResult ["iap_ios_items"] [i]);
-//			}
-//
-//			PaymentManager.url_exchange_rate = jsonResult ["url_exchange_rate"];
-//			PaymentManager.url_payment_atm = jsonResult ["url_payment_atm"];
-//			PaymentManager.url_payment_card = jsonResult ["url_payment_card"];
-////			Debug.LogError(PaymentManager.url_payment_card);
-//
-//			if (PaymentManager.payment) {
-//				STabsScene.tabsType = STabsScene.STabType.PAYMENT;
-//				STabsScene.currentTabPos = STabsScene.PAYMENT_CARD;
-//				gotoStabsScene ();
-//				Tracking.changeScene("PAYMENT",true);
-//			} else {
-//				showInfoDialog (Strings.instance.common_comming_soon);
-//			}
-		};
-		Utils.Executor onFailed = delegate() {
-			showToast (Strings.instance.common_network_error);
-		};
+				// Test: 
+				result = "{ \"iap_items\": [ { \"itemid\": \"52ios.golditem.tier01\", \"USD\": \"0.99 USD\", \"Chip\": \"60K Chip\", \"amount\": \"35\", \"oldChip\": \"50K\", \"plus\": \"+10K\", \"ccost\": 1, \"value\": 60000 }, { \"itemid\": \"52ios.golditem.tier05\", \"USD\": \"4.99 USD\", \"Chip\": \"300K Chip\", \"amount\": \"177\", \"oldChip\": \"250K\", \"plus\": \"+50K\", \"ccost\": 5, \"value\": 300000 }, { \"itemid\": \"52ios.golditem.tier10\", \"USD\": \"9.99 USD\", \"Chip\": \"600K Chip\", \"amount\": \"354\", \"oldChip\": \"500K\", \"plus\": \"+100K\", \"ccost\": 10, \"value\": 600000 }, { \"itemid\": \"52ios.golditem.tier20\", \"USD\": \"19.99 USD\", \"Chip\": \"1.2M Chip\", \"amount\": \"709\", \"oldChip\": \"1M\", \"plus\": \"+200K\", \"ccost\": 20, \"value\": 1200000 }, { \"itemid\": \"52ios.golditem.tier50\", \"USD\": \"49.99 USD\", \"Chip\": \"3M Chip\", \"amount\": \"1774\", \"oldChip\": \"2.5M\", \"plus\": \"+500K\", \"ccost\": 50, \"value\": 3000000 }, { \"itemid\": \"52ios.golditem.tier100\", \"USD\": \"99.99 USD\", \"Chip\": \"6M Chip\", \"amount\": \"3549\", \"oldChip\": \"5M\", \"plus\": \"+1M\", \"ccost\": 100, \"value\": 6000000 } ], \"card_items\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Chip\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Chip\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"605K Chip\", \"p\": \"+105K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 605000 }, { \"old\": \"1M\", \"new\": \"1.22M Chip\", \"p\": \"+220K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1220000 }, { \"old\": \"2.5M\", \"new\": \"3.1M Chip\", \"p\": \"+0.6M\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3100000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Chip\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Chip\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"605K Chip\", \"p\": \"+105K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 605000 }, { \"old\": \"1M\", \"new\": \"1.22M Chip\", \"p\": \"+220K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1220000 }, { \"old\": \"2.5M\", \"new\": \"3.1M Chip\", \"p\": \"+0.6M\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3100000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Chip\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Chip\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"605K Chip\", \"p\": \"+105K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 605000 }, { \"old\": \"1M\", \"new\": \"1.22M Chip\", \"p\": \"+220K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1220000 }, { \"old\": \"2.5M\", \"new\": \"3.1M Chip\", \"p\": \"+0.6M\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3100000 } ] } ], \"sms_items\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"25K\", \"new\": \"30K Chip\", \"p\": \"+5K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw 10000 teen NAP 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 30000 }, { \"old\": \"37.5K\", \"new\": \"45K Chip\", \"p\": \"+7.5K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw 15000 teen NAP 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 45000 }, { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw 20000 teen NAP 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 60000 }, { \"old\": \"75K\", \"new\": \"90K Chip\", \"p\": \"+15K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw 30000 teen NAP 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 90000 }, { \"old\": \"125K\", \"new\": \"155K Chip\", \"p\": \"+30K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw 50000 teen NAP 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 155000 }, { \"old\": \"250K\", \"new\": \"320K Chip\", \"p\": \"+70K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw 100000 teen NAP 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 320000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"25K\", \"new\": \"30K\", \"p\": \"+5K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 30000 }, { \"old\": \"37.5K\", \"new\": \"45K Chip\", \"p\": \"+7.5K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 45000 }, { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 60000 }, { \"old\": \"75K\", \"new\": \"90K Chip\", \"p\": \"+15K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 90000 }, { \"old\": \"125K\", \"new\": \"155K Chip\", \"p\": \"+30K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 155000 }, { \"old\": \"250K\", \"new\": \"320K Chip\", \"p\": \"+70K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap100 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 320000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"25K\", \"new\": \"30K Chip\", \"p\": \"+5K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 30000 }, { \"old\": \"37.5K\", \"new\": \"45K Chip\", \"p\": \"+7.5K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 45000 }, { \"old\": \"50K\", \"new\": \"60K Chip\", \"p\": \"+10K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 60000 }, { \"old\": \"75K\", \"new\": \"90K Chip\", \"p\": \"+15K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 90000 }, { \"old\": \"125K\", \"new\": \"155K Chip\", \"p\": \"+30K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 155000 }, { \"old\": \"250K\", \"new\": \"320K Chip\", \"p\": \"+70K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 320000, \"hide\": true } ] } ], \"iap_items_gold\": [ { \"itemid\": \"52ios.golditem.tier1\", \"USD\": \"0.99 USD\", \"Chip\": \"60K Gold\", \"amount\": \"35\", \"oldChip\": \"50K\", \"plus\": \"+10K\", \"ccost\": 1, \"value\": 60000 }, { \"itemid\": \"52ios.golditem.tier2\", \"USD\": \"4.99 USD\", \"Chip\": \"300K Gold\", \"amount\": \"177\", \"oldChip\": \"250K\", \"plus\": \"+50K\", \"ccost\": 5, \"value\": 300000 }, { \"itemid\": \"52ios.golditem.tier3\", \"USD\": \"9.99 USD\", \"Chip\": \"600K Gold\", \"amount\": \"354\", \"oldChip\": \"500K\", \"plus\": \"+100K\", \"ccost\": 10, \"value\": 600000 }, { \"itemid\": \"52ios.golditem.tier4\", \"USD\": \"19.99 USD\", \"Chip\": \"1.2M Gold\", \"amount\": \"709\", \"oldChip\": \"1M\", \"plus\": \"+200K\", \"ccost\": 20, \"value\": 1200000 }, { \"itemid\": \"52ios.golditem.tier5\", \"USD\": \"49.99 USD\", \"Chip\": \"3M Gold\", \"amount\": \"1774\", \"oldChip\": \"2.5M\", \"plus\": \"+500K\", \"ccost\": 50, \"value\": 3000000 }, { \"itemid\": \"52ios.golditem.tier6\", \"USD\": \"99.99 USD\", \"Chip\": \"6M Gold\", \"amount\": \"3549\", \"oldChip\": \"5M\", \"plus\": \"+1M\", \"ccost\": 100, \"value\": 6000000 } ], \"card_items_gold\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Gold\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Gold\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"600K Gold\", \"p\": \"+100K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 600000 }, { \"old\": \"1M\", \"new\": \"1.2M Gold\", \"p\": \"+200K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1200000 }, { \"old\": \"2.5M\", \"new\": \"3M Gold\", \"p\": \"+500K\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3000000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Gold\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Gold\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"600K Gold\", \"p\": \"+100K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 600000 }, { \"old\": \"1M\", \"new\": \"1.2M Gold\", \"p\": \"+200K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1200000 }, { \"old\": \"2.5M\", \"new\": \"3M Gold\", \"p\": \"+500K\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3000000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"50K\", \"new\": \"60K Gold\", \"p\": \"+10K\", \"cost\": \"10K VND\", \"ccost\": 10000, \"value\": 60000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"+20K\", \"cost\": \"20K VND\", \"ccost\": 20000, \"value\": 120000 }, { \"old\": \"250K\", \"new\": \"300K Gold\", \"p\": \"+50K\", \"cost\": \"50K VND\", \"ccost\": 50000, \"value\": 300000 }, { \"old\": \"500K\", \"new\": \"600K Gold\", \"p\": \"+100K\", \"cost\": \"100K VND\", \"ccost\": 100000, \"value\": 600000 }, { \"old\": \"1M\", \"new\": \"1.2M Gold\", \"p\": \"+200K\", \"cost\": \"200K VND\", \"ccost\": 200000, \"value\": 1200000 }, { \"old\": \"2.5M\", \"new\": \"3M Gold\", \"p\": \"+500K\", \"cost\": \"500K VND\", \"ccost\": 500000, \"value\": 3000000 } ] } ], \"sms_items_gold\": [ { \"op\": \"VIETTEL\", \"items\": [ { \"old\": \"20K\", \"new\": \"24K Gold\", \"p\": \"4K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw 10000 teen NAP 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 24000 }, { \"old\": \"30K\", \"new\": \"36K Gold\", \"p\": \"6K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw 15000 teen NAP 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 36000 }, { \"old\": \"40K\", \"new\": \"48K Gold\", \"p\": \"8K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw 20000 teen NAP 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 48000 }, { \"old\": \"60K\", \"new\": \"72K Gold\", \"p\": \"12K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw 30000 teen NAP 52fun-%user%-%type%\", \"ccost\": 40000, \"value\": 72000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"20K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw 50000 teen NAP 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 120000 }, { \"old\": \"200K\", \"new\": \"240K Gold\", \"p\": \"40K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw 100000 teen NAP 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 240000 } ] }, { \"op\": \"MOBIFONE\", \"items\": [ { \"old\": \"20K\", \"new\": \"24K Gold\", \"p\": \"4K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 24000 }, { \"old\": \"30K\", \"new\": \"36K Gold\", \"p\": \"6K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 36000 }, { \"old\": \"40K\", \"new\": \"48K Gold\", \"p\": \"8K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 48000 }, { \"old\": \"60K\", \"new\": \"72K Gold\", \"p\": \"12K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 72000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"20K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 120000 }, { \"old\": \"200K\", \"new\": \"240K Gold\", \"p\": \"40K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap100 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 240000 } ] }, { \"op\": \"VINAPHONE\", \"items\": [ { \"old\": \"20K\", \"new\": \"24K Gold\", \"p\": \"4K\", \"cost\": \"10K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap10 52fun-%user%-%type%\", \"ccost\": 10000, \"value\": 24000 }, { \"old\": \"30K\", \"new\": \"36K Gold\", \"p\": \"6K\", \"cost\": \"15K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap15 52fun-%user%-%type%\", \"ccost\": 15000, \"value\": 36000 }, { \"old\": \"40K\", \"new\": \"48K Gold\", \"p\": \"8K\", \"cost\": \"20K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap20 52fun-%user%-%type%\", \"ccost\": 20000, \"value\": 48000 }, { \"old\": \"60K\", \"new\": \"72K Gold\", \"p\": \"12K\", \"cost\": \"30K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap30 52fun-%user%-%type%\", \"ccost\": 30000, \"value\": 72000 }, { \"old\": \"100K\", \"new\": \"120K Gold\", \"p\": \"20K\", \"cost\": \"50K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap50 52fun-%user%-%type%\", \"ccost\": 50000, \"value\": 120000 }, { \"old\": \"200K\", \"new\": \"240K Gold\", \"p\": \"40K\", \"cost\": \"100K VND\", \"add\": \"+9029\", \"content\": \"mw teen nap100 52fun-%user%-%type%\", \"ccost\": 100000, \"value\": 240000 } ] } ], \"convert_gold_to_chip\": [ { \"gold\": 50000, \"chip\": 50000 }, { \"gold\": 100000, \"chip\": 100000 }, { \"gold\": 500000, \"chip\": 500000 }, { \"gold\": 1000000, \"chip\": 1000000 }, { \"gold\": 5000000, \"chip\": 5000000 }, { \"gold\": 10000000, \"chip\": 10000000 } ], \"convert_chip_to_gold\": [ { \"gold\": 50000, \"chip\": 65000 }, { \"gold\": 100000, \"chip\": 130000 }, { \"gold\": 500000, \"chip\": 650000 }, { \"gold\": 1000000, \"chip\": 1300000 }, { \"gold\": 5000000, \"chip\": 6500000 }, { \"gold\": 10000000, \"chip\": 13000000 } ] }";
 
-		doHTTPRequest (url, onSuccess, onFailed);
+				PaymentScene.rawData = result;
+				previousScene = Application.loadedLevelName;
+				LevelManager.Load (GameApplication.PAYMENTSCENE);
+				Tracking.changeScene ("PAYMENT", true);
+			};
+			Utils.Executor onFailed = delegate() {
+				showToast (Strings.instance.common_network_error);
+			};
 
-		DSTFBEvent.LogAppEvent(DSTFBEvent.UnityPurchaseClick, (float)1f, DSTFBEvent.defaultParams);
+			doHTTPRequest (url, onSuccess, onFailed);
+
+			DSTFBEvent.LogAppEvent (DSTFBEvent.UnityPurchaseClick, (float)1f, DSTFBEvent.defaultParams);
+		}
 	}
 
 	public void gotoPersonalScreen ()
@@ -1257,6 +1271,7 @@ public class SuperScene : MonoBehaviour
 //		btt_stake.transform.localScale = new Vector3 (0.54f, 0.54f,1.0f);
 //		BannerScene bt_stake1 = btt_stake.GetComponent<BannerScene> ();
 		bannerScene.gameObject.SetActive(true);
+		bannerScene.showBanner (i);
 	}
 
 	public void connectSocketIO(){
@@ -1290,25 +1305,18 @@ public class SuperScene : MonoBehaviour
 	}
 
 	public void onEventIO(Socket socket, Packet packet, params object[] args){
-		//		packet.Parse (packet.Encode ());
-		Debug.Log(packet.Payload);
-		return;
+		if (GameApplication.gameApp == GameApplication.GameApp.G52Fun)
+			return;
 		var serviceData = JSONNode.Parse (packet.RemoveEventName(true));
 		string evt = serviceData ["event"];
 		if (String.IsNullOrEmpty (evt)) {
 			return;
 		}
 		if (evt.Equals ("news")) {
-//			return;
 			GameApplication.bannerData.Clear ();
-			//			bannerScene.gameObject.SetActive (true);
-			//			if (String.IsNullOrEmpty (serviceData ["data"])) {
-			//				return;
-			//			}
 			JSONArray jarr = serviceData ["data"].AsArray;
-			Debug.LogError ("Co vao day k00 ===> " + jarr.Count);
-
-			for (int i = 0; i < jarr.Count; i++) {
+			int count = jarr.Count;
+			for (int i = 0; i < count; i++) {
 				BannerData bannerData1 = new BannerData ();
 				var data = jarr [i];
 				int type = data ["type"].AsInt;
@@ -1328,8 +1336,8 @@ public class SuperScene : MonoBehaviour
 				bannerData1.posClose = pos;
 
 				JSONArray jarrButton = data ["arrButton"].AsArray;
-
-				for (int j = 0; j < jarrButton.Count; j++) {
+				int size = jarrButton.Count;
+				for (int j = 0; j < size; j++) {
 					BannerItem item = new BannerItem();
 					item.cost = data["arrButton"][j]["cost"];
 					item.type = data["arrButton"][j]["type"];
@@ -1346,16 +1354,14 @@ public class SuperScene : MonoBehaviour
 					item.urllink = data["arrButton"][j]["urllink"];
 					item.btype = data["arrButton"][j]["btype"].AsInt;
 					item.bstyle = data["arrButton"][j]["bstyle"].AsInt;
-					item.showTextButton = data["arrButton"][j]["showTextButton"].AsBool;
+					if (!String.IsNullOrEmpty (data ["arrButton"] [j] ["showTextButton"].ToString ())) {
+						item.showTextButton = data["arrButton"][j]["showTextButton"].AsBool;
+					}
 					bannerData1.arrValue_type20.Add (item);
 				}
-				Debug.LogError ("Co vao day k11 ===> ");
 				GameApplication.bannerData.Add (bannerData1);
-				Debug.LogError ("Co vao day k22 ===> ");
 			}
-			Debug.LogError ("Co vao day k ===> ");
 			if (GameApplication.bannerData.Count > 0) {
-				Debug.LogError ("Co vao day k");
 				SuperScene.instance.showBanner (0);
 			}
 		}

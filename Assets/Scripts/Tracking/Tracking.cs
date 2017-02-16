@@ -2,21 +2,21 @@
 using System.Collections;
 using SimpleJSON;
 using System.Collections.Generic;
+using System;
 
 public class Tracking
 {
 	public static void regInfo(){
 		JSONClass data = new JSONClass();
 		data ["disid"].AsInt = DB.getInstance.getStoredDisID();
-		data ["bundle"] = "com.gamebigone.chaonammoi2017";
-		data ["app_version"] = GameApplication.versionname;
+		data ["bundle"] = Application.bundleIdentifier;
+		data ["app_version"] = Application.version;
 		data ["operator"].AsInt = GameApplication.operatorID;
 		data ["did"] = GameApplication.getUniqueIdentifier();
-		#if UNITY_EDITOR
-			data ["provider"] = "unknow";
-		#else
-			data ["provider"] = Countly.Bindings.GetCarrierName();	
-		#endif
+		if(!String.IsNullOrEmpty(Countly.Bindings.GetCarrierName())){
+			data ["provider"] = Countly.Bindings.GetCarrierName();
+		}else
+			data ["provider"] = "unknonw";
 
 		data ["device_OS"] = GameApplication.getOSDevice;
 		data ["device_OS_version"] = "frl";
@@ -33,7 +33,7 @@ public class Tracking
 		data ["scene_name"] = "LOGIN_VIEW";
 		if (GameApplication.checkConnectSocketIO) {
 			GameApplication.socketIO.Emit("reginfo", data.ToString());
-			Debug.LogError ("LOG TRACKING EVENT CONNECT ===> " + data.ToString ());
+//			Debug.LogError ("LOG TRACKING EVENT CONNECT ===> " + data.ToString ());
 		}
 	}
 
@@ -48,11 +48,10 @@ public class Tracking
 			data ["vip"].AsInt = GameApplication.user.vip;
 			data ["lq"].AsInt = GameApplication.user.lq;
 			data ["dm"].AsInt = GameApplication.user.dm;
-			#if UNITY_EDITOR
-				data ["provider"] = "unknow";
-			#else
-				data ["provider"] = Countly.Bindings.GetCarrierName();	
-			#endif
+			if(!String.IsNullOrEmpty(Countly.Bindings.GetCarrierName())){
+				data ["provider"] = Countly.Bindings.GetCarrierName();
+			}else
+				data ["provider"] = "unknonw";
 			data ["operator"].AsInt = GameApplication.operatorID;
 			if(sceneName.Equals(GameApplication.LOGINSCENE) && !isTabsScene)
 				sceneName = "LOGIN_VIEW";
@@ -65,7 +64,7 @@ public class Tracking
 			data ["scene_name"] = sceneName;
 			if (GameApplication.checkConnectSocketIO) {
 				GameApplication.socketIO.Emit("changeScene", data.ToString());
-				Debug.LogError ("LOG TRACKING EVENT CHANGE SCENE ===> " + data.ToString ());
+//				Debug.LogError ("LOG TRACKING EVENT CHANGE SCENE ===> " + data.ToString ());
 			}
 		}
 	}
@@ -97,7 +96,7 @@ public class Tracking
 				data ["event"] = "clickButtonOpenCashout";
 			if (GameApplication.checkConnectSocketIO) {
 				GameApplication.socketIO.Emit("event", data.ToString());
-				Debug.LogError ("LOG TRACKING EVENT CLICKBUTTON BANNER ===> " + data.ToString ());
+//				Debug.LogError ("LOG TRACKING EVENT CLICKBUTTON BANNER ===> " + data.ToString ());
 			}
 		}
 	}
@@ -112,7 +111,7 @@ public class Tracking
 			data ["event"] = "leaveTable";
 			if (GameApplication.checkConnectSocketIO) {
 				GameApplication.socketIO.Emit("event", data.ToString());
-				Debug.LogError ("LOG TRACKING EVENT LEAVE TABLE ===> " + data.ToString ());
+//				Debug.LogError ("LOG TRACKING EVENT LEAVE TABLE ===> " + data.ToString ());
 			}
 		}
 	}
@@ -125,7 +124,7 @@ public class Tracking
 			data ["stake"].AsInt = stake;
 			if (GameApplication.checkConnectSocketIO) {
 				GameApplication.socketIO.Emit("event", data.ToString());
-				Debug.LogError ("LOG TRACKING EVENT CTABLE ===> " + data.ToString ());
+//				Debug.LogError ("LOG TRACKING EVENT CTABLE ===> " + data.ToString ());
 			}
 		}
 	}
@@ -138,7 +137,7 @@ public class Tracking
 			data ["tableId"].AsInt = tid;
 			if (GameApplication.checkConnectSocketIO) {
 				GameApplication.socketIO.Emit("event", data.ToString());
-				Debug.LogError ("LOG TRACKING EVENT JOINTABLE ===> " + data.ToString ());
+//				Debug.LogError ("LOG TRACKING EVENT JOINTABLE ===> " + data.ToString ());
 			}
 		}
 	}
@@ -153,7 +152,7 @@ public class Tracking
 			data ["event"] = "statepayment";
 			if (GameApplication.checkConnectSocketIO) {
 				GameApplication.socketIO.Emit("event", data.ToString());
-				Debug.LogError ("LOG TRACKING EVENT STATE PAYMENT ===> " + data.ToString ());
+//				Debug.LogError ("LOG TRACKING EVENT STATE PAYMENT ===> " + data.ToString ());
 			}
 		}
 	}
@@ -186,7 +185,7 @@ public class Tracking
 			data ["event"] = "finish";
 			if (GameApplication.checkConnectSocketIO) {
 				GameApplication.socketIO.Emit("event", data.ToString());
-				Debug.LogError ("LOG TRACKING EVENT FINISHGAME ===> " + data.ToString ());
+//				Debug.LogError ("LOG TRACKING EVENT FINISHGAME ===> " + data.ToString ());
 			}
 		}
 	}

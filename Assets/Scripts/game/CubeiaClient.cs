@@ -119,17 +119,17 @@ public class CubeiaClient
 				// 203.162.121.174
 				// thai: 203.150.82.49
 //				if(GameApplication.DEBUG_ON){
-					string IP = loginInfo.host;
-					if(IPCHOSEN.IP != null)
-						IP = IPCHOSEN.IP;
-//////
-					socket.BeginConnect (IP, PORT, new System.AsyncCallback (onConnect), socket);
-					connectedIP = IP;
-					Debug.Log("login host: "+ connectedIP);
+// 					string IP = loginInfo.host;
+// 					if(IPCHOSEN.IP != null)
+// 						IP = IPCHOSEN.IP;
+// //////
+// 					socket.BeginConnect (IP, PORT, new System.AsyncCallback (onConnect), socket);
+// 					connectedIP = IP;
+// 					Debug.Log("login host: "+ connectedIP);
 //				} else {
-//					Debug.Log("login host: "+ loginInfo.host);
-//					socket.BeginConnect (loginInfo.host, PORT, new System.AsyncCallback (onConnect), socket);
-//					connectedIP = loginInfo.host;
+					Debug.Log("login host: "+ loginInfo.host);
+					socket.BeginConnect (loginInfo.host, PORT, new System.AsyncCallback (onConnect), socket);
+					connectedIP = loginInfo.host;
 //				}
 
 				connected.WaitOne ();
@@ -148,12 +148,13 @@ public class CubeiaClient
 //			jsonUser ["Username"] = "3";
 			jsonUser ["From"] = "mbacay";
 
-			int GID = gameId;
-			if(IPCHOSEN.GAMEID != null)
-				GID = Int32.Parse (IPCHOSEN.GAMEID);;
-			Debug.Log("GID ==> "+ GID);
-			jsonUser ["gameid"].AsInt = GID; // 8004 gameId
+			// int GID = gameId;
+			// if(IPCHOSEN.GAMEID != null)
+			// 	GID = Int32.Parse (IPCHOSEN.GAMEID);;
+			// Debug.Log("GID ==> "+ GID);
+			// jsonUser ["gameid"].AsInt = GID; // 8004 gameId
 //			jsonUser ["gameid"].AsInt = 8011; // 8004
+			jsonUser ["gameid"].AsInt = gameId;
 			jsonUser ["deviceId"] = GameApplication.getUniqueIdentifier();
 //			jsonUser ["deviceId"] = "234567875432ssdsads";
 			jsonUser ["Signid"] = "qazwsxedcrfv123$%^789";
@@ -162,10 +163,11 @@ public class CubeiaClient
 			loginRequestPacket.user = jsonUser.ToString ();
 			loginRequestPacket.password = loginInfo.password;
 //			loginRequestPacket.password = "Thaygiaotre";
-			int OPE = loginInfo.operatorID;
-			if(IPCHOSEN.OPE != null)
-				OPE = Int32.Parse (IPCHOSEN.OPE);;
-			loginRequestPacket.operatorid = OPE;
+			// int OPE = loginInfo.operatorID;
+			// if(IPCHOSEN.OPE != null)
+			// 	OPE = Int32.Parse (IPCHOSEN.OPE);;
+			// loginRequestPacket.operatorid = OPE;
+			loginRequestPacket.operatorid = loginInfo.operatorID;
 //			loginRequestPacket.operatorid = 5200;
 			sendPacket (loginRequestPacket);
 		});

@@ -345,7 +345,7 @@ public class LobbyScene : SuperScene, IUpdateUserInfo
 			}
 		}
 
-		int size = GameApplication.stakeList.Capacity;
+		int size = GameApplication.stakeList.Count;
 		if (size >= 8)
 			size = 8;
 		string dialogPFpath = "prefabs/button_stake";

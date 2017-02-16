@@ -33,7 +33,6 @@ public class LoginScene : SuperScene
 		fbLogin.gameObject.SetActive (true);
 		fbLoggedOption.gameObject.SetActive (false);
 		FB.Init (SetInit, OnHideUnity);
-
 		Debug.Log("Carrier Name " + Countly.Bindings.GetCarrierName());
 	}
 
@@ -491,7 +490,7 @@ public class LoginScene : SuperScene
 			if(GameApplication.ENCODE == 1){
 				result = Utils.base64_decode(result);
 			}
-			Debug.Log ("result: " + result);
+			Debug.Log ("result: " + result); 
 			JSONClass jsonResult = JSONNode.Parse (result).AsObject;
 //			GameApplication.url_config_info = jsonResult ["url_config_info"]; // khong con lay url_config qua day nua
 			GameApplication.url_dis_register = jsonResult ["url_dis_register"];
@@ -505,7 +504,7 @@ public class LoginScene : SuperScene
 				getUpdateInfo(storedDisID);
 //				getUpdateInfo(2295);
 			} else {
-				DB.getInstance.storeVersion(GameApplication.versionname);
+				DB.getInstance.storeVersion(Application.version);
 				regDisIDAndGetUpdateInfo();
 			}
 		};
