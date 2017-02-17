@@ -101,11 +101,9 @@ public class CubeiaClient
 		SThread loginThread = new SThread (delegate {
 			// Do your threaded task. DON'T use the Unity API here
 			onConnecting = true;
-			Thread.Sleep(1000);
+			Thread.Sleep(2000);
 
 			if (!socket.Connected) {
-				LogoutPacket logoutPacket = new LogoutPacket();
-				sendPacket(logoutPacket);
 //				socket.Disconnect(reuseSocket:false);
 				connected.Reset ();
 
@@ -115,14 +113,15 @@ public class CubeiaClient
 				// 203.162.166.33
 				// 203.162.166.46
 				// 203.162.166.76
-				// 203.162.166.104
+//				 203.162.166.104
 				// 203.162.121.174
 				// thai: 203.150.82.49
 //				if(GameApplication.DEBUG_ON){
 // 					string IP = loginInfo.host;
 // 					if(IPCHOSEN.IP != null)
 // 						IP = IPCHOSEN.IP;
-// //////
+//				IP = "203.162.166.106";
+ //////
 // 					socket.BeginConnect (IP, PORT, new System.AsyncCallback (onConnect), socket);
 // 					connectedIP = IP;
 // 					Debug.Log("login host: "+ connectedIP);
@@ -495,16 +494,27 @@ public class CubeiaClient
 
 	public void disconnect ()
 	{
-//		LogoutPacket logoutPacket = new LogoutPacket();
+//		LogoutPacket logoutPacket = new LogoutPacket(leaveTables:true);
 //		sendPacket(logoutPacket);
+//		return;
 //		if (socket.Connected) 
 //		{
 //			socket.Shutdown(SocketShutdown.Both);
 //		}
-		if(GameApplication.DEBUG_ON)
-			Debug.LogWarning("cubeia disconnect");
-		if(socket.Connected)
-			socket.Disconnect (reuseSocket: false);
+		JSONClass obj = new JSONClass ();
+		obj ["evt"] = "logout"; 
+		sendService (obj);
+		Debug.LogWarning("socket.Connected, call socket.Disconnect");
+
+		new SThread (delegate {
+			Thread.Sleep(100);
+			if(GameApplication.DEBUG_ON)
+				Debug.LogWarning("cubeia disconnect");
+			if (socket.Connected) {
+				socket.Disconnect (reuseSocket: false);
+				socket.Close ();
+			}
+		}).Start ();			
 	}
 
 

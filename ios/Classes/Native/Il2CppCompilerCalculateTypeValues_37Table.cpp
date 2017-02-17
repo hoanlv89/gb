@@ -101,17 +101,17 @@
 #include "AssemblyU2DCSharp_Toast3649705739.h"
 #include "AssemblyU2DCSharp_WaitingDialog2062014917.h"
 #include "AssemblyU2DCSharp_UnityAnalyticsIntegration518666953.h"
+#include "AssemblyU2DCSharp_BannerData2627253310.h"
+#include "AssemblyU2DCSharp_BannerItem2270764687.h"
+#include "AssemblyU2DCSharp_BannerScene3245990610.h"
+#include "AssemblyU2DCSharp_BannerScene_U3CshowBannerU3Ec__An563770873.h"
+#include "AssemblyU2DCSharp_BannerScene_U3CshowBannerU3Ec__A3292654228.h"
 #include "AssemblyU2DCSharp_DSTFBEvent1429842317.h"
 #include "AssemblyU2DCSharp_DailyBonus3587515496.h"
 #include "AssemblyU2DCSharp_HTTPPOSTParam2574473185.h"
 #include "AssemblyU2DCSharp_Hints638492818.h"
 #include "AssemblyU2DCSharp_LoadBalancer148112434.h"
 #include "AssemblyU2DCSharp_LoadBalancer_Channel1072401606.h"
-#include "AssemblyU2DCSharp_LoadBalancer_U3CcheckConditionLo4053805338.h"
-#include "AssemblyU2DCSharp_IPConfig2412837625.h"
-#include "AssemblyU2DCSharp_GameConfig811207744.h"
-#include "AssemblyU2DCSharp_Mail3972794259.h"
-#include "AssemblyU2DCSharp_MsgChat2297980609.h"
 
 
 
@@ -143,11 +143,11 @@ extern const int32_t g_FieldOffsetTable3701[5] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3702 = { sizeof (SlotsGameScene_t2559174817), -1, sizeof(SlotsGameScene_t2559174817_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3702[5] = 
 {
-	SlotsGameScene_t2559174817::get_offset_of_playerName_29(),
-	SlotsGameScene_t2559174817::get_offset_of_playerGold_30(),
-	SlotsGameScene_t2559174817_StaticFields::get_offset_of_gold_31(),
-	SlotsGameScene_t2559174817::get_offset_of_avatar_32(),
-	SlotsGameScene_t2559174817::get_offset_of_user_33(),
+	SlotsGameScene_t2559174817::get_offset_of_playerName_30(),
+	SlotsGameScene_t2559174817::get_offset_of_playerGold_31(),
+	SlotsGameScene_t2559174817_StaticFields::get_offset_of_gold_32(),
+	SlotsGameScene_t2559174817::get_offset_of_avatar_33(),
+	SlotsGameScene_t2559174817::get_offset_of_user_34(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3703 = { sizeof (TransMatrixPos_t685997475), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3703[2] = 
@@ -784,8 +784,59 @@ extern const int32_t g_FieldOffsetTable3787[10] =
 	WaitingDialog_t2062014917::get_offset_of_maxVisibleTimeInSecond_11(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3788 = { sizeof (UnityAnalyticsIntegration_t518666953), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3789 = { sizeof (DSTFBEvent_t1429842317), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3789[50] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3789 = { sizeof (BannerData_t2627253310), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3789[7] = 
+{
+	BannerData_t2627253310::get_offset_of_type_0(),
+	BannerData_t2627253310::get_offset_of_desc_1(),
+	BannerData_t2627253310::get_offset_of_url_2(),
+	BannerData_t2627253310::get_offset_of_idPack_3(),
+	BannerData_t2627253310::get_offset_of_arrValue_type20_4(),
+	BannerData_t2627253310::get_offset_of_allowClose_5(),
+	BannerData_t2627253310::get_offset_of_posClose_6(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3790 = { sizeof (BannerItem_t2270764687), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3790[14] = 
+{
+	BannerItem_t2270764687::get_offset_of_type_0(),
+	BannerItem_t2270764687::get_offset_of_btn_1(),
+	BannerItem_t2270764687::get_offset_of_syntax_2(),
+	BannerItem_t2270764687::get_offset_of_addd_3(),
+	BannerItem_t2270764687::get_offset_of_cost_4(),
+	BannerItem_t2270764687::get_offset_of_bonus_5(),
+	BannerItem_t2270764687::get_offset_of_value_6(),
+	BannerItem_t2270764687::get_offset_of_comment_7(),
+	BannerItem_t2270764687::get_offset_of_ctype_8(),
+	BannerItem_t2270764687::get_offset_of_pos_9(),
+	BannerItem_t2270764687::get_offset_of_urllink_10(),
+	BannerItem_t2270764687::get_offset_of_btype_11(),
+	BannerItem_t2270764687::get_offset_of_bstyle_12(),
+	BannerItem_t2270764687::get_offset_of_showTextButton_13(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3791 = { sizeof (BannerScene_t3245990610), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3791[4] = 
+{
+	BannerScene_t3245990610::get_offset_of_close_2(),
+	BannerScene_t3245990610::get_offset_of_bg_3(),
+	BannerScene_t3245990610::get_offset_of_index_4(),
+	BannerScene_t3245990610::get_offset_of_buttons_5(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3792 = { sizeof (U3CshowBannerU3Ec__AnonStorey0_t563770873), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3792[3] = 
+{
+	U3CshowBannerU3Ec__AnonStorey0_t563770873::get_offset_of_sizeButton_0(),
+	U3CshowBannerU3Ec__AnonStorey0_t563770873::get_offset_of_bannerData_1(),
+	U3CshowBannerU3Ec__AnonStorey0_t563770873::get_offset_of_U24this_2(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3793 = { sizeof (U3CshowBannerU3Ec__AnonStorey1_t3292654228), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3793[3] = 
+{
+	U3CshowBannerU3Ec__AnonStorey1_t3292654228::get_offset_of_k_0(),
+	U3CshowBannerU3Ec__AnonStorey1_t3292654228::get_offset_of_item_1(),
+	U3CshowBannerU3Ec__AnonStorey1_t3292654228::get_offset_of_U3CU3Ef__refU240_2(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3794 = { sizeof (DSTFBEvent_t1429842317), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3794[50] = 
 {
 	0,
 	0,
@@ -838,26 +889,26 @@ extern const int32_t g_FieldOffsetTable3789[50] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3790 = { sizeof (DailyBonus_t3587515496), -1, sizeof(DailyBonus_t3587515496_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3790[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3795 = { sizeof (DailyBonus_t3587515496), -1, sizeof(DailyBonus_t3587515496_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3795[2] = 
 {
 	DailyBonus_t3587515496::get_offset_of_money_0(),
 	DailyBonus_t3587515496_StaticFields::get_offset_of_listDailyBonus_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3791 = { sizeof (HTTPPOSTParam_t2574473185), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3791[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3796 = { sizeof (HTTPPOSTParam_t2574473185), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3796[2] = 
 {
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3792 = { sizeof (Hints_t638492818), -1, sizeof(Hints_t638492818_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3792[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3797 = { sizeof (Hints_t638492818), -1, sizeof(Hints_t638492818_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3797[2] = 
 {
 	Hints_t638492818_StaticFields::get_offset_of_hints_0(),
 	Hints_t638492818_StaticFields::get_offset_of_index_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3793 = { sizeof (LoadBalancer_t148112434), -1, sizeof(LoadBalancer_t148112434_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3793[10] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3798 = { sizeof (LoadBalancer_t148112434), -1, sizeof(LoadBalancer_t148112434_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3798[10] = 
 {
 	LoadBalancer_t148112434_StaticFields::get_offset_of_instance_0(),
 	LoadBalancer_t148112434_StaticFields::get_offset_of_inVIPChannel_1(),
@@ -870,64 +921,12 @@ extern const int32_t g_FieldOffsetTable3793[10] =
 	LoadBalancer_t148112434::get_offset_of_gameips_8(),
 	LoadBalancer_t148112434::get_offset_of_gameConfigs_9(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3794 = { sizeof (Channel_t1072401606)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable3794[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3799 = { sizeof (Channel_t1072401606)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3799[3] = 
 {
 	Channel_t1072401606::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3795 = { sizeof (U3CcheckConditionLoginU3Ec__AnonStorey0_t4053805338), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3795[1] = 
-{
-	U3CcheckConditionLoginU3Ec__AnonStorey0_t4053805338::get_offset_of_dialog_0(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3796 = { sizeof (IPConfig_t2412837625), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3796[6] = 
-{
-	IPConfig_t2412837625::get_offset_of_minGold_0(),
-	IPConfig_t2412837625::get_offset_of_maxGold_1(),
-	IPConfig_t2412837625::get_offset_of_ip_2(),
-	IPConfig_t2412837625::get_offset_of_enable_3(),
-	IPConfig_t2412837625::get_offset_of_name_4(),
-	IPConfig_t2412837625::get_offset_of_isVIP_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3797 = { sizeof (GameConfig_t811207744), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3797[2] = 
-{
-	GameConfig_t811207744::get_offset_of_gameid_0(),
-	GameConfig_t811207744::get_offset_of_ipsConfig_1(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3798 = { sizeof (Mail_t3972794259), -1, sizeof(Mail_t3972794259_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3798[14] = 
-{
-	Mail_t3972794259::get_offset_of_id_0(),
-	Mail_t3972794259::get_offset_of_t_1(),
-	Mail_t3972794259::get_offset_of_vip_2(),
-	Mail_t3972794259::get_offset_of_from_3(),
-	Mail_t3972794259::get_offset_of_to_4(),
-	Mail_t3972794259::get_offset_of_gold_5(),
-	Mail_t3972794259::get_offset_of_i_6(),
-	Mail_t3972794259::get_offset_of_msg_7(),
-	Mail_t3972794259::get_offset_of_time_8(),
-	Mail_t3972794259::get_offset_of_s_9(),
-	Mail_t3972794259::get_offset_of_d_10(),
-	Mail_t3972794259_StaticFields::get_offset_of_mails20_11(),
-	Mail_t3972794259_StaticFields::get_offset_of_mails21_12(),
-	Mail_t3972794259_StaticFields::get_offset_of_mails22_13(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3799 = { sizeof (MsgChat_t2297980609), -1, sizeof(MsgChat_t2297980609_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable3799[9] = 
-{
-	MsgChat_t2297980609::get_offset_of_type_0(),
-	MsgChat_t2297980609::get_offset_of_name_1(),
-	MsgChat_t2297980609::get_offset_of_vip_2(),
-	MsgChat_t2297980609::get_offset_of_msg_3(),
-	MsgChat_t2297980609::get_offset_of_url_4(),
-	MsgChat_t2297980609_StaticFields::get_offset_of_all_5(),
-	MsgChat_t2297980609_StaticFields::get_offset_of_game_6(),
-	MsgChat_t2297980609_StaticFields::get_offset_of_thegio_7(),
-	MsgChat_t2297980609_StaticFields::get_offset_of_rieng_8(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

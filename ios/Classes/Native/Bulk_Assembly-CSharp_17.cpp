@@ -13,6 +13,26 @@
 #include <limits>
 #include <assert.h>
 
+// SMSSyntax
+struct SMSSyntax_t4262453374;
+// System.String
+struct String_t;
+// SimpleJSON.JSONArray
+struct JSONArray_t3986483147;
+// SocketIOChatSample
+struct SocketIOChatSample_t99431757;
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_t309261261;
+// BestHTTP.SocketIO.Socket
+struct Socket_t2716624701;
+// BestHTTP.SocketIO.Packet
+struct Packet_t1309324146;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// SocketIOChatSample/<RemoveChatTyping>c__AnonStorey0
+struct U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560;
+// SocketIOWePlaySample
+struct SocketIOWePlaySample_t2969631597;
 // SolidArc
 struct SolidArc_t995576091;
 // SoundManager
@@ -23,8 +43,6 @@ struct AudioClip_t1932558630;
 struct AudioClipU5BU5D_t2203355011;
 // Spine.Animation
 struct Animation_t4237671184;
-// System.String
-struct String_t;
 // Spine.ExposedList`1<Spine.Timeline>
 struct ExposedList_1_t1191433273;
 // Spine.Skeleton
@@ -203,8 +221,6 @@ struct ExposedList_1_t1910739666;
 struct TransformConstraintData_t3710849647;
 // Spine.SkeletonJson
 struct SkeletonJson_t2443889511;
-// System.Collections.Generic.Dictionary`2<System.String,System.Object>
-struct Dictionary_2_t309261261;
 // Spine.SkeletonJson/LinkedMesh
 struct LinkedMesh_t3505709325;
 // System.Collections.Generic.Dictionary`2<Spine.Skin/AttachmentKeyTuple,Spine.Attachment>
@@ -291,53 +307,115 @@ struct SpineBeginnerTwo_t3087270609;
 struct U3CDoDemoRoutineU3Ec__Iterator0_t3731070716;
 // Spine.Unity.Examples.SpineBlinkPlayer
 struct SpineBlinkPlayer_t1942739946;
-// Spine.Unity.Examples.SpineBlinkPlayer/<Start>c__Iterator0
-struct U3CStartU3Ec__Iterator0_t3447213293;
-// Spine.Unity.Examples.Spineboy
-struct Spineboy_t2033372883;
-// Spine.Unity.Examples.SpineboyBeginnerInput
-struct SpineboyBeginnerInput_t2446930765;
-// Spine.Unity.Examples.SpineboyBeginnerModel
-struct SpineboyBeginnerModel_t590323670;
-// Spine.Unity.Examples.SpineboyBeginnerModel/<JumpRoutine>c__Iterator0
-struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_SMSSyntax4262453374.h"
+#include "AssemblyU2DCSharp_SMSSyntax4262453374MethodDeclarations.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Object2689449295MethodDeclarations.h"
+#include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONArray3986483147.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3631574506MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONNode1250409636MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONClass1609506608.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3631574506.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_SimpleJSON_JSONNode1250409636.h"
+#include "AssemblyU2DCSharp_SocketIOChatSample99431757.h"
+#include "AssemblyU2DCSharp_SocketIOChatSample99431757MethodDeclarations.h"
+#include "mscorlib_System_TimeSpan3430258949MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
+#include "mscorlib_System_TimeSpan3430258949.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "mscorlib_System_DateTime693205669.h"
+#include "mscorlib_System_DateTime693205669MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_SocketOptions3023631931MethodDeclarations.h"
+#include "System_System_Uri19570940MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_SocketManager3470268644MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_Events_SocketIOC88619200MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_Socket2716624701MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_SocketOptions3023631931.h"
+#include "AssemblyU2DCSharp_SocketIOChatSample_ChatStates4095670774.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "System_System_Uri19570940.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_SocketManager3470268644.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_Socket2716624701.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_Packet1309324146.h"
+#include "mscorlib_ArrayTypes.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_Events_SocketIOC88619200.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_SocketIOEventT2290781438.h"
+#include "UnityEngine_UnityEngine_Input1785128008MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SampleDescriptor3285910703MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_KeyCode2283395152.h"
+#include "AssemblyU2DCSharp_SampleSelector120846305.h"
+#include "AssemblyU2DCSharp_SampleSelector120846305MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SampleDescriptor3285910703.h"
+#include "System_Core_System_Action3226471752MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Examples_GUIHelper1081137527MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Examples_GUIHelper1081137527.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "System_Core_System_Action3226471752.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261MethodDeclarations.h"
+#include "mscorlib_System_Convert2607082565MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SocketIOChatSample_U3CRemoveChatT210249560MethodDeclarations.h"
+#include "mscorlib_System_Predicate_1_gen472190348MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SocketIOChatSample_U3CRemoveChatT210249560.h"
+#include "mscorlib_System_Predicate_1_gen472190348.h"
+#include "AssemblyU2DCSharp_Debug154383703MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "UnityEngine_UnityEngine_GUILayout2579273657MethodDeclarations.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "UnityEngine_UnityEngine_GUILayoutOption4183744904.h"
+#include "UnityEngine_UnityEngine_GUI4082743951MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "AssemblyU2DCSharp_SocketIOChatSample_ChatStates4095670774MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SocketIOWePlaySample2969631597.h"
+#include "AssemblyU2DCSharp_SocketIOWePlaySample2969631597MethodDeclarations.h"
 #include "AssemblyU2DCSharp_SocketIOWePlaySample_States2200208360.h"
+#include "UnityEngine_UnityEngine_Screen786852042MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_PlayerPrefs3325146001MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
+#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2243626319MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_SocketIO_Packet1309324146MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2766455145MethodDeclarations.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "UnityEngine_UnityEngine_TextureFormat1386130234.h"
+#include "UnityEngine_UnityEngine_FilterMode10814199.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2766455145.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
 #include "AssemblyU2DCSharp_SocketIOWePlaySample_States2200208360MethodDeclarations.h"
 #include "AssemblyU2DCSharp_SolidArc995576091.h"
 #include "AssemblyU2DCSharp_SolidArc995576091MethodDeclarations.h"
-#include "mscorlib_System_Void1841601450.h"
-#include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
-#include "mscorlib_System_Single2076509932.h"
 #include "AssemblyU2DCSharp_SoundManager654432262.h"
 #include "AssemblyU2DCSharp_SoundManager654432262MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Component3819376471MethodDeclarations.h"
-#include "mscorlib_System_Boolean3825574718.h"
-#include "UnityEngine_UnityEngine_Object1021602117.h"
 #include "UnityEngine_UnityEngine_GameObject1756533147.h"
 #include "UnityEngine_UnityEngine_AudioClip1932558630.h"
 #include "AssemblyU2DCSharp_DB3235597902MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioSource1135106623MethodDeclarations.h"
 #include "AssemblyU2DCSharp_DB3235597902.h"
 #include "UnityEngine_UnityEngine_AudioSource1135106623.h"
-#include "UnityEngine_ArrayTypes.h"
 #include "UnityEngine_UnityEngine_Random1170710517MethodDeclarations.h"
-#include "mscorlib_System_Int322071877448.h"
 #include "AssemblyU2DCSharp_Spine_Animation4237671184.h"
 #include "AssemblyU2DCSharp_Spine_Animation4237671184MethodDeclarations.h"
-#include "mscorlib_System_String2029220233.h"
 #include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1191433273.h"
-#include "mscorlib_System_Object2689449295MethodDeclarations.h"
 #include "mscorlib_System_ArgumentNullException628810857MethodDeclarations.h"
 #include "mscorlib_System_ArgumentNullException628810857.h"
 #include "AssemblyU2DCSharp_Spine_Skeleton1387859465.h"
 #include "AssemblyU2DCSharp_Spine_ExposedList_1_gen876769054.h"
 #include "Assembly-CSharp_ArrayTypes.h"
-#include "mscorlib_ArrayTypes.h"
 #include "AssemblyU2DCSharp_Spine_AnimationState1491536497.h"
 #include "AssemblyU2DCSharp_Spine_AnimationState1491536497MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_AnimationStateData3672895841.h"
@@ -345,14 +423,10 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "System_Core_System_Collections_Generic_HashSet_1_ge405338302MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_ExposedList_1_gen876769054MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Pool_1_gen428500383MethodDeclarations.h"
-#include "System_Core_System_Action3226471752MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_EventQueue3612440949MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3162965251.h"
 #include "System_Core_System_Collections_Generic_HashSet_1_ge405338302.h"
 #include "AssemblyU2DCSharp_Spine_Pool_1_gen428500383.h"
-#include "System_Core_System_Action3226471752.h"
-#include "mscorlib_System_Object2689449295.h"
-#include "mscorlib_System_IntPtr2504060609.h"
 #include "AssemblyU2DCSharp_Spine_EventQueue3612440949.h"
 #include "AssemblyU2DCSharp_Spine_AnimationState_TrackEntryDe737668607.h"
 #include "mscorlib_System_Delegate3022476291MethodDeclarations.h"
@@ -376,7 +450,6 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "AssemblyU2DCSharp_Spine_BoneData1017935068.h"
 #include "AssemblyU2DCSharp_Spine_Event1819867114.h"
 #include "AssemblyU2DCSharp_Spine_SkeletonData548167897MethodDeclarations.h"
-#include "mscorlib_System_String2029220233MethodDeclarations.h"
 #include "mscorlib_System_ArgumentException3259014390MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_SkeletonData548167897.h"
 #include "mscorlib_System_ArgumentException3259014390.h"
@@ -417,7 +490,6 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "AssemblyU2DCSharp_Spine_Format1041889017.h"
 #include "AssemblyU2DCSharp_Spine_TextureFilter159958433.h"
 #include "mscorlib_System_Exception1927440687MethodDeclarations.h"
-#include "mscorlib_System_Char3454481338.h"
 #include "mscorlib_System_Exception1927440687.h"
 #include "AssemblyU2DCSharp_Spine_AtlasAttachmentLoader60125181.h"
 #include "AssemblyU2DCSharp_Spine_AtlasAttachmentLoader60125181MethodDeclarations.h"
@@ -445,7 +517,6 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "AssemblyU2DCSharp_Spine_Bone4151268332MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3208170272MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_MathUtils953695515MethodDeclarations.h"
-#include "mscorlib_System_Double4078015681.h"
 #include "AssemblyU2DCSharp_Spine_TransformMode1744404211.h"
 #include "AssemblyU2DCSharp_Spine_BoneData1017935068MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_VertexAttachment2755655897MethodDeclarations.h"
@@ -552,7 +623,6 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "AssemblyU2DCSharp_Spine_SkeletonBinary2375091280.h"
 #include "AssemblyU2DCSharp_Spine_SkeletonBinary2375091280MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2874830457MethodDeclarations.h"
-#include "mscorlib_System_Byte3683104436.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2874830457.h"
 #include "mscorlib_System_IO_FileStream1695958676MethodDeclarations.h"
 #include "mscorlib_System_IO_FileStream1695958676.h"
@@ -604,9 +674,7 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "AssemblyU2DCSharp_Spine_SkeletonJson2443889511MethodDeclarations.h"
 #include "mscorlib_System_IO_StreamReader2360341767MethodDeclarations.h"
 #include "mscorlib_System_IO_StreamReader2360341767.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2058570427MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261.h"
 #include "mscorlib_System_Collections_Generic_List_1_Enumera1593300101.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_22361573779.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_E1629285963.h"
@@ -614,13 +682,10 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "mscorlib_System_Collections_Generic_List_1_Enumera1593300101MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_E1629285963MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_22361573779MethodDeclarations.h"
-#include "mscorlib_System_Convert2607082565MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Skin_AttachmentKeyTupleCom2440604598.h"
 #include "AssemblyU2DCSharp_Spine_Skin_AttachmentKeyTupleCom2440604598MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Skin_AttachmentKeyTuple2709365911MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Ke644007690MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen1398341365MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Ke850013357.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Ke644007690.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Ke850013357MethodDeclarations.h"
@@ -639,13 +704,10 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "UnityEngine_UnityEngine_Material193706927.h"
 #include "UnityEngine_UnityEngine_ScriptableObject1975622470.h"
 #include "UnityEngine_UnityEngine_Shader2430389951.h"
-#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
 #include "UnityEngine_UnityEngine_Shader2430389951MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_TextAsset3973159845MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Material193706927MethodDeclarations.h"
 #include "mscorlib_System_StringComparison2376310518.h"
-#include "UnityEngine_UnityEngine_Texture2243626319.h"
-#include "AssemblyU2DCSharp_Debug154383703MethodDeclarations.h"
 #include "mscorlib_System_IO_StringReader1480123486MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MaterialsTextureLoad2451137492MethodDeclarations.h"
 #include "mscorlib_System_IO_StringReader1480123486.h"
@@ -655,7 +717,6 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "UnityEngine_UnityEngine_Color2020392075MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Vector32243707580MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Vector32243707580.h"
-#include "UnityEngine_UnityEngine_Vector22243707579.h"
 #include "UnityEngine_UnityEngine_Color2020392075.h"
 #include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3762068664.h"
 #include "UnityEngine_UnityEngine_Vector22243707579MethodDeclarations.h"
@@ -692,8 +753,6 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "AssemblyU2DCSharp_Spine_Unity_SpineMesh3359379360MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_Examples_AttackSpineb991261955.h"
 #include "AssemblyU2DCSharp_Spine_Unity_Examples_AttackSpineb991261955MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Input1785128008MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_KeyCode2283395152.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text356221433MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimation1845683983.h"
@@ -762,14 +821,6 @@ struct U3CJumpRoutineU3Ec__Iterator0_t245857141;
 #include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineBlinkP1942739946MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineBlinkP3447213293MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineBlinkP3447213293.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_Spineboy2033372883.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_Spineboy2033372883MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineboyBeg2446930765.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineboyBeg2446930765MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineboyBegi590323670.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineboyBegi590323670MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineboyBegi245857141MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_Unity_Examples_SpineboyBegi245857141.h"
 
 // !!0 System.Threading.Interlocked::CompareExchange<System.Object>(!!0&,!!0,!!0)
 extern "C"  Il2CppObject * Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject ** p0, Il2CppObject * p1, Il2CppObject * p2, const MethodInfo* method);
@@ -803,13 +854,2368 @@ extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m737565264_gs
 #define GameObject_AddComponent_TisRigidbody2D_t502193897_m2081092396(__this, method) ((  Rigidbody2D_t502193897 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m737565264_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody2D>()
 #define Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, method) ((  Rigidbody2D_t502193897 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
-// !!0 UnityEngine.Component::GetComponent<Spine.Unity.Examples.SpineboyBeginnerModel>()
-#define Component_GetComponent_TisSpineboyBeginnerModel_t590323670_m1846911942(__this, method) ((  SpineboyBeginnerModel_t590323670 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void SMSSyntax::.ctor(System.Int32,System.Int32,System.String,System.String)
+extern "C"  void SMSSyntax__ctor_m2932037699 (SMSSyntax_t4262453374 * __this, int32_t ___value0, int32_t ___cost1, String_t* ___syntax2, String_t* ___address3, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___value0;
+		__this->set_value_0(L_0);
+		int32_t L_1 = ___cost1;
+		__this->set_cost_1(L_1);
+		String_t* L_2 = ___syntax2;
+		__this->set_syntax_2(L_2);
+		String_t* L_3 = ___address3;
+		NullCheck(L_3);
+		String_t* L_4 = String_Replace_m534438427(L_3, ((int32_t)43), ((int32_t)32), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		String_t* L_5 = String_Trim_m2668767713(L_4, /*hidden argument*/NULL);
+		__this->set_address_3(L_5);
+		return;
+	}
+}
+// System.Void SMSSyntax::Init(SimpleJSON.JSONArray,SimpleJSON.JSONArray,SimpleJSON.JSONArray)
+extern Il2CppClass* SMSSyntax_t4262453374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Clear_m1995118828_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3982111529_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3006517489;
+extern Il2CppCodeGenString* _stringLiteral3068682862;
+extern Il2CppCodeGenString* _stringLiteral1561970665;
+extern Il2CppCodeGenString* _stringLiteral292744773;
+extern const uint32_t SMSSyntax_Init_m551661926_MetadataUsageId;
+extern "C"  void SMSSyntax_Init_m551661926 (Il2CppObject * __this /* static, unused */, JSONArray_t3986483147 * ___viettel_sms_data0, JSONArray_t3986483147 * ___mobi_sms_data1, JSONArray_t3986483147 * ___vina_sms_data2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SMSSyntax_Init_m551661926_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	JSONClass_t1609506608 * V_1 = NULL;
+	int32_t V_2 = 0;
+	JSONClass_t1609506608 * V_3 = NULL;
+	int32_t V_4 = 0;
+	JSONClass_t1609506608 * V_5 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		List_1_t3631574506 * L_0 = ((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->get_viettel_4();
+		NullCheck(L_0);
+		List_1_Clear_m1995118828(L_0, /*hidden argument*/List_1_Clear_m1995118828_MethodInfo_var);
+		V_0 = 0;
+		goto IL_0071;
+	}
+
+IL_0011:
+	{
+		JSONArray_t3986483147 * L_1 = ___viettel_sms_data0;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		JSONNode_t1250409636 * L_3 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_1, L_2);
+		NullCheck(L_3);
+		JSONClass_t1609506608 * L_4 = VirtFuncInvoker0< JSONClass_t1609506608 * >::Invoke(29 /* SimpleJSON.JSONClass SimpleJSON.JSONNode::get_AsObject() */, L_3);
+		V_1 = L_4;
+		IL2CPP_RUNTIME_CLASS_INIT(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		List_1_t3631574506 * L_5 = ((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->get_viettel_4();
+		JSONClass_t1609506608 * L_6 = V_1;
+		NullCheck(L_6);
+		JSONNode_t1250409636 * L_7 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_6, _stringLiteral3006517489);
+		NullCheck(L_7);
+		int32_t L_8 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_7);
+		JSONClass_t1609506608 * L_9 = V_1;
+		NullCheck(L_9);
+		JSONNode_t1250409636 * L_10 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_9, _stringLiteral3068682862);
+		NullCheck(L_10);
+		int32_t L_11 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_10);
+		JSONClass_t1609506608 * L_12 = V_1;
+		NullCheck(L_12);
+		JSONNode_t1250409636 * L_13 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_12, _stringLiteral1561970665);
+		String_t* L_14 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_15 = V_1;
+		NullCheck(L_15);
+		JSONNode_t1250409636 * L_16 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_15, _stringLiteral292744773);
+		String_t* L_17 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		SMSSyntax_t4262453374 * L_18 = (SMSSyntax_t4262453374 *)il2cpp_codegen_object_new(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		SMSSyntax__ctor_m2932037699(L_18, L_8, L_11, L_14, L_17, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		List_1_Add_m3982111529(L_5, L_18, /*hidden argument*/List_1_Add_m3982111529_MethodInfo_var);
+		int32_t L_19 = V_0;
+		V_0 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_0071:
+	{
+		int32_t L_20 = V_0;
+		JSONArray_t3986483147 * L_21 = ___viettel_sms_data0;
+		NullCheck(L_21);
+		int32_t L_22 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_21);
+		if ((((int32_t)L_20) < ((int32_t)L_22)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		List_1_t3631574506 * L_23 = ((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->get_mobifone_5();
+		NullCheck(L_23);
+		List_1_Clear_m1995118828(L_23, /*hidden argument*/List_1_Clear_m1995118828_MethodInfo_var);
+		V_2 = 0;
+		goto IL_00ee;
+	}
+
+IL_008e:
+	{
+		JSONArray_t3986483147 * L_24 = ___mobi_sms_data1;
+		int32_t L_25 = V_2;
+		NullCheck(L_24);
+		JSONNode_t1250409636 * L_26 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_24, L_25);
+		NullCheck(L_26);
+		JSONClass_t1609506608 * L_27 = VirtFuncInvoker0< JSONClass_t1609506608 * >::Invoke(29 /* SimpleJSON.JSONClass SimpleJSON.JSONNode::get_AsObject() */, L_26);
+		V_3 = L_27;
+		IL2CPP_RUNTIME_CLASS_INIT(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		List_1_t3631574506 * L_28 = ((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->get_mobifone_5();
+		JSONClass_t1609506608 * L_29 = V_3;
+		NullCheck(L_29);
+		JSONNode_t1250409636 * L_30 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_29, _stringLiteral3006517489);
+		NullCheck(L_30);
+		int32_t L_31 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_30);
+		JSONClass_t1609506608 * L_32 = V_3;
+		NullCheck(L_32);
+		JSONNode_t1250409636 * L_33 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_32, _stringLiteral3068682862);
+		NullCheck(L_33);
+		int32_t L_34 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_33);
+		JSONClass_t1609506608 * L_35 = V_3;
+		NullCheck(L_35);
+		JSONNode_t1250409636 * L_36 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_35, _stringLiteral1561970665);
+		String_t* L_37 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_38 = V_3;
+		NullCheck(L_38);
+		JSONNode_t1250409636 * L_39 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_38, _stringLiteral292744773);
+		String_t* L_40 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		SMSSyntax_t4262453374 * L_41 = (SMSSyntax_t4262453374 *)il2cpp_codegen_object_new(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		SMSSyntax__ctor_m2932037699(L_41, L_31, L_34, L_37, L_40, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		List_1_Add_m3982111529(L_28, L_41, /*hidden argument*/List_1_Add_m3982111529_MethodInfo_var);
+		int32_t L_42 = V_2;
+		V_2 = ((int32_t)((int32_t)L_42+(int32_t)1));
+	}
+
+IL_00ee:
+	{
+		int32_t L_43 = V_2;
+		JSONArray_t3986483147 * L_44 = ___mobi_sms_data1;
+		NullCheck(L_44);
+		int32_t L_45 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_44);
+		if ((((int32_t)L_43) < ((int32_t)L_45)))
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		List_1_t3631574506 * L_46 = ((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->get_vinaphone_6();
+		NullCheck(L_46);
+		List_1_Clear_m1995118828(L_46, /*hidden argument*/List_1_Clear_m1995118828_MethodInfo_var);
+		V_4 = 0;
+		goto IL_0174;
+	}
+
+IL_010c:
+	{
+		JSONArray_t3986483147 * L_47 = ___vina_sms_data2;
+		int32_t L_48 = V_4;
+		NullCheck(L_47);
+		JSONNode_t1250409636 * L_49 = VirtFuncInvoker1< JSONNode_t1250409636 *, int32_t >::Invoke(5 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32) */, L_47, L_48);
+		NullCheck(L_49);
+		JSONClass_t1609506608 * L_50 = VirtFuncInvoker0< JSONClass_t1609506608 * >::Invoke(29 /* SimpleJSON.JSONClass SimpleJSON.JSONNode::get_AsObject() */, L_49);
+		V_5 = L_50;
+		IL2CPP_RUNTIME_CLASS_INIT(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		List_1_t3631574506 * L_51 = ((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->get_vinaphone_6();
+		JSONClass_t1609506608 * L_52 = V_5;
+		NullCheck(L_52);
+		JSONNode_t1250409636 * L_53 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_52, _stringLiteral3006517489);
+		NullCheck(L_53);
+		int32_t L_54 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_53);
+		JSONClass_t1609506608 * L_55 = V_5;
+		NullCheck(L_55);
+		JSONNode_t1250409636 * L_56 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_55, _stringLiteral3068682862);
+		NullCheck(L_56);
+		int32_t L_57 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, L_56);
+		JSONClass_t1609506608 * L_58 = V_5;
+		NullCheck(L_58);
+		JSONNode_t1250409636 * L_59 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_58, _stringLiteral1561970665);
+		String_t* L_60 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_59, /*hidden argument*/NULL);
+		JSONClass_t1609506608 * L_61 = V_5;
+		NullCheck(L_61);
+		JSONNode_t1250409636 * L_62 = VirtFuncInvoker1< JSONNode_t1250409636 *, String_t* >::Invoke(7 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_61, _stringLiteral292744773);
+		String_t* L_63 = JSONNode_op_Implicit_m3223993463(NULL /*static, unused*/, L_62, /*hidden argument*/NULL);
+		SMSSyntax_t4262453374 * L_64 = (SMSSyntax_t4262453374 *)il2cpp_codegen_object_new(SMSSyntax_t4262453374_il2cpp_TypeInfo_var);
+		SMSSyntax__ctor_m2932037699(L_64, L_54, L_57, L_60, L_63, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		List_1_Add_m3982111529(L_51, L_64, /*hidden argument*/List_1_Add_m3982111529_MethodInfo_var);
+		int32_t L_65 = V_4;
+		V_4 = ((int32_t)((int32_t)L_65+(int32_t)1));
+	}
+
+IL_0174:
+	{
+		int32_t L_66 = V_4;
+		JSONArray_t3986483147 * L_67 = ___vina_sms_data2;
+		NullCheck(L_67);
+		int32_t L_68 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 SimpleJSON.JSONNode::get_Count() */, L_67);
+		if ((((int32_t)L_66) < ((int32_t)L_68)))
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void SMSSyntax::.cctor()
+extern Il2CppClass* List_1_t3631574506_il2cpp_TypeInfo_var;
+extern Il2CppClass* SMSSyntax_t4262453374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1175990813_MethodInfo_var;
+extern const uint32_t SMSSyntax__cctor_m3440769516_MetadataUsageId;
+extern "C"  void SMSSyntax__cctor_m3440769516 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SMSSyntax__cctor_m3440769516_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3631574506 * L_0 = (List_1_t3631574506 *)il2cpp_codegen_object_new(List_1_t3631574506_il2cpp_TypeInfo_var);
+		List_1__ctor_m1175990813(L_0, /*hidden argument*/List_1__ctor_m1175990813_MethodInfo_var);
+		((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->set_viettel_4(L_0);
+		List_1_t3631574506 * L_1 = (List_1_t3631574506 *)il2cpp_codegen_object_new(List_1_t3631574506_il2cpp_TypeInfo_var);
+		List_1__ctor_m1175990813(L_1, /*hidden argument*/List_1__ctor_m1175990813_MethodInfo_var);
+		((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->set_mobifone_5(L_1);
+		List_1_t3631574506 * L_2 = (List_1_t3631574506 *)il2cpp_codegen_object_new(List_1_t3631574506_il2cpp_TypeInfo_var);
+		List_1__ctor_m1175990813(L_2, /*hidden argument*/List_1__ctor_m1175990813_MethodInfo_var);
+		((SMSSyntax_t4262453374_StaticFields*)SMSSyntax_t4262453374_il2cpp_TypeInfo_var->static_fields)->set_vinaphone_6(L_2);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::.ctor()
+extern Il2CppClass* TimeSpan_t3430258949_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const uint32_t SocketIOChatSample__ctor_m1805305416_MetadataUsageId;
+extern "C"  void SocketIOChatSample__ctor_m1805305416 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample__ctor_m1805305416_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t3430258949_il2cpp_TypeInfo_var);
+		TimeSpan_t3430258949  L_0 = TimeSpan_FromMilliseconds_m664523225(NULL /*static, unused*/, (700.0), /*hidden argument*/NULL);
+		__this->set_TYPING_TIMER_LENGTH_2(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_userName_5(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_message_6(L_2);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_chatLog_7(L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_4 = ((DateTime_t693205669_StaticFields*)DateTime_t693205669_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
+		__this->set_lastTypingTime_10(L_4);
+		List_1_t1398341365 * L_5 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_5, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_typingUsers_11(L_5);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::Start()
+extern Il2CppClass* SocketOptions_t3023631931_il2cpp_TypeInfo_var;
+extern Il2CppClass* Uri_t19570940_il2cpp_TypeInfo_var;
+extern Il2CppClass* SocketManager_t3470268644_il2cpp_TypeInfo_var;
+extern Il2CppClass* SocketIOCallback_t88619200_il2cpp_TypeInfo_var;
+extern Il2CppClass* SocketIOChatSample_t99431757_il2cpp_TypeInfo_var;
+extern const MethodInfo* SocketIOChatSample_OnLogin_m1424088731_MethodInfo_var;
+extern const MethodInfo* SocketIOChatSample_OnNewMessage_m2342625371_MethodInfo_var;
+extern const MethodInfo* SocketIOChatSample_OnUserJoined_m1433097524_MethodInfo_var;
+extern const MethodInfo* SocketIOChatSample_OnUserLeft_m2199186524_MethodInfo_var;
+extern const MethodInfo* SocketIOChatSample_OnTyping_m737765829_MethodInfo_var;
+extern const MethodInfo* SocketIOChatSample_OnStopTyping_m378312117_MethodInfo_var;
+extern const MethodInfo* SocketIOChatSample_U3CStartU3Em__0_m706444600_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3408431066;
+extern Il2CppCodeGenString* _stringLiteral4283626287;
+extern Il2CppCodeGenString* _stringLiteral3040998683;
+extern Il2CppCodeGenString* _stringLiteral3336551770;
+extern Il2CppCodeGenString* _stringLiteral3738168938;
+extern Il2CppCodeGenString* _stringLiteral110354185;
+extern Il2CppCodeGenString* _stringLiteral2648911653;
+extern const uint32_t SocketIOChatSample_Start_m142337720_MetadataUsageId;
+extern "C"  void SocketIOChatSample_Start_m142337720 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_Start_m142337720_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SocketOptions_t3023631931 * V_0 = NULL;
+	int32_t G_B2_0 = 0;
+	Socket_t2716624701 * G_B2_1 = NULL;
+	int32_t G_B1_0 = 0;
+	Socket_t2716624701 * G_B1_1 = NULL;
+	{
+		__this->set_State_4(0);
+		SocketOptions_t3023631931 * L_0 = (SocketOptions_t3023631931 *)il2cpp_codegen_object_new(SocketOptions_t3023631931_il2cpp_TypeInfo_var);
+		SocketOptions__ctor_m4001265769(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		SocketOptions_t3023631931 * L_1 = V_0;
+		NullCheck(L_1);
+		SocketOptions_set_AutoConnect_m4273236204(L_1, (bool)0, /*hidden argument*/NULL);
+		Uri_t19570940 * L_2 = (Uri_t19570940 *)il2cpp_codegen_object_new(Uri_t19570940_il2cpp_TypeInfo_var);
+		Uri__ctor_m3927533881(L_2, _stringLiteral3408431066, /*hidden argument*/NULL);
+		SocketOptions_t3023631931 * L_3 = V_0;
+		SocketManager_t3470268644 * L_4 = (SocketManager_t3470268644 *)il2cpp_codegen_object_new(SocketManager_t3470268644_il2cpp_TypeInfo_var);
+		SocketManager__ctor_m2934227853(L_4, L_2, L_3, /*hidden argument*/NULL);
+		__this->set_Manager_3(L_4);
+		SocketManager_t3470268644 * L_5 = __this->get_Manager_3();
+		NullCheck(L_5);
+		Socket_t2716624701 * L_6 = SocketManager_get_Socket_m1073451663(L_5, /*hidden argument*/NULL);
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)SocketIOChatSample_OnLogin_m1424088731_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_8 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_8, __this, L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Socket_On_m2399965420(L_6, _stringLiteral4283626287, L_8, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_9 = __this->get_Manager_3();
+		NullCheck(L_9);
+		Socket_t2716624701 * L_10 = SocketManager_get_Socket_m1073451663(L_9, /*hidden argument*/NULL);
+		IntPtr_t L_11;
+		L_11.set_m_value_0((void*)(void*)SocketIOChatSample_OnNewMessage_m2342625371_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_12 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_12, __this, L_11, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Socket_On_m2399965420(L_10, _stringLiteral3040998683, L_12, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_13 = __this->get_Manager_3();
+		NullCheck(L_13);
+		Socket_t2716624701 * L_14 = SocketManager_get_Socket_m1073451663(L_13, /*hidden argument*/NULL);
+		IntPtr_t L_15;
+		L_15.set_m_value_0((void*)(void*)SocketIOChatSample_OnUserJoined_m1433097524_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_16 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_16, __this, L_15, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Socket_On_m2399965420(L_14, _stringLiteral3336551770, L_16, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_17 = __this->get_Manager_3();
+		NullCheck(L_17);
+		Socket_t2716624701 * L_18 = SocketManager_get_Socket_m1073451663(L_17, /*hidden argument*/NULL);
+		IntPtr_t L_19;
+		L_19.set_m_value_0((void*)(void*)SocketIOChatSample_OnUserLeft_m2199186524_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_20 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_20, __this, L_19, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		Socket_On_m2399965420(L_18, _stringLiteral3738168938, L_20, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_21 = __this->get_Manager_3();
+		NullCheck(L_21);
+		Socket_t2716624701 * L_22 = SocketManager_get_Socket_m1073451663(L_21, /*hidden argument*/NULL);
+		IntPtr_t L_23;
+		L_23.set_m_value_0((void*)(void*)SocketIOChatSample_OnTyping_m737765829_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_24 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_24, __this, L_23, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Socket_On_m2399965420(L_22, _stringLiteral110354185, L_24, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_25 = __this->get_Manager_3();
+		NullCheck(L_25);
+		Socket_t2716624701 * L_26 = SocketManager_get_Socket_m1073451663(L_25, /*hidden argument*/NULL);
+		IntPtr_t L_27;
+		L_27.set_m_value_0((void*)(void*)SocketIOChatSample_OnStopTyping_m378312117_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_28 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_28, __this, L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		Socket_On_m2399965420(L_26, _stringLiteral2648911653, L_28, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_29 = __this->get_Manager_3();
+		NullCheck(L_29);
+		Socket_t2716624701 * L_30 = SocketManager_get_Socket_m1073451663(L_29, /*hidden argument*/NULL);
+		SocketIOCallback_t88619200 * L_31 = ((SocketIOChatSample_t99431757_StaticFields*)SocketIOChatSample_t99431757_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_12();
+		G_B1_0 = 4;
+		G_B1_1 = L_30;
+		if (L_31)
+		{
+			G_B2_0 = 4;
+			G_B2_1 = L_30;
+			goto IL_0114;
+		}
+	}
+	{
+		IntPtr_t L_32;
+		L_32.set_m_value_0((void*)(void*)SocketIOChatSample_U3CStartU3Em__0_m706444600_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_33 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_33, NULL, L_32, /*hidden argument*/NULL);
+		((SocketIOChatSample_t99431757_StaticFields*)SocketIOChatSample_t99431757_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_12(L_33);
+		G_B2_0 = G_B1_0;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0114:
+	{
+		SocketIOCallback_t88619200 * L_34 = ((SocketIOChatSample_t99431757_StaticFields*)SocketIOChatSample_t99431757_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_12();
+		NullCheck(G_B2_1);
+		Socket_On_m4178233947(G_B2_1, G_B2_0, L_34, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_35 = __this->get_Manager_3();
+		NullCheck(L_35);
+		SocketManager_Open_m3980568512(L_35, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnDestroy()
+extern "C"  void SocketIOChatSample_OnDestroy_m1364262331 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	{
+		SocketManager_t3470268644 * L_0 = __this->get_Manager_3();
+		NullCheck(L_0);
+		SocketManager_Close_m3974133194(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::Update()
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern Il2CppClass* SampleSelector_t120846305_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* TimeSpan_t3430258949_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2648911653;
+extern const uint32_t SocketIOChatSample_Update_m4231897625_MetadataUsageId;
+extern "C"  void SocketIOChatSample_Update_m4231897625 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_Update_m4231897625_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DateTime_t693205669  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	TimeSpan_t3430258949  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetKeyDown_m1771960377(NULL /*static, unused*/, ((int32_t)27), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		SampleDescriptor_t3285910703 * L_1 = ((SampleSelector_t120846305_StaticFields*)SampleSelector_t120846305_il2cpp_TypeInfo_var->static_fields)->get_SelectedSample_4();
+		NullCheck(L_1);
+		SampleDescriptor_DestroyUnityObject_m3006314068(L_1, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		bool L_2 = __this->get_typing_9();
+		if (!L_2)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_3 = DateTime_get_UtcNow_m1309841468(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_3;
+		DateTime_t693205669  L_4 = V_0;
+		DateTime_t693205669  L_5 = __this->get_lastTypingTime_10();
+		TimeSpan_t3430258949  L_6 = DateTime_op_Subtraction_m3246456251(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		TimeSpan_t3430258949  L_7 = V_1;
+		TimeSpan_t3430258949  L_8 = __this->get_TYPING_TIMER_LENGTH_2();
+		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t3430258949_il2cpp_TypeInfo_var);
+		bool L_9 = TimeSpan_op_GreaterThanOrEqual_m3997050520(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		SocketManager_t3470268644 * L_10 = __this->get_Manager_3();
+		NullCheck(L_10);
+		Socket_t2716624701 * L_11 = SocketManager_get_Socket_m1073451663(L_10, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Socket_Emit_m3865940031(L_11, _stringLiteral2648911653, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		__this->set_typing_9((bool)0);
+	}
+
+IL_0068:
+	{
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnGUI()
+extern "C"  void SocketIOChatSample_OnGUI_m1709066608 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_State_4();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		goto IL_002f;
+	}
+
+IL_0019:
+	{
+		SocketIOChatSample_DrawLoginScreen_m3970540059(__this, /*hidden argument*/NULL);
+		goto IL_002f;
+	}
+
+IL_0024:
+	{
+		SocketIOChatSample_DrawChatScreen_m1436563594(__this, /*hidden argument*/NULL);
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Void SocketIOChatSample::DrawLoginScreen()
+extern Il2CppClass* GUIHelper_t1081137527_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* SocketIOChatSample_U3CDrawLoginScreenU3Em__1_m3665588257_MethodInfo_var;
+extern const uint32_t SocketIOChatSample_DrawLoginScreen_m3970540059_MetadataUsageId;
+extern "C"  void SocketIOChatSample_DrawLoginScreen_m3970540059 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_DrawLoginScreen_m3970540059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Rect_t3681755626  L_0 = ((GUIHelper_t1081137527_StaticFields*)GUIHelper_t1081137527_il2cpp_TypeInfo_var->static_fields)->get_ClientArea_2();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)SocketIOChatSample_U3CDrawLoginScreenU3Em__1_m3665588257_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, __this, L_1, /*hidden argument*/NULL);
+		GUIHelper_DrawArea_m7986099(NULL /*static, unused*/, L_0, (bool)1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::DrawChatScreen()
+extern Il2CppClass* GUIHelper_t1081137527_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* SocketIOChatSample_U3CDrawChatScreenU3Em__2_m4103877075_MethodInfo_var;
+extern const uint32_t SocketIOChatSample_DrawChatScreen_m1436563594_MetadataUsageId;
+extern "C"  void SocketIOChatSample_DrawChatScreen_m1436563594 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_DrawChatScreen_m1436563594_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Rect_t3681755626  L_0 = ((GUIHelper_t1081137527_StaticFields*)GUIHelper_t1081137527_il2cpp_TypeInfo_var->static_fields)->get_ClientArea_2();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)SocketIOChatSample_U3CDrawChatScreenU3Em__2_m4103877075_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, __this, L_1, /*hidden argument*/NULL);
+		GUIHelper_DrawArea_m7986099(NULL /*static, unused*/, L_0, (bool)1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::SetUserName()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1611493040;
+extern const uint32_t SocketIOChatSample_SetUserName_m3904702892_MetadataUsageId;
+extern "C"  void SocketIOChatSample_SetUserName_m3904702892 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_SetUserName_m3904702892_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get_userName_5();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		__this->set_State_4(1);
+		SocketManager_t3470268644 * L_2 = __this->get_Manager_3();
+		NullCheck(L_2);
+		Socket_t2716624701 * L_3 = SocketManager_get_Socket_m1073451663(L_2, /*hidden argument*/NULL);
+		ObjectU5BU5D_t3614634134* L_4 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_5 = __this->get_userName_5();
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		NullCheck(L_3);
+		Socket_Emit_m3865940031(L_3, _stringLiteral1611493040, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::SendMessage()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3040998683;
+extern Il2CppCodeGenString* _stringLiteral1747882405;
+extern const uint32_t SocketIOChatSample_SendMessage_m1073548999_MetadataUsageId;
+extern "C"  void SocketIOChatSample_SendMessage_m1073548999 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_SendMessage_m1073548999_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get_message_6();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		SocketManager_t3470268644 * L_2 = __this->get_Manager_3();
+		NullCheck(L_2);
+		Socket_t2716624701 * L_3 = SocketManager_get_Socket_m1073451663(L_2, /*hidden argument*/NULL);
+		ObjectU5BU5D_t3614634134* L_4 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_5 = __this->get_message_6();
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		NullCheck(L_3);
+		Socket_Emit_m3865940031(L_3, _stringLiteral3040998683, L_4, /*hidden argument*/NULL);
+		String_t* L_6 = __this->get_chatLog_7();
+		String_t* L_7 = __this->get_userName_5();
+		String_t* L_8 = __this->get_message_6();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral1747882405, L_7, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, L_6, L_9, /*hidden argument*/NULL);
+		__this->set_chatLog_7(L_10);
+		String_t* L_11 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_message_6(L_11);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::UpdateTyping()
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral110354185;
+extern const uint32_t SocketIOChatSample_UpdateTyping_m2269753316_MetadataUsageId;
+extern "C"  void SocketIOChatSample_UpdateTyping_m2269753316 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_UpdateTyping_m2269753316_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_typing_9();
+		if (L_0)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		__this->set_typing_9((bool)1);
+		SocketManager_t3470268644 * L_1 = __this->get_Manager_3();
+		NullCheck(L_1);
+		Socket_t2716624701 * L_2 = SocketManager_get_Socket_m1073451663(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Socket_Emit_m3865940031(L_2, _stringLiteral110354185, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_3 = DateTime_get_UtcNow_m1309841468(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_lastTypingTime_10(L_3);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::addParticipantsMessage(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2305477394_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2551592070;
+extern Il2CppCodeGenString* _stringLiteral125754406;
+extern Il2CppCodeGenString* _stringLiteral159146998;
+extern Il2CppCodeGenString* _stringLiteral1328528150;
+extern const uint32_t SocketIOChatSample_addParticipantsMessage_m1888982561_MetadataUsageId;
+extern "C"  void SocketIOChatSample_addParticipantsMessage_m1888982561 (SocketIOChatSample_t99431757 * __this, Dictionary_2_t309261261 * ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_addParticipantsMessage_m1888982561_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	{
+		Dictionary_2_t309261261 * L_0 = ___data0;
+		NullCheck(L_0);
+		Il2CppObject * L_1 = Dictionary_2_get_Item_m2305477394(L_0, _stringLiteral2551592070, /*hidden argument*/Dictionary_2_get_Item_m2305477394_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_2 = Convert_ToInt32_m366159805(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		String_t* L_4 = __this->get_chatLog_7();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m2596409543(NULL /*static, unused*/, L_4, _stringLiteral125754406, /*hidden argument*/NULL);
+		__this->set_chatLog_7(L_5);
+		goto IL_0068;
+	}
+
+IL_0033:
+	{
+		String_t* L_6 = __this->get_chatLog_7();
+		V_1 = L_6;
+		ObjectU5BU5D_t3614634134* L_7 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
+		String_t* L_8 = V_1;
+		NullCheck(L_7);
+		ArrayElementTypeCheck (L_7, L_8);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = L_7;
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, _stringLiteral159146998);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)_stringLiteral159146998);
+		ObjectU5BU5D_t3614634134* L_10 = L_9;
+		int32_t L_11 = V_0;
+		int32_t L_12 = L_11;
+		Il2CppObject * L_13 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_12);
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, L_13);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_13);
+		ObjectU5BU5D_t3614634134* L_14 = L_10;
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, _stringLiteral1328528150);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)_stringLiteral1328528150);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_15 = String_Concat_m3881798623(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		__this->set_chatLog_7(L_15);
+	}
+
+IL_0068:
+	{
+		return;
+	}
+}
+// System.Void SocketIOChatSample::addChatMessage(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2305477394_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3726277302;
+extern Il2CppCodeGenString* _stringLiteral359429027;
+extern Il2CppCodeGenString* _stringLiteral1747882405;
+extern const uint32_t SocketIOChatSample_addChatMessage_m3242322403_MetadataUsageId;
+extern "C"  void SocketIOChatSample_addChatMessage_m3242322403 (SocketIOChatSample_t99431757 * __this, Dictionary_2_t309261261 * ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_addChatMessage_m3242322403_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		Dictionary_2_t309261261 * L_0 = ___data0;
+		NullCheck(L_0);
+		Il2CppObject * L_1 = Dictionary_2_get_Item_m2305477394(L_0, _stringLiteral3726277302, /*hidden argument*/Dictionary_2_get_Item_m2305477394_MethodInfo_var);
+		V_0 = ((String_t*)IsInstSealed(L_1, String_t_il2cpp_TypeInfo_var));
+		Dictionary_2_t309261261 * L_2 = ___data0;
+		NullCheck(L_2);
+		Il2CppObject * L_3 = Dictionary_2_get_Item_m2305477394(L_2, _stringLiteral359429027, /*hidden argument*/Dictionary_2_get_Item_m2305477394_MethodInfo_var);
+		V_1 = ((String_t*)IsInstSealed(L_3, String_t_il2cpp_TypeInfo_var));
+		String_t* L_4 = __this->get_chatLog_7();
+		String_t* L_5 = V_0;
+		String_t* L_6 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral1747882405, L_5, L_6, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, L_4, L_7, /*hidden argument*/NULL);
+		__this->set_chatLog_7(L_8);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::AddChatTyping(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2305477394_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3726277302;
+extern const uint32_t SocketIOChatSample_AddChatTyping_m1970633853_MetadataUsageId;
+extern "C"  void SocketIOChatSample_AddChatTyping_m1970633853 (SocketIOChatSample_t99431757 * __this, Dictionary_2_t309261261 * ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_AddChatTyping_m1970633853_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		Dictionary_2_t309261261 * L_0 = ___data0;
+		NullCheck(L_0);
+		Il2CppObject * L_1 = Dictionary_2_get_Item_m2305477394(L_0, _stringLiteral3726277302, /*hidden argument*/Dictionary_2_get_Item_m2305477394_MethodInfo_var);
+		V_0 = ((String_t*)IsInstSealed(L_1, String_t_il2cpp_TypeInfo_var));
+		List_1_t1398341365 * L_2 = __this->get_typingUsers_11();
+		String_t* L_3 = V_0;
+		NullCheck(L_2);
+		List_1_Add_m4061286785(L_2, L_3, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::RemoveChatTyping(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern Il2CppClass* U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Predicate_1_t472190348_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2305477394_MethodInfo_var;
+extern const MethodInfo* U3CRemoveChatTypingU3Ec__AnonStorey0_U3CU3Em__0_m3728964146_MethodInfo_var;
+extern const MethodInfo* Predicate_1__ctor_m3809743488_MethodInfo_var;
+extern const MethodInfo* List_1_FindIndex_m2418576492_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveAt_m1040667509_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3726277302;
+extern const uint32_t SocketIOChatSample_RemoveChatTyping_m3799367300_MetadataUsageId;
+extern "C"  void SocketIOChatSample_RemoveChatTyping_m3799367300 (SocketIOChatSample_t99431757 * __this, Dictionary_2_t309261261 * ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_RemoveChatTyping_m3799367300_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560 * L_0 = (U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560 *)il2cpp_codegen_object_new(U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560_il2cpp_TypeInfo_var);
+		U3CRemoveChatTypingU3Ec__AnonStorey0__ctor_m1238115519(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560 * L_1 = V_0;
+		Dictionary_2_t309261261 * L_2 = ___data0;
+		NullCheck(L_2);
+		Il2CppObject * L_3 = Dictionary_2_get_Item_m2305477394(L_2, _stringLiteral3726277302, /*hidden argument*/Dictionary_2_get_Item_m2305477394_MethodInfo_var);
+		NullCheck(L_1);
+		L_1->set_username_0(((String_t*)IsInstSealed(L_3, String_t_il2cpp_TypeInfo_var)));
+		List_1_t1398341365 * L_4 = __this->get_typingUsers_11();
+		U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560 * L_5 = V_0;
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)U3CRemoveChatTypingU3Ec__AnonStorey0_U3CU3Em__0_m3728964146_MethodInfo_var);
+		Predicate_1_t472190348 * L_7 = (Predicate_1_t472190348 *)il2cpp_codegen_object_new(Predicate_1_t472190348_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m3809743488(L_7, L_5, L_6, /*hidden argument*/Predicate_1__ctor_m3809743488_MethodInfo_var);
+		NullCheck(L_4);
+		int32_t L_8 = List_1_FindIndex_m2418576492(L_4, L_7, /*hidden argument*/List_1_FindIndex_m2418576492_MethodInfo_var);
+		V_1 = L_8;
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) == ((int32_t)(-1))))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		List_1_t1398341365 * L_10 = __this->get_typingUsers_11();
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		List_1_RemoveAt_m1040667509(L_10, L_11, /*hidden argument*/List_1_RemoveAt_m1040667509_MethodInfo_var);
+	}
+
+IL_0047:
+	{
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnLogin(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Dictionary_2_t309261261_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral662393422;
+extern const uint32_t SocketIOChatSample_OnLogin_m1424088731_MetadataUsageId;
+extern "C"  void SocketIOChatSample_OnLogin_m1424088731 (SocketIOChatSample_t99431757 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_OnLogin_m1424088731_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_chatLog_7(_stringLiteral662393422);
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		SocketIOChatSample_addParticipantsMessage_m1888982561(__this, ((Dictionary_2_t309261261 *)IsInstClass(L_2, Dictionary_2_t309261261_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnNewMessage(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Dictionary_2_t309261261_il2cpp_TypeInfo_var;
+extern const uint32_t SocketIOChatSample_OnNewMessage_m2342625371_MetadataUsageId;
+extern "C"  void SocketIOChatSample_OnNewMessage_m2342625371 (SocketIOChatSample_t99431757 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_OnNewMessage_m2342625371_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		SocketIOChatSample_addChatMessage_m3242322403(__this, ((Dictionary_2_t309261261 *)IsInstClass(L_2, Dictionary_2_t309261261_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnUserJoined(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Dictionary_2_t309261261_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2305477394_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3726277302;
+extern Il2CppCodeGenString* _stringLiteral3062336703;
+extern const uint32_t SocketIOChatSample_OnUserJoined_m1433097524_MetadataUsageId;
+extern "C"  void SocketIOChatSample_OnUserJoined_m1433097524 (SocketIOChatSample_t99431757 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_OnUserJoined_m1433097524_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t309261261 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		V_0 = ((Dictionary_2_t309261261 *)IsInstClass(L_2, Dictionary_2_t309261261_il2cpp_TypeInfo_var));
+		Dictionary_2_t309261261 * L_3 = V_0;
+		NullCheck(L_3);
+		Il2CppObject * L_4 = Dictionary_2_get_Item_m2305477394(L_3, _stringLiteral3726277302, /*hidden argument*/Dictionary_2_get_Item_m2305477394_MethodInfo_var);
+		V_1 = ((String_t*)IsInstSealed(L_4, String_t_il2cpp_TypeInfo_var));
+		String_t* L_5 = __this->get_chatLog_7();
+		String_t* L_6 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral3062336703, L_6, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		__this->set_chatLog_7(L_8);
+		Dictionary_2_t309261261 * L_9 = V_0;
+		SocketIOChatSample_addParticipantsMessage_m1888982561(__this, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnUserLeft(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Dictionary_2_t309261261_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2305477394_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3726277302;
+extern Il2CppCodeGenString* _stringLiteral3244139063;
+extern const uint32_t SocketIOChatSample_OnUserLeft_m2199186524_MetadataUsageId;
+extern "C"  void SocketIOChatSample_OnUserLeft_m2199186524 (SocketIOChatSample_t99431757 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_OnUserLeft_m2199186524_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t309261261 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		V_0 = ((Dictionary_2_t309261261 *)IsInstClass(L_2, Dictionary_2_t309261261_il2cpp_TypeInfo_var));
+		Dictionary_2_t309261261 * L_3 = V_0;
+		NullCheck(L_3);
+		Il2CppObject * L_4 = Dictionary_2_get_Item_m2305477394(L_3, _stringLiteral3726277302, /*hidden argument*/Dictionary_2_get_Item_m2305477394_MethodInfo_var);
+		V_1 = ((String_t*)IsInstSealed(L_4, String_t_il2cpp_TypeInfo_var));
+		String_t* L_5 = __this->get_chatLog_7();
+		String_t* L_6 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral3244139063, L_6, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		__this->set_chatLog_7(L_8);
+		Dictionary_2_t309261261 * L_9 = V_0;
+		SocketIOChatSample_addParticipantsMessage_m1888982561(__this, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnTyping(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Dictionary_2_t309261261_il2cpp_TypeInfo_var;
+extern const uint32_t SocketIOChatSample_OnTyping_m737765829_MetadataUsageId;
+extern "C"  void SocketIOChatSample_OnTyping_m737765829 (SocketIOChatSample_t99431757 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_OnTyping_m737765829_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		SocketIOChatSample_AddChatTyping_m1970633853(__this, ((Dictionary_2_t309261261 *)IsInstClass(L_2, Dictionary_2_t309261261_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::OnStopTyping(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Dictionary_2_t309261261_il2cpp_TypeInfo_var;
+extern const uint32_t SocketIOChatSample_OnStopTyping_m378312117_MetadataUsageId;
+extern "C"  void SocketIOChatSample_OnStopTyping_m378312117 (SocketIOChatSample_t99431757 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_OnStopTyping_m378312117_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		SocketIOChatSample_RemoveChatTyping_m3799367300(__this, ((Dictionary_2_t309261261 *)IsInstClass(L_2, Dictionary_2_t309261261_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::<Start>m__0(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1165734980;
+extern const uint32_t SocketIOChatSample_U3CStartU3Em__0_m706444600_MetadataUsageId;
+extern "C"  void SocketIOChatSample_U3CStartU3Em__0_m706444600 (Il2CppObject * __this /* static, unused */, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_U3CStartU3Em__0_m706444600_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral1165734980, L_3, /*hidden argument*/NULL);
+		Debug_LogError_m280235470(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::<DrawLoginScreen>m__1()
+extern Il2CppClass* GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2064769048;
+extern Il2CppCodeGenString* _stringLiteral1367192090;
+extern const uint32_t SocketIOChatSample_U3CDrawLoginScreenU3Em__1_m3665588257_MetadataUsageId;
+extern "C"  void SocketIOChatSample_U3CDrawLoginScreenU3Em__1_m3665588257 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_U3CDrawLoginScreenU3Em__1_m3665588257_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GUILayout_BeginVertical_m3700184690(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_FlexibleSpace_m2019304577(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUIHelper_DrawCenteredText_m2131137754(NULL /*static, unused*/, _stringLiteral2064769048, /*hidden argument*/NULL);
+		String_t* L_0 = __this->get_userName_5();
+		String_t* L_1 = GUILayout_TextField_m1976649007(NULL /*static, unused*/, L_0, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		__this->set_userName_5(L_1);
+		bool L_2 = GUILayout_Button_m3322709003(NULL /*static, unused*/, _stringLiteral1367192090, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		SocketIOChatSample_SetUserName_m3904702892(__this, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		GUILayout_FlexibleSpace_m2019304577(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndVertical_m297596185(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample::<DrawChatScreen>m__2()
+extern Il2CppClass* GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m4077476129_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral104529068;
+extern Il2CppCodeGenString* _stringLiteral1903226552;
+extern Il2CppCodeGenString* _stringLiteral2337078436;
+extern Il2CppCodeGenString* _stringLiteral677098866;
+extern Il2CppCodeGenString* _stringLiteral3928624958;
+extern Il2CppCodeGenString* _stringLiteral4136223372;
+extern const uint32_t SocketIOChatSample_U3CDrawChatScreenU3Em__2_m4103877075_MetadataUsageId;
+extern "C"  void SocketIOChatSample_U3CDrawChatScreenU3Em__2_m4103877075 (SocketIOChatSample_t99431757 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOChatSample_U3CDrawChatScreenU3Em__2_m4103877075_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		GUILayout_BeginVertical_m3700184690(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_0 = __this->get_scrollPos_8();
+		Vector2_t2243707579  L_1 = GUILayout_BeginScrollView_m4280181007(NULL /*static, unused*/, L_0, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		__this->set_scrollPos_8(L_1);
+		String_t* L_2 = __this->get_chatLog_7();
+		GUILayoutOptionU5BU5D_t2108882777* L_3 = ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)2));
+		GUILayoutOption_t4183744904 * L_4 = GUILayout_ExpandWidth_m2515540937(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (GUILayoutOption_t4183744904 *)L_4);
+		GUILayoutOptionU5BU5D_t2108882777* L_5 = L_3;
+		GUILayoutOption_t4183744904 * L_6 = GUILayout_ExpandHeight_m3157662872(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_6);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (GUILayoutOption_t4183744904 *)L_6);
+		GUILayout_Label_m3466110979(NULL /*static, unused*/, L_2, L_5, /*hidden argument*/NULL);
+		GUILayout_EndScrollView_m1883730923(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_7;
+		List_1_t1398341365 * L_8 = __this->get_typingUsers_11();
+		NullCheck(L_8);
+		int32_t L_9 = List_1_get_Count_m780127360(L_8, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		if ((((int32_t)L_9) <= ((int32_t)0)))
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		String_t* L_10 = V_0;
+		List_1_t1398341365 * L_11 = __this->get_typingUsers_11();
+		NullCheck(L_11);
+		String_t* L_12 = List_1_get_Item_m4077476129(L_11, 0, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral104529068, L_12, /*hidden argument*/NULL);
+		String_t* L_14 = String_Concat_m2596409543(NULL /*static, unused*/, L_10, L_13, /*hidden argument*/NULL);
+		V_0 = L_14;
+		V_1 = 1;
+		goto IL_00a6;
+	}
+
+IL_0085:
+	{
+		String_t* L_15 = V_0;
+		List_1_t1398341365 * L_16 = __this->get_typingUsers_11();
+		int32_t L_17 = V_1;
+		NullCheck(L_16);
+		String_t* L_18 = List_1_get_Item_m4077476129(L_16, L_17, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_19 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral1903226552, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = String_Concat_m2596409543(NULL /*static, unused*/, L_15, L_19, /*hidden argument*/NULL);
+		V_0 = L_20;
+		int32_t L_21 = V_1;
+		V_1 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_00a6:
+	{
+		int32_t L_22 = V_1;
+		List_1_t1398341365 * L_23 = __this->get_typingUsers_11();
+		NullCheck(L_23);
+		int32_t L_24 = List_1_get_Count_m780127360(L_23, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		if ((((int32_t)L_22) < ((int32_t)L_24)))
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		List_1_t1398341365 * L_25 = __this->get_typingUsers_11();
+		NullCheck(L_25);
+		int32_t L_26 = List_1_get_Count_m780127360(L_25, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		if ((!(((uint32_t)L_26) == ((uint32_t)1))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		String_t* L_27 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_28 = String_Concat_m2596409543(NULL /*static, unused*/, L_27, _stringLiteral2337078436, /*hidden argument*/NULL);
+		V_0 = L_28;
+		goto IL_00e5;
+	}
+
+IL_00d9:
+	{
+		String_t* L_29 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_30 = String_Concat_m2596409543(NULL /*static, unused*/, L_29, _stringLiteral677098866, /*hidden argument*/NULL);
+		V_0 = L_30;
+	}
+
+IL_00e5:
+	{
+		String_t* L_31 = V_0;
+		GUILayout_Label_m3466110979(NULL /*static, unused*/, L_31, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_Label_m3466110979(NULL /*static, unused*/, _stringLiteral3928624958, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m212592284(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		String_t* L_32 = __this->get_message_6();
+		String_t* L_33 = GUILayout_TextField_m1976649007(NULL /*static, unused*/, L_32, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		__this->set_message_6(L_33);
+		GUILayoutOptionU5BU5D_t2108882777* L_34 = ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)1));
+		GUILayoutOption_t4183744904 * L_35 = GUILayout_MaxWidth_m3473061269(NULL /*static, unused*/, (100.0f), /*hidden argument*/NULL);
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, L_35);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (GUILayoutOption_t4183744904 *)L_35);
+		bool L_36 = GUILayout_Button_m3322709003(NULL /*static, unused*/, _stringLiteral4136223372, L_34, /*hidden argument*/NULL);
+		if (!L_36)
+		{
+			goto IL_014b;
+		}
+	}
+	{
+		SocketIOChatSample_SendMessage_m1073548999(__this, /*hidden argument*/NULL);
+	}
+
+IL_014b:
+	{
+		GUILayout_EndHorizontal_m4258536965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_37 = GUI_get_changed_m296124577(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_37)
+		{
+			goto IL_0160;
+		}
+	}
+	{
+		SocketIOChatSample_UpdateTyping_m2269753316(__this, /*hidden argument*/NULL);
+	}
+
+IL_0160:
+	{
+		GUILayout_EndVertical_m297596185(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOChatSample/<RemoveChatTyping>c__AnonStorey0::.ctor()
+extern "C"  void U3CRemoveChatTypingU3Ec__AnonStorey0__ctor_m1238115519 (U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean SocketIOChatSample/<RemoveChatTyping>c__AnonStorey0::<>m__0(System.String)
+extern "C"  bool U3CRemoveChatTypingU3Ec__AnonStorey0_U3CU3Em__0_m3728964146 (U3CRemoveChatTypingU3Ec__AnonStorey0_t210249560 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		String_t* L_1 = __this->get_username_0();
+		NullCheck(L_0);
+		bool L_2 = String_Equals_m2633592423(L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Void SocketIOWePlaySample::.ctor()
+extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3423761043;
+extern Il2CppCodeGenString* _stringLiteral109637592;
+extern Il2CppCodeGenString* _stringLiteral372029373;
+extern Il2CppCodeGenString* _stringLiteral372029376;
+extern Il2CppCodeGenString* _stringLiteral1543969241;
+extern Il2CppCodeGenString* _stringLiteral1367190538;
+extern Il2CppCodeGenString* _stringLiteral2235607214;
+extern Il2CppCodeGenString* _stringLiteral2858725202;
+extern const uint32_t SocketIOWePlaySample__ctor_m2319229776_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample__ctor_m2319229776 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample__ctor_m2319229776_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringU5BU5D_t1642385972* L_0 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)8));
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, _stringLiteral3423761043);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral3423761043);
+		StringU5BU5D_t1642385972* L_1 = L_0;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, _stringLiteral109637592);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral109637592);
+		StringU5BU5D_t1642385972* L_2 = L_1;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, _stringLiteral372029373);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral372029373);
+		StringU5BU5D_t1642385972* L_3 = L_2;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, _stringLiteral372029376);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral372029376);
+		StringU5BU5D_t1642385972* L_4 = L_3;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, _stringLiteral1543969241);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1543969241);
+		StringU5BU5D_t1642385972* L_5 = L_4;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, _stringLiteral1367190538);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteral1367190538);
+		StringU5BU5D_t1642385972* L_6 = L_5;
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, _stringLiteral2235607214);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral2235607214);
+		StringU5BU5D_t1642385972* L_7 = L_6;
+		NullCheck(L_7);
+		ArrayElementTypeCheck (L_7, _stringLiteral2858725202);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)_stringLiteral2858725202);
+		__this->set_controls_2(L_7);
+		__this->set_MaxMessages_4(((int32_t)50));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_Nick_7(L_8);
+		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_messageToSend_8(L_9);
+		List_1_t1398341365 * L_10 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_10, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_messages_10(L_10);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::Start()
+extern Il2CppClass* SocketOptions_t3023631931_il2cpp_TypeInfo_var;
+extern Il2CppClass* Uri_t19570940_il2cpp_TypeInfo_var;
+extern Il2CppClass* SocketManager_t3470268644_il2cpp_TypeInfo_var;
+extern Il2CppClass* SocketIOCallback_t88619200_il2cpp_TypeInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnConnected_m119835995_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnJoined_m749079111_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnConnections_m166059865_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnJoin_m229240022_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnMove_m3112102149_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnMessage_m563217871_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnReload_m1604664213_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnFrame_m2295747677_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_OnError_m3679814796_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral653607933;
+extern Il2CppCodeGenString* _stringLiteral178061923;
+extern Il2CppCodeGenString* _stringLiteral1532357317;
+extern Il2CppCodeGenString* _stringLiteral1367191098;
+extern Il2CppCodeGenString* _stringLiteral1414245001;
+extern Il2CppCodeGenString* _stringLiteral359429027;
+extern Il2CppCodeGenString* _stringLiteral2954973457;
+extern Il2CppCodeGenString* _stringLiteral3154582249;
+extern const uint32_t SocketIOWePlaySample_Start_m155042456_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_Start_m155042456 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_Start_m155042456_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SocketOptions_t3023631931 * V_0 = NULL;
+	SocketManager_t3470268644 * V_1 = NULL;
+	{
+		SocketOptions_t3023631931 * L_0 = (SocketOptions_t3023631931 *)il2cpp_codegen_object_new(SocketOptions_t3023631931_il2cpp_TypeInfo_var);
+		SocketOptions__ctor_m4001265769(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		SocketOptions_t3023631931 * L_1 = V_0;
+		NullCheck(L_1);
+		SocketOptions_set_AutoConnect_m4273236204(L_1, (bool)0, /*hidden argument*/NULL);
+		Uri_t19570940 * L_2 = (Uri_t19570940 *)il2cpp_codegen_object_new(Uri_t19570940_il2cpp_TypeInfo_var);
+		Uri__ctor_m3927533881(L_2, _stringLiteral653607933, /*hidden argument*/NULL);
+		SocketOptions_t3023631931 * L_3 = V_0;
+		SocketManager_t3470268644 * L_4 = (SocketManager_t3470268644 *)il2cpp_codegen_object_new(SocketManager_t3470268644_il2cpp_TypeInfo_var);
+		SocketManager__ctor_m2934227853(L_4, L_2, L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		SocketManager_t3470268644 * L_5 = V_1;
+		NullCheck(L_5);
+		Socket_t2716624701 * L_6 = SocketManager_get_Socket_m1073451663(L_5, /*hidden argument*/NULL);
+		__this->set_Socket_6(L_6);
+		Socket_t2716624701 * L_7 = __this->get_Socket_6();
+		IntPtr_t L_8;
+		L_8.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnConnected_m119835995_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_9 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_9, __this, L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Socket_On_m4178233947(L_7, 0, L_9, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_10 = __this->get_Socket_6();
+		IntPtr_t L_11;
+		L_11.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnJoined_m749079111_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_12 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_12, __this, L_11, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Socket_On_m2399965420(L_10, _stringLiteral178061923, L_12, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_13 = __this->get_Socket_6();
+		IntPtr_t L_14;
+		L_14.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnConnections_m166059865_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_15 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_15, __this, L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Socket_On_m2399965420(L_13, _stringLiteral1532357317, L_15, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_16 = __this->get_Socket_6();
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnJoin_m229240022_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_18 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_18, __this, L_17, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Socket_On_m2399965420(L_16, _stringLiteral1367191098, L_18, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_19 = __this->get_Socket_6();
+		IntPtr_t L_20;
+		L_20.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnMove_m3112102149_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_21 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_21, __this, L_20, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Socket_On_m2399965420(L_19, _stringLiteral1414245001, L_21, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_22 = __this->get_Socket_6();
+		IntPtr_t L_23;
+		L_23.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnMessage_m563217871_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_24 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_24, __this, L_23, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Socket_On_m2399965420(L_22, _stringLiteral359429027, L_24, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_25 = __this->get_Socket_6();
+		IntPtr_t L_26;
+		L_26.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnReload_m1604664213_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_27 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_27, __this, L_26, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		Socket_On_m2399965420(L_25, _stringLiteral2954973457, L_27, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_28 = __this->get_Socket_6();
+		IntPtr_t L_29;
+		L_29.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnFrame_m2295747677_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_30 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_30, __this, L_29, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Socket_On_m3285051053(L_28, _stringLiteral3154582249, L_30, (bool)0, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_31 = __this->get_Socket_6();
+		IntPtr_t L_32;
+		L_32.set_m_value_0((void*)(void*)SocketIOWePlaySample_OnError_m3679814796_MethodInfo_var);
+		SocketIOCallback_t88619200 * L_33 = (SocketIOCallback_t88619200 *)il2cpp_codegen_object_new(SocketIOCallback_t88619200_il2cpp_TypeInfo_var);
+		SocketIOCallback__ctor_m3000149115(L_33, __this, L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Socket_On_m4178233947(L_31, 4, L_33, /*hidden argument*/NULL);
+		SocketManager_t3470268644 * L_34 = V_1;
+		NullCheck(L_34);
+		SocketManager_Open_m3980568512(L_34, /*hidden argument*/NULL);
+		__this->set_State_5(0);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnDestroy()
+extern "C"  void SocketIOWePlaySample_OnDestroy_m1989858923 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	{
+		Socket_t2716624701 * L_0 = __this->get_Socket_6();
+		NullCheck(L_0);
+		SocketManager_t3470268644 * L_1 = Socket_get_Manager_m281303333(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		SocketManager_Close_m3974133194(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::Update()
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern Il2CppClass* SampleSelector_t120846305_il2cpp_TypeInfo_var;
+extern const uint32_t SocketIOWePlaySample_Update_m3680264121_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_Update_m3680264121 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_Update_m3680264121_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetKeyDown_m1771960377(NULL /*static, unused*/, ((int32_t)27), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		SampleDescriptor_t3285910703 * L_1 = ((SampleSelector_t120846305_StaticFields*)SampleSelector_t120846305_il2cpp_TypeInfo_var->static_fields)->get_SelectedSample_4();
+		NullCheck(L_1);
+		SampleDescriptor_DestroyUnityObject_m3006314068(L_1, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnGUI()
+extern Il2CppClass* GUIHelper_t1081137527_il2cpp_TypeInfo_var;
+extern Il2CppClass* SocketIOWePlaySample_t2969631597_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_U3COnGUIU3Em__0_m4007200553_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_U3COnGUIU3Em__1_m4007200586_MethodInfo_var;
+extern const MethodInfo* SocketIOWePlaySample_U3COnGUIU3Em__2_m4007200619_MethodInfo_var;
+extern const uint32_t SocketIOWePlaySample_OnGUI_m575456912_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnGUI_m575456912 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnGUI_m575456912_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B6_0 = 0;
+	Rect_t3681755626  G_B6_1;
+	memset(&G_B6_1, 0, sizeof(G_B6_1));
+	int32_t G_B5_0 = 0;
+	Rect_t3681755626  G_B5_1;
+	memset(&G_B5_1, 0, sizeof(G_B5_1));
+	{
+		int32_t L_0 = __this->get_State_5();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)2)))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		goto IL_0085;
+	}
+
+IL_0020:
+	{
+		Rect_t3681755626  L_4 = ((GUIHelper_t1081137527_StaticFields*)GUIHelper_t1081137527_il2cpp_TypeInfo_var->static_fields)->get_ClientArea_2();
+		Action_t3226471752 * L_5 = ((SocketIOWePlaySample_t2969631597_StaticFields*)SocketIOWePlaySample_t2969631597_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_13();
+		G_B5_0 = 1;
+		G_B5_1 = L_4;
+		if (L_5)
+		{
+			G_B6_0 = 1;
+			G_B6_1 = L_4;
+			goto IL_003e;
+		}
+	}
+	{
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)SocketIOWePlaySample_U3COnGUIU3Em__0_m4007200553_MethodInfo_var);
+		Action_t3226471752 * L_7 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_7, NULL, L_6, /*hidden argument*/NULL);
+		((SocketIOWePlaySample_t2969631597_StaticFields*)SocketIOWePlaySample_t2969631597_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_13(L_7);
+		G_B6_0 = G_B5_0;
+		G_B6_1 = G_B5_1;
+	}
+
+IL_003e:
+	{
+		Action_t3226471752 * L_8 = ((SocketIOWePlaySample_t2969631597_StaticFields*)SocketIOWePlaySample_t2969631597_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_13();
+		GUIHelper_DrawArea_m7986099(NULL /*static, unused*/, G_B6_1, (bool)G_B6_0, L_8, /*hidden argument*/NULL);
+		goto IL_0085;
+	}
+
+IL_004d:
+	{
+		Rect_t3681755626  L_9 = ((GUIHelper_t1081137527_StaticFields*)GUIHelper_t1081137527_il2cpp_TypeInfo_var->static_fields)->get_ClientArea_2();
+		IntPtr_t L_10;
+		L_10.set_m_value_0((void*)(void*)SocketIOWePlaySample_U3COnGUIU3Em__1_m4007200586_MethodInfo_var);
+		Action_t3226471752 * L_11 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_11, __this, L_10, /*hidden argument*/NULL);
+		GUIHelper_DrawArea_m7986099(NULL /*static, unused*/, L_9, (bool)1, L_11, /*hidden argument*/NULL);
+		goto IL_0085;
+	}
+
+IL_0069:
+	{
+		Rect_t3681755626  L_12 = ((GUIHelper_t1081137527_StaticFields*)GUIHelper_t1081137527_il2cpp_TypeInfo_var->static_fields)->get_ClientArea_2();
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)SocketIOWePlaySample_U3COnGUIU3Em__2_m4007200619_MethodInfo_var);
+		Action_t3226471752 * L_14 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_14, __this, L_13, /*hidden argument*/NULL);
+		GUIHelper_DrawArea_m7986099(NULL /*static, unused*/, L_12, (bool)1, L_14, /*hidden argument*/NULL);
+		goto IL_0085;
+	}
+
+IL_0085:
+	{
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::DrawLoginScreen()
+extern Il2CppClass* GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2064769048;
+extern Il2CppCodeGenString* _stringLiteral1367192090;
+extern const uint32_t SocketIOWePlaySample_DrawLoginScreen_m3716764659_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_DrawLoginScreen_m3716764659 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_DrawLoginScreen_m3716764659_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GUILayout_BeginVertical_m3700184690(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_FlexibleSpace_m2019304577(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUIHelper_DrawCenteredText_m2131137754(NULL /*static, unused*/, _stringLiteral2064769048, /*hidden argument*/NULL);
+		String_t* L_0 = __this->get_Nick_7();
+		String_t* L_1 = GUILayout_TextField_m1976649007(NULL /*static, unused*/, L_0, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		__this->set_Nick_7(L_1);
+		bool L_2 = GUILayout_Button_m3322709003(NULL /*static, unused*/, _stringLiteral1367192090, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		SocketIOWePlaySample_Join_m2868418378(__this, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		GUILayout_FlexibleSpace_m2019304577(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndVertical_m297596185(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::DrawControls()
+extern Il2CppClass* GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2440657206;
+extern Il2CppCodeGenString* _stringLiteral1414245001;
+extern Il2CppCodeGenString* _stringLiteral1990956563;
+extern const uint32_t SocketIOWePlaySample_DrawControls_m265194138_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_DrawControls_m265194138 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_DrawControls_m265194138_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		GUILayout_BeginHorizontal_m212592284(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_Label_m3466110979(NULL /*static, unused*/, _stringLiteral2440657206, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_0060;
+	}
+
+IL_0022:
+	{
+		StringU5BU5D_t1642385972* L_0 = __this->get_controls_2();
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		String_t* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		bool L_4 = GUILayout_Button_m3322709003(NULL /*static, unused*/, L_3, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		Socket_t2716624701 * L_5 = __this->get_Socket_6();
+		ObjectU5BU5D_t3614634134* L_6 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		StringU5BU5D_t1642385972* L_7 = __this->get_controls_2();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, L_10);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_10);
+		NullCheck(L_5);
+		Socket_Emit_m3865940031(L_5, _stringLiteral1414245001, L_6, /*hidden argument*/NULL);
+	}
+
+IL_005c:
+	{
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0060:
+	{
+		int32_t L_12 = V_0;
+		StringU5BU5D_t1642385972* L_13 = __this->get_controls_2();
+		NullCheck(L_13);
+		if ((((int32_t)L_12) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_13)->max_length)))))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		int32_t L_14 = __this->get_connections_9();
+		int32_t L_15 = L_14;
+		Il2CppObject * L_16 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_15);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_17 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1990956563, L_16, /*hidden argument*/NULL);
+		GUILayout_Label_m3466110979(NULL /*static, unused*/, L_17, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_EndHorizontal_m4258536965(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::DrawChat(System.Boolean)
+extern Il2CppClass* GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m4077476129_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2875116620;
+extern Il2CppCodeGenString* _stringLiteral4136223372;
+extern const uint32_t SocketIOWePlaySample_DrawChat_m2015027073_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_DrawChat_m2015027073 (SocketIOWePlaySample_t2969631597 * __this, bool ___withInput0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_DrawChat_m2015027073_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		GUILayout_BeginVertical_m3700184690(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_0 = __this->get_scrollPos_11();
+		Vector2_t2243707579  L_1 = GUILayout_BeginScrollView_m1905186419(NULL /*static, unused*/, L_0, (bool)0, (bool)0, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		__this->set_scrollPos_11(L_1);
+		V_0 = 0;
+		goto IL_0054;
+	}
+
+IL_002b:
+	{
+		List_1_t1398341365 * L_2 = __this->get_messages_10();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		String_t* L_4 = List_1_get_Item_m4077476129(L_2, L_3, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		GUILayoutOptionU5BU5D_t2108882777* L_5 = ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_6 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayoutOption_t4183744904 * L_7 = GUILayout_MinWidth_m2112328859(NULL /*static, unused*/, (((float)((float)L_6))), /*hidden argument*/NULL);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_7);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (GUILayoutOption_t4183744904 *)L_7);
+		GUILayout_Label_m3466110979(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_0054:
+	{
+		int32_t L_9 = V_0;
+		List_1_t1398341365 * L_10 = __this->get_messages_10();
+		NullCheck(L_10);
+		int32_t L_11 = List_1_get_Count_m780127360(L_10, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		if ((((int32_t)L_9) < ((int32_t)L_11)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		GUILayout_EndScrollView_m1883730923(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_12 = ___withInput0;
+		if (!L_12)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		GUILayout_Label_m3466110979(NULL /*static, unused*/, _stringLiteral2875116620, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_BeginHorizontal_m212592284(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		String_t* L_13 = __this->get_messageToSend_8();
+		String_t* L_14 = GUILayout_TextField_m1976649007(NULL /*static, unused*/, L_13, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		__this->set_messageToSend_8(L_14);
+		GUILayoutOptionU5BU5D_t2108882777* L_15 = ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)1));
+		GUILayoutOption_t4183744904 * L_16 = GUILayout_MaxWidth_m3473061269(NULL /*static, unused*/, (100.0f), /*hidden argument*/NULL);
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, L_16);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (GUILayoutOption_t4183744904 *)L_16);
+		bool L_17 = GUILayout_Button_m3322709003(NULL /*static, unused*/, _stringLiteral4136223372, L_15, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_00ca;
+		}
+	}
+	{
+		SocketIOWePlaySample_SendMessage_m3002652095(__this, /*hidden argument*/NULL);
+	}
+
+IL_00ca:
+	{
+		GUILayout_EndHorizontal_m4258536965(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_00cf:
+	{
+		GUILayout_EndVertical_m297596185(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::AddMessage(System.String)
+extern const MethodInfo* List_1_Insert_m357505720_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveRange_m1855143622_MethodInfo_var;
+extern const uint32_t SocketIOWePlaySample_AddMessage_m3804707498_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_AddMessage_m3804707498 (SocketIOWePlaySample_t2969631597 * __this, String_t* ___msg0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_AddMessage_m3804707498_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1398341365 * L_0 = __this->get_messages_10();
+		String_t* L_1 = ___msg0;
+		NullCheck(L_0);
+		List_1_Insert_m357505720(L_0, 0, L_1, /*hidden argument*/List_1_Insert_m357505720_MethodInfo_var);
+		List_1_t1398341365 * L_2 = __this->get_messages_10();
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m780127360(L_2, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		int32_t L_4 = __this->get_MaxMessages_4();
+		if ((((int32_t)L_3) <= ((int32_t)L_4)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		List_1_t1398341365 * L_5 = __this->get_messages_10();
+		int32_t L_6 = __this->get_MaxMessages_4();
+		List_1_t1398341365 * L_7 = __this->get_messages_10();
+		NullCheck(L_7);
+		int32_t L_8 = List_1_get_Count_m780127360(L_7, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		int32_t L_9 = __this->get_MaxMessages_4();
+		NullCheck(L_5);
+		List_1_RemoveRange_m1855143622(L_5, L_6, ((int32_t)((int32_t)L_8-(int32_t)L_9)), /*hidden argument*/List_1_RemoveRange_m1855143622_MethodInfo_var);
+	}
+
+IL_0046:
+	{
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::SendMessage()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral359429027;
+extern Il2CppCodeGenString* _stringLiteral3632214879;
+extern const uint32_t SocketIOWePlaySample_SendMessage_m3002652095_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_SendMessage_m3002652095 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_SendMessage_m3002652095_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get_messageToSend_8();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		Socket_t2716624701 * L_2 = __this->get_Socket_6();
+		ObjectU5BU5D_t3614634134* L_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_4 = __this->get_messageToSend_8();
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_4);
+		NullCheck(L_2);
+		Socket_Emit_m3865940031(L_2, _stringLiteral359429027, L_3, /*hidden argument*/NULL);
+		String_t* L_5 = __this->get_Nick_7();
+		String_t* L_6 = __this->get_messageToSend_8();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral3632214879, L_5, L_6, /*hidden argument*/NULL);
+		SocketIOWePlaySample_AddMessage_m3804707498(__this, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_messageToSend_8(L_8);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::Join()
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral325352075;
+extern Il2CppCodeGenString* _stringLiteral1367191098;
+extern const uint32_t SocketIOWePlaySample_Join_m2868418378_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_Join_m2868418378 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_Join_m2868418378_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get_Nick_7();
+		PlayerPrefs_SetString_m2547809843(NULL /*static, unused*/, _stringLiteral325352075, L_0, /*hidden argument*/NULL);
+		Socket_t2716624701 * L_1 = __this->get_Socket_6();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_3 = __this->get_Nick_7();
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		NullCheck(L_1);
+		Socket_Emit_m3865940031(L_1, _stringLiteral1367191098, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::Reload()
+extern "C"  void SocketIOWePlaySample_Reload_m1181165213 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_FrameTexture_12((Texture2D_t3542995729 *)NULL);
+		Socket_t2716624701 * L_0 = __this->get_Socket_6();
+		if (!L_0)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Socket_t2716624701 * L_1 = __this->get_Socket_6();
+		NullCheck(L_1);
+		SocketManager_t3470268644 * L_2 = Socket_get_Manager_m281303333(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SocketManager_Close_m3974133194(L_2, /*hidden argument*/NULL);
+		__this->set_Socket_6((Socket_t2716624701 *)NULL);
+		SocketIOWePlaySample_Start_m155042456(__this, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnConnected(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppCodeGenString* _stringLiteral325352075;
+extern Il2CppCodeGenString* _stringLiteral818423226;
+extern Il2CppCodeGenString* _stringLiteral1397226215;
+extern const uint32_t SocketIOWePlaySample_OnConnected_m119835995_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnConnected_m119835995 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnConnected_m119835995_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = PlayerPrefs_HasKey_m1212656251(NULL /*static, unused*/, _stringLiteral325352075, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		String_t* L_1 = PlayerPrefs_GetString_m1246323344(NULL /*static, unused*/, _stringLiteral325352075, _stringLiteral818423226, /*hidden argument*/NULL);
+		__this->set_Nick_7(L_1);
+		SocketIOWePlaySample_Join_m2868418378(__this, /*hidden argument*/NULL);
+		goto IL_0036;
+	}
+
+IL_002f:
+	{
+		__this->set_State_5(1);
+	}
+
+IL_0036:
+	{
+		SocketIOWePlaySample_AddMessage_m3804707498(__this, _stringLiteral1397226215, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnJoined(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern "C"  void SocketIOWePlaySample_OnJoined_m749079111 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	{
+		__this->set_State_5(2);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnReload(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern "C"  void SocketIOWePlaySample_OnReload_m1604664213 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	{
+		SocketIOWePlaySample_Reload_m1181165213(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnMessage(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3632214879;
+extern const uint32_t SocketIOWePlaySample_OnMessage_m563217871_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnMessage_m563217871 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnMessage_m563217871_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_0)->max_length))))) == ((uint32_t)1))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_1 = ___args2;
+		NullCheck(L_1);
+		int32_t L_2 = 0;
+		Il2CppObject * L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		SocketIOWePlaySample_AddMessage_m3804707498(__this, ((String_t*)IsInstSealed(L_3, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		goto IL_0032;
+	}
+
+IL_001c:
+	{
+		ObjectU5BU5D_t3614634134* L_4 = ___args2;
+		NullCheck(L_4);
+		int32_t L_5 = 1;
+		Il2CppObject * L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		ObjectU5BU5D_t3614634134* L_7 = ___args2;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		Il2CppObject * L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral3632214879, L_6, L_9, /*hidden argument*/NULL);
+		SocketIOWePlaySample_AddMessage_m3804707498(__this, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnMove(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1341935879;
+extern const uint32_t SocketIOWePlaySample_OnMove_m3112102149_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnMove_m3112102149 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnMove_m3112102149_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 1;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		ObjectU5BU5D_t3614634134* L_3 = ___args2;
+		NullCheck(L_3);
+		int32_t L_4 = 0;
+		Il2CppObject * L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral1341935879, L_2, L_5, /*hidden argument*/NULL);
+		SocketIOWePlaySample_AddMessage_m3804707498(__this, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnJoin(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1554938403;
+extern Il2CppCodeGenString* _stringLiteral4230853538;
+extern const uint32_t SocketIOWePlaySample_OnJoin_m229240022_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnJoin_m229240022 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnJoin_m229240022_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_0)->max_length))))) <= ((int32_t)1)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_1 = ___args2;
+		NullCheck(L_1);
+		int32_t L_2 = 1;
+		Il2CppObject * L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral1554938403, L_3, /*hidden argument*/NULL);
+		G_B3_0 = L_4;
+		goto IL_0020;
+	}
+
+IL_001b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		G_B3_0 = L_5;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B3_0;
+		ObjectU5BU5D_t3614634134* L_6 = ___args2;
+		NullCheck(L_6);
+		int32_t L_7 = 0;
+		Il2CppObject * L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		String_t* L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral4230853538, L_8, L_9, /*hidden argument*/NULL);
+		SocketIOWePlaySample_AddMessage_m3804707498(__this, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnConnections(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const uint32_t SocketIOWePlaySample_OnConnections_m166059865_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnConnections_m166059865 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnConnections_m166059865_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_3 = Convert_ToInt32_m366159805(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_connections_9(L_3);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnFrame(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m3195270850_MethodInfo_var;
+extern const uint32_t SocketIOWePlaySample_OnFrame_m2295747677_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnFrame_m2295747677 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnFrame_m2295747677_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	{
+		int32_t L_0 = __this->get_State_5();
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		Texture2D_t3542995729 * L_1 = __this->get_FrameTexture_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_3 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m1873923924(L_3, 0, 0, 4, (bool)0, /*hidden argument*/NULL);
+		__this->set_FrameTexture_12(L_3);
+		Texture2D_t3542995729 * L_4 = __this->get_FrameTexture_12();
+		NullCheck(L_4);
+		Texture_set_filterMode_m3838996656(L_4, 0, /*hidden argument*/NULL);
+	}
+
+IL_0039:
+	{
+		Packet_t1309324146 * L_5 = ___packet1;
+		NullCheck(L_5);
+		List_1_t2766455145 * L_6 = Packet_get_Attachments_m3375548033(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		ByteU5BU5D_t3397334013* L_7 = List_1_get_Item_m3195270850(L_6, 0, /*hidden argument*/List_1_get_Item_m3195270850_MethodInfo_var);
+		V_0 = L_7;
+		Texture2D_t3542995729 * L_8 = __this->get_FrameTexture_12();
+		ByteU5BU5D_t3397334013* L_9 = V_0;
+		NullCheck(L_8);
+		Texture2D_LoadImage_m867542842(L_8, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::OnError(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1999682335;
+extern const uint32_t SocketIOWePlaySample_OnError_m3679814796_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_OnError_m3679814796 (SocketIOWePlaySample_t2969631597 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_OnError_m3679814796_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args2;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Il2CppObject * L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral1999682335, L_3, /*hidden argument*/NULL);
+		SocketIOWePlaySample_AddMessage_m3804707498(__this, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::<OnGUI>m__0()
+extern Il2CppClass* GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1919406447;
+extern const uint32_t SocketIOWePlaySample_U3COnGUIU3Em__0_m4007200553_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_U3COnGUIU3Em__0_m4007200553 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_U3COnGUIU3Em__0_m4007200553_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GUILayout_BeginVertical_m3700184690(NULL /*static, unused*/, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		GUILayout_FlexibleSpace_m2019304577(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUIHelper_DrawCenteredText_m2131137754(NULL /*static, unused*/, _stringLiteral1919406447, /*hidden argument*/NULL);
+		GUILayout_FlexibleSpace_m2019304577(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUILayout_EndVertical_m297596185(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::<OnGUI>m__1()
+extern "C"  void SocketIOWePlaySample_U3COnGUIU3Em__1_m4007200586 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	{
+		SocketIOWePlaySample_DrawLoginScreen_m3716764659(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SocketIOWePlaySample::<OnGUI>m__2()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var;
+extern const uint32_t SocketIOWePlaySample_U3COnGUIU3Em__2_m4007200619_MetadataUsageId;
+extern "C"  void SocketIOWePlaySample_U3COnGUIU3Em__2_m4007200619 (SocketIOWePlaySample_t2969631597 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SocketIOWePlaySample_U3COnGUIU3Em__2_m4007200619_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Texture2D_t3542995729 * L_0 = __this->get_FrameTexture_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_2 = __this->get_FrameTexture_12();
+		GUILayout_Box_m1903306574(NULL /*static, unused*/, L_2, ((GUILayoutOptionU5BU5D_t2108882777*)SZArrayNew(GUILayoutOptionU5BU5D_t2108882777_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		SocketIOWePlaySample_DrawControls_m265194138(__this, /*hidden argument*/NULL);
+		SocketIOWePlaySample_DrawChat_m2015027073(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void SolidArc::.ctor()
 extern "C"  void SolidArc__ctor_m1132571184 (SolidArc_t995576091 * __this, const MethodInfo* method)
 {
@@ -47884,916 +50290,6 @@ extern "C"  Il2CppObject * SpineBlinkPlayer_Start_m469440018 (SpineBlinkPlayer_t
 		L_1->set_U24this_1(__this);
 		U3CStartU3Ec__Iterator0_t3447213293 * L_2 = V_0;
 		return L_2;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineBlinkPlayer/<Start>c__Iterator0::.ctor()
-extern "C"  void U3CStartU3Ec__Iterator0__ctor_m3517988028 (U3CStartU3Ec__Iterator0_t3447213293 * __this, const MethodInfo* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean Spine.Unity.Examples.SpineBlinkPlayer/<Start>c__Iterator0::MoveNext()
-extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
-extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisSkeletonAnimation_t1845683983_m597558374_MethodInfo_var;
-extern const uint32_t U3CStartU3Ec__Iterator0_MoveNext_m4188531944_MetadataUsageId;
-extern "C"  bool U3CStartU3Ec__Iterator0_MoveNext_m4188531944 (U3CStartU3Ec__Iterator0_t3447213293 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CStartU3Ec__Iterator0_MoveNext_m4188531944_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	uint32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->get_U24PC_4();
-		V_0 = L_0;
-		__this->set_U24PC_4((-1));
-		uint32_t L_1 = V_0;
-		if (L_1 == 0)
-		{
-			goto IL_0021;
-		}
-		if (L_1 == 1)
-		{
-			goto IL_00a0;
-		}
-	}
-	{
-		goto IL_00ac;
-	}
-
-IL_0021:
-	{
-		SpineBlinkPlayer_t1942739946 * L_2 = __this->get_U24this_1();
-		NullCheck(L_2);
-		SkeletonAnimation_t1845683983 * L_3 = Component_GetComponent_TisSkeletonAnimation_t1845683983_m597558374(L_2, /*hidden argument*/Component_GetComponent_TisSkeletonAnimation_t1845683983_m597558374_MethodInfo_var);
-		__this->set_U3CskeletonAnimationU3E__0_0(L_3);
-		SkeletonAnimation_t1845683983 * L_4 = __this->get_U3CskeletonAnimationU3E__0_0();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_5 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_5)
-		{
-			goto IL_0048;
-		}
-	}
-	{
-		goto IL_00ac;
-	}
-
-IL_0048:
-	{
-		SkeletonAnimation_t1845683983 * L_6 = __this->get_U3CskeletonAnimationU3E__0_0();
-		NullCheck(L_6);
-		AnimationState_t1491536497 * L_7 = L_6->get_state_35();
-		SpineBlinkPlayer_t1942739946 * L_8 = __this->get_U24this_1();
-		NullCheck(L_8);
-		String_t* L_9 = L_8->get_blinkAnimation_3();
-		NullCheck(L_7);
-		AnimationState_SetAnimation_m3052035168(L_7, 1, L_9, (bool)0, /*hidden argument*/NULL);
-		SpineBlinkPlayer_t1942739946 * L_10 = __this->get_U24this_1();
-		NullCheck(L_10);
-		float L_11 = L_10->get_minimumDelay_4();
-		SpineBlinkPlayer_t1942739946 * L_12 = __this->get_U24this_1();
-		NullCheck(L_12);
-		float L_13 = L_12->get_maximumDelay_5();
-		float L_14 = Random_Range_m2884721203(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
-		WaitForSeconds_t3839502067 * L_15 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m1990515539(L_15, L_14, /*hidden argument*/NULL);
-		__this->set_U24current_2(L_15);
-		bool L_16 = __this->get_U24disposing_3();
-		if (L_16)
-		{
-			goto IL_009b;
-		}
-	}
-	{
-		__this->set_U24PC_4(1);
-	}
-
-IL_009b:
-	{
-		goto IL_00ae;
-	}
-
-IL_00a0:
-	{
-		goto IL_0048;
-	}
-	// Dead block : IL_00a5: ldarg.0
-
-IL_00ac:
-	{
-		return (bool)0;
-	}
-
-IL_00ae:
-	{
-		return (bool)1;
-	}
-}
-// System.Object Spine.Unity.Examples.SpineBlinkPlayer/<Start>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Il2CppObject * U3CStartU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2904525630 (U3CStartU3Ec__Iterator0_t3447213293 * __this, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = __this->get_U24current_2();
-		return L_0;
-	}
-}
-// System.Object Spine.Unity.Examples.SpineBlinkPlayer/<Start>c__Iterator0::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * U3CStartU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2631544038 (U3CStartU3Ec__Iterator0_t3447213293 * __this, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = __this->get_U24current_2();
-		return L_0;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineBlinkPlayer/<Start>c__Iterator0::Dispose()
-extern "C"  void U3CStartU3Ec__Iterator0_Dispose_m1861016391 (U3CStartU3Ec__Iterator0_t3447213293 * __this, const MethodInfo* method)
-{
-	{
-		__this->set_U24disposing_3((bool)1);
-		__this->set_U24PC_4((-1));
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineBlinkPlayer/<Start>c__Iterator0::Reset()
-extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
-extern const uint32_t U3CStartU3Ec__Iterator0_Reset_m2363244121_MetadataUsageId;
-extern "C"  void U3CStartU3Ec__Iterator0_Reset_m2363244121 (U3CStartU3Ec__Iterator0_t3447213293 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CStartU3Ec__Iterator0_Reset_m2363244121_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void Spine.Unity.Examples.Spineboy::.ctor()
-extern "C"  void Spineboy__ctor_m1281943741 (Spineboy_t2033372883 * __this, const MethodInfo* method)
-{
-	{
-		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.Spineboy::Start()
-extern Il2CppClass* TrackEntryEventDelegate_t818460179_il2cpp_TypeInfo_var;
-extern Il2CppClass* Spineboy_t2033372883_il2cpp_TypeInfo_var;
-extern Il2CppClass* TrackEntryDelegate_t737668607_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisSkeletonAnimation_t1845683983_m597558374_MethodInfo_var;
-extern const MethodInfo* Spineboy_HandleEvent_m2966476950_MethodInfo_var;
-extern const MethodInfo* Spineboy_U3CStartU3Em__0_m1792272070_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral842947042;
-extern Il2CppCodeGenString* _stringLiteral2309168105;
-extern const uint32_t Spineboy_Start_m3215149021_MetadataUsageId;
-extern "C"  void Spineboy_Start_m3215149021 (Spineboy_t2033372883 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Spineboy_Start_m3215149021_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	AnimationState_t1491536497 * G_B2_0 = NULL;
-	AnimationState_t1491536497 * G_B1_0 = NULL;
-	{
-		SkeletonAnimation_t1845683983 * L_0 = Component_GetComponent_TisSkeletonAnimation_t1845683983_m597558374(__this, /*hidden argument*/Component_GetComponent_TisSkeletonAnimation_t1845683983_m597558374_MethodInfo_var);
-		__this->set_skeletonAnimation_2(L_0);
-		SkeletonAnimation_t1845683983 * L_1 = __this->get_skeletonAnimation_2();
-		NullCheck(L_1);
-		AnimationState_t1491536497 * L_2 = L_1->get_state_35();
-		IntPtr_t L_3;
-		L_3.set_m_value_0((void*)(void*)Spineboy_HandleEvent_m2966476950_MethodInfo_var);
-		TrackEntryEventDelegate_t818460179 * L_4 = (TrackEntryEventDelegate_t818460179 *)il2cpp_codegen_object_new(TrackEntryEventDelegate_t818460179_il2cpp_TypeInfo_var);
-		TrackEntryEventDelegate__ctor_m1661868010(L_4, __this, L_3, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		AnimationState_add_Event_m884166454(L_2, L_4, /*hidden argument*/NULL);
-		SkeletonAnimation_t1845683983 * L_5 = __this->get_skeletonAnimation_2();
-		NullCheck(L_5);
-		AnimationState_t1491536497 * L_6 = L_5->get_state_35();
-		TrackEntryDelegate_t737668607 * L_7 = ((Spineboy_t2033372883_StaticFields*)Spineboy_t2033372883_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_3();
-		G_B1_0 = L_6;
-		if (L_7)
-		{
-			G_B2_0 = L_6;
-			goto IL_004b;
-		}
-	}
-	{
-		IntPtr_t L_8;
-		L_8.set_m_value_0((void*)(void*)Spineboy_U3CStartU3Em__0_m1792272070_MethodInfo_var);
-		TrackEntryDelegate_t737668607 * L_9 = (TrackEntryDelegate_t737668607 *)il2cpp_codegen_object_new(TrackEntryDelegate_t737668607_il2cpp_TypeInfo_var);
-		TrackEntryDelegate__ctor_m940403838(L_9, NULL, L_8, /*hidden argument*/NULL);
-		((Spineboy_t2033372883_StaticFields*)Spineboy_t2033372883_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_3(L_9);
-		G_B2_0 = G_B1_0;
-	}
-
-IL_004b:
-	{
-		TrackEntryDelegate_t737668607 * L_10 = ((Spineboy_t2033372883_StaticFields*)Spineboy_t2033372883_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_3();
-		NullCheck(G_B2_0);
-		AnimationState_add_End_m298844401(G_B2_0, L_10, /*hidden argument*/NULL);
-		SkeletonAnimation_t1845683983 * L_11 = __this->get_skeletonAnimation_2();
-		NullCheck(L_11);
-		AnimationState_t1491536497 * L_12 = L_11->get_state_35();
-		NullCheck(L_12);
-		AnimationState_AddAnimation_m1663809652(L_12, 0, _stringLiteral842947042, (bool)0, (2.0f), /*hidden argument*/NULL);
-		SkeletonAnimation_t1845683983 * L_13 = __this->get_skeletonAnimation_2();
-		NullCheck(L_13);
-		AnimationState_t1491536497 * L_14 = L_13->get_state_35();
-		NullCheck(L_14);
-		AnimationState_AddAnimation_m1663809652(L_14, 0, _stringLiteral2309168105, (bool)1, (0.0f), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.Spineboy::HandleEvent(Spine.TrackEntry,Spine.Event)
-extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral372029310;
-extern Il2CppCodeGenString* _stringLiteral4242584604;
-extern Il2CppCodeGenString* _stringLiteral811305474;
-extern const uint32_t Spineboy_HandleEvent_m2966476950_MetadataUsageId;
-extern "C"  void Spineboy_HandleEvent_m2966476950 (Spineboy_t2033372883 * __this, TrackEntry_t4106063311 * ___trackEntry0, Event_t1819867114 * ___e1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Spineboy_HandleEvent_m2966476950_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)7));
-		TrackEntry_t4106063311 * L_1 = ___trackEntry0;
-		NullCheck(L_1);
-		int32_t L_2 = L_1->get_trackIndex_3();
-		int32_t L_3 = L_2;
-		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
-		NullCheck(L_0);
-		ArrayElementTypeCheck (L_0, L_4);
-		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_4);
-		ObjectU5BU5D_t3614634134* L_5 = L_0;
-		NullCheck(L_5);
-		ArrayElementTypeCheck (L_5, _stringLiteral372029310);
-		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)_stringLiteral372029310);
-		ObjectU5BU5D_t3614634134* L_6 = L_5;
-		TrackEntry_t4106063311 * L_7 = ___trackEntry0;
-		NullCheck(L_7);
-		Animation_t4237671184 * L_8 = L_7->get_animation_0();
-		NullCheck(L_8);
-		String_t* L_9 = L_8->get_name_2();
-		NullCheck(L_6);
-		ArrayElementTypeCheck (L_6, L_9);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_9);
-		ObjectU5BU5D_t3614634134* L_10 = L_6;
-		NullCheck(L_10);
-		ArrayElementTypeCheck (L_10, _stringLiteral4242584604);
-		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)_stringLiteral4242584604);
-		ObjectU5BU5D_t3614634134* L_11 = L_10;
-		Event_t1819867114 * L_12 = ___e1;
-		NullCheck(L_11);
-		ArrayElementTypeCheck (L_11, L_12);
-		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)L_12);
-		ObjectU5BU5D_t3614634134* L_13 = L_11;
-		NullCheck(L_13);
-		ArrayElementTypeCheck (L_13, _stringLiteral811305474);
-		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(5), (Il2CppObject *)_stringLiteral811305474);
-		ObjectU5BU5D_t3614634134* L_14 = L_13;
-		Event_t1819867114 * L_15 = ___e1;
-		NullCheck(L_15);
-		int32_t L_16 = Event_get_Int_m3241891832(L_15, /*hidden argument*/NULL);
-		int32_t L_17 = L_16;
-		Il2CppObject * L_18 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_17);
-		NullCheck(L_14);
-		ArrayElementTypeCheck (L_14, L_18);
-		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(6), (Il2CppObject *)L_18);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Concat_m3881798623(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
-		Debug_Log_m3849937430(NULL /*static, unused*/, L_19, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.Spineboy::OnMouseDown()
-extern Il2CppCodeGenString* _stringLiteral842947042;
-extern Il2CppCodeGenString* _stringLiteral2309168105;
-extern const uint32_t Spineboy_OnMouseDown_m3315159331_MetadataUsageId;
-extern "C"  void Spineboy_OnMouseDown_m3315159331 (Spineboy_t2033372883 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Spineboy_OnMouseDown_m3315159331_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		SkeletonAnimation_t1845683983 * L_0 = __this->get_skeletonAnimation_2();
-		NullCheck(L_0);
-		AnimationState_t1491536497 * L_1 = L_0->get_state_35();
-		NullCheck(L_1);
-		AnimationState_SetAnimation_m3052035168(L_1, 0, _stringLiteral842947042, (bool)0, /*hidden argument*/NULL);
-		SkeletonAnimation_t1845683983 * L_2 = __this->get_skeletonAnimation_2();
-		NullCheck(L_2);
-		AnimationState_t1491536497 * L_3 = L_2->get_state_35();
-		NullCheck(L_3);
-		AnimationState_AddAnimation_m1663809652(L_3, 0, _stringLiteral2309168105, (bool)1, (0.0f), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.Spineboy::<Start>m__0(Spine.TrackEntry)
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1367680960;
-extern const uint32_t Spineboy_U3CStartU3Em__0_m1792272070_MetadataUsageId;
-extern "C"  void Spineboy_U3CStartU3Em__0_m1792272070 (Il2CppObject * __this /* static, unused */, TrackEntry_t4106063311 * ___entry0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Spineboy_U3CStartU3Em__0_m1792272070_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		TrackEntry_t4106063311 * L_0 = ___entry0;
-		NullCheck(L_0);
-		int32_t L_1 = L_0->get_trackIndex_3();
-		int32_t L_2 = L_1;
-		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1367680960, L_3, /*hidden argument*/NULL);
-		Debug_Log_m3849937430(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerInput::.ctor()
-extern Il2CppCodeGenString* _stringLiteral855845486;
-extern Il2CppCodeGenString* _stringLiteral3645101709;
-extern Il2CppCodeGenString* _stringLiteral842948034;
-extern const uint32_t SpineboyBeginnerInput__ctor_m2215238737_MetadataUsageId;
-extern "C"  void SpineboyBeginnerInput__ctor_m2215238737 (SpineboyBeginnerInput_t2446930765 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SpineboyBeginnerInput__ctor_m2215238737_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		__this->set_horizontalAxis_2(_stringLiteral855845486);
-		__this->set_attackButton_3(_stringLiteral3645101709);
-		__this->set_jumpButton_4(_stringLiteral842948034);
-		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerInput::OnValidate()
-extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
-extern const MethodInfo* Component_GetComponent_TisSpineboyBeginnerModel_t590323670_m1846911942_MethodInfo_var;
-extern const uint32_t SpineboyBeginnerInput_OnValidate_m3896265384_MetadataUsageId;
-extern "C"  void SpineboyBeginnerInput_OnValidate_m3896265384 (SpineboyBeginnerInput_t2446930765 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SpineboyBeginnerInput_OnValidate_m3896265384_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		SpineboyBeginnerModel_t590323670 * L_0 = __this->get_model_5();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		SpineboyBeginnerModel_t590323670 * L_2 = Component_GetComponent_TisSpineboyBeginnerModel_t590323670_m1846911942(__this, /*hidden argument*/Component_GetComponent_TisSpineboyBeginnerModel_t590323670_m1846911942_MethodInfo_var);
-		__this->set_model_5(L_2);
-	}
-
-IL_001d:
-	{
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerInput::Update()
-extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
-extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
-extern const uint32_t SpineboyBeginnerInput_Update_m235764026_MetadataUsageId;
-extern "C"  void SpineboyBeginnerInput_Update_m235764026 (SpineboyBeginnerInput_t2446930765 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SpineboyBeginnerInput_Update_m235764026_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	{
-		SpineboyBeginnerModel_t590323670 * L_0 = __this->get_model_5();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0012:
-	{
-		String_t* L_2 = __this->get_horizontalAxis_2();
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		float L_3 = Input_GetAxisRaw_m4133353720(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-		V_0 = L_3;
-		SpineboyBeginnerModel_t590323670 * L_4 = __this->get_model_5();
-		float L_5 = V_0;
-		NullCheck(L_4);
-		SpineboyBeginnerModel_TryMove_m206123759(L_4, L_5, /*hidden argument*/NULL);
-		String_t* L_6 = __this->get_attackButton_3();
-		bool L_7 = Input_GetButton_m38251721(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
-		if (!L_7)
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		SpineboyBeginnerModel_t590323670 * L_8 = __this->get_model_5();
-		NullCheck(L_8);
-		SpineboyBeginnerModel_TryShoot_m3301965374(L_8, /*hidden argument*/NULL);
-	}
-
-IL_0045:
-	{
-		String_t* L_9 = __this->get_jumpButton_4();
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		bool L_10 = Input_GetButtonDown_m2792523731(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
-		if (!L_10)
-		{
-			goto IL_0060;
-		}
-	}
-	{
-		SpineboyBeginnerModel_t590323670 * L_11 = __this->get_model_5();
-		NullCheck(L_11);
-		SpineboyBeginnerModel_TryJump_m1259485557(L_11, /*hidden argument*/NULL);
-	}
-
-IL_0060:
-	{
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel::.ctor()
-extern "C"  void SpineboyBeginnerModel__ctor_m2008587592 (SpineboyBeginnerModel_t590323670 * __this, const MethodInfo* method)
-{
-	{
-		__this->set_shootInterval_5((0.12f));
-		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel::add_ShootEvent(System.Action)
-extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
-extern const uint32_t SpineboyBeginnerModel_add_ShootEvent_m2915851494_MetadataUsageId;
-extern "C"  void SpineboyBeginnerModel_add_ShootEvent_m2915851494 (SpineboyBeginnerModel_t590323670 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SpineboyBeginnerModel_add_ShootEvent_m2915851494_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Action_t3226471752 * V_0 = NULL;
-	Action_t3226471752 * V_1 = NULL;
-	{
-		Action_t3226471752 * L_0 = __this->get_ShootEvent_7();
-		V_0 = L_0;
-	}
-
-IL_0007:
-	{
-		Action_t3226471752 * L_1 = V_0;
-		V_1 = L_1;
-		Action_t3226471752 ** L_2 = __this->get_address_of_ShootEvent_7();
-		Action_t3226471752 * L_3 = V_1;
-		Action_t3226471752 * L_4 = ___value0;
-		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
-		Action_t3226471752 * L_6 = V_0;
-		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
-		V_0 = L_7;
-		Action_t3226471752 * L_8 = V_0;
-		Action_t3226471752 * L_9 = V_1;
-		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
-		{
-			goto IL_0007;
-		}
-	}
-	{
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel::remove_ShootEvent(System.Action)
-extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
-extern const uint32_t SpineboyBeginnerModel_remove_ShootEvent_m3597886387_MetadataUsageId;
-extern "C"  void SpineboyBeginnerModel_remove_ShootEvent_m3597886387 (SpineboyBeginnerModel_t590323670 * __this, Action_t3226471752 * ___value0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SpineboyBeginnerModel_remove_ShootEvent_m3597886387_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Action_t3226471752 * V_0 = NULL;
-	Action_t3226471752 * V_1 = NULL;
-	{
-		Action_t3226471752 * L_0 = __this->get_ShootEvent_7();
-		V_0 = L_0;
-	}
-
-IL_0007:
-	{
-		Action_t3226471752 * L_1 = V_0;
-		V_1 = L_1;
-		Action_t3226471752 ** L_2 = __this->get_address_of_ShootEvent_7();
-		Action_t3226471752 * L_3 = V_1;
-		Action_t3226471752 * L_4 = ___value0;
-		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
-		Action_t3226471752 * L_6 = V_0;
-		Action_t3226471752 * L_7 = InterlockedCompareExchangeImpl<Action_t3226471752 *>(L_2, ((Action_t3226471752 *)CastclassSealed(L_5, Action_t3226471752_il2cpp_TypeInfo_var)), L_6);
-		V_0 = L_7;
-		Action_t3226471752 * L_8 = V_0;
-		Action_t3226471752 * L_9 = V_1;
-		if ((!(((Il2CppObject*)(Action_t3226471752 *)L_8) == ((Il2CppObject*)(Action_t3226471752 *)L_9))))
-		{
-			goto IL_0007;
-		}
-	}
-	{
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel::TryJump()
-extern "C"  void SpineboyBeginnerModel_TryJump_m1259485557 (SpineboyBeginnerModel_t590323670 * __this, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = SpineboyBeginnerModel_JumpRoutine_m204395528(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel::TryShoot()
-extern "C"  void SpineboyBeginnerModel_TryShoot_m3301965374 (SpineboyBeginnerModel_t590323670 * __this, const MethodInfo* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = Time_get_time_m2216684562(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_0 = L_0;
-		float L_1 = V_0;
-		float L_2 = __this->get_lastShootTime_6();
-		float L_3 = __this->get_shootInterval_5();
-		if ((!(((float)((float)((float)L_1-(float)L_2))) > ((float)L_3))))
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		float L_4 = V_0;
-		__this->set_lastShootTime_6(L_4);
-		Action_t3226471752 * L_5 = __this->get_ShootEvent_7();
-		if (!L_5)
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		Action_t3226471752 * L_6 = __this->get_ShootEvent_7();
-		NullCheck(L_6);
-		Action_Invoke_m3801112262(L_6, /*hidden argument*/NULL);
-	}
-
-IL_0036:
-	{
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel::TryMove(System.Single)
-extern "C"  void SpineboyBeginnerModel_TryMove_m206123759 (SpineboyBeginnerModel_t590323670 * __this, float ___speed0, const MethodInfo* method)
-{
-	bool V_0 = false;
-	SpineboyBeginnerModel_t590323670 * G_B5_0 = NULL;
-	SpineboyBeginnerModel_t590323670 * G_B4_0 = NULL;
-	int32_t G_B6_0 = 0;
-	SpineboyBeginnerModel_t590323670 * G_B6_1 = NULL;
-	{
-		float L_0 = ___speed0;
-		__this->set_currentSpeed_4(L_0);
-		float L_1 = ___speed0;
-		if ((((float)L_1) == ((float)(0.0f))))
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		float L_2 = ___speed0;
-		V_0 = (bool)((((float)L_2) < ((float)(0.0f)))? 1 : 0);
-		bool L_3 = V_0;
-		__this->set_facingLeft_3(L_3);
-	}
-
-IL_0022:
-	{
-		int32_t L_4 = __this->get_state_2();
-		if ((((int32_t)L_4) == ((int32_t)2)))
-		{
-			goto IL_0046;
-		}
-	}
-	{
-		float L_5 = ___speed0;
-		G_B4_0 = __this;
-		if ((!(((float)L_5) == ((float)(0.0f)))))
-		{
-			G_B5_0 = __this;
-			goto IL_0040;
-		}
-	}
-	{
-		G_B6_0 = 0;
-		G_B6_1 = G_B4_0;
-		goto IL_0041;
-	}
-
-IL_0040:
-	{
-		G_B6_0 = 1;
-		G_B6_1 = G_B5_0;
-	}
-
-IL_0041:
-	{
-		NullCheck(G_B6_1);
-		G_B6_1->set_state_2(G_B6_0);
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Collections.IEnumerator Spine.Unity.Examples.SpineboyBeginnerModel::JumpRoutine()
-extern Il2CppClass* U3CJumpRoutineU3Ec__Iterator0_t245857141_il2cpp_TypeInfo_var;
-extern const uint32_t SpineboyBeginnerModel_JumpRoutine_m204395528_MetadataUsageId;
-extern "C"  Il2CppObject * SpineboyBeginnerModel_JumpRoutine_m204395528 (SpineboyBeginnerModel_t590323670 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SpineboyBeginnerModel_JumpRoutine_m204395528_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CJumpRoutineU3Ec__Iterator0_t245857141 * V_0 = NULL;
-	{
-		U3CJumpRoutineU3Ec__Iterator0_t245857141 * L_0 = (U3CJumpRoutineU3Ec__Iterator0_t245857141 *)il2cpp_codegen_object_new(U3CJumpRoutineU3Ec__Iterator0_t245857141_il2cpp_TypeInfo_var);
-		U3CJumpRoutineU3Ec__Iterator0__ctor_m2095635346(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		U3CJumpRoutineU3Ec__Iterator0_t245857141 * L_1 = V_0;
-		NullCheck(L_1);
-		L_1->set_U24this_5(__this);
-		U3CJumpRoutineU3Ec__Iterator0_t245857141 * L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel/<JumpRoutine>c__Iterator0::.ctor()
-extern "C"  void U3CJumpRoutineU3Ec__Iterator0__ctor_m2095635346 (U3CJumpRoutineU3Ec__Iterator0_t245857141 * __this, const MethodInfo* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean Spine.Unity.Examples.SpineboyBeginnerModel/<JumpRoutine>c__Iterator0::MoveNext()
-extern "C"  bool U3CJumpRoutineU3Ec__Iterator0_MoveNext_m2956003722 (U3CJumpRoutineU3Ec__Iterator0_t245857141 * __this, const MethodInfo* method)
-{
-	uint32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->get_U24PC_8();
-		V_0 = L_0;
-		__this->set_U24PC_8((-1));
-		uint32_t L_1 = V_0;
-		if (L_1 == 0)
-		{
-			goto IL_0025;
-		}
-		if (L_1 == 1)
-		{
-			goto IL_00c6;
-		}
-		if (L_1 == 2)
-		{
-			goto IL_014b;
-		}
-	}
-	{
-		goto IL_0196;
-	}
-
-IL_0025:
-	{
-		SpineboyBeginnerModel_t590323670 * L_2 = __this->get_U24this_5();
-		NullCheck(L_2);
-		int32_t L_3 = L_2->get_state_2();
-		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
-		{
-			goto IL_003b;
-		}
-	}
-	{
-		goto IL_0196;
-	}
-
-IL_003b:
-	{
-		SpineboyBeginnerModel_t590323670 * L_4 = __this->get_U24this_5();
-		NullCheck(L_4);
-		L_4->set_state_2(2);
-		SpineboyBeginnerModel_t590323670 * L_5 = __this->get_U24this_5();
-		NullCheck(L_5);
-		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(L_5, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		Vector3_t2243707580  L_7 = Transform_get_localPosition_m2533925116(L_6, /*hidden argument*/NULL);
-		__this->set_U3CposU3E__0_0(L_7);
-		__this->set_U3CtU3E__1_1((0.0f));
-		goto IL_00d8;
-	}
-
-IL_006d:
-	{
-		float L_8 = __this->get_U3CtU3E__1_1();
-		__this->set_U3CdU3E__2_2(((float)((float)(20.0f)*(float)((float)((float)(0.6f)-(float)L_8)))));
-		SpineboyBeginnerModel_t590323670 * L_9 = __this->get_U24this_5();
-		NullCheck(L_9);
-		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(L_9, /*hidden argument*/NULL);
-		float L_11 = __this->get_U3CdU3E__2_2();
-		float L_12 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t2243707580  L_13 = Vector3_get_up_m2725403797(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t2243707580  L_14 = Vector3_op_Multiply_m3872631309(NULL /*static, unused*/, ((float)((float)L_11*(float)L_12)), L_13, /*hidden argument*/NULL);
-		NullCheck(L_10);
-		Transform_Translate_m3316827744(L_10, L_14, /*hidden argument*/NULL);
-		__this->set_U24current_6(NULL);
-		bool L_15 = __this->get_U24disposing_7();
-		if (L_15)
-		{
-			goto IL_00c1;
-		}
-	}
-	{
-		__this->set_U24PC_8(1);
-	}
-
-IL_00c1:
-	{
-		goto IL_0198;
-	}
-
-IL_00c6:
-	{
-		float L_16 = __this->get_U3CtU3E__1_1();
-		float L_17 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
-		__this->set_U3CtU3E__1_1(((float)((float)L_16+(float)L_17)));
-	}
-
-IL_00d8:
-	{
-		float L_18 = __this->get_U3CtU3E__1_1();
-		if ((((float)L_18) < ((float)(0.6f))))
-		{
-			goto IL_006d;
-		}
-	}
-	{
-		__this->set_U3CtU3E__3_3((0.0f));
-		goto IL_015d;
-	}
-
-IL_00f8:
-	{
-		float L_19 = __this->get_U3CtU3E__3_3();
-		__this->set_U3CdU3E__4_4(((float)((float)(20.0f)*(float)L_19)));
-		SpineboyBeginnerModel_t590323670 * L_20 = __this->get_U24this_5();
-		NullCheck(L_20);
-		Transform_t3275118058 * L_21 = Component_get_transform_m2697483695(L_20, /*hidden argument*/NULL);
-		float L_22 = __this->get_U3CdU3E__4_4();
-		float L_23 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t2243707580  L_24 = Vector3_get_down_m2372302126(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t2243707580  L_25 = Vector3_op_Multiply_m3872631309(NULL /*static, unused*/, ((float)((float)L_22*(float)L_23)), L_24, /*hidden argument*/NULL);
-		NullCheck(L_21);
-		Transform_Translate_m3316827744(L_21, L_25, /*hidden argument*/NULL);
-		__this->set_U24current_6(NULL);
-		bool L_26 = __this->get_U24disposing_7();
-		if (L_26)
-		{
-			goto IL_0146;
-		}
-	}
-	{
-		__this->set_U24PC_8(2);
-	}
-
-IL_0146:
-	{
-		goto IL_0198;
-	}
-
-IL_014b:
-	{
-		float L_27 = __this->get_U3CtU3E__3_3();
-		float L_28 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
-		__this->set_U3CtU3E__3_3(((float)((float)L_27+(float)L_28)));
-	}
-
-IL_015d:
-	{
-		float L_29 = __this->get_U3CtU3E__3_3();
-		if ((((float)L_29) < ((float)(0.6f))))
-		{
-			goto IL_00f8;
-		}
-	}
-	{
-		SpineboyBeginnerModel_t590323670 * L_30 = __this->get_U24this_5();
-		NullCheck(L_30);
-		Transform_t3275118058 * L_31 = Component_get_transform_m2697483695(L_30, /*hidden argument*/NULL);
-		Vector3_t2243707580  L_32 = __this->get_U3CposU3E__0_0();
-		NullCheck(L_31);
-		Transform_set_localPosition_m1026930133(L_31, L_32, /*hidden argument*/NULL);
-		SpineboyBeginnerModel_t590323670 * L_33 = __this->get_U24this_5();
-		NullCheck(L_33);
-		L_33->set_state_2(0);
-		__this->set_U24PC_8((-1));
-	}
-
-IL_0196:
-	{
-		return (bool)0;
-	}
-
-IL_0198:
-	{
-		return (bool)1;
-	}
-}
-// System.Object Spine.Unity.Examples.SpineboyBeginnerModel/<JumpRoutine>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Il2CppObject * U3CJumpRoutineU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2354407742 (U3CJumpRoutineU3Ec__Iterator0_t245857141 * __this, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = __this->get_U24current_6();
-		return L_0;
-	}
-}
-// System.Object Spine.Unity.Examples.SpineboyBeginnerModel/<JumpRoutine>c__Iterator0::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * U3CJumpRoutineU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2106187078 (U3CJumpRoutineU3Ec__Iterator0_t245857141 * __this, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = __this->get_U24current_6();
-		return L_0;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel/<JumpRoutine>c__Iterator0::Dispose()
-extern "C"  void U3CJumpRoutineU3Ec__Iterator0_Dispose_m3199174495 (U3CJumpRoutineU3Ec__Iterator0_t245857141 * __this, const MethodInfo* method)
-{
-	{
-		__this->set_U24disposing_7((bool)1);
-		__this->set_U24PC_8((-1));
-		return;
-	}
-}
-// System.Void Spine.Unity.Examples.SpineboyBeginnerModel/<JumpRoutine>c__Iterator0::Reset()
-extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
-extern const uint32_t U3CJumpRoutineU3Ec__Iterator0_Reset_m135745801_MetadataUsageId;
-extern "C"  void U3CJumpRoutineU3Ec__Iterator0_Reset_m135745801 (U3CJumpRoutineU3Ec__Iterator0_t245857141 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CJumpRoutineU3Ec__Iterator0_Reset_m135745801_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
 #ifdef __clang__

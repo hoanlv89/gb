@@ -5,7 +5,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>Ðánh bài</string>
+    <string>88Club</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIconFiles</key>
@@ -30,15 +30,6 @@
     <string>4.5</string>
     <key>CFBundleVersion</key>
     <string>1</string>
-    <key>FacebookAppID</key>
-    <string>105833263226477</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-      <string>fbapi</string>
-      <string>fb-messenger-api</string>
-      <string>fbauth2</string>
-      <string>fbshareextension</string>
-    </array>
     <key>LSRequiresIPhoneOS</key>
     <true />
     <key>NSAppTransportSecurity</key>
@@ -47,10 +38,10 @@
       <true />
       <key>NSExceptionDomains</key>
       <dict>
-        <key>NSExceptionRequiresForwardSecrecy</key>
-        <false />
         <key>NSIncludesSubdomains</key>
         <true />
+        <key>NSExceptionRequiresForwardSecrecy</key>
+        <false />
       </dict>
     </dict>
     <key>UIApplicationExitsOnSuspend</key>
@@ -66,7 +57,6 @@
     <key>UIRequiredDeviceCapabilities</key>
     <array>
       <string>armv7</string>
-      <string>gamekit</string>
     </array>
     <key>UIRequiresFullScreen</key>
     <true />
@@ -83,6 +73,8 @@
     </array>
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
+    <key>FacebookAppID</key>
+    <string>105833263226477</string>
     <key>CFBundleURLTypes</key>
     <array>
       <dict>
@@ -93,6 +85,13 @@
           <string>fb105833263226477unity</string>
         </array>
       </dict>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
     </array>
   </dict>
 </plist>

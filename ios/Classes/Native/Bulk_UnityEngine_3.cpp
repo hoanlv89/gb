@@ -303,6 +303,8 @@ struct TypeInferenceRuleAttribute_t1390152093;
 #include "System_System_Uri19570940MethodDeclarations.h"
 #include "System_System_Uri19570940.h"
 #include "System_System_UriKind1128731744.h"
+#include "System_System_Text_RegularExpressions_Regex1803876613MethodDeclarations.h"
+#include "System_System_Text_RegularExpressions_Regex1803876613.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -1312,48 +1314,73 @@ extern "C"  void TextGenerator_Dispose_cpp_m1755131202 (TextGenerator_t647235000
 	_il2cpp_icall_func(__this);
 }
 // System.Boolean UnityEngine.TextGenerator::Populate_Internal(System.String,UnityEngine.Font,UnityEngine.Color,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,UnityEngine.VerticalWrapMode,UnityEngine.HorizontalWrapMode,System.Boolean,UnityEngine.TextAnchor,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.TextGenerationError&)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t TextGenerator_Populate_Internal_m1817393161_MetadataUsageId;
 extern "C"  bool TextGenerator_Populate_Internal_m1817393161 (TextGenerator_t647235000 * __this, String_t* ___str0, Font_t4239498691 * ___font1, Color_t2020392075  ___color2, int32_t ___fontSize3, float ___scaleFactor4, float ___lineSpacing5, int32_t ___style6, bool ___richText7, bool ___resizeTextForBestFit8, int32_t ___resizeTextMinSize9, int32_t ___resizeTextMaxSize10, int32_t ___verticalOverFlow11, int32_t ___horizontalOverflow12, bool ___updateBounds13, int32_t ___anchor14, Vector2_t2243707579  ___extents15, Vector2_t2243707579  ___pivot16, bool ___generateOutOfBounds17, bool ___alignByGeometry18, int32_t* ___error19, const MethodInfo* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TextGenerator_Populate_Internal_m1817393161_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
 	uint32_t V_0 = 0;
 	bool V_1 = false;
 	bool V_2 = false;
 	{
 		V_0 = 0;
-		String_t* L_0 = ___str0;
-		Font_t4239498691 * L_1 = ___font1;
-		Color_t2020392075  L_2 = ___color2;
-		int32_t L_3 = ___fontSize3;
-		float L_4 = ___scaleFactor4;
-		float L_5 = ___lineSpacing5;
-		int32_t L_6 = ___style6;
-		bool L_7 = ___richText7;
-		bool L_8 = ___resizeTextForBestFit8;
-		int32_t L_9 = ___resizeTextMinSize9;
-		int32_t L_10 = ___resizeTextMaxSize10;
-		int32_t L_11 = ___verticalOverFlow11;
-		int32_t L_12 = ___horizontalOverflow12;
-		bool L_13 = ___updateBounds13;
-		int32_t L_14 = ___anchor14;
-		float L_15 = (&___extents15)->get_x_0();
-		float L_16 = (&___extents15)->get_y_1();
-		float L_17 = (&___pivot16)->get_x_0();
-		float L_18 = (&___pivot16)->get_y_1();
-		bool L_19 = ___generateOutOfBounds17;
-		bool L_20 = ___alignByGeometry18;
-		bool L_21 = TextGenerator_Populate_Internal_cpp_m223771997(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, L_17, L_18, L_19, L_20, (&V_0), /*hidden argument*/NULL);
-		V_1 = L_21;
-		int32_t* L_22 = ___error19;
-		uint32_t L_23 = V_0;
-		*((int32_t*)(L_22)) = (int32_t)L_23;
-		bool L_24 = V_1;
-		V_2 = L_24;
-		goto IL_0052;
+		Font_t4239498691 * L_0 = ___font1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t* L_2 = ___error19;
+		*((int32_t*)(L_2)) = (int32_t)4;
+		V_1 = (bool)0;
+		goto IL_006b;
 	}
 
-IL_0052:
+IL_001b:
 	{
-		bool L_25 = V_2;
-		return L_25;
+		String_t* L_3 = ___str0;
+		Font_t4239498691 * L_4 = ___font1;
+		Color_t2020392075  L_5 = ___color2;
+		int32_t L_6 = ___fontSize3;
+		float L_7 = ___scaleFactor4;
+		float L_8 = ___lineSpacing5;
+		int32_t L_9 = ___style6;
+		bool L_10 = ___richText7;
+		bool L_11 = ___resizeTextForBestFit8;
+		int32_t L_12 = ___resizeTextMinSize9;
+		int32_t L_13 = ___resizeTextMaxSize10;
+		int32_t L_14 = ___verticalOverFlow11;
+		int32_t L_15 = ___horizontalOverflow12;
+		bool L_16 = ___updateBounds13;
+		int32_t L_17 = ___anchor14;
+		float L_18 = (&___extents15)->get_x_0();
+		float L_19 = (&___extents15)->get_y_1();
+		float L_20 = (&___pivot16)->get_x_0();
+		float L_21 = (&___pivot16)->get_y_1();
+		bool L_22 = ___generateOutOfBounds17;
+		bool L_23 = ___alignByGeometry18;
+		bool L_24 = TextGenerator_Populate_Internal_cpp_m223771997(__this, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, L_17, L_18, L_19, L_20, L_21, L_22, L_23, (&V_0), /*hidden argument*/NULL);
+		V_2 = L_24;
+		int32_t* L_25 = ___error19;
+		uint32_t L_26 = V_0;
+		*((int32_t*)(L_25)) = (int32_t)L_26;
+		bool L_27 = V_2;
+		V_1 = L_27;
+		goto IL_006b;
+	}
+
+IL_006b:
+	{
+		bool L_28 = V_1;
+		return L_28;
 	}
 }
 // System.Boolean UnityEngine.TextGenerator::Populate_Internal_cpp(System.String,UnityEngine.Font,UnityEngine.Color,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.TextAnchor,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.UInt32&)
@@ -9913,6 +9940,26 @@ IL_0052:
 	{
 		String_t* L_16 = V_1;
 		return L_16;
+	}
+}
+// System.Void UnityEngineInternal.WebRequestUtils::.cctor()
+extern Il2CppClass* Regex_t1803876613_il2cpp_TypeInfo_var;
+extern Il2CppClass* WebRequestUtils_t4100941042_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2697683047;
+extern const uint32_t WebRequestUtils__cctor_m893658947_MetadataUsageId;
+extern "C"  void WebRequestUtils__cctor_m893658947 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WebRequestUtils__cctor_m893658947_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Regex_t1803876613 * L_0 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
+		Regex__ctor_m1229307206(L_0, _stringLiteral2697683047, /*hidden argument*/NULL);
+		((WebRequestUtils_t4100941042_StaticFields*)WebRequestUtils_t4100941042_il2cpp_TypeInfo_var->static_fields)->set_domainRegex_0(L_0);
+		return;
 	}
 }
 #ifdef __clang__

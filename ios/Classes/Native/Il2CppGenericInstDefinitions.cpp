@@ -2024,6 +2024,12 @@ extern const Il2CppGenericInst GenInst_DataSetting_t1802868104_0_0_0 = { 1, GenI
 extern const Il2CppType RoomGame_t2389026731_0_0_0;
 static const Il2CppType* GenInst_RoomGame_t2389026731_0_0_0_Types[] = { &RoomGame_t2389026731_0_0_0 };
 extern const Il2CppGenericInst GenInst_RoomGame_t2389026731_0_0_0 = { 1, GenInst_RoomGame_t2389026731_0_0_0_Types };
+extern const Il2CppType BannerItem_t2270764687_0_0_0;
+static const Il2CppType* GenInst_BannerItem_t2270764687_0_0_0_Types[] = { &BannerItem_t2270764687_0_0_0 };
+extern const Il2CppGenericInst GenInst_BannerItem_t2270764687_0_0_0 = { 1, GenInst_BannerItem_t2270764687_0_0_0_Types };
+extern const Il2CppType BannerData_t2627253310_0_0_0;
+static const Il2CppType* GenInst_BannerData_t2627253310_0_0_0_Types[] = { &BannerData_t2627253310_0_0_0 };
+extern const Il2CppGenericInst GenInst_BannerData_t2627253310_0_0_0 = { 1, GenInst_BannerData_t2627253310_0_0_0_Types };
 extern const Il2CppType DailyBonus_t3587515496_0_0_0;
 static const Il2CppType* GenInst_DailyBonus_t3587515496_0_0_0_Types[] = { &DailyBonus_t3587515496_0_0_0 };
 extern const Il2CppGenericInst GenInst_DailyBonus_t3587515496_0_0_0 = { 1, GenInst_DailyBonus_t3587515496_0_0_0_Types };
@@ -3398,6 +3404,9 @@ extern const Il2CppGenericInst GenInst_Toast_t3649705739_0_0_0 = { 1, GenInst_To
 extern const Il2CppType WaitingDialog_t2062014917_0_0_0;
 static const Il2CppType* GenInst_WaitingDialog_t2062014917_0_0_0_Types[] = { &WaitingDialog_t2062014917_0_0_0 };
 extern const Il2CppGenericInst GenInst_WaitingDialog_t2062014917_0_0_0 = { 1, GenInst_WaitingDialog_t2062014917_0_0_0_Types };
+extern const Il2CppType BannerScene_t3245990610_0_0_0;
+static const Il2CppType* GenInst_BannerScene_t3245990610_0_0_0_Types[] = { &BannerScene_t3245990610_0_0_0 };
+extern const Il2CppGenericInst GenInst_BannerScene_t3245990610_0_0_0 = { 1, GenInst_BannerScene_t3245990610_0_0_0_Types };
 extern const Il2CppType NotificationCenter_t4076733310_0_0_0;
 static const Il2CppType* GenInst_NotificationCenter_t4076733310_0_0_0_Types[] = { &NotificationCenter_t4076733310_0_0_0 };
 extern const Il2CppGenericInst GenInst_NotificationCenter_t4076733310_0_0_0 = { 1, GenInst_NotificationCenter_t4076733310_0_0_0_Types };
@@ -3530,7 +3539,7 @@ static const Il2CppType* GenInst_KeyValuePair_2_t2387876582_0_0_0_KeyValuePair_2
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2387876582_0_0_0_KeyValuePair_2_t2387876582_0_0_0 = { 2, GenInst_KeyValuePair_2_t2387876582_0_0_0_KeyValuePair_2_t2387876582_0_0_0_Types };
 static const Il2CppType* GenInst_KeyValuePair_2_t2387876582_0_0_0_Il2CppObject_0_0_0_Types[] = { &KeyValuePair_2_t2387876582_0_0_0, &Il2CppObject_0_0_0 };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2387876582_0_0_0_Il2CppObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t2387876582_0_0_0_Il2CppObject_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[1262] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[1265] = 
 {
 	&GenInst_Il2CppObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -4256,6 +4265,8 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[1262] =
 	&GenInst_SettingItem_t3549587565_0_0_0,
 	&GenInst_DataSetting_t1802868104_0_0_0,
 	&GenInst_RoomGame_t2389026731_0_0_0,
+	&GenInst_BannerItem_t2270764687_0_0_0,
+	&GenInst_BannerData_t2627253310_0_0_0,
 	&GenInst_DailyBonus_t3587515496_0_0_0,
 	&GenInst_GameConfig_t811207744_0_0_0,
 	&GenInst_IPConfig_t2412837625_0_0_0,
@@ -4729,6 +4740,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[1262] =
 	&GenInst_TextMesh_t1641806576_0_0_0,
 	&GenInst_Toast_t3649705739_0_0_0,
 	&GenInst_WaitingDialog_t2062014917_0_0_0,
+	&GenInst_BannerScene_t3245990610_0_0_0,
 	&GenInst_NotificationCenter_t4076733310_0_0_0,
 	&GenInst_EmptyMockDialog_t2854396319_0_0_0,
 	&GenInst_PropertyMetadata_t3693826136_0_0_0_PropertyMetadata_t3693826136_0_0_0,

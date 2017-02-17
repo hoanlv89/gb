@@ -231,7 +231,7 @@ extern "C" void UnityRequestQuit()
 	auto addItem = [&](NSString* key, id value)
 	{
 		[keys addObject:key];
-		[values addObject:value];
+		[values addObject:value ? value : [NSNull null]];
 	};
 
 	addItem(@"url", url);

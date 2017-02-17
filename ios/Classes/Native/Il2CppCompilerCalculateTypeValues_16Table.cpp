@@ -145,9 +145,10 @@ extern const int32_t g_FieldOffsetTable1603[1] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1604 = { sizeof (Playables_t2968292729), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1605 = { sizeof (ScriptPlayable_t4067966717), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1606 = { sizeof (DeviceGeneration_t1717781390)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1606[38] = 
+extern const int32_t g_FieldOffsetTable1606[39] = 
 {
 	DeviceGeneration_t1717781390::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
 	0,
 	0,
 	0,

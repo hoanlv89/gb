@@ -28,6 +28,8 @@ struct SocketManager_t3470268644;
 struct Socket_t2716624701;
 // System.Collections.Generic.List`1<System.Int32>
 struct List_1_t1440998580;
+// System.Collections.Generic.List`1<BannerData>
+struct List_1_t1996374442;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
 #include "AssemblyU2DCSharp_GameApplication_GameApp3068551626.h"
@@ -159,14 +161,16 @@ public:
 	List_1_t1440998580 * ___stakeList_59;
 	// System.Collections.Generic.List`1<System.Int32> GameApplication::ccusList
 	List_1_t1440998580 * ___ccusList_60;
+	// System.Collections.Generic.List`1<BannerData> GameApplication::bannerData
+	List_1_t1996374442 * ___bannerData_61;
 	// System.Int32 GameApplication::notify_MT
-	int32_t ___notify_MT_61;
+	int32_t ___notify_MT_62;
 	// System.Boolean GameApplication::onReconnect
-	bool ___onReconnect_62;
+	bool ___onReconnect_63;
 	// System.Boolean GameApplication::showRegName
-	bool ___showRegName_63;
+	bool ___showRegName_64;
 	// System.Int32 GameApplication::inChangingAvatar
-	int32_t ___inChangingAvatar_64;
+	int32_t ___inChangingAvatar_65;
 
 public:
 	inline static int32_t get_offset_of_DEBUG_ON_2() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___DEBUG_ON_2)); }
@@ -653,36 +657,45 @@ public:
 		Il2CppCodeGenWriteBarrier(&___ccusList_60, value);
 	}
 
-	inline static int32_t get_offset_of_notify_MT_61() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___notify_MT_61)); }
-	inline int32_t get_notify_MT_61() const { return ___notify_MT_61; }
-	inline int32_t* get_address_of_notify_MT_61() { return &___notify_MT_61; }
-	inline void set_notify_MT_61(int32_t value)
+	inline static int32_t get_offset_of_bannerData_61() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___bannerData_61)); }
+	inline List_1_t1996374442 * get_bannerData_61() const { return ___bannerData_61; }
+	inline List_1_t1996374442 ** get_address_of_bannerData_61() { return &___bannerData_61; }
+	inline void set_bannerData_61(List_1_t1996374442 * value)
 	{
-		___notify_MT_61 = value;
+		___bannerData_61 = value;
+		Il2CppCodeGenWriteBarrier(&___bannerData_61, value);
 	}
 
-	inline static int32_t get_offset_of_onReconnect_62() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___onReconnect_62)); }
-	inline bool get_onReconnect_62() const { return ___onReconnect_62; }
-	inline bool* get_address_of_onReconnect_62() { return &___onReconnect_62; }
-	inline void set_onReconnect_62(bool value)
+	inline static int32_t get_offset_of_notify_MT_62() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___notify_MT_62)); }
+	inline int32_t get_notify_MT_62() const { return ___notify_MT_62; }
+	inline int32_t* get_address_of_notify_MT_62() { return &___notify_MT_62; }
+	inline void set_notify_MT_62(int32_t value)
 	{
-		___onReconnect_62 = value;
+		___notify_MT_62 = value;
 	}
 
-	inline static int32_t get_offset_of_showRegName_63() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___showRegName_63)); }
-	inline bool get_showRegName_63() const { return ___showRegName_63; }
-	inline bool* get_address_of_showRegName_63() { return &___showRegName_63; }
-	inline void set_showRegName_63(bool value)
+	inline static int32_t get_offset_of_onReconnect_63() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___onReconnect_63)); }
+	inline bool get_onReconnect_63() const { return ___onReconnect_63; }
+	inline bool* get_address_of_onReconnect_63() { return &___onReconnect_63; }
+	inline void set_onReconnect_63(bool value)
 	{
-		___showRegName_63 = value;
+		___onReconnect_63 = value;
 	}
 
-	inline static int32_t get_offset_of_inChangingAvatar_64() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___inChangingAvatar_64)); }
-	inline int32_t get_inChangingAvatar_64() const { return ___inChangingAvatar_64; }
-	inline int32_t* get_address_of_inChangingAvatar_64() { return &___inChangingAvatar_64; }
-	inline void set_inChangingAvatar_64(int32_t value)
+	inline static int32_t get_offset_of_showRegName_64() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___showRegName_64)); }
+	inline bool get_showRegName_64() const { return ___showRegName_64; }
+	inline bool* get_address_of_showRegName_64() { return &___showRegName_64; }
+	inline void set_showRegName_64(bool value)
 	{
-		___inChangingAvatar_64 = value;
+		___showRegName_64 = value;
+	}
+
+	inline static int32_t get_offset_of_inChangingAvatar_65() { return static_cast<int32_t>(offsetof(GameApplication_t4152476660_StaticFields, ___inChangingAvatar_65)); }
+	inline int32_t get_inChangingAvatar_65() const { return ___inChangingAvatar_65; }
+	inline int32_t* get_address_of_inChangingAvatar_65() { return &___inChangingAvatar_65; }
+	inline void set_inChangingAvatar_65(int32_t value)
+	{
+		___inChangingAvatar_65 = value;
 	}
 };
 

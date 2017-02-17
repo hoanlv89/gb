@@ -10593,7 +10593,7 @@ extern "C"  void ScrollRect_SetNormalizedPosition_m3782185980 (ScrollRect_t11990
 		float L_27 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
 		float L_28 = fabsf(((float)((float)L_26-(float)L_27)));
-		if ((!(((float)L_28) > ((float)(0.0001f)))))
+		if ((!(((float)L_28) > ((float)(0.01f)))))
 		{
 			goto IL_00d7;
 		}

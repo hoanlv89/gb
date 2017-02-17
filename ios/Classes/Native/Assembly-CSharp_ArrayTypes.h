@@ -153,6 +153,10 @@ struct SettingItem_t3549587565;
 struct DataSetting_t1802868104;
 // RoomGame
 struct RoomGame_t2389026731;
+// BannerItem
+struct BannerItem_t2270764687;
+// BannerData
+struct BannerData_t2627253310;
 // DailyBonus
 struct DailyBonus_t3587515496;
 // GameConfig
@@ -330,6 +334,8 @@ struct SkeletonUtilityConstraint_t1397591976;
 #include "AssemblyU2DCSharp_SettingItem3549587565.h"
 #include "AssemblyU2DCSharp_DataSetting1802868104.h"
 #include "AssemblyU2DCSharp_RoomGame2389026731.h"
+#include "AssemblyU2DCSharp_BannerItem2270764687.h"
+#include "AssemblyU2DCSharp_BannerData2627253310.h"
 #include "AssemblyU2DCSharp_DailyBonus3587515496.h"
 #include "AssemblyU2DCSharp_GameConfig811207744.h"
 #include "AssemblyU2DCSharp_IPConfig2412837625.h"
@@ -3226,6 +3232,80 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, RoomGame_t2389026731 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// BannerItem[]
+struct BannerItemU5BU5D_t2855903830  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) BannerItem_t2270764687 * m_Items[1];
+
+public:
+	inline BannerItem_t2270764687 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline BannerItem_t2270764687 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, BannerItem_t2270764687 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline BannerItem_t2270764687 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline BannerItem_t2270764687 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, BannerItem_t2270764687 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// BannerData[]
+struct BannerDataU5BU5D_t1698524427  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) BannerData_t2627253310 * m_Items[1];
+
+public:
+	inline BannerData_t2627253310 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline BannerData_t2627253310 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, BannerData_t2627253310 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline BannerData_t2627253310 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline BannerData_t2627253310 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, BannerData_t2627253310 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

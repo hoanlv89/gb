@@ -28,38 +28,38 @@ struct  GameSceneSam_t3335616865  : public GameScene_t1466645730
 {
 public:
 	// UnityEngine.RectTransform GameSceneSam::rtf_BaoSam
-	RectTransform_t3349966182 * ___rtf_BaoSam_46;
+	RectTransform_t3349966182 * ___rtf_BaoSam_47;
 	// UnityEngine.UI.Button GameSceneSam::btn_BaoSam
-	Button_t2872111280 * ___btn_BaoSam_47;
+	Button_t2872111280 * ___btn_BaoSam_48;
 	// UnityEngine.UI.Button GameSceneSam::btn_KhongSam
-	Button_t2872111280 * ___btn_KhongSam_48;
+	Button_t2872111280 * ___btn_KhongSam_49;
 
 public:
-	inline static int32_t get_offset_of_rtf_BaoSam_46() { return static_cast<int32_t>(offsetof(GameSceneSam_t3335616865, ___rtf_BaoSam_46)); }
-	inline RectTransform_t3349966182 * get_rtf_BaoSam_46() const { return ___rtf_BaoSam_46; }
-	inline RectTransform_t3349966182 ** get_address_of_rtf_BaoSam_46() { return &___rtf_BaoSam_46; }
-	inline void set_rtf_BaoSam_46(RectTransform_t3349966182 * value)
+	inline static int32_t get_offset_of_rtf_BaoSam_47() { return static_cast<int32_t>(offsetof(GameSceneSam_t3335616865, ___rtf_BaoSam_47)); }
+	inline RectTransform_t3349966182 * get_rtf_BaoSam_47() const { return ___rtf_BaoSam_47; }
+	inline RectTransform_t3349966182 ** get_address_of_rtf_BaoSam_47() { return &___rtf_BaoSam_47; }
+	inline void set_rtf_BaoSam_47(RectTransform_t3349966182 * value)
 	{
-		___rtf_BaoSam_46 = value;
-		Il2CppCodeGenWriteBarrier(&___rtf_BaoSam_46, value);
+		___rtf_BaoSam_47 = value;
+		Il2CppCodeGenWriteBarrier(&___rtf_BaoSam_47, value);
 	}
 
-	inline static int32_t get_offset_of_btn_BaoSam_47() { return static_cast<int32_t>(offsetof(GameSceneSam_t3335616865, ___btn_BaoSam_47)); }
-	inline Button_t2872111280 * get_btn_BaoSam_47() const { return ___btn_BaoSam_47; }
-	inline Button_t2872111280 ** get_address_of_btn_BaoSam_47() { return &___btn_BaoSam_47; }
-	inline void set_btn_BaoSam_47(Button_t2872111280 * value)
+	inline static int32_t get_offset_of_btn_BaoSam_48() { return static_cast<int32_t>(offsetof(GameSceneSam_t3335616865, ___btn_BaoSam_48)); }
+	inline Button_t2872111280 * get_btn_BaoSam_48() const { return ___btn_BaoSam_48; }
+	inline Button_t2872111280 ** get_address_of_btn_BaoSam_48() { return &___btn_BaoSam_48; }
+	inline void set_btn_BaoSam_48(Button_t2872111280 * value)
 	{
-		___btn_BaoSam_47 = value;
-		Il2CppCodeGenWriteBarrier(&___btn_BaoSam_47, value);
+		___btn_BaoSam_48 = value;
+		Il2CppCodeGenWriteBarrier(&___btn_BaoSam_48, value);
 	}
 
-	inline static int32_t get_offset_of_btn_KhongSam_48() { return static_cast<int32_t>(offsetof(GameSceneSam_t3335616865, ___btn_KhongSam_48)); }
-	inline Button_t2872111280 * get_btn_KhongSam_48() const { return ___btn_KhongSam_48; }
-	inline Button_t2872111280 ** get_address_of_btn_KhongSam_48() { return &___btn_KhongSam_48; }
-	inline void set_btn_KhongSam_48(Button_t2872111280 * value)
+	inline static int32_t get_offset_of_btn_KhongSam_49() { return static_cast<int32_t>(offsetof(GameSceneSam_t3335616865, ___btn_KhongSam_49)); }
+	inline Button_t2872111280 * get_btn_KhongSam_49() const { return ___btn_KhongSam_49; }
+	inline Button_t2872111280 ** get_address_of_btn_KhongSam_49() { return &___btn_KhongSam_49; }
+	inline void set_btn_KhongSam_49(Button_t2872111280 * value)
 	{
-		___btn_KhongSam_48 = value;
-		Il2CppCodeGenWriteBarrier(&___btn_KhongSam_48, value);
+		___btn_KhongSam_49 = value;
+		Il2CppCodeGenWriteBarrier(&___btn_KhongSam_49, value);
 	}
 };
 

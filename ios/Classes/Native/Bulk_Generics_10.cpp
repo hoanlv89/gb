@@ -15919,7 +15919,7 @@ extern "C"  void List_1_TrimExcess_m4133698154_gshared (List_1_t1440998580 * __t
 	}
 }
 // System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Capacity()
-extern "C"  int32_t List_1_get_Capacity_m3004412059_gshared (List_1_t1440998580 * __this, const MethodInfo* method)
+extern "C"  int32_t List_1_get_Capacity_m531373308_gshared (List_1_t1440998580 * __this, const MethodInfo* method)
 {
 	{
 		Int32U5BU5D_t3030399641* L_0 = (Int32U5BU5D_t3030399641*)__this->get__items_1();

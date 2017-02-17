@@ -13,6 +13,20 @@
 #include <limits>
 #include <assert.h>
 
+// BestHTTP.Decompression.Zlib.ZlibCodec
+struct ZlibCodec_t1899545627;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// BestHTTP.Decompression.Zlib.ZlibException
+struct ZlibException_t421852804;
+// System.String
+struct String_t;
+// BestHTTP.Decompression.Zlib.ZTree
+struct ZTree_t1042194920;
+// BestHTTP.Decompression.Zlib.DeflateManager
+struct DeflateManager_t1983720200;
+// System.Int16[]
+struct Int16U5BU5D_t3104283263;
 // BestHTTP.Examples.AssetBundleSample
 struct AssetBundleSample_t4142830892;
 // System.Collections.IEnumerator
@@ -29,8 +43,6 @@ struct U3CProcessAssetBundleU3Ec__Iterator1_t3058815025;
 struct CacheMaintenanceSample_t4029517153;
 // System.Action
 struct Action_t3226471752;
-// System.String
-struct String_t;
 // BestHTTP.Examples.GUIMessageList
 struct GUIMessageList_t2719866248;
 // BestHTTP.Examples.LargeFileDownloadSample
@@ -45,8 +57,6 @@ struct HTTPResponse_t62748825;
 struct TextureDownloadSample_t853801945;
 // System.Exception
 struct Exception_t1927440687;
-// System.Byte[]
-struct ByteU5BU5D_t3397334013;
 // System.IO.BinaryWriter
 struct BinaryWriter_t3179371318;
 // System.IO.FileStream
@@ -279,33 +289,68 @@ struct List_1_t1753264875;
 struct OnTransportStateChangedDelegate_t1888872800;
 // BestHTTP.SignalR.Transports.PollingTransport
 struct PollingTransport_t1976236230;
-// BestHTTP.SignalR.Transports.PostSendTransportBase
-struct PostSendTransportBase_t4137891006;
-// BestHTTP.SignalR.Transports.ServerSentEventsTransport
-struct ServerSentEventsTransport_t1441151459;
-// BestHTTP.SignalR.IConnection
-struct IConnection_t313572887;
-// BestHTTP.SignalR.Transports.WebSocketTransport
-struct WebSocketTransport_t3045819522;
-// BestHTTP.WebSocket.WebSocket
-struct WebSocket_t71448861;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Zlib1899545627.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Zlib1899545627MethodDeclarations.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Object2689449295MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Comp4151391442.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Comp2282214205.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_ZlibE421852804MethodDeclarations.h"
+#include "mscorlib_System_String2029220233.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_ZlibE421852804.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Infl3102396736MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Defl1983720200.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Infl3102396736.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Flus1182037460.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Defl1983720200MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Comp2530143933.h"
+#include "mscorlib_ArrayTypes.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "mscorlib_System_Array3829468939MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Adler6455690MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Zlib1670432928.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Zlib1670432928MethodDeclarations.h"
+#include "mscorlib_System_Exception1927440687MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_ZlibS953065013.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_ZlibS953065013MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_ZTre1042194920.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_ZTre1042194920MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Shar2666276944MethodDeclarations.h"
+#include "mscorlib_System_SByte454417549.h"
+#include "mscorlib_System_Int164041245914.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Stat2290192584.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Inte3631556964.h"
+#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Inte3631556964MethodDeclarations.h"
+#include "mscorlib_System_Math2022911894MethodDeclarations.h"
+#include "mscorlib_System_Runtime_CompilerServices_RuntimeHel266230107MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3740780830.h"
+#include "mscorlib_System_RuntimeFieldHandle2331729674.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU2306864773.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3894236543.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU2731437132.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3740780702.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3066379751.h"
 #include "AssemblyU2DCSharp_BestHTTP_Examples_AssetBundleSam4142830892.h"
 #include "AssemblyU2DCSharp_BestHTTP_Examples_AssetBundleSam4142830892MethodDeclarations.h"
-#include "mscorlib_System_Void1841601450.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
-#include "mscorlib_System_String2029220233.h"
 #include "System_Core_System_Action3226471752MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_Examples_GUIHelper1081137527MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_Examples_GUIHelper1081137527.h"
 #include "UnityEngine_UnityEngine_Rect3681755626.h"
 #include "System_Core_System_Action3226471752.h"
-#include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_IntPtr2504060609.h"
-#include "mscorlib_System_Boolean3825574718.h"
 #include "AssemblyU2DCSharp_BestHTTP_Examples_AssetBundleSam1982816999MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_Examples_AssetBundleSam1982816999.h"
 #include "UnityEngine_UnityEngine_AssetBundle2054978754.h"
@@ -314,7 +359,6 @@ struct WebSocket_t71448861;
 #include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AssetBundle2054978754MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Object1021602117.h"
-#include "mscorlib_System_String2029220233MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUILayout2579273657MethodDeclarations.h"
 #include "UnityEngine_ArrayTypes.h"
 #include "UnityEngine_UnityEngine_GUILayoutOption4183744904.h"
@@ -322,26 +366,20 @@ struct WebSocket_t71448861;
 #include "mscorlib_System_Single2076509932.h"
 #include "UnityEngine_UnityEngine_Texture2243626319.h"
 #include "UnityEngine_UnityEngine_Coroutine2299508840.h"
-#include "mscorlib_System_Object2689449295MethodDeclarations.h"
 #include "System_System_Uri19570940MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_HTTPRequest138485887MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_WaitForSeconds3839502067MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_HTTPResponse62748825MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AssetBundleCreateRequest1038783543MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Debug154383703MethodDeclarations.h"
-#include "mscorlib_System_UInt322149682021.h"
-#include "mscorlib_System_Int322071877448.h"
 #include "System_System_Uri19570940.h"
 #include "AssemblyU2DCSharp_BestHTTP_HTTPRequest138485887.h"
 #include "UnityEngine_UnityEngine_WaitForSeconds3839502067.h"
 #include "AssemblyU2DCSharp_BestHTTP_HTTPRequestStates63938943.h"
 #include "AssemblyU2DCSharp_BestHTTP_HTTPResponse62748825.h"
 #include "mscorlib_System_Boolean3825574718MethodDeclarations.h"
-#include "mscorlib_ArrayTypes.h"
-#include "mscorlib_System_Byte3683104436.h"
 #include "UnityEngine_UnityEngine_AssetBundleCreateRequest1038783543.h"
 #include "mscorlib_System_Exception1927440687.h"
-#include "mscorlib_System_Exception1927440687MethodDeclarations.h"
 #include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
 #include "mscorlib_System_NotSupportedException1793819818.h"
 #include "mscorlib_System_Type1303803226MethodDeclarations.h"
@@ -406,7 +444,6 @@ struct WebSocket_t71448861;
 #include "mscorlib_System_IO_Stream3255436806MethodDeclarations.h"
 #include "mscorlib_System_IO_Stream3255436806.h"
 #include "mscorlib_System_StringSplitOptions2996162939.h"
-#include "mscorlib_System_Int64909078037.h"
 #include "mscorlib_System_Int64909078037MethodDeclarations.h"
 #include "mscorlib_System_DateTime693205669.h"
 #include "mscorlib_System_DateTime693205669MethodDeclarations.h"
@@ -430,7 +467,6 @@ struct WebSocket_t71448861;
 #include "mscorlib_System_Collections_Generic_List_1_gen2586467451MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2586467451.h"
 #include "mscorlib_System_Threading_Monitor3228523394MethodDeclarations.h"
-#include "mscorlib_System_Array3829468939MethodDeclarations.h"
 #include "Assembly-CSharp_ArrayTypes.h"
 #include "AssemblyU2DCSharp_BestHTTP_Extensions_KeyValuePair1715528642.h"
 #include "AssemblyU2DCSharp_BestHTTP_Extensions_KeyValuePair1715528642MethodDeclarations.h"
@@ -590,19 +626,13 @@ struct WebSocket_t71448861;
 #include "System_Core_System_Func_4_gen3321346088MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_HTTPRequestStates63938943MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_TextureFormat1386130234.h"
-#include "mscorlib_System_Runtime_CompilerServices_RuntimeHel266230107MethodDeclarations.h"
-#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137.h"
-#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137MethodDeclarations.h"
 #include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1459944466.h"
-#include "mscorlib_System_RuntimeFieldHandle2331729674.h"
 #include "mscorlib_System_Globalization_NumberStyles3408984435.h"
-#include "mscorlib_System_Math2022911894MethodDeclarations.h"
 #include "System_System_Net_Sockets_NetworkStream581172200.h"
 #include "System_System_Net_Sockets_NetworkStream581172200MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_GZip1683233742MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Defl2274450459MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_GZip1683233742.h"
-#include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Comp2282214205.h"
 #include "AssemblyU2DCSharp_BestHTTP_Decompression_Zlib_Defl2274450459.h"
 #include "AssemblyU2DCSharp_BestHTTP_HTTPUpdateDelegator1331403296.h"
 #include "UnityEngine_UnityEngine_GameObject1756533147MethodDeclarations.h"
@@ -794,20 +824,6 @@ struct WebSocket_t71448861;
 #include "AssemblyU2DCSharp_BestHTTP_SignalR_Transports_OnTr1888872800MethodDeclarations.h"
 #include "AssemblyU2DCSharp_BestHTTP_SignalR_TransportStates2802087367.h"
 #include "AssemblyU2DCSharp_BestHTTP_SignalR_Transports_Post4137891006MethodDeclarations.h"
-#include "AssemblyU2DCSharp_BestHTTP_SignalR_Transports_Post4137891006.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_WebSocket71448861MethodDeclarations.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketOp4018547189MethodDeclarations.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketMes730459590MethodDeclarations.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketCl2679686585MethodDeclarations.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketEr2599777013MethodDeclarations.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_WebSocket71448861.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketOp4018547189.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketMes730459590.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketCl2679686585.h"
-#include "mscorlib_System_UInt16986882611.h"
-#include "AssemblyU2DCSharp_BestHTTP_WebSocket_OnWebSocketEr2599777013.h"
-#include "mscorlib_System_UInt16986882611MethodDeclarations.h"
-#include "AssemblyU2DCSharp_BestHTTP_SignalR_TransportStates2802087367MethodDeclarations.h"
 
 // System.Void System.Array::Resize<System.Object>(!!0[]&,System.Int32)
 extern "C"  void Array_Resize_TisIl2CppObject_m3798820896_gshared (Il2CppObject * __this /* static, unused */, ObjectU5BU5D_t3614634134** p0, int32_t p1, const MethodInfo* method);
@@ -863,13 +879,1914 @@ extern "C"  Il2CppObject * JsonMapper_ToObject_TisIl2CppObject_m2020447104_gshar
 #define JsonMapper_ToObject_TisIl2CppObject_m2020447104(__this /* static, unused */, ___reader0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, JsonReader_t1077921503 *, const MethodInfo*))JsonMapper_ToObject_TisIl2CppObject_m2020447104_gshared)(__this /* static, unused */, ___reader0, method)
 // T LitJson.JsonMapper::ToObject<System.Collections.Generic.Dictionary`2<System.String,System.Object>>(LitJson.JsonReader)
 #define JsonMapper_ToObject_TisDictionary_2_t309261261_m390549521(__this /* static, unused */, ___reader0, method) ((  Dictionary_2_t309261261 * (*) (Il2CppObject * /* static, unused */, JsonReader_t1077921503 *, const MethodInfo*))JsonMapper_ToObject_TisIl2CppObject_m2020447104_gshared)(__this /* static, unused */, ___reader0, method)
-// !!0 System.Threading.Interlocked::CompareExchange<BestHTTP.SignalR.Transports.OnTransportStateChangedDelegate>(!!0&,!!0,!!0)
-#define Interlocked_CompareExchange_TisOnTransportStateChangedDelegate_t1888872800_m2247916307(__this /* static, unused */, p0, p1, p2, method) ((  OnTransportStateChangedDelegate_t1888872800 * (*) (Il2CppObject * /* static, unused */, OnTransportStateChangedDelegate_t1888872800 **, OnTransportStateChangedDelegate_t1888872800 *, OnTransportStateChangedDelegate_t1888872800 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void BestHTTP.Decompression.Zlib.ZlibCodec::.ctor()
+extern "C"  void ZlibCodec__ctor_m3945754656 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_CompressLevel_12(6);
+		__this->set_WindowBits_13(((int32_t)15));
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZlibCodec::.ctor(BestHTTP.Decompression.Zlib.CompressionMode)
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2299634899;
+extern Il2CppCodeGenString* _stringLiteral3100701469;
+extern Il2CppCodeGenString* _stringLiteral2564325604;
+extern const uint32_t ZlibCodec__ctor_m3022115177_MetadataUsageId;
+extern "C"  void ZlibCodec__ctor_m3022115177 (ZlibCodec_t1899545627 * __this, int32_t ___mode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec__ctor_m3022115177_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		__this->set_CompressLevel_12(6);
+		__this->set_WindowBits_13(((int32_t)15));
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___mode0;
+		if (L_0)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		int32_t L_1 = ZlibCodec_InitializeDeflate_m1737294825(__this, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_3 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_3, _stringLiteral2299634899, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0033:
+	{
+		goto IL_0067;
+	}
+
+IL_0038:
+	{
+		int32_t L_4 = ___mode0;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		int32_t L_5 = ZlibCodec_InitializeInflate_m3074972739(__this, /*hidden argument*/NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_7 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_7, _stringLiteral3100701469, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7);
+	}
+
+IL_0057:
+	{
+		goto IL_0067;
+	}
+
+IL_005c:
+	{
+		ZlibException_t421852804 * L_8 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_8, _stringLiteral2564325604, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
+	}
+
+IL_0067:
+	{
+		return;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::get_Adler32()
+extern "C"  int32_t ZlibCodec_get_Adler32_m3347100016 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	{
+		uint32_t L_0 = __this->get__Adler32_11();
+		return L_0;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeInflate()
+extern "C"  int32_t ZlibCodec_InitializeInflate_m3074972739 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_WindowBits_13();
+		int32_t L_1 = ZlibCodec_InitializeInflate_m1021464254(__this, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeInflate(System.Boolean)
+extern "C"  int32_t ZlibCodec_InitializeInflate_m3143324686 (ZlibCodec_t1899545627 * __this, bool ___expectRfc1950Header0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_WindowBits_13();
+		bool L_1 = ___expectRfc1950Header0;
+		int32_t L_2 = ZlibCodec_InitializeInflate_m3218258461(__this, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeInflate(System.Int32)
+extern "C"  int32_t ZlibCodec_InitializeInflate_m1021464254 (ZlibCodec_t1899545627 * __this, int32_t ___windowBits0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___windowBits0;
+		__this->set_WindowBits_13(L_0);
+		int32_t L_1 = ___windowBits0;
+		int32_t L_2 = ZlibCodec_InitializeInflate_m3218258461(__this, L_1, (bool)1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeInflate(System.Int32,System.Boolean)
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppClass* InflateManager_t3102396736_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3407699991;
+extern const uint32_t ZlibCodec_InitializeInflate_m3218258461_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_InitializeInflate_m3218258461 (ZlibCodec_t1899545627 * __this, int32_t ___windowBits0, bool ___expectRfc1950Header1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_InitializeInflate_m3218258461_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___windowBits0;
+		__this->set_WindowBits_13(L_0);
+		DeflateManager_t1983720200 * L_1 = __this->get_dstate_9();
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_2 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_2, _stringLiteral3407699991, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001d:
+	{
+		bool L_3 = ___expectRfc1950Header1;
+		InflateManager_t3102396736 * L_4 = (InflateManager_t3102396736 *)il2cpp_codegen_object_new(InflateManager_t3102396736_il2cpp_TypeInfo_var);
+		InflateManager__ctor_m536104440(L_4, L_3, /*hidden argument*/NULL);
+		__this->set_istate_10(L_4);
+		InflateManager_t3102396736 * L_5 = __this->get_istate_10();
+		int32_t L_6 = ___windowBits0;
+		NullCheck(L_5);
+		int32_t L_7 = InflateManager_Initialize_m3716498037(L_5, __this, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::Inflate(BestHTTP.Decompression.Zlib.FlushType)
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1264411786;
+extern const uint32_t ZlibCodec_Inflate_m3063577743_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_Inflate_m3063577743 (ZlibCodec_t1899545627 * __this, int32_t ___flush0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_Inflate_m3063577743_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		InflateManager_t3102396736 * L_0 = __this->get_istate_10();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral1264411786, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		InflateManager_t3102396736 * L_2 = __this->get_istate_10();
+		int32_t L_3 = ___flush0;
+		NullCheck(L_2);
+		int32_t L_4 = InflateManager_Inflate_m1317771480(L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::EndInflate()
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1264411786;
+extern const uint32_t ZlibCodec_EndInflate_m2365261612_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_EndInflate_m2365261612 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_EndInflate_m2365261612_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		InflateManager_t3102396736 * L_0 = __this->get_istate_10();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral1264411786, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		InflateManager_t3102396736 * L_2 = __this->get_istate_10();
+		NullCheck(L_2);
+		int32_t L_3 = InflateManager_End_m1636891322(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		__this->set_istate_10((InflateManager_t3102396736 *)NULL);
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::SyncInflate()
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1264411786;
+extern const uint32_t ZlibCodec_SyncInflate_m2772221972_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_SyncInflate_m2772221972 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_SyncInflate_m2772221972_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		InflateManager_t3102396736 * L_0 = __this->get_istate_10();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral1264411786, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		InflateManager_t3102396736 * L_2 = __this->get_istate_10();
+		NullCheck(L_2);
+		int32_t L_3 = InflateManager_Sync_m805663764(L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeDeflate()
+extern "C"  int32_t ZlibCodec_InitializeDeflate_m1737294825 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ZlibCodec__InternalInitializeDeflate_m2664519340(__this, (bool)1, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeDeflate(BestHTTP.Decompression.Zlib.CompressionLevel)
+extern "C"  int32_t ZlibCodec_InitializeDeflate_m4034854813 (ZlibCodec_t1899545627 * __this, int32_t ___level0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___level0;
+		__this->set_CompressLevel_12(L_0);
+		int32_t L_1 = ZlibCodec__InternalInitializeDeflate_m2664519340(__this, (bool)1, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeDeflate(BestHTTP.Decompression.Zlib.CompressionLevel,System.Boolean)
+extern "C"  int32_t ZlibCodec_InitializeDeflate_m1216106910 (ZlibCodec_t1899545627 * __this, int32_t ___level0, bool ___wantRfc1950Header1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___level0;
+		__this->set_CompressLevel_12(L_0);
+		bool L_1 = ___wantRfc1950Header1;
+		int32_t L_2 = ZlibCodec__InternalInitializeDeflate_m2664519340(__this, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeDeflate(BestHTTP.Decompression.Zlib.CompressionLevel,System.Int32)
+extern "C"  int32_t ZlibCodec_InitializeDeflate_m3948495378 (ZlibCodec_t1899545627 * __this, int32_t ___level0, int32_t ___bits1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___level0;
+		__this->set_CompressLevel_12(L_0);
+		int32_t L_1 = ___bits1;
+		__this->set_WindowBits_13(L_1);
+		int32_t L_2 = ZlibCodec__InternalInitializeDeflate_m2664519340(__this, (bool)1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::InitializeDeflate(BestHTTP.Decompression.Zlib.CompressionLevel,System.Int32,System.Boolean)
+extern "C"  int32_t ZlibCodec_InitializeDeflate_m1786320227 (ZlibCodec_t1899545627 * __this, int32_t ___level0, int32_t ___bits1, bool ___wantRfc1950Header2, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___level0;
+		__this->set_CompressLevel_12(L_0);
+		int32_t L_1 = ___bits1;
+		__this->set_WindowBits_13(L_1);
+		bool L_2 = ___wantRfc1950Header2;
+		int32_t L_3 = ZlibCodec__InternalInitializeDeflate_m2664519340(__this, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::_InternalInitializeDeflate(System.Boolean)
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppClass* DeflateManager_t1983720200_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2004622295;
+extern const uint32_t ZlibCodec__InternalInitializeDeflate_m2664519340_MetadataUsageId;
+extern "C"  int32_t ZlibCodec__InternalInitializeDeflate_m2664519340 (ZlibCodec_t1899545627 * __this, bool ___wantRfc1950Header0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec__InternalInitializeDeflate_m2664519340_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		InflateManager_t3102396736 * L_0 = __this->get_istate_10();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral2004622295, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		DeflateManager_t1983720200 * L_2 = (DeflateManager_t1983720200 *)il2cpp_codegen_object_new(DeflateManager_t1983720200_il2cpp_TypeInfo_var);
+		DeflateManager__ctor_m2494258579(L_2, /*hidden argument*/NULL);
+		__this->set_dstate_9(L_2);
+		DeflateManager_t1983720200 * L_3 = __this->get_dstate_9();
+		bool L_4 = ___wantRfc1950Header0;
+		NullCheck(L_3);
+		DeflateManager_set_WantRfc1950HeaderBytes_m3208097529(L_3, L_4, /*hidden argument*/NULL);
+		DeflateManager_t1983720200 * L_5 = __this->get_dstate_9();
+		int32_t L_6 = __this->get_CompressLevel_12();
+		int32_t L_7 = __this->get_WindowBits_13();
+		int32_t L_8 = __this->get_Strategy_14();
+		NullCheck(L_5);
+		int32_t L_9 = DeflateManager_Initialize_m3628562598(L_5, __this, L_6, L_7, L_8, /*hidden argument*/NULL);
+		return L_9;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::Deflate(BestHTTP.Decompression.Zlib.FlushType)
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1507456254;
+extern const uint32_t ZlibCodec_Deflate_m3795980765_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_Deflate_m3795980765 (ZlibCodec_t1899545627 * __this, int32_t ___flush0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_Deflate_m3795980765_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DeflateManager_t1983720200 * L_0 = __this->get_dstate_9();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral1507456254, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		DeflateManager_t1983720200 * L_2 = __this->get_dstate_9();
+		int32_t L_3 = ___flush0;
+		NullCheck(L_2);
+		int32_t L_4 = DeflateManager_Deflate_m3600417688(L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::EndDeflate()
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1507456254;
+extern const uint32_t ZlibCodec_EndDeflate_m156995892_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_EndDeflate_m156995892 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_EndDeflate_m156995892_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DeflateManager_t1983720200 * L_0 = __this->get_dstate_9();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral1507456254, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		__this->set_dstate_9((DeflateManager_t1983720200 *)NULL);
+		return 0;
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZlibCodec::ResetDeflate()
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1507456254;
+extern const uint32_t ZlibCodec_ResetDeflate_m2460484640_MetadataUsageId;
+extern "C"  void ZlibCodec_ResetDeflate_m2460484640 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_ResetDeflate_m2460484640_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DeflateManager_t1983720200 * L_0 = __this->get_dstate_9();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral1507456254, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		DeflateManager_t1983720200 * L_2 = __this->get_dstate_9();
+		NullCheck(L_2);
+		DeflateManager_Reset_m4175883322(L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::SetDeflateParams(BestHTTP.Decompression.Zlib.CompressionLevel,BestHTTP.Decompression.Zlib.CompressionStrategy)
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1507456254;
+extern const uint32_t ZlibCodec_SetDeflateParams_m2505366340_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_SetDeflateParams_m2505366340 (ZlibCodec_t1899545627 * __this, int32_t ___level0, int32_t ___strategy1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_SetDeflateParams_m2505366340_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DeflateManager_t1983720200 * L_0 = __this->get_dstate_9();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		ZlibException_t421852804 * L_1 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_1, _stringLiteral1507456254, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		DeflateManager_t1983720200 * L_2 = __this->get_dstate_9();
+		int32_t L_3 = ___level0;
+		int32_t L_4 = ___strategy1;
+		NullCheck(L_2);
+		int32_t L_5 = DeflateManager_SetParams_m2928046532(L_2, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::SetDictionary(System.Byte[])
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3080331736;
+extern const uint32_t ZlibCodec_SetDictionary_m1421476451_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_SetDictionary_m1421476451 (ZlibCodec_t1899545627 * __this, ByteU5BU5D_t3397334013* ___dictionary0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_SetDictionary_m1421476451_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		InflateManager_t3102396736 * L_0 = __this->get_istate_10();
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		InflateManager_t3102396736 * L_1 = __this->get_istate_10();
+		ByteU5BU5D_t3397334013* L_2 = ___dictionary0;
+		NullCheck(L_1);
+		int32_t L_3 = InflateManager_SetDictionary_m3136078706(L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+
+IL_0018:
+	{
+		DeflateManager_t1983720200 * L_4 = __this->get_dstate_9();
+		if (!L_4)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_5 = __this->get_dstate_9();
+		ByteU5BU5D_t3397334013* L_6 = ___dictionary0;
+		NullCheck(L_5);
+		int32_t L_7 = DeflateManager_SetDictionary_m1964811738(L_5, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+
+IL_0030:
+	{
+		ZlibException_t421852804 * L_8 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_8, _stringLiteral3080331736, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZlibCodec::flush_pending()
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ZlibException_t421852804_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1195472645;
+extern const uint32_t ZlibCodec_flush_pending_m2086829426_MetadataUsageId;
+extern "C"  void ZlibCodec_flush_pending_m2086829426 (ZlibCodec_t1899545627 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_flush_pending_m2086829426_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		DeflateManager_t1983720200 * L_0 = __this->get_dstate_9();
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_pendingCount_25();
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		int32_t L_3 = __this->get_AvailableBytesOut_6();
+		if ((((int32_t)L_2) <= ((int32_t)L_3)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		int32_t L_4 = __this->get_AvailableBytesOut_6();
+		V_0 = L_4;
+	}
+
+IL_001f:
+	{
+		int32_t L_5 = V_0;
+		if (L_5)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		DeflateManager_t1983720200 * L_6 = __this->get_dstate_9();
+		NullCheck(L_6);
+		ByteU5BU5D_t3397334013* L_7 = L_6->get_pending_23();
+		NullCheck(L_7);
+		DeflateManager_t1983720200 * L_8 = __this->get_dstate_9();
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_nextPending_24();
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length))))) <= ((int32_t)L_9)))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_10 = __this->get_OutputBuffer_4();
+		NullCheck(L_10);
+		int32_t L_11 = __this->get_NextOut_5();
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length))))) <= ((int32_t)L_11)))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_12 = __this->get_dstate_9();
+		NullCheck(L_12);
+		ByteU5BU5D_t3397334013* L_13 = L_12->get_pending_23();
+		NullCheck(L_13);
+		DeflateManager_t1983720200 * L_14 = __this->get_dstate_9();
+		NullCheck(L_14);
+		int32_t L_15 = L_14->get_nextPending_24();
+		int32_t L_16 = V_0;
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_13)->max_length))))) < ((int32_t)((int32_t)((int32_t)L_15+(int32_t)L_16)))))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_17 = __this->get_OutputBuffer_4();
+		NullCheck(L_17);
+		int32_t L_18 = __this->get_NextOut_5();
+		int32_t L_19 = V_0;
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_17)->max_length))))) >= ((int32_t)((int32_t)((int32_t)L_18+(int32_t)L_19)))))
+		{
+			goto IL_00bc;
+		}
+	}
+
+IL_008a:
+	{
+		DeflateManager_t1983720200 * L_20 = __this->get_dstate_9();
+		NullCheck(L_20);
+		ByteU5BU5D_t3397334013* L_21 = L_20->get_pending_23();
+		NullCheck(L_21);
+		int32_t L_22 = (((int32_t)((int32_t)(((Il2CppArray *)L_21)->max_length))));
+		Il2CppObject * L_23 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_22);
+		DeflateManager_t1983720200 * L_24 = __this->get_dstate_9();
+		NullCheck(L_24);
+		int32_t L_25 = L_24->get_pendingCount_25();
+		int32_t L_26 = L_25;
+		Il2CppObject * L_27 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_26);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_28 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral1195472645, L_23, L_27, /*hidden argument*/NULL);
+		ZlibException_t421852804 * L_29 = (ZlibException_t421852804 *)il2cpp_codegen_object_new(ZlibException_t421852804_il2cpp_TypeInfo_var);
+		ZlibException__ctor_m849816119(L_29, L_28, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29);
+	}
+
+IL_00bc:
+	{
+		DeflateManager_t1983720200 * L_30 = __this->get_dstate_9();
+		NullCheck(L_30);
+		ByteU5BU5D_t3397334013* L_31 = L_30->get_pending_23();
+		DeflateManager_t1983720200 * L_32 = __this->get_dstate_9();
+		NullCheck(L_32);
+		int32_t L_33 = L_32->get_nextPending_24();
+		ByteU5BU5D_t3397334013* L_34 = __this->get_OutputBuffer_4();
+		int32_t L_35 = __this->get_NextOut_5();
+		int32_t L_36 = V_0;
+		Array_Copy_m3808317496(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_31, L_33, (Il2CppArray *)(Il2CppArray *)L_34, L_35, L_36, /*hidden argument*/NULL);
+		int32_t L_37 = __this->get_NextOut_5();
+		int32_t L_38 = V_0;
+		__this->set_NextOut_5(((int32_t)((int32_t)L_37+(int32_t)L_38)));
+		DeflateManager_t1983720200 * L_39 = __this->get_dstate_9();
+		DeflateManager_t1983720200 * L_40 = L_39;
+		NullCheck(L_40);
+		int32_t L_41 = L_40->get_nextPending_24();
+		int32_t L_42 = V_0;
+		NullCheck(L_40);
+		L_40->set_nextPending_24(((int32_t)((int32_t)L_41+(int32_t)L_42)));
+		int64_t L_43 = __this->get_TotalBytesOut_7();
+		int32_t L_44 = V_0;
+		__this->set_TotalBytesOut_7(((int64_t)((int64_t)L_43+(int64_t)(((int64_t)((int64_t)L_44))))));
+		int32_t L_45 = __this->get_AvailableBytesOut_6();
+		int32_t L_46 = V_0;
+		__this->set_AvailableBytesOut_6(((int32_t)((int32_t)L_45-(int32_t)L_46)));
+		DeflateManager_t1983720200 * L_47 = __this->get_dstate_9();
+		DeflateManager_t1983720200 * L_48 = L_47;
+		NullCheck(L_48);
+		int32_t L_49 = L_48->get_pendingCount_25();
+		int32_t L_50 = V_0;
+		NullCheck(L_48);
+		L_48->set_pendingCount_25(((int32_t)((int32_t)L_49-(int32_t)L_50)));
+		DeflateManager_t1983720200 * L_51 = __this->get_dstate_9();
+		NullCheck(L_51);
+		int32_t L_52 = L_51->get_pendingCount_25();
+		if (L_52)
+		{
+			goto IL_0151;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_53 = __this->get_dstate_9();
+		NullCheck(L_53);
+		L_53->set_nextPending_24(0);
+	}
+
+IL_0151:
+	{
+		return;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZlibCodec::read_buf(System.Byte[],System.Int32,System.Int32)
+extern Il2CppClass* Adler_t6455690_il2cpp_TypeInfo_var;
+extern const uint32_t ZlibCodec_read_buf_m813875009_MetadataUsageId;
+extern "C"  int32_t ZlibCodec_read_buf_m813875009 (ZlibCodec_t1899545627 * __this, ByteU5BU5D_t3397334013* ___buf0, int32_t ___start1, int32_t ___size2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZlibCodec_read_buf_m813875009_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_AvailableBytesIn_2();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		int32_t L_2 = ___size2;
+		if ((((int32_t)L_1) <= ((int32_t)L_2)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_3 = ___size2;
+		V_0 = L_3;
+	}
+
+IL_0010:
+	{
+		int32_t L_4 = V_0;
+		if (L_4)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0018:
+	{
+		int32_t L_5 = __this->get_AvailableBytesIn_2();
+		int32_t L_6 = V_0;
+		__this->set_AvailableBytesIn_2(((int32_t)((int32_t)L_5-(int32_t)L_6)));
+		DeflateManager_t1983720200 * L_7 = __this->get_dstate_9();
+		NullCheck(L_7);
+		bool L_8 = DeflateManager_get_WantRfc1950HeaderBytes_m799454910(L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		uint32_t L_9 = __this->get__Adler32_11();
+		ByteU5BU5D_t3397334013* L_10 = __this->get_InputBuffer_0();
+		int32_t L_11 = __this->get_NextIn_1();
+		int32_t L_12 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Adler_t6455690_il2cpp_TypeInfo_var);
+		uint32_t L_13 = Adler_Adler32_m3933577504(NULL /*static, unused*/, L_9, L_10, L_11, L_12, /*hidden argument*/NULL);
+		__this->set__Adler32_11(L_13);
+	}
+
+IL_0054:
+	{
+		ByteU5BU5D_t3397334013* L_14 = __this->get_InputBuffer_0();
+		int32_t L_15 = __this->get_NextIn_1();
+		ByteU5BU5D_t3397334013* L_16 = ___buf0;
+		int32_t L_17 = ___start1;
+		int32_t L_18 = V_0;
+		Array_Copy_m3808317496(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_14, L_15, (Il2CppArray *)(Il2CppArray *)L_16, L_17, L_18, /*hidden argument*/NULL);
+		int32_t L_19 = __this->get_NextIn_1();
+		int32_t L_20 = V_0;
+		__this->set_NextIn_1(((int32_t)((int32_t)L_19+(int32_t)L_20)));
+		int64_t L_21 = __this->get_TotalBytesIn_3();
+		int32_t L_22 = V_0;
+		__this->set_TotalBytesIn_3(((int64_t)((int64_t)L_21+(int64_t)(((int64_t)((int64_t)L_22))))));
+		int32_t L_23 = V_0;
+		return L_23;
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZlibException::.ctor()
+extern "C"  void ZlibException__ctor_m858675553 (ZlibException_t421852804 * __this, const MethodInfo* method)
+{
+	{
+		Exception__ctor_m3886110570(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZlibException::.ctor(System.String)
+extern "C"  void ZlibException__ctor_m849816119 (ZlibException_t421852804 * __this, String_t* ___s0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___s0;
+		Exception__ctor_m485833136(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZTree::.ctor()
+extern "C"  void ZTree__ctor_m1180287731 (ZTree_t1042194920 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZTree::DistanceCode(System.Int32)
+extern Il2CppClass* ZTree_t1042194920_il2cpp_TypeInfo_var;
+extern const uint32_t ZTree_DistanceCode_m740273712_MetadataUsageId;
+extern "C"  int32_t ZTree_DistanceCode_m740273712 (Il2CppObject * __this /* static, unused */, int32_t ___dist0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZTree_DistanceCode_m740273712_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = ___dist0;
+		if ((((int32_t)L_0) >= ((int32_t)((int32_t)256))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ZTree_t1042194920_il2cpp_TypeInfo_var);
+		SByteU5BU5D_t3472287392* L_1 = ((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->get__dist_code_6();
+		int32_t L_2 = ___dist0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		int8_t L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		G_B3_0 = ((int32_t)(L_4));
+		goto IL_002a;
+	}
+
+IL_0017:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ZTree_t1042194920_il2cpp_TypeInfo_var);
+		SByteU5BU5D_t3472287392* L_5 = ((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->get__dist_code_6();
+		int32_t L_6 = ___dist0;
+		int32_t L_7 = SharedUtils_URShift_m1651385802(NULL /*static, unused*/, L_6, 7, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		int32_t L_8 = ((int32_t)((int32_t)((int32_t)256)+(int32_t)L_7));
+		int8_t L_9 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		G_B3_0 = ((int32_t)(L_9));
+	}
+
+IL_002a:
+	{
+		return (((int32_t)((int32_t)G_B3_0)));
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZTree::gen_bitlen(BestHTTP.Decompression.Zlib.DeflateManager)
+extern Il2CppClass* InternalConstants_t3631556964_il2cpp_TypeInfo_var;
+extern Il2CppClass* ZTree_t1042194920_il2cpp_TypeInfo_var;
+extern const uint32_t ZTree_gen_bitlen_m3571074850_MetadataUsageId;
+extern "C"  void ZTree_gen_bitlen_m3571074850 (ZTree_t1042194920 * __this, DeflateManager_t1983720200 * ___s0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZTree_gen_bitlen_m3571074850_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int16U5BU5D_t3104283263* V_0 = NULL;
+	Int16U5BU5D_t3104283263* V_1 = NULL;
+	Int32U5BU5D_t3030399641* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int16_t V_10 = 0;
+	int32_t V_11 = 0;
+	{
+		Int16U5BU5D_t3104283263* L_0 = __this->get_dyn_tree_10();
+		V_0 = L_0;
+		StaticTree_t2290192584 * L_1 = __this->get_staticTree_12();
+		NullCheck(L_1);
+		Int16U5BU5D_t3104283263* L_2 = L_1->get_treeCodes_5();
+		V_1 = L_2;
+		StaticTree_t2290192584 * L_3 = __this->get_staticTree_12();
+		NullCheck(L_3);
+		Int32U5BU5D_t3030399641* L_4 = L_3->get_extraBits_6();
+		V_2 = L_4;
+		StaticTree_t2290192584 * L_5 = __this->get_staticTree_12();
+		NullCheck(L_5);
+		int32_t L_6 = L_5->get_extraBase_7();
+		V_3 = L_6;
+		StaticTree_t2290192584 * L_7 = __this->get_staticTree_12();
+		NullCheck(L_7);
+		int32_t L_8 = L_7->get_maxLength_9();
+		V_4 = L_8;
+		V_11 = 0;
+		V_8 = 0;
+		goto IL_0053;
+	}
+
+IL_0043:
+	{
+		DeflateManager_t1983720200 * L_9 = ___s0;
+		NullCheck(L_9);
+		Int16U5BU5D_t3104283263* L_10 = L_9->get_bl_count_57();
+		int32_t L_11 = V_8;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (int16_t)0);
+		int32_t L_12 = V_8;
+		V_8 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_0053:
+	{
+		int32_t L_13 = V_8;
+		IL2CPP_RUNTIME_CLASS_INIT(InternalConstants_t3631556964_il2cpp_TypeInfo_var);
+		int32_t L_14 = ((InternalConstants_t3631556964_StaticFields*)InternalConstants_t3631556964_il2cpp_TypeInfo_var->static_fields)->get_MAX_BITS_0();
+		if ((((int32_t)L_13) <= ((int32_t)L_14)))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		Int16U5BU5D_t3104283263* L_15 = V_0;
+		DeflateManager_t1983720200 * L_16 = ___s0;
+		NullCheck(L_16);
+		Int32U5BU5D_t3030399641* L_17 = L_16->get_heap_58();
+		DeflateManager_t1983720200 * L_18 = ___s0;
+		NullCheck(L_18);
+		int32_t L_19 = L_18->get_heap_max_60();
+		NullCheck(L_17);
+		int32_t L_20 = L_19;
+		int32_t L_21 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_21*(int32_t)2))+(int32_t)1))), (int16_t)0);
+		DeflateManager_t1983720200 * L_22 = ___s0;
+		NullCheck(L_22);
+		int32_t L_23 = L_22->get_heap_max_60();
+		V_5 = ((int32_t)((int32_t)L_23+(int32_t)1));
+		goto IL_0139;
+	}
+
+IL_0082:
+	{
+		DeflateManager_t1983720200 * L_24 = ___s0;
+		NullCheck(L_24);
+		Int32U5BU5D_t3030399641* L_25 = L_24->get_heap_58();
+		int32_t L_26 = V_5;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		int32_t L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		V_6 = L_28;
+		Int16U5BU5D_t3104283263* L_29 = V_0;
+		Int16U5BU5D_t3104283263* L_30 = V_0;
+		int32_t L_31 = V_6;
+		NullCheck(L_30);
+		int32_t L_32 = ((int32_t)((int32_t)((int32_t)((int32_t)L_31*(int32_t)2))+(int32_t)1));
+		int16_t L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		NullCheck(L_29);
+		int32_t L_34 = ((int32_t)((int32_t)((int32_t)((int32_t)L_33*(int32_t)2))+(int32_t)1));
+		int16_t L_35 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		V_8 = ((int32_t)((int32_t)L_35+(int32_t)1));
+		int32_t L_36 = V_8;
+		int32_t L_37 = V_4;
+		if ((((int32_t)L_36) <= ((int32_t)L_37)))
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		int32_t L_38 = V_4;
+		V_8 = L_38;
+		int32_t L_39 = V_11;
+		V_11 = ((int32_t)((int32_t)L_39+(int32_t)1));
+	}
+
+IL_00b2:
+	{
+		Int16U5BU5D_t3104283263* L_40 = V_0;
+		int32_t L_41 = V_6;
+		int32_t L_42 = V_8;
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_41*(int32_t)2))+(int32_t)1))), (int16_t)(((int16_t)((int16_t)L_42))));
+		int32_t L_43 = V_6;
+		int32_t L_44 = __this->get_max_code_11();
+		if ((((int32_t)L_43) <= ((int32_t)L_44)))
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		goto IL_0133;
+	}
+
+IL_00cf:
+	{
+		DeflateManager_t1983720200 * L_45 = ___s0;
+		NullCheck(L_45);
+		Int16U5BU5D_t3104283263* L_46 = L_45->get_bl_count_57();
+		int32_t L_47 = V_8;
+		NullCheck(L_46);
+		int16_t* L_48 = ((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47)));
+		*((int16_t*)(L_48)) = (int16_t)(((int16_t)((int16_t)((int32_t)((int32_t)(*((int16_t*)L_48))+(int32_t)1)))));
+		V_9 = 0;
+		int32_t L_49 = V_6;
+		int32_t L_50 = V_3;
+		if ((((int32_t)L_49) < ((int32_t)L_50)))
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		Int32U5BU5D_t3030399641* L_51 = V_2;
+		int32_t L_52 = V_6;
+		int32_t L_53 = V_3;
+		NullCheck(L_51);
+		int32_t L_54 = ((int32_t)((int32_t)L_52-(int32_t)L_53));
+		int32_t L_55 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_54));
+		V_9 = L_55;
+	}
+
+IL_00f5:
+	{
+		Int16U5BU5D_t3104283263* L_56 = V_0;
+		int32_t L_57 = V_6;
+		NullCheck(L_56);
+		int32_t L_58 = ((int32_t)((int32_t)L_57*(int32_t)2));
+		int16_t L_59 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
+		V_10 = L_59;
+		DeflateManager_t1983720200 * L_60 = ___s0;
+		DeflateManager_t1983720200 * L_61 = L_60;
+		NullCheck(L_61);
+		int32_t L_62 = L_61->get_opt_len_66();
+		int16_t L_63 = V_10;
+		int32_t L_64 = V_8;
+		int32_t L_65 = V_9;
+		NullCheck(L_61);
+		L_61->set_opt_len_66(((int32_t)((int32_t)L_62+(int32_t)((int32_t)((int32_t)L_63*(int32_t)((int32_t)((int32_t)L_64+(int32_t)L_65)))))));
+		Int16U5BU5D_t3104283263* L_66 = V_1;
+		if (!L_66)
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_67 = ___s0;
+		DeflateManager_t1983720200 * L_68 = L_67;
+		NullCheck(L_68);
+		int32_t L_69 = L_68->get_static_len_67();
+		int16_t L_70 = V_10;
+		Int16U5BU5D_t3104283263* L_71 = V_1;
+		int32_t L_72 = V_6;
+		NullCheck(L_71);
+		int32_t L_73 = ((int32_t)((int32_t)((int32_t)((int32_t)L_72*(int32_t)2))+(int32_t)1));
+		int16_t L_74 = (L_71)->GetAt(static_cast<il2cpp_array_size_t>(L_73));
+		int32_t L_75 = V_9;
+		NullCheck(L_68);
+		L_68->set_static_len_67(((int32_t)((int32_t)L_69+(int32_t)((int32_t)((int32_t)L_70*(int32_t)((int32_t)((int32_t)L_74+(int32_t)L_75)))))));
+	}
+
+IL_0133:
+	{
+		int32_t L_76 = V_5;
+		V_5 = ((int32_t)((int32_t)L_76+(int32_t)1));
+	}
+
+IL_0139:
+	{
+		int32_t L_77 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(ZTree_t1042194920_il2cpp_TypeInfo_var);
+		int32_t L_78 = ((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->get_HEAP_SIZE_0();
+		if ((((int32_t)L_77) < ((int32_t)L_78)))
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		int32_t L_79 = V_11;
+		if (L_79)
+		{
+			goto IL_014d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_014d:
+	{
+		int32_t L_80 = V_4;
+		V_8 = ((int32_t)((int32_t)L_80-(int32_t)1));
+		goto IL_015e;
+	}
+
+IL_0158:
+	{
+		int32_t L_81 = V_8;
+		V_8 = ((int32_t)((int32_t)L_81-(int32_t)1));
+	}
+
+IL_015e:
+	{
+		DeflateManager_t1983720200 * L_82 = ___s0;
+		NullCheck(L_82);
+		Int16U5BU5D_t3104283263* L_83 = L_82->get_bl_count_57();
+		int32_t L_84 = V_8;
+		NullCheck(L_83);
+		int32_t L_85 = L_84;
+		int16_t L_86 = (L_83)->GetAt(static_cast<il2cpp_array_size_t>(L_85));
+		if (!L_86)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_87 = ___s0;
+		NullCheck(L_87);
+		Int16U5BU5D_t3104283263* L_88 = L_87->get_bl_count_57();
+		int32_t L_89 = V_8;
+		NullCheck(L_88);
+		int16_t* L_90 = ((L_88)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_89)));
+		*((int16_t*)(L_90)) = (int16_t)(((int16_t)((int16_t)((int32_t)((int32_t)(*((int16_t*)L_90))-(int32_t)1)))));
+		DeflateManager_t1983720200 * L_91 = ___s0;
+		NullCheck(L_91);
+		Int16U5BU5D_t3104283263* L_92 = L_91->get_bl_count_57();
+		int32_t L_93 = V_8;
+		DeflateManager_t1983720200 * L_94 = ___s0;
+		NullCheck(L_94);
+		Int16U5BU5D_t3104283263* L_95 = L_94->get_bl_count_57();
+		int32_t L_96 = V_8;
+		NullCheck(L_95);
+		int32_t L_97 = ((int32_t)((int32_t)L_96+(int32_t)1));
+		int16_t L_98 = (L_95)->GetAt(static_cast<il2cpp_array_size_t>(L_97));
+		NullCheck(L_92);
+		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_93+(int32_t)1))), (int16_t)(((int16_t)((int16_t)((int32_t)((int32_t)L_98+(int32_t)2))))));
+		DeflateManager_t1983720200 * L_99 = ___s0;
+		NullCheck(L_99);
+		Int16U5BU5D_t3104283263* L_100 = L_99->get_bl_count_57();
+		int32_t L_101 = V_4;
+		NullCheck(L_100);
+		int16_t* L_102 = ((L_100)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_101)));
+		*((int16_t*)(L_102)) = (int16_t)(((int16_t)((int16_t)((int32_t)((int32_t)(*((int16_t*)L_102))-(int32_t)1)))));
+		int32_t L_103 = V_11;
+		V_11 = ((int32_t)((int32_t)L_103-(int32_t)2));
+		int32_t L_104 = V_11;
+		if ((((int32_t)L_104) > ((int32_t)0)))
+		{
+			goto IL_014d;
+		}
+	}
+	{
+		int32_t L_105 = V_4;
+		V_8 = L_105;
+		goto IL_0245;
+	}
+
+IL_01c2:
+	{
+		DeflateManager_t1983720200 * L_106 = ___s0;
+		NullCheck(L_106);
+		Int16U5BU5D_t3104283263* L_107 = L_106->get_bl_count_57();
+		int32_t L_108 = V_8;
+		NullCheck(L_107);
+		int32_t L_109 = L_108;
+		int16_t L_110 = (L_107)->GetAt(static_cast<il2cpp_array_size_t>(L_109));
+		V_6 = L_110;
+		goto IL_0238;
+	}
+
+IL_01d2:
+	{
+		DeflateManager_t1983720200 * L_111 = ___s0;
+		NullCheck(L_111);
+		Int32U5BU5D_t3030399641* L_112 = L_111->get_heap_58();
+		int32_t L_113 = V_5;
+		int32_t L_114 = ((int32_t)((int32_t)L_113-(int32_t)1));
+		V_5 = L_114;
+		NullCheck(L_112);
+		int32_t L_115 = L_114;
+		int32_t L_116 = (L_112)->GetAt(static_cast<il2cpp_array_size_t>(L_115));
+		V_7 = L_116;
+		int32_t L_117 = V_7;
+		int32_t L_118 = __this->get_max_code_11();
+		if ((((int32_t)L_117) <= ((int32_t)L_118)))
+		{
+			goto IL_01f4;
+		}
+	}
+	{
+		goto IL_0238;
+	}
+
+IL_01f4:
+	{
+		Int16U5BU5D_t3104283263* L_119 = V_0;
+		int32_t L_120 = V_7;
+		NullCheck(L_119);
+		int32_t L_121 = ((int32_t)((int32_t)((int32_t)((int32_t)L_120*(int32_t)2))+(int32_t)1));
+		int16_t L_122 = (L_119)->GetAt(static_cast<il2cpp_array_size_t>(L_121));
+		int32_t L_123 = V_8;
+		if ((((int32_t)L_122) == ((int32_t)L_123)))
+		{
+			goto IL_0232;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_124 = ___s0;
+		DeflateManager_t1983720200 * L_125 = ___s0;
+		NullCheck(L_125);
+		int32_t L_126 = L_125->get_opt_len_66();
+		int32_t L_127 = V_8;
+		Int16U5BU5D_t3104283263* L_128 = V_0;
+		int32_t L_129 = V_7;
+		NullCheck(L_128);
+		int32_t L_130 = ((int32_t)((int32_t)((int32_t)((int32_t)L_129*(int32_t)2))+(int32_t)1));
+		int16_t L_131 = (L_128)->GetAt(static_cast<il2cpp_array_size_t>(L_130));
+		Int16U5BU5D_t3104283263* L_132 = V_0;
+		int32_t L_133 = V_7;
+		NullCheck(L_132);
+		int32_t L_134 = ((int32_t)((int32_t)L_133*(int32_t)2));
+		int16_t L_135 = (L_132)->GetAt(static_cast<il2cpp_array_size_t>(L_134));
+		NullCheck(L_124);
+		L_124->set_opt_len_66((((int32_t)((int32_t)((int64_t)((int64_t)(((int64_t)((int64_t)L_126)))+(int64_t)((int64_t)((int64_t)((int64_t)((int64_t)(((int64_t)((int64_t)L_127)))-(int64_t)(((int64_t)((int64_t)L_131)))))*(int64_t)(((int64_t)((int64_t)L_135)))))))))));
+		Int16U5BU5D_t3104283263* L_136 = V_0;
+		int32_t L_137 = V_7;
+		int32_t L_138 = V_8;
+		NullCheck(L_136);
+		(L_136)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_137*(int32_t)2))+(int32_t)1))), (int16_t)(((int16_t)((int16_t)L_138))));
+	}
+
+IL_0232:
+	{
+		int32_t L_139 = V_6;
+		V_6 = ((int32_t)((int32_t)L_139-(int32_t)1));
+	}
+
+IL_0238:
+	{
+		int32_t L_140 = V_6;
+		if (L_140)
+		{
+			goto IL_01d2;
+		}
+	}
+	{
+		int32_t L_141 = V_8;
+		V_8 = ((int32_t)((int32_t)L_141-(int32_t)1));
+	}
+
+IL_0245:
+	{
+		int32_t L_142 = V_8;
+		if (L_142)
+		{
+			goto IL_01c2;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZTree::build_tree(BestHTTP.Decompression.Zlib.DeflateManager)
+extern Il2CppClass* ZTree_t1042194920_il2cpp_TypeInfo_var;
+extern const uint32_t ZTree_build_tree_m3082439222_MetadataUsageId;
+extern "C"  void ZTree_build_tree_m3082439222 (ZTree_t1042194920 * __this, DeflateManager_t1983720200 * ___s0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZTree_build_tree_m3082439222_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int16U5BU5D_t3104283263* V_0 = NULL;
+	Int16U5BU5D_t3104283263* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int16_t V_8 = 0;
+	int32_t G_B9_0 = 0;
+	Int32U5BU5D_t3030399641* G_B9_1 = NULL;
+	int32_t G_B8_0 = 0;
+	Int32U5BU5D_t3030399641* G_B8_1 = NULL;
+	int32_t G_B10_0 = 0;
+	int32_t G_B10_1 = 0;
+	Int32U5BU5D_t3030399641* G_B10_2 = NULL;
+	{
+		Int16U5BU5D_t3104283263* L_0 = __this->get_dyn_tree_10();
+		V_0 = L_0;
+		StaticTree_t2290192584 * L_1 = __this->get_staticTree_12();
+		NullCheck(L_1);
+		Int16U5BU5D_t3104283263* L_2 = L_1->get_treeCodes_5();
+		V_1 = L_2;
+		StaticTree_t2290192584 * L_3 = __this->get_staticTree_12();
+		NullCheck(L_3);
+		int32_t L_4 = L_3->get_elems_8();
+		V_2 = L_4;
+		V_5 = (-1);
+		DeflateManager_t1983720200 * L_5 = ___s0;
+		NullCheck(L_5);
+		L_5->set_heap_len_59(0);
+		DeflateManager_t1983720200 * L_6 = ___s0;
+		IL2CPP_RUNTIME_CLASS_INIT(ZTree_t1042194920_il2cpp_TypeInfo_var);
+		int32_t L_7 = ((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->get_HEAP_SIZE_0();
+		NullCheck(L_6);
+		L_6->set_heap_max_60(L_7);
+		V_3 = 0;
+		goto IL_007d;
+	}
+
+IL_003b:
+	{
+		Int16U5BU5D_t3104283263* L_8 = V_0;
+		int32_t L_9 = V_3;
+		NullCheck(L_8);
+		int32_t L_10 = ((int32_t)((int32_t)L_9*(int32_t)2));
+		int16_t L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		if (!L_11)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_12 = ___s0;
+		NullCheck(L_12);
+		Int32U5BU5D_t3030399641* L_13 = L_12->get_heap_58();
+		DeflateManager_t1983720200 * L_14 = ___s0;
+		DeflateManager_t1983720200 * L_15 = L_14;
+		NullCheck(L_15);
+		int32_t L_16 = L_15->get_heap_len_59();
+		int32_t L_17 = ((int32_t)((int32_t)L_16+(int32_t)1));
+		V_7 = L_17;
+		NullCheck(L_15);
+		L_15->set_heap_len_59(L_17);
+		int32_t L_18 = V_7;
+		int32_t L_19 = V_3;
+		int32_t L_20 = L_19;
+		V_5 = L_20;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (int32_t)L_20);
+		DeflateManager_t1983720200 * L_21 = ___s0;
+		NullCheck(L_21);
+		SByteU5BU5D_t3472287392* L_22 = L_21->get_depth_61();
+		int32_t L_23 = V_3;
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (int8_t)0);
+		goto IL_0079;
+	}
+
+IL_0071:
+	{
+		Int16U5BU5D_t3104283263* L_24 = V_0;
+		int32_t L_25 = V_3;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_25*(int32_t)2))+(int32_t)1))), (int16_t)0);
+	}
+
+IL_0079:
+	{
+		int32_t L_26 = V_3;
+		V_3 = ((int32_t)((int32_t)L_26+(int32_t)1));
+	}
+
+IL_007d:
+	{
+		int32_t L_27 = V_3;
+		int32_t L_28 = V_2;
+		if ((((int32_t)L_27) < ((int32_t)L_28)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		goto IL_00f9;
+	}
+
+IL_0089:
+	{
+		DeflateManager_t1983720200 * L_29 = ___s0;
+		NullCheck(L_29);
+		Int32U5BU5D_t3030399641* L_30 = L_29->get_heap_58();
+		DeflateManager_t1983720200 * L_31 = ___s0;
+		DeflateManager_t1983720200 * L_32 = L_31;
+		NullCheck(L_32);
+		int32_t L_33 = L_32->get_heap_len_59();
+		int32_t L_34 = ((int32_t)((int32_t)L_33+(int32_t)1));
+		V_7 = L_34;
+		NullCheck(L_32);
+		L_32->set_heap_len_59(L_34);
+		int32_t L_35 = V_7;
+		int32_t L_36 = V_5;
+		G_B8_0 = L_35;
+		G_B8_1 = L_30;
+		if ((((int32_t)L_36) >= ((int32_t)2)))
+		{
+			G_B9_0 = L_35;
+			G_B9_1 = L_30;
+			goto IL_00b6;
+		}
+	}
+	{
+		int32_t L_37 = V_5;
+		int32_t L_38 = ((int32_t)((int32_t)L_37+(int32_t)1));
+		V_5 = L_38;
+		G_B10_0 = L_38;
+		G_B10_1 = G_B8_0;
+		G_B10_2 = G_B8_1;
+		goto IL_00b7;
+	}
+
+IL_00b6:
+	{
+		G_B10_0 = 0;
+		G_B10_1 = G_B9_0;
+		G_B10_2 = G_B9_1;
+	}
+
+IL_00b7:
+	{
+		int32_t L_39 = G_B10_0;
+		V_7 = L_39;
+		NullCheck(G_B10_2);
+		(G_B10_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B10_1), (int32_t)L_39);
+		int32_t L_40 = V_7;
+		V_6 = L_40;
+		Int16U5BU5D_t3104283263* L_41 = V_0;
+		int32_t L_42 = V_6;
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_42*(int32_t)2))), (int16_t)1);
+		DeflateManager_t1983720200 * L_43 = ___s0;
+		NullCheck(L_43);
+		SByteU5BU5D_t3472287392* L_44 = L_43->get_depth_61();
+		int32_t L_45 = V_6;
+		NullCheck(L_44);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(L_45), (int8_t)0);
+		DeflateManager_t1983720200 * L_46 = ___s0;
+		DeflateManager_t1983720200 * L_47 = L_46;
+		NullCheck(L_47);
+		int32_t L_48 = L_47->get_opt_len_66();
+		NullCheck(L_47);
+		L_47->set_opt_len_66(((int32_t)((int32_t)L_48-(int32_t)1)));
+		Int16U5BU5D_t3104283263* L_49 = V_1;
+		if (!L_49)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_50 = ___s0;
+		DeflateManager_t1983720200 * L_51 = L_50;
+		NullCheck(L_51);
+		int32_t L_52 = L_51->get_static_len_67();
+		Int16U5BU5D_t3104283263* L_53 = V_1;
+		int32_t L_54 = V_6;
+		NullCheck(L_53);
+		int32_t L_55 = ((int32_t)((int32_t)((int32_t)((int32_t)L_54*(int32_t)2))+(int32_t)1));
+		int16_t L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		NullCheck(L_51);
+		L_51->set_static_len_67(((int32_t)((int32_t)L_52-(int32_t)L_56)));
+	}
+
+IL_00f9:
+	{
+		DeflateManager_t1983720200 * L_57 = ___s0;
+		NullCheck(L_57);
+		int32_t L_58 = L_57->get_heap_len_59();
+		if ((((int32_t)L_58) < ((int32_t)2)))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		int32_t L_59 = V_5;
+		__this->set_max_code_11(L_59);
+		DeflateManager_t1983720200 * L_60 = ___s0;
+		NullCheck(L_60);
+		int32_t L_61 = L_60->get_heap_len_59();
+		V_3 = ((int32_t)((int32_t)L_61/(int32_t)2));
+		goto IL_0127;
+	}
+
+IL_011b:
+	{
+		DeflateManager_t1983720200 * L_62 = ___s0;
+		Int16U5BU5D_t3104283263* L_63 = V_0;
+		int32_t L_64 = V_3;
+		NullCheck(L_62);
+		DeflateManager_pqdownheap_m321840846(L_62, L_63, L_64, /*hidden argument*/NULL);
+		int32_t L_65 = V_3;
+		V_3 = ((int32_t)((int32_t)L_65-(int32_t)1));
+	}
+
+IL_0127:
+	{
+		int32_t L_66 = V_3;
+		if ((((int32_t)L_66) >= ((int32_t)1)))
+		{
+			goto IL_011b;
+		}
+	}
+	{
+		int32_t L_67 = V_2;
+		V_6 = L_67;
+	}
+
+IL_0131:
+	{
+		DeflateManager_t1983720200 * L_68 = ___s0;
+		NullCheck(L_68);
+		Int32U5BU5D_t3030399641* L_69 = L_68->get_heap_58();
+		NullCheck(L_69);
+		int32_t L_70 = 1;
+		int32_t L_71 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_70));
+		V_3 = L_71;
+		DeflateManager_t1983720200 * L_72 = ___s0;
+		NullCheck(L_72);
+		Int32U5BU5D_t3030399641* L_73 = L_72->get_heap_58();
+		DeflateManager_t1983720200 * L_74 = ___s0;
+		NullCheck(L_74);
+		Int32U5BU5D_t3030399641* L_75 = L_74->get_heap_58();
+		DeflateManager_t1983720200 * L_76 = ___s0;
+		DeflateManager_t1983720200 * L_77 = L_76;
+		NullCheck(L_77);
+		int32_t L_78 = L_77->get_heap_len_59();
+		int32_t L_79 = L_78;
+		V_7 = L_79;
+		NullCheck(L_77);
+		L_77->set_heap_len_59(((int32_t)((int32_t)L_79-(int32_t)1)));
+		int32_t L_80 = V_7;
+		NullCheck(L_75);
+		int32_t L_81 = L_80;
+		int32_t L_82 = (L_75)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
+		NullCheck(L_73);
+		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_82);
+		DeflateManager_t1983720200 * L_83 = ___s0;
+		Int16U5BU5D_t3104283263* L_84 = V_0;
+		NullCheck(L_83);
+		DeflateManager_pqdownheap_m321840846(L_83, L_84, 1, /*hidden argument*/NULL);
+		DeflateManager_t1983720200 * L_85 = ___s0;
+		NullCheck(L_85);
+		Int32U5BU5D_t3030399641* L_86 = L_85->get_heap_58();
+		NullCheck(L_86);
+		int32_t L_87 = 1;
+		int32_t L_88 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_87));
+		V_4 = L_88;
+		DeflateManager_t1983720200 * L_89 = ___s0;
+		NullCheck(L_89);
+		Int32U5BU5D_t3030399641* L_90 = L_89->get_heap_58();
+		DeflateManager_t1983720200 * L_91 = ___s0;
+		DeflateManager_t1983720200 * L_92 = L_91;
+		NullCheck(L_92);
+		int32_t L_93 = L_92->get_heap_max_60();
+		int32_t L_94 = ((int32_t)((int32_t)L_93-(int32_t)1));
+		V_7 = L_94;
+		NullCheck(L_92);
+		L_92->set_heap_max_60(L_94);
+		int32_t L_95 = V_7;
+		int32_t L_96 = V_3;
+		NullCheck(L_90);
+		(L_90)->SetAt(static_cast<il2cpp_array_size_t>(L_95), (int32_t)L_96);
+		DeflateManager_t1983720200 * L_97 = ___s0;
+		NullCheck(L_97);
+		Int32U5BU5D_t3030399641* L_98 = L_97->get_heap_58();
+		DeflateManager_t1983720200 * L_99 = ___s0;
+		DeflateManager_t1983720200 * L_100 = L_99;
+		NullCheck(L_100);
+		int32_t L_101 = L_100->get_heap_max_60();
+		int32_t L_102 = ((int32_t)((int32_t)L_101-(int32_t)1));
+		V_7 = L_102;
+		NullCheck(L_100);
+		L_100->set_heap_max_60(L_102);
+		int32_t L_103 = V_7;
+		int32_t L_104 = V_4;
+		NullCheck(L_98);
+		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(L_103), (int32_t)L_104);
+		Int16U5BU5D_t3104283263* L_105 = V_0;
+		int32_t L_106 = V_6;
+		Int16U5BU5D_t3104283263* L_107 = V_0;
+		int32_t L_108 = V_3;
+		NullCheck(L_107);
+		int32_t L_109 = ((int32_t)((int32_t)L_108*(int32_t)2));
+		int16_t L_110 = (L_107)->GetAt(static_cast<il2cpp_array_size_t>(L_109));
+		Int16U5BU5D_t3104283263* L_111 = V_0;
+		int32_t L_112 = V_4;
+		NullCheck(L_111);
+		int32_t L_113 = ((int32_t)((int32_t)L_112*(int32_t)2));
+		int16_t L_114 = (L_111)->GetAt(static_cast<il2cpp_array_size_t>(L_113));
+		NullCheck(L_105);
+		(L_105)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_106*(int32_t)2))), (int16_t)(((int16_t)((int16_t)((int32_t)((int32_t)L_110+(int32_t)L_114))))));
+		DeflateManager_t1983720200 * L_115 = ___s0;
+		NullCheck(L_115);
+		SByteU5BU5D_t3472287392* L_116 = L_115->get_depth_61();
+		int32_t L_117 = V_6;
+		DeflateManager_t1983720200 * L_118 = ___s0;
+		NullCheck(L_118);
+		SByteU5BU5D_t3472287392* L_119 = L_118->get_depth_61();
+		int32_t L_120 = V_3;
+		NullCheck(L_119);
+		int32_t L_121 = L_120;
+		int8_t L_122 = (L_119)->GetAt(static_cast<il2cpp_array_size_t>(L_121));
+		DeflateManager_t1983720200 * L_123 = ___s0;
+		NullCheck(L_123);
+		SByteU5BU5D_t3472287392* L_124 = L_123->get_depth_61();
+		int32_t L_125 = V_4;
+		NullCheck(L_124);
+		int32_t L_126 = L_125;
+		int8_t L_127 = (L_124)->GetAt(static_cast<il2cpp_array_size_t>(L_126));
+		uint8_t L_128 = Math_Max_m236682713(NULL /*static, unused*/, (((int32_t)((uint8_t)L_122))), (((int32_t)((uint8_t)L_127))), /*hidden argument*/NULL);
+		NullCheck(L_116);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(L_117), (int8_t)(((int8_t)((int8_t)((int32_t)((int32_t)L_128+(int32_t)1))))));
+		Int16U5BU5D_t3104283263* L_129 = V_0;
+		int32_t L_130 = V_3;
+		Int16U5BU5D_t3104283263* L_131 = V_0;
+		int32_t L_132 = V_4;
+		int32_t L_133 = V_6;
+		int16_t L_134 = (((int16_t)((int16_t)L_133)));
+		V_8 = L_134;
+		NullCheck(L_131);
+		(L_131)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_132*(int32_t)2))+(int32_t)1))), (int16_t)L_134);
+		int16_t L_135 = V_8;
+		NullCheck(L_129);
+		(L_129)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_130*(int32_t)2))+(int32_t)1))), (int16_t)L_135);
+		DeflateManager_t1983720200 * L_136 = ___s0;
+		NullCheck(L_136);
+		Int32U5BU5D_t3030399641* L_137 = L_136->get_heap_58();
+		int32_t L_138 = V_6;
+		int32_t L_139 = L_138;
+		V_6 = ((int32_t)((int32_t)L_139+(int32_t)1));
+		NullCheck(L_137);
+		(L_137)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_139);
+		DeflateManager_t1983720200 * L_140 = ___s0;
+		Int16U5BU5D_t3104283263* L_141 = V_0;
+		NullCheck(L_140);
+		DeflateManager_pqdownheap_m321840846(L_140, L_141, 1, /*hidden argument*/NULL);
+		DeflateManager_t1983720200 * L_142 = ___s0;
+		NullCheck(L_142);
+		int32_t L_143 = L_142->get_heap_len_59();
+		if ((((int32_t)L_143) >= ((int32_t)2)))
+		{
+			goto IL_0131;
+		}
+	}
+	{
+		DeflateManager_t1983720200 * L_144 = ___s0;
+		NullCheck(L_144);
+		Int32U5BU5D_t3030399641* L_145 = L_144->get_heap_58();
+		DeflateManager_t1983720200 * L_146 = ___s0;
+		DeflateManager_t1983720200 * L_147 = L_146;
+		NullCheck(L_147);
+		int32_t L_148 = L_147->get_heap_max_60();
+		int32_t L_149 = ((int32_t)((int32_t)L_148-(int32_t)1));
+		V_7 = L_149;
+		NullCheck(L_147);
+		L_147->set_heap_max_60(L_149);
+		int32_t L_150 = V_7;
+		DeflateManager_t1983720200 * L_151 = ___s0;
+		NullCheck(L_151);
+		Int32U5BU5D_t3030399641* L_152 = L_151->get_heap_58();
+		NullCheck(L_152);
+		int32_t L_153 = 1;
+		int32_t L_154 = (L_152)->GetAt(static_cast<il2cpp_array_size_t>(L_153));
+		NullCheck(L_145);
+		(L_145)->SetAt(static_cast<il2cpp_array_size_t>(L_150), (int32_t)L_154);
+		DeflateManager_t1983720200 * L_155 = ___s0;
+		ZTree_gen_bitlen_m3571074850(__this, L_155, /*hidden argument*/NULL);
+		Int16U5BU5D_t3104283263* L_156 = V_0;
+		int32_t L_157 = V_5;
+		DeflateManager_t1983720200 * L_158 = ___s0;
+		NullCheck(L_158);
+		Int16U5BU5D_t3104283263* L_159 = L_158->get_bl_count_57();
+		IL2CPP_RUNTIME_CLASS_INIT(ZTree_t1042194920_il2cpp_TypeInfo_var);
+		ZTree_gen_codes_m2086993371(NULL /*static, unused*/, L_156, L_157, L_159, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZTree::gen_codes(System.Int16[],System.Int32,System.Int16[])
+extern Il2CppClass* InternalConstants_t3631556964_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int16U5BU5D_t3104283263_il2cpp_TypeInfo_var;
+extern Il2CppClass* ZTree_t1042194920_il2cpp_TypeInfo_var;
+extern const uint32_t ZTree_gen_codes_m2086993371_MetadataUsageId;
+extern "C"  void ZTree_gen_codes_m2086993371 (Il2CppObject * __this /* static, unused */, Int16U5BU5D_t3104283263* ___tree0, int32_t ___max_code1, Int16U5BU5D_t3104283263* ___bl_count2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZTree_gen_codes_m2086993371_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int16U5BU5D_t3104283263* V_0 = NULL;
+	int16_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int16_t V_5 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(InternalConstants_t3631556964_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((InternalConstants_t3631556964_StaticFields*)InternalConstants_t3631556964_il2cpp_TypeInfo_var->static_fields)->get_MAX_BITS_0();
+		V_0 = ((Int16U5BU5D_t3104283263*)SZArrayNew(Int16U5BU5D_t3104283263_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)L_0+(int32_t)1))));
+		V_1 = 0;
+		V_2 = 1;
+		goto IL_0029;
+	}
+
+IL_0016:
+	{
+		Int16U5BU5D_t3104283263* L_1 = V_0;
+		int32_t L_2 = V_2;
+		int16_t L_3 = V_1;
+		Int16U5BU5D_t3104283263* L_4 = ___bl_count2;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		int32_t L_6 = ((int32_t)((int32_t)L_5-(int32_t)1));
+		int16_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		int16_t L_8 = (((int16_t)((int16_t)((int32_t)((int32_t)((int32_t)((int32_t)L_3+(int32_t)L_7))<<(int32_t)1)))));
+		V_1 = L_8;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (int16_t)L_8);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_10 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(InternalConstants_t3631556964_il2cpp_TypeInfo_var);
+		int32_t L_11 = ((InternalConstants_t3631556964_StaticFields*)InternalConstants_t3631556964_il2cpp_TypeInfo_var->static_fields)->get_MAX_BITS_0();
+		if ((((int32_t)L_10) <= ((int32_t)L_11)))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		V_3 = 0;
+		goto IL_0074;
+	}
+
+IL_003b:
+	{
+		Int16U5BU5D_t3104283263* L_12 = ___tree0;
+		int32_t L_13 = V_3;
+		NullCheck(L_12);
+		int32_t L_14 = ((int32_t)((int32_t)((int32_t)((int32_t)L_13*(int32_t)2))+(int32_t)1));
+		int16_t L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_4 = L_15;
+		int32_t L_16 = V_4;
+		if (L_16)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		goto IL_0070;
+	}
+
+IL_0050:
+	{
+		Int16U5BU5D_t3104283263* L_17 = ___tree0;
+		int32_t L_18 = V_3;
+		Int16U5BU5D_t3104283263* L_19 = V_0;
+		int32_t L_20 = V_4;
+		NullCheck(L_19);
+		int16_t* L_21 = ((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)));
+		int32_t L_22 = (*((int16_t*)L_21));
+		V_5 = L_22;
+		*((int16_t*)(L_21)) = (int16_t)(((int16_t)((int16_t)((int32_t)((int32_t)L_22+(int32_t)1)))));
+		int16_t L_23 = V_5;
+		int32_t L_24 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(ZTree_t1042194920_il2cpp_TypeInfo_var);
+		int32_t L_25 = ZTree_bi_reverse_m2758232101(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_18*(int32_t)2))), (int16_t)(((int16_t)((int16_t)L_25))));
+	}
+
+IL_0070:
+	{
+		int32_t L_26 = V_3;
+		V_3 = ((int32_t)((int32_t)L_26+(int32_t)1));
+	}
+
+IL_0074:
+	{
+		int32_t L_27 = V_3;
+		int32_t L_28 = ___max_code1;
+		if ((((int32_t)L_27) <= ((int32_t)L_28)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Int32 BestHTTP.Decompression.Zlib.ZTree::bi_reverse(System.Int32,System.Int32)
+extern "C"  int32_t ZTree_bi_reverse_m2758232101 (Il2CppObject * __this /* static, unused */, int32_t ___code0, int32_t ___len1, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+	}
+
+IL_0002:
+	{
+		int32_t L_0 = V_0;
+		int32_t L_1 = ___code0;
+		V_0 = ((int32_t)((int32_t)L_0|(int32_t)((int32_t)((int32_t)L_1&(int32_t)1))));
+		int32_t L_2 = ___code0;
+		___code0 = ((int32_t)((int32_t)L_2>>(int32_t)1));
+		int32_t L_3 = V_0;
+		V_0 = ((int32_t)((int32_t)L_3<<(int32_t)1));
+		int32_t L_4 = ___len1;
+		int32_t L_5 = ((int32_t)((int32_t)L_4-(int32_t)1));
+		___len1 = L_5;
+		if ((((int32_t)L_5) > ((int32_t)0)))
+		{
+			goto IL_0002;
+		}
+	}
+	{
+		int32_t L_6 = V_0;
+		return ((int32_t)((int32_t)L_6>>(int32_t)1));
+	}
+}
+// System.Void BestHTTP.Decompression.Zlib.ZTree::.cctor()
+extern Il2CppClass* InternalConstants_t3631556964_il2cpp_TypeInfo_var;
+extern Il2CppClass* ZTree_t1042194920_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern Il2CppClass* SByteU5BU5D_t3472287392_il2cpp_TypeInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D67C0E784F3654B008A81E2988588CF4956CCF3DA_8_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D79D521E6E3E55103005E9CC3FA43B3174FAF090F_5_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D8457F44B035C9073EE2D1F132D0A8AF5631DCDC8_9_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2DAE6B2897A8B88E297D61124152931A88D5D977F4_10_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D3544182260B8A15D332367E48C7530FC0E901FD3_11_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D6A316789EED01119DE92841832701A40AB0CABD6_12_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D2E868D9F2085DF93F11F58DE61C05E0D8A8F4A71_13_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D5581A70566F03554D8048EDBFC6E6B399AF9BCB1_14_FieldInfo_var;
+extern const uint32_t ZTree__cctor_m2536759480_MetadataUsageId;
+extern "C"  void ZTree__cctor_m2536759480 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ZTree__cctor_m2536759480_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(InternalConstants_t3631556964_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((InternalConstants_t3631556964_StaticFields*)InternalConstants_t3631556964_il2cpp_TypeInfo_var->static_fields)->get_L_CODES_5();
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_HEAP_SIZE_0(((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_0))+(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_1 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)29)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_1, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D67C0E784F3654B008A81E2988588CF4956CCF3DA_8_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_ExtraLengthBits_1(L_1);
+		Int32U5BU5D_t3030399641* L_2 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)30)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_2, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D79D521E6E3E55103005E9CC3FA43B3174FAF090F_5_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_ExtraDistanceBits_2(L_2);
+		Int32U5BU5D_t3030399641* L_3 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)19)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_3, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D8457F44B035C9073EE2D1F132D0A8AF5631DCDC8_9_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_extra_blbits_3(L_3);
+		SByteU5BU5D_t3472287392* L_4 = ((SByteU5BU5D_t3472287392*)SZArrayNew(SByteU5BU5D_t3472287392_il2cpp_TypeInfo_var, (uint32_t)((int32_t)19)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2DAE6B2897A8B88E297D61124152931A88D5D977F4_10_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_bl_order_4(L_4);
+		SByteU5BU5D_t3472287392* L_5 = ((SByteU5BU5D_t3472287392*)SZArrayNew(SByteU5BU5D_t3472287392_il2cpp_TypeInfo_var, (uint32_t)((int32_t)512)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_5, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D3544182260B8A15D332367E48C7530FC0E901FD3_11_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set__dist_code_6(L_5);
+		SByteU5BU5D_t3472287392* L_6 = ((SByteU5BU5D_t3472287392*)SZArrayNew(SByteU5BU5D_t3472287392_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_6, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D6A316789EED01119DE92841832701A40AB0CABD6_12_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_LengthCode_7(L_6);
+		Int32U5BU5D_t3030399641* L_7 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)29)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_7, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D2E868D9F2085DF93F11F58DE61C05E0D8A8F4A71_13_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_LengthBase_8(L_7);
+		Int32U5BU5D_t3030399641* L_8 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)30)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_8, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D5581A70566F03554D8048EDBFC6E6B399AF9BCB1_14_FieldInfo_var), /*hidden argument*/NULL);
+		((ZTree_t1042194920_StaticFields*)ZTree_t1042194920_il2cpp_TypeInfo_var->static_fields)->set_DistanceBase_9(L_8);
+		return;
+	}
+}
 // System.Void BestHTTP.Examples.AssetBundleSample::.ctor()
 extern Il2CppCodeGenString* _stringLiteral3763307047;
 extern const uint32_t AssetBundleSample__ctor_m2666362174_MetadataUsageId;
@@ -40365,2321 +42282,6 @@ IL_0059:
 	}
 
 IL_005e:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.PostSendTransportBase::.ctor(System.String,BestHTTP.SignalR.Connection)
-extern Il2CppClass* List_1_t3802574315_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m233114190_MethodInfo_var;
-extern const uint32_t PostSendTransportBase__ctor_m116289419_MetadataUsageId;
-extern "C"  void PostSendTransportBase__ctor_m116289419 (PostSendTransportBase_t4137891006 * __this, String_t* ___name0, Connection_t2915781690 * ___con1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PostSendTransportBase__ctor_m116289419_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		List_1_t3802574315 * L_0 = (List_1_t3802574315 *)il2cpp_codegen_object_new(List_1_t3802574315_il2cpp_TypeInfo_var);
-		List_1__ctor_m233114190(L_0, /*hidden argument*/List_1__ctor_m233114190_MethodInfo_var);
-		__this->set_sendRequestQueue_5(L_0);
-		String_t* L_1 = ___name0;
-		Connection_t2915781690 * L_2 = ___con1;
-		TransportBase__ctor_m1432022759(__this, L_1, L_2, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.PostSendTransportBase::SendImpl(System.String)
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnRequestFinishedDelegate_t3180754735_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPRequest_t138485887_il2cpp_TypeInfo_var;
-extern const MethodInfo* PostSendTransportBase_OnSendRequestFinished_m3764274035_MethodInfo_var;
-extern const MethodInfo* List_1_Add_m2505454434_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2619694;
-extern const uint32_t PostSendTransportBase_SendImpl_m3232224233_MetadataUsageId;
-extern "C"  void PostSendTransportBase_SendImpl_m3232224233 (PostSendTransportBase_t4137891006 * __this, String_t* ___json0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PostSendTransportBase_SendImpl_m3232224233_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	HTTPRequest_t138485887 * V_0 = NULL;
-	{
-		Il2CppObject * L_0 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		Uri_t19570940 * L_1 = InterfaceFuncInvoker2< Uri_t19570940 *, int32_t, TransportBase_t148904526 * >::Invoke(10 /* System.Uri BestHTTP.SignalR.IConnection::BuildUri(BestHTTP.SignalR.RequestTypes,BestHTTP.SignalR.Transports.TransportBase) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_0, 4, __this);
-		IntPtr_t L_2;
-		L_2.set_m_value_0((void*)(void*)PostSendTransportBase_OnSendRequestFinished_m3764274035_MethodInfo_var);
-		OnRequestFinishedDelegate_t3180754735 * L_3 = (OnRequestFinishedDelegate_t3180754735 *)il2cpp_codegen_object_new(OnRequestFinishedDelegate_t3180754735_il2cpp_TypeInfo_var);
-		OnRequestFinishedDelegate__ctor_m3446790394(L_3, __this, L_2, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_4 = (HTTPRequest_t138485887 *)il2cpp_codegen_object_new(HTTPRequest_t138485887_il2cpp_TypeInfo_var);
-		HTTPRequest__ctor_m234589654(L_4, L_1, 2, (bool)1, (bool)1, L_3, /*hidden argument*/NULL);
-		V_0 = L_4;
-		HTTPRequest_t138485887 * L_5 = V_0;
-		NullCheck(L_5);
-		HTTPRequest_set_FormUsage_m3402110954(L_5, 1, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_6 = V_0;
-		String_t* L_7 = ___json0;
-		NullCheck(L_6);
-		HTTPRequest_AddField_m1328231191(L_6, _stringLiteral2619694, L_7, /*hidden argument*/NULL);
-		Il2CppObject * L_8 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_9 = V_0;
-		NullCheck(L_8);
-		InterfaceFuncInvoker2< HTTPRequest_t138485887 *, HTTPRequest_t138485887 *, int32_t >::Invoke(11 /* BestHTTP.HTTPRequest BestHTTP.SignalR.IConnection::PrepareRequest(BestHTTP.HTTPRequest,BestHTTP.SignalR.RequestTypes) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_8, L_9, 4);
-		HTTPRequest_t138485887 * L_10 = V_0;
-		NullCheck(L_10);
-		HTTPRequest_set_Priority_m506835954(L_10, (-1), /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_11 = V_0;
-		NullCheck(L_11);
-		HTTPRequest_Send_m901223240(L_11, /*hidden argument*/NULL);
-		List_1_t3802574315 * L_12 = __this->get_sendRequestQueue_5();
-		HTTPRequest_t138485887 * L_13 = V_0;
-		NullCheck(L_12);
-		List_1_Add_m2505454434(L_12, L_13, /*hidden argument*/List_1_Add_m2505454434_MethodInfo_var);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.PostSendTransportBase::OnSendRequestFinished(BestHTTP.HTTPRequest,BestHTTP.HTTPResponse)
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1_Remove_m152260645_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral381775368;
-extern Il2CppCodeGenString* _stringLiteral998599811;
-extern Il2CppCodeGenString* _stringLiteral3310519405;
-extern Il2CppCodeGenString* _stringLiteral372029352;
-extern Il2CppCodeGenString* _stringLiteral174868756;
-extern Il2CppCodeGenString* _stringLiteral868390824;
-extern Il2CppCodeGenString* _stringLiteral2609373637;
-extern Il2CppCodeGenString* _stringLiteral4005001026;
-extern const uint32_t PostSendTransportBase_OnSendRequestFinished_m3764274035_MetadataUsageId;
-extern "C"  void PostSendTransportBase_OnSendRequestFinished_m3764274035 (PostSendTransportBase_t4137891006 * __this, HTTPRequest_t138485887 * ___req0, HTTPResponse_t62748825 * ___resp1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PostSendTransportBase_OnSendRequestFinished_m3764274035_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	int32_t V_1 = 0;
-	Il2CppObject * V_2 = NULL;
-	String_t* G_B11_0 = NULL;
-	String_t* G_B10_0 = NULL;
-	String_t* G_B12_0 = NULL;
-	String_t* G_B12_1 = NULL;
-	{
-		List_1_t3802574315 * L_0 = __this->get_sendRequestQueue_5();
-		HTTPRequest_t138485887 * L_1 = ___req0;
-		NullCheck(L_0);
-		List_1_Remove_m152260645(L_0, L_1, /*hidden argument*/List_1_Remove_m152260645_MethodInfo_var);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
-		V_0 = L_2;
-		HTTPRequest_t138485887 * L_3 = ___req0;
-		NullCheck(L_3);
-		int32_t L_4 = HTTPRequest_get_State_m2690647908(L_3, /*hidden argument*/NULL);
-		V_1 = L_4;
-		int32_t L_5 = V_1;
-		if (((int32_t)((int32_t)L_5-(int32_t)3)) == 0)
-		{
-			goto IL_003b;
-		}
-		if (((int32_t)((int32_t)L_5-(int32_t)3)) == 1)
-		{
-			goto IL_00d5;
-		}
-		if (((int32_t)((int32_t)L_5-(int32_t)3)) == 2)
-		{
-			goto IL_011a;
-		}
-		if (((int32_t)((int32_t)L_5-(int32_t)3)) == 3)
-		{
-			goto IL_0125;
-		}
-		if (((int32_t)((int32_t)L_5-(int32_t)3)) == 4)
-		{
-			goto IL_0130;
-		}
-	}
-	{
-		goto IL_013b;
-	}
-
-IL_003b:
-	{
-		HTTPResponse_t62748825 * L_6 = ___resp1;
-		NullCheck(L_6);
-		bool L_7 = HTTPResponse_get_IsSuccess_m3874180644(L_6, /*hidden argument*/NULL);
-		if (!L_7)
-		{
-			goto IL_00ae;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_8 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_9 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_9, /*hidden argument*/NULL);
-		HTTPResponse_t62748825 * L_11 = ___resp1;
-		NullCheck(L_11);
-		String_t* L_12 = HTTPResponse_get_DataAsText_m3686085993(L_11, /*hidden argument*/NULL);
-		String_t* L_13 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral381775368, L_12, /*hidden argument*/NULL);
-		NullCheck(L_8);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_8, L_10, L_13);
-		HTTPResponse_t62748825 * L_14 = ___resp1;
-		NullCheck(L_14);
-		String_t* L_15 = HTTPResponse_get_DataAsText_m3686085993(L_14, /*hidden argument*/NULL);
-		bool L_16 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
-		if (L_16)
-		{
-			goto IL_00a9;
-		}
-	}
-	{
-		Il2CppObject * L_17 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_17);
-		Il2CppObject * L_18 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(2 /* BestHTTP.SignalR.JsonEncoders.IJsonEncoder BestHTTP.SignalR.IConnection::get_JsonEncoder() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_17);
-		HTTPResponse_t62748825 * L_19 = ___resp1;
-		NullCheck(L_19);
-		String_t* L_20 = HTTPResponse_get_DataAsText_m3686085993(L_19, /*hidden argument*/NULL);
-		Il2CppObject * L_21 = TransportBase_Parse_m3216123136(NULL /*static, unused*/, L_18, L_20, /*hidden argument*/NULL);
-		V_2 = L_21;
-		Il2CppObject * L_22 = V_2;
-		if (!L_22)
-		{
-			goto IL_00a9;
-		}
-	}
-	{
-		Il2CppObject * L_23 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		Il2CppObject * L_24 = V_2;
-		NullCheck(L_23);
-		InterfaceActionInvoker1< Il2CppObject * >::Invoke(4 /* System.Void BestHTTP.SignalR.IConnection::OnMessage(BestHTTP.SignalR.Messages.IServerMessage) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_23, L_24);
-	}
-
-IL_00a9:
-	{
-		goto IL_00d0;
-	}
-
-IL_00ae:
-	{
-		HTTPResponse_t62748825 * L_25 = ___resp1;
-		NullCheck(L_25);
-		int32_t L_26 = HTTPResponse_get_StatusCode_m1879961860(L_25, /*hidden argument*/NULL);
-		int32_t L_27 = L_26;
-		Il2CppObject * L_28 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_27);
-		HTTPResponse_t62748825 * L_29 = ___resp1;
-		NullCheck(L_29);
-		String_t* L_30 = HTTPResponse_get_Message_m1456893857(L_29, /*hidden argument*/NULL);
-		HTTPResponse_t62748825 * L_31 = ___resp1;
-		NullCheck(L_31);
-		String_t* L_32 = HTTPResponse_get_DataAsText_m3686085993(L_31, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_33 = String_Format_m4262916296(NULL /*static, unused*/, _stringLiteral998599811, L_28, L_30, L_32, /*hidden argument*/NULL);
-		V_0 = L_33;
-	}
-
-IL_00d0:
-	{
-		goto IL_013b;
-	}
-
-IL_00d5:
-	{
-		HTTPRequest_t138485887 * L_34 = ___req0;
-		NullCheck(L_34);
-		Exception_t1927440687 * L_35 = HTTPRequest_get_Exception_m75896849(L_34, /*hidden argument*/NULL);
-		G_B10_0 = _stringLiteral3310519405;
-		if (!L_35)
-		{
-			G_B11_0 = _stringLiteral3310519405;
-			goto IL_010a;
-		}
-	}
-	{
-		HTTPRequest_t138485887 * L_36 = ___req0;
-		NullCheck(L_36);
-		Exception_t1927440687 * L_37 = HTTPRequest_get_Exception_m75896849(L_36, /*hidden argument*/NULL);
-		NullCheck(L_37);
-		String_t* L_38 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_37);
-		HTTPRequest_t138485887 * L_39 = ___req0;
-		NullCheck(L_39);
-		Exception_t1927440687 * L_40 = HTTPRequest_get_Exception_m75896849(L_39, /*hidden argument*/NULL);
-		NullCheck(L_40);
-		String_t* L_41 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_40);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_42 = String_Concat_m612901809(NULL /*static, unused*/, L_38, _stringLiteral372029352, L_41, /*hidden argument*/NULL);
-		G_B12_0 = L_42;
-		G_B12_1 = G_B10_0;
-		goto IL_010f;
-	}
-
-IL_010a:
-	{
-		G_B12_0 = _stringLiteral174868756;
-		G_B12_1 = G_B11_0;
-	}
-
-IL_010f:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_43 = String_Concat_m2596409543(NULL /*static, unused*/, G_B12_1, G_B12_0, /*hidden argument*/NULL);
-		V_0 = L_43;
-		goto IL_013b;
-	}
-
-IL_011a:
-	{
-		V_0 = _stringLiteral868390824;
-		goto IL_013b;
-	}
-
-IL_0125:
-	{
-		V_0 = _stringLiteral2609373637;
-		goto IL_013b;
-	}
-
-IL_0130:
-	{
-		V_0 = _stringLiteral4005001026;
-		goto IL_013b;
-	}
-
-IL_013b:
-	{
-		String_t* L_44 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_45 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
-		if (L_45)
-		{
-			goto IL_0152;
-		}
-	}
-	{
-		Il2CppObject * L_46 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		String_t* L_47 = V_0;
-		NullCheck(L_46);
-		InterfaceActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.IConnection::Error(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_46, L_47);
-	}
-
-IL_0152:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::.ctor(BestHTTP.SignalR.Connection)
-extern Il2CppCodeGenString* _stringLiteral835281438;
-extern const uint32_t ServerSentEventsTransport__ctor_m938736378_MetadataUsageId;
-extern "C"  void ServerSentEventsTransport__ctor_m938736378 (ServerSentEventsTransport_t1441151459 * __this, Connection_t2915781690 * ___con0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ServerSentEventsTransport__ctor_m938736378_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Connection_t2915781690 * L_0 = ___con0;
-		PostSendTransportBase__ctor_m116289419(__this, _stringLiteral835281438, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean BestHTTP.SignalR.Transports.ServerSentEventsTransport::get_SupportsKeepAlive()
-extern "C"  bool ServerSentEventsTransport_get_SupportsKeepAlive_m2608301473 (ServerSentEventsTransport_t1441151459 * __this, const MethodInfo* method)
-{
-	{
-		return (bool)1;
-	}
-}
-// BestHTTP.SignalR.TransportTypes BestHTTP.SignalR.Transports.ServerSentEventsTransport::get_Type()
-extern "C"  int32_t ServerSentEventsTransport_get_Type_m1075430854 (ServerSentEventsTransport_t1441151459 * __this, const MethodInfo* method)
-{
-	{
-		return (int32_t)(1);
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::Connect()
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppClass* EventSource_t3924127377_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnGeneralEventDelegate_t2459579164_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnMessageDelegate_t4204746873_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnErrorDelegate_t676891988_il2cpp_TypeInfo_var;
-extern Il2CppClass* ServerSentEventsTransport_t1441151459_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnRetryDelegate_t1334454456_il2cpp_TypeInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceOpen_m2404062551_MethodInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceMessage_m3863582117_MethodInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceError_m2621127813_MethodInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceClosed_m2683079685_MethodInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_U3CConnectU3Em__0_m423807528_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2400391989;
-extern Il2CppCodeGenString* _stringLiteral1834891411;
-extern const uint32_t ServerSentEventsTransport_Connect_m3606067602_MetadataUsageId;
-extern "C"  void ServerSentEventsTransport_Connect_m3606067602 (ServerSentEventsTransport_t1441151459 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ServerSentEventsTransport_Connect_m3606067602_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Uri_t19570940 * V_1 = NULL;
-	int32_t G_B7_0 = 0;
-	EventSource_t3924127377 * G_B9_0 = NULL;
-	EventSource_t3924127377 * G_B8_0 = NULL;
-	{
-		EventSource_t3924127377 * L_0 = __this->get_EventSource_6();
-		if (!L_0)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_1 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(14 /* System.Void BestHTTP.Logger.ILogger::Warning(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_1, _stringLiteral2400391989, _stringLiteral1834891411);
-		return;
-	}
-
-IL_0020:
-	{
-		int32_t L_2 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_2) == ((int32_t)2)))
-		{
-			goto IL_0033;
-		}
-	}
-	{
-		TransportBase_set_State_m1729237804(__this, 1, /*hidden argument*/NULL);
-	}
-
-IL_0033:
-	{
-		int32_t L_3 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		G_B7_0 = 5;
-		goto IL_0046;
-	}
-
-IL_0045:
-	{
-		G_B7_0 = 1;
-	}
-
-IL_0046:
-	{
-		V_0 = G_B7_0;
-		Il2CppObject * L_4 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		int32_t L_5 = V_0;
-		NullCheck(L_4);
-		Uri_t19570940 * L_6 = InterfaceFuncInvoker2< Uri_t19570940 *, int32_t, TransportBase_t148904526 * >::Invoke(10 /* System.Uri BestHTTP.SignalR.IConnection::BuildUri(BestHTTP.SignalR.RequestTypes,BestHTTP.SignalR.Transports.TransportBase) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_4, L_5, __this);
-		V_1 = L_6;
-		Uri_t19570940 * L_7 = V_1;
-		EventSource_t3924127377 * L_8 = (EventSource_t3924127377 *)il2cpp_codegen_object_new(EventSource_t3924127377_il2cpp_TypeInfo_var);
-		EventSource__ctor_m3473081225(L_8, L_7, /*hidden argument*/NULL);
-		__this->set_EventSource_6(L_8);
-		EventSource_t3924127377 * L_9 = __this->get_EventSource_6();
-		IntPtr_t L_10;
-		L_10.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceOpen_m2404062551_MethodInfo_var);
-		OnGeneralEventDelegate_t2459579164 * L_11 = (OnGeneralEventDelegate_t2459579164 *)il2cpp_codegen_object_new(OnGeneralEventDelegate_t2459579164_il2cpp_TypeInfo_var);
-		OnGeneralEventDelegate__ctor_m1388065157(L_11, __this, L_10, /*hidden argument*/NULL);
-		NullCheck(L_9);
-		EventSource_add_OnOpen_m3934133165(L_9, L_11, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_12 = __this->get_EventSource_6();
-		IntPtr_t L_13;
-		L_13.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceMessage_m3863582117_MethodInfo_var);
-		OnMessageDelegate_t4204746873 * L_14 = (OnMessageDelegate_t4204746873 *)il2cpp_codegen_object_new(OnMessageDelegate_t4204746873_il2cpp_TypeInfo_var);
-		OnMessageDelegate__ctor_m4001683496(L_14, __this, L_13, /*hidden argument*/NULL);
-		NullCheck(L_12);
-		EventSource_add_OnMessage_m3776024207(L_12, L_14, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_15 = __this->get_EventSource_6();
-		IntPtr_t L_16;
-		L_16.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceError_m2621127813_MethodInfo_var);
-		OnErrorDelegate_t676891988 * L_17 = (OnErrorDelegate_t676891988 *)il2cpp_codegen_object_new(OnErrorDelegate_t676891988_il2cpp_TypeInfo_var);
-		OnErrorDelegate__ctor_m3358000883(L_17, __this, L_16, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		EventSource_add_OnError_m645036847(L_15, L_17, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_18 = __this->get_EventSource_6();
-		IntPtr_t L_19;
-		L_19.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceClosed_m2683079685_MethodInfo_var);
-		OnGeneralEventDelegate_t2459579164 * L_20 = (OnGeneralEventDelegate_t2459579164 *)il2cpp_codegen_object_new(OnGeneralEventDelegate_t2459579164_il2cpp_TypeInfo_var);
-		OnGeneralEventDelegate__ctor_m1388065157(L_20, __this, L_19, /*hidden argument*/NULL);
-		NullCheck(L_18);
-		EventSource_add_OnClosed_m589516187(L_18, L_20, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_21 = __this->get_EventSource_6();
-		OnRetryDelegate_t1334454456 * L_22 = ((ServerSentEventsTransport_t1441151459_StaticFields*)ServerSentEventsTransport_t1441151459_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_7();
-		G_B8_0 = L_21;
-		if (L_22)
-		{
-			G_B9_0 = L_21;
-			goto IL_00db;
-		}
-	}
-	{
-		IntPtr_t L_23;
-		L_23.set_m_value_0((void*)(void*)ServerSentEventsTransport_U3CConnectU3Em__0_m423807528_MethodInfo_var);
-		OnRetryDelegate_t1334454456 * L_24 = (OnRetryDelegate_t1334454456 *)il2cpp_codegen_object_new(OnRetryDelegate_t1334454456_il2cpp_TypeInfo_var);
-		OnRetryDelegate__ctor_m3480084219(L_24, NULL, L_23, /*hidden argument*/NULL);
-		((ServerSentEventsTransport_t1441151459_StaticFields*)ServerSentEventsTransport_t1441151459_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_7(L_24);
-		G_B9_0 = G_B8_0;
-	}
-
-IL_00db:
-	{
-		OnRetryDelegate_t1334454456 * L_25 = ((ServerSentEventsTransport_t1441151459_StaticFields*)ServerSentEventsTransport_t1441151459_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_7();
-		NullCheck(G_B9_0);
-		EventSource_add_OnRetry_m436837935(G_B9_0, L_25, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_26 = __this->get_EventSource_6();
-		NullCheck(L_26);
-		EventSource_Open_m1162312776(L_26, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::Stop()
-extern Il2CppClass* OnGeneralEventDelegate_t2459579164_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnMessageDelegate_t4204746873_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnErrorDelegate_t676891988_il2cpp_TypeInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceOpen_m2404062551_MethodInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceMessage_m3863582117_MethodInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceError_m2621127813_MethodInfo_var;
-extern const MethodInfo* ServerSentEventsTransport_OnEventSourceClosed_m2683079685_MethodInfo_var;
-extern const uint32_t ServerSentEventsTransport_Stop_m2316994938_MetadataUsageId;
-extern "C"  void ServerSentEventsTransport_Stop_m2316994938 (ServerSentEventsTransport_t1441151459 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ServerSentEventsTransport_Stop_m2316994938_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		EventSource_t3924127377 * L_0 = __this->get_EventSource_6();
-		IntPtr_t L_1;
-		L_1.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceOpen_m2404062551_MethodInfo_var);
-		OnGeneralEventDelegate_t2459579164 * L_2 = (OnGeneralEventDelegate_t2459579164 *)il2cpp_codegen_object_new(OnGeneralEventDelegate_t2459579164_il2cpp_TypeInfo_var);
-		OnGeneralEventDelegate__ctor_m1388065157(L_2, __this, L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		EventSource_remove_OnOpen_m1907907770(L_0, L_2, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_3 = __this->get_EventSource_6();
-		IntPtr_t L_4;
-		L_4.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceMessage_m3863582117_MethodInfo_var);
-		OnMessageDelegate_t4204746873 * L_5 = (OnMessageDelegate_t4204746873 *)il2cpp_codegen_object_new(OnMessageDelegate_t4204746873_il2cpp_TypeInfo_var);
-		OnMessageDelegate__ctor_m4001683496(L_5, __this, L_4, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		EventSource_remove_OnMessage_m3138670724(L_3, L_5, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_6 = __this->get_EventSource_6();
-		IntPtr_t L_7;
-		L_7.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceError_m2621127813_MethodInfo_var);
-		OnErrorDelegate_t676891988 * L_8 = (OnErrorDelegate_t676891988 *)il2cpp_codegen_object_new(OnErrorDelegate_t676891988_il2cpp_TypeInfo_var);
-		OnErrorDelegate__ctor_m3358000883(L_8, __this, L_7, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		EventSource_remove_OnError_m2962415204(L_6, L_8, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_9 = __this->get_EventSource_6();
-		IntPtr_t L_10;
-		L_10.set_m_value_0((void*)(void*)ServerSentEventsTransport_OnEventSourceClosed_m2683079685_MethodInfo_var);
-		OnGeneralEventDelegate_t2459579164 * L_11 = (OnGeneralEventDelegate_t2459579164 *)il2cpp_codegen_object_new(OnGeneralEventDelegate_t2459579164_il2cpp_TypeInfo_var);
-		OnGeneralEventDelegate__ctor_m1388065157(L_11, __this, L_10, /*hidden argument*/NULL);
-		NullCheck(L_9);
-		EventSource_remove_OnClosed_m2123390862(L_9, L_11, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_12 = __this->get_EventSource_6();
-		NullCheck(L_12);
-		EventSource_Close_m1595946034(L_12, /*hidden argument*/NULL);
-		__this->set_EventSource_6((EventSource_t3924127377 *)NULL);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::Started()
-extern "C"  void ServerSentEventsTransport_Started_m3666145401 (ServerSentEventsTransport_t1441151459 * __this, const MethodInfo* method)
-{
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::Abort()
-extern "C"  void ServerSentEventsTransport_Abort_m803469214 (ServerSentEventsTransport_t1441151459 * __this, const MethodInfo* method)
-{
-	{
-		TransportBase_Abort_m3150150757(__this, /*hidden argument*/NULL);
-		EventSource_t3924127377 * L_0 = __this->get_EventSource_6();
-		NullCheck(L_0);
-		EventSource_Close_m1595946034(L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::Aborted()
-extern "C"  void ServerSentEventsTransport_Aborted_m3433930447 (ServerSentEventsTransport_t1441151459 * __this, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_0) == ((uint32_t)5))))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		TransportBase_set_State_m1729237804(__this, 6, /*hidden argument*/NULL);
-	}
-
-IL_0013:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::OnEventSourceOpen(BestHTTP.ServerSentEvents.EventSource)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral3028264772;
-extern const uint32_t ServerSentEventsTransport_OnEventSourceOpen_m2404062551_MetadataUsageId;
-extern "C"  void ServerSentEventsTransport_OnEventSourceOpen_m2404062551 (ServerSentEventsTransport_t1441151459 * __this, EventSource_t3924127377 * ___eventSource0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ServerSentEventsTransport_OnEventSourceOpen_m2404062551_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_0 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_1 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteral3028264772);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::OnEventSourceMessage(BestHTTP.ServerSentEvents.EventSource,BestHTTP.ServerSentEvents.Message)
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral159719384;
-extern const uint32_t ServerSentEventsTransport_OnEventSourceMessage_m3863582117_MetadataUsageId;
-extern "C"  void ServerSentEventsTransport_OnEventSourceMessage_m3863582117 (ServerSentEventsTransport_t1441151459 * __this, EventSource_t3924127377 * ___eventSource0, Message_t1650395211 * ___message1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ServerSentEventsTransport_OnEventSourceMessage_m3863582117_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Il2CppObject * V_0 = NULL;
-	{
-		Message_t1650395211 * L_0 = ___message1;
-		NullCheck(L_0);
-		String_t* L_1 = Message_get_Data_m2337848820(L_0, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		bool L_2 = String_Equals_m2633592423(L_1, _stringLiteral159719384, /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		TransportBase_OnConnected_m2554505301(__this, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_001c:
-	{
-		Il2CppObject * L_3 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		Il2CppObject * L_4 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(2 /* BestHTTP.SignalR.JsonEncoders.IJsonEncoder BestHTTP.SignalR.IConnection::get_JsonEncoder() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_3);
-		Message_t1650395211 * L_5 = ___message1;
-		NullCheck(L_5);
-		String_t* L_6 = Message_get_Data_m2337848820(L_5, /*hidden argument*/NULL);
-		Il2CppObject * L_7 = TransportBase_Parse_m3216123136(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
-		V_0 = L_7;
-		Il2CppObject * L_8 = V_0;
-		if (!L_8)
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		Il2CppObject * L_9 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		Il2CppObject * L_10 = V_0;
-		NullCheck(L_9);
-		InterfaceActionInvoker1< Il2CppObject * >::Invoke(4 /* System.Void BestHTTP.SignalR.IConnection::OnMessage(BestHTTP.SignalR.Messages.IServerMessage) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_9, L_10);
-	}
-
-IL_0045:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::OnEventSourceError(BestHTTP.ServerSentEvents.EventSource,System.String)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral42404602;
-extern const uint32_t ServerSentEventsTransport_OnEventSourceError_m2621127813_MetadataUsageId;
-extern "C"  void ServerSentEventsTransport_OnEventSourceError_m2621127813 (ServerSentEventsTransport_t1441151459 * __this, EventSource_t3924127377 * ___eventSource0, String_t* ___error1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ServerSentEventsTransport_OnEventSourceError_m2621127813_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_0 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_1 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteral42404602);
-		int32_t L_3 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
-		{
-			goto IL_0032;
-		}
-	}
-	{
-		VirtActionInvoker0::Invoke(6 /* System.Void BestHTTP.SignalR.Transports.TransportBase::Connect() */, __this);
-		return;
-	}
-
-IL_0032:
-	{
-		int32_t L_4 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_4) == ((uint32_t)6))))
-		{
-			goto IL_003f;
-		}
-	}
-	{
-		return;
-	}
-
-IL_003f:
-	{
-		int32_t L_5 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_5) == ((uint32_t)5))))
-		{
-			goto IL_0057;
-		}
-	}
-	{
-		TransportBase_set_State_m1729237804(__this, 6, /*hidden argument*/NULL);
-		goto IL_0063;
-	}
-
-IL_0057:
-	{
-		Il2CppObject * L_6 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		String_t* L_7 = ___error1;
-		NullCheck(L_6);
-		InterfaceActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.IConnection::Error(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_6, L_7);
-	}
-
-IL_0063:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.ServerSentEventsTransport::OnEventSourceClosed(BestHTTP.ServerSentEvents.EventSource)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral3532876568;
-extern Il2CppCodeGenString* _stringLiteral288159600;
-extern const uint32_t ServerSentEventsTransport_OnEventSourceClosed_m2683079685_MetadataUsageId;
-extern "C"  void ServerSentEventsTransport_OnEventSourceClosed_m2683079685 (ServerSentEventsTransport_t1441151459 * __this, EventSource_t3924127377 * ___eventSource0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ServerSentEventsTransport_OnEventSourceClosed_m2683079685_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_0 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_1 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteral3532876568);
-		EventSource_t3924127377 * L_3 = ___eventSource0;
-		ServerSentEventsTransport_OnEventSourceError_m2621127813(__this, L_3, _stringLiteral288159600, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean BestHTTP.SignalR.Transports.ServerSentEventsTransport::<Connect>m__0(BestHTTP.ServerSentEvents.EventSource)
-extern "C"  bool ServerSentEventsTransport_U3CConnectU3Em__0_m423807528 (Il2CppObject * __this /* static, unused */, EventSource_t3924127377 * ___es0, const MethodInfo* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::.ctor(System.String,BestHTTP.SignalR.Connection)
-extern "C"  void TransportBase__ctor_m1432022759 (TransportBase_t148904526 * __this, String_t* ___name0, Connection_t2915781690 * ___connection1, const MethodInfo* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		String_t* L_0 = ___name0;
-		TransportBase_set_Name_m939751031(__this, L_0, /*hidden argument*/NULL);
-		Connection_t2915781690 * L_1 = ___connection1;
-		TransportBase_set_Connection_m880313875(__this, L_1, /*hidden argument*/NULL);
-		TransportBase_set_State_m1729237804(__this, 0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.String BestHTTP.SignalR.Transports.TransportBase::get_Name()
-extern "C"  String_t* TransportBase_get_Name_m485227978 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	{
-		String_t* L_0 = __this->get_U3CNameU3Ek__BackingField_1();
-		return L_0;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::set_Name(System.String)
-extern "C"  void TransportBase_set_Name_m939751031 (TransportBase_t148904526 * __this, String_t* ___value0, const MethodInfo* method)
-{
-	{
-		String_t* L_0 = ___value0;
-		__this->set_U3CNameU3Ek__BackingField_1(L_0);
-		return;
-	}
-}
-// BestHTTP.SignalR.IConnection BestHTTP.SignalR.Transports.TransportBase::get_Connection()
-extern "C"  Il2CppObject * TransportBase_get_Connection_m3172822580 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = __this->get_U3CConnectionU3Ek__BackingField_2();
-		return L_0;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::set_Connection(BestHTTP.SignalR.IConnection)
-extern "C"  void TransportBase_set_Connection_m880313875 (TransportBase_t148904526 * __this, Il2CppObject * ___value0, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = ___value0;
-		__this->set_U3CConnectionU3Ek__BackingField_2(L_0);
-		return;
-	}
-}
-// BestHTTP.SignalR.TransportStates BestHTTP.SignalR.Transports.TransportBase::get_State()
-extern "C"  int32_t TransportBase_get_State_m3364375705 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = __this->get__state_3();
-		return L_0;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::set_State(BestHTTP.SignalR.TransportStates)
-extern "C"  void TransportBase_set_State_m1729237804 (TransportBase_t148904526 * __this, int32_t ___value0, const MethodInfo* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->get__state_3();
-		V_0 = L_0;
-		int32_t L_1 = ___value0;
-		__this->set__state_3(L_1);
-		OnTransportStateChangedDelegate_t1888872800 * L_2 = __this->get_OnStateChanged_4();
-		if (!L_2)
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		OnTransportStateChangedDelegate_t1888872800 * L_3 = __this->get_OnStateChanged_4();
-		int32_t L_4 = V_0;
-		int32_t L_5 = __this->get__state_3();
-		NullCheck(L_3);
-		OnTransportStateChangedDelegate_Invoke_m1693918877(L_3, __this, L_4, L_5, /*hidden argument*/NULL);
-	}
-
-IL_002c:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::add_OnStateChanged(BestHTTP.SignalR.Transports.OnTransportStateChangedDelegate)
-extern Il2CppClass* OnTransportStateChangedDelegate_t1888872800_il2cpp_TypeInfo_var;
-extern const uint32_t TransportBase_add_OnStateChanged_m1835000463_MetadataUsageId;
-extern "C"  void TransportBase_add_OnStateChanged_m1835000463 (TransportBase_t148904526 * __this, OnTransportStateChangedDelegate_t1888872800 * ___value0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_add_OnStateChanged_m1835000463_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	OnTransportStateChangedDelegate_t1888872800 * V_0 = NULL;
-	OnTransportStateChangedDelegate_t1888872800 * V_1 = NULL;
-	{
-		OnTransportStateChangedDelegate_t1888872800 * L_0 = __this->get_OnStateChanged_4();
-		V_0 = L_0;
-	}
-
-IL_0007:
-	{
-		OnTransportStateChangedDelegate_t1888872800 * L_1 = V_0;
-		V_1 = L_1;
-		OnTransportStateChangedDelegate_t1888872800 ** L_2 = __this->get_address_of_OnStateChanged_4();
-		OnTransportStateChangedDelegate_t1888872800 * L_3 = V_1;
-		OnTransportStateChangedDelegate_t1888872800 * L_4 = ___value0;
-		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
-		OnTransportStateChangedDelegate_t1888872800 * L_6 = V_0;
-		OnTransportStateChangedDelegate_t1888872800 * L_7 = InterlockedCompareExchangeImpl<OnTransportStateChangedDelegate_t1888872800 *>(L_2, ((OnTransportStateChangedDelegate_t1888872800 *)CastclassSealed(L_5, OnTransportStateChangedDelegate_t1888872800_il2cpp_TypeInfo_var)), L_6);
-		V_0 = L_7;
-		OnTransportStateChangedDelegate_t1888872800 * L_8 = V_0;
-		OnTransportStateChangedDelegate_t1888872800 * L_9 = V_1;
-		if ((!(((Il2CppObject*)(OnTransportStateChangedDelegate_t1888872800 *)L_8) == ((Il2CppObject*)(OnTransportStateChangedDelegate_t1888872800 *)L_9))))
-		{
-			goto IL_0007;
-		}
-	}
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::remove_OnStateChanged(BestHTTP.SignalR.Transports.OnTransportStateChangedDelegate)
-extern Il2CppClass* OnTransportStateChangedDelegate_t1888872800_il2cpp_TypeInfo_var;
-extern const uint32_t TransportBase_remove_OnStateChanged_m2869766172_MetadataUsageId;
-extern "C"  void TransportBase_remove_OnStateChanged_m2869766172 (TransportBase_t148904526 * __this, OnTransportStateChangedDelegate_t1888872800 * ___value0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_remove_OnStateChanged_m2869766172_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	OnTransportStateChangedDelegate_t1888872800 * V_0 = NULL;
-	OnTransportStateChangedDelegate_t1888872800 * V_1 = NULL;
-	{
-		OnTransportStateChangedDelegate_t1888872800 * L_0 = __this->get_OnStateChanged_4();
-		V_0 = L_0;
-	}
-
-IL_0007:
-	{
-		OnTransportStateChangedDelegate_t1888872800 * L_1 = V_0;
-		V_1 = L_1;
-		OnTransportStateChangedDelegate_t1888872800 ** L_2 = __this->get_address_of_OnStateChanged_4();
-		OnTransportStateChangedDelegate_t1888872800 * L_3 = V_1;
-		OnTransportStateChangedDelegate_t1888872800 * L_4 = ___value0;
-		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
-		OnTransportStateChangedDelegate_t1888872800 * L_6 = V_0;
-		OnTransportStateChangedDelegate_t1888872800 * L_7 = InterlockedCompareExchangeImpl<OnTransportStateChangedDelegate_t1888872800 *>(L_2, ((OnTransportStateChangedDelegate_t1888872800 *)CastclassSealed(L_5, OnTransportStateChangedDelegate_t1888872800_il2cpp_TypeInfo_var)), L_6);
-		V_0 = L_7;
-		OnTransportStateChangedDelegate_t1888872800 * L_8 = V_0;
-		OnTransportStateChangedDelegate_t1888872800 * L_9 = V_1;
-		if ((!(((Il2CppObject*)(OnTransportStateChangedDelegate_t1888872800 *)L_8) == ((Il2CppObject*)(OnTransportStateChangedDelegate_t1888872800 *)L_9))))
-		{
-			goto IL_0007;
-		}
-	}
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::OnConnected()
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern const uint32_t TransportBase_OnConnected_m2554505301_MetadataUsageId;
-extern "C"  void TransportBase_OnConnected_m2554505301 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_OnConnected_m2554505301_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_0) == ((int32_t)2)))
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		TransportBase_Start_m2363212799(__this, /*hidden argument*/NULL);
-		goto IL_002f;
-	}
-
-IL_0017:
-	{
-		Il2CppObject * L_1 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		InterfaceActionInvoker0::Invoke(6 /* System.Void BestHTTP.SignalR.IConnection::TransportReconnected() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_1);
-		VirtActionInvoker0::Invoke(9 /* System.Void BestHTTP.SignalR.Transports.TransportBase::Started() */, __this);
-		TransportBase_set_State_m1729237804(__this, 4, /*hidden argument*/NULL);
-	}
-
-IL_002f:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::Start()
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnRequestFinishedDelegate_t3180754735_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPRequest_t138485887_il2cpp_TypeInfo_var;
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern Il2CppClass* TimeSpan_t3430258949_il2cpp_TypeInfo_var;
-extern const MethodInfo* TransportBase_OnStartRequestFinished_m4288418391_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral2157889453;
-extern const uint32_t TransportBase_Start_m2363212799_MetadataUsageId;
-extern "C"  void TransportBase_Start_m2363212799 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_Start_m2363212799_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	HTTPRequest_t138485887 * V_0 = NULL;
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_0 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_1 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteral2157889453);
-		TransportBase_set_State_m1729237804(__this, 3, /*hidden argument*/NULL);
-		Il2CppObject * L_3 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		uint8_t L_4 = InterfaceFuncInvoker0< uint8_t >::Invoke(0 /* BestHTTP.SignalR.ProtocolVersions BestHTTP.SignalR.IConnection::get_Protocol() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_3);
-		if ((((int32_t)L_4) <= ((int32_t)0)))
-		{
-			goto IL_00af;
-		}
-	}
-	{
-		Il2CppObject * L_5 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		Uri_t19570940 * L_6 = InterfaceFuncInvoker2< Uri_t19570940 *, int32_t, TransportBase_t148904526 * >::Invoke(10 /* System.Uri BestHTTP.SignalR.IConnection::BuildUri(BestHTTP.SignalR.RequestTypes,BestHTTP.SignalR.Transports.TransportBase) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_5, 2, __this);
-		IntPtr_t L_7;
-		L_7.set_m_value_0((void*)(void*)TransportBase_OnStartRequestFinished_m4288418391_MethodInfo_var);
-		OnRequestFinishedDelegate_t3180754735 * L_8 = (OnRequestFinishedDelegate_t3180754735 *)il2cpp_codegen_object_new(OnRequestFinishedDelegate_t3180754735_il2cpp_TypeInfo_var);
-		OnRequestFinishedDelegate__ctor_m3446790394(L_8, __this, L_7, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_9 = (HTTPRequest_t138485887 *)il2cpp_codegen_object_new(HTTPRequest_t138485887_il2cpp_TypeInfo_var);
-		HTTPRequest__ctor_m234589654(L_9, L_6, 0, (bool)1, (bool)1, L_8, /*hidden argument*/NULL);
-		V_0 = L_9;
-		HTTPRequest_t138485887 * L_10 = V_0;
-		int32_t L_11 = 0;
-		Il2CppObject * L_12 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_11);
-		NullCheck(L_10);
-		HTTPRequest_set_Tag_m4251754601(L_10, L_12, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_13 = V_0;
-		NullCheck(L_13);
-		HTTPRequest_set_DisableRetry_m3182111680(L_13, (bool)1, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_14 = V_0;
-		Il2CppObject * L_15 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		NegotiationData_t3059020807 * L_16 = InterfaceFuncInvoker0< NegotiationData_t3059020807 * >::Invoke(1 /* BestHTTP.SignalR.NegotiationData BestHTTP.SignalR.IConnection::get_NegotiationResult() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_15);
-		NullCheck(L_16);
-		TimeSpan_t3430258949  L_17 = NegotiationData_get_ConnectionTimeout_m312677657(L_16, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t3430258949_il2cpp_TypeInfo_var);
-		TimeSpan_t3430258949  L_18 = TimeSpan_FromSeconds_m2861206200(NULL /*static, unused*/, (10.0), /*hidden argument*/NULL);
-		TimeSpan_t3430258949  L_19 = TimeSpan_op_Addition_m3421801803(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		HTTPRequest_set_Timeout_m4046589786(L_14, L_19, /*hidden argument*/NULL);
-		Il2CppObject * L_20 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_21 = V_0;
-		NullCheck(L_20);
-		InterfaceFuncInvoker2< HTTPRequest_t138485887 *, HTTPRequest_t138485887 *, int32_t >::Invoke(11 /* BestHTTP.HTTPRequest BestHTTP.SignalR.IConnection::PrepareRequest(BestHTTP.HTTPRequest,BestHTTP.SignalR.RequestTypes) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_20, L_21, 2);
-		HTTPRequest_t138485887 * L_22 = V_0;
-		NullCheck(L_22);
-		HTTPRequest_Send_m901223240(L_22, /*hidden argument*/NULL);
-		goto IL_00c7;
-	}
-
-IL_00af:
-	{
-		TransportBase_set_State_m1729237804(__this, 4, /*hidden argument*/NULL);
-		VirtActionInvoker0::Invoke(9 /* System.Void BestHTTP.SignalR.Transports.TransportBase::Started() */, __this);
-		Il2CppObject * L_23 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_23);
-		InterfaceActionInvoker0::Invoke(5 /* System.Void BestHTTP.SignalR.IConnection::TransportStarted() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_23);
-	}
-
-IL_00c7:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::OnStartRequestFinished(BestHTTP.HTTPRequest,BestHTTP.HTTPResponse)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPRequestStates_t63938943_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral561141538;
-extern Il2CppCodeGenString* _stringLiteral231732805;
-extern Il2CppCodeGenString* _stringLiteral222384016;
-extern Il2CppCodeGenString* _stringLiteral3943991842;
-extern Il2CppCodeGenString* _stringLiteral1712437896;
-extern Il2CppCodeGenString* _stringLiteral953813591;
-extern const uint32_t TransportBase_OnStartRequestFinished_m4288418391_MetadataUsageId;
-extern "C"  void TransportBase_OnStartRequestFinished_m4288418391 (TransportBase_t148904526 * __this, HTTPRequest_t138485887 * ___req0, HTTPResponse_t62748825 * ___resp1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_OnStartRequestFinished_m4288418391_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	String_t* V_1 = NULL;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	{
-		HTTPRequest_t138485887 * L_0 = ___req0;
-		NullCheck(L_0);
-		int32_t L_1 = HTTPRequest_get_State_m2690647908(L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)3)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		goto IL_00f2;
-	}
-
-IL_0013:
-	{
-		HTTPResponse_t62748825 * L_3 = ___resp1;
-		NullCheck(L_3);
-		bool L_4 = HTTPResponse_get_IsSuccess_m3874180644(L_3, /*hidden argument*/NULL);
-		if (!L_4)
-		{
-			goto IL_009a;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_5 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_6 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_6, /*hidden argument*/NULL);
-		HTTPResponse_t62748825 * L_8 = ___resp1;
-		NullCheck(L_8);
-		String_t* L_9 = HTTPResponse_get_DataAsText_m3686085993(L_8, /*hidden argument*/NULL);
-		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral561141538, L_9, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_5, L_7, L_10);
-		Il2CppObject * L_11 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		HTTPResponse_t62748825 * L_12 = ___resp1;
-		NullCheck(L_12);
-		String_t* L_13 = HTTPResponse_get_DataAsText_m3686085993(L_12, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		String_t* L_14 = InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(12 /* System.String BestHTTP.SignalR.IConnection::ParseResponse(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_11, L_13);
-		V_1 = L_14;
-		String_t* L_15 = V_1;
-		bool L_16 = String_op_Inequality_m304203149(NULL /*static, unused*/, L_15, _stringLiteral231732805, /*hidden argument*/NULL);
-		if (!L_16)
-		{
-			goto IL_0081;
-		}
-	}
-	{
-		Il2CppObject * L_17 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		String_t* L_18 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral222384016, L_18, /*hidden argument*/NULL);
-		NullCheck(L_17);
-		InterfaceActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.IConnection::Error(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_17, L_19);
-		return;
-	}
-
-IL_0081:
-	{
-		TransportBase_set_State_m1729237804(__this, 4, /*hidden argument*/NULL);
-		VirtActionInvoker0::Invoke(9 /* System.Void BestHTTP.SignalR.Transports.TransportBase::Started() */, __this);
-		Il2CppObject * L_20 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_20);
-		InterfaceActionInvoker0::Invoke(5 /* System.Void BestHTTP.SignalR.IConnection::TransportStarted() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_20);
-		return;
-	}
-
-IL_009a:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_21 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_22 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_23 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_22, /*hidden argument*/NULL);
-		ObjectU5BU5D_t3614634134* L_24 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
-		HTTPResponse_t62748825 * L_25 = ___resp1;
-		NullCheck(L_25);
-		int32_t L_26 = HTTPResponse_get_StatusCode_m1879961860(L_25, /*hidden argument*/NULL);
-		int32_t L_27 = L_26;
-		Il2CppObject * L_28 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_27);
-		NullCheck(L_24);
-		ArrayElementTypeCheck (L_24, L_28);
-		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_28);
-		ObjectU5BU5D_t3614634134* L_29 = L_24;
-		HTTPResponse_t62748825 * L_30 = ___resp1;
-		NullCheck(L_30);
-		String_t* L_31 = HTTPResponse_get_Message_m1456893857(L_30, /*hidden argument*/NULL);
-		NullCheck(L_29);
-		ArrayElementTypeCheck (L_29, L_31);
-		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_31);
-		ObjectU5BU5D_t3614634134* L_32 = L_29;
-		HTTPResponse_t62748825 * L_33 = ___resp1;
-		NullCheck(L_33);
-		String_t* L_34 = HTTPResponse_get_DataAsText_m3686085993(L_33, /*hidden argument*/NULL);
-		NullCheck(L_32);
-		ArrayElementTypeCheck (L_32, L_34);
-		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_34);
-		ObjectU5BU5D_t3614634134* L_35 = L_32;
-		HTTPRequest_t138485887 * L_36 = ___req0;
-		NullCheck(L_36);
-		Uri_t19570940 * L_37 = HTTPRequest_get_CurrentUri_m4190184434(L_36, /*hidden argument*/NULL);
-		NullCheck(L_35);
-		ArrayElementTypeCheck (L_35, L_37);
-		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_37);
-		String_t* L_38 = String_Format_m1263743648(NULL /*static, unused*/, _stringLiteral3943991842, L_35, /*hidden argument*/NULL);
-		NullCheck(L_21);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(14 /* System.Void BestHTTP.Logger.ILogger::Warning(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_21, L_23, L_38);
-		goto IL_00f2;
-	}
-
-IL_00f2:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_39 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_40 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_41 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_40, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_42 = ___req0;
-		NullCheck(L_42);
-		int32_t L_43 = HTTPRequest_get_State_m2690647908(L_42, /*hidden argument*/NULL);
-		V_2 = L_43;
-		Il2CppObject * L_44 = Box(HTTPRequestStates_t63938943_il2cpp_TypeInfo_var, (&V_2));
-		NullCheck(L_44);
-		String_t* L_45 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_44);
-		String_t* L_46 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1712437896, L_45, /*hidden argument*/NULL);
-		NullCheck(L_39);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_39, L_41, L_46);
-		HTTPRequest_t138485887 * L_47 = ___req0;
-		NullCheck(L_47);
-		Il2CppObject * L_48 = HTTPRequest_get_Tag_m2005938294(L_47, /*hidden argument*/NULL);
-		V_3 = ((*(int32_t*)((int32_t*)UnBox (L_48, Int32_t2071877448_il2cpp_TypeInfo_var))));
-		int32_t L_49 = V_3;
-		int32_t L_50 = L_49;
-		V_3 = ((int32_t)((int32_t)L_50+(int32_t)1));
-		if ((((int32_t)L_50) >= ((int32_t)5)))
-		{
-			goto IL_0159;
-		}
-	}
-	{
-		HTTPRequest_t138485887 * L_51 = ___req0;
-		int32_t L_52 = V_3;
-		int32_t L_53 = L_52;
-		Il2CppObject * L_54 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_53);
-		NullCheck(L_51);
-		HTTPRequest_set_Tag_m4251754601(L_51, L_54, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_55 = ___req0;
-		NullCheck(L_55);
-		HTTPRequest_Send_m901223240(L_55, /*hidden argument*/NULL);
-		goto IL_0169;
-	}
-
-IL_0159:
-	{
-		Il2CppObject * L_56 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_56);
-		InterfaceActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.IConnection::Error(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_56, _stringLiteral953813591);
-	}
-
-IL_0169:
-	{
-		goto IL_016e;
-	}
-
-IL_016e:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::Abort()
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnRequestFinishedDelegate_t3180754735_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPRequest_t138485887_il2cpp_TypeInfo_var;
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern const MethodInfo* TransportBase_OnAbortRequestFinished_m2845344101_MethodInfo_var;
-extern const uint32_t TransportBase_Abort_m3150150757_MetadataUsageId;
-extern "C"  void TransportBase_Abort_m3150150757 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_Abort_m3150150757_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	HTTPRequest_t138485887 * V_0 = NULL;
-	{
-		int32_t L_0 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_0) == ((int32_t)4)))
-		{
-			goto IL_000d;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000d:
-	{
-		TransportBase_set_State_m1729237804(__this, 5, /*hidden argument*/NULL);
-		Il2CppObject * L_1 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		Uri_t19570940 * L_2 = InterfaceFuncInvoker2< Uri_t19570940 *, int32_t, TransportBase_t148904526 * >::Invoke(10 /* System.Uri BestHTTP.SignalR.IConnection::BuildUri(BestHTTP.SignalR.RequestTypes,BestHTTP.SignalR.Transports.TransportBase) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_1, 6, __this);
-		IntPtr_t L_3;
-		L_3.set_m_value_0((void*)(void*)TransportBase_OnAbortRequestFinished_m2845344101_MethodInfo_var);
-		OnRequestFinishedDelegate_t3180754735 * L_4 = (OnRequestFinishedDelegate_t3180754735 *)il2cpp_codegen_object_new(OnRequestFinishedDelegate_t3180754735_il2cpp_TypeInfo_var);
-		OnRequestFinishedDelegate__ctor_m3446790394(L_4, __this, L_3, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_5 = (HTTPRequest_t138485887 *)il2cpp_codegen_object_new(HTTPRequest_t138485887_il2cpp_TypeInfo_var);
-		HTTPRequest__ctor_m234589654(L_5, L_2, 0, (bool)1, (bool)1, L_4, /*hidden argument*/NULL);
-		V_0 = L_5;
-		HTTPRequest_t138485887 * L_6 = V_0;
-		int32_t L_7 = 0;
-		Il2CppObject * L_8 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_7);
-		NullCheck(L_6);
-		HTTPRequest_set_Tag_m4251754601(L_6, L_8, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_9 = V_0;
-		NullCheck(L_9);
-		HTTPRequest_set_DisableRetry_m3182111680(L_9, (bool)1, /*hidden argument*/NULL);
-		Il2CppObject * L_10 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_11 = V_0;
-		NullCheck(L_10);
-		InterfaceFuncInvoker2< HTTPRequest_t138485887 *, HTTPRequest_t138485887 *, int32_t >::Invoke(11 /* BestHTTP.HTTPRequest BestHTTP.SignalR.IConnection::PrepareRequest(BestHTTP.HTTPRequest,BestHTTP.SignalR.RequestTypes) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_10, L_11, 6);
-		HTTPRequest_t138485887 * L_12 = V_0;
-		NullCheck(L_12);
-		HTTPRequest_Send_m901223240(L_12, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::AbortFinished()
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern const uint32_t TransportBase_AbortFinished_m429257527_MetadataUsageId;
-extern "C"  void TransportBase_AbortFinished_m429257527 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_AbortFinished_m429257527_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		TransportBase_set_State_m1729237804(__this, 6, /*hidden argument*/NULL);
-		Il2CppObject * L_0 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker0::Invoke(7 /* System.Void BestHTTP.SignalR.IConnection::TransportAborted() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_0);
-		VirtActionInvoker0::Invoke(10 /* System.Void BestHTTP.SignalR.Transports.TransportBase::Aborted() */, __this);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::OnAbortRequestFinished(BestHTTP.HTTPRequest,BestHTTP.HTTPResponse)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPRequestStates_t63938943_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral729243524;
-extern Il2CppCodeGenString* _stringLiteral1987934487;
-extern Il2CppCodeGenString* _stringLiteral1385890198;
-extern Il2CppCodeGenString* _stringLiteral2387192612;
-extern const uint32_t TransportBase_OnAbortRequestFinished_m2845344101_MetadataUsageId;
-extern "C"  void TransportBase_OnAbortRequestFinished_m2845344101 (TransportBase_t148904526 * __this, HTTPRequest_t138485887 * ___req0, HTTPResponse_t62748825 * ___resp1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_OnAbortRequestFinished_m2845344101_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	{
-		HTTPRequest_t138485887 * L_0 = ___req0;
-		NullCheck(L_0);
-		int32_t L_1 = HTTPRequest_get_State_m2690647908(L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)3)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		goto IL_00bc;
-	}
-
-IL_0013:
-	{
-		HTTPResponse_t62748825 * L_3 = ___resp1;
-		NullCheck(L_3);
-		bool L_4 = HTTPResponse_get_IsSuccess_m3874180644(L_3, /*hidden argument*/NULL);
-		if (!L_4)
-		{
-			goto IL_005f;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_5 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_6 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_6, /*hidden argument*/NULL);
-		HTTPResponse_t62748825 * L_8 = ___resp1;
-		NullCheck(L_8);
-		String_t* L_9 = HTTPResponse_get_DataAsText_m3686085993(L_8, /*hidden argument*/NULL);
-		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral729243524, L_9, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_5, L_7, L_10);
-		int32_t L_11 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_11) == ((uint32_t)5))))
-		{
-			goto IL_005a;
-		}
-	}
-	{
-		TransportBase_AbortFinished_m429257527(__this, /*hidden argument*/NULL);
-	}
-
-IL_005a:
-	{
-		goto IL_00b7;
-	}
-
-IL_005f:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_12 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_13 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_13, /*hidden argument*/NULL);
-		ObjectU5BU5D_t3614634134* L_15 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
-		HTTPResponse_t62748825 * L_16 = ___resp1;
-		NullCheck(L_16);
-		int32_t L_17 = HTTPResponse_get_StatusCode_m1879961860(L_16, /*hidden argument*/NULL);
-		int32_t L_18 = L_17;
-		Il2CppObject * L_19 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_18);
-		NullCheck(L_15);
-		ArrayElementTypeCheck (L_15, L_19);
-		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_19);
-		ObjectU5BU5D_t3614634134* L_20 = L_15;
-		HTTPResponse_t62748825 * L_21 = ___resp1;
-		NullCheck(L_21);
-		String_t* L_22 = HTTPResponse_get_Message_m1456893857(L_21, /*hidden argument*/NULL);
-		NullCheck(L_20);
-		ArrayElementTypeCheck (L_20, L_22);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_22);
-		ObjectU5BU5D_t3614634134* L_23 = L_20;
-		HTTPResponse_t62748825 * L_24 = ___resp1;
-		NullCheck(L_24);
-		String_t* L_25 = HTTPResponse_get_DataAsText_m3686085993(L_24, /*hidden argument*/NULL);
-		NullCheck(L_23);
-		ArrayElementTypeCheck (L_23, L_25);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_25);
-		ObjectU5BU5D_t3614634134* L_26 = L_23;
-		HTTPRequest_t138485887 * L_27 = ___req0;
-		NullCheck(L_27);
-		Uri_t19570940 * L_28 = HTTPRequest_get_CurrentUri_m4190184434(L_27, /*hidden argument*/NULL);
-		NullCheck(L_26);
-		ArrayElementTypeCheck (L_26, L_28);
-		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_28);
-		String_t* L_29 = String_Format_m1263743648(NULL /*static, unused*/, _stringLiteral1987934487, L_26, /*hidden argument*/NULL);
-		NullCheck(L_12);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(14 /* System.Void BestHTTP.Logger.ILogger::Warning(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_12, L_14, L_29);
-		goto IL_00bc;
-	}
-
-IL_00b7:
-	{
-		goto IL_0138;
-	}
-
-IL_00bc:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_30 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_31 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_32 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_31, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_33 = ___req0;
-		NullCheck(L_33);
-		int32_t L_34 = HTTPRequest_get_State_m2690647908(L_33, /*hidden argument*/NULL);
-		V_1 = L_34;
-		Il2CppObject * L_35 = Box(HTTPRequestStates_t63938943_il2cpp_TypeInfo_var, (&V_1));
-		NullCheck(L_35);
-		String_t* L_36 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_35);
-		String_t* L_37 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1385890198, L_36, /*hidden argument*/NULL);
-		NullCheck(L_30);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_30, L_32, L_37);
-		HTTPRequest_t138485887 * L_38 = ___req0;
-		NullCheck(L_38);
-		Il2CppObject * L_39 = HTTPRequest_get_Tag_m2005938294(L_38, /*hidden argument*/NULL);
-		V_2 = ((*(int32_t*)((int32_t*)UnBox (L_39, Int32_t2071877448_il2cpp_TypeInfo_var))));
-		int32_t L_40 = V_2;
-		int32_t L_41 = L_40;
-		V_2 = ((int32_t)((int32_t)L_41+(int32_t)1));
-		if ((((int32_t)L_41) >= ((int32_t)5)))
-		{
-			goto IL_0123;
-		}
-	}
-	{
-		HTTPRequest_t138485887 * L_42 = ___req0;
-		int32_t L_43 = V_2;
-		int32_t L_44 = L_43;
-		Il2CppObject * L_45 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_44);
-		NullCheck(L_42);
-		HTTPRequest_set_Tag_m4251754601(L_42, L_45, /*hidden argument*/NULL);
-		HTTPRequest_t138485887 * L_46 = ___req0;
-		NullCheck(L_46);
-		HTTPRequest_Send_m901223240(L_46, /*hidden argument*/NULL);
-		goto IL_0133;
-	}
-
-IL_0123:
-	{
-		Il2CppObject * L_47 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_47);
-		InterfaceActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.IConnection::Error(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_47, _stringLiteral2387192612);
-	}
-
-IL_0133:
-	{
-		goto IL_0138;
-	}
-
-IL_0138:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::Send(System.String)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral1814350022;
-extern Il2CppCodeGenString* _stringLiteral4136223372;
-extern const uint32_t TransportBase_Send_m2911333133_MetadataUsageId;
-extern "C"  void TransportBase_Send_m2911333133 (TransportBase_t148904526 * __this, String_t* ___jsonStr0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_Send_m2911333133_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t1927440687 * V_0 = NULL;
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_0 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_1 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_1, /*hidden argument*/NULL);
-		String_t* L_3 = ___jsonStr0;
-		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1814350022, L_3, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_0, L_2, L_4);
-		String_t* L_5 = ___jsonStr0;
-		VirtActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.Transports.TransportBase::SendImpl(System.String) */, __this, L_5);
-		goto IL_0057;
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t1927440687 *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->object.klass))
-			goto CATCH_0031;
-		throw e;
-	}
-
-CATCH_0031:
-	{ // begin catch(System.Exception)
-		V_0 = ((Exception_t1927440687 *)__exception_local);
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_6 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_7 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_7, /*hidden argument*/NULL);
-		Exception_t1927440687 * L_9 = V_0;
-		NullCheck(L_6);
-		InterfaceActionInvoker3< String_t*, String_t*, Exception_t1927440687 * >::Invoke(16 /* System.Void BestHTTP.Logger.ILogger::Exception(System.String,System.String,System.Exception) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_6, L_8, _stringLiteral4136223372, L_9);
-		goto IL_0057;
-	} // end catch (depth: 1)
-
-IL_0057:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.TransportBase::Reconnect()
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1559738044;
-extern Il2CppCodeGenString* _stringLiteral3845336161;
-extern const uint32_t TransportBase_Reconnect_m2543253430_MetadataUsageId;
-extern "C"  void TransportBase_Reconnect_m2543253430 (TransportBase_t148904526 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_Reconnect_m2543253430_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_0 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_1 = TransportBase_get_Name_m485227978(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1559738044, L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteral3845336161);
-		VirtActionInvoker0::Invoke(7 /* System.Void BestHTTP.SignalR.Transports.TransportBase::Stop() */, __this);
-		TransportBase_set_State_m1729237804(__this, 2, /*hidden argument*/NULL);
-		VirtActionInvoker0::Invoke(6 /* System.Void BestHTTP.SignalR.Transports.TransportBase::Connect() */, __this);
-		return;
-	}
-}
-// BestHTTP.SignalR.Messages.IServerMessage BestHTTP.SignalR.Transports.TransportBase::Parse(BestHTTP.SignalR.JsonEncoders.IJsonEncoder,System.String)
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* KeepAliveMessage_t3806624343_il2cpp_TypeInfo_var;
-extern Il2CppClass* IJsonEncoder_t2969913559_il2cpp_TypeInfo_var;
-extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
-extern Il2CppClass* IDictionary_2_t2603311978_il2cpp_TypeInfo_var;
-extern Il2CppClass* ResultMessage_t3036240250_il2cpp_TypeInfo_var;
-extern Il2CppClass* FailureMessage_t2793948643_il2cpp_TypeInfo_var;
-extern Il2CppClass* MultiMessage_t207384742_il2cpp_TypeInfo_var;
-extern Il2CppClass* IServerMessage_t2384143743_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1656496283;
-extern Il2CppCodeGenString* _stringLiteral737406454;
-extern Il2CppCodeGenString* _stringLiteral1947253782;
-extern Il2CppCodeGenString* _stringLiteral3608671317;
-extern Il2CppCodeGenString* _stringLiteral714302465;
-extern Il2CppCodeGenString* _stringLiteral372029312;
-extern Il2CppCodeGenString* _stringLiteral372029407;
-extern Il2CppCodeGenString* _stringLiteral372029401;
-extern const uint32_t TransportBase_Parse_m3216123136_MetadataUsageId;
-extern "C"  Il2CppObject * TransportBase_Parse_m3216123136 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___encoder0, String_t* ___json1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TransportBase_Parse_m3216123136_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Il2CppObject* V_0 = NULL;
-	Exception_t1927440687 * V_1 = NULL;
-	Il2CppObject * V_2 = NULL;
-	Il2CppObject * V_3 = NULL;
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		String_t* L_0 = ___json1;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_2 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(15 /* System.Void BestHTTP.Logger.ILogger::Error(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_2, _stringLiteral1656496283, _stringLiteral737406454);
-		return (Il2CppObject *)NULL;
-	}
-
-IL_0021:
-	{
-		String_t* L_3 = ___json1;
-		NullCheck(L_3);
-		int32_t L_4 = String_get_Length_m1606060069(L_3, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
-		{
-			goto IL_0043;
-		}
-	}
-	{
-		String_t* L_5 = ___json1;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_6 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_5, _stringLiteral1947253782, /*hidden argument*/NULL);
-		if (!L_6)
-		{
-			goto IL_0043;
-		}
-	}
-	{
-		KeepAliveMessage_t3806624343 * L_7 = (KeepAliveMessage_t3806624343 *)il2cpp_codegen_object_new(KeepAliveMessage_t3806624343_il2cpp_TypeInfo_var);
-		KeepAliveMessage__ctor_m2494371506(L_7, /*hidden argument*/NULL);
-		return L_7;
-	}
-
-IL_0043:
-	{
-		V_0 = (Il2CppObject*)NULL;
-	}
-
-IL_0045:
-	try
-	{ // begin try (depth: 1)
-		Il2CppObject * L_8 = ___encoder0;
-		String_t* L_9 = ___json1;
-		NullCheck(L_8);
-		Il2CppObject* L_10 = InterfaceFuncInvoker1< Il2CppObject*, String_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> BestHTTP.SignalR.JsonEncoders.IJsonEncoder::DecodeMessage(System.String) */, IJsonEncoder_t2969913559_il2cpp_TypeInfo_var, L_8, L_9);
-		V_0 = L_10;
-		goto IL_006f;
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t1927440687 *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->object.klass))
-			goto CATCH_0052;
-		throw e;
-	}
-
-CATCH_0052:
-	{ // begin catch(System.Exception)
-		V_1 = ((Exception_t1927440687 *)__exception_local);
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_11 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Exception_t1927440687 * L_12 = V_1;
-		NullCheck(L_11);
-		InterfaceActionInvoker3< String_t*, String_t*, Exception_t1927440687 * >::Invoke(16 /* System.Void BestHTTP.Logger.ILogger::Exception(System.String,System.String,System.Exception) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_11, _stringLiteral1656496283, _stringLiteral3608671317, L_12);
-		V_2 = (Il2CppObject *)NULL;
-		goto IL_00dd;
-	} // end catch (depth: 1)
-
-IL_006f:
-	{
-		Il2CppObject* L_13 = V_0;
-		if (L_13)
-		{
-			goto IL_0096;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_14 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_15 = ___json1;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral714302465, L_15, _stringLiteral372029312, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(15 /* System.Void BestHTTP.Logger.ILogger::Error(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_14, _stringLiteral1656496283, L_16);
-		return (Il2CppObject *)NULL;
-	}
-
-IL_0096:
-	{
-		V_3 = (Il2CppObject *)NULL;
-		Il2CppObject* L_17 = V_0;
-		NullCheck(L_17);
-		bool L_18 = InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t2603311978_il2cpp_TypeInfo_var, L_17, _stringLiteral372029407);
-		if (L_18)
-		{
-			goto IL_00ce;
-		}
-	}
-	{
-		Il2CppObject* L_19 = V_0;
-		NullCheck(L_19);
-		bool L_20 = InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t2603311978_il2cpp_TypeInfo_var, L_19, _stringLiteral372029401);
-		if (L_20)
-		{
-			goto IL_00c3;
-		}
-	}
-	{
-		ResultMessage_t3036240250 * L_21 = (ResultMessage_t3036240250 *)il2cpp_codegen_object_new(ResultMessage_t3036240250_il2cpp_TypeInfo_var);
-		ResultMessage__ctor_m2504398915(L_21, /*hidden argument*/NULL);
-		V_3 = L_21;
-		goto IL_00c9;
-	}
-
-IL_00c3:
-	{
-		FailureMessage_t2793948643 * L_22 = (FailureMessage_t2793948643 *)il2cpp_codegen_object_new(FailureMessage_t2793948643_il2cpp_TypeInfo_var);
-		FailureMessage__ctor_m3768476006(L_22, /*hidden argument*/NULL);
-		V_3 = L_22;
-	}
-
-IL_00c9:
-	{
-		goto IL_00d4;
-	}
-
-IL_00ce:
-	{
-		MultiMessage_t207384742 * L_23 = (MultiMessage_t207384742 *)il2cpp_codegen_object_new(MultiMessage_t207384742_il2cpp_TypeInfo_var);
-		MultiMessage__ctor_m3941731463(L_23, /*hidden argument*/NULL);
-		V_3 = L_23;
-	}
-
-IL_00d4:
-	{
-		Il2CppObject * L_24 = V_3;
-		Il2CppObject* L_25 = V_0;
-		NullCheck(L_24);
-		InterfaceActionInvoker1< Il2CppObject * >::Invoke(1 /* System.Void BestHTTP.SignalR.Messages.IServerMessage::Parse(System.Object) */, IServerMessage_t2384143743_il2cpp_TypeInfo_var, L_24, L_25);
-		Il2CppObject * L_26 = V_3;
-		return L_26;
-	}
-
-IL_00dd:
-	{
-		Il2CppObject * L_27 = V_2;
-		return L_27;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::.ctor(BestHTTP.SignalR.Connection)
-extern Il2CppCodeGenString* _stringLiteral3244114206;
-extern const uint32_t WebSocketTransport__ctor_m1959769693_MetadataUsageId;
-extern "C"  void WebSocketTransport__ctor_m1959769693 (WebSocketTransport_t3045819522 * __this, Connection_t2915781690 * ___connection0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WebSocketTransport__ctor_m1959769693_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Connection_t2915781690 * L_0 = ___connection0;
-		TransportBase__ctor_m1432022759(__this, _stringLiteral3244114206, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean BestHTTP.SignalR.Transports.WebSocketTransport::get_SupportsKeepAlive()
-extern "C"  bool WebSocketTransport_get_SupportsKeepAlive_m3899259228 (WebSocketTransport_t3045819522 * __this, const MethodInfo* method)
-{
-	{
-		return (bool)1;
-	}
-}
-// BestHTTP.SignalR.TransportTypes BestHTTP.SignalR.Transports.WebSocketTransport::get_Type()
-extern "C"  int32_t WebSocketTransport_get_Type_m3083586569 (WebSocketTransport_t3045819522 * __this, const MethodInfo* method)
-{
-	{
-		return (int32_t)(0);
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::Connect()
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppClass* WebSocket_t71448861_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnWebSocketOpenDelegate_t4018547189_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnWebSocketMessageDelegate_t730459590_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnWebSocketClosedDelegate_t2679686585_il2cpp_TypeInfo_var;
-extern Il2CppClass* OnWebSocketErrorDescriptionDelegate_t2599777013_il2cpp_TypeInfo_var;
-extern const MethodInfo* WebSocketTransport_WSocket_OnOpen_m1160861835_MethodInfo_var;
-extern const MethodInfo* WebSocketTransport_WSocket_OnMessage_m263182298_MethodInfo_var;
-extern const MethodInfo* WebSocketTransport_WSocket_OnClosed_m2275918749_MethodInfo_var;
-extern const MethodInfo* WebSocketTransport_WSocket_OnError_m2899623937_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2315034950;
-extern Il2CppCodeGenString* _stringLiteral3971667555;
-extern const uint32_t WebSocketTransport_Connect_m499053977_MetadataUsageId;
-extern "C"  void WebSocketTransport_Connect_m499053977 (WebSocketTransport_t3045819522 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WebSocketTransport_Connect_m499053977_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Uri_t19570940 * V_1 = NULL;
-	int32_t G_B7_0 = 0;
-	{
-		WebSocket_t71448861 * L_0 = __this->get_wSocket_5();
-		if (!L_0)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_1 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(14 /* System.Void BestHTTP.Logger.ILogger::Warning(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_1, _stringLiteral2315034950, _stringLiteral3971667555);
-		return;
-	}
-
-IL_0020:
-	{
-		int32_t L_2 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_2) == ((int32_t)2)))
-		{
-			goto IL_0033;
-		}
-	}
-	{
-		TransportBase_set_State_m1729237804(__this, 1, /*hidden argument*/NULL);
-	}
-
-IL_0033:
-	{
-		int32_t L_3 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		G_B7_0 = 5;
-		goto IL_0046;
-	}
-
-IL_0045:
-	{
-		G_B7_0 = 1;
-	}
-
-IL_0046:
-	{
-		V_0 = G_B7_0;
-		Il2CppObject * L_4 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		int32_t L_5 = V_0;
-		NullCheck(L_4);
-		Uri_t19570940 * L_6 = InterfaceFuncInvoker2< Uri_t19570940 *, int32_t, TransportBase_t148904526 * >::Invoke(10 /* System.Uri BestHTTP.SignalR.IConnection::BuildUri(BestHTTP.SignalR.RequestTypes,BestHTTP.SignalR.Transports.TransportBase) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_4, L_5, __this);
-		V_1 = L_6;
-		Uri_t19570940 * L_7 = V_1;
-		WebSocket_t71448861 * L_8 = (WebSocket_t71448861 *)il2cpp_codegen_object_new(WebSocket_t71448861_il2cpp_TypeInfo_var);
-		WebSocket__ctor_m342256434(L_8, L_7, /*hidden argument*/NULL);
-		__this->set_wSocket_5(L_8);
-		WebSocket_t71448861 * L_9 = __this->get_wSocket_5();
-		WebSocket_t71448861 * L_10 = L_9;
-		NullCheck(L_10);
-		OnWebSocketOpenDelegate_t4018547189 * L_11 = L_10->get_OnOpen_3();
-		IntPtr_t L_12;
-		L_12.set_m_value_0((void*)(void*)WebSocketTransport_WSocket_OnOpen_m1160861835_MethodInfo_var);
-		OnWebSocketOpenDelegate_t4018547189 * L_13 = (OnWebSocketOpenDelegate_t4018547189 *)il2cpp_codegen_object_new(OnWebSocketOpenDelegate_t4018547189_il2cpp_TypeInfo_var);
-		OnWebSocketOpenDelegate__ctor_m3403249169(L_13, __this, L_12, /*hidden argument*/NULL);
-		Delegate_t3022476291 * L_14 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
-		NullCheck(L_10);
-		L_10->set_OnOpen_3(((OnWebSocketOpenDelegate_t4018547189 *)CastclassSealed(L_14, OnWebSocketOpenDelegate_t4018547189_il2cpp_TypeInfo_var)));
-		WebSocket_t71448861 * L_15 = __this->get_wSocket_5();
-		WebSocket_t71448861 * L_16 = L_15;
-		NullCheck(L_16);
-		OnWebSocketMessageDelegate_t730459590 * L_17 = L_16->get_OnMessage_4();
-		IntPtr_t L_18;
-		L_18.set_m_value_0((void*)(void*)WebSocketTransport_WSocket_OnMessage_m263182298_MethodInfo_var);
-		OnWebSocketMessageDelegate_t730459590 * L_19 = (OnWebSocketMessageDelegate_t730459590 *)il2cpp_codegen_object_new(OnWebSocketMessageDelegate_t730459590_il2cpp_TypeInfo_var);
-		OnWebSocketMessageDelegate__ctor_m1347557150(L_19, __this, L_18, /*hidden argument*/NULL);
-		Delegate_t3022476291 * L_20 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_17, L_19, /*hidden argument*/NULL);
-		NullCheck(L_16);
-		L_16->set_OnMessage_4(((OnWebSocketMessageDelegate_t730459590 *)CastclassSealed(L_20, OnWebSocketMessageDelegate_t730459590_il2cpp_TypeInfo_var)));
-		WebSocket_t71448861 * L_21 = __this->get_wSocket_5();
-		WebSocket_t71448861 * L_22 = L_21;
-		NullCheck(L_22);
-		OnWebSocketClosedDelegate_t2679686585 * L_23 = L_22->get_OnClosed_6();
-		IntPtr_t L_24;
-		L_24.set_m_value_0((void*)(void*)WebSocketTransport_WSocket_OnClosed_m2275918749_MethodInfo_var);
-		OnWebSocketClosedDelegate_t2679686585 * L_25 = (OnWebSocketClosedDelegate_t2679686585 *)il2cpp_codegen_object_new(OnWebSocketClosedDelegate_t2679686585_il2cpp_TypeInfo_var);
-		OnWebSocketClosedDelegate__ctor_m857571287(L_25, __this, L_24, /*hidden argument*/NULL);
-		Delegate_t3022476291 * L_26 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_23, L_25, /*hidden argument*/NULL);
-		NullCheck(L_22);
-		L_22->set_OnClosed_6(((OnWebSocketClosedDelegate_t2679686585 *)CastclassSealed(L_26, OnWebSocketClosedDelegate_t2679686585_il2cpp_TypeInfo_var)));
-		WebSocket_t71448861 * L_27 = __this->get_wSocket_5();
-		WebSocket_t71448861 * L_28 = L_27;
-		NullCheck(L_28);
-		OnWebSocketErrorDescriptionDelegate_t2599777013 * L_29 = L_28->get_OnErrorDesc_8();
-		IntPtr_t L_30;
-		L_30.set_m_value_0((void*)(void*)WebSocketTransport_WSocket_OnError_m2899623937_MethodInfo_var);
-		OnWebSocketErrorDescriptionDelegate_t2599777013 * L_31 = (OnWebSocketErrorDescriptionDelegate_t2599777013 *)il2cpp_codegen_object_new(OnWebSocketErrorDescriptionDelegate_t2599777013_il2cpp_TypeInfo_var);
-		OnWebSocketErrorDescriptionDelegate__ctor_m2736076387(L_31, __this, L_30, /*hidden argument*/NULL);
-		Delegate_t3022476291 * L_32 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
-		NullCheck(L_28);
-		L_28->set_OnErrorDesc_8(((OnWebSocketErrorDescriptionDelegate_t2599777013 *)CastclassSealed(L_32, OnWebSocketErrorDescriptionDelegate_t2599777013_il2cpp_TypeInfo_var)));
-		Il2CppObject * L_33 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		WebSocket_t71448861 * L_34 = __this->get_wSocket_5();
-		NullCheck(L_34);
-		HTTPRequest_t138485887 * L_35 = WebSocket_get_InternalRequest_m3005945664(L_34, /*hidden argument*/NULL);
-		int32_t L_36 = V_0;
-		NullCheck(L_33);
-		InterfaceFuncInvoker2< HTTPRequest_t138485887 *, HTTPRequest_t138485887 *, int32_t >::Invoke(11 /* BestHTTP.HTTPRequest BestHTTP.SignalR.IConnection::PrepareRequest(BestHTTP.HTTPRequest,BestHTTP.SignalR.RequestTypes) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_33, L_35, L_36);
-		WebSocket_t71448861 * L_37 = __this->get_wSocket_5();
-		NullCheck(L_37);
-		WebSocket_Open_m2517733755(L_37, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::SendImpl(System.String)
-extern "C"  void WebSocketTransport_SendImpl_m1674427989 (WebSocketTransport_t3045819522 * __this, String_t* ___json0, const MethodInfo* method)
-{
-	{
-		WebSocket_t71448861 * L_0 = __this->get_wSocket_5();
-		if (!L_0)
-		{
-			goto IL_0027;
-		}
-	}
-	{
-		WebSocket_t71448861 * L_1 = __this->get_wSocket_5();
-		NullCheck(L_1);
-		bool L_2 = WebSocket_get_IsOpen_m3184359266(L_1, /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_0027;
-		}
-	}
-	{
-		WebSocket_t71448861 * L_3 = __this->get_wSocket_5();
-		String_t* L_4 = ___json0;
-		NullCheck(L_3);
-		WebSocket_Send_m2745806833(L_3, L_4, /*hidden argument*/NULL);
-	}
-
-IL_0027:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::Stop()
-extern "C"  void WebSocketTransport_Stop_m355401975 (WebSocketTransport_t3045819522 * __this, const MethodInfo* method)
-{
-	{
-		WebSocket_t71448861 * L_0 = __this->get_wSocket_5();
-		if (!L_0)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		WebSocket_t71448861 * L_1 = __this->get_wSocket_5();
-		NullCheck(L_1);
-		L_1->set_OnOpen_3((OnWebSocketOpenDelegate_t4018547189 *)NULL);
-		WebSocket_t71448861 * L_2 = __this->get_wSocket_5();
-		NullCheck(L_2);
-		L_2->set_OnMessage_4((OnWebSocketMessageDelegate_t730459590 *)NULL);
-		WebSocket_t71448861 * L_3 = __this->get_wSocket_5();
-		NullCheck(L_3);
-		L_3->set_OnClosed_6((OnWebSocketClosedDelegate_t2679686585 *)NULL);
-		WebSocket_t71448861 * L_4 = __this->get_wSocket_5();
-		NullCheck(L_4);
-		L_4->set_OnErrorDesc_8((OnWebSocketErrorDescriptionDelegate_t2599777013 *)NULL);
-		WebSocket_t71448861 * L_5 = __this->get_wSocket_5();
-		NullCheck(L_5);
-		WebSocket_Close_m812654301(L_5, /*hidden argument*/NULL);
-		__this->set_wSocket_5((WebSocket_t71448861 *)NULL);
-	}
-
-IL_004d:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::Started()
-extern "C"  void WebSocketTransport_Started_m3140347638 (WebSocketTransport_t3045819522 * __this, const MethodInfo* method)
-{
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::Aborted()
-extern "C"  void WebSocketTransport_Aborted_m386541284 (WebSocketTransport_t3045819522 * __this, const MethodInfo* method)
-{
-	{
-		WebSocket_t71448861 * L_0 = __this->get_wSocket_5();
-		if (!L_0)
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		WebSocket_t71448861 * L_1 = __this->get_wSocket_5();
-		NullCheck(L_1);
-		bool L_2 = WebSocket_get_IsOpen_m3184359266(L_1, /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		WebSocket_t71448861 * L_3 = __this->get_wSocket_5();
-		NullCheck(L_3);
-		WebSocket_Close_m812654301(L_3, /*hidden argument*/NULL);
-		__this->set_wSocket_5((WebSocket_t71448861 *)NULL);
-	}
-
-IL_002d:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::WSocket_OnOpen(BestHTTP.WebSocket.WebSocket)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2315034950;
-extern Il2CppCodeGenString* _stringLiteral2696970018;
-extern const uint32_t WebSocketTransport_WSocket_OnOpen_m1160861835_MetadataUsageId;
-extern "C"  void WebSocketTransport_WSocket_OnOpen_m1160861835 (WebSocketTransport_t3045819522 * __this, WebSocket_t71448861 * ___webSocket0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WebSocketTransport_WSocket_OnOpen_m1160861835_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		WebSocket_t71448861 * L_0 = ___webSocket0;
-		WebSocket_t71448861 * L_1 = __this->get_wSocket_5();
-		if ((((Il2CppObject*)(WebSocket_t71448861 *)L_0) == ((Il2CppObject*)(WebSocket_t71448861 *)L_1)))
-		{
-			goto IL_000d;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000d:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_2 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_2, _stringLiteral2315034950, _stringLiteral2696970018);
-		TransportBase_OnConnected_m2554505301(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::WSocket_OnMessage(BestHTTP.WebSocket.WebSocket,System.String)
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern const uint32_t WebSocketTransport_WSocket_OnMessage_m263182298_MetadataUsageId;
-extern "C"  void WebSocketTransport_WSocket_OnMessage_m263182298 (WebSocketTransport_t3045819522 * __this, WebSocket_t71448861 * ___webSocket0, String_t* ___message1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WebSocketTransport_WSocket_OnMessage_m263182298_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Il2CppObject * V_0 = NULL;
-	{
-		WebSocket_t71448861 * L_0 = ___webSocket0;
-		WebSocket_t71448861 * L_1 = __this->get_wSocket_5();
-		if ((((Il2CppObject*)(WebSocket_t71448861 *)L_0) == ((Il2CppObject*)(WebSocket_t71448861 *)L_1)))
-		{
-			goto IL_000d;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000d:
-	{
-		Il2CppObject * L_2 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		Il2CppObject * L_3 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(2 /* BestHTTP.SignalR.JsonEncoders.IJsonEncoder BestHTTP.SignalR.IConnection::get_JsonEncoder() */, IConnection_t313572887_il2cpp_TypeInfo_var, L_2);
-		String_t* L_4 = ___message1;
-		Il2CppObject * L_5 = TransportBase_Parse_m3216123136(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
-		V_0 = L_5;
-		Il2CppObject * L_6 = V_0;
-		if (!L_6)
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		Il2CppObject * L_7 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		Il2CppObject * L_8 = V_0;
-		NullCheck(L_7);
-		InterfaceActionInvoker1< Il2CppObject * >::Invoke(4 /* System.Void BestHTTP.SignalR.IConnection::OnMessage(BestHTTP.SignalR.Messages.IServerMessage) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_7, L_8);
-	}
-
-IL_0031:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::WSocket_OnClosed(BestHTTP.WebSocket.WebSocket,System.UInt16,System.String)
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2880463552;
-extern Il2CppCodeGenString* _stringLiteral2315034950;
-extern Il2CppCodeGenString* _stringLiteral3061765670;
-extern const uint32_t WebSocketTransport_WSocket_OnClosed_m2275918749_MetadataUsageId;
-extern "C"  void WebSocketTransport_WSocket_OnClosed_m2275918749 (WebSocketTransport_t3045819522 * __this, WebSocket_t71448861 * ___webSocket0, uint16_t ___code1, String_t* ___message2, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WebSocketTransport_WSocket_OnClosed_m2275918749_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	{
-		WebSocket_t71448861 * L_0 = ___webSocket0;
-		WebSocket_t71448861 * L_1 = __this->get_wSocket_5();
-		if ((((Il2CppObject*)(WebSocket_t71448861 *)L_0) == ((Il2CppObject*)(WebSocket_t71448861 *)L_1)))
-		{
-			goto IL_000d;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000d:
-	{
-		String_t* L_2 = UInt16_ToString_m2038947049((&___code1), /*hidden argument*/NULL);
-		String_t* L_3 = ___message2;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m612901809(NULL /*static, unused*/, L_2, _stringLiteral2880463552, L_3, /*hidden argument*/NULL);
-		V_0 = L_4;
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_5 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_6 = V_0;
-		String_t* L_7 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3061765670, L_6, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(13 /* System.Void BestHTTP.Logger.ILogger::Information(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_5, _stringLiteral2315034950, L_7);
-		int32_t L_8 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_8) == ((uint32_t)5))))
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		TransportBase_set_State_m1729237804(__this, 6, /*hidden argument*/NULL);
-		goto IL_0064;
-	}
-
-IL_0058:
-	{
-		Il2CppObject * L_9 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		String_t* L_10 = V_0;
-		NullCheck(L_9);
-		InterfaceActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.IConnection::Error(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_9, L_10);
-	}
-
-IL_0064:
-	{
-		return;
-	}
-}
-// System.Void BestHTTP.SignalR.Transports.WebSocketTransport::WSocket_OnError(BestHTTP.WebSocket.WebSocket,System.String)
-extern Il2CppClass* HTTPManager_t2983460817_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppClass* ILogger_t2372156491_il2cpp_TypeInfo_var;
-extern Il2CppClass* IConnection_t313572887_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2315034950;
-extern Il2CppCodeGenString* _stringLiteral807801460;
-extern const uint32_t WebSocketTransport_WSocket_OnError_m2899623937_MetadataUsageId;
-extern "C"  void WebSocketTransport_WSocket_OnError_m2899623937 (WebSocketTransport_t3045819522 * __this, WebSocket_t71448861 * ___webSocket0, String_t* ___reason1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WebSocketTransport_WSocket_OnError_m2899623937_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		WebSocket_t71448861 * L_0 = ___webSocket0;
-		WebSocket_t71448861 * L_1 = __this->get_wSocket_5();
-		if ((((Il2CppObject*)(WebSocket_t71448861 *)L_0) == ((Il2CppObject*)(WebSocket_t71448861 *)L_1)))
-		{
-			goto IL_000d;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000d:
-	{
-		int32_t L_2 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_2) == ((int32_t)5)))
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		int32_t L_3 = TransportBase_get_State_m3364375705(__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)6))))
-		{
-			goto IL_0030;
-		}
-	}
-
-IL_0025:
-	{
-		TransportBase_AbortFinished_m429257527(__this, /*hidden argument*/NULL);
-		goto IL_0056;
-	}
-
-IL_0030:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(HTTPManager_t2983460817_il2cpp_TypeInfo_var);
-		Il2CppObject * L_4 = HTTPManager_get_Logger_m2103818269(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_5 = ___reason1;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral807801460, L_5, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(15 /* System.Void BestHTTP.Logger.ILogger::Error(System.String,System.String) */, ILogger_t2372156491_il2cpp_TypeInfo_var, L_4, _stringLiteral2315034950, L_6);
-		Il2CppObject * L_7 = TransportBase_get_Connection_m3172822580(__this, /*hidden argument*/NULL);
-		String_t* L_8 = ___reason1;
-		NullCheck(L_7);
-		InterfaceActionInvoker1< String_t* >::Invoke(8 /* System.Void BestHTTP.SignalR.IConnection::Error(System.String) */, IConnection_t313572887_il2cpp_TypeInfo_var, L_7, L_8);
-	}
-
-IL_0056:
 	{
 		return;
 	}

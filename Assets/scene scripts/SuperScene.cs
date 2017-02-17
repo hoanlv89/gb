@@ -424,6 +424,7 @@ public class SuperScene : MonoBehaviour
 			// muc dich thay doi thong tin ip trong user.loginInfo.host
 			if(GameApplication.ENCODE == 1){
 				result = Utils.base64_decode(result);
+//				result = result.Replace("203.162.166.123", "203.162.166.104");
 			}
 			try {
 				LoadBalancer.instance = null;

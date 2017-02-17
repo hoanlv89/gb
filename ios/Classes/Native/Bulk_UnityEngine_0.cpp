@@ -1307,13 +1307,13 @@ IL_0031:
 // Conversion methods for marshalling of: UnityEngine.AnimationEvent
 extern "C" void AnimationEvent_t2428323300_marshal_pinvoke(const AnimationEvent_t2428323300& unmarshaled, AnimationEvent_t2428323300_marshaled_pinvoke& marshaled)
 {
-	Il2CppCodeGenException* ___m_ObjectReferenceParameter_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_ObjectReferenceParameter' of type 'AnimationEvent': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_ObjectReferenceParameter_3Exception);
+	Il2CppCodeGenException* ___m_StateSender_8Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StateSender' of type 'AnimationEvent': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StateSender_8Exception);
 }
 extern "C" void AnimationEvent_t2428323300_marshal_pinvoke_back(const AnimationEvent_t2428323300_marshaled_pinvoke& marshaled, AnimationEvent_t2428323300& unmarshaled)
 {
-	Il2CppCodeGenException* ___m_ObjectReferenceParameter_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_ObjectReferenceParameter' of type 'AnimationEvent': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_ObjectReferenceParameter_3Exception);
+	Il2CppCodeGenException* ___m_StateSender_8Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StateSender' of type 'AnimationEvent': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StateSender_8Exception);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.AnimationEvent
 extern "C" void AnimationEvent_t2428323300_marshal_pinvoke_cleanup(AnimationEvent_t2428323300_marshaled_pinvoke& marshaled)
@@ -1322,13 +1322,13 @@ extern "C" void AnimationEvent_t2428323300_marshal_pinvoke_cleanup(AnimationEven
 // Conversion methods for marshalling of: UnityEngine.AnimationEvent
 extern "C" void AnimationEvent_t2428323300_marshal_com(const AnimationEvent_t2428323300& unmarshaled, AnimationEvent_t2428323300_marshaled_com& marshaled)
 {
-	Il2CppCodeGenException* ___m_ObjectReferenceParameter_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_ObjectReferenceParameter' of type 'AnimationEvent': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_ObjectReferenceParameter_3Exception);
+	Il2CppCodeGenException* ___m_StateSender_8Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StateSender' of type 'AnimationEvent': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StateSender_8Exception);
 }
 extern "C" void AnimationEvent_t2428323300_marshal_com_back(const AnimationEvent_t2428323300_marshaled_com& marshaled, AnimationEvent_t2428323300& unmarshaled)
 {
-	Il2CppCodeGenException* ___m_ObjectReferenceParameter_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_ObjectReferenceParameter' of type 'AnimationEvent': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_ObjectReferenceParameter_3Exception);
+	Il2CppCodeGenException* ___m_StateSender_8Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StateSender' of type 'AnimationEvent': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StateSender_8Exception);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.AnimationEvent
 extern "C" void AnimationEvent_t2428323300_marshal_com_cleanup(AnimationEvent_t2428323300_marshaled_com& marshaled)

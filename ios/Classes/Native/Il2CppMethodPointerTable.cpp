@@ -12421,6 +12421,7 @@ extern "C" void TypeInferenceRuleAttribute__ctor_m599630929 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m470566337 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m3941510216 ();
 extern "C" void WebRequestUtils_RedirectTo_m3803295888 ();
+extern "C" void WebRequestUtils__cctor_m893658947 ();
 extern "C" void Builtins_join_m2036613869 ();
 extern "C" void AnalyticsEvent__ctor_m1173528411 ();
 extern "C" void AnalyticsEvent_AppendParameter_m1879769078 ();
@@ -15899,6 +15900,18 @@ extern "C" void BankTransferGold_updateView_m1807490720 ();
 extern "C" void BankTransferGold_U3CinitU3Em__0_m1555702091 ();
 extern "C" void U3CupdateViewU3Ec__AnonStorey0__ctor_m937355736 ();
 extern "C" void U3CupdateViewU3Ec__AnonStorey0_U3CU3Em__0_m1928713479 ();
+extern "C" void BannerData__ctor_m2392499587 ();
+extern "C" void BannerItem__ctor_m1867181884 ();
+extern "C" void BannerScene__ctor_m1097777933 ();
+extern "C" void BannerScene_Start_m235957677 ();
+extern "C" void BannerScene_Update_m3506727024 ();
+extern "C" void BannerScene_showBanner_m3947105731 ();
+extern "C" void BannerScene_exitBanner_m1324911885 ();
+extern "C" void U3CshowBannerU3Ec__AnonStorey0__ctor_m337866258 ();
+extern "C" void U3CshowBannerU3Ec__AnonStorey0_U3CU3Em__0_m2829654393 ();
+extern "C" void U3CshowBannerU3Ec__AnonStorey1__ctor_m2724006253 ();
+extern "C" void U3CshowBannerU3Ec__AnonStorey1_U3CU3Em__0_m2963526932 ();
+extern "C" void U3CshowBannerU3Ec__AnonStorey1_U3CU3Em__1_m1158990171 ();
 extern "C" void BaseHub__ctor_m783876513 ();
 extern "C" void BaseHub_Joined_m698768167 ();
 extern "C" void BaseHub_Rejoined_m2415752754 ();
@@ -32875,17 +32888,18 @@ extern "C" void SuperScene_HTTPRequest_m204698725 ();
 extern "C" void SuperScene_sendTestIOSPayment_m3840321841 ();
 extern "C" void SuperScene_checkConnection_m2186132152 ();
 extern "C" void SuperScene_onResume_m2988681140 ();
-extern "C" void SuperScene_connectSocketIO_m1457877961 ();
-extern "C" void SuperScene_onConnectedIO_m2603923001 ();
-extern "C" void SuperScene_onDisconnectedIO_m4266885371 ();
-extern "C" void SuperScene_onEventIO_m3916350066 ();
-extern "C" void SuperScene_onErrorIO_m2384518684 ();
 extern "C" void SuperScene_checkUserInFBGroup_m3868542499 ();
 extern "C" void SuperScene_checkMail_m1922225535 ();
 extern "C" void SuperScene_disConnect1_m3664743725 ();
 extern "C" void SuperScene_disConnect2_m3664743692 ();
 extern "C" void SuperScene_disConnect3_m3664743659 ();
 extern "C" void SuperScene_OnApplicationPause_m317275162 ();
+extern "C" void SuperScene_showBanner_m4106761624 ();
+extern "C" void SuperScene_connectSocketIO_m1457877961 ();
+extern "C" void SuperScene_onConnectedIO_m2603923001 ();
+extern "C" void SuperScene_onDisconnectedIO_m4266885371 ();
+extern "C" void SuperScene_onEventIO_m3916350066 ();
+extern "C" void SuperScene_onErrorIO_m2384518684 ();
 extern "C" void SuperScene_U3CStartU3Em__0_m3936030717 ();
 extern "C" void SuperScene_U3CStartU3Em__1_m455539586 ();
 extern "C" void SuperScene_U3CStartU3Em__2_m211302335 ();
@@ -32899,9 +32913,11 @@ extern "C" void SuperScene_U3CreconnectU3Em__9_m4084365779 ();
 extern "C" void SuperScene_U3CshowToastU3Em__A_m4087580770 ();
 extern "C" void SuperScene_U3CgotoPaymentScreenU3Em__B_m140713512 ();
 extern "C" void SuperScene_U3CgotoPaymentScreenU3Em__C_m859624517 ();
-extern "C" void SuperScene_U3CgotoFreeGoldScreenU3Em__D_m891590611 ();
-extern "C" void SuperScene_U3CconnectSocketIOU3Em__E_m1950168886 ();
-extern "C" void SuperScene_U3CcheckUserInFBGroupU3Em__F_m581055441 ();
+extern "C" void SuperScene_U3CgotoPaymentScreenU3Em__D_m504047074 ();
+extern "C" void SuperScene_U3CgotoPaymentScreenU3Em__E_m859624319 ();
+extern "C" void SuperScene_U3CgotoFreeGoldScreenU3Em__F_m922739165 ();
+extern "C" void SuperScene_U3CcheckUserInFBGroupU3Em__10_m566507480 ();
+extern "C" void SuperScene_U3CconnectSocketIOU3Em__11_m2460465223 ();
 extern "C" void U3CcheckMailU3Ec__AnonStoreyC__ctor_m686913922 ();
 extern "C" void U3CcheckMailU3Ec__AnonStoreyC_U3CU3Em__0_m2154586401 ();
 extern "C" void U3CcheckMailU3Ec__AnonStoreyC_U3CU3Em__1_m3700467366 ();
@@ -33668,7 +33684,7 @@ extern "C" void FPSInputController__ctor_m2186882231 ();
 extern "C" void FPSInputController_Awake_m3340591112 ();
 extern "C" void FPSInputController_Update_m806498234 ();
 extern "C" void FPSInputController_Main_m1285355962 ();
-extern const Il2CppMethodPointer g_MethodPointers[33657] = 
+extern const Il2CppMethodPointer g_MethodPointers[33673] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -46080,6 +46096,7 @@ extern const Il2CppMethodPointer g_MethodPointers[33657] =
 	TypeInferenceRuleAttribute__ctor_m470566337,
 	TypeInferenceRuleAttribute_ToString_m3941510216,
 	WebRequestUtils_RedirectTo_m3803295888,
+	WebRequestUtils__cctor_m893658947,
 	Builtins_join_m2036613869,
 	AnalyticsEvent__ctor_m1173528411,
 	AnalyticsEvent_AppendParameter_m1879769078,
@@ -49558,6 +49575,18 @@ extern const Il2CppMethodPointer g_MethodPointers[33657] =
 	BankTransferGold_U3CinitU3Em__0_m1555702091,
 	U3CupdateViewU3Ec__AnonStorey0__ctor_m937355736,
 	U3CupdateViewU3Ec__AnonStorey0_U3CU3Em__0_m1928713479,
+	BannerData__ctor_m2392499587,
+	BannerItem__ctor_m1867181884,
+	BannerScene__ctor_m1097777933,
+	BannerScene_Start_m235957677,
+	BannerScene_Update_m3506727024,
+	BannerScene_showBanner_m3947105731,
+	BannerScene_exitBanner_m1324911885,
+	U3CshowBannerU3Ec__AnonStorey0__ctor_m337866258,
+	U3CshowBannerU3Ec__AnonStorey0_U3CU3Em__0_m2829654393,
+	U3CshowBannerU3Ec__AnonStorey1__ctor_m2724006253,
+	U3CshowBannerU3Ec__AnonStorey1_U3CU3Em__0_m2963526932,
+	U3CshowBannerU3Ec__AnonStorey1_U3CU3Em__1_m1158990171,
 	BaseHub__ctor_m783876513,
 	BaseHub_Joined_m698768167,
 	BaseHub_Rejoined_m2415752754,
@@ -66534,17 +66563,18 @@ extern const Il2CppMethodPointer g_MethodPointers[33657] =
 	SuperScene_sendTestIOSPayment_m3840321841,
 	SuperScene_checkConnection_m2186132152,
 	SuperScene_onResume_m2988681140,
-	SuperScene_connectSocketIO_m1457877961,
-	SuperScene_onConnectedIO_m2603923001,
-	SuperScene_onDisconnectedIO_m4266885371,
-	SuperScene_onEventIO_m3916350066,
-	SuperScene_onErrorIO_m2384518684,
 	SuperScene_checkUserInFBGroup_m3868542499,
 	SuperScene_checkMail_m1922225535,
 	SuperScene_disConnect1_m3664743725,
 	SuperScene_disConnect2_m3664743692,
 	SuperScene_disConnect3_m3664743659,
 	SuperScene_OnApplicationPause_m317275162,
+	SuperScene_showBanner_m4106761624,
+	SuperScene_connectSocketIO_m1457877961,
+	SuperScene_onConnectedIO_m2603923001,
+	SuperScene_onDisconnectedIO_m4266885371,
+	SuperScene_onEventIO_m3916350066,
+	SuperScene_onErrorIO_m2384518684,
 	SuperScene_U3CStartU3Em__0_m3936030717,
 	SuperScene_U3CStartU3Em__1_m455539586,
 	SuperScene_U3CStartU3Em__2_m211302335,
@@ -66558,9 +66588,11 @@ extern const Il2CppMethodPointer g_MethodPointers[33657] =
 	SuperScene_U3CshowToastU3Em__A_m4087580770,
 	SuperScene_U3CgotoPaymentScreenU3Em__B_m140713512,
 	SuperScene_U3CgotoPaymentScreenU3Em__C_m859624517,
-	SuperScene_U3CgotoFreeGoldScreenU3Em__D_m891590611,
-	SuperScene_U3CconnectSocketIOU3Em__E_m1950168886,
-	SuperScene_U3CcheckUserInFBGroupU3Em__F_m581055441,
+	SuperScene_U3CgotoPaymentScreenU3Em__D_m504047074,
+	SuperScene_U3CgotoPaymentScreenU3Em__E_m859624319,
+	SuperScene_U3CgotoFreeGoldScreenU3Em__F_m922739165,
+	SuperScene_U3CcheckUserInFBGroupU3Em__10_m566507480,
+	SuperScene_U3CconnectSocketIOU3Em__11_m2460465223,
 	U3CcheckMailU3Ec__AnonStoreyC__ctor_m686913922,
 	U3CcheckMailU3Ec__AnonStoreyC_U3CU3Em__0_m2154586401,
 	U3CcheckMailU3Ec__AnonStoreyC_U3CU3Em__1_m3700467366,

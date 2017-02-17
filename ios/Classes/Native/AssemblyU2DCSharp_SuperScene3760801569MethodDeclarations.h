@@ -190,16 +190,6 @@ extern "C"  void SuperScene_sendTestIOSPayment_m3840321841 (SuperScene_t37608015
 extern "C"  void SuperScene_checkConnection_m2186132152 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::onResume()
 extern "C"  void SuperScene_onResume_m2988681140 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::connectSocketIO()
-extern "C"  void SuperScene_connectSocketIO_m1457877961 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::onConnectedIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
-extern "C"  void SuperScene_onConnectedIO_m2603923001 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::onDisconnectedIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
-extern "C"  void SuperScene_onDisconnectedIO_m4266885371 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::onEventIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
-extern "C"  void SuperScene_onEventIO_m3916350066 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::onErrorIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
-extern "C"  void SuperScene_onErrorIO_m2384518684 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::checkUserInFBGroup()
 extern "C"  void SuperScene_checkUserInFBGroup_m3868542499 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::checkMail()
@@ -212,6 +202,18 @@ extern "C"  void SuperScene_disConnect2_m3664743692 (SuperScene_t3760801569 * __
 extern "C"  void SuperScene_disConnect3_m3664743659 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::OnApplicationPause(System.Boolean)
 extern "C"  void SuperScene_OnApplicationPause_m317275162 (SuperScene_t3760801569 * __this, bool ___pauseStatus0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::showBanner(System.Int32)
+extern "C"  void SuperScene_showBanner_m4106761624 (SuperScene_t3760801569 * __this, int32_t ___i0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::connectSocketIO()
+extern "C"  void SuperScene_connectSocketIO_m1457877961 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::onConnectedIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern "C"  void SuperScene_onConnectedIO_m2603923001 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::onDisconnectedIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern "C"  void SuperScene_onDisconnectedIO_m4266885371 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::onEventIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern "C"  void SuperScene_onEventIO_m3916350066 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::onErrorIO(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern "C"  void SuperScene_onErrorIO_m2384518684 (SuperScene_t3760801569 * __this, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::<Start>m__0(System.String)
 extern "C"  void SuperScene_U3CStartU3Em__0_m3936030717 (Il2CppObject * __this /* static, unused */, String_t* ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::<Start>m__1()
@@ -235,12 +237,16 @@ extern "C"  void SuperScene_U3CreconnectU3Em__9_m4084365779 (SuperScene_t3760801
 // System.Void SuperScene::<showToast>m__A()
 extern "C"  void SuperScene_U3CshowToastU3Em__A_m4087580770 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::<gotoPaymentScreen>m__B(System.String)
-extern "C"  void SuperScene_U3CgotoPaymentScreenU3Em__B_m140713512 (Il2CppObject * __this /* static, unused */, String_t* ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void SuperScene_U3CgotoPaymentScreenU3Em__B_m140713512 (SuperScene_t3760801569 * __this, String_t* ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SuperScene::<gotoPaymentScreen>m__C()
 extern "C"  void SuperScene_U3CgotoPaymentScreenU3Em__C_m859624517 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::<gotoFreeGoldScreen>m__D(Facebook.Unity.IAppRequestResult)
-extern "C"  void SuperScene_U3CgotoFreeGoldScreenU3Em__D_m891590611 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::<connectSocketIO>m__E(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
-extern "C"  void SuperScene_U3CconnectSocketIOU3Em__E_m1950168886 (Il2CppObject * __this /* static, unused */, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void SuperScene::<checkUserInFBGroup>m__F(Facebook.Unity.IGraphResult)
-extern "C"  void SuperScene_U3CcheckUserInFBGroupU3Em__F_m581055441 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::<gotoPaymentScreen>m__D(System.String)
+extern "C"  void SuperScene_U3CgotoPaymentScreenU3Em__D_m504047074 (Il2CppObject * __this /* static, unused */, String_t* ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::<gotoPaymentScreen>m__E()
+extern "C"  void SuperScene_U3CgotoPaymentScreenU3Em__E_m859624319 (SuperScene_t3760801569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::<gotoFreeGoldScreen>m__F(Facebook.Unity.IAppRequestResult)
+extern "C"  void SuperScene_U3CgotoFreeGoldScreenU3Em__F_m922739165 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::<checkUserInFBGroup>m__10(Facebook.Unity.IGraphResult)
+extern "C"  void SuperScene_U3CcheckUserInFBGroupU3Em__10_m566507480 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void SuperScene::<connectSocketIO>m__11(BestHTTP.SocketIO.Socket,BestHTTP.SocketIO.Packet,System.Object[])
+extern "C"  void SuperScene_U3CconnectSocketIOU3Em__11_m2460465223 (Il2CppObject * __this /* static, unused */, Socket_t2716624701 * ___socket0, Packet_t1309324146 * ___packet1, ObjectU5BU5D_t3614634134* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;

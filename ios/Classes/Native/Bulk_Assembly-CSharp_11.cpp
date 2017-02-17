@@ -13,6 +13,18 @@
 #include <limits>
 #include <assert.h>
 
+// Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT283R1Holder
+struct SecT283R1Holder_t2405878525;
+// Org.BouncyCastle.Asn1.X9.X9ECParameters
+struct X9ECParameters_t1959966001;
+// Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409K1Holder
+struct SecT409K1Holder_t343708266;
+// Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409R1Holder
+struct SecT409R1Holder_t343304449;
+// Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571K1Holder
+struct SecT571K1Holder_t1705265402;
+// Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571R1Holder
+struct SecT571R1Holder_t1704929235;
 // Org.BouncyCastle.Crypto.Encodings.ISO9796d1Encoding
 struct ISO9796d1Encoding_t408740108;
 // Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
@@ -157,8 +169,6 @@ struct DsaKeyPairGenerator_t3004251550;
 struct ECKeyPairGenerator_t1267912930;
 // Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier
 struct ECMultiplier_t768735235;
-// Org.BouncyCastle.Asn1.X9.X9ECParameters
-struct X9ECParameters_t1959966001;
 // Org.BouncyCastle.Asn1.DerObjectIdentifier
 struct DerObjectIdentifier_t3495876513;
 // Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters
@@ -265,25 +275,47 @@ struct Il2CppObject;
 struct DHValidationParameters_t2841123689;
 // Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters
 struct DHPrivateKeyParameters_t3120746414;
-// Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters
-struct DHPublicKeyParameters_t1544976430;
-// Org.BouncyCastle.Crypto.Parameters.DsaKeyGenerationParameters
-struct DsaKeyGenerationParameters_t4209685231;
-// Org.BouncyCastle.Crypto.Parameters.DsaParameters
-struct DsaParameters_t2550649858;
-// Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters
-struct DsaKeyParameters_t2298980877;
-// Org.BouncyCastle.Crypto.Parameters.DsaValidationParameters
-struct DsaValidationParameters_t2732896323;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo2405878525.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo2405878525MethodDeclarations.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9ECPar1566440261MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9ECPar1959966001.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Utilities_Encod3743762079MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3077597332MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo4042549922MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9ECPar1959966001MethodDeclarations.h"
+#include "mscorlib_ArrayTypes.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_ECCurve140895757.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_ECPoint626351532.h"
+#include "mscorlib_System_String2029220233.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3077597332.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_ECCurve140895757MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_BigInteger4268922522.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9ECPar1566440261.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custom343708266.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custom343708266MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3466749709MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3466749709.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custom343304449.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custom343304449MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3579244928MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3579244928.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo1705265402.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo1705265402MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_1442275455MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_1442275455.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo1704929235.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo1704929235MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3905138812MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Custom_3905138812.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Encodings408740108.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Encodings408740108MethodDeclarations.h"
-#include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Object2689449295MethodDeclarations.h"
-#include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_String2029220233MethodDeclarations.h"
 #include "mscorlib_System_Boolean3825574718.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Parameters16149445MethodDeclarations.h"
@@ -291,12 +323,9 @@ struct DsaValidationParameters_t2732896323;
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Math_BigInteger4268922522MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete3425534311.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Parameters16149445.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_BigInteger4268922522.h"
 #include "mscorlib_System_Int322071877448.h"
 #include "mscorlib_System_ArgumentException3259014390MethodDeclarations.h"
 #include "mscorlib_System_ArgumentException3259014390.h"
-#include "mscorlib_ArrayTypes.h"
-#include "mscorlib_System_Byte3683104436.h"
 #include "mscorlib_System_Array3829468939MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_InvalidCi962650396MethodDeclarations.h"
 #include "mscorlib_System_Object2689449295.h"
@@ -504,26 +533,21 @@ struct DsaValidationParameters_t2732896323;
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete1064568751MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete3475787761MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Security_Invali2090211591MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9ECPar1959966001MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete3939864474MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete3475787761.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_DerObjectI3495876513.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9ECPar1959966001.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete3939864474.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9Object773243058.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_X9Object773243058MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_Sec_SecObj3901542888.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_Sec_SecObj3901542888MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Security_Invali2090211591.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_ECCurve140895757.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_ECPoint626351532.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Parameter572706344MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete3632960452MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Parameter572706344.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete3632960452.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Multipli762726336MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Multipli762726336.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_EC_Custo4042549922MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_X9_ECNamed3889450962MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Multipl2477536561MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Math_EC_Multipl2477536561.h"
@@ -623,17 +647,373 @@ struct DsaValidationParameters_t2732896323;
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_Pkcs_PkcsO1103055686.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Asn1_Pkcs_PkcsO1103055686MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete2841123689.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete2841123689MethodDeclarations.h"
-#include "mscorlib_System_Int322071877448MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete2298980877.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete2298980877MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Org_BouncyCastle_Crypto_Paramete2732896323.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT283R1Holder::.ctor()
+extern "C"  void SecT283R1Holder__ctor_m395427874 (SecT283R1Holder_t2405878525 * __this, const MethodInfo* method)
+{
+	{
+		X9ECParametersHolder__ctor_m3025538362(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Org.BouncyCastle.Asn1.X9.X9ECParameters Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT283R1Holder::CreateParameters()
+extern Il2CppClass* Hex_t3743762079_il2cpp_TypeInfo_var;
+extern Il2CppClass* SecT283R1Curve_t3077597332_il2cpp_TypeInfo_var;
+extern Il2CppClass* CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var;
+extern Il2CppClass* X9ECParameters_t1959966001_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4114102409;
+extern Il2CppCodeGenString* _stringLiteral51073531;
+extern const uint32_t SecT283R1Holder_CreateParameters_m2275066718_MetadataUsageId;
+extern "C"  X9ECParameters_t1959966001 * SecT283R1Holder_CreateParameters_m2275066718 (SecT283R1Holder_t2405878525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT283R1Holder_CreateParameters_m2275066718_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	ECCurve_t140895757 * V_1 = NULL;
+	ECPoint_t626351532 * V_2 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Hex_t3743762079_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_0 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral4114102409, /*hidden argument*/NULL);
+		V_0 = L_0;
+		SecT283R1Curve_t3077597332 * L_1 = (SecT283R1Curve_t3077597332 *)il2cpp_codegen_object_new(SecT283R1Curve_t3077597332_il2cpp_TypeInfo_var);
+		SecT283R1Curve__ctor_m1152295025(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var);
+		ECCurve_t140895757 * L_2 = CustomNamedCurves_ConfigureCurve_m1128597606(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		ECCurve_t140895757 * L_3 = V_1;
+		ByteU5BU5D_t3397334013* L_4 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral51073531, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		ECPoint_t626351532 * L_5 = VirtFuncInvoker1< ECPoint_t626351532 *, ByteU5BU5D_t3397334013* >::Invoke(35 /* Org.BouncyCastle.Math.EC.ECPoint Org.BouncyCastle.Math.EC.ECCurve::DecodePoint(System.Byte[]) */, L_3, L_4);
+		V_2 = L_5;
+		ECCurve_t140895757 * L_6 = V_1;
+		ECPoint_t626351532 * L_7 = V_2;
+		ECCurve_t140895757 * L_8 = V_1;
+		NullCheck(L_8);
+		BigInteger_t4268922522 * L_9 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(25 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Order() */, L_8);
+		ECCurve_t140895757 * L_10 = V_1;
+		NullCheck(L_10);
+		BigInteger_t4268922522 * L_11 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(26 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Cofactor() */, L_10);
+		ByteU5BU5D_t3397334013* L_12 = V_0;
+		X9ECParameters_t1959966001 * L_13 = (X9ECParameters_t1959966001 *)il2cpp_codegen_object_new(X9ECParameters_t1959966001_il2cpp_TypeInfo_var);
+		X9ECParameters__ctor_m2222675590(L_13, L_6, L_7, L_9, L_11, L_12, /*hidden argument*/NULL);
+		return L_13;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT283R1Holder::.cctor()
+extern Il2CppClass* SecT283R1Holder_t2405878525_il2cpp_TypeInfo_var;
+extern const uint32_t SecT283R1Holder__cctor_m1227756687_MetadataUsageId;
+extern "C"  void SecT283R1Holder__cctor_m1227756687 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT283R1Holder__cctor_m1227756687_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SecT283R1Holder_t2405878525 * L_0 = (SecT283R1Holder_t2405878525 *)il2cpp_codegen_object_new(SecT283R1Holder_t2405878525_il2cpp_TypeInfo_var);
+		SecT283R1Holder__ctor_m395427874(L_0, /*hidden argument*/NULL);
+		((SecT283R1Holder_t2405878525_StaticFields*)SecT283R1Holder_t2405878525_il2cpp_TypeInfo_var->static_fields)->set_Instance_1(L_0);
+		return;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409K1Holder::.ctor()
+extern "C"  void SecT409K1Holder__ctor_m689847133 (SecT409K1Holder_t343708266 * __this, const MethodInfo* method)
+{
+	{
+		X9ECParametersHolder__ctor_m3025538362(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Org.BouncyCastle.Asn1.X9.X9ECParameters Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409K1Holder::CreateParameters()
+extern Il2CppClass* SecT409K1Curve_t3466749709_il2cpp_TypeInfo_var;
+extern Il2CppClass* CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var;
+extern Il2CppClass* Hex_t3743762079_il2cpp_TypeInfo_var;
+extern Il2CppClass* X9ECParameters_t1959966001_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4027929120;
+extern const uint32_t SecT409K1Holder_CreateParameters_m4197810083_MetadataUsageId;
+extern "C"  X9ECParameters_t1959966001 * SecT409K1Holder_CreateParameters_m4197810083 (SecT409K1Holder_t343708266 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT409K1Holder_CreateParameters_m4197810083_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	ECCurve_t140895757 * V_1 = NULL;
+	ECPoint_t626351532 * V_2 = NULL;
+	{
+		V_0 = (ByteU5BU5D_t3397334013*)NULL;
+		SecT409K1Curve_t3466749709 * L_0 = (SecT409K1Curve_t3466749709 *)il2cpp_codegen_object_new(SecT409K1Curve_t3466749709_il2cpp_TypeInfo_var);
+		SecT409K1Curve__ctor_m150474146(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var);
+		ECCurve_t140895757 * L_1 = CustomNamedCurves_ConfigureCurve_m1128597606(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		ECCurve_t140895757 * L_2 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Hex_t3743762079_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_3 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral4027929120, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ECPoint_t626351532 * L_4 = VirtFuncInvoker1< ECPoint_t626351532 *, ByteU5BU5D_t3397334013* >::Invoke(35 /* Org.BouncyCastle.Math.EC.ECPoint Org.BouncyCastle.Math.EC.ECCurve::DecodePoint(System.Byte[]) */, L_2, L_3);
+		V_2 = L_4;
+		ECCurve_t140895757 * L_5 = V_1;
+		ECPoint_t626351532 * L_6 = V_2;
+		ECCurve_t140895757 * L_7 = V_1;
+		NullCheck(L_7);
+		BigInteger_t4268922522 * L_8 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(25 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Order() */, L_7);
+		ECCurve_t140895757 * L_9 = V_1;
+		NullCheck(L_9);
+		BigInteger_t4268922522 * L_10 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(26 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Cofactor() */, L_9);
+		ByteU5BU5D_t3397334013* L_11 = V_0;
+		X9ECParameters_t1959966001 * L_12 = (X9ECParameters_t1959966001 *)il2cpp_codegen_object_new(X9ECParameters_t1959966001_il2cpp_TypeInfo_var);
+		X9ECParameters__ctor_m2222675590(L_12, L_5, L_6, L_8, L_10, L_11, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409K1Holder::.cctor()
+extern Il2CppClass* SecT409K1Holder_t343708266_il2cpp_TypeInfo_var;
+extern const uint32_t SecT409K1Holder__cctor_m4226304604_MetadataUsageId;
+extern "C"  void SecT409K1Holder__cctor_m4226304604 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT409K1Holder__cctor_m4226304604_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SecT409K1Holder_t343708266 * L_0 = (SecT409K1Holder_t343708266 *)il2cpp_codegen_object_new(SecT409K1Holder_t343708266_il2cpp_TypeInfo_var);
+		SecT409K1Holder__ctor_m689847133(L_0, /*hidden argument*/NULL);
+		((SecT409K1Holder_t343708266_StaticFields*)SecT409K1Holder_t343708266_il2cpp_TypeInfo_var->static_fields)->set_Instance_1(L_0);
+		return;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409R1Holder::.ctor()
+extern "C"  void SecT409R1Holder__ctor_m687376966 (SecT409R1Holder_t343304449 * __this, const MethodInfo* method)
+{
+	{
+		X9ECParametersHolder__ctor_m3025538362(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Org.BouncyCastle.Asn1.X9.X9ECParameters Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409R1Holder::CreateParameters()
+extern Il2CppClass* Hex_t3743762079_il2cpp_TypeInfo_var;
+extern Il2CppClass* SecT409R1Curve_t3579244928_il2cpp_TypeInfo_var;
+extern Il2CppClass* CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var;
+extern Il2CppClass* X9ECParameters_t1959966001_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1948401816;
+extern Il2CppCodeGenString* _stringLiteral1730086859;
+extern const uint32_t SecT409R1Holder_CreateParameters_m3765212970_MetadataUsageId;
+extern "C"  X9ECParameters_t1959966001 * SecT409R1Holder_CreateParameters_m3765212970 (SecT409R1Holder_t343304449 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT409R1Holder_CreateParameters_m3765212970_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	ECCurve_t140895757 * V_1 = NULL;
+	ECPoint_t626351532 * V_2 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Hex_t3743762079_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_0 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral1948401816, /*hidden argument*/NULL);
+		V_0 = L_0;
+		SecT409R1Curve_t3579244928 * L_1 = (SecT409R1Curve_t3579244928 *)il2cpp_codegen_object_new(SecT409R1Curve_t3579244928_il2cpp_TypeInfo_var);
+		SecT409R1Curve__ctor_m331694213(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var);
+		ECCurve_t140895757 * L_2 = CustomNamedCurves_ConfigureCurve_m1128597606(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		ECCurve_t140895757 * L_3 = V_1;
+		ByteU5BU5D_t3397334013* L_4 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral1730086859, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		ECPoint_t626351532 * L_5 = VirtFuncInvoker1< ECPoint_t626351532 *, ByteU5BU5D_t3397334013* >::Invoke(35 /* Org.BouncyCastle.Math.EC.ECPoint Org.BouncyCastle.Math.EC.ECCurve::DecodePoint(System.Byte[]) */, L_3, L_4);
+		V_2 = L_5;
+		ECCurve_t140895757 * L_6 = V_1;
+		ECPoint_t626351532 * L_7 = V_2;
+		ECCurve_t140895757 * L_8 = V_1;
+		NullCheck(L_8);
+		BigInteger_t4268922522 * L_9 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(25 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Order() */, L_8);
+		ECCurve_t140895757 * L_10 = V_1;
+		NullCheck(L_10);
+		BigInteger_t4268922522 * L_11 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(26 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Cofactor() */, L_10);
+		ByteU5BU5D_t3397334013* L_12 = V_0;
+		X9ECParameters_t1959966001 * L_13 = (X9ECParameters_t1959966001 *)il2cpp_codegen_object_new(X9ECParameters_t1959966001_il2cpp_TypeInfo_var);
+		X9ECParameters__ctor_m2222675590(L_13, L_6, L_7, L_9, L_11, L_12, /*hidden argument*/NULL);
+		return L_13;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT409R1Holder::.cctor()
+extern Il2CppClass* SecT409R1Holder_t343304449_il2cpp_TypeInfo_var;
+extern const uint32_t SecT409R1Holder__cctor_m4223806483_MetadataUsageId;
+extern "C"  void SecT409R1Holder__cctor_m4223806483 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT409R1Holder__cctor_m4223806483_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SecT409R1Holder_t343304449 * L_0 = (SecT409R1Holder_t343304449 *)il2cpp_codegen_object_new(SecT409R1Holder_t343304449_il2cpp_TypeInfo_var);
+		SecT409R1Holder__ctor_m687376966(L_0, /*hidden argument*/NULL);
+		((SecT409R1Holder_t343304449_StaticFields*)SecT409R1Holder_t343304449_il2cpp_TypeInfo_var->static_fields)->set_Instance_1(L_0);
+		return;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571K1Holder::.ctor()
+extern "C"  void SecT571K1Holder__ctor_m1295095523 (SecT571K1Holder_t1705265402 * __this, const MethodInfo* method)
+{
+	{
+		X9ECParametersHolder__ctor_m3025538362(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Org.BouncyCastle.Asn1.X9.X9ECParameters Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571K1Holder::CreateParameters()
+extern Il2CppClass* SecT571K1Curve_t1442275455_il2cpp_TypeInfo_var;
+extern Il2CppClass* CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var;
+extern Il2CppClass* Hex_t3743762079_il2cpp_TypeInfo_var;
+extern Il2CppClass* X9ECParameters_t1959966001_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2664264889;
+extern const uint32_t SecT571K1Holder_CreateParameters_m1086738561_MetadataUsageId;
+extern "C"  X9ECParameters_t1959966001 * SecT571K1Holder_CreateParameters_m1086738561 (SecT571K1Holder_t1705265402 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT571K1Holder_CreateParameters_m1086738561_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	ECCurve_t140895757 * V_1 = NULL;
+	ECPoint_t626351532 * V_2 = NULL;
+	{
+		V_0 = (ByteU5BU5D_t3397334013*)NULL;
+		SecT571K1Curve_t1442275455 * L_0 = (SecT571K1Curve_t1442275455 *)il2cpp_codegen_object_new(SecT571K1Curve_t1442275455_il2cpp_TypeInfo_var);
+		SecT571K1Curve__ctor_m3023834818(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var);
+		ECCurve_t140895757 * L_1 = CustomNamedCurves_ConfigureCurve_m1128597606(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		ECCurve_t140895757 * L_2 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Hex_t3743762079_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_3 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral2664264889, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		ECPoint_t626351532 * L_4 = VirtFuncInvoker1< ECPoint_t626351532 *, ByteU5BU5D_t3397334013* >::Invoke(35 /* Org.BouncyCastle.Math.EC.ECPoint Org.BouncyCastle.Math.EC.ECCurve::DecodePoint(System.Byte[]) */, L_2, L_3);
+		V_2 = L_4;
+		ECCurve_t140895757 * L_5 = V_1;
+		ECPoint_t626351532 * L_6 = V_2;
+		ECCurve_t140895757 * L_7 = V_1;
+		NullCheck(L_7);
+		BigInteger_t4268922522 * L_8 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(25 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Order() */, L_7);
+		ECCurve_t140895757 * L_9 = V_1;
+		NullCheck(L_9);
+		BigInteger_t4268922522 * L_10 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(26 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Cofactor() */, L_9);
+		ByteU5BU5D_t3397334013* L_11 = V_0;
+		X9ECParameters_t1959966001 * L_12 = (X9ECParameters_t1959966001 *)il2cpp_codegen_object_new(X9ECParameters_t1959966001_il2cpp_TypeInfo_var);
+		X9ECParameters__ctor_m2222675590(L_12, L_5, L_6, L_8, L_10, L_11, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571K1Holder::.cctor()
+extern Il2CppClass* SecT571K1Holder_t1705265402_il2cpp_TypeInfo_var;
+extern const uint32_t SecT571K1Holder__cctor_m2741031732_MetadataUsageId;
+extern "C"  void SecT571K1Holder__cctor_m2741031732 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT571K1Holder__cctor_m2741031732_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SecT571K1Holder_t1705265402 * L_0 = (SecT571K1Holder_t1705265402 *)il2cpp_codegen_object_new(SecT571K1Holder_t1705265402_il2cpp_TypeInfo_var);
+		SecT571K1Holder__ctor_m1295095523(L_0, /*hidden argument*/NULL);
+		((SecT571K1Holder_t1705265402_StaticFields*)SecT571K1Holder_t1705265402_il2cpp_TypeInfo_var->static_fields)->set_Instance_1(L_0);
+		return;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571R1Holder::.ctor()
+extern "C"  void SecT571R1Holder__ctor_m3102103242 (SecT571R1Holder_t1704929235 * __this, const MethodInfo* method)
+{
+	{
+		X9ECParametersHolder__ctor_m3025538362(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Org.BouncyCastle.Asn1.X9.X9ECParameters Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571R1Holder::CreateParameters()
+extern Il2CppClass* Hex_t3743762079_il2cpp_TypeInfo_var;
+extern Il2CppClass* SecT571R1Curve_t3905138812_il2cpp_TypeInfo_var;
+extern Il2CppClass* CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var;
+extern Il2CppClass* X9ECParameters_t1959966001_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral208223677;
+extern Il2CppCodeGenString* _stringLiteral612794906;
+extern const uint32_t SecT571R1Holder_CreateParameters_m3202812234_MetadataUsageId;
+extern "C"  X9ECParameters_t1959966001 * SecT571R1Holder_CreateParameters_m3202812234 (SecT571R1Holder_t1704929235 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT571R1Holder_CreateParameters_m3202812234_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	ECCurve_t140895757 * V_1 = NULL;
+	ECPoint_t626351532 * V_2 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Hex_t3743762079_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_0 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral208223677, /*hidden argument*/NULL);
+		V_0 = L_0;
+		SecT571R1Curve_t3905138812 * L_1 = (SecT571R1Curve_t3905138812 *)il2cpp_codegen_object_new(SecT571R1Curve_t3905138812_il2cpp_TypeInfo_var);
+		SecT571R1Curve__ctor_m347933743(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CustomNamedCurves_t4042549922_il2cpp_TypeInfo_var);
+		ECCurve_t140895757 * L_2 = CustomNamedCurves_ConfigureCurve_m1128597606(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		ECCurve_t140895757 * L_3 = V_1;
+		ByteU5BU5D_t3397334013* L_4 = Hex_Decode_m573556575(NULL /*static, unused*/, _stringLiteral612794906, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		ECPoint_t626351532 * L_5 = VirtFuncInvoker1< ECPoint_t626351532 *, ByteU5BU5D_t3397334013* >::Invoke(35 /* Org.BouncyCastle.Math.EC.ECPoint Org.BouncyCastle.Math.EC.ECCurve::DecodePoint(System.Byte[]) */, L_3, L_4);
+		V_2 = L_5;
+		ECCurve_t140895757 * L_6 = V_1;
+		ECPoint_t626351532 * L_7 = V_2;
+		ECCurve_t140895757 * L_8 = V_1;
+		NullCheck(L_8);
+		BigInteger_t4268922522 * L_9 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(25 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Order() */, L_8);
+		ECCurve_t140895757 * L_10 = V_1;
+		NullCheck(L_10);
+		BigInteger_t4268922522 * L_11 = VirtFuncInvoker0< BigInteger_t4268922522 * >::Invoke(26 /* Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Math.EC.ECCurve::get_Cofactor() */, L_10);
+		ByteU5BU5D_t3397334013* L_12 = V_0;
+		X9ECParameters_t1959966001 * L_13 = (X9ECParameters_t1959966001 *)il2cpp_codegen_object_new(X9ECParameters_t1959966001_il2cpp_TypeInfo_var);
+		X9ECParameters__ctor_m2222675590(L_13, L_6, L_7, L_9, L_11, L_12, /*hidden argument*/NULL);
+		return L_13;
+	}
+}
+// System.Void Org.BouncyCastle.Crypto.EC.CustomNamedCurves/SecT571R1Holder::.cctor()
+extern Il2CppClass* SecT571R1Holder_t1704929235_il2cpp_TypeInfo_var;
+extern const uint32_t SecT571R1Holder__cctor_m253039981_MetadataUsageId;
+extern "C"  void SecT571R1Holder__cctor_m253039981 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SecT571R1Holder__cctor_m253039981_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SecT571R1Holder_t1704929235 * L_0 = (SecT571R1Holder_t1704929235 *)il2cpp_codegen_object_new(SecT571R1Holder_t1704929235_il2cpp_TypeInfo_var);
+		SecT571R1Holder__ctor_m3102103242(L_0, /*hidden argument*/NULL);
+		((SecT571R1Holder_t1704929235_StaticFields*)SecT571R1Holder_t1704929235_il2cpp_TypeInfo_var->static_fields)->set_Instance_1(L_0);
+		return;
+	}
+}
 // System.Void Org.BouncyCastle.Crypto.Encodings.ISO9796d1Encoding::.ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher)
 extern "C"  void ISO9796d1Encoding__ctor_m315202174 (ISO9796d1Encoding_t408740108 * __this, Il2CppObject * ___cipher0, const MethodInfo* method)
 {
@@ -61411,693 +61791,6 @@ extern "C"  int32_t DHPrivateKeyParameters_GetHashCode_m4078865375 (DHPrivateKey
 		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_0);
 		int32_t L_2 = DHKeyParameters_GetHashCode_m2654624334(__this, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)L_1^(int32_t)L_2));
-	}
-}
-// System.Void Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters::.ctor(Org.BouncyCastle.Math.BigInteger,Org.BouncyCastle.Crypto.Parameters.DHParameters)
-extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral372029397;
-extern const uint32_t DHPublicKeyParameters__ctor_m2649680199_MetadataUsageId;
-extern "C"  void DHPublicKeyParameters__ctor_m2649680199 (DHPublicKeyParameters_t1544976430 * __this, BigInteger_t4268922522 * ___y0, DHParameters_t431035336 * ___parameters1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DHPublicKeyParameters__ctor_m2649680199_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		DHParameters_t431035336 * L_0 = ___parameters1;
-		DHKeyParameters__ctor_m1963926867(__this, (bool)0, L_0, /*hidden argument*/NULL);
-		BigInteger_t4268922522 * L_1 = ___y0;
-		if (L_1)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_2 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_2, _stringLiteral372029397, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0019:
-	{
-		BigInteger_t4268922522 * L_3 = ___y0;
-		__this->set_y_3(L_3);
-		return;
-	}
-}
-// System.Void Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters::.ctor(Org.BouncyCastle.Math.BigInteger,Org.BouncyCastle.Crypto.Parameters.DHParameters,Org.BouncyCastle.Asn1.DerObjectIdentifier)
-extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral372029397;
-extern const uint32_t DHPublicKeyParameters__ctor_m1938027603_MetadataUsageId;
-extern "C"  void DHPublicKeyParameters__ctor_m1938027603 (DHPublicKeyParameters_t1544976430 * __this, BigInteger_t4268922522 * ___y0, DHParameters_t431035336 * ___parameters1, DerObjectIdentifier_t3495876513 * ___algorithmOid2, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DHPublicKeyParameters__ctor_m1938027603_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		DHParameters_t431035336 * L_0 = ___parameters1;
-		DerObjectIdentifier_t3495876513 * L_1 = ___algorithmOid2;
-		DHKeyParameters__ctor_m2340869959(__this, (bool)0, L_0, L_1, /*hidden argument*/NULL);
-		BigInteger_t4268922522 * L_2 = ___y0;
-		if (L_2)
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_3 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_3, _stringLiteral372029397, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_001a:
-	{
-		BigInteger_t4268922522 * L_4 = ___y0;
-		__this->set_y_3(L_4);
-		return;
-	}
-}
-// Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters::get_Y()
-extern "C"  BigInteger_t4268922522 * DHPublicKeyParameters_get_Y_m2977813133 (DHPublicKeyParameters_t1544976430 * __this, const MethodInfo* method)
-{
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_y_3();
-		return L_0;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters::Equals(System.Object)
-extern Il2CppClass* DHPublicKeyParameters_t1544976430_il2cpp_TypeInfo_var;
-extern const uint32_t DHPublicKeyParameters_Equals_m2312331157_MetadataUsageId;
-extern "C"  bool DHPublicKeyParameters_Equals_m2312331157 (DHPublicKeyParameters_t1544976430 * __this, Il2CppObject * ___obj0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DHPublicKeyParameters_Equals_m2312331157_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DHPublicKeyParameters_t1544976430 * V_0 = NULL;
-	{
-		Il2CppObject * L_0 = ___obj0;
-		if ((!(((Il2CppObject*)(Il2CppObject *)L_0) == ((Il2CppObject*)(DHPublicKeyParameters_t1544976430 *)__this))))
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		return (bool)1;
-	}
-
-IL_0009:
-	{
-		Il2CppObject * L_1 = ___obj0;
-		V_0 = ((DHPublicKeyParameters_t1544976430 *)IsInstClass(L_1, DHPublicKeyParameters_t1544976430_il2cpp_TypeInfo_var));
-		DHPublicKeyParameters_t1544976430 * L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0018:
-	{
-		DHPublicKeyParameters_t1544976430 * L_3 = V_0;
-		bool L_4 = DHPublicKeyParameters_Equals_m2489054382(__this, L_3, /*hidden argument*/NULL);
-		return L_4;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters::Equals(Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters)
-extern "C"  bool DHPublicKeyParameters_Equals_m2489054382 (DHPublicKeyParameters_t1544976430 * __this, DHPublicKeyParameters_t1544976430 * ___other0, const MethodInfo* method)
-{
-	int32_t G_B3_0 = 0;
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_y_3();
-		DHPublicKeyParameters_t1544976430 * L_1 = ___other0;
-		NullCheck(L_1);
-		BigInteger_t4268922522 * L_2 = L_1->get_y_3();
-		NullCheck(L_0);
-		bool L_3 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_0, L_2);
-		if (!L_3)
-		{
-			goto IL_001f;
-		}
-	}
-	{
-		DHPublicKeyParameters_t1544976430 * L_4 = ___other0;
-		bool L_5 = DHKeyParameters_Equals_m3611765768(__this, L_4, /*hidden argument*/NULL);
-		G_B3_0 = ((int32_t)(L_5));
-		goto IL_0020;
-	}
-
-IL_001f:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0020:
-	{
-		return (bool)G_B3_0;
-	}
-}
-// System.Int32 Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters::GetHashCode()
-extern "C"  int32_t DHPublicKeyParameters_GetHashCode_m3013215703 (DHPublicKeyParameters_t1544976430 * __this, const MethodInfo* method)
-{
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_y_3();
-		NullCheck(L_0);
-		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_0);
-		int32_t L_2 = DHKeyParameters_GetHashCode_m2654624334(__this, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_1^(int32_t)L_2));
-	}
-}
-// System.Void Org.BouncyCastle.Crypto.Parameters.DHValidationParameters::.ctor(System.Byte[],System.Int32)
-extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
-extern Il2CppClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral4136222375;
-extern const uint32_t DHValidationParameters__ctor_m722350359_MetadataUsageId;
-extern "C"  void DHValidationParameters__ctor_m722350359 (DHValidationParameters_t2841123689 * __this, ByteU5BU5D_t3397334013* ___seed0, int32_t ___counter1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DHValidationParameters__ctor_m722350359_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t3397334013* L_0 = ___seed0;
-		if (L_0)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral4136222375, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0017:
-	{
-		ByteU5BU5D_t3397334013* L_2 = ___seed0;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_2);
-		Il2CppObject * L_3 = Array_Clone_m768574314((Il2CppArray *)(Il2CppArray *)L_2, /*hidden argument*/NULL);
-		__this->set_seed_0(((ByteU5BU5D_t3397334013*)Castclass(L_3, ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var)));
-		int32_t L_4 = ___counter1;
-		__this->set_counter_1(L_4);
-		return;
-	}
-}
-// System.Byte[] Org.BouncyCastle.Crypto.Parameters.DHValidationParameters::GetSeed()
-extern Il2CppClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
-extern const uint32_t DHValidationParameters_GetSeed_m3326448534_MetadataUsageId;
-extern "C"  ByteU5BU5D_t3397334013* DHValidationParameters_GetSeed_m3326448534 (DHValidationParameters_t2841123689 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DHValidationParameters_GetSeed_m3326448534_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ByteU5BU5D_t3397334013* L_0 = __this->get_seed_0();
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_0);
-		Il2CppObject * L_1 = Array_Clone_m768574314((Il2CppArray *)(Il2CppArray *)L_0, /*hidden argument*/NULL);
-		return ((ByteU5BU5D_t3397334013*)Castclass(L_1, ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var));
-	}
-}
-// System.Int32 Org.BouncyCastle.Crypto.Parameters.DHValidationParameters::get_Counter()
-extern "C"  int32_t DHValidationParameters_get_Counter_m1209483854 (DHValidationParameters_t2841123689 * __this, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = __this->get_counter_1();
-		return L_0;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DHValidationParameters::Equals(System.Object)
-extern Il2CppClass* DHValidationParameters_t2841123689_il2cpp_TypeInfo_var;
-extern const uint32_t DHValidationParameters_Equals_m1788355512_MetadataUsageId;
-extern "C"  bool DHValidationParameters_Equals_m1788355512 (DHValidationParameters_t2841123689 * __this, Il2CppObject * ___obj0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DHValidationParameters_Equals_m1788355512_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DHValidationParameters_t2841123689 * V_0 = NULL;
-	{
-		Il2CppObject * L_0 = ___obj0;
-		if ((!(((Il2CppObject*)(Il2CppObject *)L_0) == ((Il2CppObject*)(DHValidationParameters_t2841123689 *)__this))))
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		return (bool)1;
-	}
-
-IL_0009:
-	{
-		Il2CppObject * L_1 = ___obj0;
-		V_0 = ((DHValidationParameters_t2841123689 *)IsInstClass(L_1, DHValidationParameters_t2841123689_il2cpp_TypeInfo_var));
-		DHValidationParameters_t2841123689 * L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0018:
-	{
-		DHValidationParameters_t2841123689 * L_3 = V_0;
-		bool L_4 = DHValidationParameters_Equals_m982452894(__this, L_3, /*hidden argument*/NULL);
-		return L_4;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DHValidationParameters::Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters)
-extern "C"  bool DHValidationParameters_Equals_m982452894 (DHValidationParameters_t2841123689 * __this, DHValidationParameters_t2841123689 * ___other0, const MethodInfo* method)
-{
-	int32_t G_B3_0 = 0;
-	{
-		int32_t L_0 = __this->get_counter_1();
-		DHValidationParameters_t2841123689 * L_1 = ___other0;
-		NullCheck(L_1);
-		int32_t L_2 = L_1->get_counter_1();
-		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
-		{
-			goto IL_0024;
-		}
-	}
-	{
-		ByteU5BU5D_t3397334013* L_3 = __this->get_seed_0();
-		DHValidationParameters_t2841123689 * L_4 = ___other0;
-		NullCheck(L_4);
-		ByteU5BU5D_t3397334013* L_5 = L_4->get_seed_0();
-		bool L_6 = Arrays_AreEqual_m525707773(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
-		G_B3_0 = ((int32_t)(L_6));
-		goto IL_0025;
-	}
-
-IL_0024:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0025:
-	{
-		return (bool)G_B3_0;
-	}
-}
-// System.Int32 Org.BouncyCastle.Crypto.Parameters.DHValidationParameters::GetHashCode()
-extern "C"  int32_t DHValidationParameters_GetHashCode_m1460264200 (DHValidationParameters_t2841123689 * __this, const MethodInfo* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->get_counter_1();
-		V_0 = L_0;
-		int32_t L_1 = Int32_GetHashCode_m1381647448((&V_0), /*hidden argument*/NULL);
-		ByteU5BU5D_t3397334013* L_2 = __this->get_seed_0();
-		int32_t L_3 = Arrays_GetHashCode_m1243360207(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_1^(int32_t)L_3));
-	}
-}
-// System.Void Org.BouncyCastle.Crypto.Parameters.DsaKeyGenerationParameters::.ctor(Org.BouncyCastle.Security.SecureRandom,Org.BouncyCastle.Crypto.Parameters.DsaParameters)
-extern "C"  void DsaKeyGenerationParameters__ctor_m2554021434 (DsaKeyGenerationParameters_t4209685231 * __this, SecureRandom_t3117234712 * ___random0, DsaParameters_t2550649858 * ___parameters1, const MethodInfo* method)
-{
-	{
-		SecureRandom_t3117234712 * L_0 = ___random0;
-		DsaParameters_t2550649858 * L_1 = ___parameters1;
-		NullCheck(L_1);
-		BigInteger_t4268922522 * L_2 = DsaParameters_get_P_m2642475524(L_1, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		int32_t L_3 = BigInteger_get_BitLength_m1710353873(L_2, /*hidden argument*/NULL);
-		KeyGenerationParameters__ctor_m1440505598(__this, L_0, ((int32_t)((int32_t)L_3-(int32_t)1)), /*hidden argument*/NULL);
-		DsaParameters_t2550649858 * L_4 = ___parameters1;
-		__this->set_parameters_2(L_4);
-		return;
-	}
-}
-// Org.BouncyCastle.Crypto.Parameters.DsaParameters Org.BouncyCastle.Crypto.Parameters.DsaKeyGenerationParameters::get_Parameters()
-extern "C"  DsaParameters_t2550649858 * DsaKeyGenerationParameters_get_Parameters_m3948112092 (DsaKeyGenerationParameters_t4209685231 * __this, const MethodInfo* method)
-{
-	{
-		DsaParameters_t2550649858 * L_0 = __this->get_parameters_2();
-		return L_0;
-	}
-}
-// System.Void Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters::.ctor(System.Boolean,Org.BouncyCastle.Crypto.Parameters.DsaParameters)
-extern "C"  void DsaKeyParameters__ctor_m3119499983 (DsaKeyParameters_t2298980877 * __this, bool ___isPrivate0, DsaParameters_t2550649858 * ___parameters1, const MethodInfo* method)
-{
-	{
-		bool L_0 = ___isPrivate0;
-		AsymmetricKeyParameter__ctor_m2428687991(__this, L_0, /*hidden argument*/NULL);
-		DsaParameters_t2550649858 * L_1 = ___parameters1;
-		__this->set_parameters_1(L_1);
-		return;
-	}
-}
-// Org.BouncyCastle.Crypto.Parameters.DsaParameters Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters::get_Parameters()
-extern "C"  DsaParameters_t2550649858 * DsaKeyParameters_get_Parameters_m1095290846 (DsaKeyParameters_t2298980877 * __this, const MethodInfo* method)
-{
-	{
-		DsaParameters_t2550649858 * L_0 = __this->get_parameters_1();
-		return L_0;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters::Equals(System.Object)
-extern Il2CppClass* DsaKeyParameters_t2298980877_il2cpp_TypeInfo_var;
-extern const uint32_t DsaKeyParameters_Equals_m2261100232_MetadataUsageId;
-extern "C"  bool DsaKeyParameters_Equals_m2261100232 (DsaKeyParameters_t2298980877 * __this, Il2CppObject * ___obj0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DsaKeyParameters_Equals_m2261100232_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DsaKeyParameters_t2298980877 * V_0 = NULL;
-	{
-		Il2CppObject * L_0 = ___obj0;
-		if ((!(((Il2CppObject*)(Il2CppObject *)L_0) == ((Il2CppObject*)(DsaKeyParameters_t2298980877 *)__this))))
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		return (bool)1;
-	}
-
-IL_0009:
-	{
-		Il2CppObject * L_1 = ___obj0;
-		V_0 = ((DsaKeyParameters_t2298980877 *)IsInstClass(L_1, DsaKeyParameters_t2298980877_il2cpp_TypeInfo_var));
-		DsaKeyParameters_t2298980877 * L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0018:
-	{
-		DsaKeyParameters_t2298980877 * L_3 = V_0;
-		bool L_4 = DsaKeyParameters_Equals_m2164160894(__this, L_3, /*hidden argument*/NULL);
-		return L_4;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters::Equals(Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters)
-extern "C"  bool DsaKeyParameters_Equals_m2164160894 (DsaKeyParameters_t2298980877 * __this, DsaKeyParameters_t2298980877 * ___other0, const MethodInfo* method)
-{
-	int32_t G_B3_0 = 0;
-	{
-		DsaParameters_t2550649858 * L_0 = __this->get_parameters_1();
-		DsaKeyParameters_t2298980877 * L_1 = ___other0;
-		NullCheck(L_1);
-		DsaParameters_t2550649858 * L_2 = L_1->get_parameters_1();
-		bool L_3 = Object_Equals_m969736273(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_001f;
-		}
-	}
-	{
-		DsaKeyParameters_t2298980877 * L_4 = ___other0;
-		bool L_5 = AsymmetricKeyParameter_Equals_m1615924462(__this, L_4, /*hidden argument*/NULL);
-		G_B3_0 = ((int32_t)(L_5));
-		goto IL_0020;
-	}
-
-IL_001f:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0020:
-	{
-		return (bool)G_B3_0;
-	}
-}
-// System.Int32 Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters::GetHashCode()
-extern "C"  int32_t DsaKeyParameters_GetHashCode_m2820742240 (DsaKeyParameters_t2298980877 * __this, const MethodInfo* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = AsymmetricKeyParameter_GetHashCode_m3701051771(__this, /*hidden argument*/NULL);
-		V_0 = L_0;
-		DsaParameters_t2550649858 * L_1 = __this->get_parameters_1();
-		if (!L_1)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		int32_t L_2 = V_0;
-		DsaParameters_t2550649858 * L_3 = __this->get_parameters_1();
-		NullCheck(L_3);
-		int32_t L_4 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_3);
-		V_0 = ((int32_t)((int32_t)L_2^(int32_t)L_4));
-	}
-
-IL_0020:
-	{
-		int32_t L_5 = V_0;
-		return L_5;
-	}
-}
-// System.Void Org.BouncyCastle.Crypto.Parameters.DsaParameters::.ctor(Org.BouncyCastle.Math.BigInteger,Org.BouncyCastle.Math.BigInteger,Org.BouncyCastle.Math.BigInteger)
-extern "C"  void DsaParameters__ctor_m1065557190 (DsaParameters_t2550649858 * __this, BigInteger_t4268922522 * ___p0, BigInteger_t4268922522 * ___q1, BigInteger_t4268922522 * ___g2, const MethodInfo* method)
-{
-	{
-		BigInteger_t4268922522 * L_0 = ___p0;
-		BigInteger_t4268922522 * L_1 = ___q1;
-		BigInteger_t4268922522 * L_2 = ___g2;
-		DsaParameters__ctor_m3208461382(__this, L_0, L_1, L_2, (DsaValidationParameters_t2732896323 *)NULL, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Org.BouncyCastle.Crypto.Parameters.DsaParameters::.ctor(Org.BouncyCastle.Math.BigInteger,Org.BouncyCastle.Math.BigInteger,Org.BouncyCastle.Math.BigInteger,Org.BouncyCastle.Crypto.Parameters.DsaValidationParameters)
-extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral372029390;
-extern Il2CppCodeGenString* _stringLiteral372029389;
-extern Il2CppCodeGenString* _stringLiteral372029371;
-extern const uint32_t DsaParameters__ctor_m3208461382_MetadataUsageId;
-extern "C"  void DsaParameters__ctor_m3208461382 (DsaParameters_t2550649858 * __this, BigInteger_t4268922522 * ___p0, BigInteger_t4268922522 * ___q1, BigInteger_t4268922522 * ___g2, DsaValidationParameters_t2732896323 * ___parameters3, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DsaParameters__ctor_m3208461382_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		BigInteger_t4268922522 * L_0 = ___p0;
-		if (L_0)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral372029390, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0017:
-	{
-		BigInteger_t4268922522 * L_2 = ___q1;
-		if (L_2)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_3 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_3, _stringLiteral372029389, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_0028:
-	{
-		BigInteger_t4268922522 * L_4 = ___g2;
-		if (L_4)
-		{
-			goto IL_0039;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_5 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_5, _stringLiteral372029371, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
-	}
-
-IL_0039:
-	{
-		BigInteger_t4268922522 * L_6 = ___p0;
-		__this->set_p_0(L_6);
-		BigInteger_t4268922522 * L_7 = ___q1;
-		__this->set_q_1(L_7);
-		BigInteger_t4268922522 * L_8 = ___g2;
-		__this->set_g_2(L_8);
-		DsaValidationParameters_t2732896323 * L_9 = ___parameters3;
-		__this->set_validation_3(L_9);
-		return;
-	}
-}
-// Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Crypto.Parameters.DsaParameters::get_P()
-extern "C"  BigInteger_t4268922522 * DsaParameters_get_P_m2642475524 (DsaParameters_t2550649858 * __this, const MethodInfo* method)
-{
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_p_0();
-		return L_0;
-	}
-}
-// Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Crypto.Parameters.DsaParameters::get_Q()
-extern "C"  BigInteger_t4268922522 * DsaParameters_get_Q_m2783638025 (DsaParameters_t2550649858 * __this, const MethodInfo* method)
-{
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_q_1();
-		return L_0;
-	}
-}
-// Org.BouncyCastle.Math.BigInteger Org.BouncyCastle.Crypto.Parameters.DsaParameters::get_G()
-extern "C"  BigInteger_t4268922522 * DsaParameters_get_G_m1594245751 (DsaParameters_t2550649858 * __this, const MethodInfo* method)
-{
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_g_2();
-		return L_0;
-	}
-}
-// Org.BouncyCastle.Crypto.Parameters.DsaValidationParameters Org.BouncyCastle.Crypto.Parameters.DsaParameters::get_ValidationParameters()
-extern "C"  DsaValidationParameters_t2732896323 * DsaParameters_get_ValidationParameters_m664700207 (DsaParameters_t2550649858 * __this, const MethodInfo* method)
-{
-	{
-		DsaValidationParameters_t2732896323 * L_0 = __this->get_validation_3();
-		return L_0;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DsaParameters::Equals(System.Object)
-extern Il2CppClass* DsaParameters_t2550649858_il2cpp_TypeInfo_var;
-extern const uint32_t DsaParameters_Equals_m28211505_MetadataUsageId;
-extern "C"  bool DsaParameters_Equals_m28211505 (DsaParameters_t2550649858 * __this, Il2CppObject * ___obj0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DsaParameters_Equals_m28211505_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DsaParameters_t2550649858 * V_0 = NULL;
-	{
-		Il2CppObject * L_0 = ___obj0;
-		if ((!(((Il2CppObject*)(Il2CppObject *)L_0) == ((Il2CppObject*)(DsaParameters_t2550649858 *)__this))))
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		return (bool)1;
-	}
-
-IL_0009:
-	{
-		Il2CppObject * L_1 = ___obj0;
-		V_0 = ((DsaParameters_t2550649858 *)IsInstClass(L_1, DsaParameters_t2550649858_il2cpp_TypeInfo_var));
-		DsaParameters_t2550649858 * L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0018:
-	{
-		DsaParameters_t2550649858 * L_3 = V_0;
-		bool L_4 = DsaParameters_Equals_m4117026494(__this, L_3, /*hidden argument*/NULL);
-		return L_4;
-	}
-}
-// System.Boolean Org.BouncyCastle.Crypto.Parameters.DsaParameters::Equals(Org.BouncyCastle.Crypto.Parameters.DsaParameters)
-extern "C"  bool DsaParameters_Equals_m4117026494 (DsaParameters_t2550649858 * __this, DsaParameters_t2550649858 * ___other0, const MethodInfo* method)
-{
-	int32_t G_B4_0 = 0;
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_p_0();
-		DsaParameters_t2550649858 * L_1 = ___other0;
-		NullCheck(L_1);
-		BigInteger_t4268922522 * L_2 = L_1->get_p_0();
-		NullCheck(L_0);
-		bool L_3 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_0, L_2);
-		if (!L_3)
-		{
-			goto IL_003f;
-		}
-	}
-	{
-		BigInteger_t4268922522 * L_4 = __this->get_q_1();
-		DsaParameters_t2550649858 * L_5 = ___other0;
-		NullCheck(L_5);
-		BigInteger_t4268922522 * L_6 = L_5->get_q_1();
-		NullCheck(L_4);
-		bool L_7 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_4, L_6);
-		if (!L_7)
-		{
-			goto IL_003f;
-		}
-	}
-	{
-		BigInteger_t4268922522 * L_8 = __this->get_g_2();
-		DsaParameters_t2550649858 * L_9 = ___other0;
-		NullCheck(L_9);
-		BigInteger_t4268922522 * L_10 = L_9->get_g_2();
-		NullCheck(L_8);
-		bool L_11 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_8, L_10);
-		G_B4_0 = ((int32_t)(L_11));
-		goto IL_0040;
-	}
-
-IL_003f:
-	{
-		G_B4_0 = 0;
-	}
-
-IL_0040:
-	{
-		return (bool)G_B4_0;
-	}
-}
-// System.Int32 Org.BouncyCastle.Crypto.Parameters.DsaParameters::GetHashCode()
-extern "C"  int32_t DsaParameters_GetHashCode_m2592069683 (DsaParameters_t2550649858 * __this, const MethodInfo* method)
-{
-	{
-		BigInteger_t4268922522 * L_0 = __this->get_p_0();
-		NullCheck(L_0);
-		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_0);
-		BigInteger_t4268922522 * L_2 = __this->get_q_1();
-		NullCheck(L_2);
-		int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_2);
-		BigInteger_t4268922522 * L_4 = __this->get_g_2();
-		NullCheck(L_4);
-		int32_t L_5 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_4);
-		return ((int32_t)((int32_t)((int32_t)((int32_t)L_1^(int32_t)L_3))^(int32_t)L_5));
 	}
 }
 #ifdef __clang__
